@@ -1,0 +1,29 @@
+TDStringLeafNode{#name:'doit_save_metacello',#contents:'| scheme knownPackageNames allPackageNames repoUrl packageNames repo |
+  scheme := \'topaz\'.
+  scheme := \'cypress\'.
+  packageNames := {\'Metacello-Core\'.
+  \'Metacello-GsCypress-Platform\'.
+  \'Metacello-MC\'.
+  \'Metacello-Platform.gscypress\'}.
+  allPackageNames := knownPackageNames := #(\'Metacello-Base\' \'Metacello-GsCypress-Base\' \'Metacello-Core\' \'Metacello-Platform.gscypress\' \'Metacello-GsCypress-Platform\' \'Metacello-MC\' \'Metacello-Cypress\' \'Metacello-GsCypress-MC\' \'Metacello-TestsCore\' \'Metacello-TestsMCCore\' \'Metacello-TestsBaselineGsCypress\').
+  repoUrl := scheme = \'topaz\'
+    ifTrue: [ \'topaz:$GS_HOME/server/stones/metacello/git/topaz/\' ]
+    ifFalse: [ \'cypressft:$GS_HOME/server/stones/metacello/git/metacello-work/repository/\' ].
+  packageNames
+    do: [ :packageName | 
+      (allPackageNames includes: packageName)
+        ifFalse: [ self error: \'Unknown package name: \' , packageName ] ].
+  packageNames isEmpty
+    ifTrue: [ packageNames := knownPackageNames ].
+  repo := CypressAbstractRepository
+    onUrl: (CypressUrl absoluteFromText: repoUrl)
+    alias: \'\'.
+  packageNames
+    do: [ :packageName | 
+      Transcript
+        cr;
+        show: \'Writing \' , packageName printString.
+      repo
+        writePackageStructure:
+          (CypressPackageStructure
+            fromPackage: (CypressPackageDefinition named: packageName)) ]',#creationTime:DateAndTime['2017-10-10T11:46:31.22240400314331-07:00'],#modificationTime:@2}

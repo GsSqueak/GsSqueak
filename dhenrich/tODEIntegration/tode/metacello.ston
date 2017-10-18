@@ -1,0 +1,84 @@
+TDScriptLeafNode{#name:'metacello',#contents:'[ :topez :objIn :tokens :command :commandNode | 
+  | opts args |
+  \"for help: ./metacello -h\"
+  command getOptsMixedLongShort: {#(\'help\' $h #\'none\').
+      #(\'cypress\' nil #\'none\').
+      #(\'ston\' nil #\'none\').
+      #(\'smalltalkci\' nil #\'none\').
+      #(\'metacello\' nil #\'none\').
+      #(\'tests\' nil #\'none\').
+      #(\'remoteTode\' nil #\'none\')} optionsAndArguments: [ :options :operands | opts := options.
+      args := operands ].
+  opts
+    at: \'help\'
+    ifAbsent: [ | session projectName repositoryDescription result tests |
+      session := topez evaluateCommandString: \'/home/remote --session\'.
+      session ifNil: [ session := topez
+            evaluateCommandString:
+              \'/home/remote  --username=SystemUser --password=swordfish --login=\'
+                , topez serverStoneName ].
+      tests := opts includesKey: \'tests\'.
+      opts at: \'ston\' ifPresent: [ :ignored | projectName := \'Ston\'.
+          repositoryDescription := \'cypressfiletree:/export/foos1/users/dhenrich/dev/_home/server/stones/m_340/git/ston/repository/\' ].
+      opts
+        at: \'smalltalkci\'
+        ifPresent: [ :ignored | projectName := \'SmalltalkCI\'.
+          repositoryDescription := \'cypressfiletree:/export/foos1/users/dhenrich/dev/_home/server/stones/m_340/git/smalltalkCI/repository/\' ].
+      opts at: \'metacello\' ifPresent: [ :ignored | projectName := \'Metacello\'.
+          repositoryDescription := \'cypressfiletree:/export/foos1/users/dhenrich/dev/_home/server/stones/metacello/git/metacello-work/repository/\' ].
+      opts at: \'cypress\' ifPresent: [ :ignored | projectName := \'Cypress\'.
+          repositoryDescription := \'cypress:/export/foos1/users/dhenrich/dev/_home/shared/repos/CypressReferenceImplementation/cypress/\' ].
+      opts at: \'remoteTode\' ifPresent: [ :ignored | projectName := \'Tode\'.
+          repositoryDescription := \'cypressfiletree:/export/foos1/users/dhenrich/dev/_home/shared/repos/tode/repository/\' ].
+      result := session
+        executeBlock: [ :projName :repoDescription :includeTests | | stream directive loads |
+          stream := WriteStream on: String new.
+          loads := includeTests
+            ifTrue: [ #(\'default\' \'Tests\') ]
+            ifFalse: [ #(\'default\') ].
+          System abort.
+          directive := Metacello new
+            baseline: projName;
+            repository: repoDescription;
+            get;
+            load: loads.
+          System commit.
+          stream
+            nextPutAll: directive printString;
+            cr.
+          stream contents ]
+        withArguments: {projectName.
+          repositoryDescription.
+          tests}.
+      Transcript
+        cr;
+        show: result.
+      result ]
+    ifPresent: [ :ignored | 
+      TDManPage
+        viewManPage:
+          \'NAME
+  metacello - metacello script utility template
+SYNOPSIS
+  metacello [-h|--help]
+DESCRIPTION
+  Use Metacello to install the given project.
+
+EXAMPLES
+  ./metacello -h
+
+  ./metacello --remoteTode
+
+  ./metacello --cypress
+  ./metacello --tests --cypress
+
+  ./metacello --metacello
+  ./metacello --tests --metacello
+
+  ./metacello --ston
+  ./metacello --tests --ston
+
+  ./metacello --smalltalkci
+  ./metacello --tests --smalltalkci
+\'
+        topez: topez ] ]',#creationTime:DateAndTime['2016-09-16T06:34:09.561981916427612-07:00'],#modificationTime:DateAndTime['2016-10-14T15:07:15.55535793304443-07:00']}

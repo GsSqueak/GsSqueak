@@ -1,0 +1,22 @@
+set -e 
+. defStone.env
+vers="3.4.0_e"
+rm -f backups/*.dbf snapshots/*.dbf
+
+directoryPath="$GS_HOME/shared/pharo"
+${GS_HOME}/bin/private/installGci -f -d $directoryPath -t pharo $vers
+directoryPath="$GS_HOME/dev/clients/tode"
+${GS_HOME}/bin/private/installGci -f -d $directoryPath -t pharo $vers
+
+newExtent $GEMSTONE_NAME
+todeLoad $GEMSTONE_NAME
+$GS_HOME/bin/devKitCommandLine todeIt $GEMSTONE_NAME << EOF
+/home/gs/dev --prep
+cd /home/gs/remote
+./install --force --remoteTode
+./install --force --cypress
+./remote --logout
+./install --force --metacello
+./metacello --cypress
+project load GsSqueak
+EOF

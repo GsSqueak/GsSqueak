@@ -1,0 +1,121 @@
+TDScriptLeafNode{#name:'remote',#contents:'[ :topez :objIn :tokens :command :commandNode | 
+  | opts args |
+  \"for help: ./remote -h\"
+  command
+    getOptsMixedLongShort:
+      {#(\'help\' $h #\'none\').
+      #(\'break\' nil #\'required\').
+      #(\'eval\' nil #\'required\').
+      #(\'json\' nil #\'required\').
+      #(\'commit\' nil #\'none\').
+      #(\'reset\' nil #\'none\').
+      #(\'abort\' nil #\'none\').
+      #(\'username\' nil #\'required\').
+      #(\'password\' nil #\'required\').
+      #(\'login\' nil #\'required\').
+      #(\'logout\' nil #\'none\').
+      #(\'session\' nil #\'none\')}
+    optionsAndArguments: [ :options :operands | 
+      opts := options.
+      args := operands ].
+  opts
+    at: \'help\'
+    ifAbsent: [ 
+      | username password session sessionKey returnVal |
+      sessionKey := #\'MY_REMOTE_SESSION\'.
+      opts at: \'username\' ifPresent: [ :arg | username := arg ].
+      opts at: \'password\' ifPresent: [ :arg | password := arg ].
+      opts
+        at: \'login\'
+        ifPresent: [ :stonename | 
+          | sessionDescription |
+          (FileDirectory on: \'$GS_HOME/sys/local/sessions/\')
+            readOnlyFileNamed: stonename
+            do: [ :fs | sessionDescription := (STON fromString: fs contents) asTDSessionDescription ].
+          session := TDGsExternalSession
+            gemNRS: sessionDescription gemNRS
+            stoneNRS: sessionDescription stoneNRS
+            username: username
+            password: password.
+          session topez: topez.
+          session login.
+          SessionTemps current at: sessionKey ifAbsentPut: [ session ] ].
+      SessionTemps current
+        at: sessionKey
+        ifPresent: [ :sess | returnVal := session := sess ].
+      opts at: \'reset\' ifPresent: [ :ignored | session resetHandlingError ].
+      opts
+        at: \'break\'
+        ifPresent: [ :breakArg | 
+          | tool breakArgs methSpec |
+          breakArgs := breakArg findTokens: \'@\'.
+          tool := topez toolInstanceFor: \'break\'.
+          methSpec := tool parsMethodSpec: (breakArgs at: 1).
+          session
+            executeBlock: [ :className :selector :isMeta :stepPoint | 
+              | meth theClass theBehavior |
+              theBehavior := theClass := GsSession currentSession symbolList
+                objectNamed: className.
+              isMeta
+                ifTrue: [ theBehavior := theClass class ].
+              meth := theBehavior compiledMethodAt: selector asSymbol.
+              meth setBreakAtStepPoint: stepPoint.
+              true ]
+            withArguments:
+              {(methSpec at: 1).
+              (methSpec at: 2).
+              (methSpec at: 3).
+              ((breakArgs at: 2) asNumber)} ].
+      opts
+        at: \'eval\'
+        ifPresent: [ :blockExpression | 
+          
+          returnVal := session executeBlock: blockExpression evaluate.
+           ].
+      opts
+        at: \'json\'
+        ifPresent: [ :blockExpression | 
+          | jsonString |
+          jsonString := session executeBlock: blockExpression evaluate.
+          returnVal := STON fromString: jsonString ].
+      opts
+        at: \'logout\'
+        ifPresent: [ :ignored | 
+          session logout.
+          SessionTemps current removeKey: sessionKey.
+          returnVal := session := nil ].
+      opts at: \'session\' ifPresent: [ :ignored | returnVal := session ].
+      opts
+        at: \'abort\'
+        ifPresent: [ :ignored | returnVal := session executeBlock: [ System abort ] ].
+      opts
+        at: \'commit\'
+        ifPresent: [ :ignored | returnVal := session executeBlock: [ System commit ] ].
+      returnVal ]
+    ifPresent: [ :ignored | 
+      TDManPage
+        viewManPage:
+          \'NAME
+  remote - remote script utility template
+SYNOPSIS
+  remote [-h|--help]
+DESCRIPTION
+EXAMPLES
+  ./remote -h
+
+  ./remote --username=SystemUser --password=swordfish --login=cypress
+  ./remote --logout
+
+  ./remote --eval=`[System commit]`
+  ./remote --json=`[(GsSession currentSession symbolList collect: [:each | each name]) asJson]`
+  ./remote --commit
+
+  ./remote --reset
+
+  ./remote --eval=`[System abort. ((System myUserProfile symbolList objectNamed: #MetacelloGlobals) at: #MetacelloCypressBaselineResource) reset. System commit]`
+
+  ./remote --session; eval `self executeBlock: [3 + 4]`
+
+  ./remote --break=`Dictionary class>>new @5`
+\'
+        topez: topez ] ]',#creationTime:DateAndTime['2016-09-16T06:34:18.0798180103302-07:00'],#modificationTime:DateAndTime['2016-09-20T15:34:52.6537880897522-07:00']}
