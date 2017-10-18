@@ -1,0 +1,54 @@
+TDScriptLeafNode{#name:'prep',#contents:'[ :topez :objIn :tokens :command :commandNode | 
+  | opts args |
+  \"for help: ./prep -h\"
+  command
+    getOptsMixedLongShort: {#(\'help\' $h #\'none\')}
+    optionsAndArguments: [ :options :operands | 
+      opts := options.
+      args := operands ].
+  opts
+    at: \'help\'
+    ifAbsent: [ 
+      | expression  sessionDescription gemNRS systemUser |
+\"disable the set of GsPackagePolicy restrictedClasses\"
+      expression := \'| cls index set |
+cls := GsPackagePolicy.
+index := cls class allInstVarNames indexOfIdentical: #\'\'restrictedClasses\'\'.
+set := cls instVarAt: index.
+set removeAll: set.\'
+        ,
+          \'
+(AllUsers userWithId: \'\'DataCurator\'\') addPrivilege: #\'\'CompilePrimitives\'\'.
+System commit\'.
+      sessionDescription := topez sessionDescription.
+      gemNRS := (Smalltalk at: #\'GsNetworkResourceString\') new
+        protocol: \'tcp\';
+        node: sessionDescription stoneHost;
+        netldi: sessionDescription netldi;
+        resource: \'task\';
+        body: \'gemnetobject\';
+        yourself.
+      systemUser := (Smalltalk at: #\'GsExternalSession\') new
+        stoneNRS:
+            (Smalltalk at: #\'GsNetworkResourceString\') defaultStoneNRSFromCurrent;
+        gemNRS: gemNRS;
+        username: \'SystemUser\';
+        password: \'swordfish\';
+        yourself.
+      [ 
+      systemUser login.
+      systemUser executeString: expression ]
+        ensure: [ systemUser ifNotNil: [ systemUser logout ] ] ]
+    ifPresent: [ :ignored | 
+      TDManPage
+        viewManPage:
+          \'NAME
+  prep - prep script utility template
+SYNOPSIS
+  prep [-h|--help]
+DESCRIPTION
+EXAMPLES
+  ./prep --help
+  ./prep -h
+\'
+        topez: topez ] ]',#creationTime:DateAndTime['2017-10-18T11:39:34.55167293548584-07:00'],#modificationTime:DateAndTime['2017-10-18T11:46:09.763370037078857-07:00']}

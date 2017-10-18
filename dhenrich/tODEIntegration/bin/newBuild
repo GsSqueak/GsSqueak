@@ -6,11 +6,9 @@ todeLoad $GEMSTONE_NAME
 
 export upgradeDir=$GEMSTONE/upgrade
 
-$GS_HOME/bin/startTopaz $stoneName -l << EOF
+$GS_HOME/bin/startTopaz $GEMSTONE_NAME -l << EOF
   set u SystemUser p swordfish
   login
-  input $GS_HOME/shared/topaz/uuid/bootstrapUUIDSupport.topaz
-  commit
   input $upgradeDir/bootstrapMetacelloSupport.topaz
   commit
   run
