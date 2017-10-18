@@ -1,22 +1,62 @@
 set -e 
 . defStone.env
-vers="3.4.0_e"
-rm -f backups/*.dbf snapshots/*.dbf
-
-directoryPath="$GS_HOME/shared/pharo"
-${GS_HOME}/bin/private/installGci -f -d $directoryPath -t pharo $vers
-directoryPath="$GS_HOME/dev/clients/tode"
-${GS_HOME}/bin/private/installGci -f -d $directoryPath -t pharo $vers
 
 newExtent $GEMSTONE_NAME
 todeLoad $GEMSTONE_NAME
+
+export upgradeDir=$GEMSTONE/upgrade
+
+$GS_HOME/bin/startTopaz $stoneName -l << EOF
+  set u SystemUser p swordfish
+  login
+  input $GS_HOME/shared/topaz/uuid/bootstrapUUIDSupport.topaz
+  commit
+  input $upgradeDir/bootstrapMetacelloSupport.topaz
+  commit
+  run
+  | smalltalkDict |
+  smalltalkDict := SymbolDictionary new.
+  smalltalkDict name: #SmalltalkDict.
+  System myUserProfile symbolList insertObject: smalltalkDict at: 1. 
+  GsCurrentSession currentSession symbolList insertObject: smalltalkDict at: 1.
+%
+  doit
+  (Object
+	subclass: 'Smalltalk'
+	instVarNames: #(  )
+	classVars: #(  )
+	classInstVars: #(  )
+	poolDictionaries: #()
+	inDictionary: SmalltalkDict
+	options: #())
+		category: 'Kernel Smalltalk Compat';
+		comment: '';
+		immediateInvariant.
+%
+  commit
+category: 'bootstrapGsDevKit'
+classmethod: Smalltalk
+  at: aGlobalName ifPresent: aBlock
+  | glob |
+  aGlobalName isNil
+    ifTrue: [ ^ nil ].
+  glob := GsSession currentSession symbolList objectNamed: aGlobalName.
+  ^ glob ~~ nil
+    ifTrue: [ aBlock value: glob ]
+    ifFalse: [ glob ]
+%
+commit
+  run
+  Metacello new
+    baseline: 'Tode';
+    repository: 'cypressfiletree:$GS_HOME/shared/repos/tode/repository/';
+    load: 'Tode-Remote-Server'.
+%
+  commit
+  exit
+EOF
+
 $GS_HOME/bin/devKitCommandLine todeIt $GEMSTONE_NAME << EOF
 /home/gs/dev --prep
-cd /home/gs/remote
-./install --force --remoteTode
-./install --force --cypress
-./remote --logout
-./install --force --metacello
-./metacello --cypress
 project load GsSqueak
 EOF

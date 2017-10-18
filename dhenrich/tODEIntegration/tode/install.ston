@@ -125,8 +125,9 @@ TDScriptLeafNode{#name:'install',#contents:'[ :topez :objIn :tokens :command :co
           packageManager := CypressPackageManager2 new.
           repo := CypressAbstractRepository
             onUrl:
-              \'cypressfiletree:/export/foos1/users/dhenrich/dev/_home/shared/repos/tode/repository/\'
-                asUrl
+              (CypressUrl
+        absoluteFromText:
+          \'cypressfiletree:/export/foos1/users/dhenrich/dev/_home/shared/repos/tode/repository/\')
             alias: \'Remote Tode\'.
           forceBool
             ifTrue: [ 
@@ -183,4 +184,4 @@ EXAMPLES
   ./install --list; edit
   ./install --transientList; edit
 \'
-        topez: topez ] ]',#creationTime:DateAndTime['2016-09-16T06:34:09.561981916427612-07:00'],#modificationTime:DateAndTime['2017-10-17T16:39:39.15177392959595-07:00']}
+        topez: topez ] ]',#creationTime:DateAndTime['2016-09-16T06:34:09.561981916427612-07:00'],#modificationTime:DateAndTime['2017-10-18T10:15:19.83024096488953-07:00']}
