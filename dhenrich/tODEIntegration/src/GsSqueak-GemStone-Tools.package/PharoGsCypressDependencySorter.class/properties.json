@@ -1,0 +1,14 @@
+{
+	"category" : "GsSqueak-GemStone-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PharoGsCypressDependencySorter",
+	"pools" : [
+		 ],
+	"super" : "CypressDependencySorter",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "GsSqueak-GemStone-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"defaultEnvironmentId",
+		"lookupSymbolList",
+		"compilationSymbolList" ],
+	"name" : "PharoGsCypressLoader",
+	"pools" : [
+		 ],
+	"super" : "CypressLoader",
+	"type" : "normal" }

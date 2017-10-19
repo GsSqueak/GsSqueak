@@ -1,0 +1,15 @@
+{
+	"category" : "GsSqueak-GemStone-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pharoGsUser",
+		"userGlobals" ],
+	"name" : "PharoGsUserBootstrapLoader",
+	"pools" : [
+		 ],
+	"super" : "PharoGsProtoObjectBootstrapLoader",
+	"type" : "normal" }

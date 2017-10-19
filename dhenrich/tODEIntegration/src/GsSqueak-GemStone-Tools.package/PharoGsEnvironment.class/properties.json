@@ -1,0 +1,14 @@
+{
+	"category" : "GsSqueak-GemStone-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PharoGsEnvironment",
+	"pools" : [
+		 ],
+	"super" : "TDCustomEnvironment",
+	"type" : "normal" }

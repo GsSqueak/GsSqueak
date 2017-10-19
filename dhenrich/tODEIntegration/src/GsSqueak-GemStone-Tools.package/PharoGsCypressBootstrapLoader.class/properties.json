@@ -1,0 +1,14 @@
+{
+	"category" : "GsSqueak-GemStone-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"PharoSymbolList" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PharoGsCypressBootstrapLoader",
+	"pools" : [
+		 ],
+	"super" : "PharoGsAbstractBootstrapper",
+	"type" : "normal" }
