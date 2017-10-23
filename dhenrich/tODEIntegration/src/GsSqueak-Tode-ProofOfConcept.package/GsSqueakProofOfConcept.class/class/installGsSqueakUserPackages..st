@@ -18,4 +18,5 @@ installGsSqueakUserPackages: packageNames
       packageManager
         addResolvedReference:
           (CypressResolvedReference name: packageName repository: repo) ].
-  packageManager loadResolvedReferences
+  packageManager loadResolvedReferences.
+  System commit
