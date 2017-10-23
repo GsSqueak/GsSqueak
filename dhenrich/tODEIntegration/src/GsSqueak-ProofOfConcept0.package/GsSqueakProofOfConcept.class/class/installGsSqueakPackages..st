@@ -1,6 +1,6 @@
 private
 installGsSqueakPackages: packageNames
-  "expect to be installing methods and classes as GsSqueak user"
+  "expect to be installing methods and classes as SystemUser on into GsSqueak symbolList and classes"
 
   "abort at beginning and commit at end"
 

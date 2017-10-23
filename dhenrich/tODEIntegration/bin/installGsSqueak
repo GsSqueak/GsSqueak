@@ -146,32 +146,26 @@ userProfile symbolList: symbolList.
 %
   commit
 
-#  login is as GsSqueak
-
-  set u GsSqueak p swordfish
-  login
-
 #--------------------
-#   PHASE 2 - install ProtoObject and Object as GsSqueak
+#   PHASE 2 - install ProtoObject and Object in GsSqueak symbolList
 #--------------------
 
   run
-GsSqueakProofConcept installPhase2
-  %
+((AllUsers userWithId: 'SystemUser' ifAbsent: [ nil ])
+   symbolList objectNamed: #GsSqueakProofConcept)
+     installPhase2
+%
   commit
-
-#  login is as SystemUser
-
-  set u SystemUser p swordfish
-  login
 
 #--------------------
 #   PHASE 3 - install SmallInteger extension methods
 #--------------------
 
   run
-GsSqueakProofConcept installPhase3
-  %
+((AllUsers userWithId: 'SystemUser' ifAbsent: [ nil ])
+   symbolList objectNamed: #GsSqueakProofConcept)
+     installPhase3
+%
   commit
 
 
