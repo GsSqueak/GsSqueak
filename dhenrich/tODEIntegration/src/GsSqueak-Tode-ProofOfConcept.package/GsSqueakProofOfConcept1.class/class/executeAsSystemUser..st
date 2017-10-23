@@ -1,4 +1,4 @@
-GsSqueak installation
+private
 executeAsSystemUser: expression
   | gemNRS sessionDescription systemUser topez |
   topez := TDTopezServer instanceMap at: 1.

@@ -1,5 +1,5 @@
-GsSqueak installation
-installGsSqueakUserPackage: packageNames
+private
+installGsSqueakUserPackages: packageNames
   | packageManager repo gsSqueakUser |
   packageManager := CypressEnvironmentPackageManager new.
   repo := CypressAbstractRepository

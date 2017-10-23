@@ -1,0 +1,14 @@
+{
+	"category" : "GsSqueak-Tode-ProofOfConcept",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GsSqueakProofOfConcept1",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

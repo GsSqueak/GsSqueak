@@ -12,17 +12,13 @@ baseline: spec
     do: [ 
       spec
         package: 'Cypress-Environmental-Tools';
-        package: 'GsSqueak-Tode-Tools'
-          with: [ spec requires: #('Cypress-Environmental-Tools') ];
-        package: 'GsSqueak-Tode-ProofOfConecept1'
+        package: 'GsSqueak-Tode-ProofOfConcept'
           with: [ 
               spec
-                requires: #('GsSqueak-Tode-Tools');
-                postLoadDoIt: #'installGsSqueakUserPackages' ];
-        package: 'GsSqueak-GemStone-Tools'
-          with: [ spec requires: #('Cypress-Environmental-Tools') ];
+                requires: #('Cypress-Environmental-Tools');
+                postLoadDoIt: #'installGsSqueakProofOfConcept1' ];
         yourself.
       spec
         group: 'default' with: #('Tools');
-        group: 'Tools' with: #('GsSqueak-Tode-Tools');
+        group: 'Tools' with: #('GsSqueak-Tode-ProofOfConcept');
         yourself ]
