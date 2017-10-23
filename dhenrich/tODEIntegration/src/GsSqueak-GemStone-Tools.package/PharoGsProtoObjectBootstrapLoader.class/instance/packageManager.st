@@ -1,3 +1,0 @@
-accessing
-packageManager
-  ^ CypressEnvironmentPackageManager new

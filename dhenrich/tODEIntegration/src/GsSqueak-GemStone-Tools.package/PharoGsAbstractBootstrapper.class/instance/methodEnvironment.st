@@ -1,3 +1,0 @@
-accessing
-methodEnvironment
-  ^ 2

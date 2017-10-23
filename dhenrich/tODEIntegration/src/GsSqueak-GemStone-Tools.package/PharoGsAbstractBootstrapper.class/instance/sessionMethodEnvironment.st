@@ -1,3 +1,0 @@
-accessing
-sessionMethodEnvironment
-  ^ 0
