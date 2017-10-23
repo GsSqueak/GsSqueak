@@ -24,7 +24,7 @@ System commit\'.
       gemNRS := (Smalltalk at: #\'GsNetworkResourceString\') new
         protocol: \'tcp\';
         node: sessionDescription stoneHost;
-        netldi: sessionDescription netldi;
+        netldi: sessionDescription netLDI;
         resource: \'task\';
         body: \'gemnetobject\';
         yourself.
