@@ -1,8 +1,9 @@
 set -e 
 . defStone.env
 
-newExtent $GEMSTONE_NAME
-todeLoad $GEMSTONE_NAME
+# Uncomment following two lines to bootstrap from scratch
+# newExtent $GEMSTONE_NAME
+# todeLoad $GEMSTONE_NAME
 
 export upgradeDir=$GEMSTONE/upgrade
 
@@ -95,13 +96,17 @@ EOF
 cd $GS_HOME/shared/repos/tode
 git checkout dev
 git pull origin dev
-cd $GS_HOME/shared/repos
-git clone git@github.com:HPI-SWA-Lab/BP2017RH1.git
-cd BP2017RH1
-git checkout issue_3
-cd $GS_HOME
-cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/projects/GsSqueak.ston $GS_HOME/sys/local/server/projects
+if [ ! -d "$GS_HOME/shared/repos/BP2017RH1" ] ; then 
+  cd $GS_HOME/shared/repos
+  git clone git@github.com:HPI-SWA-Lab/BP2017RH1.git
+  cd BP2017RH1
+  git checkout issue_3
+fi
+if [ ! -e "$GS_HOME/sys/local/server/projects/GsSqueak.ston" ] ; then 
+  cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/projects/GsSqueak.ston $GS_HOME/sys/local/server/projects
+fi
 
 $GS_HOME/bin/devKitCommandLine todeIt $GEMSTONE_NAME << EOF
-project load --install GsSqueak
+project load --install --loads=`#('ProofOfConcept')` GsSqueak
+bu backup tools.dbf
 EOF
