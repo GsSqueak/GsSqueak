@@ -1,13 +1,13 @@
 {
-	"category" : "GsSqueak-GemStone-Tools",
+	"category" : "Cypress-Environmental-Tools",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "dkh 10/23/2017 10:08",
 	"instvars" : [
 		 ],
-	"name" : "PharoGsCypressDependencySorter",
+	"name" : "CypressEnvironmentDependencySorter",
 	"pools" : [
 		 ],
 	"super" : "CypressDependencySorter",

@@ -1,7 +1,7 @@
 loading
 analyzeAdditions
   | sorter |
-  sorter := PharoGsCypressDependencySorter new
+  sorter := CypressEnvironmentDependencySorter new
     addAll: self additions;
     addExternalProvisions: self provisions;
     yourself.

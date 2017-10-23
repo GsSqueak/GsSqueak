@@ -1,7 +1,7 @@
 loading
 analyzeRemovals
   | sorter |
-  sorter := PharoGsCypressDependencySorter new
+  sorter := CypressEnvironmentDependencySorter new
     addAll: self removals;
     yourself.
   removals := sorter orderedItems reverse

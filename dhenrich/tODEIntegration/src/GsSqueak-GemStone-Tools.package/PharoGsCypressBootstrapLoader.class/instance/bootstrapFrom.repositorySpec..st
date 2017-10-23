@@ -1,7 +1,7 @@
 package bootstrap
 bootstrapFrom: packageName repositorySpec: repositorySpec
   | packageManager repo |
-  packageManager := PharoGsCypressPackageManager3 new.
+  packageManager := CypressEnvironmentPackageManager new.
   repo := CypressAbstractRepository
     onUrl: (CypressUrl absoluteFromText: repositorySpec)
     alias: ''.

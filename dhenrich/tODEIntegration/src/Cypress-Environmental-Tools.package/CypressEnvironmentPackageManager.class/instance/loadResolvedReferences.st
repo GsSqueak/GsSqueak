@@ -1,14 +1,15 @@
 loading
 loadResolvedReferences
   | cypressLoader |
-  cypressLoader := PharoGsCypressLoader new.
+  cypressLoader := CypressEnvironmentLoader new.
   cypressLoader
     defaultSymbolDictionaryName: self defaultSymbolDictionaryName;
     compilationSymbolList: self compilationSymbolList;
     lookupSymbolList: self lookupSymbolList;
     defaultEnvironmentId: self defaultEnvironmentId.
   self resolvedPackageReferences
-    do: [ :resolvedReference | | package repository snapshot |
+    do: [ :resolvedReference | 
+      | package repository snapshot |
       package := resolvedReference packageDefinition.
       repository := resolvedReference repository.
       snapshot := (repository

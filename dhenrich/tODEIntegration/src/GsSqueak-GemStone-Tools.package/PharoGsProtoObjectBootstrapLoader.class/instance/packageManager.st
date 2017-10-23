@@ -1,3 +1,3 @@
 accessing
 packageManager
-  ^ PharoGsCypressPackageManager3 new
+  ^ CypressEnvironmentPackageManager new
