@@ -85,15 +85,10 @@ commit
     load: 'Tode-Remote-Server'.
 %
   commit
+
 #--------------------
 #   Create GsSqueak user and symbol lists
 #--------------------
-$GS_HOME/bin/startTopaz $GEMSTONE_NAME -l << EOF
-
-#  login is as SystemUser
-
-  set u SystemUser p swordfish
-  login
   run
 | gsSqueak |
 gsSqueak := AllUsers userWithId: 'GsSqueak' ifAbsent: [ nil ].

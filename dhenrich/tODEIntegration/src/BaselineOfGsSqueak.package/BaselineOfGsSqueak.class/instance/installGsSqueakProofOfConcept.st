@@ -1,3 +1,0 @@
-GsSqueak installation
-installGsSqueakProofOfConcept
-  GsSqueakProofOfConcept install
