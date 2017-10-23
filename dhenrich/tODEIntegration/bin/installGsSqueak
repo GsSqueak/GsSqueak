@@ -142,7 +142,7 @@ userProfile symbolList: symbolList.
   Metacello new
     baseline: 'GsSqueak';
     repository: 'cypressfiletree:$GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/src/';
-    load: 'Cypress-Environmental-Tools'.
+    load: 'GsSqueak-ProofOfConcept0'.
 %
   commit
 
@@ -151,9 +151,7 @@ userProfile symbolList: symbolList.
 #--------------------
 
   run
-((AllUsers userWithId: 'SystemUser' ifAbsent: [ nil ])
-   symbolList objectNamed: #GsSqueakProofConcept)
-     installPhase2
+GsSqueakProofConcept installPhase2
 %
   commit
 
@@ -162,9 +160,7 @@ userProfile symbolList: symbolList.
 #--------------------
 
   run
-((AllUsers userWithId: 'SystemUser' ifAbsent: [ nil ])
-   symbolList objectNamed: #GsSqueakProofConcept)
-     installPhase3
+GsSqueakProofConcept installPhase3
 %
   commit
 
