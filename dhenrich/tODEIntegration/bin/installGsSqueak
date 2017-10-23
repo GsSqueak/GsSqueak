@@ -190,3 +190,7 @@ run
   exit
 EOF
 
+# load the bits into tODE that can be editted ... have to save from tODE and 
+#   reload into SystemUser for the changes to take effect at present ...
+#
+todeIt $GEMSTONE_NAME project load GsSqueak

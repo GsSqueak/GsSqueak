@@ -1,8 +1,10 @@
 TDObjectGatewayLeafNode{#name:'GsSqueak',#contents:'^ TDProjectSpecEntryDefinition new
     baseline: \'GsSqueak\'
-      repository: \'filetree://$GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/src\'
-      loads: #(\'Tools\');
-    installScript: \'
+      repository:
+        \'filetree://$GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/src\'
+      loads: #(\'GsSqueak-ProofOfConcept0\');
+    installScript:
+        \'
       mount @/sys/stone/dirs/GsSqueak/dhenrich/tODEIntegration/tode /home gsSqueak   
       /home/gsSqueak/prep \';
     status: #(#\'active\');
