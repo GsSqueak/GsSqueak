@@ -1,6 +1,9 @@
 private
 installGsSqueakUserPackages: packageNames
+  "abort at beginning and end of method"
+
   | packageManager repo gsSqueakUser |
+  System abort.
   packageManager := CypressEnvironmentPackageManager new.
   repo := CypressAbstractRepository
     onUrl:
