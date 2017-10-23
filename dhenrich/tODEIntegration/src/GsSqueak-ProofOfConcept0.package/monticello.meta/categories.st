@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'GsSqueak-Tode-ProofOfConcept'!
+SystemOrganization addCategory: #'GsSqueak-ProofOfConcept0'!

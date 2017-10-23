@@ -1,7 +1,8 @@
 {
 	"class" : {
-		"executeAsSystemUser:" : "dkh 10/23/2017 12:30",
-		"install" : "dkh 10/23/2017 12:53",
-		"installGsSqueakUserPackages:" : "dkh 10/23/2017 13:21" },
+		"installGsSqueakPackages:" : "dkh 10/23/2017 14:49",
+		"installPhase2" : "dkh 10/23/2017 14:53",
+		"installPhase3" : "dkh 10/23/2017 14:53",
+		"installSystemUserPackages:" : "dkh 10/23/2017 14:49" },
 	"instance" : {
 		 } }

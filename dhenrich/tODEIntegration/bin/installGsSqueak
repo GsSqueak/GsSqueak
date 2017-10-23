@@ -7,9 +7,34 @@ set -e
 
 export upgradeDir=$GEMSTONE/upgrade
 
+# The bootstrap script is divided into several phases:
+#
+#   The first phase is to install Metacello into the base image, install
+#     remote tODE browsing and debugging support, create the GsSqueak user, 
+#     and to install the Cypress-Environmental-Tools package
+#     as SystemUser. The Cypress-Environmental-Tools package has extensions
+#     to the Cypress loader that make it possible to specify which 
+#     SymbolDictionary classes are supposed to be installed in as well as 
+#     which environment is to be used for installing methods. The 
+#     Cypress-Environmental-Tools package also has a class that contains
+#     the scripts used for the second and third phases.
+#
+#   The second phase is to install the ProtoObject and Object classes into the 
+#     GsSqueak user space.
+#
+#   The third phase is to install the environment 7 extension methods in the
+#     standard GemStone classes that are being used by GsSqueak.
+#
 $GS_HOME/bin/startTopaz $GEMSTONE_NAME -l << EOF
+
+#  login is as SystemUser
+
   set u SystemUser p swordfish
   login
+
+#--------------------
+#   Install Metacello
+#--------------------
   input $upgradeDir/bootstrapMetacelloSupport.topaz
   commit
   run
@@ -45,6 +70,9 @@ classmethod: Smalltalk
     ifFalse: [ glob ]
 %
 commit
+#--------------------
+#   Install remote tODE browsing and debugging support
+#--------------------
   run
   Metacello new
     baseline: 'Tode';
@@ -52,6 +80,15 @@ commit
     load: 'Tode-Remote-Server'.
 %
   commit
+#--------------------
+#   Create GsSqueak user and symbol lists
+#--------------------
+$GS_HOME/bin/startTopaz $GEMSTONE_NAME -l << EOF
+
+#  login is as SystemUser
+
+  set u SystemUser p swordfish
+  login
   run
 | gsSqueak |
 gsSqueak := AllUsers userWithId: 'GsSqueak' ifAbsent: [ nil ].
@@ -71,6 +108,8 @@ gsSqueak ~~ nil
   commit
   logout
 
+#  login is as GsSqueak
+
   set u GsSqueak password swordfish
   login
 
@@ -89,24 +128,53 @@ symbolList
 userProfile symbolList: symbolList.
 %
   commit
+  logout
+
+#  login is as SystemUser
+
+  set u SystemUser p swordfish
+  login
+
+#--------------------
+#   Install Cypress-Environmental-Tools package
+#--------------------
+  run
+  Metacello new
+    baseline: 'GsSqueak';
+    repository: 'cypressfiletree:$GS_HOME/shared/repos/tode/repository/';
+    load: 'Cypress-Environmental-Tools'.
+%
+  commit
+
+#  login is as GsSqueak
+
+  set u GsSqueak p swordfish
+  login
+
+#--------------------
+#   PHASE 2 - install ProtoObject and Object as GsSqueak
+#--------------------
+
+  run
+GsSqueakProofConcept installPhase2
+  %
+  commit
+
+#  login is as SystemUser
+
+  set u SystemUser p swordfish
+  login
+
+#--------------------
+#   PHASE 3 - install SmallInteger extension methods
+#--------------------
+
+  run
+GsSqueakProofConcept installPhase3
+  %
+  commit
+
 
   exit
 EOF
 
-cd $GS_HOME/shared/repos/tode
-git checkout dev
-git pull origin dev
-if [ ! -d "$GS_HOME/shared/repos/BP2017RH1" ] ; then 
-  cd $GS_HOME/shared/repos
-  git clone git@github.com:HPI-SWA-Lab/BP2017RH1.git
-  cd BP2017RH1
-  git checkout issue_3
-fi
-if [ ! -e "$GS_HOME/sys/local/server/projects/GsSqueak.ston" ] ; then 
-  cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/projects/GsSqueak.ston $GS_HOME/sys/local/server/projects
-fi
-
-$GS_HOME/bin/devKitCommandLine todeIt $GEMSTONE_NAME << EOF
-project load --install --loads=\`#('ProofOfConcept')\` GsSqueak
-bu backup tools.dbf
-EOF

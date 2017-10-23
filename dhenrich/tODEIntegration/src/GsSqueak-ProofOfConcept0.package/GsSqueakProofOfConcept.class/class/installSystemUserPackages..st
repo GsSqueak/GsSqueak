@@ -1,6 +1,8 @@
 private
-installGsSqueakUserPackages: packageNames
-  "abort at beginning and end of method"
+installSystemUserPackages: packageNames
+  "expect to be installing methods as SystemUser"
+
+  "abort at beginning and commit at end"
 
   | packageManager repo gsSqueakUser |
   System abort.
@@ -11,11 +13,7 @@ installGsSqueakUserPackages: packageNames
         absoluteFromText:
           'cypressfiletree:$GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/src/')
     alias: ''.
-  gsSqueakUser := AllUsers userWithId: 'GsSqueak'.
-  packageManager
-    defaultSymbolDictionaryName: #'Smalltalk';
-    defaultSymbolList: gsSqueakUser symbolList;
-    defaultEnvironmentId: 7.
+  packageManager defaultEnvironmentId: 7.
   packageNames
     do: [ :packageName | 
       packageManager
