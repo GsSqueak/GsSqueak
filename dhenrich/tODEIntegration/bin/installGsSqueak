@@ -142,6 +142,7 @@ userProfile symbolList: symbolList.
   Metacello new
     baseline: 'GsSqueak';
     repository: 'cypressfiletree:$GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/src/';
+    get;
     load: 'GsSqueak-ProofOfConcept0'.
 %
   commit
@@ -193,4 +194,7 @@ EOF
 # load the bits into tODE that can be editted ... have to save from tODE and 
 #   reload into SystemUser for the changes to take effect at present ...
 #
-todeIt $GEMSTONE_NAME project load GsSqueak
+"$GS_HOME/bin/private/gsDevKitTodeCommandLine" todeIt $GEMSTONE_NAME << EOF
+  project get GsSqueak
+  project load GsSqueak
+EOF
