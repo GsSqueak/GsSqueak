@@ -19,6 +19,7 @@ baseline: spec
                 postLoadDoIt: #'installGsSqueakProofOfConcept1' ];
         yourself.
       spec
-        group: 'default' with: #('Tools');
-        group: 'Tools' with: #('GsSqueak-Tode-ProofOfConcept');
+        group: 'default' with: #('ProofOfConcept');
+        group: 'Tools' with: #('Cypress-Environmental-Tools');
+        group: 'ProofOfConcept' with: #('GsSqueak-Tode-ProofOfConcept');
         yourself ]
