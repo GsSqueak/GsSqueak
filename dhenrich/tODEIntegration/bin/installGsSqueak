@@ -145,6 +145,12 @@ userProfile symbolList: symbolList.
     load: 'GsSqueak-ProofOfConcept0'.
 %
   commit
+  logout
+
+#  login is as DataCurator
+
+  set u DataCurator p swordfish
+  login
 
 #--------------------
 #   PHASE 2 - install ProtoObject and Object in GsSqueak symbolList
@@ -154,6 +160,12 @@ userProfile symbolList: symbolList.
 GsSqueakProofOfConcept installPhase2
 %
   commit
+  logout
+
+#  login is as SystemUser
+
+  set u SystemUser p swordfish
+  login
 
 #--------------------
 #   PHASE 3 - install SmallInteger extension methods
@@ -163,7 +175,17 @@ GsSqueakProofOfConcept installPhase2
 GsSqueakProofOfConcept installPhase3
 %
   commit
+  logout
 
+#  login is as GsSqueak
+
+  set u GsSqueak p swordfish
+  login
+
+  set compile_env: 7
+run
+3 foo: 4
+%
 
   exit
 EOF
