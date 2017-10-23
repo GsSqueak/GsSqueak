@@ -1,4 +1,4 @@
-*gssqueak-gemstone-tools
+*cypress-environmental-tools
 persistentSuperclassForEnv: envId
   "result will be nil if no methods exist for specified environmentId."
 

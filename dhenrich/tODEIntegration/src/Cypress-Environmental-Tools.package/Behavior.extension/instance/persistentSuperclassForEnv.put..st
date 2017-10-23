@@ -1,4 +1,4 @@
-*gssqueak-gemstone-tools
+*cypress-environmental-tools
 persistentSuperclassForEnv: envId put: aValue
   "aValue should be a GsMethodDictionary, or nil ,
    caller responsible for _refreshClassCache "

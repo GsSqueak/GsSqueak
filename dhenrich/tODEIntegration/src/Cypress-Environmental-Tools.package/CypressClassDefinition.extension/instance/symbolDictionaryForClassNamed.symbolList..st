@@ -1,4 +1,4 @@
-*gssqueak-gemstone-tools
+*cypress-environmental-tools
 symbolDictionaryForClassNamed: aString symbolList: aSymbolList
   "Answer the SymbolDictionary containing the named class.
 	 If there are multiple answers, answer the first.

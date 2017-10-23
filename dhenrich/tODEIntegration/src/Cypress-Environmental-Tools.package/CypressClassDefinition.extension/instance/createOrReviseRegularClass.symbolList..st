@@ -1,4 +1,4 @@
-*gssqueak-gemstone-tools
+*cypress-environmental-tools
 createOrReviseRegularClass: aSymbolDictionaryName symbolList: aSymbolList
   "To be resolved:
 		- the question of an 'environment' in which to create the class.

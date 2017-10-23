@@ -1,4 +1,4 @@
-*gssqueak-gemstone-tools
+*cypress-environmental-tools
 loadClassDefinition: aSymbolDictionaryName lookupSymbolList: lookupSymbolList compilationSymbolList: compilationSymbolList
   "Create a new version of the defined class. If the class already exists,
 	 copy the behaviors and state from the old version."

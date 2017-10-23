@@ -1,4 +1,4 @@
-*gssqueak-gemstone-tools
+*cypress-environmental-tools
 createOrReviseClass: aSymbolDictionaryName symbolList: aSymbolList
   ^ self subclassType = ''
     ifTrue: [ self createOrReviseRegularClass: aSymbolDictionaryName symbolList: aSymbolList ]
