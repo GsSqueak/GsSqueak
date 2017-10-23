@@ -151,7 +151,7 @@ userProfile symbolList: symbolList.
 #--------------------
 
   run
-GsSqueakProofConcept installPhase2
+GsSqueakProofOfConcept installPhase2
 %
   commit
 
@@ -160,7 +160,7 @@ GsSqueakProofConcept installPhase2
 #--------------------
 
   run
-GsSqueakProofConcept installPhase3
+GsSqueakProofOfConcept installPhase3
 %
   commit
 
