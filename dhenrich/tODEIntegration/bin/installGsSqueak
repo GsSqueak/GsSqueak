@@ -107,6 +107,6 @@ if [ ! -e "$GS_HOME/sys/local/server/projects/GsSqueak.ston" ] ; then
 fi
 
 $GS_HOME/bin/devKitCommandLine todeIt $GEMSTONE_NAME << EOF
-project load --install --loads=`#('ProofOfConcept')` GsSqueak
+project load --install --loads=\`'ProofOfConcept'\` GsSqueak
 bu backup tools.dbf
 EOF
