@@ -2,4 +2,4 @@ installation
 installPhase2
   "run as SystemUser"
 
-  self installGsSqueakPackages: #('GsSqueak-ProoofOfConcept1')
+  self installGsSqueakPackages: #('GsSqueak-ProofOfConcept1')
