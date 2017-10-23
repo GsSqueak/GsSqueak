@@ -27,6 +27,11 @@ export upgradeDir=$GEMSTONE/upgrade
 #
 $GS_HOME/bin/startTopaz $GEMSTONE_NAME -l << EOF
 
+ifErr 1 stk
+ifErr 2 stack
+ifErr 3 abort
+ifErr 4 exit
+
 #  login is as SystemUser
 
   set u SystemUser p swordfish
@@ -141,7 +146,7 @@ userProfile symbolList: symbolList.
   run
   Metacello new
     baseline: 'GsSqueak';
-    repository: 'cypressfiletree:$GS_HOME/shared/repos/tode/repository/';
+    repository: 'cypressfiletree:$GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/src/';
     load: 'Cypress-Environmental-Tools'.
 %
   commit

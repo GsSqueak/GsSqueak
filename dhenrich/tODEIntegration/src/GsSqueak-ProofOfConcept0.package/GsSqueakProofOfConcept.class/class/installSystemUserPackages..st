@@ -7,12 +7,7 @@ installSystemUserPackages: packageNames
   | packageManager repo gsSqueakUser |
   System abort.
   packageManager := CypressEnvironmentPackageManager new.
-  repo := CypressAbstractRepository
-    onUrl:
-      (CypressUrl
-        absoluteFromText:
-          'cypressfiletree:$GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/src/')
-    alias: ''.
+  repo := CypressAbstractRepository onUrl: self repositoryUrl alias: ''.
   packageManager defaultEnvironmentId: 7.
   packageNames
     do: [ :packageName | 
