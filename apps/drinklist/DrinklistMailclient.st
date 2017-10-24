@@ -1,0 +1,1 @@
+'From Squeak5.1 of 15 October 2017 [latest update: #16550] on 24 October 2017 at 2:45 pm'!Object subclass: #DrinklistMailclient	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Drinklist'!
