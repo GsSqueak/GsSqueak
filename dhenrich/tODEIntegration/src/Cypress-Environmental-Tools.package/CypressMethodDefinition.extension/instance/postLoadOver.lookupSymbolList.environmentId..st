@@ -6,4 +6,7 @@ postLoadOver: aDefinition lookupSymbolList: lookupSymbolList environmentId: envi
     environmentId: environmentId.
   (self isInitializer
     and: [ aDefinition isNil or: [ self source ~= aDefinition source ] ])
-    ifTrue: [ (self theNonMetaClass: lookupSymbolList) initialize ]
+    ifTrue: [ 
+      (self theNonMetaClass: lookupSymbolList)
+        perform: #'initialize'
+        env: environmentId ]
