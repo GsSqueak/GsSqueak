@@ -5,7 +5,8 @@ loadClassDefinition: aSymbolDictionaryName lookupSymbolList: lookupSymbolList co
 
   | newClass oldClass |
   self defaultSymbolDictionaryName: aSymbolDictionaryName.
-  oldClass := (lookupSymbolList resolveSymbol: self name) value.
+  (lookupSymbolList resolveSymbol: self name)
+    ifNotNil: [:assoc | oldClass := assoc value ].
   newClass := self
     createOrReviseClass: aSymbolDictionaryName
     symbolList: lookupSymbolList.

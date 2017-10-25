@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createOrReviseClass:symbolList:" : " 10/23/2017 10:04:22",
-		"createOrReviseRegularClass:symbolList:" : " 10/23/2017 10:04:22",
-		"loadClassDefinition:lookupSymbolList:compilationSymbolList:" : " 10/23/2017 10:04:22",
-		"symbolDictionaryForClassNamed:symbolList:" : " 10/23/2017 10:04:22" } }
+		"createOrReviseClass:symbolList:" : "10/23/2017 10:04:22",
+		"createOrReviseRegularClass:symbolList:" : "10/23/2017 10:04:22",
+		"loadClassDefinition:lookupSymbolList:compilationSymbolList:" : "10/23/2017 10:04:22",
+		"symbolDictionaryForClassNamed:symbolList:" : "10/23/2017 10:04:22" } }
