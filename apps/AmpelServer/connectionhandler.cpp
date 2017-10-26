@@ -6,7 +6,8 @@ ConnectionHandler::ConnectionHandler(QTcpSocket *socketP):
 socket(socketP)
 {
     connect(socket,SIGNAL(readyRead()),this,SLOT(read()));
-    connect(socket,&QAbstractSocket::disconnected,this,&QObject::deleteLater);
+    connect(socket,SIGNAL(disconnected()),this,SLOT(del()));
+    connect(&process,SIGNAL(finished(int)),this,SLOT(processFinished()));
 }
 
 void ConnectionHandler::read()
@@ -21,4 +22,19 @@ void ConnectionHandler::read()
         process.start("sispmctl -o 4");
     else if(in.contains("greenoff"))
         process.start("sispmctl -f 4");
+}
+
+void ConnectionHandler::del()
+{
+    if(process.state() != QProcess::NotRunning){
+        delReq = true;
+        return;
+    }
+    deleteLater();
+}
+
+void ConnectionHandler::processFinished()
+{
+    if(delReq)
+        deleteLater();
 }

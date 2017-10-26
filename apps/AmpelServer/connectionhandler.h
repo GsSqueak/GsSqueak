@@ -14,9 +14,12 @@ public:
 private:
     QTcpSocket* socket;
     QProcess process;
+    bool delReq;
 
 public slots:
     void read();
+    void del();
+    void processFinished();
 };
 
 #endif // CONNECTIONHANDLER_H

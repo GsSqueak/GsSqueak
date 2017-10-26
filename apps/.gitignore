@@ -1,0 +1,4 @@
+*.o
+*.pro.user*
+moc_*.cpp
+build-*
