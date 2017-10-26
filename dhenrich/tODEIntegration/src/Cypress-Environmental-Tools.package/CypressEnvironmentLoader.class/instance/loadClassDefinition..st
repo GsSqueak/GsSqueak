@@ -1,8 +1,8 @@
 operations
 loadClassDefinition: aPatchOperation
-  [ aPatchOperation
+  [ 
+  aPatchOperation
     loadClassDefinition: self defaultSymbolDictionaryName
-    lookupSymbolList: self lookupSymbolList
-    compilationSymbolList: self compilationSymbolList ]
+    environmentLoader: self ]
     on: Error
     do: [ :ex | self handlePatchOperation: aPatchOperation failure: ex ]

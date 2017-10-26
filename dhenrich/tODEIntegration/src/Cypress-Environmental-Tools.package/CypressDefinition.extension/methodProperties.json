@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"loadClassDefinition:environmentLoader:" : "dkh 10/25/2017 16:51",
 		"loadClassDefinition:lookupSymbolList:compilationSymbolList:" : "10/23/2017 10:04:22",
 		"loadMethodDefinition:compilationSymbolList:environmentId:" : "10/23/2017 10:04:22",
+		"loadMethodDefinition:environmentLoader:" : "dkh 10/25/2017 16:55",
 		"postLoad:environmentId:" : "dkh 10/25/2017 15:03",
 		"postLoadOver:lookupSymbolList:environmentId:" : "dkh 10/25/2017 15:02" } }
