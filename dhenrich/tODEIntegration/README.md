@@ -21,17 +21,22 @@ cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/projects/GsSqueak.st
 Bash:
 
 ```sh
-# createStone -u https://github.com/HPI-SWA-Lab/BP2017RH1/blob/issue_3/dhenrich/tODEIntegration/projects/GsSqueak.ston -i GsSqueak -l GsSqueak GsSqueak 3.4.0
-createStone -i GsSqueak -l GsSqueak GsSqueak 3.4.0
+createStone GsSqueak 3.4.0
+devKitCommandLine todeIt GsSqueak << EOF
+  mount @/sys/stone/dirs/GsSqueak/dhenrich/tODEIntegration/tode /home gsSqueak
+  /home/gsSqueak/prep
+EOF
 cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/bin/installGsSqueak $GS_HOME/server/stones/GsSqueak
 cd $GS_HOME/server/stones/GsSqueak
 ./installGsSqueak
 ```
 
-### Install in existing stone
+### Install in existing stone -- for development
 
-tODE:
+The interesting packages like Cypress-Environmental-Tools and GsSqueak-ProofOfConcept0 are installed as SystemUser and as such aren't configured for easy development ... so to do development on those two packages, it's best to load them into a separate stone:
+
 
 ```sh
-project load --install GsSqueak
+createStone -i GsSqueak -l GsSqueak GsSqueak_dev 3.4.0
 ```
+

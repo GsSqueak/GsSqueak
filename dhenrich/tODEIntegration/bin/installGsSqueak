@@ -191,10 +191,3 @@ run
   exit
 EOF
 
-# load the bits into tODE that can be editted ... have to save from tODE and 
-#   reload into SystemUser for the changes to take effect at present ...
-#
-"$GS_HOME/bin/private/gsDevKitTodeCommandLine" todeIt $GEMSTONE_NAME << EOF
-  project get GsSqueak
-  project load GsSqueak
-EOF

@@ -1,0 +1,63 @@
+TDScriptLeafNode{#name:'createSessionDescription',#contents:'[ :topez :objIn :tokens :command :commandNode | 
+  | opts args |
+  \"for help: ./createSessionDescription -h\"
+  command
+    getOptsMixedLongShort:
+      {#(\'stone\' nil #\'required\').
+      #(\'help\' $h #\'none\')}
+    optionsAndArguments: [ :options :operands | 
+      opts := options.
+      args := operands ].
+  opts
+    at: \'help\'
+    ifAbsent: [ 
+      | sd stoneName dir |
+      stoneName := \'GsSqueak\'.
+      opts at: \'stone\' ifPresent: [ :arg | stoneName := arg ].
+      dir := ServerFileDirectory on: \'$GS_HOME/sys/local/sessions/\'.
+      dir
+        fileNamed: stoneName
+        do: [ :fs | sd := TodeObjectSerializer preferredSerializer fromString: fs contents ].
+      sd
+name: \'GsSqueakUser\';
+        todeUserId: \'DataCurator\';
+        environmentId: 7;
+        userId: \'GsSqueak\';
+        yourself.
+      dir
+        forceNewFileNamed: \'GsSqueakUser\'
+        do: [ :fileStream | 
+          | serializer string |
+          serializer := TodeObjectSerializer preferredSerializer.
+          string := String
+            streamContents: [ :stream | 
+              serializer prettyWriter
+                newLine: String lf;
+                on: stream;
+                nextPut: sd ].
+          fileStream nextPutAll: string ].
+      sd ]
+    ifPresent: [ :ignored | 
+      TDManPage
+        viewManPage:
+          \'NAME
+  createSessionDescription - createSessionDescription script utility template
+SYNOPSIS
+  createSessionDescription [-h|--help] [--stone=<alternate-stone-name]
+
+
+DESCRIPTION
+  Create a session description file to allow login as GsSqueak user for editting the GsSqueak 
+  code using tODE.
+
+  By default the a session descript is created by copying the session description for a stone
+  named `GsSqueak`, use the `--stone` arg to specify an alternate stone name.
+
+EXAMPLES
+  ./createSessionDescription --help
+  ./createSessionDescription -h
+
+  ./createSessionDescription 
+  ./createSessionDescription --stone=GsSqueak_test
+\'
+        topez: topez ] ]',#creationTime:DateAndTime['2017-10-27T11:56:34.87641310691833-07:00'],#modificationTime:DateAndTime['2017-10-27T12:31:34.93586802482605-07:00']}
