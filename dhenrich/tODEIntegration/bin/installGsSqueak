@@ -9,6 +9,8 @@ export upgradeDir=$GEMSTONE/upgrade
 
 # The bootstrap script is divided into several phases:
 #
+#   Install tODE extension classes in support of GsSqueak remote development
+#
 #   The first phase is to install Metacello into the base image, install
 #     remote tODE browsing and debugging support, create the GsSqueak user, 
 #     and to install the Cypress-Environmental-Tools package
@@ -31,6 +33,25 @@ ifErr 1 stk
 ifErr 2 stack
 ifErr 3 abort
 ifErr 4 exit
+
+#  login is as DataCurator
+
+  set u DataCurator p swordfish
+  login
+
+#--------------------
+#   install tODE support packages (GsSqueak_test group)
+#--------------------
+
+  run
+  Metacello new
+    baseline: 'GsSqueak';
+    repository: 'filetree://$GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/src';
+    get;
+    load: 'GsSqueak_test'.
+%
+  commit
+  logout
 
 #  login is as SystemUser
 

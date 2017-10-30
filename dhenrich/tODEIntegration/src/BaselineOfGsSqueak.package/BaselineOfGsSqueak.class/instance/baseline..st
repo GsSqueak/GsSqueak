@@ -26,6 +26,6 @@ baseline: spec
         package: 'GsSqueak-Tode-Extensions';
         yourself.
       spec
-        group: 'GsSqueak' with: #('GsSqueak-Tode-Extensions');
+        group: 'GsSqueak_test' with: #('GsSqueak-Tode-Extensions');
         group: 'GsSqueak_dev' with: #('GsSqueak-Tode-Extensions');
         yourself ]
