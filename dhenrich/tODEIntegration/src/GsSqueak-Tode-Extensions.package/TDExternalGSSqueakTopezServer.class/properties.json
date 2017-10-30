@@ -1,0 +1,14 @@
+{
+	"category" : "GsSqueak-Tode-Extensions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TDExternalGSSqueakTopezServer",
+	"pools" : [
+		 ],
+	"super" : "TDExternalTopezServer",
+	"type" : "normal" }
