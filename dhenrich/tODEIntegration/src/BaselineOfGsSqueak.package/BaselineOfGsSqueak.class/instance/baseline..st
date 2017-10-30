@@ -10,7 +10,7 @@ baseline: spec
           with: [ spec requires: 'Cypress-Environmental-Tools' ];
         yourself.
       spec
-        group: 'default' with: #( 'GsSqueak-ProofOfConcept0' );
+        group: 'GsSqueak_dev' with: #('GsSqueak-ProofOfConcept0');
         yourself ].
   spec
     for: #'gs643.4.x'
@@ -26,6 +26,6 @@ baseline: spec
         package: 'GsSqueak-Tode-Extensions';
         yourself.
       spec
-        group: 'default' with: #( 'GsSqueak-Tode-Extensions' );
-        yourself ].
-
+        group: 'GsSqueak' with: #('GsSqueak-Tode-Extensions');
+        group: 'GsSqueak_dev' with: #('GsSqueak-Tode-Extensions');
+        yourself ]

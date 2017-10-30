@@ -12,14 +12,14 @@ TDScriptLeafNode{#name:'createSessionDescription',#contents:'[ :topez :objIn :to
     at: \'help\'
     ifAbsent: [ 
       | sd stoneName dir |
-      stoneName := \'GsSqueak\'.
+      stoneName := \'GsSqueak_test\'.
       opts at: \'stone\' ifPresent: [ :arg | stoneName := arg ].
       dir := ServerFileDirectory on: \'$GS_HOME/sys/local/sessions/\'.
       dir
         fileNamed: stoneName
         do: [ :fs | sd := TodeObjectSerializer preferredSerializer fromString: fs contents ].
       sd
-name: \'GsSqueakUser\';
+        name: \'GsSqueakUser\';
         todeUserId: \'DataCurator\';
         environmentId: 7;
         userId: \'GsSqueak\';
@@ -58,6 +58,6 @@ EXAMPLES
   ./createSessionDescription -h
 
   ./createSessionDescription 
-  ./createSessionDescription --stone=GsSqueak_test
+  ./createSessionDescription --stone=GsSqueak_test_0
 \'
-        topez: topez ] ]',#creationTime:DateAndTime['2017-10-27T11:56:34.87641310691833-07:00'],#modificationTime:DateAndTime['2017-10-27T12:31:34.93586802482605-07:00']}
+        topez: topez ] ]',#creationTime:DateAndTime['2017-10-27T11:56:34.87641310691833-07:00'],#modificationTime:DateAndTime['2017-10-30T11:44:34.59892392158508-07:00']}

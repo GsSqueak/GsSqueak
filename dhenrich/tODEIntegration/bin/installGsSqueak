@@ -143,6 +143,9 @@ dataCuratorUserGlobals := dataCurator objectNamed: #UserGlobals.
   at: GsPackagePolicy globalName put: (dataCuratorUserGlobals at: GsPackagePolicy globalName);
   at: GsPackage globalName put: (dataCuratorUserGlobals at: GsPackage globalName);
   yourself.
+dataCuratorUserGlobals 
+  at: #'TODE_ExternalTopezServer_CLASS' 
+  put: (dataCurator objectNamed: #'TDExternalGSSqueakTopezServer').
 (symbolList objectNamed: #GemStone) 
   at: #System put: (Globals at: #System);                "useful GemStone class to have"
   at: #GemStoneError put: (Globals at: #GemStoneError);  "needed for error message generation"

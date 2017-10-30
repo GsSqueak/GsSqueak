@@ -16,27 +16,32 @@ cd $GS_HOME
 cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/projects/GsSqueak.ston $GS_HOME/sys/local/server/projects
 ```
 
-### Create a new stone
+### Create a GsSqueak_test stone - for testing the GsSqueak environment
 
 Bash:
 
 ```sh
-createStone GsSqueak 3.4.0
-devKitCommandLine todeIt GsSqueak << EOF
+createStone GsSqueak_test 3.4.0
+devKitCommandLine todeIt GsSqueak_test << EOF
   mount @/sys/stone/dirs/GsSqueak/dhenrich/tODEIntegration/tode /home gsSqueak
   /home/gsSqueak/prep
 EOF
-cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/bin/installGsSqueak $GS_HOME/server/stones/GsSqueak
-cd $GS_HOME/server/stones/GsSqueak
+cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/bin/installGsSqueak $GS_HOME/server/stones/GsSqueak_test
+cd $GS_HOME/server/stones/GsSqueak_test
 ./installGsSqueak
+todeIt GsSqueak_test /home/gsSqueak/createSessionDescription --stone=GsSqueak_test
 ```
 
-### Install in existing stone -- for development
+Log into the stone using `GsSqueak_test` session description to work directly in the the tODE environment (the 'GsSqueak-Tode-Extensions' package for example). To develop the other packages ('Cypress-Environmental-Tools' and 'GsSqueak-ProofOfConcept0') you need to create a separate stone --- these packages are not loaded into the tODE environment in GsSqueak_test.
 
-The interesting packages like Cypress-Environmental-Tools and GsSqueak-ProofOfConcept0 are installed as SystemUser and as such aren't configured for easy development ... so to do development on those two packages, it's best to load them into a separate stone:
+Log into the stone using `GsSqueakUser` session description (created by the /home/gsSqueak/createSessionDescription tODE sdcript) to work in the GsSqueak environemt itself.
+
+### Create a GsSquak_dev stone - for ongoing development of support tools
+
+The interesting packages like Cypress-Environmental-Tools and GsSqueak-ProofOfConcept0 are installed as SystemUser and as such aren't configured for easy development ... so to do development on those or any other packages packages, it's best to load them into a separate stone:
 
 
 ```sh
 createStone -i GsSqueak -l GsSqueak GsSqueak_dev 3.4.0
 ```
-
+ 
