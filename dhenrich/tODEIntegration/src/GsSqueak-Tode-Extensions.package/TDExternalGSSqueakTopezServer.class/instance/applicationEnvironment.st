@@ -8,5 +8,4 @@ applicationEnvironment
     ifNil: [ 
       "bootstrap: full defaultApplicationEnvironment requires sessionDescription to be defined"
       ^ TDCustomGsSqueakEnvironment new ].
-  ^ applicationEnvironment
-    ifNil: [ applicationEnvironment := self defaultApplicationEnvironment ]
+  ^ super applicationEnvironment
