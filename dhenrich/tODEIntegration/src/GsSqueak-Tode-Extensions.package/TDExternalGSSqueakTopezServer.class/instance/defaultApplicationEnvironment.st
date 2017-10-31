@@ -10,4 +10,5 @@ defaultApplicationEnvironment
     methodCompilationEnvironmentId: self sessionDescription environmentId;
     classLookupEnvironmentId: self sessionDescription environmentId;
     classLookupSymbolList: classLookupSymbolList;
+    methodCompilationSymbolList: classLookupSymbolList;
     yourself
