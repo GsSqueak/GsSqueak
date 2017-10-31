@@ -1,0 +1,13 @@
+TDStringLeafNode{#name:'doits',#contents:'run
+| classOrganizer |
+classOrganizer := ((GS_AllUsers userWithId: \'DataCurator\') objectNamed: \'ClassOrganizer\')
+    _newWithRoot: ProtoObject
+    symbolList: System myUserProfile symbolList
+    env: 7.
+{
+  (classOrganizer allSubclassesOf: ProtoObject) asArray. 
+  (classOrganizer allSuperclassesOf: ProtoObject) asArray.
+}
+%
+
+',#creationTime:DateAndTime['2017-10-31T10:41:55.01478099822998-07:00'],#modificationTime:DateAndTime['2017-10-31T11:13:45.04966998100281-07:00']}
