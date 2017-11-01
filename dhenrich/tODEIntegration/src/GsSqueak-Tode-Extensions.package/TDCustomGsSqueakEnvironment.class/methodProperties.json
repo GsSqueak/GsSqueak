@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"_parseSelector:for:" : "dkh 10/31/2017 17:02",
 		"categoryNamesFor:" : "dkh 10/31/2017 15:21",
 		"categoryOfSelector:for:" : "dkh 10/31/2017 15:58",
 		"classOrganizer" : "dkh 10/31/2017 14:01",
 		"classify:under:for:" : "dkh 10/31/2017 16:01",
-		"compile:inBehavior:classified:" : "dkh 10/31/2017 16:10",
+		"compile:inBehavior:classified:" : "dkh 10/31/2017 17:02",
 		"defaultClassLookupEnvironmentId" : "dkh 10/30/2017 11:24",
 		"definitionFromClassDefinition:" : "dkh 10/31/2017 15:02",
 		"method:for:ifAbsent:" : "dkh 10/31/2017 15:51",
