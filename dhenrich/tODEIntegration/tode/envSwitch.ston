@@ -1,0 +1,39 @@
+TDScriptLeafNode{#name:'envSwitch',#contents:'[ :topez :objIn :tokens :command :commandNode | 
+  | opts args |
+  \"for help: ./envSwitch -h\"
+  command
+    getOptsMixedLongShort:
+      {#(\'help\' $h #\'none\').
+      #(\'env\' nil #\'required\')}
+    optionsAndArguments: [ :options :operands | 
+      opts := options.
+      args := operands ].
+  opts
+    at: \'help\'
+    ifAbsent: [ 
+      | envId |
+      envId := 7.
+      opts at: \'env\' ifPresent: [ :arg | envId := arg asNumber ].
+      topez applicationEnvironment
+        classLookupEnvironmentId: envId;
+        methodCompilationEnvironmentId: envId;
+        yourself.
+      System commit.
+envId ]
+    ifPresent: [ :ignored | 
+      TDManPage
+        viewManPage:
+          \'NAME
+  envSwitch - envSwitch script utility template
+SYNOPSIS
+  envSwitch [-h|--help] [--env=<environment-id>]
+DESCRIPTION
+EXAMPLES
+  ./envSwitch --help
+  ./envSwitch -h
+
+  ./envSwitch
+  ./envSwitch --env=7
+  ./envSwitch --env=0
+\'
+        topez: topez ] ]',#creationTime:DateAndTime['2017-11-01T20:07:47.09224700927734-07:00'],#modificationTime:DateAndTime['2017-11-01T20:15:09.060415983200073-07:00']}
