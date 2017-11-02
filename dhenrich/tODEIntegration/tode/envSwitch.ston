@@ -12,14 +12,16 @@ TDScriptLeafNode{#name:'envSwitch',#contents:'[ :topez :objIn :tokens :command :
     at: \'help\'
     ifAbsent: [ 
       | envId |
-      envId := 7.
       opts at: \'env\' ifPresent: [ :arg | envId := arg asNumber ].
-      topez applicationEnvironment
-        classLookupEnvironmentId: envId;
-        methodCompilationEnvironmentId: envId;
-        yourself.
-      System commit.
-envId ]
+      envId
+        ifNil: [ envId := topez applicationEnvironment methodCompilationEnvironmentId ]
+        ifNotNil: [ 
+          topez applicationEnvironment
+            classLookupEnvironmentId: envId;
+            methodCompilationEnvironmentId: envId;
+            yourself.
+          System commit ].
+      envId ]
     ifPresent: [ :ignored | 
       TDManPage
         viewManPage:
@@ -28,12 +30,18 @@ envId ]
 SYNOPSIS
   envSwitch [-h|--help] [--env=<environment-id>]
 DESCRIPTION
+
+  With no arguments, returns the current environment.
+
+  With `env` option, set the current environment.
+
 EXAMPLES
   ./envSwitch --help
   ./envSwitch -h
 
   ./envSwitch
+
   ./envSwitch --env=7
   ./envSwitch --env=0
 \'
-        topez: topez ] ]',#creationTime:DateAndTime['2017-11-01T20:07:47.09224700927734-07:00'],#modificationTime:DateAndTime['2017-11-01T20:15:09.060415983200073-07:00']}
+        topez: topez ] ]',#creationTime:DateAndTime['2017-11-01T20:07:47.09224700927734-07:00'],#modificationTime:DateAndTime['2017-11-01T20:23:00.3120639324188232-07:00']}
