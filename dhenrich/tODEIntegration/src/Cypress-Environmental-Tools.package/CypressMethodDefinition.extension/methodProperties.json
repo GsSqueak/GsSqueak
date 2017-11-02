@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"loadMethodDefinition:compilationSymbolList:environmentId:" : "10/23/2017 10:04:22",
+		"loadMethodDefinition:environmentLoader:" : "dkh 10/26/2017 13:12",
+		"postLoadOver:lookupSymbolList:environmentId:" : "dkh 10/25/2017 15:30",
+		"theNonMetaClass:" : "dkh 10/25/2017 15:06" } }

@@ -1,0 +1,11 @@
+installation
+installPhase3
+  | gsSqueak gsSqueakObjectClass |
+  self installSystemUserPackages: #('GsSqueak-ProofOfConcept2').
+  gsSqueak := AllUsers userWithId: 'GsSqueak'.
+  gsSqueakObjectClass := gsSqueak symbolList objectNamed: #'Object'.
+  SmallInteger superclassForEnv: 7 put: gsSqueakObjectClass.
+  (gsSqueak symbolList objectNamed: #'Smalltalk')
+    at: #'SmallInteger'
+    put: SmallInteger.
+  System commit

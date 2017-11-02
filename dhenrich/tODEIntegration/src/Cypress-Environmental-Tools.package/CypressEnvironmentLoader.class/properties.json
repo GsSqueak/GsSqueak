@@ -1,0 +1,16 @@
+{
+	"category" : "Cypress-Environmental-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"defaultEnvironmentId",
+		"lookupSymbolList",
+		"compilationSymbolList" ],
+	"name" : "CypressEnvironmentLoader",
+	"pools" : [
+		 ],
+	"super" : "CypressLoader",
+	"type" : "normal" }
