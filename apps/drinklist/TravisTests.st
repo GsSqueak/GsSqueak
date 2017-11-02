@@ -1,0 +1,1 @@
+'From Squeak6.0alpha of 9 September 2017 [latest update: #17382] on 2 November 2017 at 1:26:53 pm'!TestCase subclass: #TravisTests	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Drinklist-Tests'!!TravisTests methodsFor: 'as yet unclassified' stamp: 'maf 10/26/2017 11:00'!testTrue	self assert: true	! !
