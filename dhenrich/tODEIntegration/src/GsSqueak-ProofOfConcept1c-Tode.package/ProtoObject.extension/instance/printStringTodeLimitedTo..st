@@ -1,4 +1,4 @@
-tODE debugger and inspector support
+*GsSqueak-ProofOfConcept1c-Tode
 printStringTodeLimitedTo: limit
   "Answer a String whose characters are a description of the receiver.
 	If you want to print without a character limit, use orintString."

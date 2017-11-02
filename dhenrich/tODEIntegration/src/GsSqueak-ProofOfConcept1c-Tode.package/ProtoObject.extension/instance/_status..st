@@ -1,4 +1,4 @@
-tODE debugger and inspector support
+*GsSqueak-ProofOfConcept1c-Tode
 _status: checkClosureBool
   "Returns a SmallInteger with status information about the receiver
  encoded in the bit whose masks are defined below:

@@ -1,4 +1,4 @@
-tODE debugger and inspector support
+*GsSqueak-ProofOfConcept1c-Tode
 printOn: aStream
   "Puts a displayable representation of the receiver on the given stream."
 

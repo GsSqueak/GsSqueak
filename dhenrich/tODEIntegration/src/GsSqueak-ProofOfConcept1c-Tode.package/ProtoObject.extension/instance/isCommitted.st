@@ -1,4 +1,4 @@
-tODE debugger and inspector support
+*GsSqueak-ProofOfConcept1c-Tode
 isCommitted
   "Returns true if the receiver was a committed object at the time the current
  transaction began.  Returns false otherwise."

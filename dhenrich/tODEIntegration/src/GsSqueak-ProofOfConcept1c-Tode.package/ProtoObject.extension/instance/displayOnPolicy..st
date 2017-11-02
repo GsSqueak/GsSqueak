@@ -1,4 +1,4 @@
-tODE debugger and inspector support
+*GsSqueak-ProofOfConcept1c-Tode
 displayOnPolicy: displayPolicy
   | string aStream limit displayOops compacted |
   aStream := displayPolicy stream.
