@@ -4,5 +4,7 @@ installPhase2
 
   self
     installGsSqueakPackages: #('GsSqueak-ProofOfConcept1') environmentId: 7;
-    installGsSqueakPackages: #('GsSqueak-ProofOfConcept1b') environmentId: 0;
+    installGsSqueakPackages:
+        #('GsSqueak-ProofOfConcept1b' 'GsSqueak-ProofOfConcept1c-Tode')
+      environmentId: 0;
     yourself

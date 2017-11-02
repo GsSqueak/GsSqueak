@@ -18,6 +18,7 @@ baseline: spec
       spec
         package: 'GsSqueak-ProofOfConcept1';
         package: 'GsSqueak-ProofOfConcept1b';
+        package: 'GsSqueak-ProofOfConcept1c-Tode';
         package: 'GsSqueak-ProofOfConcept2';
         yourself ].
   spec
