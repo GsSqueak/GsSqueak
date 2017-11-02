@@ -6,12 +6,19 @@ Bash:
 
 ```sh
 cd $GS_HOME/shared/repos/tode
-git checkout dev
-git pull origin dev
+git fetch --all
+git checkout appEnv_dev
+git pull origin appEnv_dev
 cd $GS_HOME/shared/repos
 git clone git@github.com:HPI-SWA-Lab/BP2017RH1.git
 cd BP2017RH1
-git checkout issue_3
+git checkout master
+cd $GS_HOME/shared/repos
+mkdir gs_port
+cd gs_port
+git clone https://github.com/GsDevKit/ston.git
+cd ston
+git checkout gs_port
 cd $GS_HOME
 cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/projects/GsSqueak.ston $GS_HOME/sys/local/server/projects
 ```
@@ -30,6 +37,7 @@ cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/bin/installGsSqueak 
 cd $GS_HOME/server/stones/GsSqueak_test
 ./installGsSqueak
 todeIt GsSqueak_test /home/gsSqueak/createSessionDescription --stone=GsSqueak_test
+todeIt GsSqueakUser mount $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/tode /home gsSqueak
 ```
 
 Log into the stone using `GsSqueak_test` session description to work directly in the the tODE environment (the 'GsSqueak-Tode-Extensions' package for example). To develop the other packages ('Cypress-Environmental-Tools' and 'GsSqueak-ProofOfConcept0') you need to create a separate stone --- these packages are not loaded into the tODE environment in GsSqueak_test.
