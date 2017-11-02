@@ -1,4 +1,4 @@
 Instance Creation
 new 
 
-  ^super new
+  ^self @env0: new

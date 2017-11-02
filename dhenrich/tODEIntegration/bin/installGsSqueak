@@ -171,7 +171,7 @@ commit
   commit
 
 #--------------------
-#   Create GsSqueak user and symbol lists
+#   Create GsSqueak user and symbol lists, give DataCurator compilation privileges
 #--------------------
   run
 | gsSqueak |
@@ -187,7 +187,8 @@ AllUsers
   defaultObjectSecurityPolicy: nil
   privileges:
       #('CodeModification' 'UserPassword' 'OtherPassword' 'CompilePrimitives')
-  inGroups: #('DataCuratorGroup')
+  inGroups: #('DataCuratorGroup').
+(AllUsers userWithId: 'DataCurator') addPrivilege: #'CompilePrimitives'.
 %
   commit
   logout
