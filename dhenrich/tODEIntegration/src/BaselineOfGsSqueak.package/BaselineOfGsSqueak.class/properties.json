@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfGsSqueak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfGsSqueak",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

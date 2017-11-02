@@ -1,0 +1,26 @@
+TDScriptLeafNode{#name:'inspectGsSqueak',#contents:'[ :topez :objIn :tokens :command :commandNode | 
+  | opts args |
+  \"for help: ./inspectPharoGsUser -h\"
+  command
+    getOptsMixedLongShort: {#(\'help\' $h #\'none\')}
+    optionsAndArguments: [ :options :operands | 
+      opts := options.
+      args := operands ].
+  opts
+    at: \'help\'
+    ifAbsent: [ AllUsers userWithId: \'GsSqueak\' ifAbsent: [  ] ]
+    ifPresent: [ :ignored | 
+      TDManPage
+        viewManPage:
+          \'NAME
+  inspectPharoGsUser - inspectPharoGsUser script utility template
+SYNOPSIS
+  inspectPharoGsUser [-h|--help]
+DESCRIPTION
+EXAMPLES
+  ./inspectPharoGsUser --help
+  ./inspectPharoGsUser -h
+
+  ./inspectPharoGsUser; edit
+\'
+        topez: topez ] ]',#creationTime:DateAndTime['2017-10-27T14:20:22.73910999298096-07:00'],#modificationTime:DateAndTime['2017-10-27T14:20:58.54805898666382-07:00']}
