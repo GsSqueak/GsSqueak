@@ -1,5 +1,5 @@
 private
-installGsSqueakPackages: packageNames
+installGsSqueakPackages: packageNames environmentId: environmentId
   "expect to be installing methods and classes as SystemUser on into GsSqueak symbolList and classes"
 
   "abort at beginning and commit at end"
@@ -12,7 +12,7 @@ installGsSqueakPackages: packageNames
   packageManager
     defaultSymbolDictionaryName: #'Smalltalk';
     defaultSymbolList: gsSqueakUser symbolList;
-    defaultEnvironmentId: 7.
+    defaultEnvironmentId: environmentId.
   packageNames
     do: [ :packageName | 
       packageManager

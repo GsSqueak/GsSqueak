@@ -17,6 +17,7 @@ baseline: spec
     do: [ 
       spec
         package: 'GsSqueak-ProofOfConcept1';
+        package: 'GsSqueak-ProofOfConcept1b';
         package: 'GsSqueak-ProofOfConcept2';
         yourself ].
   spec
