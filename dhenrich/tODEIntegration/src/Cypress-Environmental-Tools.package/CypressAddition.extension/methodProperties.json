@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"loadClassDefinition:environmentLoader:" : "dkh 10/25/2017 16:50",
+		"loadClassDefinition:lookupSymbolList:compilationSymbolList:" : "10/23/2017 10:04:22",
+		"loadMethodDefinition:compilationSymbolList:environmentId:" : "10/23/2017 10:04:22",
+		"loadMethodDefinition:environmentLoader:" : "dkh 10/26/2017 13:22",
+		"postLoadDefinition:environmentId:" : "dkh 10/25/2017 15:00" } }

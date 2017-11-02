@@ -1,0 +1,15 @@
+diff --git a/bin/utils/installOsPrereqs b/bin/utils/installOsPrereqs
+index 7749010..2b08d6c 100755
+--- a/bin/utils/installOsPrereqs
++++ b/bin/utils/installOsPrereqs
+@@ -318,8 +318,8 @@ case "$PLATFORM" in
+       sudo date
+ 
+ 	  if [ -f /etc/lsb-release ] || [ `which lsb_release 2> /dev/null > /dev/null; echo $?` = "0" ]; then
+-        osName=`lsb_release -ds | cut -d ' ' -f 1 | cut -d '"' -f 2`
+-        osVersion=`lsb_release -rs`
++        osName='Ubuntu'
++        osVersion='16.04'
+       elif [ -f /etc/centos-release ]; then
+         osName="CentOS"
+         osVersion=`cat /etc/centos-release`
