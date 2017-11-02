@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createOrReviseClass:environmentLoader:" : "dkh 10/25/2017 17:00",
+		"createOrReviseClass:symbolList:" : "10/23/2017 10:04:22",
+		"createOrReviseRegularClass:environmentLoader:" : "dkh 10/25/2017 17:01",
+		"createOrReviseRegularClass:symbolList:" : "10/23/2017 10:04:22",
+		"loadClassDefinition:environmentLoader:" : "dkh 10/25/2017 16:58",
+		"loadClassDefinition:lookupSymbolList:compilationSymbolList:" : "10/23/2017 10:04:22",
+		"symbolDictionaryForClassNamed:symbolList:" : "10/23/2017 10:04:22" } }

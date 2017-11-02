@@ -1,0 +1,14 @@
+{
+	"category" : "GsSqueak-ProofOfConcept1",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"instvars" : [
+		 ],
+	"name" : "ProtoObject",
+	"pools" : [
+		 ],
+	"super" : "nil",
+	"type" : "normal" }
+

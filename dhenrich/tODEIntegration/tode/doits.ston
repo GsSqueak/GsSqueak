@@ -1,0 +1,18 @@
+TDStringLeafNode{#name:'doits',#contents:'run
+| smalltalk classOrganizer classLookupSymbolList |
+  smalltalk := System myUserProfile objectNamed: #\'Smalltalk\'.
+  classLookupSymbolList := ((GS_AllUsers userWithId: \'DataCurator\') objectNamed: \'SymbolList\') new
+    insertObject: smalltalk at: 1;
+    yourself.
+classOrganizer := ((GS_AllUsers userWithId: \'DataCurator\') objectNamed: \'ClassOrganizer\')
+    _newWithRoot: ProtoObject
+    symbolList: classLookupSymbolList
+    env: 7.
+{
+  (classOrganizer allSubclassesOf: ProtoObject) asArray. 
+  (classOrganizer allSuperclassesOf: ProtoObject) asArray.
+  classOrganizer classes asArray.
+}
+%
+
+',#creationTime:DateAndTime['2017-10-31T10:41:55.01478099822998-07:00'],#modificationTime:DateAndTime['2017-10-31T14:09:04.834733963012695-07:00']}
