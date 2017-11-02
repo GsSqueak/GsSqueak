@@ -27,6 +27,13 @@ cd $GS_HOME
 cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/projects/GsSqueak.ston $GS_HOME/sys/local/server/projects
 ```
 
+Because of an apparent tode client update bug, you need to delete and re-create the tode client:
+
+```
+deleteClient tode
+createClient tode
+```
+
 ### Create a GsSqueak_test stone - for testing the GsSqueak environment
 
 Bash:
