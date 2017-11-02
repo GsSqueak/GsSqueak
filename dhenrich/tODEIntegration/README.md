@@ -9,6 +9,10 @@ cd $GS_HOME/shared/repos/tode
 git fetch --all
 git checkout appEnv_dev
 git pull origin appEnv_dev
+cd $GS_HOME/shared/repos/glass
+git fetch --all
+git checkout dev
+git pull origin dev
 cd $GS_HOME/shared/repos
 git clone git@github.com:HPI-SWA-Lab/BP2017RH1.git
 cd BP2017RH1
