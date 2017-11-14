@@ -1,0 +1,15 @@
+{
+	"category" : "Drinklist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"balance",
+		"userName" ],
+	"name" : "DrinklistUser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

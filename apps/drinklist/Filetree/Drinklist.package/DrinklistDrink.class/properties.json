@@ -1,0 +1,15 @@
+{
+	"category" : "Drinklist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"price" ],
+	"name" : "DrinklistDrink",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

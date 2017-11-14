@@ -1,0 +1,17 @@
+{
+	"category" : "Drinklist",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mailClient",
+		"users",
+		"inventory",
+		"transactions" ],
+	"name" : "DrinklistCore",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

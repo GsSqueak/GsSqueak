@@ -1,0 +1,1 @@
+DrinklistWebpageFiles addAllFilesIn: '/home/marty/bp/test_with_new_installation'

@@ -1,0 +1,16 @@
+{
+	"category" : "Drinklist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user",
+		"item",
+		"date" ],
+	"name" : "DrinklistTransaction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

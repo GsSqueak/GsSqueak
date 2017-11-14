@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"create:" : "maf 10/26/2017 11:24",
+		"defaultBalance" : "maf 10/26/2017 11:16" },
+	"instance" : {
+		"=" : "WF 11/2/2017 10:07",
+		"addTo:" : "WF 11/1/2017 12:22",
+		"balance" : "maf 10/26/2017 11:14",
+		"balance:" : "maf 10/26/2017 11:14",
+		"initialize" : "WF 11/2/2017 10:32",
+		"pay:" : "maf 10/26/2017 14:42",
+		"takeDrink:" : "maf 10/26/2017 14:19",
+		"transactions" : "maf 10/26/2017 11:14",
+		"transactions:" : "maf 10/26/2017 11:14",
+		"userName" : "maf 10/26/2017 11:23",
+		"userName:" : "maf 10/26/2017 11:23" } }

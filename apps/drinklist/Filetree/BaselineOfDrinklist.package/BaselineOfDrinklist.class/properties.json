@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfDrinklist",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfDrinklist",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
