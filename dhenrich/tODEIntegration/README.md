@@ -41,7 +41,7 @@ Bash:
 ```sh
 createStone GsSqueak_test 3.4.0
 devKitCommandLine todeIt GsSqueak_test << EOF
-  mount @/sys/stone/dirs/GsSqueak/dhenrich/tODEIntegration/tode /home gsSqueak
+  mount $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/tode /home gsSqueak
   /home/gsSqueak/prep
 EOF
 cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/bin/installGsSqueak $GS_HOME/server/stones/GsSqueak_test
