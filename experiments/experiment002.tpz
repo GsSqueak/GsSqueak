@@ -1,0 +1,33 @@
+set user SystemUser p swordfish
+login
+
+run
+Object subclass: 'Object002'
+	instVarNames: #()
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: {}
+	inDictionary: Globals
+%
+
+set compile_env: 7
+
+category: 'experiment'
+method: Object002
+isNumber
+	^ true
+%
+
+commit
+
+# executing a method in compile environment 7
+run
+Object002 @env0: new isNumber
+%
+
+set compile_env: 0
+
+# returns false
+run
+Object002 new isNumber
+%

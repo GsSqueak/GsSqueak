@@ -1,0 +1,48 @@
+set user SystemUser p swordfish
+login
+
+set compile_env: 0
+
+# works
+run
+Object new
+%
+
+set compile_env: 7
+
+#
+# throws error
+run
+Object new
+%
+
+category: 'experiment'
+method: Object
+doesNotUnderstand: aSymbol args: anArray envId: envId
+	^ self @env0: error: 'Object>>doesNotUnderstand:args:envId:[7]'
+%
+
+category: 'experiment'
+method: Object
+doesNotUnderstand: aSymbol
+	^ self @env0: error: 'Object>>doesNotUnderstand:[7]'
+%
+
+set compile_env: 0
+
+category: 'experiment'
+method: Object
+doesNotUnderstand: aSymbol args: anArray envId: envId
+	^ self @env0: error: 'Object>>doesNotUnderstand:args:envId:[0]'
+%
+
+commit
+logout
+login
+
+set compile_env: 7
+
+# prints 'Object>>doesNotUnderstand:args:envId:[0]'
+run
+Object new
+%
