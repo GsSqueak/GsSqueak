@@ -6,9 +6,10 @@ Bash:
 
 ```sh
 cd $GS_HOME/shared/repos/tode
-git fetch --all
-git checkout appEnv_dev
-git pull origin appEnv_dev
+# as of today (06-11-2017, commit 77cf068) appEnv_dev merged into tode master branch
+#git fetch --all
+#git checkout appEnv_dev
+#git pull origin appEnv_dev
 cd $GS_HOME/shared/repos/glass
 git fetch --all
 git checkout dev
