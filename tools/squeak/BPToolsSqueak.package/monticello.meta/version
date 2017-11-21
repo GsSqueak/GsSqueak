@@ -1,1 +1,1 @@
-(name 'BPToolsSqueak-TZ.1' message 'add code server' id '48d4ad09-d309-4ed8-9797-fddc7de28282' date '21 November 2017' time '2:53:13.538799 pm' author 'TZ' ancestors () stepChildren ())
+(name 'BPToolsSqueak-TZ.2' message 'add fileOutTo: method' id '7c5529cb-c3d9-4ee6-ab9d-776ca4e954f2' date '21 November 2017' time '3:25:00.940396 pm' author 'TZ' ancestors ((name 'BPToolsSqueak-TZ.1' message 'add code server' id '48d4ad09-d309-4ed8-9797-fddc7de28282' date '21 November 2017' time '2:53:13.538799 pm' author 'TZ' ancestors () stepChildren ())) stepChildren ())
