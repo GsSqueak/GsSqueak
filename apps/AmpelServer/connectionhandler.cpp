@@ -1,5 +1,8 @@
 #include "connectionhandler.h"
 #include <QDebug>
+#include <string>
+
+using namespace std;
 
 
 ConnectionHandler::ConnectionHandler(QTcpSocket *socketP):
@@ -14,14 +17,21 @@ void ConnectionHandler::read()
 {
     QString in(socket->readAll());
     qDebug() << in;
+
+    string params = "";
+
     if(in.contains("redon"))
-        process.start("sispmctl -o 3");
+        params += " -o 3";
     else if(in.contains("redoff"))
-        process.start("sispmctl -f 3");
-    else if(in.contains("greenon"))
-        process.start("sispmctl -o 4");
+        params += " -f 3";
+
+    if(in.contains("greenon"))
+        params += " -o 4";
     else if(in.contains("greenoff"))
-        process.start("sispmctl -f 4");
+        params += " -f 4";
+
+    if (!params.empty())
+        process.start(("sispmctl" + params).c_str());
 }
 
 void ConnectionHandler::del()
