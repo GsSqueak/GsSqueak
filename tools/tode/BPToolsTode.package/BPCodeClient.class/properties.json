@@ -1,0 +1,14 @@
+{
+	"category" : "BPToolsTode",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tcpSocket" ],
+	"name" : "BPCodeClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

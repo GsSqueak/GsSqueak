@@ -1,4 +1,4 @@
 *BPToolsTode
-squeakLoadMenuAction: a squeakLoad: b
-  a topez evaluateTopezScript: 'browse class ' , b.
-  Transcript show: 'load from Squeak:' , b
+squeakLoadMenuAction: aListItem squeakLoad: aSelectedString
+  BPCodeClient importClass: aSelectedString asSymbol.
+  aListItem topez evaluateTopezScript: 'browse class ' , aSelectedString
