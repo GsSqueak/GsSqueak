@@ -1,0 +1,14 @@
+{
+	"category" : "BPToolsTode",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Socket",
+	"pools" : [
+		 ],
+	"super" : "GsSocket",
+	"type" : "normal" }
