@@ -1,0 +1,48 @@
+set user SystemUser p swordfish
+login
+
+set compile_env: 0
+
+run
+(Object subclass: 'Boolean'
+	instVarNames: #()
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: #()
+	inDictionary: Globals
+	newVersionOf: (Globals at: #Boolean)
+	description: ''
+	options: #()
+	) category: 'Kernel'.
+%
+
+run
+Boolean subclass: 'True'
+	instVarNames: #()
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: {}
+	inDictionary: Globals
+%
+
+set compile_env: 7
+run
+category: 'experiment'
+method: Boolean
+class
+	^ self @env0: class
+%
+
+commit
+
+# executing a method in compile environment 7
+run
+true class
+%
+
+set compile_env: 0
+
+# returns false
+run
+true class
+%

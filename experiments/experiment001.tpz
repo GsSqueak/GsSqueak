@@ -1,0 +1,32 @@
+set user SystemUser p swordfish
+login
+
+run
+Object subclass: 'SqueakyObject'
+	instVarNames: #()
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: {}
+	inDictionary: Globals
+%
+
+set compile_env: 7
+
+category: 'printing'
+method: SqueakyObject
+asString
+	^ 'I am a very squeaky object.'
+%
+
+commit
+
+# executing a method in compile environment 7
+run
+SqueakyObject new asString
+%
+
+# SqueakyObject does not understand #'new'
+run
+SqueakyObject new printString
+%
+

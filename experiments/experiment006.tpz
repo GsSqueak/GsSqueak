@@ -1,0 +1,41 @@
+set user SystemUser p swordfish
+login
+
+set compile_env: 0
+
+category: 'experiment'
+method: Object
+doesNotUnderstand: aSymbol args: anArray envId: envId
+  | ex |
+  (envId = 7) ifTrue: [^ self perform: aSymbol env: 0 withArguments: anArray].
+  (ex := MessageNotUnderstood _basicNew)
+    receiver: self
+    selector: aSymbol
+    args: anArray
+    envId: envId.
+  ^ ex signal
+%
+
+set compile_env: 7
+
+category: 'experiment'
+method: Object
+printString
+	^ 'Hallo, meine lieben Freunde.'
+%
+
+commit
+logout
+login
+
+set compile_env: 7
+
+# prints 'Hallo, meine lieben Freunde.'
+run
+Object new printString
+%
+
+# prints 'anObject'
+run
+Object new describe
+%
