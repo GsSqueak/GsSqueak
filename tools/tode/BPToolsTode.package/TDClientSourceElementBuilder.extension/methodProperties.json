@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
+		"shouldClassBeLoaded:" : "jb 11/23/2017 01:44",
 		"smalltalkMenuActionSpec" : "jb 11/21/2017 05:24",
-		"squeakLoadMenuAction:squeakLoad:" : "TobiasZagorni 11/21/2017 05:46" } }
+		"squeakLoadMenuAction:squeakLoad:" : "jb 11/23/2017 01:53" } }
