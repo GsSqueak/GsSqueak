@@ -4,6 +4,40 @@ login
 set compile_env: 0
 
 category: 'experiment'
+method: Object
+bar
+	^ 42
+%
+
+category: 'experiment'
+method: Object
+foo
+	^ self bar
+%
+
+category: 'experiment'
+method: Object
+bar2
+	^ self size
+%
+
+category: 'experiment'
+method: Object
+foo2
+	^ self bar2
+%
+
+category: 'experiment'
+method: Object
+foo3
+	| str |
+	str := 'GemStone/Smalltalk' at: 3.
+	^ str = 'Hello World'
+		ifTrue: [42]
+		ifFalse: [true and: [false or: self size = 0]]
+%
+
+category: 'experiment'
 method: Behavior
 copyMethod: aSelector to: envId
 	| method |
@@ -17,7 +51,7 @@ copyMethod: aSelector to: envId
 	
 	self
 	  compileMethod: method sourceString
-	  dictionaries: GsSession currentSession userProfile symbolList
+	  dictionaries: GsSession currentSession symbolList
 	  category: (self categoryOfSelector: aSelector environmentId: 0)
 	  environmentId: envId.
 	^ true
@@ -43,15 +77,15 @@ commit
 logout
 login
 
-#'One Ring to rule them all.' doesNotUnderstand: #'truncate' args: {} envId: 7
-
-set compile_env: 7
-
 run
-7 asString
+Object new @env7: bar.
 %
-
-# prints 'anObject'
 run
-'One Ring to rule them all.' size
+Object new @env7: foo.
+%
+run
+Object new @env7: foo2.
+%
+run
+Object new @env7: foo3.
 %

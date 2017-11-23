@@ -1,14 +1,14 @@
-set user DataCurator p swordfish
+set user SystemUser p swordfish
 login
 
 run
 	Object
-	  compileMethod: 'method001'
+	  compileMethod: 'method002'
+	  dictionaries: GsSession currentSession symbolList
 	  category: 'experiment'
-	  using: GsSession currentSession symbolList
 	  environmentId: 7
 %
 
 run
-	Object new @env7: method001
+	Object new @env7: method002
 %

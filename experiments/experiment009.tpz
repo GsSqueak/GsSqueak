@@ -1,10 +1,16 @@
-set user DataCurator p swordfish
+set user SystemUser p swordfish
 login
+
+category: 'experiment'
+method: Object
+foo
+	^ true
+%
 
 run
 	| class selector method envA envB |
-	class := String.
-	selector := #truncate.
+	class := Object.
+	selector := #foo.
 	envA := 0.
 	envB := 7.
 	
@@ -21,7 +27,7 @@ logout
 login
 
 run
-	String compiledMethodAt: #truncate environmentId: 7 otherwise: nil
+Object new @env7: foo
 %
 
 
