@@ -1,0 +1,27 @@
+set user DataCurator p swordfish
+login
+
+run
+	| class selector method envA envB |
+	class := String.
+	selector := #truncate.
+	envA := 0.
+	envB := 7.
+	
+	method := class compiledMethodAt: selector environmentId: envA otherwise: nil.
+	class
+	  compileMethod: method sourceString
+	  dictionaries: GsSession currentSession symbolList
+	  category: (class categoryOfSelector: selector environmentId: envA)
+	  environmentId: envB.
+%
+
+commit
+logout
+login
+
+run
+	String compiledMethodAt: #truncate environmentId: 7 otherwise: nil
+%
+
+

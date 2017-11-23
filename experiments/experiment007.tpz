@@ -1,0 +1,57 @@
+set user SystemUser p swordfish
+login
+
+set compile_env: 0
+
+category: 'experiment'
+method: Behavior
+copyMethod: aSelector to: envId
+	| method |
+	method := self compiledMethodAt: aSelector environmentId: 0 otherwise: nil.
+	method ifNil: [
+		^ self = Object
+			ifTrue: [false]
+			ifFalse: [(self superclassForEnv: 0) copyMethod: aSelector to: envId]].
+	
+	"Transfer method from env0 to envId"
+	
+	self
+	  compileMethod: method sourceString
+	  dictionaries: GsSession currentSession userProfile symbolList
+	  category: (self categoryOfSelector: aSelector environmentId: 0)
+	  environmentId: envId.
+	^ true
+%
+
+category: 'experiment'
+method: Object
+doesNotUnderstand: aSymbol args: anArray envId: envId
+  | ex |
+  (envId = 7) ifTrue: [
+	self class copyMethod: aSymbol to: envId.
+	
+	^ self perform: aSymbol env: 7 withArguments: anArray].
+  (ex := MessageNotUnderstood _basicNew)
+    receiver: self
+    selector: aSymbol
+    args: anArray
+    envId: envId.
+  ^ ex signal
+%
+
+commit
+logout
+login
+
+#'One Ring to rule them all.' doesNotUnderstand: #'truncate' args: {} envId: 7
+
+set compile_env: 7
+
+run
+7 asString
+%
+
+# prints 'anObject'
+run
+'One Ring to rule them all.' size
+%
