@@ -8,4 +8,10 @@ loadClass: aClassSpec
       | err |
       err := sig gsArguments first.
       (err first at: 3) = 'undefined symbol'
-        ifTrue: [ Transcript show: 'missing:' , (err first at: 5) ] ]
+        ifTrue: [ 
+          (GsConfirmInteraction
+            prompt: 'missing superclass: ' , (err first at: 5)
+            confirm: 'Load') signal
+            ifTrue: [ 
+              self importClass: (err first at: 5) asSymbol.
+              self loadClass: aClassSpec ] ] ]
