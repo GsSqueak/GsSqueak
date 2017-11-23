@@ -22,7 +22,7 @@ commit
 
 # executing a method in compile environment 7
 run
-SqueakyObject new asString
+SqueakyObject @env0: new asString
 %
 
 # SqueakyObject does not understand #'new'

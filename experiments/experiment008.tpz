@@ -1,0 +1,20 @@
+set user SystemUser p swordfish
+login
+
+set compile_env: 7
+
+category: 'experiment'
+method: Object
+foobar
+	^ true
+%
+
+commit
+logout
+login
+
+set compile_env: 7
+
+run
+	Object @env0: new foobar
+%
