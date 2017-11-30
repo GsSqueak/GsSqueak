@@ -1,0 +1,63 @@
+
+
+
+set user SystemUser p swordfish
+login
+set compile_env: 7
+
+set compile_env: 7
+category: 'experiment'
+method: Class
+subclass: a instanceVariableNames: b classVariableNames: c poolDictionaries: d category: e
+^ self @env0: subclass: a instanceVariableNames: b classVariableNames: c poolDictionaries: d category: e.
+%
+
+category: 'experiment'
+method: Class
+commentStamp: aStamp prior: anInt
+^ self @env0: commentStamp: aStamp prior: anInt
+%
+
+category: 'experiment'
+method: Class
+methodsFor: categoryName stamp: aString
+^ self @env0: methodsFor: categoryName stamp: aString.
+%
+
+category: 'experiment'
+classmethod: Object
+class
+^ self @env0: class
+%
+
+category: 'experiment'
+method: Metaclass3
+instanceVariableNames: instanceVariableNames
+^ self @env0: instanceVariableNames: instanceVariableNames
+%
+
+category: 'experiment'
+method: Class
+methodsFor: categoryName stamp: aString
+^ self @env0: methodsFor: categoryName stamp: aString
+%
+
+category: 'experiment'
+method: Behavior
+methodsFor: categoryName stamp: aString
+^ self @env0: methodsFor: categoryName stamp: aString
+%
+
+
+
+logout
+
+
+
+set user DataCurator p swordfish
+login
+
+set compile_env: 0
+run
+BPCodeClient importClass: #SMTPClient.
+%
