@@ -1,6 +1,7 @@
 set user SystemUser p swordfish
 login
 
+### Setup ###
 run
 Object subclass: 'ObjectA'
 	instVarNames: #( )
@@ -49,6 +50,8 @@ run
 ObjectB superclassForEnv: 7 put: ObjectA
 %
 
+
+### Tests ###
 env 7
 
 run
@@ -59,9 +62,9 @@ ObjectB new foo
 run
 ObjectB superclassForEnv: 7
 %
-#returns ObjectA
+#returns 'ObjectA'
 
 run
 ObjectB superclass
 %
-#returns Object
+#returns 'Object', expected 'ObjectA'
