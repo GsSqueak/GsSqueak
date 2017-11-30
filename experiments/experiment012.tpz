@@ -1,0 +1,36 @@
+set user SystemUser p swordfish
+login
+
+set compile_env: 0
+
+category: 'experiment'
+method: Object
+bar
+	^ 42
+%
+
+commit
+logout
+set u DataCurator p swordfish
+login
+
+run
+Object new bar
+%
+
+# returns 42
+
+category: 'experiment'
+method: Object
+bar
+	^ 43
+%
+
+commit
+
+logout
+set user SystemUser p swordfish
+login
+#42
+
+#--->>> SystemUser changes methods in shared dictionaries

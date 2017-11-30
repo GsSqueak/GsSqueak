@@ -1,0 +1,14 @@
+set user DataCurator p swordfish
+login
+
+set compile_env: 7
+category: 'experiment'
+classmethod: Object
+foo3
+    ^ 'foo3'
+%
+
+set compile_env: 0
+run
+SmallInteger foo3.
+%
