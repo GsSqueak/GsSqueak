@@ -48,6 +48,81 @@ methodsFor: categoryName stamp: aString
 ^ self @env0: methodsFor: categoryName stamp: aString
 %
 
+set compile_env: 0
+category: 'experiment'
+method: Behavior
+compileMethod: source category: cat environmentId: anEnvironmentId
+  | errorString |
+  [ 
+  self
+    compileMethod: source
+    category: cat
+    using: GsSession currentSession symbolList
+    environmentId: anEnvironmentId
+    ]
+    onException: CompileError
+    do: [ :ex | 
+      errorString := GsNMethod
+        _sourceWithErrors: ex errorDetails
+        fromString: ex sourceString ].
+  errorString
+    ifNotNil: [ 
+      self
+        error:
+          'Compile error in Class: ' , self name printString , ' method: ' , errorString.	"if user continues from the error, we return the errorString"
+      ^ errorString ].
+  ^ nil	"return nil to indicate no errors"
+%
+
+set compile_env: 0
+category: 'experiment'
+method: ClassCategoryReader
+scanFrom: aStream inEnv: envID
+  "File in methods from the stream, aStream."
+
+  | methodText |
+  [ 
+  methodText := aStream nextChunk.
+  methodText size > 0 ]
+    whileTrue: [ 
+      class
+        compileMethod: methodText withGemstoneLineEndings
+        category: category
+        environmentId: envID.
+      changeStamp ~~ nil
+        ifTrue: [ 
+          class
+            setStamp: changeStamp
+            forMethod: (Behavior parseSelector: methodText for: class) ] ]
+%
+
+logout
+set user DataCurator p swordfish
+login
+
+set compile_env: 0
+category: 'experiment'
+method: RWBinaryOrTextStream
+fileInInEnv: envId
+  | val |
+  [ self atEnd ]
+    whileFalse: [ 
+      self skipSeparators.
+      val := (self peekFor: $!)
+        ifTrue: [ 
+          | chunk classReader |
+          chunk := self nextChunk.
+          classReader := chunk evaluateInEnv: envId.
+          classReader scanFrom: self inEnv: envId ]
+        ifFalse: [ self nextChunk evaluateInEnv: envId ] ].
+  ^ val
+%
+
+set compile_env: 0
+category: 'experiment'
+method: ClassCommentReader
+scanFrom: aStream inEnv: anID
+  ^ self scanFrom: aStream
 
 
 logout
