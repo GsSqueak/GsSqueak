@@ -1,0 +1,67 @@
+set user SystemUser p swordfish
+login
+
+run
+Object subclass: 'ObjectA'
+	instVarNames: #( )
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: {}
+	inDictionary: Globals
+%
+
+run
+Object subclass: 'ObjectB'
+	instVarNames: #( )
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: {}
+	inDictionary: Globals
+%
+
+env 7
+
+category: 'experiment'
+method: Object
+foo
+	^ 'Object'
+%
+
+category: 'experiment'
+method: ObjectA
+foo
+	^ 'ObjectA'
+%
+
+category: 'experiment'
+method: ObjectB
+foo
+	^ super foo , ' ObjectB'
+%
+
+commit
+logout
+login
+
+env 0
+
+run
+ObjectB superclassForEnv: 7 put: ObjectA
+%
+
+env 7
+
+run
+ObjectB new foo
+%
+#returns 'Object ObjectB', expected 'ObjectA ObjectB'
+
+run
+ObjectB superclassForEnv: 7
+%
+#returns ObjectA
+
+run
+ObjectB superclass
+%
+#returns Object
