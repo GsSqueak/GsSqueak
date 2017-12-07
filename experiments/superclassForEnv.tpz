@@ -37,7 +37,7 @@ foo
 category: 'experiment'
 method: ObjectB
 foo
-	^ super foo , ' ObjectB'
+	^ super foo @env0: , ' ObjectB'
 %
 
 commit
@@ -53,18 +53,13 @@ ObjectB superclassForEnv: 7 put: ObjectA
 
 ### Tests ###
 env 7
-
 run
-ObjectB new foo
+ObjectB @env0: new foo
 %
 #returns 'Object ObjectB', expected 'ObjectA ObjectB'
 
+env 0
 run
 ObjectB superclassForEnv: 7
 %
 #returns 'ObjectA'
-
-run
-ObjectB superclass
-%
-#returns 'Object', expected 'ObjectA'
