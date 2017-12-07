@@ -1,12 +1,9 @@
-
-
-
 set user SystemUser p swordfish
 login
 set compile_env: 7
 
 set compile_env: 7
-category: 'experiment'
+category: '*BPToolsTode'
 method: Class
 subclass: a instanceVariableNames: b classVariableNames: c poolDictionaries: d category: e
 ^ self @env0: subclass: a instanceVariableNames: b classVariableNames: c poolDictionaries: d category: e.
@@ -48,7 +45,7 @@ methodsFor: categoryName stamp: aString
 ^ self @env0: methodsFor: categoryName stamp: aString
 %
 
-
+commit
 logout
 
 
