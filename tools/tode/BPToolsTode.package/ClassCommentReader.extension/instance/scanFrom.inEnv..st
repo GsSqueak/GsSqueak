@@ -1,2 +1,3 @@
 *BPToolsTode
-scanFrom: aStream inEnv: anID  ^ self scanFrom: aStream
+scanFrom: aStream inEnv: anID
+  ^ self scanFrom: aStream

@@ -2,7 +2,8 @@
 	"class" : {
 		"codeHost" : "TobiasZagorni 11/16/2017 08:39",
 		"fetchClass:" : "jb 11/23/2017 01:47",
-		"importClass:" : "jb 11/23/2017 01:56",
-		"loadClass:" : "jb 11/28/2017 01:38" },
+		"importClass:" : "jb 12/14/2017 01:51",
+		"importClass:inEnv:" : "jb 12/14/2017 01:52",
+		"loadClass:inEnv:" : "jb 12/14/2017 01:53" },
 	"instance" : {
 		 } }
