@@ -1,0 +1,14 @@
+{
+	"category" : "BPToolsSqueak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPCompilerTest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

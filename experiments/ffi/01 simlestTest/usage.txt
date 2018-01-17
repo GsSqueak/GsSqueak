@@ -1,0 +1,4 @@
+| testLib calloutObject result |
+testLib := CLibrary named: '/home/jakob/Studium/bp/BP2017RH1/experiments/ffi/01 simlestTest/my42Lib.so'.
+calloutObject := CCallout library: testLib name: #give42 result: #int32 args: #().
+result := calloutObject callWith: #()
