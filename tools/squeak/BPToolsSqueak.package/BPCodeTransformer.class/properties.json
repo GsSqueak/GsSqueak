@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"squeakCode",
+		"ast",
+		"methodClass" ],
 	"name" : "BPCodeTransformer",
 	"pools" : [
 		 ],

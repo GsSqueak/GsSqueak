@@ -1,5 +1,21 @@
 {
 	"class" : {
-		"transformMethod:" : "jb 1/18/2018 12:04" },
+		 },
 	"instance" : {
-		 } }
+		"ast" : "TZ 1/18/2018 14:15",
+		"ast:" : "TZ 1/18/2018 14:15",
+		"cleanSqueakCode" : "TZ 1/18/2018 14:13",
+		"generateGsCode" : "TZ 1/18/2018 14:12",
+		"hasStyleBlock" : "TZ 1/18/2018 14:24",
+		"methodClass" : "TZ 1/18/2018 14:18",
+		"methodClass:" : "TZ 1/18/2018 14:18",
+		"parse" : "TZ 1/18/2018 14:18",
+		"removeExclamationMark" : "TZ 1/18/2018 14:12",
+		"removeStyleBlock" : "TZ 1/18/2018 14:12",
+		"renameTemporaries" : "TZ 1/18/2018 14:47",
+		"renameTemporary:" : "TZ 1/18/2018 14:50",
+		"squeakCode" : "TZ 1/18/2018 13:56",
+		"squeakCode:" : "TZ 1/18/2018 13:55",
+		"styleBlockBegin" : "TZ 1/18/2018 14:23",
+		"tempVarPrefix" : "TZ 1/18/2018 14:51",
+		"transformMethod:class:" : "TZ 1/18/2018 14:52" } }
