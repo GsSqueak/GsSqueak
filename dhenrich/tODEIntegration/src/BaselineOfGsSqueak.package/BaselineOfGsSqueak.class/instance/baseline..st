@@ -2,7 +2,7 @@ baseline
 baseline: spec
   <baseline>
   spec
-    for: #'gsc3.4.x'
+    for: #(#'gsc3.4.x' #'gsc3.5.x')
     do: [ 
       spec
         package: 'Cypress-Environmental-Tools';
@@ -22,7 +22,7 @@ baseline: spec
         package: 'GsSqueak-ProofOfConcept2';
         yourself ].
   spec
-    for: #'gs3.4.x'
+    for: #(#'gs3.4.x' #'gs3.5.x')
     do: [ 
       spec
         package: 'GsSqueak-Tode-Extensions';
