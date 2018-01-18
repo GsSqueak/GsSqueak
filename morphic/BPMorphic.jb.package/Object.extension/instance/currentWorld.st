@@ -1,0 +1,2 @@
+*BPMorphic
+currentWorld  ^ WorldProvider getWorld
