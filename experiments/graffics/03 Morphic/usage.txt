@@ -5,9 +5,10 @@ Display := DisplayScreen new.
   Display beDisplay.
   WorldProvider setWorld: nil.
   WorldProvider getWorld.
-  WorldProvider getWorld viewBox: (0 @ 0 corner: 400 @ 400).
+  WorldProvider getWorld viewBox: (0 @ 0 corner: 100 @ 100).
   RectangleMorph new openInWorld.
   WorldProvider getWorld doOneCycle.
   (ServerFileDirectory on: '/home/jakob/')
     readOnlyFileNamed: 'Morph.st'
-    do: [ :fileStream | fileStream fileIn ] AnimWorldState initialize
+    do: [ :fileStream | fileStream fileIn ] AnimWorldState initializ.
+  Display forceToScreen
