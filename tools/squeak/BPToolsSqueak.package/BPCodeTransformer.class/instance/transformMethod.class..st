@@ -4,4 +4,5 @@ transformMethod: aMethodString class: aClass
 	self squeakCode: aMethodString.
 	self cleanSqueakCode.
 	self parse.
+	self renameTemporaries.
 	^ self generateGsCode.
