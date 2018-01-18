@@ -1,0 +1,2 @@
+classification
+isStickySketchMorph	^ false

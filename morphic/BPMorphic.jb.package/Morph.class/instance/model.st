@@ -1,0 +1,2 @@
+menus
+model	^ nil

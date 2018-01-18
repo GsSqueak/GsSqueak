@@ -1,0 +1,2 @@
+testing
+isImageMorph	^ false

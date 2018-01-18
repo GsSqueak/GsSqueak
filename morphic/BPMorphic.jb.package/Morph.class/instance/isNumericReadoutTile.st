@@ -1,0 +1,2 @@
+classification
+isNumericReadoutTile	^ false

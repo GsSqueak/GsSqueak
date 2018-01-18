@@ -1,0 +1,2 @@
+classification
+isPlayfieldLike	^ true

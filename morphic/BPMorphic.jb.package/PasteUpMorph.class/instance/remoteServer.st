@@ -1,0 +1,2 @@
+Nebraska
+remoteServer	^ worldState remoteServer

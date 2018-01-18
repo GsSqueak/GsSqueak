@@ -1,0 +1,2 @@
+classification
+isWorldMorph	^ worldState notNil

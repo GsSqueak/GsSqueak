@@ -1,0 +1,2 @@
+options
+indicateCursor	^ indicateCursor == true

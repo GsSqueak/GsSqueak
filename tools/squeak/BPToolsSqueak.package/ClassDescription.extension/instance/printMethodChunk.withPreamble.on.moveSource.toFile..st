@@ -39,7 +39,7 @@ printMethodChunk: selector withPreamble: doPreamble on: outStream
 		sourceFile peek == $] ifTrue: [
 			methodSource cr; copyMethodChunkFrom: sourceFile].
 
-		outStream nextPutAll:  (BPCodeTransformer transformMethod: (methodSource contents allButLast)), '!'.
+		outStream nextPutAll:  (BPCodeTransformer transformMethod: (methodSource contents)).
 		
 
 		

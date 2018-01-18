@@ -1,0 +1,2 @@
+player
+shouldRememberCostumes	^ true

@@ -1,0 +1,2 @@
+classification
+isCompoundTileMorph	^ false

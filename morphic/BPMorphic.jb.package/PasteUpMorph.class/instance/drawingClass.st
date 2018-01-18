@@ -1,0 +1,2 @@
+world menu
+drawingClass	^ SketchMorph

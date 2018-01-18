@@ -1,0 +1,2 @@
+parts bin
+partRepresented	^ self
