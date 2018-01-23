@@ -1,0 +1,2 @@
+accessing
+lastFontForegroundColor	^ lastFontForegroundColor

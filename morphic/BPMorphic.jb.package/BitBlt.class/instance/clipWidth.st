@@ -1,0 +1,2 @@
+accessing
+clipWidth	^ clipWidth

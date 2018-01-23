@@ -1,0 +1,2 @@
+other
+flushDisplay	"Dummy ."	^ self

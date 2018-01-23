@@ -1,0 +1,2 @@
+Nebraska/embeddedWorlds
+displayIsFullyUpdated	^ self

@@ -1,0 +1,2 @@
+drawing support
+fillRect: rect offset: aPoint 	"The offset is really just for stupid InfiniteForms."	| _gsSqueakTemp_fc |	fillPattern class == InfiniteForm		ifTrue: [_gsSqueakTemp_fc := halftoneForm.			self fillColor: nil.			fillPattern				displayOnPort: ((self clippedBy: rect)						colorMap: nil)				at: aPoint.			halftoneForm := _gsSqueakTemp_fc.			^ self].	destX := rect left.	destY := rect top.	sourceX := 0.	sourceY := 0.	width := rect width.	height := rect height.	self copyBits
