@@ -1,0 +1,6 @@
+*BPToolsSqueak
+topazTail
+^ '
+commit
+logout
+'

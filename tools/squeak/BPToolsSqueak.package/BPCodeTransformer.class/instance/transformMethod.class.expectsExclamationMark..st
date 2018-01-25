@@ -1,5 +1,6 @@
 transforming
-transformMethod: aMethodString class: aClass
+transformMethod: aMethodString class: aClass expectsExclamationMark: aBoolean
+	self expectsExclamationMark: aBoolean.
 	self methodClass: aClass.
 	self squeakCode: aMethodString.
 	self cleanSqueakCode.
