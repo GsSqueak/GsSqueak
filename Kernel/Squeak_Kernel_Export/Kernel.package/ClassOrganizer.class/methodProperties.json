@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"cleanUp:" : "ar 2/26/2010 23:01" },
+	"instance" : {
+		"addCategory:before:" : "laza 12/8/2011 14:54",
+		"changeFromCategorySpecs:" : "NS 4/15/2004 12:28",
+		"classify:under:logged:" : "bf 4/12/2012 16:14",
+		"classify:under:suppressIfDefault:" : "bf 4/12/2012 16:13",
+		"classify:under:suppressIfDefault:logged:" : "bf 4/12/2012 16:13",
+		"logChangedSelector:category:" : "bf 4/12/2012 15:31",
+		"logSelectorsInChangedCategory:" : "bf 4/12/2012 15:02",
+		"notifyOfChangedCategoriesFrom:to:" : "NS 4/7/2004 10:15",
+		"notifyOfChangedSelector:from:to:" : "NS 4/16/2004 10:47",
+		"notifyOfChangedSelectorsOldDict:newDict:" : "nice 12/26/2009 09:44",
+		"removeCategory:" : "laza 12/8/2011 14:53",
+		"removeElement:" : "NS 4/7/2004 10:37",
+		"removeEmptyCategories" : "NS 4/7/2004 10:38",
+		"renameCategory:toBe:" : "bf 4/12/2012 15:03",
+		"setDefaultList:" : "NS 4/12/2004 20:57",
+		"sortCategories" : "NS 4/7/2004 10:38" } }

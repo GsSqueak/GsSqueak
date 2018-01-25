@@ -1,0 +1,15 @@
+{
+	"category" : "Kernel-Models",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UseColorfulWindows",
+		"WindowActiveOnFirstClick" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"dependents" ],
+	"name" : "Model",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

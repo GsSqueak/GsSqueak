@@ -1,0 +1,18 @@
+{
+	"category" : "Kernel-Exceptions-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"messageText",
+		"tag",
+		"signalContext",
+		"handlerContext",
+		"outerContext" ],
+	"name" : "Exception",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,28 @@
+{
+	"category" : "Kernel-Numbers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"MTa",
+		"MTbShifted",
+		"MTcShifted",
+		"MTl",
+		"MTlowerMask",
+		"MTm",
+		"MTn",
+		"MTs",
+		"MTt",
+		"MTu",
+		"MTupperMask",
+		"MTw",
+		"MTwFloatMultiplier",
+		"MTwordMask" ],
+	"commentStamp" : "ul 2/20/2015 09:44",
+	"instvars" : [
+		"states",
+		"index" ],
+	"name" : "Random",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

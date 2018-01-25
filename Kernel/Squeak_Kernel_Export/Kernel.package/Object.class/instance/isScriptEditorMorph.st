@@ -1,0 +1,3 @@
+testing
+isScriptEditorMorph
+	^false

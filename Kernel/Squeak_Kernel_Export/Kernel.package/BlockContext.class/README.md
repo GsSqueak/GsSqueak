@@ -1,0 +1,5 @@
+My instances function similarly to instances of MethodContext, but they hold the dynamic state for execution of a block in Smalltalk. They access all temporary variables and the method sender via their home pointer, so that those values are effectively shared. Their indexable part is used to store their independent value stack during execution.
+	
+My instance must hold onto its home in order to work. This can cause circularities if the home is also pointing (via a temp, perhaps) to the instance. In the rare event that this happens (as in SortedCollection sortBlock:) the message fixTemps will replace home with a copy of home, thus defeating the sharing of temps but, nonetheless, eliminating the circularity.
+
+BlockContexts must only be created using the method newForMethod:.  Note that it is impossible to determine the real object size of a BlockContext except by asking for the frameSize of its method.  Any fields above the stack pointer (stackp) are truly invisible -- even (and especially!) to the garbage collector.  Any store into stackp other than by the primitive method stackp: is potentially fatal.

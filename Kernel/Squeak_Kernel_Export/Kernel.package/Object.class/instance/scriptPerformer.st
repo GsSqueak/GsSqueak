@@ -1,0 +1,4 @@
+macpal
+scriptPerformer
+
+	^ self

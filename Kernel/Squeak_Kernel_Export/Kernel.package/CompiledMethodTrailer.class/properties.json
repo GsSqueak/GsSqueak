@@ -1,0 +1,18 @@
+{
+	"category" : "Kernel-Methods",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ul 12/31/2009 19:03",
+	"instvars" : [
+		"data",
+		"encodedData",
+		"kind",
+		"size",
+		"method" ],
+	"name" : "CompiledMethodTrailer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

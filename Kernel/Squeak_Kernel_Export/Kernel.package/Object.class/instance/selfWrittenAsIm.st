@@ -1,0 +1,4 @@
+scripting
+selfWrittenAsIm
+
+	^self
