@@ -1,0 +1,2 @@
+testing
+doesRoundedCorners	^ true

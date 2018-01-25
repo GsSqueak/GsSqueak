@@ -1,0 +1,2 @@
+testing
+isPostscriptCanvas	^ false

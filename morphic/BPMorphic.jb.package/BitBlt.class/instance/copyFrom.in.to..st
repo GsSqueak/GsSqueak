@@ -1,0 +1,2 @@
+copying
+copyFrom: sourceRectangle in: srcForm to: destPt 	| _gsSqueakTemp_sourceOrigin |	sourceForm := srcForm.	halftoneForm := nil.	combinationRule := 3.	"store"	destX := destPt x.	destY := destPt y.	_gsSqueakTemp_sourceOrigin := sourceRectangle origin.	sourceX := _gsSqueakTemp_sourceOrigin x.	sourceY := _gsSqueakTemp_sourceOrigin y.	width := sourceRectangle width.	height := sourceRectangle height.	colorMap := srcForm colormapIfNeededFor: destForm.	self copyBits

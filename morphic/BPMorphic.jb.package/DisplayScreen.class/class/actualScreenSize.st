@@ -1,2 +1,2 @@
 snapshots
-actualScreenSize	self halt.	^ 640 @ 480
+actualScreenSize  "TODO:"  ^ 640 @ 480

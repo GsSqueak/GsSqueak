@@ -1,0 +1,2 @@
+configuring
+filterSelector	^ #writeOnFilterStream:

@@ -1,2 +1,2 @@
 world state
-fullRepaintNeeded	worldState doFullRepaint.	SystemWindow		windowsIn: self		satisfying: [:w | 			w makeMeVisible.			false]
+fullRepaintNeeded  worldState doFullRepaint	"TODO: SystemWindow		windowsIn: self		satisfying: [:w | 			w makeMeVisible.			false]"
