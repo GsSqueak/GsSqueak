@@ -1,19 +1,17 @@
 as yet unclassified
 runServer
-	| class symbol writeStream |
+	| class symbol |
 
 	TcpSocket ifNotNil: [TcpSocket close].
 	
 	[[true] whileTrue: [
 		TcpSocket := Socket newTCP.
-		TcpSocket listenOn: 1742.
+		TcpSocket listenOn: self serverPort .
 		(TcpSocket waitForConnectionFor: 10000 ifTimedOut: [nil] ifRefused: [nil]) ifNotNil: [
 			symbol := (self removeNewLineFromString: (TcpSocket receiveData)) asSymbol.
 			class := Smalltalk at: symbol ifAbsent: [nil].
-		
+			
 			class ifNotNil: [
-				writeStream := WriteStream on: ''.
-				class fileOutTo: writeStream.
-				TcpSocket sendData: writeStream contents]].
+				self respondForClass: class]].
 		TcpSocket close]] fork.
 	

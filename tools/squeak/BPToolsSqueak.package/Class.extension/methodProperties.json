@@ -2,4 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"fileOutTo:" : "jb 1/11/2018 13:13" } }
+		"fileOutTo:" : "jb 1/11/2018 13:13",
+		"fileOutTopazStyleTo:" : "TZ 1/18/2018 17:42",
+		"topazClassDefinition" : "TZ 1/18/2018 16:58",
+		"topazHead" : "TZ 1/18/2018 18:10",
+		"topazMethodDefinition:" : "TZ 1/18/2018 17:14",
+		"topazTail" : "TZ 1/18/2018 17:42",
+		"transformedMethodSource:" : "TZ 1/18/2018 17:18" } }

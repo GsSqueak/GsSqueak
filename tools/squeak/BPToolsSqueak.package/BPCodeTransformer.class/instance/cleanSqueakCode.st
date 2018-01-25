@@ -2,5 +2,6 @@ transforming
 cleanSqueakCode
 	self hasStyleBlock ifTrue: [
 		self removeStyleBlock ].
-	self removeExclamationMark.
+	self expectsExclamationMark ifTrue: [
+		self removeExclamationMark ].
 	

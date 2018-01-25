@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"squeakCode",
-		"ast",
-		"methodClass",
-		"expectsExclamationMark" ],
-	"name" : "BPCodeTransformer",
+		 ],
+	"name" : "BPTopazCodeServer",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BPCodeServer",
 	"type" : "normal" }
