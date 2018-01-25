@@ -1,0 +1,22 @@
+{
+	"category" : "SqProcess",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"actualGsProcess",
+		"suspendedContext",
+		"myList",
+		"threadId",
+		"effectiveProcess",
+		"name",
+		"island",
+		"env",
+		"nextLink" ],
+	"name" : "Process",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,5 @@
+as yet unclassified
+nextLink
+  "Answer the link to which the receiver points."
+
+  ^ nextLink
