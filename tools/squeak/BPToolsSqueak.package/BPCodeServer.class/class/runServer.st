@@ -2,7 +2,7 @@ as yet unclassified
 runServer
 	| class symbol writeStream |
 
-	TcpSocket ifNotNil: [TcpSocket close].
+	TcpSocket ifNotNil: [self killServer].
 	
 	[[true] whileTrue: [
 		TcpSocket := Socket newTCP.
