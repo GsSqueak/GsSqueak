@@ -1,0 +1,2 @@
+special classes
+classSemaphore	^ Semaphore

@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "CArrayAccessor",
+	"pools" : [
+		 ],
+	"super" : "CObjectAccessor",
+	"type" : "normal" }

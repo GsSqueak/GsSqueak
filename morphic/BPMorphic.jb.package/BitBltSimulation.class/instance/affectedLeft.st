@@ -1,0 +1,2 @@
+accessing
+affectedLeft	^ affectedL

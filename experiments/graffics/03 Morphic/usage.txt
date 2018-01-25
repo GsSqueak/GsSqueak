@@ -1,10 +1,10 @@
-Display := DisplayScreen new.
+Smalltalk at: #'Display' put: DisplayScreen new.
   Display setExtent: 640 @ 480 depth: 32.
   1 to: 10000 do: [ :nr | Display bits byteAt: nr * 4 put: 255 ].
   Display offset: 0 @ 0.
   Display beDisplay.
   WorldProvider setWorld: nil.
-  WorldProvider getWorld.
+  Smalltalk at: #'World' put: WorldProvider getWorld.
   WorldProvider getWorld viewBox: (0 @ 0 corner: 640 @ 480).
   RectangleMorph new openInWorld.
   WorldProvider getWorld doOneCycle.

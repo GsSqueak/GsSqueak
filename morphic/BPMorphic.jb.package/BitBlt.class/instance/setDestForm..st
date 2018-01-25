@@ -1,2 +1,2 @@
 private
-setDestForm: df 	| _gsSqueakTemp_bb |	_gsSqueakTemp_bb := df boundingBox.	destForm := df.	clipX := _gsSqueakTemp_bb left.	clipY := _gsSqueakTemp_bb top.	clipWidth := _gsSqueakTemp_bb width.	clipHeight := _gsSqueakTemp_bb height
+setDestForm: df 	| bb |	bb := df boundingBox.	destForm := df.	clipX := bb left.	clipY := bb top.	clipWidth := bb width.	clipHeight := bb height

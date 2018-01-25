@@ -1,0 +1,2 @@
+equality
+hash	^ rgb

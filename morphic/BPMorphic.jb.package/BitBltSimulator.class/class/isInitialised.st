@@ -1,0 +1,2 @@
+accessing
+isInitialised	^ isInitialised

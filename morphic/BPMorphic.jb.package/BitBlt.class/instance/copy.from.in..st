@@ -1,2 +1,2 @@
 copying
-copy: destRectangle from: sourcePt in: srcForm 	| _gsSqueakTemp_destOrigin |	sourceForm := srcForm.	halftoneForm := nil.	combinationRule := 3.	"store"	_gsSqueakTemp_destOrigin := destRectangle origin.	destX := _gsSqueakTemp_destOrigin x.	destY := _gsSqueakTemp_destOrigin y.	sourceX := sourcePt x.	sourceY := sourcePt y.	width := destRectangle width.	height := destRectangle height.	self copyBits
+copy: destRectangle from: sourcePt in: srcForm 	| destOrigin |	sourceForm := srcForm.	halftoneForm := nil.	combinationRule := 3.	"store"	destOrigin := destRectangle origin.	destX := destOrigin x.	destY := destOrigin y.	sourceX := sourcePt x.	sourceY := sourcePt y.	width := destRectangle width.	height := destRectangle height.	self copyBits

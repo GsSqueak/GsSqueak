@@ -1,0 +1,2 @@
+accessing
+asForm	^ patternForm
