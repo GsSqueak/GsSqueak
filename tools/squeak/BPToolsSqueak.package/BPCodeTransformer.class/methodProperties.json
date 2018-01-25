@@ -4,7 +4,9 @@
 	"instance" : {
 		"ast" : "TZ 1/18/2018 14:15",
 		"ast:" : "TZ 1/18/2018 14:15",
-		"cleanSqueakCode" : "TZ 1/18/2018 14:13",
+		"cleanSqueakCode" : "TZ 1/18/2018 17:19",
+		"expectsExclamationMark" : "TZ 1/18/2018 17:17",
+		"expectsExclamationMark:" : "TZ 1/18/2018 17:17",
 		"generateGsCode" : "TZ 1/18/2018 14:12",
 		"hasStyleBlock" : "TZ 1/18/2018 14:24",
 		"methodClass" : "TZ 1/18/2018 14:18",
@@ -18,4 +20,4 @@
 		"squeakCode:" : "TZ 1/18/2018 13:55",
 		"styleBlockBegin" : "TZ 1/18/2018 14:23",
 		"tempVarPrefix" : "TZ 1/18/2018 14:51",
-		"transformMethod:class:" : "TZ 1/18/2018 14:52" } }
+		"transformMethod:class:expectsExclamationMark:" : "TZ 1/18/2018 17:18" } }
