@@ -1,2 +1,4 @@
 translation
-isStructClass	"The various VMStructType classes override this."	^ false
+isStructClass
+	"The various VMStructType classes override this."
+	^ false

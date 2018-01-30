@@ -1,2 +1,3 @@
 named colors
-paleRed	^ PaleRed
+paleRed
+	^ PaleRed

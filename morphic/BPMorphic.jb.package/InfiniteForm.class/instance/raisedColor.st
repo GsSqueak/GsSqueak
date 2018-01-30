@@ -1,2 +1,3 @@
 displaying
-raisedColor	^ Color transparent
+raisedColor
+	^ Color transparent

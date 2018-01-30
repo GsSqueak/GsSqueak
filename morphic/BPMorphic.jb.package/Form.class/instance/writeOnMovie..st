@@ -1,2 +1,5 @@
 fileIn/Out
-writeOnMovie: file 	"Write just my bits on the file."	self unhibernate.	bits writeUncompressedOn: file
+writeOnMovie: file 
+	"Write just my bits on the file."
+	self unhibernate.
+	bits writeUncompressedOn: file

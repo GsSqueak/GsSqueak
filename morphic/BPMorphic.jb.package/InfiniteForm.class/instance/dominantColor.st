@@ -1,2 +1,3 @@
 accessing
-dominantColor	^ patternForm dominantColor
+dominantColor
+	^ patternForm dominantColor

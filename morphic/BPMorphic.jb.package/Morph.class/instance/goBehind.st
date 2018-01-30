@@ -1,2 +1,3 @@
 submorphs-add/remove
-goBehind	owner addMorphNearBack: self
+goBehind
+	owner addMorphNearBack: self

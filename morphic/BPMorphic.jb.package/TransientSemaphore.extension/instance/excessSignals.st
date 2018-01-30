@@ -1,2 +1,3 @@
 *BPMorphic
-excessSignals  ^ self semaphore excessSignals
+excessSignals
+  ^ self semaphore excessSignals

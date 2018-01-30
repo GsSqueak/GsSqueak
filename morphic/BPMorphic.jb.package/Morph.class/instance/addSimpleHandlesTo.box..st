@@ -1,2 +1,3 @@
 halos and balloon help
-addSimpleHandlesTo: aHaloMorph box: aBox 	^ aHaloMorph addSimpleHandlesTo: aHaloMorph box: aBox
+addSimpleHandlesTo: aHaloMorph box: aBox 
+	^ aHaloMorph addSimpleHandlesTo: aHaloMorph box: aBox

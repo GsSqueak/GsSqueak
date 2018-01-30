@@ -1,2 +1,3 @@
 as yet unclassified
-cArray: aCArray  cArray := aCArray
+cArray: aCArray
+  cArray := aCArray

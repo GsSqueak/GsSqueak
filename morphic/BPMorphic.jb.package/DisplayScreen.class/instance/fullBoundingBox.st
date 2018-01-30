@@ -1,2 +1,3 @@
 other
-fullBoundingBox	^ super boundingBox
+fullBoundingBox
+	^ super boundingBox

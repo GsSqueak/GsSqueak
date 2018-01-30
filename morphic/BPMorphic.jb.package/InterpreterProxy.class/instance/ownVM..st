@@ -1,2 +1,3 @@
 FFI support
-ownVM: flags 	^ self notYetImplementedError
+ownVM: flags 
+	^ self notYetImplementedError

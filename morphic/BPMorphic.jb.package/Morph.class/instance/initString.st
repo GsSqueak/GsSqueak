@@ -1,2 +1,4 @@
 printing
-initString	^ String		streamContents: [:s | self fullPrintOn: s]
+initString
+	^ String
+		streamContents: [:s | self fullPrintOn: s]

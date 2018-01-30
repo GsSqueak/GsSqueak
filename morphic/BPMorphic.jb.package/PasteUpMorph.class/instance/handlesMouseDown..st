@@ -1,2 +1,3 @@
 event handling
-handlesMouseDown: evt 	^ true
+handlesMouseDown: evt 
+	^ true

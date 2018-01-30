@@ -1,2 +1,5 @@
 other
-boundingBox	clippingBox == nil		ifTrue: [clippingBox := super boundingBox].	^ clippingBox
+boundingBox
+	clippingBox == nil
+		ifTrue: [clippingBox := super boundingBox].
+	^ clippingBox

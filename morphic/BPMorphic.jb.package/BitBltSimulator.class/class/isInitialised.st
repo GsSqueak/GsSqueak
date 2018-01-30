@@ -1,2 +1,3 @@
 accessing
-isInitialised	^ isInitialised
+isInitialised
+	^ isInitialised

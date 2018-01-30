@@ -1,2 +1,3 @@
 events-filtering-capturing
-eventCaptureFilters	^ self valueOfProperty: #eventCaptureFilters
+eventCaptureFilters
+	^ self valueOfProperty: #eventCaptureFilters

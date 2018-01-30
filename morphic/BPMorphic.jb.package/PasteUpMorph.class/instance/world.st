@@ -1,2 +1,4 @@
 structure
-world	worldState		ifNil: [^ super world]
+world
+	worldState
+		ifNil: [^ super world]

@@ -1,2 +1,3 @@
 named colors
-black	^ Black
+black
+	^ Black

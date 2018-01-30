@@ -1,2 +1,3 @@
 instance creation
-newSticky	^ self new beSticky
+newSticky
+	^ self new beSticky

@@ -1,2 +1,3 @@
 options
-wantsMouseOverHalos	^ wantsMouseOverHalos == true
+wantsMouseOverHalos
+	^ wantsMouseOverHalos == true

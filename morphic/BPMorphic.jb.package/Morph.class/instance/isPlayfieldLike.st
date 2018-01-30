@@ -1,2 +1,3 @@
 classification
-isPlayfieldLike	^ false
+isPlayfieldLike
+	^ false

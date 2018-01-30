@@ -1,2 +1,3 @@
 instance creation
-inset	^ InsetBorder new
+inset
+	^ InsetBorder new

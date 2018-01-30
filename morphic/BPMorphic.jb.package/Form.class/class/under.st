@@ -1,2 +1,4 @@
 mode constants
-under	"Answer the integer denoting mode under."	^ 7
+under
+	"Answer the integer denoting mode under."
+	^ 7

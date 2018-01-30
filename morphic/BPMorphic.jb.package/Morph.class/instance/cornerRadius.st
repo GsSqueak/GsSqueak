@@ -1,2 +1,5 @@
 rounding
-cornerRadius	^ self		valueOfProperty: #cornerRadius		ifAbsent: [self class preferredCornerRadius]
+cornerRadius
+	^ self
+		valueOfProperty: #cornerRadius
+		ifAbsent: [self class preferredCornerRadius]

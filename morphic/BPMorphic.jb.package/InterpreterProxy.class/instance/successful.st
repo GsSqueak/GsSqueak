@@ -1,2 +1,3 @@
 other
-successful	^ primFailCode == 0
+successful
+	^ primFailCode == 0

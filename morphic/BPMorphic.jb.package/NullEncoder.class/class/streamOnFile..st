@@ -1,2 +1,4 @@
 creation
-streamOnFile: fileName 	^ self new		initWithTarget: (FileStream newFileNamed: fileName)
+streamOnFile: fileName 
+	^ self new
+		initWithTarget: (FileStream newFileNamed: fileName)

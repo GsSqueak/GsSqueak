@@ -1,2 +1,3 @@
 system simulation
-simulatorClass	^ BitBltSimulator
+simulatorClass
+	^ BitBltSimulator

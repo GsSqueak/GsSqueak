@@ -1,2 +1,3 @@
 Nebraska
-hasRemoteServer	^ self remoteServer notNil
+hasRemoteServer
+	^ self remoteServer notNil

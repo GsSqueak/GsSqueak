@@ -1,2 +1,3 @@
 queries
-isTranslucent	^ false
+isTranslucent
+	^ false

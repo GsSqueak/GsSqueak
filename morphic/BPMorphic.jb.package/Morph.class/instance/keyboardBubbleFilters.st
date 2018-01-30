@@ -1,2 +1,3 @@
 events-filtering-bubbling
-keyboardBubbleFilters	^ self valueOfProperty: #keyboardBubbleFilters
+keyboardBubbleFilters
+	^ self valueOfProperty: #keyboardBubbleFilters

@@ -1,2 +1,3 @@
 named colors
-brown	^ Brown
+brown
+	^ Brown

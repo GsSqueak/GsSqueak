@@ -1,2 +1,3 @@
 accessing
-removeModalWindow	self modalWindow: nil
+removeModalWindow
+	self modalWindow: nil

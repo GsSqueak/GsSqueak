@@ -1,2 +1,3 @@
 object access
-methodArgumentCount	^ argumentCount
+methodArgumentCount
+	^ argumentCount

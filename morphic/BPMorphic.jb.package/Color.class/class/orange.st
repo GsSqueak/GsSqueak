@@ -1,2 +1,3 @@
 named colors
-orange	^ Orange
+orange
+	^ Orange

@@ -1,2 +1,3 @@
 drawing
-changeClipSubmorphs	self clipSubmorphs: self clipSubmorphs not
+changeClipSubmorphs
+	self clipSubmorphs: self clipSubmorphs not

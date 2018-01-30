@@ -1,2 +1,4 @@
 accessing
-baseColor: aColor 	"Ignored"	^ self
+baseColor: aColor 
+	"Ignored"
+	^ self

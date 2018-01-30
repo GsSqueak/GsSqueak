@@ -1,2 +1,3 @@
 classification
-isModalShell	^ false
+isModalShell
+	^ false

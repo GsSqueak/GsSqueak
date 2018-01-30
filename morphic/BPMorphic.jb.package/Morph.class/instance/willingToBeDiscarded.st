@@ -1,2 +1,3 @@
 dropping/grabbing
-willingToBeDiscarded	^ true
+willingToBeDiscarded
+	^ true

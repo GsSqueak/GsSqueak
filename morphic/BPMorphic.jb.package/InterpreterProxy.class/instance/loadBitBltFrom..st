@@ -1,2 +1,3 @@
 BitBlt support
-loadBitBltFrom: bbOop 	bb := bbOop
+loadBitBltFrom: bbOop 
+	bb := bbOop

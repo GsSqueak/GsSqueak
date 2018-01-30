@@ -1,2 +1,3 @@
 menus
-exploreInMorphic	ToolSet explore: self
+exploreInMorphic
+	ToolSet explore: self

@@ -1,2 +1,3 @@
 classification
-isStandardViewer	^ false
+isStandardViewer
+	^ false

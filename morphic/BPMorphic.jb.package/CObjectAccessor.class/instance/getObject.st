@@ -1,2 +1,3 @@
 private
-getObject	^ object
+getObject
+	^ object

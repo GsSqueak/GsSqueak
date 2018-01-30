@@ -1,2 +1,3 @@
 translation
-exportAPISelectors	^ self exportAPISelectorsFor: self
+exportAPISelectors
+	^ self exportAPISelectorsFor: self

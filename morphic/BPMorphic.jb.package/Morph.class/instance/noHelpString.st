@@ -1,2 +1,3 @@
 halos and balloon help
-noHelpString	^ 'Help not yet supplied' translated
+noHelpString
+	^ 'Help not yet supplied' translated

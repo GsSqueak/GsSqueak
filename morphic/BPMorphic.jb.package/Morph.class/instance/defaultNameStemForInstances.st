@@ -1,2 +1,3 @@
 accessing
-defaultNameStemForInstances	^ self class name
+defaultNameStemForInstances
+	^ self class name

@@ -1,2 +1,3 @@
 pointer arithmetic
-- decrement 	^ self shallowCopy -= decrement
+- decrement 
+	^ self shallowCopy -= decrement

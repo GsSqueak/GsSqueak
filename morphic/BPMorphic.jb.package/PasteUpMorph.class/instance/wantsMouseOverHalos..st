@@ -1,2 +1,3 @@
 options
-wantsMouseOverHalos: aBoolean 	wantsMouseOverHalos := aBoolean
+wantsMouseOverHalos: aBoolean 
+	wantsMouseOverHalos := aBoolean

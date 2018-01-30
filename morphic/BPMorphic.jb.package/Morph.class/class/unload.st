@@ -1,2 +1,3 @@
 initialize-release
-unload	FileList unregisterFileReader: self
+unload
+	FileList unregisterFileReader: self

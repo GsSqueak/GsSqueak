@@ -1,2 +1,4 @@
 accessing
-width: aNumber 	"Ignored"	^ self
+width: aNumber 
+	"Ignored"
+	^ self

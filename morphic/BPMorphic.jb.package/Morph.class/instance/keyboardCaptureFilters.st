@@ -1,2 +1,3 @@
 events-filtering-capturing
-keyboardCaptureFilters	^ self valueOfProperty: #keyboardCaptureFilters
+keyboardCaptureFilters
+	^ self valueOfProperty: #keyboardCaptureFilters

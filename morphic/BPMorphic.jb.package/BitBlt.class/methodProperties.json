@@ -2,6 +2,7 @@
 	"class" : {
 		"alphaBlendDemo" : "di 12/1/97 12:08",
 		"antiAliasDemo" : "di 12/1/97 12:09",
+		"asGrafPort" : "Anonymous 01/30/2018 02:14",
 		"benchDiffsFrom:to:" : "nice 6/11/2010 21:32",
 		"benchmark" : "nice 12/27/2009 03:11",
 		"benchmark2" : "nice 12/27/2009 03:11",
@@ -48,7 +49,7 @@
 		"copy:from:in:" : "jb 01/25/2018 01:14",
 		"copy:from:in:fillColor:rule:" : "ar 5/14/2001 23:32",
 		"copy:from:in:halftoneForm:rule:" : "jb 01/25/2018 01:14",
-		"copyBits" : "jb 01/25/2018 06:07",
+		"copyBits" : "jb 01/30/2018 01:34",
 		"copyBitsAgain" : "ar 2/2/2001 15:09",
 		"copyBitsFrom:to:at:" : "ar 10/25/1998 17:30",
 		"copyBitsTranslucent:" : "nk 4/17/2004 19:42",

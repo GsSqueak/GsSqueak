@@ -1,2 +1,3 @@
 fillstyle protocol
-direction	^ patternForm width @ 0
+direction
+	^ patternForm width @ 0

@@ -1,2 +1,3 @@
 testing
-isMenuItemMorph	^ false
+isMenuItemMorph
+	^ false

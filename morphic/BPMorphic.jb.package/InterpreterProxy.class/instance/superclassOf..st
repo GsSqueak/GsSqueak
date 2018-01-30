@@ -1,2 +1,3 @@
 other
-superclassOf: classPointer 	^ classPointer superclass
+superclassOf: classPointer 
+	^ classPointer superclass

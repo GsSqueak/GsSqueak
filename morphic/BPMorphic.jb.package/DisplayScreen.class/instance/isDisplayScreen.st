@@ -1,2 +1,3 @@
 testing
-isDisplayScreen	^ true
+isDisplayScreen
+	^ true

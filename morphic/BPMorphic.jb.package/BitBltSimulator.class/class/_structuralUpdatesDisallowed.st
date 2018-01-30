@@ -1,2 +1,3 @@
 as yet unclassified
-_structuralUpdatesDisallowed  ^ false
+_structuralUpdatesDisallowed
+  ^ false

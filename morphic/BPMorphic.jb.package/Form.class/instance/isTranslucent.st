@@ -1,2 +1,4 @@
 testing
-isTranslucent	"Answer whether this form may be translucent"	^ self depth = 32
+isTranslucent
+	"Answer whether this form may be translucent"
+	^ self depth = 32

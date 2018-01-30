@@ -1,2 +1,5 @@
 structure
-activeHand	^ ActiveHand		ifNil: [self isInWorld				ifTrue: [self world activeHand]]
+activeHand
+	^ ActiveHand
+		ifNil: [self isInWorld
+				ifTrue: [self world activeHand]]

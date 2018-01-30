@@ -1,2 +1,3 @@
 menus
-model	^ nil
+model
+	^ nil

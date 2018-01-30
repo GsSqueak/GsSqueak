@@ -1,2 +1,4 @@
 writing
-forward: anObject 	anObject ~= nil		ifTrue: [target write: anObject]
+forward: anObject 
+	anObject ~= nil
+		ifTrue: [target write: anObject]

@@ -1,2 +1,4 @@
 screen modes
-fullScreenOn	Display fullScreenMode: (DisplayIsFullScreen := true).	self checkForNewScreenSize
+fullScreenOn
+	Display fullScreenMode: (DisplayIsFullScreen := true).
+	self checkForNewScreenSize

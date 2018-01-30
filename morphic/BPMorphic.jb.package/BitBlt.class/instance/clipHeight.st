@@ -1,2 +1,3 @@
 accessing
-clipHeight	^ clipHeight
+clipHeight
+	^ clipHeight

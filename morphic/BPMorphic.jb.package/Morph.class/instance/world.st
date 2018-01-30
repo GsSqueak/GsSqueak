@@ -1,2 +1,4 @@
 structure
-world	^ owner isNil		ifFalse: [owner world]
+world
+	^ owner isNil
+		ifFalse: [owner world]

@@ -1,2 +1,3 @@
 fileIn/Out
-services	^ Array with: self serviceLoadMorphFromFile
+services
+	^ Array with: self serviceLoadMorphFromFile

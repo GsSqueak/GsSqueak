@@ -1,2 +1,3 @@
 class initialization
-initialize	self recreateColorMaps
+initialize
+	self recreateColorMaps

@@ -1,2 +1,3 @@
 world state
-doOneCycleInBackground	worldState doOneCycleInBackground
+doOneCycleInBackground
+	worldState doOneCycleInBackground

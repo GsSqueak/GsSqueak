@@ -1,2 +1,3 @@
 menus
-inspectInMorphic: evt 	ToolSet inspect: self
+inspectInMorphic: evt 
+	ToolSet inspect: self

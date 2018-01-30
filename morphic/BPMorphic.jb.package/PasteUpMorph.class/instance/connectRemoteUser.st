@@ -1,2 +1,6 @@
 world menu
-connectRemoteUser	^ self		connectRemoteUserWithName: nil		picture: nil		andIPAddress: nil
+connectRemoteUser
+	^ self
+		connectRemoteUserWithName: nil
+		picture: nil
+		andIPAddress: nil

@@ -1,2 +1,3 @@
 special classes
-classBitmap	^ Bitmap
+classBitmap
+	^ Bitmap

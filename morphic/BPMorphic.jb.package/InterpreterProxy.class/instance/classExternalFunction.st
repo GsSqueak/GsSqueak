@@ -1,2 +1,5 @@
 FFI support
-classExternalFunction	^ Smalltalk		at: #ExternalFunction		ifAbsent: []
+classExternalFunction
+	^ Smalltalk
+		at: #ExternalFunction
+		ifAbsent: []

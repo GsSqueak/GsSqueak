@@ -1,2 +1,3 @@
 accessing
-unHighlight	self color: self regularColor
+unHighlight
+	self color: self regularColor

@@ -1,2 +1,3 @@
 hands
-handsDo: aBlock 	^ hands do: aBlock
+handsDo: aBlock 
+	^ hands do: aBlock

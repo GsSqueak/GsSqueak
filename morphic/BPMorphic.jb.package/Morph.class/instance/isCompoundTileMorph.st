@@ -1,2 +1,3 @@
 classification
-isCompoundTileMorph	^ false
+isCompoundTileMorph
+	^ false

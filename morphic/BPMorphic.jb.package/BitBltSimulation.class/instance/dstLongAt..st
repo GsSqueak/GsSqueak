@@ -1,2 +1,3 @@
 memory access
-dstLongAt: idx 	^ self long32At: idx
+dstLongAt: idx 
+	^ self long32At: idx

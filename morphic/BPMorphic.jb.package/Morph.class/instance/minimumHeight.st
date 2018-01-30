@@ -1,2 +1,4 @@
 geometry
-minimumHeight	"Wrapper for layout-specific function to avoid confusion."	^ self minHeight
+minimumHeight
+	"Wrapper for layout-specific function to avoid confusion."
+	^ self minHeight

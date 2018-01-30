@@ -1,2 +1,5 @@
 FFI support
-classExternalLibrary	^ Smalltalk		at: #ExternalLibrary		ifAbsent: []
+classExternalLibrary
+	^ Smalltalk
+		at: #ExternalLibrary
+		ifAbsent: []

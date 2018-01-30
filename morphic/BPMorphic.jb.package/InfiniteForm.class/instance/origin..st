@@ -1,2 +1,4 @@
 fillstyle protocol
-origin: aPoint 	"Ignored"	^ self
+origin: aPoint 
+	"Ignored"
+	^ self

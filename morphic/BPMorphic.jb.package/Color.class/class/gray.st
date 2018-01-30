@@ -1,2 +1,3 @@
 named colors
-gray	^ Gray
+gray
+	^ Gray

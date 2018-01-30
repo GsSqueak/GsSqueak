@@ -1,2 +1,4 @@
 accessing
-clipRect	"Return the currently active clipping rectangle"	^ self subclassResponsibility
+clipRect
+	"Return the currently active clipping rectangle"
+	^ self subclassResponsibility

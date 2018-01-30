@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stepTime" ],
+	"name" : "StepMessage",
+	"pools" : [
+		 ],
+	"super" : "MorphicAlarm",
+	"type" : "normal" }

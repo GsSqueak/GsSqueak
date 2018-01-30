@@ -1,2 +1,3 @@
 submorphs-accessing
-submorphsReverseDo: aBlock 	submorphs reverseDo: aBlock
+submorphsReverseDo: aBlock 
+	submorphs reverseDo: aBlock

@@ -1,2 +1,3 @@
 conversions
-asNontranslucentColor	^ self alpha: 1.0
+asNontranslucentColor
+	^ self alpha: 1.0

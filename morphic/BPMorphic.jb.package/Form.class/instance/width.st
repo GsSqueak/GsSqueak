@@ -1,2 +1,3 @@
 display box access
-width	^ width
+width
+	^ width

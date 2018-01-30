@@ -1,2 +1,3 @@
 user interface
-doCancel	self delete
+doCancel
+	self delete

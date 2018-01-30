@@ -1,2 +1,3 @@
 filter streaming
-elementSeparator	^ target elementSeparator
+elementSeparator
+	^ target elementSeparator

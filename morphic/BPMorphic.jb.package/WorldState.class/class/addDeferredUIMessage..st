@@ -1,2 +1,3 @@
 class initialization
-addDeferredUIMessage: valuableObject 	self deferredUIMessages nextPut: valuableObject
+addDeferredUIMessage: valuableObject 
+	self deferredUIMessages nextPut: valuableObject

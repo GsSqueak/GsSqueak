@@ -1,2 +1,3 @@
 dropping/grabbing
-enableDrop: aBoolean 	self setProperty: #dropEnabled toValue: aBoolean
+enableDrop: aBoolean 
+	self setProperty: #dropEnabled toValue: aBoolean

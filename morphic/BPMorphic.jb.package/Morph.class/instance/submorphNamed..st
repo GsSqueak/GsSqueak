@@ -1,2 +1,5 @@
 submorphs-accessing
-submorphNamed: aName 	^ self		submorphNamed: aName		ifNone: []
+submorphNamed: aName 
+	^ self
+		submorphNamed: aName
+		ifNone: []

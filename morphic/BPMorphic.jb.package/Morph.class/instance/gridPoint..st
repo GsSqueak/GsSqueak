@@ -1,2 +1,3 @@
 geometry
-gridPoint: ungriddedPoint 	^ ungriddedPoint
+gridPoint: ungriddedPoint 
+	^ ungriddedPoint

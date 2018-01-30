@@ -1,2 +1,4 @@
 class initialization
-initialize	"Nothing to do ..."	^ self
+initialize
+	"Nothing to do ..."
+	^ self

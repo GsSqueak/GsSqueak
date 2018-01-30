@@ -1,2 +1,3 @@
 interpreter interface
-loadWarpBltFrom: bbObj 	^ self loadBitBltFrom: bbObj warping: true
+loadWarpBltFrom: bbObj 
+	^ self loadBitBltFrom: bbObj warping: true

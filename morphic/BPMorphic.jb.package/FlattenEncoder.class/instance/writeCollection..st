@@ -1,2 +1,3 @@
 writing
-writeCollection: aCollection 	^ self writeCollectionContents: aCollection
+writeCollection: aCollection 
+	^ self writeCollectionContents: aCollection

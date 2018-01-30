@@ -1,2 +1,3 @@
 enumeration
-alarmsDoSafely: aBlock 	heap asArray do: aBlock
+alarmsDoSafely: aBlock 
+	heap asArray do: aBlock

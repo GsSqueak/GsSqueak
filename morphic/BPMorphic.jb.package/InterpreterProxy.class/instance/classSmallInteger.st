@@ -1,2 +1,3 @@
 special classes
-classSmallInteger	^ SmallInteger
+classSmallInteger
+	^ SmallInteger

@@ -1,2 +1,3 @@
 e-toy support
-automaticViewing	^ self hasProperty: #automaticViewing
+automaticViewing
+	^ self hasProperty: #automaticViewing

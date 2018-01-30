@@ -1,2 +1,3 @@
 printing
-pagesHandledAutomatically	^ false
+pagesHandledAutomatically
+	^ false

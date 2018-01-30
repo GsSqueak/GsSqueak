@@ -1,2 +1,3 @@
 named colors
-paleMagenta	^ PaleMagenta
+paleMagenta
+	^ PaleMagenta

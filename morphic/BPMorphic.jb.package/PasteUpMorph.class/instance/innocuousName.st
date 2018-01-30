@@ -1,2 +1,5 @@
 misc
-innocuousName	^ self isFlap		ifTrue: ['flap' translated]		ifFalse: [super innocuousName]
+innocuousName
+	^ self isFlap
+		ifTrue: ['flap' translated]
+		ifFalse: [super innocuousName]

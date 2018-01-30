@@ -1,2 +1,3 @@
 halos and balloon help
-wantsHaloFor: aSubMorph 	^ false
+wantsHaloFor: aSubMorph 
+	^ false

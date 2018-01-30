@@ -1,2 +1,4 @@
 viewer
-externalName	^ self knownName		ifNil: [self innocuousName]
+externalName
+	^ self knownName
+		ifNil: [self innocuousName]

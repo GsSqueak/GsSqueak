@@ -1,2 +1,3 @@
 text-anchor
-relativeTextAnchorPosition	^ self valueOfProperty: #relativeTextAnchorPosition
+relativeTextAnchorPosition
+	^ self valueOfProperty: #relativeTextAnchorPosition

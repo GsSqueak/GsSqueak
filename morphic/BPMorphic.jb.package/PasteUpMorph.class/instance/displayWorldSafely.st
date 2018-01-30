@@ -1,2 +1,3 @@
 world state
-displayWorldSafely	worldState displayWorldSafely: self
+displayWorldSafely
+	worldState displayWorldSafely: self

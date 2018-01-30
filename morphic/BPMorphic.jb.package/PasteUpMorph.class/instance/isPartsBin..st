@@ -1,2 +1,3 @@
 options
-isPartsBin: aBoolean 	isPartsBin := aBoolean
+isPartsBin: aBoolean 
+	isPartsBin := aBoolean

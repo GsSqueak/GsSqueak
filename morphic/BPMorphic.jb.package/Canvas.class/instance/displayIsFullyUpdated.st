@@ -1,2 +1,3 @@
 Nebraska/embeddedWorlds
-displayIsFullyUpdated	^ self
+displayIsFullyUpdated
+	^ self

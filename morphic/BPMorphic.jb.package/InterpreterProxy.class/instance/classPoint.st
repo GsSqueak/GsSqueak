@@ -1,2 +1,3 @@
 special classes
-classPoint	^ Point
+classPoint
+	^ Point

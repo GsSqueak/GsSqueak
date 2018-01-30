@@ -1,2 +1,3 @@
 copying
-clippedBy: aRectangle 	^ self copy clipBy: aRectangle
+clippedBy: aRectangle 
+	^ self copy clipBy: aRectangle

@@ -1,2 +1,3 @@
 drawing-general
-fullDrawMorph: aMorph 	self fullDraw: aMorph
+fullDrawMorph: aMorph 
+	self fullDraw: aMorph

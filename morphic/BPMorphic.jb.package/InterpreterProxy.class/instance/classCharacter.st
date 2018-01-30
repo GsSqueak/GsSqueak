@@ -1,2 +1,3 @@
 special classes
-classCharacter	^ Character
+classCharacter
+	^ Character

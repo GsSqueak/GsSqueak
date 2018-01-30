@@ -1,2 +1,3 @@
 accessing
-colorMap	^ colorMap
+colorMap
+	^ colorMap

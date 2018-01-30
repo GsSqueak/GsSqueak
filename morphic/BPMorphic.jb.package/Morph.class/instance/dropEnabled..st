@@ -1,2 +1,3 @@
 dropping/grabbing
-dropEnabled: aBool 	^ self enableDrop: aBool
+dropEnabled: aBool 
+	^ self enableDrop: aBool

@@ -1,2 +1,3 @@
 special classes
-classFloat	^ Float
+classFloat
+	^ Float

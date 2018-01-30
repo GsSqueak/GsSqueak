@@ -1,2 +1,9 @@
 events-processing
-handleKeyDown: anEvent 	"System level event handling."	anEvent wasHandled		ifTrue: [^ self].	(self handlesKeyboard: anEvent)		ifFalse: [^ self].	anEvent wasHandled: true.	^ self keyDown: anEvent
+handleKeyDown: anEvent 
+	"System level event handling."
+	anEvent wasHandled
+		ifTrue: [^ self].
+	(self handlesKeyboard: anEvent)
+		ifFalse: [^ self].
+	anEvent wasHandled: true.
+	^ self keyDown: anEvent

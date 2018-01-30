@@ -1,2 +1,3 @@
 named colors
-lightOrange	^ LightOrange
+lightOrange
+	^ LightOrange

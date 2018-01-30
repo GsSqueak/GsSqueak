@@ -1,2 +1,5 @@
 FFI support
-classAlien	^ Smalltalk		at: #Alien		ifAbsent: []
+classAlien
+	^ Smalltalk
+		at: #Alien
+		ifAbsent: []

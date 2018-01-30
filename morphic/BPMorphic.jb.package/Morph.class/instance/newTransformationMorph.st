@@ -1,2 +1,3 @@
 rotate scale and flex
-newTransformationMorph	^ TransformationMorph new
+newTransformationMorph
+	^ TransformationMorph new

@@ -1,2 +1,3 @@
 object access
-argumentCountOf: methodPointer 	^ methodPointer numArgs
+argumentCountOf: methodPointer 
+	^ methodPointer numArgs

@@ -1,2 +1,3 @@
 accessing
-lock	self lock: true
+lock
+	self lock: true

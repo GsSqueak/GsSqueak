@@ -1,2 +1,5 @@
 accessing
-presenter	^ owner		ifNil: [self currentWorld presenter]		ifNotNil: [owner presenter]
+presenter
+	^ owner
+		ifNil: [self currentWorld presenter]
+		ifNotNil: [owner presenter]

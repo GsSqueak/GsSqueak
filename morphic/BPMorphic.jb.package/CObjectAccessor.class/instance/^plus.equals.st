@@ -1,2 +1,3 @@
 pointer arithmetic
-+= increment 	offset := offset + increment
++= increment 
+	offset := offset + increment

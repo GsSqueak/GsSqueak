@@ -1,2 +1,3 @@
 dropping/grabbing
-dropHighlightColor	^ Color blue
+dropHighlightColor
+	^ Color blue

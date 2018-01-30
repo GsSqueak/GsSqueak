@@ -1,2 +1,4 @@
 project state
-handsDo: aBlock 	^ worldState		ifNotNil: [worldState handsDo: aBlock]
+handsDo: aBlock 
+	^ worldState
+		ifNotNil: [worldState handsDo: aBlock]

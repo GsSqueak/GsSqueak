@@ -1,2 +1,3 @@
 submorphs-accessing
-firstSubmorph	^ submorphs first
+firstSubmorph
+	^ submorphs first

@@ -1,2 +1,3 @@
 BitBlt support
-copyBits	bb copyBits
+copyBits
+	bb copyBits

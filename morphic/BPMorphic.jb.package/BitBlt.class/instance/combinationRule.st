@@ -1,2 +1,4 @@
 accessing
-combinationRule	"Answer the receiver's combinationRule"	^ combinationRule
+combinationRule
+	"Answer the receiver's combinationRule"
+	^ combinationRule

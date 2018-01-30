@@ -1,2 +1,3 @@
 configuring
-filterSelector	^ #writeOnFilterStream:
+filterSelector
+	^ #writeOnFilterStream:

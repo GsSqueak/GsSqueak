@@ -1,2 +1,3 @@
 named colors
-darkGray	^ DarkGray
+darkGray
+	^ DarkGray

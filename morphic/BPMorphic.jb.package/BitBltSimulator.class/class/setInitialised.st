@@ -1,2 +1,3 @@
 accessing
-setInitialised	isInitialised := true
+setInitialised
+	isInitialised := true

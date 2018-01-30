@@ -1,2 +1,3 @@
 project state
-firstHand	^ worldState hands first
+firstHand
+	^ worldState hands first

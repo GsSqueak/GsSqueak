@@ -1,2 +1,3 @@
 canvas
-resetDamageRecorder	damageRecorder reset
+resetDamageRecorder
+	damageRecorder reset

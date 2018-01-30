@@ -1,2 +1,5 @@
 snapshots
-actualScreenSize  "TODO:"  ^ 640 @ 480
+actualScreenSize
+  "TODO:"
+
+  ^ 640 @ 480

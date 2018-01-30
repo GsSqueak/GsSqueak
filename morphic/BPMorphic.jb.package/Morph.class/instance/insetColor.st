@@ -1,2 +1,5 @@
 accessing
-insetColor	owner		ifNil: [^ self color].	^ self colorForInsets
+insetColor
+	owner
+		ifNil: [^ self color].
+	^ self colorForInsets

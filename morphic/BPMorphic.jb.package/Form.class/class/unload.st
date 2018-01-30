@@ -1,2 +1,3 @@
 class initialization
-unload	FileServices unregisterFileReader: self
+unload
+	FileServices unregisterFileReader: self

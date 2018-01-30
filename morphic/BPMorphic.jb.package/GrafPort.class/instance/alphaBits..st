@@ -1,2 +1,3 @@
 accessing
-alphaBits: a 	alpha := a
+alphaBits: a 
+	alpha := a

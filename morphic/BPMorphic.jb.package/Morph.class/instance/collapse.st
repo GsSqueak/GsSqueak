@@ -1,2 +1,3 @@
 menus
-collapse	CollapsedMorph new beReplacementFor: self
+collapse
+	CollapsedMorph new beReplacementFor: self

@@ -1,2 +1,3 @@
 accessing
-viewBox	^ self pasteUpMorph viewBox
+viewBox
+	^ self pasteUpMorph viewBox

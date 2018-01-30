@@ -1,2 +1,3 @@
 copying
-copy	^ self clone
+copy
+	^ self clone

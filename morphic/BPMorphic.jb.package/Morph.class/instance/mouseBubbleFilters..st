@@ -1,2 +1,3 @@
 events-filtering-bubbling
-mouseBubbleFilters: anArrayOrNil 	^ self setProperty: #mouseBubbleFilters toValue: anArrayOrNil
+mouseBubbleFilters: anArrayOrNil 
+	^ self setProperty: #mouseBubbleFilters toValue: anArrayOrNil

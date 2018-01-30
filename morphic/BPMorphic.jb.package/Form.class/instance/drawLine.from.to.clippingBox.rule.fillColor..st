@@ -1,2 +1,16 @@
 displaying
-drawLine: sourceForm from: beginPoint to: endPoint clippingBox: clipRect rule: anInteger fillColor: aForm 	"Refer to the comment in 	DisplayMedium|drawLine:from:to:clippingBox:rule:mask:."	"set up an instance of BitBlt for display"	| dotSetter |	dotSetter := BitBlt				destForm: self				sourceForm: sourceForm				fillColor: aForm				combinationRule: anInteger				destOrigin: beginPoint				sourceOrigin: 0 @ 0				extent: sourceForm extent				clipRect: clipRect.	dotSetter drawFrom: beginPoint to: endPoint
+drawLine: sourceForm from: beginPoint to: endPoint clippingBox: clipRect rule: anInteger fillColor: aForm 
+	"Refer to the comment in 
+	DisplayMedium|drawLine:from:to:clippingBox:rule:mask:."
+	"set up an instance of BitBlt for display"
+	| dotSetter |
+	dotSetter := BitBlt
+				destForm: self
+				sourceForm: sourceForm
+				fillColor: aForm
+				combinationRule: anInteger
+				destOrigin: beginPoint
+				sourceOrigin: 0 @ 0
+				extent: sourceForm extent
+				clipRect: clipRect.
+	dotSetter drawFrom: beginPoint to: endPoint

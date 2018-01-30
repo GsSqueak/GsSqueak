@@ -1,2 +1,5 @@
 misc
-maxHeightToAvoidThumbnailing	^ self		valueOfProperty: #maxHeightToAvoidThumbnailing		ifAbsent: [80]
+maxHeightToAvoidThumbnailing
+	^ self
+		valueOfProperty: #maxHeightToAvoidThumbnailing
+		ifAbsent: [80]

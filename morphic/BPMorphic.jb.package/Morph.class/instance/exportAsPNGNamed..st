@@ -1,2 +1,3 @@
 menus
-exportAsPNGNamed: aString 	PNGReadWriter putForm: self imageForm onFileNamed: aString
+exportAsPNGNamed: aString 
+	PNGReadWriter putForm: self imageForm onFileNamed: aString

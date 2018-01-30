@@ -1,2 +1,3 @@
 configuring
-defaultTarget	^ OrderedCollection new
+defaultTarget
+	^ OrderedCollection new

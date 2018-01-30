@@ -1,2 +1,3 @@
 other
-fullDisplayUpdate	Display display
+fullDisplayUpdate
+	Display display

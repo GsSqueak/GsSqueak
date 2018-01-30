@@ -1,2 +1,3 @@
 transformations
-slightlyDarker	^ self adjustBrightness: -0.03
+slightlyDarker
+	^ self adjustBrightness: -0.03

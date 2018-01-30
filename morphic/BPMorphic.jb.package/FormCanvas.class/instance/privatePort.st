@@ -1,2 +1,3 @@
 private
-privatePort	^ port
+privatePort
+	^ port

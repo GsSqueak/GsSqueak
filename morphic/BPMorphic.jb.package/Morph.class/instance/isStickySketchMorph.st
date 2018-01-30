@@ -1,2 +1,3 @@
 classification
-isStickySketchMorph	^ false
+isStickySketchMorph
+	^ false

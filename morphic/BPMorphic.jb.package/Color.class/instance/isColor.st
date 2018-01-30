@@ -1,2 +1,3 @@
 queries
-isColor	^ true
+isColor
+	^ true

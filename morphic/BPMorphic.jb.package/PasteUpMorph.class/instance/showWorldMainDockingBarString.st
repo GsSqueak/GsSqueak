@@ -1,2 +1,3 @@
 menu & halo
-showWorldMainDockingBarString	^ self project showWorldMainDockingBarString
+showWorldMainDockingBarString
+	^ self project showWorldMainDockingBarString

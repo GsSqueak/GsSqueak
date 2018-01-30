@@ -1,2 +1,4 @@
 conversions
-scaledPixelValue32	"Return the alpha scaled pixel value for depth 32"	^ self pixelWordForDepth: 32
+scaledPixelValue32
+	"Return the alpha scaled pixel value for depth 32"
+	^ self pixelWordForDepth: 32

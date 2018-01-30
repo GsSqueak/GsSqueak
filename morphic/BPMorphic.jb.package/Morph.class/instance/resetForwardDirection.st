@@ -1,2 +1,3 @@
 menus
-resetForwardDirection	self forwardDirection: 0
+resetForwardDirection
+	self forwardDirection: 0

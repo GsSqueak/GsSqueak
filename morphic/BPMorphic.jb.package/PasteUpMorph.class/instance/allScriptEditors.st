@@ -1,2 +1,4 @@
 misc
-allScriptEditors	^ self allMorphs		select: [:s | s isScriptEditorMorph]
+allScriptEditors
+	^ self allMorphs
+		select: [:s | s isScriptEditorMorph]

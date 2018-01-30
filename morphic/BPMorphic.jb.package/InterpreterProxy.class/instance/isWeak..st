@@ -1,2 +1,3 @@
 testing
-isWeak: oop 	^ oop class isWeak
+isWeak: oop 
+	^ oop class isWeak

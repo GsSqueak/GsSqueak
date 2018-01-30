@@ -1,2 +1,3 @@
 events-filtering-bubbling
-eventBubbleFilters	^ self valueOfProperty: #eventBubbleFilters
+eventBubbleFilters
+	^ self valueOfProperty: #eventBubbleFilters

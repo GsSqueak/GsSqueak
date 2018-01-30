@@ -1,2 +1,4 @@
 accessing
-dumpPresenter	"Dump my current presenter"	presenter := nil
+dumpPresenter
+	"Dump my current presenter"
+	presenter := nil

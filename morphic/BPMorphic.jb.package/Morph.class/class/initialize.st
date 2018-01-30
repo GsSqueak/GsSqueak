@@ -1,2 +1,4 @@
 class initialization
-initialize	"Morph initialize"	FileList registerFileReader: self
+initialize
+	"Morph initialize"
+	FileList registerFileReader: self

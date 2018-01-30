@@ -1,2 +1,3 @@
 stack access
-push: object 	stack addLast: object
+push: object 
+	stack addLast: object

@@ -1,2 +1,3 @@
 combination rules
-bitAnd: sourceWord with: destinationWord 	^ sourceWord bitAnd: destinationWord
+bitAnd: sourceWord with: destinationWord 
+	^ sourceWord bitAnd: destinationWord

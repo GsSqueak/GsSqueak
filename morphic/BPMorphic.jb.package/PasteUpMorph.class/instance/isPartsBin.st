@@ -1,2 +1,3 @@
 parts bin
-isPartsBin	^ isPartsBin == true
+isPartsBin
+	^ isPartsBin == true

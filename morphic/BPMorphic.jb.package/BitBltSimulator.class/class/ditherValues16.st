@@ -1,2 +1,3 @@
 accessing
-ditherValues16	^ ditherValues16
+ditherValues16
+	^ ditherValues16

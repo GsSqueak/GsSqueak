@@ -1,2 +1,3 @@
 copying
-deepCopy	self error: 'Please use veryDeepCopy'
+deepCopy
+	self error: 'Please use veryDeepCopy'

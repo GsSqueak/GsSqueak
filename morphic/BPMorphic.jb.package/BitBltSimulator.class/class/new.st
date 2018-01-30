@@ -1,2 +1,3 @@
 instance creation
-new	^ super new
+new
+	^ super new

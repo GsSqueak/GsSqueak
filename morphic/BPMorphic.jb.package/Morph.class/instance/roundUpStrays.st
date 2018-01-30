@@ -1,2 +1,4 @@
 miscellaneous
-roundUpStrays	self submorphs		do: [:each | each roundUpStrays]
+roundUpStrays
+	self submorphs
+		do: [:each | each roundUpStrays]

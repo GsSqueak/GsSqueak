@@ -1,2 +1,3 @@
 accessing
-borderColor	^ self borderStyle color
+borderColor
+	^ self borderStyle color

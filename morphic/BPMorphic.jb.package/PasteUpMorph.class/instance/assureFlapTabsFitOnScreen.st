@@ -1,2 +1,4 @@
 flaps
-assureFlapTabsFitOnScreen	self flapTabs		do: [:m | m fitOnScreen]
+assureFlapTabsFitOnScreen
+	self flapTabs
+		do: [:m | m fitOnScreen]

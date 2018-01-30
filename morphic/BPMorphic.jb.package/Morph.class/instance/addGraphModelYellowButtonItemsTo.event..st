@@ -1,2 +1,3 @@
 menu
-addGraphModelYellowButtonItemsTo: aCustomMenu event: evt 	^ aCustomMenu
+addGraphModelYellowButtonItemsTo: aCustomMenu event: evt 
+	^ aCustomMenu

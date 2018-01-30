@@ -1,2 +1,3 @@
 testing
-isShadowDrawing	^ self shadowColor notNil
+isShadowDrawing
+	^ self shadowColor notNil

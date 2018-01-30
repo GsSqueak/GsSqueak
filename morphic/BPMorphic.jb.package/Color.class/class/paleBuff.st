@@ -1,2 +1,3 @@
 named colors
-paleBuff	^ PaleBuff
+paleBuff
+	^ PaleBuff

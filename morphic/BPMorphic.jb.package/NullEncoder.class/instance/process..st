@@ -1,2 +1,4 @@
 processing
-process: anObject 	self write: anObject.	^ self contents
+process: anObject 
+	self write: anObject.
+	^ self contents

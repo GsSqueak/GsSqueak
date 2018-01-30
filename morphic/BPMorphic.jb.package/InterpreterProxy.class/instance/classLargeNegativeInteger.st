@@ -1,2 +1,3 @@
 special classes
-classLargeNegativeInteger	^ LargeNegativeInteger
+classLargeNegativeInteger
+	^ LargeNegativeInteger

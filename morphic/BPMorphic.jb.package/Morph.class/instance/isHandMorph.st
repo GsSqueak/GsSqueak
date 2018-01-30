@@ -1,2 +1,3 @@
 classification
-isHandMorph	^ false
+isHandMorph
+	^ false

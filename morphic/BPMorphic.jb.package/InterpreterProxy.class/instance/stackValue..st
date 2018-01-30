@@ -1,2 +1,3 @@
 stack access
-stackValue: offset 	^ stack at: stack size - offset
+stackValue: offset 
+	^ stack at: stack size - offset

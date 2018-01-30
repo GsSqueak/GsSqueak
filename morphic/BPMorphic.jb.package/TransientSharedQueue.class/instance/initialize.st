@@ -1,2 +1,4 @@
 as yet unclassified
-initialize  valueAvailable := TransientSemaphore new.  contents := {}
+initialize
+  valueAvailable := TransientSemaphore new.
+  contents := {}

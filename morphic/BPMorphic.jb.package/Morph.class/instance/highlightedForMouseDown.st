@@ -1,2 +1,4 @@
 drawing
-highlightedForMouseDown	^ (self valueOfProperty: #highlightedForMouseDown)		== true
+highlightedForMouseDown
+	^ (self valueOfProperty: #highlightedForMouseDown)
+		== true

@@ -1,2 +1,3 @@
 player
-shouldRememberCostumes	^ true
+shouldRememberCostumes
+	^ true

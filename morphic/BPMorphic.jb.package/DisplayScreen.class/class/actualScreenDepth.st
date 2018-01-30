@@ -1,2 +1,4 @@
 snapshots
-actualScreenDepth	self halt.	^ Display depth
+actualScreenDepth
+	self halt.
+	^ Display depth

@@ -1,2 +1,3 @@
 fillstyle protocol
-isBitmapFill	^ true
+isBitmapFill
+	^ true

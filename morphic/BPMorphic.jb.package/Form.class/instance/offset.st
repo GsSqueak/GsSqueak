@@ -1,2 +1,4 @@
 accessing
-offset	^ offset		ifNil: [0 @ 0]
+offset
+	^ offset
+		ifNil: [0 @ 0]

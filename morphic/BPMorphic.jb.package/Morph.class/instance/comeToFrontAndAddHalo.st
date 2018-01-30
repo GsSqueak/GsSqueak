@@ -1,2 +1,4 @@
 halos and balloon help
-comeToFrontAndAddHalo	self comeToFront.	self addHalo
+comeToFrontAndAddHalo
+	self comeToFront.
+	self addHalo

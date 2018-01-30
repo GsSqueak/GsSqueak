@@ -1,2 +1,3 @@
 testing
-isFloatObject: oop 	^ oop class == Float
+isFloatObject: oop 
+	^ oop class == Float

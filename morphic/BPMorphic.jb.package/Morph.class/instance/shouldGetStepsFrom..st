@@ -1,2 +1,3 @@
 WiW support
-shouldGetStepsFrom: aWorld 	^ self world == aWorld
+shouldGetStepsFrom: aWorld 
+	^ self world == aWorld

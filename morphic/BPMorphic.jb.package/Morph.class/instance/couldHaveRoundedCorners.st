@@ -1,2 +1,3 @@
 accessing
-couldHaveRoundedCorners	^ true
+couldHaveRoundedCorners
+	^ true

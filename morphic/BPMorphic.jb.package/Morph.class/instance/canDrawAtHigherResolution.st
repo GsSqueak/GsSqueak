@@ -1,2 +1,3 @@
 testing
-canDrawAtHigherResolution	^ false
+canDrawAtHigherResolution
+	^ false

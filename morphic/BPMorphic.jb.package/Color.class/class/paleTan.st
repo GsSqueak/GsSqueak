@@ -1,2 +1,3 @@
 named colors
-paleTan	^ PaleTan
+paleTan
+	^ PaleTan

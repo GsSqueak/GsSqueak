@@ -1,2 +1,3 @@
 geniestubs
-allowsGestureStart: evt 	^ false
+allowsGestureStart: evt 
+	^ false

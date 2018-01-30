@@ -1,2 +1,3 @@
 testing
-isImageMorph	^ false
+isImageMorph
+	^ false

@@ -1,2 +1,3 @@
 stepping
-runStepMethods	worldState runStepMethodsIn: self
+runStepMethods
+	worldState runStepMethodsIn: self

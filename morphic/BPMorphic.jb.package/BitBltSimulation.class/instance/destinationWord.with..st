@@ -1,2 +1,3 @@
 combination rules
-destinationWord: sourceWord with: destinationWord 	^ destinationWord
+destinationWord: sourceWord with: destinationWord 
+	^ destinationWord

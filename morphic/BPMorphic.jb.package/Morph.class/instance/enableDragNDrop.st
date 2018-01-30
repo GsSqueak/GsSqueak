@@ -1,2 +1,3 @@
 dropping/grabbing
-enableDragNDrop	self enableDragNDrop: true
+enableDragNDrop
+	self enableDragNDrop: true

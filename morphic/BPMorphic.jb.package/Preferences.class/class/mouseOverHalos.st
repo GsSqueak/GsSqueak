@@ -1,2 +1,3 @@
 as yet unclassified
-mouseOverHalos  ^ false
+mouseOverHalos
+  ^ false

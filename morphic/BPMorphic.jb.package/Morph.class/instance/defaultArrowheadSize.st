@@ -1,2 +1,3 @@
 menus
-defaultArrowheadSize	^ self class defaultArrowheadSize
+defaultArrowheadSize
+	^ self class defaultArrowheadSize

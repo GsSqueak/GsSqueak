@@ -1,2 +1,3 @@
 processing
-process: anObject 	^ self stream process: anObject
+process: anObject 
+	^ self stream process: anObject

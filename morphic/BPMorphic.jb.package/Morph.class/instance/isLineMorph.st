@@ -1,2 +1,3 @@
 testing
-isLineMorph	^ false
+isLineMorph
+	^ false

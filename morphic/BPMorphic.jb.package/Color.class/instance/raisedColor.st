@@ -1,2 +1,3 @@
 other
-raisedColor	^ self
+raisedColor
+	^ self

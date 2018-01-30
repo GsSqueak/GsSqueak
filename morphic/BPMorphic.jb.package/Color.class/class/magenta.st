@@ -1,2 +1,3 @@
 named colors
-magenta	^ Magenta
+magenta
+	^ Magenta

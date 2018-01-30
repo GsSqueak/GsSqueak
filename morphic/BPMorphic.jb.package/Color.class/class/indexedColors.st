@@ -1,2 +1,3 @@
 other
-indexedColors	^ IndexedColors
+indexedColors
+	^ IndexedColors

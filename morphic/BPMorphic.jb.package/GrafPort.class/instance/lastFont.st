@@ -1,2 +1,3 @@
 private
-lastFont	^ lastFont
+lastFont
+	^ lastFont

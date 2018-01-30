@@ -1,2 +1,3 @@
 initialization
-flush	^ self
+flush
+	^ self

@@ -1,2 +1,3 @@
 accessing
-balloonText: aString 	self assureExtension balloonText: aString
+balloonText: aString 
+	self assureExtension balloonText: aString

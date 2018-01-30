@@ -1,2 +1,3 @@
 copying
-deepCopy	^ self copy
+deepCopy
+	^ self copy

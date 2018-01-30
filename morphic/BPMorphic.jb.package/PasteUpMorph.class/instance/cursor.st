@@ -1,2 +1,3 @@
 e-toy support
-cursor	^ cursor
+cursor
+	^ cursor

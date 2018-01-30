@@ -1,2 +1,3 @@
 private
-recreateColorMaps	CachedFontColorMaps := ColorConvertingMaps := nil
+recreateColorMaps
+	CachedFontColorMaps := ColorConvertingMaps := nil

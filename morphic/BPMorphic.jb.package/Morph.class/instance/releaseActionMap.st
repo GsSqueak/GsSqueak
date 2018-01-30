@@ -1,2 +1,4 @@
 events-removing
-releaseActionMap	"Release the action map"	self removeProperty: #actionMap
+releaseActionMap
+	"Release the action map"
+	self removeProperty: #actionMap

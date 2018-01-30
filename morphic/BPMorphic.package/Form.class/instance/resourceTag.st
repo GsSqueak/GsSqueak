@@ -1,2 +1,0 @@
-resources
-resourceTag	^ 'FORM'

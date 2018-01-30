@@ -1,2 +1,4 @@
 other
-forceToScreen: rect 	"dummy"	^ self
+forceToScreen: rect 
+	"dummy"
+	^ self

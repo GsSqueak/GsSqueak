@@ -1,2 +1,3 @@
 special classes
-classArray	^ Array
+classArray
+	^ Array

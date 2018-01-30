@@ -1,2 +1,3 @@
 other
-width	^ self boundingBox width
+width
+	^ self boundingBox width

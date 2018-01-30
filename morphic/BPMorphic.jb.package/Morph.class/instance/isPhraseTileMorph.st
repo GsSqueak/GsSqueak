@@ -1,2 +1,3 @@
 classification
-isPhraseTileMorph	^ false
+isPhraseTileMorph
+	^ false

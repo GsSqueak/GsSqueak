@@ -1,2 +1,5 @@
 debugging
-halt	self		cCode: ''		inSmalltalk: [nil halt]
+halt
+	self
+		cCode: ''
+		inSmalltalk: [nil halt]

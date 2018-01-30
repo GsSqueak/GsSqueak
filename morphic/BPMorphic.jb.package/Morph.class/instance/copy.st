@@ -1,2 +1,3 @@
 copying
-copy	^ self veryDeepCopy
+copy
+	^ self veryDeepCopy

@@ -1,2 +1,3 @@
 copying
-copyClipRect: newClipRect 	^ ClippingCanvas canvas: self clipRect: newClipRect
+copyClipRect: newClipRect 
+	^ ClippingCanvas canvas: self clipRect: newClipRect

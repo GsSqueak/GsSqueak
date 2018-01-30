@@ -1,2 +1,3 @@
 accessing
-sqkPage	^ self valueOfProperty: #SqueakPage
+sqkPage
+	^ self valueOfProperty: #SqueakPage

@@ -1,2 +1,3 @@
 accessing
-clipWidth	^ clipWidth
+clipWidth
+	^ clipWidth

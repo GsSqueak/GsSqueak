@@ -1,2 +1,3 @@
 geometry
-pointFromWorld: aPoint 	^ self point: aPoint from: self world
+pointFromWorld: aPoint 
+	^ self point: aPoint from: self world

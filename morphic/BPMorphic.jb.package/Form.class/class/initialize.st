@@ -1,2 +1,3 @@
 initialize-release
-initialize	FileServices registerFileReader: self
+initialize
+	FileServices registerFileReader: self

@@ -1,2 +1,4 @@
 mode constants
-oldPaint	"Answer the integer denoting the 'paint' combination rule."	^ 16
+oldPaint
+	"Answer the integer denoting the 'paint' combination rule."
+	^ 16

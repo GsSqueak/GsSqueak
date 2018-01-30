@@ -1,2 +1,3 @@
 accessing
-widthForRounding	^ self width
+widthForRounding
+	^ self width

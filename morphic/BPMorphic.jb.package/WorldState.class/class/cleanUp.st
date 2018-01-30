@@ -1,2 +1,5 @@
 class initialization
-cleanUp	"Reset command histories"	self allInstances		do: [:ea | ea clearCommandHistory]
+cleanUp
+	"Reset command histories"
+	self allInstances
+		do: [:ea | ea clearCommandHistory]

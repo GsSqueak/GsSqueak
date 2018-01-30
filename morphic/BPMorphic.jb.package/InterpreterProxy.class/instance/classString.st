@@ -1,2 +1,3 @@
 special classes
-classString	^ String
+classString
+	^ String

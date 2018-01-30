@@ -1,2 +1,3 @@
 creation
-streamOn: newTargetCollection 	^ self new initWithTarget: newTargetCollection
+streamOn: newTargetCollection 
+	^ self new initWithTarget: newTargetCollection

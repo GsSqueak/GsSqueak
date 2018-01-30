@@ -1,2 +1,4 @@
 halos and balloon help
-wantsDirectionHandles	^ super wantsDirectionHandles		and: [self isWorldMorph not]
+wantsDirectionHandles
+	^ super wantsDirectionHandles
+		and: [self isWorldMorph not]

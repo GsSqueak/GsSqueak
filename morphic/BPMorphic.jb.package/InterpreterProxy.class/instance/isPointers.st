@@ -1,2 +1,3 @@
 testing
-isPointers  ^ false
+isPointers
+  ^ false

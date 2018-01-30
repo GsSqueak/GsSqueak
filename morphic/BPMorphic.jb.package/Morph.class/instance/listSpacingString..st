@@ -1,2 +1,3 @@
 layout-properties
-listSpacingString: aSymbol 	^ self layoutMenuPropertyString: aSymbol from: self listSpacing
+listSpacingString: aSymbol 
+	^ self layoutMenuPropertyString: aSymbol from: self listSpacing

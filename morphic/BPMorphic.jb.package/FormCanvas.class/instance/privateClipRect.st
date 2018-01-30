@@ -1,2 +1,3 @@
 private
-privateClipRect	^ clipRect
+privateClipRect
+	^ clipRect

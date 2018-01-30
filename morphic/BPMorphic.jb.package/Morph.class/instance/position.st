@@ -1,2 +1,3 @@
 geometry
-position	^ bounds topLeft
+position
+	^ bounds topLeft

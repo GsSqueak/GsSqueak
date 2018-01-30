@@ -1,2 +1,3 @@
 queries
-isTransparent	^ alpha = 0
+isTransparent
+	^ alpha = 0

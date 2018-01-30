@@ -1,2 +1,3 @@
 named colors
-pantonePurpleU	^ PantonePurpleU
+pantonePurpleU
+	^ PantonePurpleU

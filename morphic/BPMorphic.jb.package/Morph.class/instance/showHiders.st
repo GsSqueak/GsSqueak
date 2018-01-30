@@ -1,2 +1,4 @@
 meta-actions
-showHiders	self		allMorphsDo: [:m | m show]
+showHiders
+	self
+		allMorphsDo: [:m | m show]

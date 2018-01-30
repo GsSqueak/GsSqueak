@@ -1,2 +1,3 @@
 fileIn/Out
-storeOn: aStream 	self storeOn: aStream base: 10
+storeOn: aStream 
+	self storeOn: aStream base: 10

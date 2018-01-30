@@ -1,2 +1,3 @@
 geometry
-minimumExtent	^ self minWidth @ self minHeight
+minimumExtent
+	^ self minWidth @ self minHeight

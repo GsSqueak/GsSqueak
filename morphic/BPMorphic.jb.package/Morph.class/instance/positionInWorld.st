@@ -1,2 +1,3 @@
 geometry
-positionInWorld	^ self pointInWorld: self position
+positionInWorld
+	^ self pointInWorld: self position

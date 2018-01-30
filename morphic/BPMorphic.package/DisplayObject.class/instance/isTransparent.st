@@ -1,2 +1,0 @@
-displaying-Display
-isTransparent	^ false

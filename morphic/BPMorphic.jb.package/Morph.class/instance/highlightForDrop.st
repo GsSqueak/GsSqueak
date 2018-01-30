@@ -1,2 +1,3 @@
 dropping/grabbing
-highlightForDrop	self highlightForDrop: true
+highlightForDrop
+	self highlightForDrop: true

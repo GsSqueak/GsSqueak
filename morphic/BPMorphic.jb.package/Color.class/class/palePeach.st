@@ -1,2 +1,3 @@
 named colors
-palePeach	^ PalePeach
+palePeach
+	^ PalePeach

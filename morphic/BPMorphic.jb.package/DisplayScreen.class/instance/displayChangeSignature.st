@@ -1,2 +1,3 @@
 other
-displayChangeSignature	^ DisplayChangeSignature
+displayChangeSignature
+	^ DisplayChangeSignature

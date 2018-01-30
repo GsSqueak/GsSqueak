@@ -1,2 +1,3 @@
 misc
-alwaysShowThumbnail	^ self hasProperty: #alwaysShowThumbnail
+alwaysShowThumbnail
+	^ self hasProperty: #alwaysShowThumbnail

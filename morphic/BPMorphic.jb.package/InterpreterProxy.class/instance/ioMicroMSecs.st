@@ -1,2 +1,3 @@
 other
-ioMicroMSecs	^ Time millisecondClockValue
+ioMicroMSecs
+	^ Time millisecondClockValue

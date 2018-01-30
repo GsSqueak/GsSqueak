@@ -1,2 +1,3 @@
 classification
-isFlapTab	^ false
+isFlapTab
+	^ false

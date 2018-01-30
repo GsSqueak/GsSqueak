@@ -1,2 +1,3 @@
 geniestubs
-yellowButtonGestureDictionaryOrName: aSymbolOrDictionary 	^ self
+yellowButtonGestureDictionaryOrName: aSymbolOrDictionary 
+	^ self

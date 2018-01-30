@@ -1,2 +1,3 @@
 instance creation
-raised	^ RaisedBorder new
+raised
+	^ RaisedBorder new

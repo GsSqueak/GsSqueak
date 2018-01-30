@@ -1,2 +1,3 @@
 world menu
-makeNewDrawing: evt 	^ self makeNewDrawing: evt at: evt position
+makeNewDrawing: evt 
+	^ self makeNewDrawing: evt at: evt position

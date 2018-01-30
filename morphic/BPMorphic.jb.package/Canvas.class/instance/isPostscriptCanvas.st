@@ -1,2 +1,3 @@
 testing
-isPostscriptCanvas	^ false
+isPostscriptCanvas
+	^ false

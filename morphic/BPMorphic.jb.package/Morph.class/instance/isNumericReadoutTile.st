@@ -1,2 +1,3 @@
 classification
-isNumericReadoutTile	^ false
+isNumericReadoutTile
+	^ false

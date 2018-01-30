@@ -1,2 +1,3 @@
 conversions
-asNontranslucentColor	^ self
+asNontranslucentColor
+	^ self

@@ -1,2 +1,3 @@
 translation
-moduleName	^ 'BitBltPlugin'
+moduleName
+	^ 'BitBltPlugin'

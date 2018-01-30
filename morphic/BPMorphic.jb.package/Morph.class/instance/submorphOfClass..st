@@ -1,2 +1,3 @@
 submorphs-accessing
-submorphOfClass: aClass 	^ self findA: aClass
+submorphOfClass: aClass 
+	^ self findA: aClass

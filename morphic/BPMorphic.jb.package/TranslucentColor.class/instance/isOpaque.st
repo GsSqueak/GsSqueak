@@ -1,2 +1,3 @@
 queries
-isOpaque	^ alpha = 255
+isOpaque
+	^ alpha = 255

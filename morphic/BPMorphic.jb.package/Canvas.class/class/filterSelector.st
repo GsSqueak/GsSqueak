@@ -1,2 +1,3 @@
 configuring
-filterSelector	^ #drawOnCanvas:
+filterSelector
+	^ #drawOnCanvas:

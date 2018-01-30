@@ -1,2 +1,3 @@
 testing
-isDeferringUpdates	^ DeferringUpdates == true
+isDeferringUpdates
+	^ DeferringUpdates == true

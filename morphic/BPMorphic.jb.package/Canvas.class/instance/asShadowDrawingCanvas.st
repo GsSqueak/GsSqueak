@@ -1,2 +1,4 @@
 converting
-asShadowDrawingCanvas	^ self		asShadowDrawingCanvas: (Color black alpha: 0.5)
+asShadowDrawingCanvas
+	^ self
+		asShadowDrawingCanvas: (Color black alpha: 0.5)

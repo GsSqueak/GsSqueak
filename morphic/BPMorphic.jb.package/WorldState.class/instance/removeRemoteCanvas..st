@@ -1,2 +1,3 @@
 Nebraska support
-removeRemoteCanvas: c 	self canvas: nil
+removeRemoteCanvas: c 
+	self canvas: nil

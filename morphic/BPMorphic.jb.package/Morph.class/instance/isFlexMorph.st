@@ -1,2 +1,3 @@
 classification
-isFlexMorph	^ false
+isFlexMorph
+	^ false

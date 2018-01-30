@@ -1,2 +1,3 @@
 geometry
-bottomCenter	^ bounds bottomCenter
+bottomCenter
+	^ bounds bottomCenter

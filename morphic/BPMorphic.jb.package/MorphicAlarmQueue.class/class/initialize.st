@@ -1,2 +1,3 @@
 class initialization
-initialize	self convertAllAlarms
+initialize
+	self convertAllAlarms

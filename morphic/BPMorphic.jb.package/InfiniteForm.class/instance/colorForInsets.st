@@ -1,2 +1,3 @@
 displaying
-colorForInsets	^ Color transparent
+colorForInsets
+	^ Color transparent

@@ -1,2 +1,3 @@
 accessing
-shadowColor: aColor 	shadowColor := aColor
+shadowColor: aColor 
+	shadowColor := aColor

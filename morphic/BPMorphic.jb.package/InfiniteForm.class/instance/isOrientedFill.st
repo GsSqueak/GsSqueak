@@ -1,2 +1,3 @@
 fillstyle protocol
-isOrientedFill	^ true
+isOrientedFill
+	^ true

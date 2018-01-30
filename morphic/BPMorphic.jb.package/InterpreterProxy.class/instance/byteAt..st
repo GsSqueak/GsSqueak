@@ -1,2 +1,3 @@
 private
-byteAt: accessor 	^ accessor byteAt: 0
+byteAt: accessor 
+	^ accessor byteAt: 0

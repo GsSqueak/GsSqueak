@@ -1,2 +1,4 @@
 alarms
-alarms	^ alarms		ifNil: [alarms := MorphicAlarmQueue new]
+alarms
+	^ alarms
+		ifNil: [alarms := MorphicAlarmQueue new]

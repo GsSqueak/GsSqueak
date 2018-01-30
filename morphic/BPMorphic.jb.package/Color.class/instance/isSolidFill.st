@@ -1,2 +1,3 @@
 queries
-isSolidFill	^ true
+isSolidFill
+	^ true

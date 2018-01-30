@@ -1,2 +1,3 @@
 testing
-isExternalForm	^ false
+isExternalForm
+	^ false

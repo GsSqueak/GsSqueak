@@ -1,2 +1,3 @@
 named colors
-white	^ White
+white
+	^ White
