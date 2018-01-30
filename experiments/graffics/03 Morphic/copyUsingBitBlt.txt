@@ -11,4 +11,4 @@
     clippingBox: (Rectangle origin: 0 @ 0 corner: 16 @ 16)
     rule: Form paint
     fillColor: Color white.
-  Display forceToScreen
+  Display forceToScreen 

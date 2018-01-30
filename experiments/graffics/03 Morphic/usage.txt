@@ -11,4 +11,4 @@ Smalltalk at: #'Display' put: DisplayScreen new.
   (ServerFileDirectory on: '/home/jakob/')
     readOnlyFileNamed: 'Morph.st'
     do: [ :fileStream | fileStream fileIn ].
-  Display forceToScreen
+  Display forceToScreen 
