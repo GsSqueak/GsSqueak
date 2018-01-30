@@ -1,0 +1,3 @@
+geometry
+leftCenter
+	^ bounds leftCenter

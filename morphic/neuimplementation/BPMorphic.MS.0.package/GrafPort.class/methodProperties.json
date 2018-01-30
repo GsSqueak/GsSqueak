@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"alphaBits:" : "ar 2/17/2000 01:07",
+		"clippedBy:" : "ar 12/30/2001 20:32",
+		"contentsOfArea:into:" : "ar 5/28/2000 14:41",
+		"copyBits" : "Anonymous 01/30/2018 02:50",
+		"displayScannerFor:foreground:background:ignoreColorChanges:" : "nice 9/29/2013 15:33",
+		"fillOval:" : "ar 2/16/2000 22:32",
+		"fillPattern:" : "ar 2/17/2000 01:09",
+		"fillRect:offset:" : "ar 5/17/2000 21:20",
+		"fillRoundRect:radius:" : "ar 7/22/2009 21:34",
+		"frameOval:borderWidth:" : "ar 2/16/2000 22:26",
+		"frameRect:borderWidth:" : "ar 2/17/2000 14:44",
+		"frameRectBottom:height:" : "ar 2/17/2000 01:08",
+		"frameRectRight:width:" : "ar 2/17/2000 01:08",
+		"frameRoundRect:radius:borderWidth:" : "ar 7/22/2009 21:33",
+		"image:at:sourceRect:rule:" : "ar 2/17/2000 01:08",
+		"image:at:sourceRect:rule:alpha:" : "ar 8/8/2001 14:26",
+		"installStrikeFont:" : "yo 1/8/2005 09:12",
+		"installStrikeFont:foregroundColor:backgroundColor:" : "tween 6/8/2008 12:29",
+		"installTTCFont:" : "yo 1/12/2005 16:39",
+		"installTTCFont:foregroundColor:backgroundColor:" : "yo 1/8/2005 09:12",
+		"lastFont" : "yo 1/8/2005 09:13",
+		"lastFontForegroundColor" : "tween 4/5/2007 08:03",
+		"stencil:at:sourceRect:" : "ar 2/17/2000 00:31" } }

@@ -1,0 +1,3 @@
+testing
+isDeferringUpdates
+	^ DeferringUpdates == true

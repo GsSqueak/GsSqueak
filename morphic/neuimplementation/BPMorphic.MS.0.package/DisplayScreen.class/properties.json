@@ -1,0 +1,21 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DeferringUpdates",
+		"DisplayChangeSignature",
+		"DisplayIsFullScreen",
+		"ScreenSave" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"clippingBox",
+		"extraRegions",
+		"graphicsLib",
+		"createWindowCo",
+		"drawBitmapCo" ],
+	"name" : "DisplayScreen",
+	"pools" : [
+		 ],
+	"super" : "Form",
+	"type" : "normal" }

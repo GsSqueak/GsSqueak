@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"myWorld" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WorldProvider",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
