@@ -23,15 +23,14 @@ copyBits
 
   "Check for compressed source, destination or halftone forms"
 
-  "  0 to: height - 1 do: [ :y | 
+  0 to: height - 1 do: [ :y | 
     0 to: width - 1 do: [ :x | 
       destForm
         pixelValueAt: (x + destX) @ (y + destY)
-        put: combinationRule = 3
-        ifTrue: [  ]
-        ifFalse: [ sourceForm pixelValueAt: (x + sourceX) @ (y + sourceY) ] ] ]	"
-
-  self copyBitsSimulated	"  0 to: 15 do: [ :row | 
+        put:
+          (combinationRule = 3
+            ifTrue: [ fillPattern privateRGB ]
+            ifFalse: [ sourceForm pixelValueAt: (x + sourceX) @ (y + sourceY) ]) ] ]	"self copyBitsSimulated"	"  0 to: 15 do: [ :row | 
     0 to: 15 do: [ :col | 
       destForm bits
         at: row * 640 + col + 1
