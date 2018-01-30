@@ -1,0 +1,2 @@
+accessing
+style	^ #simple

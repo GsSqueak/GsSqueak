@@ -8,7 +8,4 @@ Smalltalk at: #'Display' put: DisplayScreen new.
   WorldProvider getWorld viewBox: (0 @ 0 corner: 640 @ 480).
   RectangleMorph new openInWorld.
   WorldProvider getWorld doOneCycle.
-  (ServerFileDirectory on: '/home/jakob/')
-    readOnlyFileNamed: 'Morph.st'
-    do: [ :fileStream | fileStream fileIn ].
   Display forceToScreen 
