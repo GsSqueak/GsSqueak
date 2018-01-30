@@ -1,2 +1,3 @@
 accessing
-warpBitShiftTable	^ warpBitShiftTable
+warpBitShiftTable
+	^ warpBitShiftTable

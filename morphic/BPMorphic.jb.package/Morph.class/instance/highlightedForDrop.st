@@ -1,2 +1,4 @@
 dropping/grabbing
-highlightedForDrop	^ (self valueOfProperty: #highlightedForDrop)		== true
+highlightedForDrop
+	^ (self valueOfProperty: #highlightedForDrop)
+		== true

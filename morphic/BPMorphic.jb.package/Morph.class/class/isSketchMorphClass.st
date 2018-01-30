@@ -1,2 +1,3 @@
 testing
-isSketchMorphClass	^ false
+isSketchMorphClass
+	^ false

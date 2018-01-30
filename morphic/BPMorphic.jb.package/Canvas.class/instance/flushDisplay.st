@@ -1,2 +1,4 @@
 other
-flushDisplay	"Dummy ."	^ self
+flushDisplay
+	"Dummy ."
+	^ self

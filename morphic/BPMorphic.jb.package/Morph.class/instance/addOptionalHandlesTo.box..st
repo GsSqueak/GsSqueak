@@ -1,2 +1,3 @@
 halos and balloon help
-addOptionalHandlesTo: aHalo box: box 	aHalo addDirectionHandles
+addOptionalHandlesTo: aHalo box: box 
+	aHalo addDirectionHandles

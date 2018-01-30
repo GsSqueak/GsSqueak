@@ -1,2 +1,5 @@
 printing
-storeArrayOn: aStream 	aStream nextPutAll: '#('.	self storeArrayValuesOn: aStream.	aStream nextPutAll: ') '
+storeArrayOn: aStream 
+	aStream nextPutAll: '#('.
+	self storeArrayValuesOn: aStream.
+	aStream nextPutAll: ') '

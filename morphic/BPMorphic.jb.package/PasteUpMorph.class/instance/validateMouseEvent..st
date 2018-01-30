@@ -1,2 +1,3 @@
 WiW support
-validateMouseEvent: evt 	^ self
+validateMouseEvent: evt 
+	^ self

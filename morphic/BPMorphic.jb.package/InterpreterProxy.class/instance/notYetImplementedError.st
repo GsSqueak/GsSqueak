@@ -1,2 +1,3 @@
 private
-notYetImplementedError	^ self error: 'not yet implemented in Smalltalk'
+notYetImplementedError
+	^ self error: 'not yet implemented in Smalltalk'

@@ -1,2 +1,3 @@
 converting
-asSourceForm	^ self
+asSourceForm
+	^ self

@@ -1,2 +1,3 @@
 named colors
-lightCyan	^ LightCyan
+lightCyan
+	^ LightCyan

@@ -1,2 +1,4 @@
 gridding
-griddingOnOff	griddingOn := self griddingOn not.	self changed
+griddingOnOff
+	griddingOn := self griddingOn not.
+	self changed

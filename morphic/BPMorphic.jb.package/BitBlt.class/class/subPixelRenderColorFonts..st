@@ -1,2 +1,3 @@
 preferences
-subPixelRenderColorFonts: aBoolean 	SubPixelRenderColorFonts := aBoolean
+subPixelRenderColorFonts: aBoolean 
+	SubPixelRenderColorFonts := aBoolean

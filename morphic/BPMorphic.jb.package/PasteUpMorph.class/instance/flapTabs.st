@@ -1,2 +1,4 @@
 flaps
-flapTabs	^ self submorphs		select: [:m | m isFlapTab]
+flapTabs
+	^ self submorphs
+		select: [:m | m isFlapTab]

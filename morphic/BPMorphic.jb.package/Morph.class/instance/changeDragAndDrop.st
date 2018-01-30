@@ -1,2 +1,3 @@
 menus
-changeDragAndDrop	^ self enableDragNDrop: self dragNDropEnabled not
+changeDragAndDrop
+	^ self enableDragNDrop: self dragNDropEnabled not

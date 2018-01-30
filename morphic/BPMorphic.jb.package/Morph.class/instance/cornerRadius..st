@@ -1,2 +1,4 @@
 rounding
-cornerRadius: radius 	self setProperty: #cornerRadius toValue: radius.	self changed
+cornerRadius: radius 
+	self setProperty: #cornerRadius toValue: radius.
+	self changed

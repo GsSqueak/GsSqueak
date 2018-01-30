@@ -1,2 +1,4 @@
 geometry
-screenRectangle	"For compatibility only"	^ self fullBounds
+screenRectangle
+	"For compatibility only"
+	^ self fullBounds

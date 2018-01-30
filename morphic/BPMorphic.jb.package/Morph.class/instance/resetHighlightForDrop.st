@@ -1,2 +1,3 @@
 dropping/grabbing
-resetHighlightForDrop	self highlightForDrop: false
+resetHighlightForDrop
+	self highlightForDrop: false

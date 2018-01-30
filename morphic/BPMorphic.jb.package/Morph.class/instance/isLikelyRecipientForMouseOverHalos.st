@@ -1,2 +1,3 @@
 halos and balloon help
-isLikelyRecipientForMouseOverHalos	^ self player notNil
+isLikelyRecipientForMouseOverHalos
+	^ self player notNil

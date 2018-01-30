@@ -1,2 +1,3 @@
 options
-resizeToFit	^ self vResizing == #shrinkWrap
+resizeToFit
+	^ self vResizing == #shrinkWrap

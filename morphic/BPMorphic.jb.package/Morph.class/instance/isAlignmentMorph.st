@@ -1,2 +1,3 @@
 classification
-isAlignmentMorph	^ false
+isAlignmentMorph
+	^ false

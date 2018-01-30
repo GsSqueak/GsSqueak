@@ -1,2 +1,3 @@
 menus
-makeNascentScript	^ self notYetImplemented
+makeNascentScript
+	^ self notYetImplemented

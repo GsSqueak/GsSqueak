@@ -1,2 +1,3 @@
 event handling
-hasMouseFocus: aHand 	^ aHand mouseFocus == self
+hasMouseFocus: aHand 
+	^ aHand mouseFocus == self

@@ -1,2 +1,3 @@
 private
-array	^ array
+array
+	^ array

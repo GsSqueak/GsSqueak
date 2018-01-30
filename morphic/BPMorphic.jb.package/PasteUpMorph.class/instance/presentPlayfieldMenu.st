@@ -1,2 +1,3 @@
 menu & halo
-presentPlayfieldMenu	self playfieldOptionsMenu popUpForHand: self activeHand in: self world
+presentPlayfieldMenu
+	self playfieldOptionsMenu popUpForHand: self activeHand in: self world

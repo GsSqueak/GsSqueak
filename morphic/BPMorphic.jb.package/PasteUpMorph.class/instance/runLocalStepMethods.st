@@ -1,2 +1,3 @@
 stepping
-runLocalStepMethods	worldState runLocalStepMethodsIn: self
+runLocalStepMethods
+	worldState runLocalStepMethodsIn: self

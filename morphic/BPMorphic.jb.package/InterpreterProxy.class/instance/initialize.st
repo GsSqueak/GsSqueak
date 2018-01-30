@@ -1,2 +1,5 @@
 initialize
-initialize	remapBuffer := OrderedCollection new.	stack := OrderedCollection new.	primFailCode := 0
+initialize
+	remapBuffer := OrderedCollection new.
+	stack := OrderedCollection new.
+	primFailCode := 0

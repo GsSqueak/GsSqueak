@@ -1,2 +1,3 @@
 preferences
-indicateKeyboardFocus: aBoolean 	IndicateKeyboardFocus := aBoolean
+indicateKeyboardFocus: aBoolean 
+	IndicateKeyboardFocus := aBoolean

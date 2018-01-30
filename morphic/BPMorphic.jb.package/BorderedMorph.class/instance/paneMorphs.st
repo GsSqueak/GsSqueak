@@ -1,2 +1,3 @@
 resize handling
-paneMorphs	^ self submorphs copyWithoutAll: self splitters
+paneMorphs
+	^ self submorphs copyWithoutAll: self splitters

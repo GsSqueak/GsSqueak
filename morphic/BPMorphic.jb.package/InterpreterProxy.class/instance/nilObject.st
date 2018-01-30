@@ -1,2 +1,3 @@
 special objects
-nilObject	^ nil
+nilObject
+	^ nil

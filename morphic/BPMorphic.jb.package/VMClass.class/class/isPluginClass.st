@@ -1,2 +1,4 @@
 translation
-isPluginClass	"InterpreterPlugin class override this."	^ false
+isPluginClass
+	"InterpreterPlugin class override this."
+	^ false

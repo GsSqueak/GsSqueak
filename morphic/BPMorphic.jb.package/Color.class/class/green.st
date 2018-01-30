@@ -1,2 +1,3 @@
 named colors
-green	^ Green
+green
+	^ Green

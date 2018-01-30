@@ -1,2 +1,3 @@
 accessing
-depth	^ Display depth
+depth
+	^ Display depth

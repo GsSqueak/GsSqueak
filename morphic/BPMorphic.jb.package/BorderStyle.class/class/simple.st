@@ -1,2 +1,4 @@
 instance creation
-simple	"Answer a simple border style"	^ SimpleBorder new
+simple
+	"Answer a simple border style"
+	^ SimpleBorder new

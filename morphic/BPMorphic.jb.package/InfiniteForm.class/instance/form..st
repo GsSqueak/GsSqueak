@@ -1,2 +1,3 @@
 private
-form: aForm 	patternForm := aForm
+form: aForm 
+	patternForm := aForm

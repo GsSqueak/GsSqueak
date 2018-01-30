@@ -1,2 +1,3 @@
 configuring
-filterSelector	^ #flattenOnStream:
+filterSelector
+	^ #flattenOnStream:

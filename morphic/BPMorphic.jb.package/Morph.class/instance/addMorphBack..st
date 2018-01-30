@@ -1,2 +1,3 @@
 submorphs-add/remove
-addMorphBack: aMorph 	^ self privateAddMorph: aMorph atIndex: submorphs size + 1
+addMorphBack: aMorph 
+	^ self privateAddMorph: aMorph atIndex: submorphs size + 1

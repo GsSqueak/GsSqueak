@@ -1,2 +1,3 @@
 event handling
-wantsDropFiles: anEvent 	^ self isWorldMorph
+wantsDropFiles: anEvent 
+	^ self isWorldMorph

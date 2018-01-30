@@ -1,2 +1,3 @@
 named colors
-cyan	^ Cyan
+cyan
+	^ Cyan

@@ -1,2 +1,3 @@
 world state
-assuredCanvas	^ worldState assuredCanvas
+assuredCanvas
+	^ worldState assuredCanvas

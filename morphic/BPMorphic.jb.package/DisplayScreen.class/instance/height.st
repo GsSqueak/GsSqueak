@@ -1,2 +1,3 @@
 other
-height	^ self boundingBox height
+height
+	^ self boundingBox height

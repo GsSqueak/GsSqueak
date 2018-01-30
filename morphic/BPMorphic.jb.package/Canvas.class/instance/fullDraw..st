@@ -1,2 +1,3 @@
 drawing-general
-fullDraw: anObject 	^ anObject fullDrawOn: self
+fullDraw: anObject 
+	^ anObject fullDrawOn: self

@@ -1,2 +1,4 @@
 class initialization
-cleanUp	"Flush caches"	self recreateColorMaps
+cleanUp
+	"Flush caches"
+	self recreateColorMaps

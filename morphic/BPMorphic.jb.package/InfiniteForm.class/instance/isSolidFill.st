@@ -1,2 +1,3 @@
 fillstyle protocol
-isSolidFill	^ false
+isSolidFill
+	^ false

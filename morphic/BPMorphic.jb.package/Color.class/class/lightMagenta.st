@@ -1,2 +1,3 @@
 named colors
-lightMagenta	^ LightMagenta
+lightMagenta
+	^ LightMagenta

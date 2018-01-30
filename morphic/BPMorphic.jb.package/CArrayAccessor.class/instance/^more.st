@@ -1,2 +1,4 @@
 comparing
-> other 	^ object == other object		and: [offset > other offset]
+> other 
+	^ object == other object
+		and: [offset > other offset]

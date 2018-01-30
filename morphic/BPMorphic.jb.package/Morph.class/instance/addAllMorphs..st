@@ -1,2 +1,3 @@
 submorphs-add/remove
-addAllMorphs: aCollection 	^ self addAllMorphsBack: aCollection
+addAllMorphs: aCollection 
+	^ self addAllMorphsBack: aCollection

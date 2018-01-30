@@ -1,2 +1,3 @@
 initialization
-openInWindow	^ self openInWindowLabeled: self defaultLabelForInspector
+openInWindow
+	^ self openInWindowLabeled: self defaultLabelForInspector

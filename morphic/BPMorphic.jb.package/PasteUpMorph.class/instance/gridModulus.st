@@ -1,2 +1,3 @@
 gridding
-gridModulus	^ self gridSpec extent
+gridModulus
+	^ self gridSpec extent

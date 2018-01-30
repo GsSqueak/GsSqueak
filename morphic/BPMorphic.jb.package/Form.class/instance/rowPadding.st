@@ -1,2 +1,3 @@
 postscript generation
-rowPadding	^ 32 // self depth
+rowPadding
+	^ 32 // self depth

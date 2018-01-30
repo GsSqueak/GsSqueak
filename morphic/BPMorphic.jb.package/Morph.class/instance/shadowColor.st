@@ -1,2 +1,5 @@
 drop shadows
-shadowColor	^ self		valueOfProperty: #shadowColor		ifAbsent: [Color black]
+shadowColor
+	^ self
+		valueOfProperty: #shadowColor
+		ifAbsent: [Color black]

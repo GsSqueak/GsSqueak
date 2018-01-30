@@ -1,2 +1,3 @@
 equality
-hash	^ rgb bitXor: alpha
+hash
+	^ rgb bitXor: alpha

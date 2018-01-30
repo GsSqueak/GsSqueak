@@ -1,2 +1,4 @@
 initialize-release
-initialize	width := 0.	baseColor := color := Color transparent
+initialize
+	width := 0.
+	baseColor := color := Color transparent

@@ -1,2 +1,3 @@
 converting
-asCursorForm	^ self as: StaticForm
+asCursorForm
+	^ self as: StaticForm

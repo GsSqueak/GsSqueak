@@ -1,2 +1,3 @@
 events-filtering-bubbling
-mouseBubbleFilters	^ self valueOfProperty: #mouseBubbleFilters
+mouseBubbleFilters
+	^ self valueOfProperty: #mouseBubbleFilters

@@ -1,2 +1,4 @@
 accessing
-incrementScheduledTimesBy: anInteger 	heap		do: [:each | each scheduledTime: each scheduledTime + anInteger]
+incrementScheduledTimesBy: anInteger 
+	heap
+		do: [:each | each scheduledTime: each scheduledTime + anInteger]

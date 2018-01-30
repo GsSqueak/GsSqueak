@@ -1,2 +1,3 @@
 copying
-copyOffset: aPoint 	^ self copyOrigin: origin + aPoint clipRect: clipRect
+copyOffset: aPoint 
+	^ self copyOrigin: origin + aPoint clipRect: clipRect

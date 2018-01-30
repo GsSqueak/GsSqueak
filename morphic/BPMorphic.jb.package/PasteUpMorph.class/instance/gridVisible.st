@@ -1,2 +1,3 @@
 gridding
-gridVisible	^ self hasProperty: #gridVisible
+gridVisible
+	^ self hasProperty: #gridVisible

@@ -1,2 +1,3 @@
 testing
-isStatic	^ false
+isStatic
+	^ false

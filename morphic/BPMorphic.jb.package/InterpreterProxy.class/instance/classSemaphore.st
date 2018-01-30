@@ -1,2 +1,3 @@
 special classes
-classSemaphore	^ Semaphore
+classSemaphore
+	^ Semaphore

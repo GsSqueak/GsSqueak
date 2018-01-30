@@ -1,2 +1,3 @@
 resize handling
-wantsPaneSplitters: aBoolean 	self setProperty: #allowPaneSplitters toValue: aBoolean
+wantsPaneSplitters: aBoolean 
+	self setProperty: #allowPaneSplitters toValue: aBoolean

@@ -1,2 +1,4 @@
 accessing
-eventHandler	"answer the receiver's eventHandler"	^ eventHandler
+eventHandler
+	"answer the receiver's eventHandler"
+	^ eventHandler

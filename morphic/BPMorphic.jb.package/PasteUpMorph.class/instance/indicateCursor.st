@@ -1,2 +1,3 @@
 options
-indicateCursor	^ indicateCursor == true
+indicateCursor
+	^ indicateCursor == true

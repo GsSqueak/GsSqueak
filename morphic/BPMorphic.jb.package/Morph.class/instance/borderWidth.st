@@ -1,2 +1,3 @@
 accessing
-borderWidth	^ self borderStyle width
+borderWidth
+	^ self borderStyle width

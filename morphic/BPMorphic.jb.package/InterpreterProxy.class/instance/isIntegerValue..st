@@ -1,2 +1,3 @@
 testing
-isIntegerValue: intValue 	^ intValue class == SmallInteger
+isIntegerValue: intValue 
+	^ intValue class == SmallInteger

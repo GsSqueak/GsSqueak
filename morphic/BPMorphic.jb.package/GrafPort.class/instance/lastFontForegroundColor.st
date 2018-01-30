@@ -1,2 +1,3 @@
 accessing
-lastFontForegroundColor	^ lastFontForegroundColor
+lastFontForegroundColor
+	^ lastFontForegroundColor

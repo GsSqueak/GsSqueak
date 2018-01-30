@@ -1,2 +1,3 @@
 as yet unclassified
-setWorld: world  myWorld := world
+setWorld: world
+  myWorld := world

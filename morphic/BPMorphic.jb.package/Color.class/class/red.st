@@ -1,2 +1,3 @@
 named colors
-red	^ Red
+red
+	^ Red

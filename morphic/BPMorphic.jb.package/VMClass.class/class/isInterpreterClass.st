@@ -1,2 +1,4 @@
 translation
-isInterpreterClass	"The various Interpreter classes override this."	^ false
+isInterpreterClass
+	"The various Interpreter classes override this."
+	^ false

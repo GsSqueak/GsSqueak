@@ -1,2 +1,5 @@
 printing
-printOn: aStream 	super printOn: aStream.	aStream nextPutAll: ' on: ';		 print: object
+printOn: aStream 
+	super printOn: aStream.
+	aStream nextPutAll: ' on: ';
+		 print: object

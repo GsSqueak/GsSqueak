@@ -1,2 +1,3 @@
 misc
-thumbnailForPageSorter	^ self cachedOrNewThumbnailFrom: BookPageThumbnailMorph new
+thumbnailForPageSorter
+	^ self cachedOrNewThumbnailFrom: BookPageThumbnailMorph new

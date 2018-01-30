@@ -1,2 +1,3 @@
 geometry
-leftCenter	^ bounds leftCenter
+leftCenter
+	^ bounds leftCenter

@@ -1,2 +1,4 @@
 private
-canBeEncroached	"Support for the #smartHorizontalSplitters preference."	^ true
+canBeEncroached
+	"Support for the #smartHorizontalSplitters preference."
+	^ true

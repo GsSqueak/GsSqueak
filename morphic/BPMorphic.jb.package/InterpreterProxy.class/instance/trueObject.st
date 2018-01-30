@@ -1,2 +1,3 @@
 special objects
-trueObject	^ true
+trueObject
+	^ true

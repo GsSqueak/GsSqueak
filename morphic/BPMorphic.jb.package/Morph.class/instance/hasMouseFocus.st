@@ -1,2 +1,5 @@
 event handling
-hasMouseFocus	^ self activeHand		ifNil: [false]		ifNotNil: [:hand | self hasMouseFocus: hand]
+hasMouseFocus
+	^ self activeHand
+		ifNil: [false]
+		ifNotNil: [:hand | self hasMouseFocus: hand]

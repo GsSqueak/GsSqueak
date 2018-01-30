@@ -1,2 +1,4 @@
 undo
-commandHistory	^ commandHistory		ifNil: [commandHistory := CommandHistory new]
+commandHistory
+	^ commandHistory
+		ifNil: [commandHistory := CommandHistory new]

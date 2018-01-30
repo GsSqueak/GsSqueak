@@ -1,2 +1,3 @@
 submorphs-accessing
-submorphsDo: aBlock 	submorphs do: aBlock
+submorphsDo: aBlock 
+	submorphs do: aBlock

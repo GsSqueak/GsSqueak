@@ -1,2 +1,4 @@
 accessing - extension
-extension	"answer the recevier's extension"	^ extension
+extension
+	"answer the recevier's extension"
+	^ extension

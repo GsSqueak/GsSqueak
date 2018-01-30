@@ -1,2 +1,4 @@
 project
-disableDeferredUpdates	^ DisableDeferredUpdates		ifNil: [DisableDeferredUpdates := false]
+disableDeferredUpdates
+	^ DisableDeferredUpdates
+		ifNil: [DisableDeferredUpdates := false]

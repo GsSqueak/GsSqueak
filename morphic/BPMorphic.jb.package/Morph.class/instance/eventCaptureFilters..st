@@ -1,2 +1,3 @@
 events-filtering-capturing
-eventCaptureFilters: anArrayOrNil 	^ self setProperty: #eventCaptureFilters toValue: anArrayOrNil
+eventCaptureFilters: anArrayOrNil 
+	^ self setProperty: #eventCaptureFilters toValue: anArrayOrNil

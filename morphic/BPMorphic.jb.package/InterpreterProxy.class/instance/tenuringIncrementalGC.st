@@ -1,2 +1,3 @@
 other
-tenuringIncrementalGC	Smalltalk forceTenuring; garbageCollectMost
+tenuringIncrementalGC
+	Smalltalk forceTenuring; garbageCollectMost

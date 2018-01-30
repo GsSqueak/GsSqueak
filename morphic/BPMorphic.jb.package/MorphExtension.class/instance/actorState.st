@@ -1,2 +1,4 @@
 accessing
-actorState	"answer the redeiver's actorState"	^ actorState
+actorState
+	"answer the redeiver's actorState"
+	^ actorState

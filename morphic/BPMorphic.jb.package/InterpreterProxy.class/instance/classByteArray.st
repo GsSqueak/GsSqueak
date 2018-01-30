@@ -1,2 +1,3 @@
 special classes
-classByteArray	^ ByteArray
+classByteArray
+	^ ByteArray

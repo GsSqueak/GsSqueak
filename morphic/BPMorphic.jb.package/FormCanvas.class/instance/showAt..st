@@ -1,2 +1,3 @@
 other
-showAt: pt 	^ form displayAt: pt
+showAt: pt 
+	^ form displayAt: pt

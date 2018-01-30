@@ -1,2 +1,3 @@
 testing
-isShadowDrawing	^ false
+isShadowDrawing
+	^ false

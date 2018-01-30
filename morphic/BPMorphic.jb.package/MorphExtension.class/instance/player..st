@@ -1,2 +1,4 @@
 accessing
-player: anObject 	"change the receiver's player"	player := anObject
+player: anObject 
+	"change the receiver's player"
+	player := anObject

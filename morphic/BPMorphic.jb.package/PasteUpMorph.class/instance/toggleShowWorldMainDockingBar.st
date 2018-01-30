@@ -1,2 +1,3 @@
 menu & halo
-toggleShowWorldMainDockingBar	self project toggleShowWorldMainDockingBar
+toggleShowWorldMainDockingBar
+	self project toggleShowWorldMainDockingBar

@@ -1,2 +1,3 @@
 displaying-generic
-displayOnPort: aPort 	self displayOnPort: aPort at: 0 @ 0
+displayOnPort: aPort 
+	self displayOnPort: aPort at: 0 @ 0

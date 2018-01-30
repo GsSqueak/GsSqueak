@@ -1,2 +1,3 @@
 named colors
-yellow	^ Yellow
+yellow
+	^ Yellow

@@ -1,2 +1,3 @@
 accessing
-visible: newValue 	visible := newValue
+visible: newValue 
+	visible := newValue

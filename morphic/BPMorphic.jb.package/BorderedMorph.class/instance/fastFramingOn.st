@@ -1,2 +1,3 @@
 resize handling
-fastFramingOn	^ Preferences fastDragWindowForMorphic
+fastFramingOn
+	^ Preferences fastDragWindowForMorphic

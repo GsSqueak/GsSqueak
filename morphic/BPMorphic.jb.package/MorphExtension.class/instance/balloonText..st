@@ -1,2 +1,3 @@
 accessing
-balloonText: newValue 	balloonText := newValue
+balloonText: newValue 
+	balloonText := newValue

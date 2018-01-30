@@ -1,2 +1,3 @@
 menu & halo
-showFullView	self transformToShow: bounds
+showFullView
+	self transformToShow: bounds

@@ -1,2 +1,6 @@
 menu & halo
-showApplicationView	self		transformToShow: (self				valueOfProperty: #applicationViewBounds				ifAbsent: [bounds])
+showApplicationView
+	self
+		transformToShow: (self
+				valueOfProperty: #applicationViewBounds
+				ifAbsent: [bounds])

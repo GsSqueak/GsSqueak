@@ -1,2 +1,4 @@
 private
-setBorderWidth: w borderColor: bc 	self borderWidth: w.	self borderColor: bc
+setBorderWidth: w borderColor: bc 
+	self borderWidth: w.
+	self borderColor: bc

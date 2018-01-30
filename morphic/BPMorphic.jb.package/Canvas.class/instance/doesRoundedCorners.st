@@ -1,2 +1,3 @@
 testing
-doesRoundedCorners	^ true
+doesRoundedCorners
+	^ true

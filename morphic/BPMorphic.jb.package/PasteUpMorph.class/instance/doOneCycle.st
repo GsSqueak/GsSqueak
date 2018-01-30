@@ -1,2 +1,4 @@
 world state
-doOneCycle	"see the comment in doOneCycleFor:"	worldState doOneCycleFor: self
+doOneCycle
+	"see the comment in doOneCycleFor:"
+	worldState doOneCycleFor: self

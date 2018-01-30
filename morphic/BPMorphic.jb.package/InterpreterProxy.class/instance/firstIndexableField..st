@@ -1,2 +1,4 @@
 object access
-firstIndexableField: oop 	<returnTypeC: 'void *'>	^ CArrayAccessor on: oop
+firstIndexableField: oop 
+	<returnTypeC: 'void *'>
+	^ CArrayAccessor on: oop

@@ -1,2 +1,5 @@
 debug and other
-resumeAfterDrawError	self changed.	self removeProperty: #errorOnDraw.	self changed
+resumeAfterDrawError
+	self changed.
+	self removeProperty: #errorOnDraw.
+	self changed

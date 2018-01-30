@@ -1,2 +1,3 @@
 creation
-asMorph	^ self
+asMorph
+	^ self

@@ -1,2 +1,3 @@
 instance creation
-new	^ super new reset
+new
+	^ super new reset

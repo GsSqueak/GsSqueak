@@ -1,2 +1,3 @@
 testing
-isBytes: oop 	^ oop class isBytes
+isBytes: oop 
+	^ oop class isBytes

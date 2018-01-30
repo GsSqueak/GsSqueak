@@ -1,2 +1,4 @@
 converting
-asPluggableAccessor	^ (CPluggableAccessor on: object)		+= offset
+asPluggableAccessor
+	^ (CPluggableAccessor on: object)
+		+= offset

@@ -1,2 +1,3 @@
 accessing
-style	^ #simple
+style
+	^ #simple

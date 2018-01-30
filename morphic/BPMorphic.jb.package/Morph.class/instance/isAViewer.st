@@ -1,2 +1,3 @@
 e-toy support
-isAViewer	^ false
+isAViewer
+	^ false

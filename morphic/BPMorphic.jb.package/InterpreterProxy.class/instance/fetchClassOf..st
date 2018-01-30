@@ -1,2 +1,3 @@
 object access
-fetchClassOf: oop 	^ oop class
+fetchClassOf: oop 
+	^ oop class

@@ -1,2 +1,3 @@
 special objects
-characterTable	^ Character characterTable
+characterTable
+	^ Character characterTable

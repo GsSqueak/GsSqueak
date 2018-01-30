@@ -1,2 +1,3 @@
 object access
-literalCountOf: methodPointer 	^ methodPointer numLiterals
+literalCountOf: methodPointer 
+	^ methodPointer numLiterals

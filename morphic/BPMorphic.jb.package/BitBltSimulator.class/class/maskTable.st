@@ -1,2 +1,3 @@
 accessing
-maskTable	^ maskTable
+maskTable
+	^ maskTable

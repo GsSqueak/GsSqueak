@@ -1,2 +1,3 @@
 menus
-exportAsJPEGNamed: aString 	self imageForm writeJPEGfileNamed: aString
+exportAsJPEGNamed: aString 
+	self imageForm writeJPEGfileNamed: aString

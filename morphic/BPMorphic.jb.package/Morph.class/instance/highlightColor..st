@@ -1,2 +1,3 @@
 accessing
-highlightColor: aColor 	self setProperty: #highlightColor toValue: aColor
+highlightColor: aColor 
+	self setProperty: #highlightColor toValue: aColor

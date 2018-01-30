@@ -1,2 +1,5 @@
 class initialization
-initialize	"self initialize"	super initialize.	isInitialised := false
+initialize
+	"self initialize"
+	super initialize.
+	isInitialised := false

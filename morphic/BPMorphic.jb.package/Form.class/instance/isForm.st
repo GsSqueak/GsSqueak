@@ -1,2 +1,3 @@
 testing
-isForm	^ true
+isForm
+	^ true

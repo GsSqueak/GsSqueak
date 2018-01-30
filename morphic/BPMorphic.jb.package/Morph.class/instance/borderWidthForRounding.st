@@ -1,2 +1,3 @@
 accessing
-borderWidthForRounding	^ self borderWidth
+borderWidthForRounding
+	^ self borderWidth

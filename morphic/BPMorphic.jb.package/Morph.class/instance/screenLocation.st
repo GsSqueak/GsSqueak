@@ -1,2 +1,4 @@
 geometry
-screenLocation	"For compatibility only"	^ self fullBounds origin
+screenLocation
+	"For compatibility only"
+	^ self fullBounds origin

@@ -1,2 +1,3 @@
 event handling
-preferredKeyboardBounds	^ self bounds: self bounds in: World
+preferredKeyboardBounds
+	^ self bounds: self bounds in: World

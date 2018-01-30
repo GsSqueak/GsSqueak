@@ -1,2 +1,4 @@
 accessing
-simulator: aSmartSyntaxPluginSimulator 	<doNotGenerate>	simulator := aSmartSyntaxPluginSimulator
+simulator: aSmartSyntaxPluginSimulator 
+	<doNotGenerate>
+	simulator := aSmartSyntaxPluginSimulator

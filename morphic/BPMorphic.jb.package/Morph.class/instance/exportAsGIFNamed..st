@@ -1,2 +1,3 @@
 menus
-exportAsGIFNamed: aString 	GIFReadWriter putForm: self imageForm onFileNamed: aString
+exportAsGIFNamed: aString 
+	GIFReadWriter putForm: self imageForm onFileNamed: aString

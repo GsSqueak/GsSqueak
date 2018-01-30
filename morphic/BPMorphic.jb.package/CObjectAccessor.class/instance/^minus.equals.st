@@ -1,2 +1,3 @@
 pointer arithmetic
--= decrement 	offset := offset - decrement
+-= decrement 
+	offset := offset - decrement

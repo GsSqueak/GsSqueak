@@ -1,2 +1,3 @@
 fileIn/Out
-writeBitsOn: file 	bits writeOn: file
+writeBitsOn: file 
+	bits writeOn: file

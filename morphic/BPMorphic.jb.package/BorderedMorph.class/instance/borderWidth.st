@@ -1,2 +1,3 @@
 accessing
-borderWidth	^ borderWidth
+borderWidth
+	^ borderWidth

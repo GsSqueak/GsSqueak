@@ -1,2 +1,3 @@
 accessing
-balloonTextSelector	^ balloonTextSelector
+balloonTextSelector
+	^ balloonTextSelector

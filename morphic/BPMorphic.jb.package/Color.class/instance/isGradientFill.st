@@ -1,2 +1,3 @@
 queries
-isGradientFill	^ false
+isGradientFill
+	^ false

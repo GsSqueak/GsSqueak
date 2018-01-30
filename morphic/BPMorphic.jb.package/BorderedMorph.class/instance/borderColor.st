@@ -1,2 +1,3 @@
 accessing
-borderColor	^ borderColor
+borderColor
+	^ borderColor

@@ -1,2 +1,3 @@
 menus
-exportAsBMPNamed: aString 	self imageForm writeBMPfileNamed: aString
+exportAsBMPNamed: aString 
+	self imageForm writeBMPfileNamed: aString

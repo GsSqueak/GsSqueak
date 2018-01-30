@@ -1,2 +1,3 @@
 fillstyle protocol
-normal	^ 0 @ patternForm height
+normal
+	^ 0 @ patternForm height

@@ -1,2 +1,3 @@
 translation
-ancilliaryStructClasses	^ #()
+ancilliaryStructClasses
+	^ #()

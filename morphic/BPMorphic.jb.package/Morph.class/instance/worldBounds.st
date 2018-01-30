@@ -1,2 +1,3 @@
 geometry
-worldBounds	^ self world bounds
+worldBounds
+	^ self world bounds

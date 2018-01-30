@@ -1,2 +1,3 @@
 accessing
-useSquareCorners	self cornerStyle: #square
+useSquareCorners
+	self cornerStyle: #square

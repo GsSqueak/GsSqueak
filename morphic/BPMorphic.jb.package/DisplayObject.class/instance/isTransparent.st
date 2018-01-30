@@ -1,2 +1,3 @@
 displaying-Display
-isTransparent	^ false
+isTransparent
+	^ false

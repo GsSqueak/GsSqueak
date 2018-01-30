@@ -1,2 +1,3 @@
 special objects
-falseObject	^ false
+falseObject
+	^ false

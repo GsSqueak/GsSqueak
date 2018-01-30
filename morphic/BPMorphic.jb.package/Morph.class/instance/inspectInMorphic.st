@@ -1,2 +1,3 @@
 menus
-inspectInMorphic	ToolSet inspect: self
+inspectInMorphic
+	ToolSet inspect: self

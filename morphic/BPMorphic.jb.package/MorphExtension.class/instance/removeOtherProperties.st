@@ -1,2 +1,4 @@
 accessing - other properties
-removeOtherProperties	"Remove the 'other' properties"	otherProperties := nil
+removeOtherProperties
+	"Remove the 'other' properties"
+	otherProperties := nil

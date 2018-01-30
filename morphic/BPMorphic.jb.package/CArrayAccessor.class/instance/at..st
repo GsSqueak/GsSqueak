@@ -1,2 +1,3 @@
 accessing
-at: index 	^ object at: index + offset + 1
+at: index 
+	^ object at: index + offset + 1

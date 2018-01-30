@@ -1,2 +1,3 @@
 accessing
-toggleLocked	self lock: self isLocked not
+toggleLocked
+	self lock: self isLocked not

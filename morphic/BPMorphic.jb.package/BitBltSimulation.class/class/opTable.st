@@ -1,2 +1,3 @@
 translation
-opTable	^ OpTable
+opTable
+	^ OpTable

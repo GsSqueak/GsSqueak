@@ -1,2 +1,4 @@
 private
-privateSubmorphs	"Private! Use 'submorphs' instead."	^ submorphs
+privateSubmorphs
+	"Private! Use 'submorphs' instead."
+	^ submorphs

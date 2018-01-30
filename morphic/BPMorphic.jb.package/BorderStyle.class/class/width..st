@@ -1,2 +1,3 @@
 instance creation
-width: aNumber 	^ self width: aNumber color: Color black
+width: aNumber 
+	^ self width: aNumber color: Color black

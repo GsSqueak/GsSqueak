@@ -1,2 +1,3 @@
 creation
-stream	^ self streamOn: self defaultTarget
+stream
+	^ self streamOn: self defaultTarget

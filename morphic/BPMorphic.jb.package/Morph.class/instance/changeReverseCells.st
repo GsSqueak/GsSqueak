@@ -1,2 +1,3 @@
 layout-menu
-changeReverseCells	self reverseTableCells: self reverseTableCells not
+changeReverseCells
+	self reverseTableCells: self reverseTableCells not

@@ -1,2 +1,4 @@
 as yet unclassified
-new  self halt.  ^ super new
+new
+  self halt.
+  ^ super new

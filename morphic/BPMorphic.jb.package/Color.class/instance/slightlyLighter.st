@@ -1,2 +1,3 @@
 transformations
-slightlyLighter	^ self adjustSaturation: -0.01 brightness: 0.03
+slightlyLighter
+	^ self adjustSaturation: -0.01 brightness: 0.03

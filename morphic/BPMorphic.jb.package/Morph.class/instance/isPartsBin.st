@@ -1,2 +1,3 @@
 parts bin
-isPartsBin	^ false
+isPartsBin
+	^ false

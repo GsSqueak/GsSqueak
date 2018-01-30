@@ -1,2 +1,4 @@
 resize handling
-grips	^ self		submorphsSatisfying: [:each | each isKindOf: CornerGripMorph]
+grips
+	^ self
+		submorphsSatisfying: [:each | each isKindOf: CornerGripMorph]

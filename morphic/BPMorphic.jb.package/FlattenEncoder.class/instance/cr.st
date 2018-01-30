@@ -1,2 +1,3 @@
 writing
-cr	^ self print: String cr
+cr
+	^ self print: String cr

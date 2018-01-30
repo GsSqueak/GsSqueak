@@ -1,2 +1,3 @@
 accessing
-asForm	^ patternForm
+asForm
+	^ patternForm

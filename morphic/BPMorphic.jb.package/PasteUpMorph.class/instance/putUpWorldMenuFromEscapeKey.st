@@ -1,2 +1,4 @@
 world menu
-putUpWorldMenuFromEscapeKey	Preferences noviceMode		ifFalse: [self putUpWorldMenu: ActiveEvent]
+putUpWorldMenuFromEscapeKey
+	Preferences noviceMode
+		ifFalse: [self putUpWorldMenu: ActiveEvent]

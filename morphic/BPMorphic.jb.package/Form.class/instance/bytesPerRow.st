@@ -1,2 +1,3 @@
 postscript generation
-bytesPerRow	^ self numComponents * self paddedWidth * self bitsPerComponent / 8
+bytesPerRow
+	^ self numComponents * self paddedWidth * self bitsPerComponent / 8

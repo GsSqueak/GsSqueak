@@ -1,2 +1,3 @@
 named colors
-veryPaleRed	^ VeryPaleRed
+veryPaleRed
+	^ VeryPaleRed

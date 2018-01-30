@@ -1,2 +1,3 @@
 other
-failed	^ primFailCode ~= 0
+failed
+	^ primFailCode ~= 0

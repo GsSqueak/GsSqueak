@@ -1,2 +1,3 @@
 dropping/grabbing
-originAtCenter	^ self hasProperty: #originAtCenter
+originAtCenter
+	^ self hasProperty: #originAtCenter

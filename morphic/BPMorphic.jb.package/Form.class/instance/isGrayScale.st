@@ -1,2 +1,3 @@
 testing
-isGrayScale	^ false
+isGrayScale
+	^ false

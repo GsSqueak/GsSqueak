@@ -1,2 +1,3 @@
 initialization
-removeKeyboardShortcuts	self removeKeyboardCaptureFilter: self
+removeKeyboardShortcuts
+	self removeKeyboardCaptureFilter: self

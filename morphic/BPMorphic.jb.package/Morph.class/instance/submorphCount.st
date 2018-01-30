@@ -1,2 +1,3 @@
 submorphs-accessing
-submorphCount	^ submorphs size
+submorphCount
+	^ submorphs size

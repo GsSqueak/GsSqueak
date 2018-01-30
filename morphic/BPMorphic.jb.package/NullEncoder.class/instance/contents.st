@@ -1,2 +1,3 @@
 accessing
-contents	^ target contents
+contents
+	^ target contents

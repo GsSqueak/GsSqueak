@@ -1,2 +1,3 @@
 drawing
-imageForm	^ self imageFormForRectangle: self fullBounds
+imageForm
+	^ self imageFormForRectangle: self fullBounds

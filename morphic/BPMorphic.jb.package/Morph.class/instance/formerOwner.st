@@ -1,2 +1,3 @@
 dropping/grabbing
-formerOwner	^ self valueOfProperty: #formerOwner
+formerOwner
+	^ self valueOfProperty: #formerOwner

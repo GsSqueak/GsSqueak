@@ -1,2 +1,3 @@
 accessing - layout properties
-layoutFrame	^ self valueOfProperty: #layoutFrame
+layoutFrame
+	^ self valueOfProperty: #layoutFrame

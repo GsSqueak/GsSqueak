@@ -1,2 +1,3 @@
 other
-forceToScreen: rect 	^ Display forceToScreen: rect
+forceToScreen: rect 
+	^ Display forceToScreen: rect

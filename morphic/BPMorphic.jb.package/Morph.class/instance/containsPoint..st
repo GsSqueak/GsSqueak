@@ -1,2 +1,3 @@
 geometry testing
-containsPoint: aPoint 	^ self bounds containsPoint: aPoint
+containsPoint: aPoint 
+	^ self bounds containsPoint: aPoint

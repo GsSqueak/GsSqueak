@@ -1,2 +1,3 @@
 fillstyle protocol
-bitPatternForDepth: suspectedDepth 	^ patternForm
+bitPatternForDepth: suspectedDepth 
+	^ patternForm

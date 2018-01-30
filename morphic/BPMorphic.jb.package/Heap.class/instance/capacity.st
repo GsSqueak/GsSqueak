@@ -1,2 +1,4 @@
 accessing
-capacity	"Answer the current capacity of the receiver."	^ array size
+capacity
+	"Answer the current capacity of the receiver."
+	^ array size

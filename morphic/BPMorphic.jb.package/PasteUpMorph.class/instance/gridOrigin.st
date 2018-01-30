@@ -1,2 +1,3 @@
 gridding
-gridOrigin	^ self gridSpec origin
+gridOrigin
+	^ self gridSpec origin

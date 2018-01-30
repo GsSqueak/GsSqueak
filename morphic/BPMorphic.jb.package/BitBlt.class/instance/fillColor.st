@@ -1,2 +1,3 @@
 accessing
-fillColor	^ halftoneForm
+fillColor
+	^ halftoneForm

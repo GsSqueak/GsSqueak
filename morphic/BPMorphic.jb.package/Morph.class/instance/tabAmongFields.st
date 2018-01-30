@@ -1,2 +1,4 @@
 event handling
-tabAmongFields	^ Preferences tabAmongFields		or: [self hasProperty: #tabAmongFields]
+tabAmongFields
+	^ Preferences tabAmongFields
+		or: [self hasProperty: #tabAmongFields]

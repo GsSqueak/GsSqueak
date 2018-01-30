@@ -1,2 +1,4 @@
 naming
-name: aName 	aName isString		ifTrue: [self setNameTo: aName]
+name: aName 
+	aName isString
+		ifTrue: [self setNameTo: aName]

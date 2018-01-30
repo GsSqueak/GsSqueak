@@ -1,2 +1,3 @@
 accessing - layout properties
-layoutProperties	^ self valueOfProperty: #layoutProperties
+layoutProperties
+	^ self valueOfProperty: #layoutProperties

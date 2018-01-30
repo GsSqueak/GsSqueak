@@ -1,2 +1,3 @@
 named colors
-blue	^ Blue
+blue
+	^ Blue

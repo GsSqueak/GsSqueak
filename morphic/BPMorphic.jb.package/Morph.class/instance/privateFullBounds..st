@@ -1,2 +1,4 @@
 private
-privateFullBounds: boundsRect 	"Private! Computed automatically."	fullBounds := boundsRect
+privateFullBounds: boundsRect 
+	"Private! Computed automatically."
+	fullBounds := boundsRect

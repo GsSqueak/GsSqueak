@@ -1,2 +1,3 @@
 testing
-isHeap	^ true
+isHeap
+	^ true

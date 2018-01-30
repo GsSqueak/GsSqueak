@@ -1,2 +1,3 @@
 instance creation
-complexAltInset	^ ComplexBorder style: #complexAltInset
+complexAltInset
+	^ ComplexBorder style: #complexAltInset

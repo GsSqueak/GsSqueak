@@ -1,2 +1,4 @@
 copying
-postCopy	super postCopy.	array := array copy
+postCopy
+	super postCopy.
+	array := array copy

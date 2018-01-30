@@ -1,2 +1,3 @@
 special classes
-classLargePositiveInteger	^ LargePositiveInteger
+classLargePositiveInteger
+	^ LargePositiveInteger

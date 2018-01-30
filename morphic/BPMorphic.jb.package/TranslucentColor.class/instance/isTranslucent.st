@@ -1,2 +1,3 @@
 queries
-isTranslucent	^ alpha < 255
+isTranslucent
+	^ alpha < 255

@@ -1,2 +1,3 @@
 instance creation
-pushRemappableOop: oop 	remapBuffer addLast: oop
+pushRemappableOop: oop 
+	remapBuffer addLast: oop

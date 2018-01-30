@@ -1,2 +1,3 @@
 as yet unclassified
-defaultWorldColor  ^ Color lightBlue
+defaultWorldColor
+  ^ Color lightBlue

@@ -1,2 +1,4 @@
 interaction loop
-doOneCycleNow	"see the comment in doOneCycleNowFor:"	worldState doOneCycleNowFor: self
+doOneCycleNow
+	"see the comment in doOneCycleNowFor:"
+	worldState doOneCycleNowFor: self

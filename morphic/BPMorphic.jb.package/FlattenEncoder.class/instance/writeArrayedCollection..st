@@ -1,2 +1,3 @@
 writing
-writeArrayedCollection: anArrayedCollection 	^ self writeCollectionContents: anArrayedCollection
+writeArrayedCollection: anArrayedCollection 
+	^ self writeCollectionContents: anArrayedCollection

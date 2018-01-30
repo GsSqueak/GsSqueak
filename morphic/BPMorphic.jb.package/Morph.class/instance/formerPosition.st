@@ -1,2 +1,3 @@
 dropping/grabbing
-formerPosition	^ self valueOfProperty: #formerPosition
+formerPosition
+	^ self valueOfProperty: #formerPosition

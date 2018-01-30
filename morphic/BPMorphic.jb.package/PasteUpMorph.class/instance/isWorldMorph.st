@@ -1,2 +1,3 @@
 classification
-isWorldMorph	^ worldState notNil
+isWorldMorph
+	^ worldState notNil

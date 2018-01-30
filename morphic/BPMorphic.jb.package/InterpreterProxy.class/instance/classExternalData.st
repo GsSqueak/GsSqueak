@@ -1,2 +1,5 @@
 FFI support
-classExternalData	^ Smalltalk		at: #ExternalData		ifAbsent: []
+classExternalData
+	^ Smalltalk
+		at: #ExternalData
+		ifAbsent: []

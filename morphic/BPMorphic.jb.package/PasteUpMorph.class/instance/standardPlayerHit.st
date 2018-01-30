@@ -1,2 +1,3 @@
 world state
-standardPlayerHit	self playSoundNamed: 'peaks'
+standardPlayerHit
+	self playSoundNamed: 'peaks'

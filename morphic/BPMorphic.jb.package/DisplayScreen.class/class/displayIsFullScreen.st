@@ -1,2 +1,4 @@
 screen modes
-displayIsFullScreen	^ DisplayIsFullScreen		ifNil: [DisplayIsFullScreen := false]
+displayIsFullScreen
+	^ DisplayIsFullScreen
+		ifNil: [DisplayIsFullScreen := false]

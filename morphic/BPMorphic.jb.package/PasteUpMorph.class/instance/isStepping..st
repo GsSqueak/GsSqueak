@@ -1,2 +1,3 @@
 project state
-isStepping: aMorph 	^ worldState isStepping: aMorph
+isStepping: aMorph 
+	^ worldState isStepping: aMorph

@@ -1,2 +1,3 @@
 writing
-writeObject: anObject 	^ self forward: anObject
+writeObject: anObject 
+	^ self forward: anObject

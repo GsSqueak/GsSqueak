@@ -1,2 +1,4 @@
 removing
-removeAll	array atAllPut: nil.	tally := 0
+removeAll
+	array atAllPut: nil.
+	tally := 0

@@ -1,2 +1,5 @@
 FFI support
-classExternalStructure	^ Smalltalk		at: #ExternalStructure		ifAbsent: []
+classExternalStructure
+	^ Smalltalk
+		at: #ExternalStructure
+		ifAbsent: []

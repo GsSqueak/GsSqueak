@@ -1,2 +1,3 @@
 private
-privateColor: aColor 	color := aColor
+privateColor: aColor 
+	color := aColor

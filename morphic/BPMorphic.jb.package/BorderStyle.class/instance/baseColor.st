@@ -1,2 +1,3 @@
 accessing
-baseColor	^ Color transparent
+baseColor
+	^ Color transparent

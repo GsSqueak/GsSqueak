@@ -1,2 +1,3 @@
 other
-colorForInsets	^ self
+colorForInsets
+	^ self

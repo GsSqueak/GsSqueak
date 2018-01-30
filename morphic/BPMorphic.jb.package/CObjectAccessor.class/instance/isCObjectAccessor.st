@@ -1,2 +1,3 @@
 accessing
-isCObjectAccessor	^ true
+isCObjectAccessor
+	^ true

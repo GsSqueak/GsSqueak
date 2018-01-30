@@ -1,2 +1,3 @@
 canvas
-doFullRepaint	damageRecorder doFullRepaint
+doFullRepaint
+	damageRecorder doFullRepaint

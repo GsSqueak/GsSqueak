@@ -1,2 +1,3 @@
 instance creation
-complexAltRaised	^ ComplexBorder style: #complexAltRaised
+complexAltRaised
+	^ ComplexBorder style: #complexAltRaised

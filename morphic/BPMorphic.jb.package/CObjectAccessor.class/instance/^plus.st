@@ -1,2 +1,3 @@
 pointer arithmetic
-+ increment 	^ self shallowCopy += increment
++ increment 
+	^ self shallowCopy += increment

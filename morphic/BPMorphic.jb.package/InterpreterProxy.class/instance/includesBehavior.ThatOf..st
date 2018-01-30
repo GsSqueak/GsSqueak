@@ -1,2 +1,3 @@
 testing
-includesBehavior: aClass ThatOf: aSuperclass 	^ aClass includesBehavior: aSuperclass
+includesBehavior: aClass ThatOf: aSuperclass 
+	^ aClass includesBehavior: aSuperclass

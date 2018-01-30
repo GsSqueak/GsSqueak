@@ -1,2 +1,3 @@
 project state
-hands	^ worldState hands
+hands
+	^ worldState hands

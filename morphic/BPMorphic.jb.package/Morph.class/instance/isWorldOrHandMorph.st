@@ -1,2 +1,4 @@
 classification
-isWorldOrHandMorph	^ self isWorldMorph		or: [self isHandMorph]
+isWorldOrHandMorph
+	^ self isWorldMorph
+		or: [self isHandMorph]

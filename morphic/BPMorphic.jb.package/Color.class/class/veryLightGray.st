@@ -1,2 +1,3 @@
 named colors
-veryLightGray	^ VeryLightGray
+veryLightGray
+	^ VeryLightGray

@@ -1,2 +1,4 @@
 translation
-isCogitClass	"The various Cogit classes override this."	^ false
+isCogitClass
+	"The various Cogit classes override this."
+	^ false

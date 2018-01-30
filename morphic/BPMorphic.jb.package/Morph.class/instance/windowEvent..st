@@ -1,2 +1,4 @@
 event handling
-windowEvent: anEvent 	"Host window event"	^ self
+windowEvent: anEvent 
+	"Host window event"
+	^ self

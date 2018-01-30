@@ -1,2 +1,3 @@
 accessing
-useRoundedCorners	self cornerStyle: #rounded
+useRoundedCorners
+	self cornerStyle: #rounded

@@ -1,2 +1,4 @@
 stepping and presenter
-stopSteppingSelfAndSubmorphs	self		allMorphsDo: [:m | m stopStepping]
+stopSteppingSelfAndSubmorphs
+	self
+		allMorphsDo: [:m | m stopStepping]

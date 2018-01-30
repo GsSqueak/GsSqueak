@@ -1,2 +1,4 @@
 layout-properties
-copyLayoutProperties	^ [Clipboard clipboardText: self layoutProperties stringWithLayout]		ifError: []
+copyLayoutProperties
+	^ [Clipboard clipboardText: self layoutProperties stringWithLayout]
+		ifError: []

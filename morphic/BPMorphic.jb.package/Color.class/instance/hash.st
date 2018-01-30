@@ -1,2 +1,3 @@
 equality
-hash	^ rgb
+hash
+	^ rgb

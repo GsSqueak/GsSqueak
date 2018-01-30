@@ -1,2 +1,4 @@
 accessing
-simulator	<doNotGenerate>	^ simulator
+simulator
+	<doNotGenerate>
+	^ simulator

@@ -1,2 +1,4 @@
 testing
-isWordsOrBytes: oop 	^ (self isBytes: oop)		or: [self isWords: oop]
+isWordsOrBytes: oop 
+	^ (self isBytes: oop)
+		or: [self isWords: oop]

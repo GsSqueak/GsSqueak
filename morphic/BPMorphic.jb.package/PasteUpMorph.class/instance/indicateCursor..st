@@ -1,2 +1,3 @@
 options
-indicateCursor: aBoolean 	indicateCursor := aBoolean
+indicateCursor: aBoolean 
+	indicateCursor := aBoolean

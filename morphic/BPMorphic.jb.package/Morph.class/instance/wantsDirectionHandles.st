@@ -1,2 +1,5 @@
 halos and balloon help
-wantsDirectionHandles	^ self		valueOfProperty: #wantsDirectionHandles		ifAbsent: [Preferences showDirectionHandles]
+wantsDirectionHandles
+	^ self
+		valueOfProperty: #wantsDirectionHandles
+		ifAbsent: [Preferences showDirectionHandles]

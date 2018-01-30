@@ -1,2 +1,3 @@
 private
-longAt: accessor 	^ accessor longAt: 0
+longAt: accessor 
+	^ accessor longAt: 0

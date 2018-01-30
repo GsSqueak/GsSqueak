@@ -1,2 +1,4 @@
 gridding
-gridOrigin: newOrigin 	^ self		gridSpecPut: (newOrigin extent: self gridModulus)
+gridOrigin: newOrigin 
+	^ self
+		gridSpecPut: (newOrigin extent: self gridModulus)

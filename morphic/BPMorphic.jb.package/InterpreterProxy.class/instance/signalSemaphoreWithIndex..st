@@ -1,2 +1,3 @@
 other
-signalSemaphoreWithIndex: semaIndex 	(Smalltalk externalObjects at: semaIndex) signal
+signalSemaphoreWithIndex: semaIndex 
+	(Smalltalk externalObjects at: semaIndex) signal

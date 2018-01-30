@@ -1,2 +1,4 @@
 accessing
-halftoneForm	"Returns the receivers half tone form. See class commment."	^ halftoneForm
+halftoneForm
+	"Returns the receivers half tone form. See class commment."
+	^ halftoneForm

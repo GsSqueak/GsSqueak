@@ -1,2 +1,3 @@
 change reporting
-invalidRect: damageRect 	^ self invalidRect: damageRect from: self
+invalidRect: damageRect 
+	^ self invalidRect: damageRect from: self

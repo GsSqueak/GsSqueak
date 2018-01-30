@@ -1,2 +1,3 @@
 project state
-listOfSteppingMorphs	^ worldState listOfSteppingMorphs"self currentWorld listOfSteppingMorphs"
+listOfSteppingMorphs
+	^ worldState listOfSteppingMorphs"self currentWorld listOfSteppingMorphs"

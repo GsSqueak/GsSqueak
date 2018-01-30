@@ -1,2 +1,3 @@
 accessing
-borderInset	self borderColor: #inset
+borderInset
+	self borderColor: #inset

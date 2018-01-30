@@ -1,2 +1,4 @@
 copying
-postCopy	super postCopy.	bits := bits copy
+postCopy
+	super postCopy.
+	bits := bits copy

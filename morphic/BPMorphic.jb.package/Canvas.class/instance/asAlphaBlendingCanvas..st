@@ -1,2 +1,4 @@
 converting
-asAlphaBlendingCanvas: alpha 	^ (AlphaBlendingCanvas on: self)		alpha: alpha
+asAlphaBlendingCanvas: alpha 
+	^ (AlphaBlendingCanvas on: self)
+		alpha: alpha

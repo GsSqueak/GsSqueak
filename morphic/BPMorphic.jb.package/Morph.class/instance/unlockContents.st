@@ -1,2 +1,4 @@
 accessing
-unlockContents	self		submorphsDo: [:m | m unlock]
+unlockContents
+	self
+		submorphsDo: [:m | m unlock]

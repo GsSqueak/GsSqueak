@@ -1,2 +1,4 @@
 gridding
-griddingOn	^ griddingOn		ifNil: [false]
+griddingOn
+	^ griddingOn
+		ifNil: [false]

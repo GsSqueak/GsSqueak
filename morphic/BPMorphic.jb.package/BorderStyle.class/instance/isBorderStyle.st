@@ -1,2 +1,3 @@
 testing
-isBorderStyle	^ true
+isBorderStyle
+	^ true

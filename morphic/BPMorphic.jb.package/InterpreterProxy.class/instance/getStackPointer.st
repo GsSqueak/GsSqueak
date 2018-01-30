@@ -1,2 +1,3 @@
 other
-getStackPointer	self error: 'not yet implemented in Smalltalk'
+getStackPointer
+	self error: 'not yet implemented in Smalltalk'

@@ -1,2 +1,4 @@
 accessing
-actorState: anActorState 	"change the receiver's actorState"	actorState := anActorState
+actorState: anActorState 
+	"change the receiver's actorState"
+	actorState := anActorState

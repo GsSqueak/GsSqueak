@@ -1,2 +1,4 @@
 private
-setCollection: aCollection 	array := aCollection.	tally := 0
+setCollection: aCollection 
+	array := aCollection.
+	tally := 0

@@ -1,2 +1,3 @@
 visual properties
-defaultBitmapFillForm	^ ImageMorph defaultForm
+defaultBitmapFillForm
+	^ ImageMorph defaultForm

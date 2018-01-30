@@ -1,2 +1,3 @@
 dropping/grabbing
-hasTransferMorphConverter	^ self transferMorphConverter ~= #yourself
+hasTransferMorphConverter
+	^ self transferMorphConverter ~= #yourself

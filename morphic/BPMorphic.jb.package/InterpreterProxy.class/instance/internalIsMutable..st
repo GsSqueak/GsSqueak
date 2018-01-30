@@ -1,2 +1,3 @@
 object access
-internalIsMutable: oop 	^ oop isImmutable not
+internalIsMutable: oop 
+	^ oop isImmutable not

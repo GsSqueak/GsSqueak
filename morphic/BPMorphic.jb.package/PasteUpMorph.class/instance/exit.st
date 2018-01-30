@@ -1,2 +1,3 @@
 world state
-exit	Project current exit
+exit
+	Project current exit

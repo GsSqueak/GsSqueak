@@ -1,2 +1,3 @@
 dropping/grabbing
-morphToDropInPasteUp: aPasteUp 	^ self
+morphToDropInPasteUp: aPasteUp 
+	^ self

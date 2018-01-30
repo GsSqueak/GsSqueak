@@ -1,2 +1,3 @@
 geometry
-localPointToGlobal: aPoint 	^ self point: aPoint in: nil
+localPointToGlobal: aPoint 
+	^ self point: aPoint in: nil

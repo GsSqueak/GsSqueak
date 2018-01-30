@@ -1,2 +1,3 @@
 accessing
-style	^ #none
+style
+	^ #none

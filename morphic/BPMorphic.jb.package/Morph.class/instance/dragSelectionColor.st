@@ -1,2 +1,3 @@
 dropping/grabbing
-dragSelectionColor	^ Color magenta
+dragSelectionColor
+	^ Color magenta

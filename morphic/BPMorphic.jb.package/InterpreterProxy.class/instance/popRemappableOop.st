@@ -1,2 +1,3 @@
 instance creation
-popRemappableOop	^ remapBuffer removeLast
+popRemappableOop
+	^ remapBuffer removeLast

@@ -1,2 +1,4 @@
 FFI support
-ioLoadModule: moduleNameIndex OfLength: moduleLength 	"Dummy - provided by support code"	^ 0
+ioLoadModule: moduleNameIndex OfLength: moduleLength 
+	"Dummy - provided by support code"
+	^ 0

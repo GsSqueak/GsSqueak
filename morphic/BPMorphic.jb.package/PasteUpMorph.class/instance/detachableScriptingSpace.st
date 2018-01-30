@@ -1,2 +1,3 @@
 world menu
-detachableScriptingSpace	ScriptingSystem newScriptingSpace openInWorld: self
+detachableScriptingSpace
+	ScriptingSystem newScriptingSpace openInWorld: self

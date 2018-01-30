@@ -1,2 +1,3 @@
 instance creation
-complexFramed	^ ComplexBorder style: #complexFramed
+complexFramed
+	^ ComplexBorder style: #complexFramed

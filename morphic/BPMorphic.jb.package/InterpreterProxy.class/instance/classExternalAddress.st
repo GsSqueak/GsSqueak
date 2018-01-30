@@ -1,2 +1,5 @@
 FFI support
-classExternalAddress	^ Smalltalk		at: #ExternalAddress		ifAbsent: []
+classExternalAddress
+	^ Smalltalk
+		at: #ExternalAddress
+		ifAbsent: []

@@ -1,2 +1,3 @@
 queries
-isBitmapFill	^ false
+isBitmapFill
+	^ false

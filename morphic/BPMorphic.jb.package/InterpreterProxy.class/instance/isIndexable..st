@@ -1,2 +1,3 @@
 testing
-isIndexable: oop 	^ oop class isVariable
+isIndexable: oop 
+	^ oop class isVariable

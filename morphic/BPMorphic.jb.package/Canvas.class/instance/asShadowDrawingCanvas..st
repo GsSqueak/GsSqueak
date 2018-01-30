@@ -1,2 +1,4 @@
 converting
-asShadowDrawingCanvas: aColor 	^ (ShadowDrawingCanvas on: self)		shadowColor: aColor
+asShadowDrawingCanvas: aColor 
+	^ (ShadowDrawingCanvas on: self)
+		shadowColor: aColor

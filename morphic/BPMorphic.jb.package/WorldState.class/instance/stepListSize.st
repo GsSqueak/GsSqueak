@@ -1,2 +1,3 @@
 initialization
-stepListSize	^ stepList size
+stepListSize
+	^ stepList size

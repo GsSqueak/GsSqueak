@@ -1,2 +1,3 @@
 object access
-methodPrimitiveIndex	^ method primitive
+methodPrimitiveIndex
+	^ method primitive

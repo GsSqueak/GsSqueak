@@ -1,2 +1,5 @@
 misc
-heightForThumbnails	^ self		valueOfProperty: #heightForThumbnails		ifAbsent: [50]
+heightForThumbnails
+	^ self
+		valueOfProperty: #heightForThumbnails
+		ifAbsent: [50]

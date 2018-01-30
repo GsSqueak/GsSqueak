@@ -1,2 +1,4 @@
 enumerating
-collect: aBlock 	^ (array first: tally)		replace: aBlock
+collect: aBlock 
+	^ (array first: tally)
+		replace: aBlock

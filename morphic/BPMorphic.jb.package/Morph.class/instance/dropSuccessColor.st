@@ -1,2 +1,3 @@
 dropping/grabbing
-dropSuccessColor	^ Color blue
+dropSuccessColor
+	^ Color blue

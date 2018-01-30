@@ -1,2 +1,3 @@
 accessing
-bottomRightColor	^ color
+bottomRightColor
+	^ color

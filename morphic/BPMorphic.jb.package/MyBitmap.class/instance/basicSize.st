@@ -1,2 +1,3 @@
 as yet unclassified
-basicSize  ^ self size
+basicSize
+  ^ self size

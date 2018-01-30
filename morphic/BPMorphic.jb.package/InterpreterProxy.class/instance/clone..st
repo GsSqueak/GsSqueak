@@ -1,2 +1,3 @@
 instance creation
-clone: oop 	^ oop shallowCopy
+clone: oop 
+	^ oop shallowCopy

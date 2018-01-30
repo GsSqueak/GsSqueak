@@ -1,2 +1,3 @@
 named colors
-transparent	^ Transparent
+transparent
+	^ Transparent

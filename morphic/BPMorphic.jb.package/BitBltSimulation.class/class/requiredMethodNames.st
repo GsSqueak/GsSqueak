@@ -1,2 +1,3 @@
 translation
-requiredMethodNames	^ (self opTable , #(#copyBits:Fallback: )) asSet
+requiredMethodNames
+	^ (self opTable , #(#copyBits:Fallback: )) asSet

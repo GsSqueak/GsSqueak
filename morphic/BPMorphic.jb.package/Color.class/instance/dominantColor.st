@@ -1,2 +1,3 @@
 conversions
-dominantColor	^ self
+dominantColor
+	^ self

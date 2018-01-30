@@ -1,2 +1,3 @@
 special objects
-displayObject	^ Display
+displayObject
+	^ Display

@@ -1,2 +1,3 @@
 submorphs-add/remove
-addAllMorphsFront: aCollection 	^ self privateAddAllMorphs: aCollection atIndex: 1
+addAllMorphsFront: aCollection 
+	^ self privateAddAllMorphs: aCollection atIndex: 1

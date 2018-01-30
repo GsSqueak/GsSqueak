@@ -1,2 +1,3 @@
 submorphs-accessing
-hasSubmorphs	^ submorphs notEmpty
+hasSubmorphs
+	^ submorphs notEmpty

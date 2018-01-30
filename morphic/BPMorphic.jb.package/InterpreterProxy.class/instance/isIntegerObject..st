@@ -1,2 +1,3 @@
 testing
-isIntegerObject: objectPointer 	^ objectPointer class == SmallInteger
+isIntegerObject: objectPointer 
+	^ objectPointer class == SmallInteger

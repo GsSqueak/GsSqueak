@@ -1,2 +1,3 @@
 initialization
-openNear: aRectangle 	self openNear: aRectangle in: World
+openNear: aRectangle 
+	self openNear: aRectangle in: World

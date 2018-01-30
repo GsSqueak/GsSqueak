@@ -1,2 +1,5 @@
 other
-restore	DisplayScreen startUp.	Project current		ifNotNil: [:p | p displaySizeChanged]
+restore
+	DisplayScreen startUp.
+	Project current
+		ifNotNil: [:p | p displaySizeChanged]

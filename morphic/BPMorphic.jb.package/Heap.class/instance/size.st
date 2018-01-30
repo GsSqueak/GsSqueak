@@ -1,2 +1,4 @@
 accessing
-size	"Answer how many elements the receiver contains."	^ tally
+size
+	"Answer how many elements the receiver contains."
+	^ tally

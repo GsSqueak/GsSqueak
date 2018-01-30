@@ -1,2 +1,6 @@
 drop shadows
-hasDropShadowString	^ (self hasDropShadow		ifTrue: ['<on>']		ifFalse: ['<off>'])		, 'show shadow' translated
+hasDropShadowString
+	^ (self hasDropShadow
+		ifTrue: ['<on>']
+		ifFalse: ['<off>'])
+		, 'show shadow' translated

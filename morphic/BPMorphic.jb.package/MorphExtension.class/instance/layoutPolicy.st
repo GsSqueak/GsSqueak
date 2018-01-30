@@ -1,2 +1,3 @@
 accessing - layout properties
-layoutPolicy	^ self valueOfProperty: #layoutPolicy
+layoutPolicy
+	^ self valueOfProperty: #layoutPolicy

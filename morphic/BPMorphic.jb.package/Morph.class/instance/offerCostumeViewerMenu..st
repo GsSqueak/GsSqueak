@@ -1,2 +1,4 @@
 menu
-offerCostumeViewerMenu: aMenu 	"do nothing"	^ self
+offerCostumeViewerMenu: aMenu 
+	"do nothing"
+	^ self

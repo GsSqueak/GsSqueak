@@ -1,2 +1,4 @@
 stepping
-listOfSteppingMorphs	^ stepList		collect: [:entry | entry receiver]
+listOfSteppingMorphs
+	^ stepList
+		collect: [:entry | entry receiver]

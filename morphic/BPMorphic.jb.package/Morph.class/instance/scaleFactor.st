@@ -1,2 +1,5 @@
 accessing
-scaleFactor	^ self		valueOfProperty: #scaleFactor		ifAbsent: [1.0]
+scaleFactor
+	^ self
+		valueOfProperty: #scaleFactor
+		ifAbsent: [1.0]

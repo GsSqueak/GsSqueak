@@ -1,2 +1,3 @@
 project state
-canvas	^ worldState canvas
+canvas
+	^ worldState canvas

@@ -1,2 +1,4 @@
 translation
-timeStamp	^ timeStamp		ifNil: [0]
+timeStamp
+	^ timeStamp
+		ifNil: [0]

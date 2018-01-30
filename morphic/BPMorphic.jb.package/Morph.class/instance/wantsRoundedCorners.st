@@ -1,2 +1,4 @@
 rounding
-wantsRoundedCorners	"Return true if the receiver wants its corners rounded"	^ self cornerStyle == #rounded
+wantsRoundedCorners
+	"Return true if the receiver wants its corners rounded"
+	^ self cornerStyle == #rounded

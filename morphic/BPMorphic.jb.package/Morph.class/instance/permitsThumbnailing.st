@@ -1,2 +1,3 @@
 thumbnail
-permitsThumbnailing	^ true
+permitsThumbnailing
+	^ true

@@ -1,2 +1,4 @@
 growing
-compact	"Remove any empty slots in the receiver."	self growTo: self size
+compact
+	"Remove any empty slots in the receiver."
+	self growTo: self size

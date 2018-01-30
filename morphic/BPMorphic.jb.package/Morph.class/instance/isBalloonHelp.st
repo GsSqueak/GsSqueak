@@ -1,2 +1,3 @@
 classification
-isBalloonHelp	^ false
+isBalloonHelp
+	^ false

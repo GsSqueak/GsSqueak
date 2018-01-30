@@ -1,2 +1,3 @@
 other
-primitiveFailureCode	^ primFailCode
+primitiveFailureCode
+	^ primFailCode

@@ -1,2 +1,3 @@
 classification
-isTextMorph	^ false
+isTextMorph
+	^ false

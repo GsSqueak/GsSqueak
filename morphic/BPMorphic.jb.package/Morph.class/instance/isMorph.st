@@ -1,2 +1,3 @@
 testing
-isMorph	^ true
+isMorph
+	^ true

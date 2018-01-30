@@ -1,2 +1,4 @@
 misc
-unhideHiddenObjects	self		allMorphsDo: [:m | m show]
+unhideHiddenObjects
+	self
+		allMorphsDo: [:m | m show]

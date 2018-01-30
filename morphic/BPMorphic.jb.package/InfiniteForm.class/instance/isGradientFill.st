@@ -1,2 +1,3 @@
 fillstyle protocol
-isGradientFill	^ false
+isGradientFill
+	^ false

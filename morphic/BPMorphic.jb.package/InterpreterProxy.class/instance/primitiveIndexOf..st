@@ -1,2 +1,3 @@
 object access
-primitiveIndexOf: methodPointer 	^ methodPointer primitive
+primitiveIndexOf: methodPointer 
+	^ methodPointer primitive

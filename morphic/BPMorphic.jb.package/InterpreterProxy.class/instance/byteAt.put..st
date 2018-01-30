@@ -1,2 +1,3 @@
 private
-byteAt: accessor put: value 	^ accessor byteAt: 0 put: value
+byteAt: accessor put: value 
+	^ accessor byteAt: 0 put: value

@@ -1,2 +1,3 @@
 *BPMorphic
-_structuralUpdatesDisallowed  ^ false
+_structuralUpdatesDisallowed
+  ^ false

@@ -1,2 +1,3 @@
 accessing
-ditherThresholds16	^ ditherThresholds16
+ditherThresholds16
+	^ ditherThresholds16

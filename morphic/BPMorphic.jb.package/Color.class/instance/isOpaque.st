@@ -1,2 +1,3 @@
 queries
-isOpaque	^ true
+isOpaque
+	^ true

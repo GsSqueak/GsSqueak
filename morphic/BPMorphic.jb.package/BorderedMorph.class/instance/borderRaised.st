@@ -1,2 +1,3 @@
 accessing
-borderRaised	self borderColor: #raised
+borderRaised
+	self borderColor: #raised

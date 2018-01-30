@@ -1,2 +1,3 @@
 halos and balloon help
-wantsHaloFromClick	^ true
+wantsHaloFromClick
+	^ true

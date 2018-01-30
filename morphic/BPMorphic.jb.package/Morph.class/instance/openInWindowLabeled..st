@@ -1,2 +1,3 @@
 initialization
-openInWindowLabeled: aString 	^ self openInWindowLabeled: aString inWorld: self currentWorld
+openInWindowLabeled: aString 
+	^ self openInWindowLabeled: aString inWorld: self currentWorld

@@ -1,2 +1,3 @@
 as yet unclassified
-size  ^ cArray size / 4
+size
+  ^ cArray size / 4

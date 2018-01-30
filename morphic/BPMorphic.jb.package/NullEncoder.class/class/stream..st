@@ -1,2 +1,3 @@
 creation
-stream: newTarget 	^ self new initWithTarget: newTarget
+stream: newTarget 
+	^ self new initWithTarget: newTarget

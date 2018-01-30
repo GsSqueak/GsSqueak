@@ -1,2 +1,3 @@
 special objects
-primitiveErrorTable	^ Smalltalk primitiveErrorTable
+primitiveErrorTable
+	^ Smalltalk primitiveErrorTable

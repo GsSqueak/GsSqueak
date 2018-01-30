@@ -1,2 +1,3 @@
 layout-properties
-cellSpacingString: aSymbol 	^ self layoutMenuPropertyString: aSymbol from: self cellSpacing
+cellSpacingString: aSymbol 
+	^ self layoutMenuPropertyString: aSymbol from: self cellSpacing

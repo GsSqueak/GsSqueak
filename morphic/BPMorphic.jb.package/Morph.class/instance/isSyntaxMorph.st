@@ -1,2 +1,3 @@
 classification
-isSyntaxMorph	^ false
+isSyntaxMorph
+	^ false

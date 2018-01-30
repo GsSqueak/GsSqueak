@@ -1,2 +1,3 @@
 parts bin
-partRepresented	^ self
+partRepresented
+	^ self

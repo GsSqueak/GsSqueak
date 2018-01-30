@@ -1,2 +1,3 @@
 instance creation
-new	^ self new: 10
+new
+	^ self new: 10

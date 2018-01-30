@@ -1,2 +1,5 @@
 *BPMorphic
-empty  "A canonicalized empty Array instance."  ^ #()
+empty
+  "A canonicalized empty Array instance."
+
+  ^ #()

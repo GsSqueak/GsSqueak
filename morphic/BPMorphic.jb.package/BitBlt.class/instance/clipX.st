@@ -1,2 +1,3 @@
 accessing
-clipX	^ clipX
+clipX
+	^ clipX
