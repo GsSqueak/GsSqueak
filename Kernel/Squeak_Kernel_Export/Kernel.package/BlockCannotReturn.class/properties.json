@@ -1,0 +1,15 @@
+{
+	"category" : "Kernel-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"result",
+		"deadHome" ],
+	"name" : "BlockCannotReturn",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

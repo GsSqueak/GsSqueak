@@ -1,0 +1,4 @@
+signaledException
+isResumable
+
+	^true

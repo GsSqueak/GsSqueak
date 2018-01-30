@@ -1,0 +1,4 @@
+scripting
+selfWrittenAsIll
+
+	^self

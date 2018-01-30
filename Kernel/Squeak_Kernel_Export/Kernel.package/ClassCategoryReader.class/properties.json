@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Classes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"class",
+		"category",
+		"changeStamp" ],
+	"name" : "ClassCategoryReader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

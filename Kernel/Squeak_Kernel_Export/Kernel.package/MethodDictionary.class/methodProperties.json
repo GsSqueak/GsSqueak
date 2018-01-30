@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"compactAllInstances" : "ul 9/18/2011 15:08",
+		"new" : "ul 9/27/2011 18:02",
+		"new:" : "ul 9/27/2011 17:51",
+		"newForCapacity:" : "ul 9/27/2011 17:34",
+		"sizeFor:" : "ul 1/23/2012 03:16" },
+	"instance" : {
+		"associationAt:ifAbsent:" : "ul 6/18/2010 21:38",
+		"associationsDo:" : "ul 1/25/2010 19:04",
+		"at:ifAbsent:" : "ul 10/30/2009 03:38",
+		"at:put:" : "ul 9/18/2011 15:13",
+		"compact" : "ul 9/18/2011 15:11",
+		"compactWithoutBecome" : "ul 9/18/2011 13:41",
+		"fixCollisionsFrom:" : "ul 11/13/2009 12:07",
+		"grow" : "ul 8/16/2015 21:40",
+		"keyAtIdentityValue:ifAbsent:" : "ul 10/30/2009 03:49",
+		"keyAtValue:ifAbsent:" : "ul 10/30/2009 03:49",
+		"keysAndValuesDo:" : "ul 1/25/2010 19:04",
+		"keysDo:" : "ul 1/25/2010 19:08",
+		"postCopy" : "ul 1/25/2010 19:39",
+		"rehash" : "ul 9/27/2011 17:40",
+		"removeAll" : "ul 9/27/2011 17:41",
+		"removeDangerouslyKey:ifAbsent:" : "ul 10/30/2009 03:56",
+		"removeKey:ifAbsent:" : "ul 9/18/2011 11:39",
+		"scanFor:" : "ul 9/30/2009 14:22",
+		"swap:with:" : "ul 11/13/2009 13:46",
+		"valuesDo:" : "ul 1/25/2010 19:08" } }

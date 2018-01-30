@@ -1,0 +1,14 @@
+{
+	"category" : "Kernel-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 8/25/2015 14:42",
+	"instvars" : [
+		"exception" ],
+	"name" : "UnhandledError",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"type" : "normal" }

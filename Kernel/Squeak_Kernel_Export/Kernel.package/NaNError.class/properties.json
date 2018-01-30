@@ -1,0 +1,14 @@
+{
+	"category" : "Kernel-Numbers-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 12/14/2010 00:03",
+	"instvars" : [
+		 ],
+	"name" : "NaNError",
+	"pools" : [
+		 ],
+	"super" : "ArithmeticError",
+	"type" : "normal" }

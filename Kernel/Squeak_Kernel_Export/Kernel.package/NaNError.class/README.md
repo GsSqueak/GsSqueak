@@ -1,0 +1,1 @@
+NaNError is signaled by various operations that would either result in or operate on an NaN input.

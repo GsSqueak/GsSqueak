@@ -1,0 +1,1 @@
+This is a wrapper for an unhandled error. Having this, process stepping is able to correctly fire other unhandled errors. See Process >> #stepToHome: for further explanations.

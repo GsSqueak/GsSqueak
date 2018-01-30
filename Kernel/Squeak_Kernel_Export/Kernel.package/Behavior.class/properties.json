@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Classes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ObsoleteSubclasses" ],
+	"commentStamp" : "al 12/8/2005 20:44",
+	"instvars" : [
+		"superclass",
+		"methodDict",
+		"format" ],
+	"name" : "Behavior",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

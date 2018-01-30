@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jcg 10/21/2009 01:20",
+	"instvars" : [
+		"receiverClass",
+		"selector",
+		"context" ],
+	"name" : "NotYetImplemented",
+	"pools" : [
+		 ],
+	"super" : "NotImplemented",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Kernel-Numbers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LowBitPerByteTable" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Integer",
+	"pools" : [
+		 ],
+	"super" : "Number",
+	"type" : "normal" }

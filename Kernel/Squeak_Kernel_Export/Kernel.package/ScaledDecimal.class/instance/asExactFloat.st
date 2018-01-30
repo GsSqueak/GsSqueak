@@ -1,0 +1,3 @@
+converting
+asExactFloat
+	^fraction asExactFloat

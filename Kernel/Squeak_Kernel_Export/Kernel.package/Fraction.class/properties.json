@@ -1,0 +1,15 @@
+{
+	"category" : "Kernel-Numbers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"numerator",
+		"denominator" ],
+	"name" : "Fraction",
+	"pools" : [
+		 ],
+	"super" : "Number",
+	"type" : "normal" }

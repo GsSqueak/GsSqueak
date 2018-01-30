@@ -1,0 +1,6 @@
+dependents
+containingWindow
+	"Answer the window that holds the receiver.  The dependents technique is odious and may not be airtight, if multiple windows have the same model."
+
+	^ self dependents detect:
+		[:d | d isWindowForModel: self] ifNone: [nil]

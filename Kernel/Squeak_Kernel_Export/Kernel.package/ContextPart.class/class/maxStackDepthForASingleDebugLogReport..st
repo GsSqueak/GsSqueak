@@ -1,0 +1,3 @@
+preferences
+maxStackDepthForASingleDebugLogReport: anInteger
+	MaxStackDepthForASingleDebugLogReport := anInteger

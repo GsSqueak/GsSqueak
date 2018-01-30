@@ -1,0 +1,3 @@
+logical operations
+==> aBlock
+	^true
