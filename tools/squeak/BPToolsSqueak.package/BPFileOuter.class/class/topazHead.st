@@ -1,4 +1,4 @@
-*BPToolsSqueak
+as yet unclassified
 topazHead
 ^ '
 ifErr 1 stk

@@ -1,4 +1,4 @@
-*BPToolsSqueak
+as yet unclassified
 fileOutTopazStyleTo: aStream
 	aStream nextPutAll: self topazHead.
 	aStream nextPutAll: self topazClassDefinition.

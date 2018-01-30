@@ -1,3 +1,4 @@
 as yet unclassified
-serverPort
+respondFor: symbol
+
 	self subclassResponsibility 
