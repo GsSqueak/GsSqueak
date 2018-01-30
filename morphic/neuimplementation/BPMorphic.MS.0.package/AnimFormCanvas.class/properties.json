@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AnimFormCanvas",
+	"pools" : [
+		 ],
+	"super" : "FormCanvas",
+	"type" : "normal" }

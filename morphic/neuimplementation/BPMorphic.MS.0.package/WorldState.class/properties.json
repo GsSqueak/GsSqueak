@@ -1,0 +1,32 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CanSurrenderToOS",
+		"DeferredUIMessages",
+		"DisableDeferredUpdates",
+		"LastCycleTime",
+		"MinCycleLapse" ],
+	"commentStamp" : "ls 7/10/2003 19:30",
+	"instvars" : [
+		"hands",
+		"activeHand",
+		"viewBox",
+		"canvas",
+		"damageRecorder",
+		"stepList",
+		"lastStepTime",
+		"lastStepMessage",
+		"lastCycleTime",
+		"commandHistory",
+		"alarms",
+		"lastAlarmTime",
+		"remoteServer",
+		"multiCanvas",
+		"interCycleDelay" ],
+	"name" : "WorldState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

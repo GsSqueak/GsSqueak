@@ -1,0 +1,3 @@
+parts bin
+isPartsBin
+	^ false
