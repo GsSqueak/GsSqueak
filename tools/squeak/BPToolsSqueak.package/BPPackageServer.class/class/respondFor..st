@@ -1,11 +1,16 @@
 as yet unclassified
 respondFor: aString
-	| writeStream |
-Transcript show:'got called with ', aString.
+	| writeStream classes |
+Transcript show: 'Request for ', aString,'-package'; cr.
 
-	writeStream := WriteStream on: ''.
 self assert: [(SystemOrganization categoriesMatching: aString) isNil not]. 
-SystemOrganization fileOutCategory: aString on: writeStream.
-TcpSocket sendData: writeStream contents.
+Transcript show: 'Request granted';cr;cr.
+classes := SystemOrganization classesInCategory: aString.
+classes do: [:class | 	
+	Transcript cr; show: 'handling Class '.
+	writeStream := WriteStream on: ''.
+	BPFileOuter fileOut: class To: writeStream.
+	TcpSocket sendData: writeStream contents.
+	writeStream close.].
 
-writeStream close.
+Transcript cr;cr.
