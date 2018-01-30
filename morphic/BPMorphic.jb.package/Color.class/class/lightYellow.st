@@ -1,0 +1,2 @@
+named colors
+lightYellow	^ LightYellow

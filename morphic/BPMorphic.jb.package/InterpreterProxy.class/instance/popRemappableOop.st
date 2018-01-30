@@ -1,0 +1,2 @@
+instance creation
+popRemappableOop	^ remapBuffer removeLast

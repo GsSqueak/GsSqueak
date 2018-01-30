@@ -1,0 +1,4 @@
+scripting
+selfWrittenAsMy
+
+	^self

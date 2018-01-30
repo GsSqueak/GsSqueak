@@ -1,0 +1,3 @@
+constants
+abstractMarkers
+	^ #(subclassResponsibility shouldNotImplement)

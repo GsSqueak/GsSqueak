@@ -1,0 +1,2 @@
+conversions
+asNontranslucentColor	^ self

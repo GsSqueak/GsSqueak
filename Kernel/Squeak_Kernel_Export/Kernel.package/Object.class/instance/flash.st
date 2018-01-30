@@ -1,0 +1,3 @@
+macpal
+flash
+	"Do nothing."

@@ -1,0 +1,2 @@
+*BPMorphic
+_structuralUpdatesDisallowed  ^ false

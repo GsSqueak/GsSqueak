@@ -1,0 +1,15 @@
+{
+	"category" : "Kernel-Numbers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mk 10/31/2003 22:19",
+	"instvars" : [
+		"real",
+		"imaginary" ],
+	"name" : "Complex",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Kernel-Numbers-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"dividend" ],
+	"name" : "ZeroDivide",
+	"pools" : [
+		 ],
+	"super" : "ArithmeticError",
+	"type" : "normal" }

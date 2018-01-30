@@ -1,0 +1,16 @@
+{
+	"category" : "Kernel-Methods",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 5/8/2011 18:21",
+	"instvars" : [
+		"method",
+		"keyword",
+		"arguments" ],
+	"name" : "Pragma",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

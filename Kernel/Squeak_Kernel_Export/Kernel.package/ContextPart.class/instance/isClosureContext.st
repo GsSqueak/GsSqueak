@@ -1,0 +1,4 @@
+query
+isClosureContext
+
+	^ false

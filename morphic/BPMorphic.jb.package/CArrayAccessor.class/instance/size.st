@@ -1,0 +1,2 @@
+accessing
+size	^ object size

@@ -1,0 +1,2 @@
+other
+tenuringIncrementalGC	Smalltalk forceTenuring; garbageCollectMost

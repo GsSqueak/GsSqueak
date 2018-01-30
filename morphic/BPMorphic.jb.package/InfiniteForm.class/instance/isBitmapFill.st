@@ -1,0 +1,2 @@
+fillstyle protocol
+isBitmapFill	^ true

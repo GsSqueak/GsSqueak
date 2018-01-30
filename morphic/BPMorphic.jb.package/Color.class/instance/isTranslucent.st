@@ -1,0 +1,2 @@
+queries
+isTranslucent	^ false

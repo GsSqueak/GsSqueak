@@ -1,0 +1,3 @@
+preferences
+maxLengthForASingleDebugLogReport: anInteger
+	MaxLengthForASingleDebugLogReport := anInteger

@@ -1,0 +1,2 @@
+special objects
+falseObject	^ false

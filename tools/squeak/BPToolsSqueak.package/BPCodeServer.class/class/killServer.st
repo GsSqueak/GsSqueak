@@ -1,5 +1,5 @@
 as yet unclassified
 killServer
-	TcpSocket ifNotNil: [TcpSocket close].
+	TcpSocket ifNotNil: [TcpSocket closeAndDestroy:5].
 	TcpSocket := nil.
 	

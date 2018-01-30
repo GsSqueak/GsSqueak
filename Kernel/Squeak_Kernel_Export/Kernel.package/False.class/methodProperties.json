@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"initializedInstance" : "sw 5/8/2000 11:09" },
+	"instance" : {
+		"&" : "md 7/30/2005 18:05",
+		"==>" : "nice 2/1/2011 21:50",
+		"and:" : "",
+		"asBit" : "ajh 7/1/2004 10:36",
+		"ifFalse:" : "",
+		"ifFalse:ifTrue:" : "",
+		"ifTrue:" : "",
+		"ifTrue:ifFalse:" : "",
+		"not" : "",
+		"or:" : "",
+		"printOn:" : "",
+		"xor:" : "em 3/24/2009 14:05",
+		"|" : "" } }

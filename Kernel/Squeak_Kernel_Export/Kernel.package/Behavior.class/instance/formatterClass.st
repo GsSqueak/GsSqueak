@@ -1,0 +1,3 @@
+printing
+formatterClass
+	 ^self compilerClass

@@ -1,0 +1,2 @@
+testing
+isPointers  ^ false

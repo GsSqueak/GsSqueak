@@ -1,0 +1,2 @@
+displaying
+colorForInsets	^ Color transparent

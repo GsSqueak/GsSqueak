@@ -1,0 +1,2 @@
+special classes
+classCharacter	^ Character

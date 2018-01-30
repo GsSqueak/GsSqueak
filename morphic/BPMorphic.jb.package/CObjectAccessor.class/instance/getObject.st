@@ -1,0 +1,2 @@
+private
+getObject	^ object
