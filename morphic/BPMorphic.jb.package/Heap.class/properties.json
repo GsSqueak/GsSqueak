@@ -1,0 +1,17 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ul 6/2/2016 23:45",
+	"instvars" : [
+		"array",
+		"tally",
+		"sortBlock",
+		"indexUpdateBlock" ],
+	"name" : "Heap",
+	"pools" : [
+		 ],
+	"super" : "Collection",
+	"type" : "variable" }
