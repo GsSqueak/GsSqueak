@@ -1,0 +1,71 @@
+ifErr 1 stk
+ifErr 2 stack
+ifErr 3 abort
+ifErr 4 exit
+
+set user SystemUser p swordfish
+login
+
+run
+| gsSqueak |
+gsSqueak := AllUsers userWithId: 'GsSqueak' ifAbsent: [ nil ].
+gsSqueak ~~ nil
+  ifTrue: [
+    AllUsers removeAndCleanup: gsSqueak.
+    System commitTransaction.
+ ].
+(AllUsers
+  addNewUserWithId: 'GsSqueak'
+  password: 'swordfish')
+    addPrivilege: #'CodeModification';
+    addPrivilege: #'UserPassword';
+    addPrivilege: #'OtherPassword';
+    yourself.
+System commit.
+%
+
+logout
+
+set u GsSqueak password swordfish
+login
+
+run
+| symbolList userProfile |
+userProfile := System myUserProfile.
+symbolList := SymbolList new.
+symbolList 
+	createDictionaryNamed: #'GemStone' at: 0;
+	createDictionaryNamed: #'Smalltalk' at: 0;
+	yourself.
+(symbolList objectNamed: #GemStone) 
+  at: #System put: (Globals at: #System);
+  at: #GemStoneError put: (Globals at: #GemStoneError);
+  yourself.
+userProfile symbolList: symbolList.
+System commit.
+%
+
+logout
+
+set u SystemUser password swordfish
+login
+
+set category gs-squeak-compat
+method Class
+subclass: subclassName instanceVariableNames: instanceVariableNames classVariableNames: classVariableNames poolDictionaries: poolDictionaryNames category: category
+  ^ self
+    subclass: subclassName
+    instVarNames: (instanceVariableNames findTokens: ' ') asArray
+    classVars: (classVariableNames findTokens: ' ') asArray
+    classInstVars: #()
+    poolDictionaries:
+      (self poolDictionariesForNames: (poolDictionaryNames findTokens: ' ') asArray)
+    inDictionary: ''
+    category: category
+    options: #()
+%
+
+commit
+
+exit
+

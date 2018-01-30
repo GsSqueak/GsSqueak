@@ -1,0 +1,59 @@
+#!/bin/bash
+
+GS_SQUEAK_GS_VERSION=3.5.0-EA-43453
+GS_CLASS_LIST="Object SmallInteger   Behavoir Module Metaclass3 Class"
+SQUEAK_CLASS_LIST="ProtocolClient TelnetProtocolClient SMTPClient"
+
+
+stopStone GsSqueak
+stopNetldi GsSqueak
+deleteStone GsSqueak
+
+set -e
+
+createStone -g -f GsSqueak $GS_SQUEAK_GS_VERSION
+cat createGsSqueakUser.tpz | startTopaz GsSqueak -l
+
+
+
+TOPAZ_HEAD="
+ifErr 1 stk
+ifErr 2 stack
+ifErr 3 abort
+ifErr 4 exit
+
+set u SystemUser p swordfish
+login
+set compile_env: 0
+"
+
+function importClassFromGs {
+echo "
+$TOPAZ_HEAD
+run
+| gsSqueak gsSqueakSmalltalk srcUser regularSmalltalk |
+gsSqueak := AllUsers userWithId: 'GsSqueak'.
+srcUser  := AllUsers userWithId: 'DataCurator'.
+
+gsSqueakSmalltalk := (gsSqueak symbolList objectNamed: #Smalltalk).
+regularSmalltalk := (srcUser symbolList objectNamed: #Smalltalk).
+
+gsSqueakSmalltalk at: #$1 put: (regularSmalltalk at: #$1).
+System commit.
+%
+exit
+" | startTopaz GsSqueak -l
+}
+
+
+for class in $GS_CLASS_LIST; do
+	importClassFromGs $class
+done
+
+for class in $SQUEAK_CLASS_LIST; do
+	echo $class | netcat localhost 1743 | tr '\r' '\n' | startTopaz GsSqueak -l
+done;
+	
+
+CLASSFILE=/home/tobi/Dokumente/SWT2017.app/Contents/Resources
+
