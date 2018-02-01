@@ -1,4 +1,3 @@
 class initialization
 deferredUIMessages
-	^ DeferredUIMessages
-		ifNil: [DeferredUIMessages := SharedQueue new]
+  ^ DeferredUIMessages ifNil: [ DeferredUIMessages := TransientSharedQueue new ]
