@@ -7,4 +7,5 @@ transformMethod: aMethodString class: aClass expectsExclamationMark: aBoolean
 	self parse.
 	self renameTemporaries.
 	self removePrimitive.
+	self removePragma.
 	^ self generateGsCode.

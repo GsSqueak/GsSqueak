@@ -1,3 +1,6 @@
 transforming
 generateGsCode
-	^ (ast preen printString), '!'
+	| stream |
+	stream := WriteStream on: ''.
+	ast preen printOn: stream.
+	^ (stream contents) , '!'

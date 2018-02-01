@@ -7,12 +7,13 @@
 		"cleanSqueakCode" : "TZ 1/18/2018 17:19",
 		"expectsExclamationMark" : "TZ 1/18/2018 17:17",
 		"expectsExclamationMark:" : "TZ 1/18/2018 17:17",
-		"generateGsCode" : "TZ 1/18/2018 14:12",
+		"generateGsCode" : "MS 2/1/2018 10:57",
 		"hasStyleBlock" : "TZ 1/18/2018 14:24",
 		"methodClass" : "TZ 1/18/2018 14:18",
 		"methodClass:" : "TZ 1/18/2018 14:18",
 		"parse" : "TZ 1/18/2018 14:18",
 		"removeExclamationMark" : "TZ 1/18/2018 14:12",
+		"removePragma" : "MS 2/1/2018 10:40",
 		"removePrimitive" : "TZ 2/1/2018 09:47",
 		"removeStyleBlock" : "TZ 1/18/2018 14:12",
 		"renameTemporaries" : "TZ 1/18/2018 14:47",
@@ -22,4 +23,4 @@
 		"squeakCode:" : "TZ 1/18/2018 13:55",
 		"styleBlockBegin" : "TZ 1/18/2018 14:23",
 		"tempVarPrefix" : "TZ 1/18/2018 14:51",
-		"transformMethod:class:expectsExclamationMark:" : "TZ 1/30/2018 17:31" } }
+		"transformMethod:class:expectsExclamationMark:" : "MS 2/1/2018 10:17" } }
