@@ -9,11 +9,7 @@ doDeferredUpdatingFor: aWorld
   | properDisplay |
   PasteUpMorph disableDeferredUpdates
     ifTrue: [ ^ false ].
-<<<<<<< HEAD
   (Display deferUpdates: true) ifNil: [ ^ false ].	"deferred updates not supported"
-=======
-  ((Smalltalk at: #'Display') deferUpdates: true) ifNil: [ ^ false ].	"deferred updates not supported"
->>>>>>> 86cf22511f03aabffa314974130a17d983e10e09
   remoteServer
     ifNotNil: [ 
       self assuredCanvas.
