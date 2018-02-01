@@ -16,8 +16,16 @@ bitPatternForDepth: depth
 	with the window bit caching of StandardSystemView, so we make
 	sure that for these depths, only unstippled patterns are returned"
 
+<<<<<<< HEAD
+  "(depth == cachedDepth and: [ depth <= 2 or: [ cachedBitPattern size = 1 ] ])
+    ifTrue: [ ^ cachedBitPattern ]."
+
+  "TODO hack"
+
+=======
   (depth == cachedDepth and: [ depth <= 2 or: [ cachedBitPattern size = 1 ] ])
     ifTrue: [ ^ cachedBitPattern ].
+>>>>>>> 86cf22511f03aabffa314974130a17d983e10e09
   cachedDepth := depth.
   depth > 2
     ifTrue: [ ^ cachedBitPattern := MyBitmap with: (self pixelWordForDepth: depth) ].
