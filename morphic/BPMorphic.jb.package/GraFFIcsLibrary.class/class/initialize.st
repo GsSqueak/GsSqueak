@@ -1,8 +1,6 @@
 as yet unclassified
 initialize
-  GraphicsLib := CLibrary
-    named:
-      '/home/jakob/Studium/bp/BP2017RH1/experiments/graffics/02 SimpleDisplayInGs/sdl/libmygraphics.so'.
+  GraphicsLib := CLibrary named: '/opt/libmygraphics.so'.
   CreateWindowCo := CCallout
     library: GraphicsLib
     name: #'openWindow'
@@ -12,4 +10,9 @@ initialize
     library: GraphicsLib
     name: #'drawBitmap'
     result: #'int32'
-    args: #(#'ptr' #'int32' #'int32' #'int32' #'int32')
+    args: #(#'ptr' #'int32' #'int32' #'int32' #'int32').
+  GetEventsCo := CCallout
+    library: GraphicsLib
+    name: #'getEvents'
+    result: #'void'
+    args: #(#'ptr')
