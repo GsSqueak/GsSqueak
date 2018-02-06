@@ -5,7 +5,7 @@ beDisplay
 	Essential. See Object documentation whatIsAPrimitive."
 
   | result |
-  result := createWindowCo
+  result := GraFFIcsLibrary createWindowCo
     callWith:
       {(offset x).
       (offset y).

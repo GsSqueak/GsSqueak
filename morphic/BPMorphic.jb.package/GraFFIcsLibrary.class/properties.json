@@ -1,0 +1,17 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CreateWindowCo",
+		"DrawBitmapCo",
+		"GetEventsCo",
+		"GraphicsLib" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GraFFIcsLibrary",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
