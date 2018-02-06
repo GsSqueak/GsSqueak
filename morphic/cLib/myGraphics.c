@@ -10,6 +10,37 @@ SDL_Texture * texture;
 int winW;
 int winH;
 
+struct {
+    uint32_t x, y;
+} MouseState;
+
+typedef {
+    uint32_t eventType;
+    uint32_t timeStamp;
+    uint32_t x, y;
+    uint32_t buttonState, modifierKeys;
+    uint32_t unused[2];
+}
+
+
+[1]	- event type 1
+[2]	- time stamp
+[3]	- mouse x position
+[4]	- mouse y position
+[5]	- button state; bitfield with the following entries:
+		1	-	yellow (e.g., right) button
+		2	-	blue (e.g., middle) button
+		4	-	red (e.g., left) button
+		[all other bits are currently undefined]
+[6]	- modifier keys; bitfield with the following entries:
+		1	-	shift key
+		2	-	ctrl key
+		4	-	(Mac specific) option key
+		8	-	Cmd/Alt key
+		[all other bits are currently undefined]
+[7]	- reserved.
+[8]	- reserved.
+
 int openWindow(int x, int y, int w, int h){
     if(window != NULL)
         return 1;
@@ -55,3 +86,20 @@ void closeWindow(){
     SDL_Quit();
 }
 
+void sendMouseState(uint32_t *e, uint32_t timestamp) {
+    
+}
+
+void getEvents(uint32_t *e) {
+    SDL_Event event;
+    
+    if (!SDL_PollEvent(&event)) {
+        e[0] = 0;
+        return;
+    }
+    switch (event.type) {
+        case SDL_MOUSEMOTION:
+            MouseState.x = event.motion.x;
+            MouseState.y = event.motion.y;
+            break;
+}
