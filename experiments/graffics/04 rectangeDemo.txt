@@ -14,4 +14,4 @@
     startStepping.
   WorldProvider getWorld doOneCycle.
   Display forceToScreen.
-  [ true ] whileTrue: [ World doOneCycle	"Simulate Animation Framework" ]
+  [[ true ] whileTrue: [ World doOneCycle. Processor yield.] ] fork
