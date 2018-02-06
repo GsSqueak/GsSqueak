@@ -1,3 +1,0 @@
-geometry
-bottomLeft
-	^ bounds bottomLeft

@@ -1,3 +1,0 @@
-dropping/grabbing
-willingToBeDiscarded
-	^ true

@@ -1,3 +1,0 @@
-queries
-isTranslucent
-	^ false

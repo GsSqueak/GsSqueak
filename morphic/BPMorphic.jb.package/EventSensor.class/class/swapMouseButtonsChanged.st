@@ -1,3 +1,0 @@
-preference change notification
-swapMouseButtonsChanged
-	self installMouseDecodeTable

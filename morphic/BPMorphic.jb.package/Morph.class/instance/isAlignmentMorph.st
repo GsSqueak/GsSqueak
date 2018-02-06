@@ -1,3 +1,0 @@
-classification
-isAlignmentMorph
-	^ false

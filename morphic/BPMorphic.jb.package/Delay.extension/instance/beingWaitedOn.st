@@ -1,3 +1,0 @@
-*BPMorphic
-beingWaitedOn
-  ^ self inProgress

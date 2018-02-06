@@ -1,3 +1,0 @@
-private
-privateClipRect
-	^ clipRect

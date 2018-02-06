@@ -1,4 +1,0 @@
-other
-flushDisplay
-	"Dummy ."
-	^ self

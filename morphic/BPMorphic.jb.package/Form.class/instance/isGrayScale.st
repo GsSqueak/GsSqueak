@@ -1,3 +1,0 @@
-testing
-isGrayScale
-	^ false

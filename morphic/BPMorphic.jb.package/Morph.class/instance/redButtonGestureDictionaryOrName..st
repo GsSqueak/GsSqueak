@@ -1,3 +1,0 @@
-geniestubs
-redButtonGestureDictionaryOrName: aSymbolOrDictionary 
-	^ self
