@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"with:" : "jb 01/25/2018 05:58" },
+	"instance" : {
+		"addFillStyleMenuItems:hand:from:" : "RAA 6/1/2000 10:50",
+		"asColor" : "mjg 7/9/2001 14:12",
+		"asForm" : "jb 01/25/2018 05:58",
+		"bitPatternForDepth:" : "bolot 9/15/1999 10:13",
+		"colorForInsets" : "sw 2/16/98 03:42",
+		"computeBoundingBox" : "jb 01/25/2018 05:58",
+		"direction" : "ar 7/2/1999 14:56",
+		"displayOn:at:clippingBox:rule:fillColor:" : "tpr 3/15/2013 12:31",
+		"displayOnPort:at:" : "nk 4/17/2004 19:48",
+		"displayOnPort:offsetBy:" : "nk 4/17/2004 19:48",
+		"dominantColor" : "di 9/2/97 20:21",
+		"form" : "ar 7/2/1999 14:54",
+		"form:" : "jb 01/25/2018 05:58",
+		"isBitmapFill" : "ar 7/2/1999 14:54",
+		"isGradientFill" : "ar 7/2/1999 14:54",
+		"isOrientedFill" : "ar 7/2/1999 14:59",
+		"isSolidFill" : "ar 7/2/1999 14:54",
+		"isTiled" : "ar 7/2/1999 14:55",
+		"isTranslucent" : "ar 9/2/1999 14:32",
+		"normal" : "ar 7/2/1999 14:57",
+		"offset" : "jb 01/25/2018 05:58",
+		"origin" : "ar 7/2/1999 14:56",
+		"origin:" : "ar 7/2/1999 14:56",
+		"raisedColor" : "ar 8/16/2001 12:47" } }

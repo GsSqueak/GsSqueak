@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Canvas",
+	"pools" : [
+		 ],
+	"super" : "FlattenEncoder",
+	"type" : "normal" }

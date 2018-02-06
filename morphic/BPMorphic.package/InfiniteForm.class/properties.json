@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"patternForm" ],
+	"name" : "InfiniteForm",
+	"pools" : [
+		 ],
+	"super" : "DisplayObject",
+	"type" : "normal" }
