@@ -23,6 +23,6 @@
 		"hasInputSemaphore" ],
 	"name" : "EventSensor",
 	"pools" : [
-		 ],
+		"EventSensorConstants" ],
 	"super" : "Object",
 	"type" : "normal" }
