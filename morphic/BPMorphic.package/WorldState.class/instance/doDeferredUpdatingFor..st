@@ -15,7 +15,7 @@ doDeferredUpdatingFor: aWorld
       self assuredCanvas.
       ^ true ].
   properDisplay := canvas notNil and: [ canvas form == Display ].
-  aWorld == World
+  aWorld == (Smalltalk at: #'World')
     ifTrue: [ 
       "this world fills the entire Display"
       properDisplay
