@@ -17,7 +17,7 @@
   [ true ] whileTrue: [ World doOneCycle	"Simulate Animation Framework" ]
 
 Smalltalk at: #'Sensor' put: EventSensor new.
-EventSensor initialize
-Seansor cursorPoint
+        EventSensor initialize
+Sensor cursorPoint
 EventSensorConstants initialize.
 
