@@ -1,4 +1,5 @@
-
+  BitBlt initialize.
+  BitBltSimulation initialize.
   Smalltalk at: #'Display' put: DisplayScreen new.
   System commit.
   Display setExtent: 640 @ 480 depth: 32.

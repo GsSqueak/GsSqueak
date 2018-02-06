@@ -1,4 +1,5 @@
-
+  BitBlt initialize.
+  BitBltSimulation initialize.
   Smalltalk at: #'Display' put: DisplayScreen new.
   System commit.
   Display setExtent: 640 @ 480 depth: 32.
@@ -15,9 +16,9 @@
   WorldProvider getWorld doOneCycle.
   Display forceToScreen.
   [ true ] whileTrue: [ World doOneCycle	"Simulate Animation Framework" ]
-
-Smalltalk at: #'Sensor' put: EventSensor new.
-        EventSensor initialize
-Sensor cursorPoint
+EventSensor initialize.
 EventSensorConstants initialize.
+Smalltalk at: #'Sensor' put: EventSensor new.
+Sensor cursorPoint
+
 
