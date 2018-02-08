@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"dispatchDefault:with:" : "mt 5/20/2016 15:21",
+		"dispatchDropEvent:with:" : "mt 5/20/2016 15:21",
+		"dispatchEvent:toSubmorphsOf:" : "mt 6/20/2016 15:04",
+		"dispatchEvent:with:" : "bf 8/30/2007 20:30",
+		"dispatchEvent:withHandler:withMorph:" : "mt 5/20/2016 15:12",
+		"dispatchFocusEvent:with:" : "mt 6/20/2016 16:57",
+		"dispatchFocusEventFully:with:" : "mt 6/20/2016 16:57",
+		"dispatchMouseDown:with:" : "mt 5/20/2016 15:20",
+		"dispatchWindowEvent:with:" : "mt 5/20/2016 15:19",
+		"doBubblingForFocusEvent:with:" : "mt 6/20/2016 16:37",
+		"doCapturingForFocusEvent:with:" : "mt 6/20/2016 16:45",
+		"doHandlingForFocusEvent:with:" : "mt 6/20/2016 16:40",
+		"doProcessingForFocusEvent:with:" : "mt 6/20/2016 16:56",
+		"nextFromOriginal:local:filtered:" : "mt 6/20/2016 15:26" } }
