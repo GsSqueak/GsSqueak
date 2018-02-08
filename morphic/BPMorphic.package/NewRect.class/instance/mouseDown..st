@@ -1,4 +1,3 @@
 as yet unclassified
 mouseDown: a
-  "  Transcript show: 'a'"
-
+  Transcript show: 'a'
