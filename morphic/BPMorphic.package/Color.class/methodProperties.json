@@ -21,7 +21,7 @@
 		"colorRampForDepth:extent:" : "jb 01/23/2018 07:08",
 		"colorTest:extent:colorMapper:" : "nice 12/27/2009 03:11",
 		"computeColorConvertingMap:from:to:keepSubPixelAA:" : "jmv 8/2/2009 21:32",
-		"computeColormapFrom:to:" : "jm 3/25/1999 19:48",
+		"computeColormapFrom:to:" : "jb 02/08/2018 02:13",
 		"computeIndexedColorConvertingMap:from:to:" : "nice 12/27/2009 03:11",
 		"computeRGBColorConvertingMap:to:keepSubPixelAA:" : "jmv 9/7/2009 09:30",
 		"computeRGBColormapFor:bitsPerColor:" : "jm 12/4/97 15:25",
