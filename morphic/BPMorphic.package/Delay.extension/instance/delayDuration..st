@@ -1,3 +1,5 @@
 *BPMorphic
-delayDuration: aDur
-  ^ self interval: aDur
+delayDuration: millisecondCount
+  "initialize the receiver to delay on an interval"
+
+  self interval: millisecondCount

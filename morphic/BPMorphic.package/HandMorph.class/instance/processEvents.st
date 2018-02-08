@@ -9,7 +9,7 @@ processEvents
 			Make sure z-order is up to date"
       self mouseOverHandler processMouseOver: lastMouseEvent ].
   _gsSqueakTemp_hadAny := false.
-  [ (_gsSqueakTemp_evtBuf := Sensor nextEvent) isNil ]
+  [ (_gsSqueakTemp_evtBuf := (Smalltalk at: #'Sensor') nextEvent) isNil ]
     whileFalse: [ 
       _gsSqueakTemp_evt := nil.	"for unknown event types"
       _gsSqueakTemp_type := _gsSqueakTemp_evtBuf first.
