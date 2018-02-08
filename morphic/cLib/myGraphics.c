@@ -69,6 +69,8 @@ int openWindow(int x, int y, int w, int h)
         SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STATIC, w, h);
 
     MouseState.left = MouseState.middle = MouseState.right = MOUSE_UP;
+    ModifierState.ctrlL = ModifierState.ctrlR = ModifierState.alt
+            = ModifierState.shiftL = ModifierState.shiftR = KEY_UP;
     
     return 0;
 }
@@ -139,6 +141,25 @@ void handleKeyEvent(KeyEvent * sqEv,
                     int value,
                     int repeat,
                     uint32_t timestamp) {
+    switch(keycode)
+    {
+    case SDLK_LCTRL:
+        ModifierState.ctrlL = value;
+        break;
+    case SDLK_RCTRL:
+        ModifierState.ctrlR = value;
+        break;
+    case SDLK_LALT:
+        ModifierState.alt = value;
+        break;
+    case SDLK_LSHIFT:
+        ModifierState.shiftL = value;
+        break;
+    case SDLK_RSHIFT:
+        ModifierState.shiftR = value;
+        break;
+    }
+
     sqEv->type = EVENT_TYPE_KEYBOARD;
     sqEv->timeStamp = timestamp;
     sqEv->characterCode = keycode;
