@@ -12,14 +12,22 @@ int winH;
 
 #define MOUSE_DOWN 1
 #define MOUSE_UP 0
+#define KEY_DOWN 1
+#define KEY_UP 0
+
 
 struct {
     uint32_t x, y;
     int left, middle, right;
 } MouseState;
 
+struct {
+    int ctrlL, ctrlR, alt, shiftL, shiftR;
+} ModifierState;
+
 #define EVENT_TYPE_NONE     0
 #define EVENT_TYPE_MOUSE    1
+#define EVENT_TYPE_KEYBOARD 2
 
 typedef struct {
     uint32_t type;
@@ -28,6 +36,14 @@ typedef struct {
     uint32_t buttonState, modifierKeys;
     uint32_t unused[2];
 } MouseEvent;
+
+typedef struct {
+    uint32_t type;
+    uint32_t timeStamp;
+    uint32_t characterCode;
+    uint32_t pressState, modifierKeys;
+    uint32_t unused[3];
+} KeyEvent;
 
 int openWindow(int x, int y, int w, int h)
 {
@@ -78,16 +94,28 @@ void closeWindow()
     SDL_Quit();
 }
 
-void sendMouseState(MouseEvent *SqEv, uint32_t timestamp)
+uint32_t mouseButtonState() {
+    return MouseState.right
+            | (MouseState.middle << 1)
+            | (MouseState.left << 2);
+}
+
+uint32_t keyModifierState() {
+    return ModifierState.shiftL
+            | ModifierState.shiftR
+            | (ModifierState.ctrlL << 1)
+            | (ModifierState.ctrlR << 1)
+            | (ModifierState.alt << 1);
+}
+
+void sendMouseState(MouseEvent *sqEv, uint32_t timestamp)
 {
-    SqEv->type = EVENT_TYPE_MOUSE;
-    SqEv->timeStamp = timestamp;
-    SqEv->x = MouseState.x;
-    SqEv->y = MouseState.y;
-    SqEv->buttonState = MouseState.right
-                      | (MouseState.middle << 1)
-                      | (MouseState.left << 2);
-    SqEv->modifierKeys = 0;
+    sqEv->type = EVENT_TYPE_MOUSE;
+    sqEv->timeStamp = timestamp;
+    sqEv->x = MouseState.x;
+    sqEv->y = MouseState.y;
+    sqEv->buttonState = mouseButtonState();
+    sqEv->modifierKeys = keyModifierState();
 }
 
 void handleButtonEvent(uint8_t button, int value)
@@ -104,6 +132,23 @@ void handleButtonEvent(uint8_t button, int value)
         MouseState.right = value;
         break;
     }
+}
+
+void handleKeyEvent(KeyEvent * sqEv,
+                    SDL_Keycode keycode,
+                    int value,
+                    int repeat,
+                    uint32_t timestamp) {
+    sqEv->type = EVENT_TYPE_KEYBOARD;
+    sqEv->timeStamp = timestamp;
+    sqEv->characterCode = keycode;
+    if (repeat)
+        sqEv->pressState = 0;
+    else if (value == KEY_DOWN)
+        sqEv->pressState = 1;
+    else
+        sqEv->pressState = 2;
+    sqEv->modifierKeys = keyModifierState();
 }
 
 void getEvents(void *e)
@@ -125,8 +170,17 @@ void getEvents(void *e)
             MouseState.y = event.button.y;
             handleButtonEvent(
                     event.button.button,
-                    SDL_MOUSEBUTTONUP ? MOUSE_UP: MOUSE_DOWN);
+                    event.type == SDL_MOUSEBUTTONUP ? MOUSE_UP : MOUSE_DOWN);
             sendMouseState(e, event.button.timestamp);
+            return;
+        case SDL_KEYUP:
+        case SDL_KEYDOWN:
+            handleKeyEvent(
+                    e,
+                    event.key.keysym.sym,
+                    event.type == SDL_KEYUP ? KEY_UP : KEY_DOWN,
+                    event.key.repeat != 0,
+                    event.key.timestamp);
             return;
         }
     }
