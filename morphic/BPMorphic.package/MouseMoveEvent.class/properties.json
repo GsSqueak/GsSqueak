@@ -1,0 +1,15 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"startPoint",
+		"trail" ],
+	"name" : "MouseMoveEvent",
+	"pools" : [
+		 ],
+	"super" : "MouseEvent",
+	"type" : "normal" }

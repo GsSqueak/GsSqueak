@@ -1,0 +1,3 @@
+updating
+changed
+	hasChanged := true

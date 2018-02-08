@@ -1,0 +1,1 @@
+An optimization for Nebraska - a StaticForm does not change once created so it may be cached on the remote end.
