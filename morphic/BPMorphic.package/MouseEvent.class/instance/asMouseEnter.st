@@ -1,3 +1,3 @@
 converting
 asMouseEnter
-	^ self clone setType: #mouseEnter
+  ^ self shallowCopy setType: #'mouseEnter'

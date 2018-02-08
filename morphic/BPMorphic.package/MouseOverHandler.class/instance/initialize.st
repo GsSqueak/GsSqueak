@@ -1,4 +1,4 @@
 initialize-release
 initialize
-	mouseOverMorphs := Array new.
-	self initializeTrackedMorphs
+  mouseOverMorphs := Array new.
+  self initializeTrackedMorphs

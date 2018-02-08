@@ -1,3 +1,3 @@
 converting
 asMouseLeave
-	^ self clone setType: #mouseLeave
+  ^ self shallowCopy setType: #'mouseLeave'
