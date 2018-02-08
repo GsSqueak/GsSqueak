@@ -8,4 +8,5 @@ Session.vim
 apps/AmpelServer/AmpelServer
 *.so
 *.autosave
+*.kate-swp
 
