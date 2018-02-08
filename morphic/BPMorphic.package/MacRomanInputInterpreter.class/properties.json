@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"converter" ],
+	"name" : "MacRomanInputInterpreter",
+	"pools" : [
+		 ],
+	"super" : "KeyboardInputInterpreter",
+	"type" : "normal" }
