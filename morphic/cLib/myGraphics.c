@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <SDL.h>
 #include <unistd.h>
+#include "keyconstants.h"
 
 SDL_Window *window = NULL;
 SDL_Renderer * renderer;
@@ -44,6 +45,7 @@ typedef struct {
     uint32_t pressState, modifierKeys;
     uint32_t unused[3];
 } KeyEvent;
+
 
 int openWindow(int x, int y, int w, int h)
 {
@@ -136,6 +138,53 @@ void handleButtonEvent(uint8_t button, int value)
     }
 }
 
+//adapted from RSqueak
+uint32_t translateKey(SDL_Keycode key){
+    if(key == SDLK_DOWN)
+        return SQ_KEY_DOWN;
+    else if(key == SDLK_LEFT)
+        return SQ_KEY_LEFT;
+    else if(key == SDLK_RIGHT)
+        return SQ_KEY_RIGHT;
+    else if(key == SDLK_UP)
+        return SQ_KEY_UP;
+    else if(key == SDLK_HOME)
+        return SQ_KEY_HOME;
+    else if(key == SDLK_END)
+        return SQ_KEY_END;
+    else if(key == SDLK_INSERT)
+        return SQ_KEY_INSERT;
+    else if(key == SDLK_BACKSPACE)
+        return SQ_KEY_BACKSPACE;
+    else if(key == SDLK_PAGEUP)
+        return SQ_KEY_PAGEUP;
+    else if(key == SDLK_PAGEDOWN)
+        return SQ_KEY_PAGEDOWN;
+    else if(key == SDLK_RETURN)
+        return SQ_KEY_RETURN;
+    else if(key == SDLK_LSHIFT || key == SDLK_RSHIFT)
+        return SQ_KEY_SHIFT;
+    else if(key ==  SDLK_LCTRL || key == SDLK_RCTRL)
+        return SQ_KEY_CTRL;
+    else if(key == SDLK_PAUSE)
+        return SQ_KEY_BREAK;
+    else if(key == SDLK_CAPSLOCK)
+        return SQ_KEY_CAPSLOCK;
+    else if(key == SDLK_ESCAPE)
+        return SQ_KEY_ESCAPE;
+    else if(key == SDLK_PRINTSCREEN)
+        return SQ_KEY_PRINT;
+    else if(key == SDLK_DELETE)
+        return SQ_KEY_DELETE;
+    else if(key == SDLK_NUMLOCKCLEAR)
+        return SQ_KEY_NUMLOCK;
+    else if(key == SDLK_SCROLLLOCK)
+        return SQ_KEY_SCROLLLOCK;
+    else if(key < 255)
+        return key;
+    return 0;
+}
+
 void handleKeyEvent(KeyEvent * sqEv,
                     SDL_Keycode keycode,
                     int value,
@@ -162,7 +211,7 @@ void handleKeyEvent(KeyEvent * sqEv,
 
     sqEv->type = EVENT_TYPE_KEYBOARD;
     sqEv->timeStamp = timestamp;
-    sqEv->characterCode = keycode;
+    sqEv->characterCode = translateKey(keycode);
     if (repeat)
         sqEv->pressState = 0;
     else if (value == KEY_DOWN)
@@ -183,7 +232,7 @@ void getEvents(void *e)
         case SDL_MOUSEMOTION:
             MouseState.x = event.motion.x;
             MouseState.y = event.motion.y;
-            sendMouseState(e, event.motion.timestamp);
+            sendMouseState((MouseEvent*)e, event.motion.timestamp);
             return;
         case SDL_MOUSEBUTTONUP:
         case SDL_MOUSEBUTTONDOWN:
@@ -192,12 +241,12 @@ void getEvents(void *e)
             handleButtonEvent(
                     event.button.button,
                     event.type == SDL_MOUSEBUTTONUP ? MOUSE_UP : MOUSE_DOWN);
-            sendMouseState(e, event.button.timestamp);
+            sendMouseState((MouseEvent*)e, event.button.timestamp);
             return;
         case SDL_KEYUP:
         case SDL_KEYDOWN:
             handleKeyEvent(
-                    e,
+                    (KeyEvent*)e,
                     event.key.keysym.sym,
                     event.type == SDL_KEYUP ? KEY_UP : KEY_DOWN,
                     event.key.repeat != 0,
@@ -208,3 +257,5 @@ void getEvents(void *e)
 
     bzero(e, 8 * sizeof(uint32_t));
 }
+
+

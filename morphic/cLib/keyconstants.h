@@ -1,0 +1,27 @@
+#ifndef KEYCONSTANTS_H
+#define KEYCONSTANTS_H
+
+
+#define SQ_KEY_DOWN 31
+#define SQ_KEY_LEFT 28
+#define SQ_KEY_RIGHT 29
+#define SQ_KEY_UP 30
+#define SQ_KEY_HOME 1
+#define SQ_KEY_END 4
+#define SQ_KEY_INSERT 5
+#define SQ_KEY_BACKSPACE 8
+#define SQ_KEY_PAGEUP 11
+#define SQ_KEY_PAGEDOWN 12
+#define SQ_KEY_RETURN 13
+#define SQ_KEY_SHIFT 16
+#define SQ_KEY_CTRL 17
+#define SQ_KEY_COMMAND 18
+#define SQ_KEY_BREAK 19
+#define SQ_KEY_CAPSLOCK 20
+#define SQ_KEY_ESCAPE 27
+#define SQ_KEY_PRINT 44
+#define SQ_KEY_DELETE 127
+#define SQ_KEY_NUMLOCK 184
+#define SQ_KEY_SCROLLLOCK 212
+
+#endif // KEYCONSTANTS_H
