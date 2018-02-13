@@ -16,8 +16,9 @@ processEvents
       _gsSqueakTemp_type = EventTypeMouse
         ifTrue: [ _gsSqueakTemp_evt := self generateMouseEvent: _gsSqueakTemp_evtBuf ].
       _gsSqueakTemp_type = EventTypeMouseWheel
-        ifTrue: [ _gsSqueakTemp_evt := self generateMouseWheelEvent: _gsSqueakTemp_evtBuf ].	"_gsSqueakTemp_type = EventTypeKeyboard
-        ifTrue: [ _gsSqueakTemp_evt := self generateKeyboardEvent: _gsSqueakTemp_evtBuf ].	"	"TODO: keyboard"
+        ifTrue: [ _gsSqueakTemp_evt := self generateMouseWheelEvent: _gsSqueakTemp_evtBuf ].
+      _gsSqueakTemp_type = EventTypeKeyboard
+        ifTrue: [ _gsSqueakTemp_evt := self generateKeyboardEvent: _gsSqueakTemp_evtBuf ].
       _gsSqueakTemp_type = EventTypeDragDropFiles
         ifTrue: [ _gsSqueakTemp_evt := self generateDropFilesEvent: _gsSqueakTemp_evtBuf ].
       _gsSqueakTemp_type = EventTypeWindow
