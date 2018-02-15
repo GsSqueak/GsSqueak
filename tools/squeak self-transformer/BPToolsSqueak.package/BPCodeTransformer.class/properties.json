@@ -1,0 +1,17 @@
+{
+	"category" : "BPToolsSqueak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"squeakCode",
+		"ast",
+		"methodClass",
+		"expectsExclamationMark" ],
+	"name" : "BPCodeTransformer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

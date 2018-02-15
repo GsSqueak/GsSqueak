@@ -1,0 +1,55 @@
+set u SystemUser p swordfish
+login
+
+run
+| systemUser |
+systemUser := AllUsers at: 1.
+AllUsers addNewUserWithId: 'SuperUser'
+	password: 'password'
+	defaultObjectSecurityPolicy: nil
+	privileges: systemUser privileges
+	inGroups: systemUser groups.
+System commitTransaction.
+%
+
+logout
+set u SystemUser p swordfish
+login
+
+category: 'experiment'
+method: Object
+addedMethod
+	^ 42
+%
+
+commit
+logout
+login
+
+lookup Object >> addedMethod
+run
+	Object removeSelector: #addedMethod
+%
+lookup Object >> addedMethod
+commit
+
+logout
+set u DataCurator p swordfish
+login
+
+category: 'experiment'
+method: Object
+addedMethod
+	^ 42
+%
+
+commit
+logout
+login
+
+lookup Object >> addedMethod
+run
+	Object removeSelector: #addedMethod
+%
+lookup Object >> addedMethod
+commit

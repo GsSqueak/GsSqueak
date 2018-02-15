@@ -1,0 +1,14 @@
+{
+	"category" : "BPToolsSqueak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPPackageServer",
+	"pools" : [
+		 ],
+	"super" : "BPCodeServer",
+	"type" : "normal" }

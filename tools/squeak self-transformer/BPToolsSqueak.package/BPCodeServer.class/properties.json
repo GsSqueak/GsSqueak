@@ -1,0 +1,14 @@
+{
+	"category" : "BPToolsSqueak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"TcpSocket" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPCodeServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
