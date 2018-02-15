@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <SDL.h>
 #include <unistd.h>
+#include <stdbool.h>
 #include "keyconstants.h"
 
 SDL_Window *window = NULL;
@@ -15,7 +16,6 @@ int winH;
 #define MOUSE_UP 0
 #define KEY_DOWN 1
 #define KEY_UP 0
-
 
 struct {
     uint32_t x, y;
@@ -46,6 +46,9 @@ typedef struct {
     uint32_t unused[3];
 } KeyEvent;
 
+
+bool hasQueuedStroke;
+KeyEvent queuedStroke;
 
 int openWindow(int x, int y, int w, int h)
 {
@@ -219,10 +222,23 @@ void handleKeyEvent(KeyEvent * sqEv,
     else
         sqEv->pressState = 2;
     sqEv->modifierKeys = keyModifierState();
+
+    //generate stroke
+    if(sqEv->pressState == 1){
+        queuedStroke = *sqEv;
+        queuedStroke.pressState = 0;//stoke
+        hasQueuedStroke = true;
+    }
 }
 
 void getEvents(void *e)
 {
+    if(hasQueuedStroke){
+        hasQueuedStroke = false;
+        *((KeyEvent*)e) = queuedStroke;
+        return;
+    }
+
     SDL_Event event;
     
     while (SDL_PollEvent(&event))
