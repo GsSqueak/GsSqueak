@@ -1,0 +1,3 @@
+accessing
+hasNoScaleOrRotation
+	^ transform isPureTranslation

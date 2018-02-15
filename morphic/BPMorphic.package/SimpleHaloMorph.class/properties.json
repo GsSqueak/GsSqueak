@@ -1,0 +1,15 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 11/6/2015 09:59",
+	"instvars" : [
+		"target",
+		"positionOffset" ],
+	"name" : "SimpleHaloMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

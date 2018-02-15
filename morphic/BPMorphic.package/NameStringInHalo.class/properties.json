@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kfr 10/27/2003 16:29",
+	"instvars" : [
+		 ],
+	"name" : "NameStringInHalo",
+	"pools" : [
+		 ],
+	"super" : "UpdatingStringMorph",
+	"type" : "normal" }

@@ -1,0 +1,32 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ColorChart",
+		"ImageLibrary",
+		"Prototype",
+		"RecentColors",
+		"UseLargeColorPicker" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"action",
+		"tool",
+		"currentCursor",
+		"thumbnail",
+		"currentColor",
+		"currentBrush",
+		"colorMemory",
+		"stampHolder",
+		"rotationTabForm",
+		"scaleTabForm",
+		"colorMemoryThin",
+		"brushes",
+		"focusMorph",
+		"weakDependents",
+		"recentColors" ],
+	"name" : "PaintBoxMorph",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

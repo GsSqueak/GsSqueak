@@ -11,4 +11,6 @@
 		"isDefined:inSmalltalk:comment:ifTrue:ifFalse:" : "jb 01/23/2018 07:44",
 		"isForm" : "jb 02/08/2018 02:23",
 		"isMorph" : "jb 02/08/2018 06:16",
-		"isSystemWindow" : "jb 02/08/2018 06:20" } }
+		"isSystemWindow" : "jb 02/08/2018 06:20",
+		"refineRedoTarget:selector:arguments:in:" : "jb 02/15/2018 02:35",
+		"refineUndoTarget:selector:arguments:in:" : "jb 02/15/2018 02:35" } }
