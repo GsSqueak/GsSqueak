@@ -10,5 +10,5 @@
 	"name" : "BPTopazCodeServer",
 	"pools" : [
 		 ],
-	"super" : "BPCodeServer",
+	"super" : "BPClassServer",
 	"type" : "normal" }

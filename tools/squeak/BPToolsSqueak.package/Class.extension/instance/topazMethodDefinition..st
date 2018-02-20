@@ -1,4 +1,4 @@
-as yet unclassified
+*BPToolsSqueak
 topazMethodDefinition: aMethodSymbol
 	| source |
 	source := self transformedMethodSource: aMethodSymbol.

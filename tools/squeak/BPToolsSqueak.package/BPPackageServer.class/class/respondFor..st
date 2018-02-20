@@ -9,7 +9,7 @@ classes := SystemOrganization classesInCategory: aString.
 classes do: [:class | 	
 	Transcript cr; show: 'handling Class '.
 	writeStream := WriteStream on: ''.
-	BPFileOuter fileOut: class To: writeStream.
+	class fileOutTo: writeStream.
 	TcpSocket sendData: writeStream contents.
 	writeStream close.].
 

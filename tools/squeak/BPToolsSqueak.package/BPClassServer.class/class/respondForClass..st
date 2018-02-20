@@ -2,5 +2,6 @@ as yet unclassified
 respondForClass: aClass
 	| writeStream |
 	writeStream := WriteStream on: ''.
-	BPFileOuter fileOut: aClass To: writeStream.
+	aClass fileOutTo: writeStream.
 	TcpSocket sendData: writeStream contents.
+	writeStream close.

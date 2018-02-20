@@ -1,8 +1,8 @@
 #!/bin/bash
 
 GS_SQUEAK_GS_VERSION=3.5.0-EA-43453
-GS_CLASS_LIST="Object SmallInteger   Behavoir Module Metaclass3 Class"
-SQUEAK_CLASS_LIST="ProtocolClient TelnetProtocolClient SMTPClient"
+GS_CLASS_LIST=""
+SQUEAK_CLASS_LIST="ProtoObject Object SmallInteger   Behavior ClassDescription Metaclass Class ProtocolClient TelnetProtocolClient SMTPClient"
 
 
 stopStone GsSqueak
@@ -51,6 +51,7 @@ for class in $GS_CLASS_LIST; do
 done
 
 for class in $SQUEAK_CLASS_LIST; do
+	echo "importing $class from squeak"
 	echo $class | netcat localhost 1743 | tr '\r' '\n' | startTopaz GsSqueak -l
 done;
 	
