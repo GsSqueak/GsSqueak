@@ -1,14 +1,21 @@
 EventSensorConstants initialize.
+IdentityTransform initialize.
+EventSensor initialize.
+BitBlt initialize.
+BitBltSimulator initialize.
+BitBltSimulation initialize.
+
 Smalltalk at: #'Sensor' put: EventSensor new.
 
 Smalltalk at: #'Display' put: DisplayScreen new.
 LanguageEnvironment clearDefault.
 
-IdentityTransform initialize.
 
   System commit.
+
+
   Display setExtent: 640 @ 480 depth: 32.
-  1 to: 10000 do: [ :nr | Display bits byteAt: nr * 4 put: 255 ].
+  1 to: 10000 do: [ :nr | Display bits byteAt: nr * 4+1 put: 255 ].
   Display offset: 0 @ 0.
   Display beDisplay.
   WorldProvider setWorld: nil.
