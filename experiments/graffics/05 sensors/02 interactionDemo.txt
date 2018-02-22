@@ -4,6 +4,8 @@ Smalltalk at: #'Sensor' put: EventSensor new.
 Smalltalk at: #'Display' put: DisplayScreen new.
 LanguageEnvironment clearDefault.
 
+IdentityTransform initialize.
+
   System commit.
   Display setExtent: 640 @ 480 depth: 32.
   1 to: 10000 do: [ :nr | Display bits byteAt: nr * 4 put: 255 ].
@@ -16,6 +18,8 @@ LanguageEnvironment clearDefault.
   NewRect new
     openInWorld;
     startStepping.
-  WorldProvider getWorld doOneCycle.
+
   Display forceToScreen.
+  WorldProvider getWorld doOneCycle.
+
   [ true ] whileTrue: [ World doOneCycle	"Simulate Animation Framework" ]
