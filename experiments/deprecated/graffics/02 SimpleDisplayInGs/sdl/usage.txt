@@ -1,0 +1,15 @@
+| testLib calloutObject result cArray |
+  cArray := CByteArray malloc: 10.
+  cArray int8At: 0 put: 10.
+  cArray int8At: 1 put: 9.
+  cArray int8At: 2 put: 8.
+  testLib := CLibrary
+    named:
+      '/home/jakob/Studium/bp/BP2017RH1/experiments/ffi/02 bitmapTest/libmyprinter3.so'.
+  calloutObject := CCallout
+    library: testLib
+    name: #'printBtitmap'
+    result: #'void'
+    args: #(#'ptr').
+  result := calloutObject callWith: {cArray}.
+  ^ cArray int8At: 0
