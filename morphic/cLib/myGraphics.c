@@ -184,7 +184,11 @@ uint32_t translateKey(SDL_Keycode key){
     else if(key == SDLK_SCROLLLOCK)
         return SQ_KEY_SCROLLLOCK;
     else if(key < 255)
-        return key;
+	{
+	if (ModifierState.shiftL != 0 && key > 65 && key < 129)
+        	return key - 32;
+	return key;	
+	}
     return 0;
 }
 

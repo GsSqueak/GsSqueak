@@ -1,8 +1,8 @@
 event handling
 mouseDown: evt 
 	evt hand visible: true.
-	"See if a stamp is being dropped into the trash. It is not held by the
-	hand. "
+	"See if a stamp is being dropped into the trash. It is not held by
+	the hand."
 	self findActivePaintBox
 		ifNotNil: [:_gsSqueakTemp_paintBox | _gsSqueakTemp_paintBox getSpecial == #stamp:
 				ifTrue: [_gsSqueakTemp_paintBox deleteCurrentStamp: evt.

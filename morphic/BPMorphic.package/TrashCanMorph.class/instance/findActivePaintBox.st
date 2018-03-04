@@ -1,7 +1,7 @@
 private
 findActivePaintBox
-	"If painting, return the active PaintBoxMorph. If not painting, or if the
-	paint box cannot be found, return nil."
+	"If painting, return the active PaintBoxMorph. If not painting,
+	or if the paint box cannot be found, return nil."
 	| _gsSqueakTemp_w |
 	_gsSqueakTemp_w := self world.
 	_gsSqueakTemp_w

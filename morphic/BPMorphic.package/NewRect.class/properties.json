@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"command" ],
 	"name" : "NewRect",
 	"pools" : [
 		 ],
