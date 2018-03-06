@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakParser-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"readNode",
+		"writeNode" ],
+	"name" : "SqLiteralVariableNode",
+	"pools" : [
+		 ],
+	"super" : "SqVariableNode",
+	"type" : "normal" }

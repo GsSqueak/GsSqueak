@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "SL 2/27/2018 13:44",
+		"readBeforeWritten" : "SL 2/27/2018 13:44",
+		"visitAssignmentNode:" : "SL 2/27/2018 13:44",
+		"visitBlockNode:" : "SL 2/27/2018 13:44",
+		"visitMessageNode:" : "SL 2/27/2018 13:44",
+		"visitTempVariableNode:" : "SL 2/27/2018 13:44" } }

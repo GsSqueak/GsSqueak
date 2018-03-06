@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"analyseTempsWithin:rootNode:assignmentPools:" : "SL 2/27/2018 13:44",
+		"code" : "SL 2/27/2018 13:44",
+		"code:type:" : "SL 2/27/2018 14:16",
+		"emitCodeForEffect:encoder:" : "SL 2/27/2018 13:44",
+		"emitCodeForLoad:forValue:encoder:" : "SL 2/27/2018 13:44",
+		"key:code:" : "SL 2/27/2018 13:44",
+		"key:index:type:" : "SL 2/27/2018 13:44",
+		"name:key:code:" : "SL 2/27/2018 13:44",
+		"reserve:" : "SL 2/27/2018 13:44",
+		"sizeCodeForEffect:" : "SL 2/27/2018 13:44",
+		"sizeCodeForLoad:forValue:" : "SL 2/27/2018 13:44",
+		"sizeCodeForValue:" : "SL 2/27/2018 13:44",
+		"veryDeepFixupWith:" : "SL 2/27/2018 13:44",
+		"veryDeepInner:" : "SL 2/27/2018 13:44" } }

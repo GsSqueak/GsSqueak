@@ -1,0 +1,30 @@
+{
+	"category" : "SqueakParser-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"MacroEmitters",
+		"MacroPrinters",
+		"MacroSelectors",
+		"MacroSizers",
+		"MacroTransformers",
+		"StdTypers",
+		"ThenFlag" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"receiver",
+		"selector",
+		"precedence",
+		"special",
+		"arguments",
+		"sizes",
+		"equalNode",
+		"caseErrorNode",
+		"originalReceiver",
+		"originalSelector",
+		"originalArguments" ],
+	"name" : "SqMessageNode",
+	"pools" : [
+		 ],
+	"super" : "SqParseNode",
+	"type" : "normal" }

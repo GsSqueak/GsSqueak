@@ -1,0 +1,3 @@
+visiting
+visitInstanceVariableNode: aNode 
+	^ nil

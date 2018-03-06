@@ -1,0 +1,27 @@
+{
+	"category" : "SqueakParser-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AllowBlockArgumentAssignment",
+		"AllowUnderscoreAssignments",
+		"AllowUnderscoreSelectors",
+		"AllowUnicharSymbol",
+		"DoItCharacter",
+		"TypeTable" ],
+	"commentStamp" : "ul 4/3/2011 02:04",
+	"instvars" : [
+		"source",
+		"mark",
+		"hereChar",
+		"aheadChar",
+		"token",
+		"tokenType",
+		"currentComment",
+		"buffer",
+		"typeTable" ],
+	"name" : "SqScanner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

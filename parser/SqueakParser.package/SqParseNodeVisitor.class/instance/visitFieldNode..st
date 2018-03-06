@@ -1,0 +1,3 @@
+visiting
+visitFieldNode: aFieldNode 
+	^ self

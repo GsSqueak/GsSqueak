@@ -1,0 +1,19 @@
+{
+	"category" : "SqueakParser-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 3/30/2017 17:32",
+	"instvars" : [
+		"source",
+		"context",
+		"receiver",
+		"class",
+		"environment",
+		"requestor" ],
+	"name" : "SqCompilationCue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

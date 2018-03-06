@@ -1,0 +1,277 @@
+
+ifErr 1 stk
+ifErr 2 stack
+ifErr 3 abort
+ifErr 4 exit
+
+set u GsSqueak p swordfish
+login
+set compile_env: 0
+run
+(nil subclass: #ProtoObject
+	instVarNames: #()
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: {  }
+	inDictionary: Smalltalk
+	newVersionOf: nil
+	description: '0'
+	options: #()
+	) category: 'Kernel-Objects'
+%
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+rehash
+	"Do nothing. Here so sending this to a Set does not have to do a time
+	consuming respondsTo:"
+	^ self
+%
+
+set compile_env: 0
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+becomeForward: otherObject 
+	"Primitive. All variables in the entire system that used to point
+	to the receiver now point to the argument.
+	Fails if either argument is an immediate such as a SmallInteger."
+	{self} elementsForwardIdentityTo: {otherObject}
+%
+
+set compile_env: 0
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+initialize
+	"Subclasses should redefine this method to perform initializations on
+	instance creation"
+	^ self
+%
+
+set compile_env: 0
+run
+Smalltalk at: #MessageNotUnderstood put: nil
+%
+commit
+logout
+login
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+doesNotUnderstand: aMessage 
+	^ MessageNotUnderstood new message: aMessage;
+		 receiver: self;
+		 signal
+%
+
+set compile_env: 0
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+become: otherObject 
+	"Primitive. Swap the object pointers of the receiver and the argument.
+	All variables in the entire system that used to point to the receiver
+	now point to the argument, and vice-versa.
+	Fails if either object is an immediate such as a SmallInteger."
+	{self} elementsExchangeIdentityWith: {otherObject}
+%
+
+set compile_env: 0
+run
+Smalltalk at: #Error put: nil
+%
+commit
+logout
+login
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+cannotInterpret: aMessage 
+	"Handle the fact that there was an attempt to send the given message
+	to the receiver but a null methodDictionary was encountered while
+	looking up the message selector. Hopefully this is the result of
+	encountering a stub for a swapped out class which induces this
+	exception on purpose."
+	"If this is the result of encountering a swap-out stub, then simulating
+	the lookup in Smalltalk should suffice to install the class properly, and
+	the message may be resent."
+	(self class lookupSelector: aMessage selector)
+			== nil
+		ifFalse: ["Simulated lookup succeeded -- resend the message."
+			^ aMessage sentTo: self].
+	"Could not recover by simulated lookup -- it's an error"
+	Error signal: 'MethodDictionary fault'.
+	"Try again in case an error handler fixed things"
+	^ aMessage sentTo: self
+%
+
+set compile_env: 0
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+isNil
+	"Coerces nil to true and everything else to false."
+	^ false
+%
+
+set compile_env: 0
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+scaledIdentityHash
+	"For identityHash values returned by primitive 75, answer
+	such values times 2^8. Otherwise, match the existing
+	identityHash implementation"
+	^ self identityHash * 256"bitShift: 8"
+%
+
+set compile_env: 0
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+pointsTo: anObject 
+	"Answers true if I hold a reference to anObject, or false otherwise. Or
+	stated another way:
+	
+	Answers true if the garbage collector would fail to collect anObject
+	because I hold a reference to it, or false otherwise"
+	^ (self instVarsInclude: anObject)
+		or: [self class == anObject]
+%
+
+set compile_env: 0
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+becomeForward: otherObject copyHash: copyHash 
+	"Primitive. All variables in the entire system that used to point to
+	the receiver now point to the argument. If copyHash is true, the
+	argument's identity hash bits will be set to those of the receiver.
+	Fails if either argument is an immediate such as a SmallInteger."
+	{self} elementsForwardIdentityTo: {otherObject} copyHash: copyHash
+%
+
+set compile_env: 0
+run
+Smalltalk at: #Smalltalk put: nil
+%
+commit
+logout
+login
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+doOnlyOnce: aBlock 
+	"If the 'one-shot' mechanism is armed, evaluate aBlock once and
+	disarm the one-shot mechanism. To rearm the mechanism, evaluate
+	'self rearmOneShot' manually."
+	(Smalltalk
+			at: #OneShotArmed
+			ifAbsent: [true])
+		ifTrue: [Smalltalk at: #OneShotArmed put: false.
+			aBlock value]
+%
+
+set compile_env: 0
+run
+Smalltalk at: #Smalltalk put: nil
+%
+commit
+logout
+login
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+rearmOneShot
+	"Call this manually to arm the one-shot mechanism; use the
+	mechanism in code by calling
+	self doOnlyOnce: <a block>"
+	Smalltalk at: #OneShotArmed put: true
+	"self rearmOneShot"
+%
+
+set compile_env: 0
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+isInMemory
+	"All normal objects are."
+	^ true
+%
+
+set compile_env: 0
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+flag: aSymbol 
+	"Send this message, with a relevant symbol as argument, to flag a
+	message for subsequent retrieval. For example, you might put the
+	following line in a number of messages:
+	self flag: #returnHereUrgently
+	Then, to retrieve all such messages, browse all senders of
+	#returnHereUrgently. "
+	^ self
+%
+
+set compile_env: 0
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+pointsOnlyWeaklyTo: anObject 
+	"Assume, we already know that receiver points to an object, answer
+	true if receiver points only weakly to it."
+	self class isWeak
+		ifFalse: [^ false].
+	1
+		to: self class instSize
+		do: [:i | (self instVarAt: i)
+					== anObject
+				ifTrue: [^ false]].
+	^ true
+%
+
+set compile_env: 0
+
+set compile_env: 7
+
+category: 'test
+method: ProtoObject 
+notNil
+	"Coerces nil to false and everything else to true."
+	^ true
+%
+
+set compile_env: 0
+
+commit
+logout

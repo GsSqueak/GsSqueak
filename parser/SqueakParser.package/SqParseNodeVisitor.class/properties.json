@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakParser-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SqParseNodeVisitor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

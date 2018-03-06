@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakParser-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 8/5/2014 20:18",
+	"instvars" : [
+		 ],
+	"name" : "SqSpecialSelectorNode",
+	"pools" : [
+		 ],
+	"super" : "SqSelectorNode",
+	"type" : "normal" }

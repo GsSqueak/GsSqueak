@@ -1,0 +1,20 @@
+{
+	"category" : "SqueakParser-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jcg 12/17/2009 02:03",
+	"instvars" : [
+		"receiver",
+		"originalSelector",
+		"futureSelector",
+		"futureDelta",
+		"futureArgs",
+		"effectNode",
+		"valueNode" ],
+	"name" : "SqFutureNode",
+	"pools" : [
+		 ],
+	"super" : "SqParseNode",
+	"type" : "normal" }

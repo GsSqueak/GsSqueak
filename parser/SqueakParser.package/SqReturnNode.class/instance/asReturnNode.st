@@ -1,0 +1,3 @@
+converting
+asReturnNode
+	^ self

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakParser-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SqMaybeContextInstanceVariableNode",
+	"pools" : [
+		 ],
+	"super" : "SqInstanceVariableNode",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+closure analysis
+definingScope
+	^ definingScope

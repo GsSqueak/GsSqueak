@@ -1,0 +1,18 @@
+{
+	"category" : "SqueakParser-Dependencies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LargeFrame",
+		"PreferredBytecodeSetEncoderClass",
+		"PrimaryBytecodeSetEncoderClass",
+		"SecondaryBytecodeSetEncoderClass",
+		"SmallFrame" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SqCompiledCode",
+	"pools" : [
+		 ],
+	"super" : "ByteArray",
+	"type" : "bytes" }

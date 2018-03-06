@@ -2,7 +2,7 @@
 
 GS_SQUEAK_GS_VERSION=3.5.0-EA-43453
 GS_CLASS_LIST=""
-SQUEAK_CLASS_LIST="ProtoObject Object SmallInteger   Behavior ClassDescription Metaclass Class ProtocolClient TelnetProtocolClient SMTPClient"
+SQUEAK_CLASS_LIST="ProtoObject Object SmallInteger Behavior ClassDescription Metaclass3 Class ProtocolClient TelnetProtocolClient SMTPClient"
 
 
 stopStone GsSqueak

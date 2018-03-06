@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakParser-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"method",
+		"selector" ],
+	"name" : "SqAdditionalMethodState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "variable" }

@@ -14,13 +14,12 @@ gsSqueak ~~ nil
     AllUsers removeAndCleanup: gsSqueak.
     System commitTransaction.
  ].
-(AllUsers
+AllUsers
   addNewUserWithId: 'GsSqueak'
-  password: 'swordfish')
-    addPrivilege: #'CodeModification';
-    addPrivilege: #'UserPassword';
-    addPrivilege: #'OtherPassword';
-    yourself.
+  password: 'swordfish'
+  defaultObjectSecurityPolicy: nil
+  privileges: #( CodeModification UserPassword OtherPassword ObjectSecurityPolicyCreation ObjectSecurityPolicyProtection CompilePrimitives )
+  inGroups: #( 'System' 'DataCuratorGroup' 'Publishers' 'Subscribers' ).
 System commit.
 %
 

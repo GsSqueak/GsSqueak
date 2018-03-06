@@ -1,0 +1,4 @@
+accessing
+rootNode
+	"^<BlockNode>"
+	^ rootNode
