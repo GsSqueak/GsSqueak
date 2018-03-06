@@ -1,8 +1,10 @@
 {
 	"class" : {
 		"createWindowCo" : "jb 02/06/2018 03:07",
+		"displayString" : "TobiasZagorni 03/06/2018 07:16",
+		"displayString:at:on:" : "TobiasZagorni 03/06/2018 07:18",
 		"drawBitmapCo" : "jb 02/06/2018 03:08",
 		"getEventsCo" : "jb 02/06/2018 03:08",
-		"initialize" : "jb 02/06/2018 03:23" },
+		"initialize" : "TobiasZagorni 03/06/2018 07:41" },
 	"instance" : {
 		 } }

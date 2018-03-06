@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 #include "keyconstants.h"
+#include "BPFont.xbm"
 
 SDL_Window *window = NULL;
 SDL_Renderer * renderer;
@@ -276,6 +277,29 @@ void getEvents(void *e)
     }
 
     bzero(e, 8 * sizeof(uint32_t));
+}
+
+void displayString(const char *string,
+                   uint32_t destX,
+                   uint32_t destY,
+                   uint32_t *bitmap,
+                   uint32_t bitmapWidth,
+                   uint32_t bitmapHeight) {
+    uint32_t x, y;
+    for ( ; *string != '\0'; string++, destX += 8) {
+        for (y = 0; y < 16; y++) {
+            for (x = 0; x < 8; x++) {
+                if (destX + x < bitmapWidth && destY + y < bitmapHeight) {
+                    unsigned char code = *string;
+                    if (code >= 128)
+                        code = 2;
+                    if (BPFont_bits[128 * y + code] & (1 << x)) {
+                        bitmap[(destY + y) * bitmapWidth + destX + x] = 0xff0000ff;
+                    }
+                }
+            }
+        }
+    }
 }
 
 

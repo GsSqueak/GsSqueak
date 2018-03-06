@@ -15,4 +15,9 @@ initialize
     library: GraphicsLib
     name: #'getEvents'
     result: #'void'
-    args: #(#'ptr')
+    args: #(#'ptr').
+  DisplayStringCo := CCallout
+    library: GraphicsLib
+    name: #'displayString'
+    result: #'void'
+    args: #(#'const char*' #'int32' #'int32' #'ptr' #'int32' #'int32')
