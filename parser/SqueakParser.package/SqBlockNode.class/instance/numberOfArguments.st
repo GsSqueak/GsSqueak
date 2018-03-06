@@ -1,0 +1,3 @@
+accessing
+numberOfArguments
+	^ arguments size

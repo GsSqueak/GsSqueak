@@ -1,0 +1,3 @@
+temps
+bindTemp: name 
+	^ name

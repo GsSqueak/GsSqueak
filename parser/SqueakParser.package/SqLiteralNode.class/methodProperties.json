@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "SL 2/27/2018 13:43",
+		"emitCodeForValue:encoder:" : "SL 2/27/2018 13:43",
+		"eval" : "SL 2/27/2018 13:43",
+		"isConstantNumber" : "SL 2/27/2018 13:43",
+		"isLiteralNode" : "SL 2/27/2018 13:43",
+		"isSpecialConstant" : "SL 2/27/2018 13:43",
+		"literalValue" : "SL 2/27/2018 13:43",
+		"name:key:index:type:" : "SL 2/27/2018 13:43",
+		"printOn:indent:" : "SL 2/27/2018 13:43",
+		"printWithClosureAnalysisOn:indent:" : "SL 2/27/2018 13:43",
+		"reserve:" : "SL 2/27/2018 13:43",
+		"sizeCodeForValue:" : "SL 2/27/2018 13:43" } }

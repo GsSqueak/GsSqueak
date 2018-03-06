@@ -1,0 +1,3 @@
+testing
+ensureCanCascade: encoder 
+	^ self

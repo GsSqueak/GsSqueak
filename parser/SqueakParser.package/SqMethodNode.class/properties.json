@@ -1,0 +1,24 @@
+{
+	"category" : "SqueakParser-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 8/15/2010 10:49",
+	"instvars" : [
+		"selectorOrFalse",
+		"precedence",
+		"arguments",
+		"block",
+		"primitive",
+		"encoder",
+		"temporaries",
+		"properties",
+		"sourceText",
+		"locationCounter",
+		"localsPool" ],
+	"name" : "SqMethodNode",
+	"pools" : [
+		 ],
+	"super" : "SqParseNode",
+	"type" : "normal" }

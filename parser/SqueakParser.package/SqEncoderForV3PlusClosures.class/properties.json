@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakParser-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 2/29/2016 00:07",
+	"instvars" : [
+		 ],
+	"name" : "SqEncoderForV3PlusClosures",
+	"pools" : [
+		 ],
+	"super" : "SqEncoderForV3",
+	"type" : "normal" }

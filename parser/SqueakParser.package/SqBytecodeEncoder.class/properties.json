@@ -1,0 +1,17 @@
+{
+	"category" : "SqueakParser-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"stream",
+		"position",
+		"rootNode",
+		"blockExtentsToLocals" ],
+	"name" : "SqBytecodeEncoder",
+	"pools" : [
+		 ],
+	"super" : "SqEncoder",
+	"type" : "normal" }

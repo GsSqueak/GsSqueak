@@ -1,0 +1,1 @@
+Additional method state for trait provided methods.

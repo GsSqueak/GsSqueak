@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"printIfNilNotNil:indent:" : "SL 2/27/2018 13:43",
+		"printIfOn:indent:" : "SL 2/27/2018 13:43",
+		"printKeywords:arguments:on:indent:" : "SL 2/27/2018 13:44",
+		"printReceiver:on:indent:" : "SL 2/27/2018 13:43",
+		"printToDoOn:indent:" : "SL 2/27/2018 13:43",
+		"printWhileOn:indent:" : "SL 2/27/2018 13:44",
+		"printWithClosureAnalysisIfOn:indent:" : "SL 2/27/2018 13:44",
+		"printWithClosureAnalysisReceiver:on:indent:" : "SL 2/27/2018 13:43",
+		"printWithClosureAnalysisToDoOn:indent:" : "SL 2/27/2018 13:44",
+		"printWithClosureAnalysisWhileOn:indent:" : "SL 2/27/2018 13:44" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakParser-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SqMessagePartNode",
+	"pools" : [
+		 ],
+	"super" : "SqMessageNode",
+	"type" : "normal" }

@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "SL 2/27/2018 13:44",
+		"emitCode:args:encoder:" : "SL 2/27/2018 13:44",
+		"emitCode:args:encoder:super:" : "SL 2/27/2018 13:44",
+		"emitCodeForEffect:encoder:" : "SL 2/27/2018 13:44",
+		"emitCodeForValue:encoder:" : "SL 2/27/2018 13:44",
+		"emitForEffect:on:" : "SL 2/27/2018 13:44",
+		"emitForValue:on:" : "SL 2/27/2018 13:44",
+		"isForFFICall" : "SL 2/27/2018 13:44",
+		"isPvtSelector" : "SL 2/27/2018 13:44",
+		"key:" : "SL 2/27/2018 13:44",
+		"name:key:index:type:" : "SL 2/27/2018 13:44",
+		"printAsFFICallWithArguments:on:indent:" : "SL 2/27/2018 13:44",
+		"printOn:indent:" : "SL 2/27/2018 13:44",
+		"printWithClosureAnalysisOn:indent:" : "SL 2/27/2018 13:44",
+		"reserve:" : "SL 2/27/2018 13:44",
+		"sizeCode:args:super:" : "SL 2/27/2018 13:44",
+		"sizeCodeForEffect:" : "SL 2/27/2018 13:44",
+		"sizeCodeForValue:" : "SL 2/27/2018 13:44" } }

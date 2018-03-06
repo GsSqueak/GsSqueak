@@ -1,0 +1,28 @@
+{
+	"category" : "SqueakParser-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 12/26/2012 23:29",
+	"instvars" : [
+		"scopeTable",
+		"nTemps",
+		"supered",
+		"requestor",
+		"class",
+		"selector",
+		"literalStream",
+		"selectorSet",
+		"litIndSet",
+		"litSet",
+		"sourceRanges",
+		"globalSourceRanges",
+		"addedSelectorAndMethodClassLiterals",
+		"optimizedSelectors",
+		"cue" ],
+	"name" : "SqEncoder",
+	"pools" : [
+		 ],
+	"super" : "SqParseNode",
+	"type" : "normal" }

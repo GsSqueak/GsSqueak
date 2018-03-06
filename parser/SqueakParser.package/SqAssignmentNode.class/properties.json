@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakParser-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"variable",
+		"value" ],
+	"name" : "SqAssignmentNode",
+	"pools" : [
+		 ],
+	"super" : "SqParseNode",
+	"type" : "normal" }

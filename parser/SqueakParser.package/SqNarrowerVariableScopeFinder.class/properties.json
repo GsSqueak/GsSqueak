@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakParser-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 4/3/2017 11:59",
+	"instvars" : [
+		 ],
+	"name" : "SqNarrowerVariableScopeFinder",
+	"pools" : [
+		 ],
+	"super" : "SqVariableScopeFinder",
+	"type" : "normal" }

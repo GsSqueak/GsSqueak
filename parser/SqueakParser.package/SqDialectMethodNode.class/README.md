@@ -1,0 +1,1 @@
+The purpose of this class is to carry along with theinformation in a regular method node the further information that it was parsed from an laternate dialect of Squeak.  Which dialect that was is carried as a symbol in the dialect variable.

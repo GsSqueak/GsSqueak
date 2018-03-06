@@ -1,0 +1,3 @@
+testing
+isVariableReference
+	^ expr isVariableReference

@@ -1,0 +1,3 @@
+visiting
+visitLiteralNode: aNode 
+	^ nil

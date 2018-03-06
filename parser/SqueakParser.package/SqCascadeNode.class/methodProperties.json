@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accept:" : "SL 2/27/2018 13:43",
+		"analyseTempsWithin:rootNode:assignmentPools:" : "SL 2/27/2018 13:43",
+		"emitCodeForValue:encoder:" : "SL 2/27/2018 13:43",
+		"messages" : "SL 2/27/2018 13:43",
+		"printOn:indent:" : "SL 2/27/2018 13:43",
+		"printOn:indent:precedence:" : "SL 2/27/2018 13:43",
+		"printWithClosureAnalysisOn:indent:" : "SL 2/27/2018 13:43",
+		"printWithClosureAnalysisOn:indent:precedence:" : "SL 2/27/2018 13:43",
+		"receiver" : "SL 2/27/2018 13:43",
+		"receiver:messages:" : "SL 2/27/2018 13:43",
+		"sizeCodeForValue:" : "SL 2/27/2018 13:43" } }

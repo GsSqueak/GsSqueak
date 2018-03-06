@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakParser-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SqLiteralNode",
+	"pools" : [
+		 ],
+	"super" : "SqLeafNode",
+	"type" : "normal" }

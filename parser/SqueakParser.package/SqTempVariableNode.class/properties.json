@@ -1,0 +1,21 @@
+{
+	"category" : "SqueakParser-ParseNodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"argType",
+		"hasRefs",
+		"hasDefs",
+		"scope",
+		"definingScope",
+		"readingScopes",
+		"writingScopes",
+		"remoteNode" ],
+	"name" : "SqTempVariableNode",
+	"pools" : [
+		 ],
+	"super" : "SqVariableNode",
+	"type" : "normal" }

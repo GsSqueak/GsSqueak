@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakParser-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"inOptimizedBlock",
+		"readBeforeWritten",
+		"written" ],
+	"name" : "SqOptimizedBlockLocalTempReadBeforeWrittenVisitor",
+	"pools" : [
+		 ],
+	"super" : "SqParseNodeVisitor",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakParser-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 12/29/2009 18:13",
+	"instvars" : [
+		"originalTraitMethod" ],
+	"name" : "SqTraitMethodState",
+	"pools" : [
+		 ],
+	"super" : "SqAdditionalMethodState",
+	"type" : "variable" }

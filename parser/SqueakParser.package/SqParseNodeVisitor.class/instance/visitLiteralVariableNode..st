@@ -1,0 +1,3 @@
+visiting
+visitLiteralVariableNode: aLiteralVariableNode 
+	^ self

@@ -1,0 +1,3 @@
+visiting
+visitCommentNode: aNode 
+	^ nil

@@ -1,0 +1,692 @@
+The rest of the command (' induces this') was ignored.
+topaz 1> 	exception on purpose."
+unknown command: exception
+unknown command: on
+unknown command: purpose."
+topaz 1> 	"If this is the result of encountering a swap-out stub, then simulating
+unknown command: "If
+unknown command: this
+unknown command: is
+unknown command: the
+unknown command: result
+unknown command: of
+unknown command: encountering
+unknown command: a
+unknown command: swap-out
+unknown command: stub,
+unknown command: then
+unknown command: simulating
+topaz 1> 	the lookup in Smalltalk should suffice to install the class properly, and
+unknown command: the
+Could not find an object named in
+topaz 1> 	the message may be resent."
+unknown command: the
+unknown command: message
+unknown command: may
+unknown command: be
+unknown command: resent."
+topaz 1> 	(self class lookupSelector: aMessage selector)
+unknown command: (self
+Could not find an object named lookupSelector:
+topaz 1> 			== nil
+unknown command: ==
+unknown command: nil
+topaz 1> 		ifFalse: ["Simulated lookup succeeded -- resend the message."
+unknown command: ifFalse:
+unknown command: ["Simulated
+Could not find an object named succeeded
+topaz 1> 			^ aMessage sentTo: self].
+unknown command: ^
+unknown command: aMessage
+unknown command: sentTo:
+unknown command: self].
+topaz 1> 	"Could not recover by simulated lookup -- it's an error"
+unknown command: "Could
+unknown command: not
+unknown command: recover
+unknown command: by
+unknown command: simulated
+Could not find an object named --
+topaz 1> 	Error signal: 'MethodDictionary fault'.
+unknown command: Error
+unknown command: signal:
+unknown command: 'MethodDictionary
+unknown command: fault'.
+topaz 1> 	"Try again in case an error handler fixed things"
+unknown command: "Try
+unknown command: again
+error: command could be any of:  INPUT INTERP(not abbreviatable) INTERPENV(not abbreviatable) INSPECT
+unknown command: case
+unknown command: an
+unknown command: error
+unknown command: handler
+unknown command: fixed
+unknown command: things"
+topaz 1> 	^ aMessage sentTo: self
+unknown command: ^
+unknown command: aMessage
+unknown command: sentTo:
+unknown command: self
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> ifNil: nilBlock 
+unknown command: ifNil:
+unknown command: nilBlock
+topaz 1> 	"Return self, or evaluate the block if I'm == nil (q.v.)"
+unknown command: "Return
+unknown command: self,
+unknown command: or
+unknown command: evaluate
+unknown command: the
+unknown command: block
+error: command could be any of:  IFERR(not abbreviatable) IFERR_CLEAR(not abbreviatable) IFERR_LIST(not abbreviatable) IFERROR(not abbreviatable)
+unknown command: I'm
+unknown command: ==
+unknown command: nil
+unknown command: (q.v.)"
+topaz 1> 	^ self
+unknown command: ^
+unknown command: self
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> isNil
+unknown command: isNil
+topaz 1> 	"Coerces nil to true and everything else to false."
+unknown command: "Coerces
+unknown command: nil
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: true
+unknown command: and
+unknown command: everything
+unknown command: else
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: false."
+topaz 1> 	^ false
+unknown command: ^
+unknown command: false
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> scaledIdentityHash
+unknown command: scaledIdentityHash
+topaz 1> 	"For identityHash values returned by primitive 75, answer
+unknown command: "For
+unknown command: identityHash
+unknown command: values
+unknown command: returned
+unknown command: by
+unknown command: primitive
+unknown command: 75,
+unknown command: answer
+topaz 1> 	such values times 2^8. Otherwise, match the existing
+unknown command: such
+unknown command: values
+unknown command: times
+unknown command: 2^8.
+unknown command: Otherwise,
+unknown command: match
+unknown command: the
+unknown command: existing
+topaz 1> 	identityHash implementation"
+unknown command: identityHash
+unknown command: implementation"
+topaz 1> 	^ self identityHash * 256"bitShift: 8"
+unknown command: ^
+unknown command: self
+unknown command: identityHash
+unknown command: *
+unknown command: 256"bitShift:
+unknown command: 8"
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> pointsTo: anObject 
+unknown command: pointsTo:
+unknown command: anObject
+topaz 1> 	"Answers true if I hold a reference to anObject, or false otherwise. Or
+unknown command: "Answers
+unknown command: true
+error: command could be any of:  IFERR(not abbreviatable) IFERR_CLEAR(not abbreviatable) IFERR_LIST(not abbreviatable) IFERROR(not abbreviatable)
+error: command could be any of:  IFERR(not abbreviatable) IFERR_CLEAR(not abbreviatable) IFERR_LIST(not abbreviatable) IFERROR(not abbreviatable) IMPLEMENTORS INPUT INTERP(not abbreviatable) INTERPENV(not abbreviatable) INSPECT
+unknown command: hold
+unknown command: a
+unknown command: reference
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: anObject,
+unknown command: or
+unknown command: false
+unknown command: otherwise.
+unknown command: Or
+topaz 1> 	stated another way:
+unknown command: stated
+unknown command: another
+unknown command: way:
+topaz 1> 	
+topaz 1> 	Answers true if the garbage collector would fail to collect anObject
+unknown command: Answers
+unknown command: true
+error: command could be any of:  IFERR(not abbreviatable) IFERR_CLEAR(not abbreviatable) IFERR_LIST(not abbreviatable) IFERROR(not abbreviatable)
+unknown command: the
+unknown command: garbage
+unknown command: collector
+unknown command: would
+unknown command: fail
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: collect
+unknown command: anObject
+topaz 1> 	because I hold a reference to it, or false otherwise"
+unknown command: because
+error: command could be any of:  IFERR(not abbreviatable) IFERR_CLEAR(not abbreviatable) IFERR_LIST(not abbreviatable) IFERROR(not abbreviatable) IMPLEMENTORS INPUT INTERP(not abbreviatable) INTERPENV(not abbreviatable) INSPECT
+unknown command: hold
+unknown command: a
+unknown command: reference
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: it,
+unknown command: or
+unknown command: false
+unknown command: otherwise"
+topaz 1> 	^ (self instVarsInclude: anObject)
+unknown command: ^
+unknown command: (self
+unknown command: instVarsInclude:
+unknown command: anObject)
+topaz 1> 		or: [self class == anObject]
+unknown command: or:
+unknown command: [self
+The object specification is illegal.
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> becomeForward: otherObject copyHash: copyHash 
+unknown command: becomeForward:
+unknown command: otherObject
+unknown command: copyHash:
+unknown command: copyHash
+topaz 1> 	"Primitive. All variables in the entire system that used to point to
+unknown command: "Primitive.
+unknown command: All
+unknown command: variables
+error: command could be any of:  INPUT INTERP(not abbreviatable) INTERPENV(not abbreviatable) INSPECT
+unknown command: the
+unknown command: entire
+unknown command: system
+unknown command: that
+unknown command: used
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: point
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+topaz 1> 	the receiver now point to the argument. If copyHash is true, the
+unknown command: the
+unknown command: receiver
+unknown command: now
+unknown command: point
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: the
+unknown command: argument.
+error: command could be any of:  IFERR(not abbreviatable) IFERR_CLEAR(not abbreviatable) IFERR_LIST(not abbreviatable) IFERROR(not abbreviatable)
+unknown command: copyHash
+unknown command: is
+unknown command: true,
+unknown command: the
+topaz 1> 	argument's identity hash bits will be set to those of the receiver.
+unknown command: argument's
+unknown command: identity
+unknown command: hash
+unknown command: bits
+unknown command: will
+unknown command: be
+ERROR: The SET option TO is invalid.
+ERROR: The SET option THOSE is invalid.
+ERROR: The SET option OF is invalid.
+ERROR: The SET option THE is invalid.
+ERROR: The SET option RECEIVER. is invalid.
+topaz 1> 	Fails if either argument is an immediate such as a SmallInteger."
+unknown command: Fails
+error: command could be any of:  IFERR(not abbreviatable) IFERR_CLEAR(not abbreviatable) IFERR_LIST(not abbreviatable) IFERROR(not abbreviatable)
+unknown command: either
+unknown command: argument
+unknown command: is
+unknown command: an
+unknown command: immediate
+unknown command: such
+unknown command: as
+unknown command: a
+unknown command: SmallInteger."
+topaz 1> 	{self} elementsForwardIdentityTo: {otherObject} copyHash: copyHash
+unknown command: {self}
+unknown command: elementsForwardIdentityTo:
+unknown command: {otherObject}
+unknown command: copyHash:
+unknown command: copyHash
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> tryPrimitive: primIndex withArgs: argumentArray 
+unknown command: tryPrimitive:
+unknown command: primIndex
+unknown command: withArgs:
+unknown command: argumentArray
+topaz 1> 	"Invoke the primitive with number primIndex, answering its result,
+unknown command: "Invoke
+unknown command: the
+unknown command: primitive
+unknown command: with
+unknown command: number
+unknown command: primIndex,
+unknown command: answering
+unknown command: its
+unknown command: result,
+topaz 1> 	or, if the primiitve fails, the error code."
+unknown command: or,
+error: command could be any of:  IFERR(not abbreviatable) IFERR_CLEAR(not abbreviatable) IFERR_LIST(not abbreviatable) IFERROR(not abbreviatable)
+unknown command: the
+unknown command: primiitve
+unknown command: fails,
+unknown command: the
+unknown command: error
+unknown command: code."
+topaz 1> 	self halt.
+unknown command: self
+unknown command: halt.
+topaz 1> 	^ Context primitiveFailTokenFor: errorCode
+unknown command: ^
+unknown command: Context
+unknown command: primitiveFailTokenFor:
+unknown command: errorCode
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> doOnlyOnce: aBlock 
+unknown command: doOnlyOnce:
+unknown command: aBlock
+topaz 1> 	"If the 'one-shot' mechanism is armed, evaluate aBlock once and
+unknown command: "If
+unknown command: the
+unknown command: 'one-shot'
+unknown command: mechanism
+unknown command: is
+unknown command: armed,
+unknown command: evaluate
+unknown command: aBlock
+unknown command: once
+unknown command: and
+topaz 1> 	disarm the one-shot mechanism. To rearm the mechanism, evaluate
+unknown command: disarm
+unknown command: the
+unknown command: one-shot
+unknown command: mechanism.
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: rearm
+unknown command: the
+unknown command: mechanism,
+unknown command: evaluate
+topaz 1> 	'self rearmOneShot' manually."
+unknown command: 'self
+unknown command: rearmOneShot'
+unknown command: manually."
+topaz 1> 	(Smalltalk
+unknown command: (Smalltalk
+topaz 1> 			at: #OneShotArmed
+unknown command: at:
+unknown command: #OneShotArmed
+topaz 1> 			ifAbsent: [true])
+unknown command: ifAbsent:
+unknown command: [true])
+topaz 1> 		ifTrue: [Smalltalk at: #OneShotArmed put: false.
+unknown command: ifTrue:
+unknown command: [Smalltalk
+unknown command: at:
+unknown command: #OneShotArmed
+unknown command: put:
+unknown command: false.
+topaz 1> 			aBlock value]
+unknown command: aBlock
+unknown command: value]
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> rearmOneShot
+unknown command: rearmOneShot
+topaz 1> 	"Call this manually to arm the one-shot mechanism; use the
+unknown command: "Call
+unknown command: this
+unknown command: manually
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: arm
+unknown command: the
+unknown command: one-shot
+unknown command: mechanism
+unknown command: use
+unknown command: the
+topaz 1> 	mechanism in code by calling
+unknown command: mechanism
+error: command could be any of:  INPUT INTERP(not abbreviatable) INTERPENV(not abbreviatable) INSPECT
+unknown command: code
+unknown command: by
+unknown command: calling
+topaz 1> 	self doOnlyOnce: <a block>"
+unknown command: self
+unknown command: doOnlyOnce:
+unknown command: <a
+unknown command: block>"
+topaz 1> 	Smalltalk at: #OneShotArmed put: true
+unknown command: Smalltalk
+unknown command: at:
+unknown command: #OneShotArmed
+unknown command: put:
+unknown command: true
+topaz 1> 	"self rearmOneShot"
+unknown command: "self
+unknown command: rearmOneShot"
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> isInMemory
+unknown command: isInMemory
+topaz 1> 	"All normal objects are."
+unknown command: "All
+unknown command: normal
+unknown command: objects
+unknown command: are."
+topaz 1> 	^ true
+unknown command: ^
+unknown command: true
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> flag: aSymbol 
+unknown command: flag:
+unknown command: aSymbol
+topaz 1> 	"Send this message, with a relevant symbol as argument, to flag a
+unknown command: "Send
+unknown command: this
+unknown command: message,
+unknown command: with
+unknown command: a
+unknown command: relevant
+unknown command: symbol
+unknown command: as
+unknown command: argument,
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: flag
+unknown command: a
+topaz 1> 	message for subsequent retrieval. For example, you might put the
+unknown command: message
+unknown command: for
+unknown command: subsequent
+unknown command: retrieval.
+unknown command: For
+unknown command: example,
+unknown command: you
+unknown command: might
+unknown command: put
+unknown command: the
+topaz 1> 	following line in a number of messages:
+unknown command: following
+unknown command: line
+error: command could be any of:  INPUT INTERP(not abbreviatable) INTERPENV(not abbreviatable) INSPECT
+unknown command: a
+unknown command: number
+unknown command: of
+unknown command: messages:
+topaz 1> 	self flag: #returnHereUrgently
+unknown command: self
+unknown command: flag:
+unknown command: #returnHereUrgently
+topaz 1> 	Then, to retrieve all such messages, browse all senders of
+unknown command: Then,
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: retrieve
+unknown command: all
+unknown command: such
+unknown command: messages,
+unknown command: browse
+unknown command: all
+argument is not an existing Symbol
+topaz 1> 	#returnHereUrgently. "
+unknown command: #returnHereUrgently.
+unknown command: "
+topaz 1> 	^ self
+unknown command: ^
+unknown command: self
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> withArgs: argArray executeMethod: compiledMethod 
+unknown command: withArgs:
+unknown command: argArray
+unknown command: executeMethod:
+unknown command: compiledMethod
+topaz 1> 	"Execute compiledMethod against the receiver and args in argArray"
+unknown command: "Execute
+unknown command: compiledMethod
+unknown command: against
+unknown command: the
+unknown command: receiver
+unknown command: and
+unknown command: args
+error: command could be any of:  INPUT INTERP(not abbreviatable) INTERPENV(not abbreviatable) INSPECT
+unknown command: argArray"
+topaz 1> 	self halt.
+unknown command: self
+unknown command: halt.
+topaz 1> 	self primitiveFailed
+unknown command: self
+unknown command: primitiveFailed
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> pointsOnlyWeaklyTo: anObject 
+unknown command: pointsOnlyWeaklyTo:
+unknown command: anObject
+topaz 1> 	"Assume, we already know that receiver points to an object, answer
+unknown command: "Assume,
+unknown command: we
+unknown command: already
+unknown command: know
+unknown command: that
+unknown command: receiver
+unknown command: points
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: an
+unknown command: object,
+unknown command: answer
+topaz 1> 	true if receiver points only weakly to it."
+unknown command: true
+error: command could be any of:  IFERR(not abbreviatable) IFERR_CLEAR(not abbreviatable) IFERR_LIST(not abbreviatable) IFERROR(not abbreviatable)
+unknown command: receiver
+unknown command: points
+unknown command: only
+unknown command: weakly
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: it."
+topaz 1> 	self class isWeak
+unknown command: self
+Could not find an object named isWeak
+topaz 1> 		ifFalse: [^ false].
+unknown command: ifFalse:
+unknown command: [^
+unknown command: false].
+topaz 1> 	1
+unknown command: 1
+topaz 1> 		to: self class instSize
+unknown command: to:
+unknown command: self
+Could not find an object named instSize
+topaz 1> 		do: [:i | (self instVarAt: i)
+unknown command: do:
+unknown command: [:i
+unknown command: |
+unknown command: (self
+unknown command: instVarAt:
+unknown command: i)
+topaz 1> 					== anObject
+unknown command: ==
+unknown command: anObject
+topaz 1> 				ifTrue: [^ false]].
+unknown command: ifTrue:
+unknown command: [^
+unknown command: false]].
+topaz 1> 	^ true
+unknown command: ^
+unknown command: true
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> notNil
+unknown command: notNil
+topaz 1> 	"Coerces nil to false and everything else to true."
+unknown command: "Coerces
+unknown command: nil
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: false
+unknown command: and
+unknown command: everything
+unknown command: else
+error: command could be any of:  TOPAZPAUSEFORDEBUG(not abbreviatable) TOPAZWAITFORDEBUG(not abbreviatable)
+unknown command: true."
+topaz 1> 	^ true
+unknown command: ^
+unknown command: true
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> set compile_env: 7
+topaz 1> 
+topaz 1> category: 'test
+topaz 1> method: ProtoObject 
+Could not find an object named ProtoObject
+topaz 1> ifNotNil: ifNotNilBlock 
+unknown command: ifNotNil:
+unknown command: ifNotNilBlock
+topaz 1> 	"Evaluate the block, unless I'm == nil (q.v.)"
+unknown command: "Evaluate
+unknown command: the
+unknown command: block,
+unknown command: unless
+unknown command: I'm
+unknown command: ==
+unknown command: nil
+unknown command: (q.v.)"
+topaz 1> 	^ ifNotNilBlock cull: self
+unknown command: ^
+unknown command: ifNotNilBlock
+unknown command: cull:
+unknown command: self
+topaz 1> %
+unknown command: %
+topaz 1> 
+topaz 1> set compile_env: 0
+topaz 1> 
+topaz 1> commit
+Successful commit
+topaz 1> logout
+topaz> ifErr 1 stk
+topaz> ifErr 2 stack
+topaz> ifErr 3 abort
+topaz> ifErr 4 exit
+topaz> 
+topaz> set compile_env: 0
+You must be logged in to set this value
+topaz > exec iferr 1 : stk 
+STK can't be used prior to logging in.
+topaz > exec iferr 2 : stack 
+STACK can't be used prior to logging in.
+topaz > exec iferr 3 : abort 
+ABORT can't be used prior to logging in.
+topaz > exec iferr 4 : exit 

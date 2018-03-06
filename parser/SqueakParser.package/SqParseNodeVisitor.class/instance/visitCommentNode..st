@@ -1,0 +1,3 @@
+visiting
+visitCommentNode: aCommentNode 
+	^ self
