@@ -1,3 +1,5 @@
 as yet unclassified
-mouseDown: a
-  Transcript show: 'a'
+mouseDown: event
+  Transcript
+    show: 'I have Keyboard Focus!';
+    cr
