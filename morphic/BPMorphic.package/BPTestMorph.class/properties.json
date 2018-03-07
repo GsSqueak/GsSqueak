@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"command",
-		"handledEvent" ],
-	"name" : "NewRect",
+		"text",
+		"background" ],
+	"name" : "BPTestMorph",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "NewRect",
 	"type" : "normal" }
