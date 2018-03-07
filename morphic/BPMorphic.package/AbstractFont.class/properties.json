@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic-Fonts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ForceNonSubPixelCount" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "AbstractFont",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
