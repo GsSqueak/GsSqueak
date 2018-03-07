@@ -1,3 +1,0 @@
-canvas
-resetDamageRecorder
-	damageRecorder reset

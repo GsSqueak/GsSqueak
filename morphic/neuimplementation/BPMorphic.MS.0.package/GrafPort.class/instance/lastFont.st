@@ -1,3 +1,0 @@
-private
-lastFont
-	^ lastFont

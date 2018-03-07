@@ -1,3 +1,0 @@
-other
-incrementalGC
-	Smalltalk garbageCollectMost

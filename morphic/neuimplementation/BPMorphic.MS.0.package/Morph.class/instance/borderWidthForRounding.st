@@ -1,3 +1,0 @@
-accessing
-borderWidthForRounding
-	^ self borderWidth

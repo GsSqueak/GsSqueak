@@ -1,3 +1,0 @@
-private
-lastLine
-	^ lines last

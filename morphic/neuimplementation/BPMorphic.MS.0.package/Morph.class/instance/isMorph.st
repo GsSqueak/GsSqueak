@@ -1,3 +1,0 @@
-testing
-isMorph
-	^ true

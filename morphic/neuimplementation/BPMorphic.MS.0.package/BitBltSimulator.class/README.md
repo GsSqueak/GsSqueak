@@ -1,1 +1,0 @@
-Provide bitblt support for the vm simulator

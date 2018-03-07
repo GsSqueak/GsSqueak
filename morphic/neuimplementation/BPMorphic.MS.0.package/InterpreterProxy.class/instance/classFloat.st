@@ -1,3 +1,0 @@
-special classes
-classFloat
-	^ Float

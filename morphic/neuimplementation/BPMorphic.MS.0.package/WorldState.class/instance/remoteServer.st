@@ -1,3 +1,0 @@
-Nebraska support
-remoteServer
-	^ remoteServer

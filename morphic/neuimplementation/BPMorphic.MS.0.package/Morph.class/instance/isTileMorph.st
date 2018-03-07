@@ -1,3 +1,0 @@
-classification
-isTileMorph
-	^ false

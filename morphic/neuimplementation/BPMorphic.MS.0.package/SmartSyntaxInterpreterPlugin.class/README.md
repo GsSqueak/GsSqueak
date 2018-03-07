@@ -1,1 +1,0 @@
-Subclass of InterpreterPlugin, used in connection with TestCodeGenerator for named primitives with type coercion specifications

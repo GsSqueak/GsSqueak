@@ -1,3 +1,0 @@
-options
-indicateCursor
-	^ indicateCursor == true

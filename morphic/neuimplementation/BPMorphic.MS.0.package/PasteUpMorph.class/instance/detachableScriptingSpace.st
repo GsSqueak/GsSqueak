@@ -1,3 +1,0 @@
-world menu
-detachableScriptingSpace
-	ScriptingSystem newScriptingSpace openInWorld: self

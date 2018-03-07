@@ -1,3 +1,0 @@
-testing
-isDeferringUpdates
-	^ DeferringUpdates == true

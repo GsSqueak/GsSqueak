@@ -1,3 +1,0 @@
-comparing
-species
-	^ TextStyle
