@@ -1,0 +1,14 @@
+{
+	"category" : "TopazGUI-Proxy",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topazProcess" ],
+	"name" : "TopazProxy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

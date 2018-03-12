@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"command:" : "SL 3/11/2018 16:17",
+		"login" : "SL 3/11/2018 15:55",
+		"logout" : "SL 3/11/2018 15:54",
+		"receiveCommandOutput" : "SL 3/11/2018 16:18",
+		"receiveOutputAfter:" : "SL 3/11/2018 16:18",
+		"sendInput:" : "SL 3/11/2018 15:24",
+		"setClass:" : "SL 3/11/2018 15:54",
+		"setUser:password:" : "SL 3/11/2018 15:50",
+		"topazProcess" : "SL 3/11/2018 15:18",
+		"topazProcess:" : "SL 3/11/2018 15:18" } }
