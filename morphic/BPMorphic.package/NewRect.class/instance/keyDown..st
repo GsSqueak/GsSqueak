@@ -2,6 +2,9 @@ as yet unclassified
 keyDown: anEvent
   handledEvent := false.
   Transcript
+    show: anEvent buttons;
+    cr.
+  Transcript
     show: 'key down: ' , anEvent keyString , ' | ';
     show: anEvent keyValue;
     show: ' | '.	"debug output"
@@ -9,16 +12,6 @@ keyDown: anEvent
     ifTrue: [ 
       Transcript cr.
       handledEvent := true ].	"Skip <shift> key inputs"
-  anEvent buttons = 8
-    ifTrue: [ 
-      anEvent keyValue = 61
-        ifTrue: [ 
-          self command: self command , '+'.
-          handledEvent := true ].
-      anEvent keyValue = 59
-        ifTrue: [ 
-          self command: self command , ':'.
-          handledEvent := true ] ].	" Böser Hack, für die Modifier Keys müssen wir uns noch was vernünftiges ausdenken"
   anEvent keyValue = 13
     ifTrue: [ self handleExecution ].
   anEvent keyValue = 8

@@ -1,6 +1,6 @@
 as yet unclassified
 initialize
-  GraphicsLib := CLibrary named: '/opt/libmygraphics.so'.
+  GraphicsLib := CLibrary named: '$GEMSTONE/lib/libgraFFIcs'.
   CreateWindowCo := CCallout
     library: GraphicsLib
     name: #'openWindow'
