@@ -1,0 +1,19 @@
+{
+	"category" : "TopazGUI-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedSymbolDictionary",
+		"selectedSystemCategory",
+		"selectedClassName",
+		"selectedMessageCategoryName",
+		"selectedMessageName",
+		"contents" ],
+	"name" : "GsBrowser",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
