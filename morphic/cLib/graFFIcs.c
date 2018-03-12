@@ -15,8 +15,8 @@ SDL_Window *window = NULL;
 SDL_Renderer * renderer;
 SDL_Texture * texture;
 
-int winW;
-int winH;
+uint32_t winW;
+uint32_t winH;
 
 #define MOUSE_DOWN 1
 #define MOUSE_UP 0
@@ -24,12 +24,19 @@ int winH;
 #define KEY_UP 0
 
 struct {
-    uint32_t x, y;
-    int left, middle, right;
+    uint32_t x;
+    uint32_t y;
+    uint32_t left;
+    uint32_t middle;
+    uint32_t right;
 } MouseState;
 
 struct {
-    int ctrlL, ctrlR, alt, shiftL, shiftR;
+    uint32_t ctrlL;
+    uint32_t ctrlR;
+    uint32_t alt;
+    uint32_t shiftL;
+    uint32_t shiftR;
 } ModifierState;
 
 #define EVENT_TYPE_NONE     0
@@ -62,9 +69,8 @@ typedef struct {
 bool hasQueuedStroke;
 KeyEvent queuedStroke;
 
-int openWindow(int x, int y, int w, int h)
-{
-    if(window != NULL)
+uint32_t openWindow(uint32_t x, uint32_t y, uint32_t w, uint32_t h) {
+    if (window != NULL)
         return 1;
     
     SDL_Init(SDL_INIT_VIDEO);  
@@ -82,18 +88,15 @@ int openWindow(int x, int y, int w, int h)
     winH = h;
     
     renderer = SDL_CreateRenderer(window, -1, 0);
-    texture = SDL_CreateTexture(renderer,
-        SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STATIC, w, h);
+    texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STATIC, w, h);
 
     MouseState.left = MouseState.middle = MouseState.right = MOUSE_UP;
-    ModifierState.ctrlL = ModifierState.ctrlR = ModifierState.alt
-            = ModifierState.shiftL = ModifierState.shiftR = KEY_UP;
+    ModifierState.ctrlL = ModifierState.ctrlR = ModifierState.alt = ModifierState.shiftL = ModifierState.shiftR = KEY_UP;
     
     return 0;
 }
 
-int drawBitmap(char* data, int l, int r, int t, int b)
-{
+int drawBitmap(char* data, int l, int r, int t, int b) {
     //SDL_Rect drawRect;
     //drawRect.y = l;
     //drawRect.r = r
@@ -105,23 +108,20 @@ int drawBitmap(char* data, int l, int r, int t, int b)
     return 0;
 }
 
-void closeWindow()
-{
+void closeWindow() {
     SDL_DestroyTexture(texture);
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
     SDL_Quit();
 }
 
-uint32_t mouseButtonState(void)
-{
+uint32_t mouseButtonState(void) {
     return MouseState.right
             | (MouseState.middle << 1)
             | (MouseState.left << 2);
 }
 
-uint32_t keyModifierState(void)
-{
+uint32_t keyModifierState(void) {
     return ModifierState.shiftL
             | ModifierState.shiftR
             | (ModifierState.ctrlL << 1)
@@ -129,8 +129,7 @@ uint32_t keyModifierState(void)
             | (ModifierState.alt << 1);
 }
 
-void sendMouseState(MouseEvent *sqEv, uint32_t timestamp)
-{
+void sendMouseState(MouseEvent *sqEv, uint32_t timestamp) {
     sqEv->type = EVENT_TYPE_MOUSE;
     sqEv->timeStamp = timestamp;
     sqEv->x = MouseState.x;
@@ -139,97 +138,91 @@ void sendMouseState(MouseEvent *sqEv, uint32_t timestamp)
     sqEv->modifierKeys = keyModifierState();
 }
 
-void handleButtonEvent(uint8_t button, int value)
-{
-    switch (button)
-    {
-    case SDL_BUTTON_LEFT:
-        MouseState.left = value;
-        break;
-    case SDL_BUTTON_MIDDLE:
-        MouseState.middle = value;
-        break;
-    case SDL_BUTTON_RIGHT:
-        MouseState.right = value;
-        break;
+void handleButtonEvent(uint8_t button, uint32_t value) {
+    switch (button) {
+        case SDL_BUTTON_LEFT:
+            MouseState.left = value;
+            break;
+        case SDL_BUTTON_MIDDLE:
+            MouseState.middle = value;
+            break;
+        case SDL_BUTTON_RIGHT:
+            MouseState.right = value;
+            break;
     }
 }
 
 //adapted from RSqueak
-uint32_t translateKey(SDL_Keycode key){
-    if(key == SDLK_DOWN)
-        return SQ_KEY_DOWN;
-    else if(key == SDLK_LEFT)
-        return SQ_KEY_LEFT;
-    else if(key == SDLK_RIGHT)
-        return SQ_KEY_RIGHT;
-    else if(key == SDLK_UP)
-        return SQ_KEY_UP;
-    else if(key == SDLK_HOME)
-        return SQ_KEY_HOME;
-    else if(key == SDLK_END)
-        return SQ_KEY_END;
-    else if(key == SDLK_INSERT)
-        return SQ_KEY_INSERT;
-    else if(key == SDLK_BACKSPACE)
-        return SQ_KEY_BACKSPACE;
-    else if(key == SDLK_PAGEUP)
-        return SQ_KEY_PAGEUP;
-    else if(key == SDLK_PAGEDOWN)
-        return SQ_KEY_PAGEDOWN;
-    else if(key == SDLK_RETURN)
-        return SQ_KEY_RETURN;
-    else if(key == SDLK_LSHIFT || key == SDLK_RSHIFT)
-        return SQ_KEY_SHIFT;
-    else if(key ==  SDLK_LCTRL || key == SDLK_RCTRL)
-        return SQ_KEY_CTRL;
-    else if(key == SDLK_PAUSE)
-        return SQ_KEY_BREAK;
-    else if(key == SDLK_CAPSLOCK)
-        return SQ_KEY_CAPSLOCK;
-    else if(key == SDLK_ESCAPE)
-        return SQ_KEY_ESCAPE;
-    else if(key == SDLK_PRINTSCREEN)
-        return SQ_KEY_PRINT;
-    else if(key == SDLK_DELETE)
-        return SQ_KEY_DELETE;
-    else if(key == SDLK_NUMLOCKCLEAR)
-        return SQ_KEY_NUMLOCK;
-    else if(key == SDLK_SCROLLLOCK)
-        return SQ_KEY_SCROLLLOCK;
-    else if(key < 255)
-	{
-	if (ModifierState.shiftL != 0 && key > 65 && key < 129)
-        	return key - 32;
-	return key;	
-	}
-    return 0;
+uint32_t translateKey(SDL_Keycode key) {
+    switch (key) {
+        case SDLK_DOWN:
+            return SQ_KEY_DOWN;
+        case SDLK_LEFT:
+            return SQ_KEY_LEFT;
+        case SDLK_RIGHT:
+            return SQ_KEY_RIGHT;
+        case SDLK_UP:
+            return SQ_KEY_UP;
+        case SDLK_HOME:
+            return SQ_KEY_HOME;
+        case SDLK_END:
+            return SQ_KEY_END;
+        case SDLK_INSERT:
+            return SQ_KEY_INSERT;
+        case SDLK_BACKSPACE:
+            return SQ_KEY_BACKSPACE;
+        case SDLK_PAGEUP:
+            return SQ_KEY_PAGEUP;
+        case SDLK_PAGEDOWN:
+            return SQ_KEY_PAGEDOWN;
+        case SDLK_RETURN:
+            return SQ_KEY_RETURN;
+        case SDLK_LSHIFT:
+            return SQ_KEY_SHIFT;
+        case SDLK_RSHIFT:
+            return SQ_KEY_SHIFT;
+        case SDLK_LCTRL:
+            return SQ_KEY_CTRL;
+        case SDLK_RCTRL:
+            return SQ_KEY_CTRL;
+        case SDLK_PAUSE:
+            return SQ_KEY_BREAK;
+        case SDLK_CAPSLOCK:
+            return SQ_KEY_CAPSLOCK;
+        case SDLK_ESCAPE:
+            return SQ_KEY_ESCAPE;
+        case SDLK_PRINTSCREEN:
+            return SQ_KEY_PRINT;
+        case SDLK_DELETE:
+            return SQ_KEY_DELETE;
+        case SDLK_NUMLOCKCLEAR:
+            return SQ_KEY_NUMLOCK;
+        case SDLK_SCROLLLOCK:
+            return SQ_KEY_SCROLLLOCK;
+        default:
+            if (key < 255)
+                return key;
+            return 0;
+    }
 }
 
-void handleKeyEvent(KeyEvent * sqEv,
-                    SDL_Keycode keycode,
-                    int value,
-                    int repeat,
-                    uint32_t timestamp,
-	            SDL_Event event)
-{
-    switch(keycode)
-    {
-    case SDLK_LCTRL:
-        ModifierState.ctrlL = value;
-        break;
-    case SDLK_RCTRL:
-        ModifierState.ctrlR = value;
-        break;
-    case SDLK_LALT:
-        ModifierState.alt = value;
-        break;
-    case SDLK_LSHIFT:
-        ModifierState.shiftL = value;
-        break;
-    case SDLK_RSHIFT:
-        ModifierState.shiftR = value;
-        break;
+void handleKeyEvent(KeyEvent * sqEv, SDL_Keycode keycode, uint32_t value, uint32_t repeat, uint32_t timestamp, SDL_Event event) {
+    switch (keycode) {
+        case SDLK_LCTRL:
+            ModifierState.ctrlL = value;
+            break;
+        case SDLK_RCTRL:
+            ModifierState.ctrlR = value;
+            break;
+        case SDLK_LALT:
+            ModifierState.alt = value;
+            break;
+        case SDLK_LSHIFT:
+            ModifierState.shiftL = value;
+            break;
+        case SDLK_RSHIFT:
+            ModifierState.shiftR = value;
+            break;
     }
 
     sqEv->type = EVENT_TYPE_KEYBOARD;
@@ -244,16 +237,15 @@ void handleKeyEvent(KeyEvent * sqEv,
     sqEv->modifierKeys = keyModifierState();
 
     //generate stroke
-    if(sqEv->pressState == 1){
+    if (sqEv->pressState == 1) {
         queuedStroke = *sqEv;
         queuedStroke.pressState = 0;//stoke
         hasQueuedStroke = true;
     }
 }
 
-void getEvents(void *e)
-{
-    if (hasQueuedStroke){
+void getEvents(void *e) {
+    if (hasQueuedStroke) {
         hasQueuedStroke = false;
         *((KeyEvent*)e) = queuedStroke;
         return;
@@ -261,50 +253,44 @@ void getEvents(void *e)
 
     SDL_Event event;
     
-    while (SDL_PollEvent(&event))
-    {
-        switch (event.type)
-        {
-        case SDL_MOUSEMOTION:
-            MouseState.x = event.motion.x;
-            MouseState.y = event.motion.y;
-            sendMouseState((MouseEvent*)e, event.motion.timestamp);
-            return;
-        case SDL_MOUSEBUTTONUP:
-        case SDL_MOUSEBUTTONDOWN:
-            MouseState.x = event.button.x;
-            MouseState.y = event.button.y;
-            handleButtonEvent(
-                    event.button.button,
-                    event.type == SDL_MOUSEBUTTONUP ? MOUSE_UP : MOUSE_DOWN);
-            sendMouseState((MouseEvent*)e, event.button.timestamp);
-            return;
-        case SDL_KEYUP:
-        case SDL_KEYDOWN:
-            handleKeyEvent(
-                    (KeyEvent*)e,
-                    event.key.keysym.sym,
-                    event.type == SDL_KEYUP ? KEY_UP : KEY_DOWN,
-                    event.key.repeat != 0,
-                    event.key.timestamp,
-		    event);
-            return;
-	default:
-	    (*((KeyEvent*)e)).unused_7 = event.type;
-	   return;
+    while (SDL_PollEvent(&event)) {
+        switch (event.type) {
+            case SDL_MOUSEMOTION:
+                MouseState.x = event.motion.x;
+                MouseState.y = event.motion.y;
+                sendMouseState((MouseEvent*)e, event.motion.timestamp);
+                return;
+            case SDL_MOUSEBUTTONUP:
+            case SDL_MOUSEBUTTONDOWN:
+                MouseState.x = event.button.x;
+                MouseState.y = event.button.y;
+                handleButtonEvent(
+                        event.button.button,
+                        event.type == SDL_MOUSEBUTTONUP ? MOUSE_UP : MOUSE_DOWN);
+                sendMouseState((MouseEvent*)e, event.button.timestamp);
+                return;
+            case SDL_KEYUP:
+            case SDL_KEYDOWN:
+                handleKeyEvent(
+                        (KeyEvent*)e,
+                        event.key.keysym.sym,
+                        event.type == SDL_KEYUP ? KEY_UP : KEY_DOWN,
+                        event.key.repeat != 0,
+                        event.key.timestamp,
+                event);
+                return;
+	        default:
+	            (*((KeyEvent*)e)).unused_7 = event.type;
+	            return;
         }
     }
 
     bzero(e, 8 * sizeof(uint32_t));
 }
 
-void displayString(const char *string,
-                   uint32_t destX,
-                   uint32_t destY,
-                   uint32_t *bitmap,
-                   uint32_t bitmapWidth,
-                   uint32_t bitmapHeight) {
-    uint32_t x, y;
+void displayString(const char *string, uint32_t destX, uint32_t destY, uint32_t *bitmap, uint32_t bitmapWidth, uint32_t bitmapHeight) {
+    uint32_t x;
+    uint32_t y;
     for ( ; *string != '\0'; string++, destX += 8) {
         for (y = 0; y < 16; y++) {
             for (x = 0; x < 8; x++) {
