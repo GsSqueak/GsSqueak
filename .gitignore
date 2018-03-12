@@ -7,6 +7,7 @@ Session.vim
 **/.DS_Store
 apps/AmpelServer/AmpelServer
 *.so
+*.o
 *.autosave
 *.kate-swp
 

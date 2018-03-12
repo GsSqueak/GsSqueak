@@ -1,8 +1,13 @@
+/*
+ *
+ */
 #include <stdint.h>
 #include <stdio.h>
-#include <SDL.h>
 #include <unistd.h>
 #include <stdbool.h>
+
+#include <SDL.h>
+
 #include "keyconstants.h"
 #include "BPFont.xbm"
 
@@ -34,17 +39,23 @@ struct {
 typedef struct {
     uint32_t type;
     uint32_t timeStamp;
-    uint32_t x, y;
-    uint32_t buttonState, modifierKeys;
-    uint32_t unused[2];
+    uint32_t x;
+    uint32_t y;
+    uint32_t buttonState;
+    uint32_t modifierKeys;
+    uint32_t unused_7;
+    uint32_t unused_8;
 } MouseEvent;
 
 typedef struct {
     uint32_t type;
     uint32_t timeStamp;
     uint32_t characterCode;
-    uint32_t pressState, modifierKeys;
-    uint32_t unused[3];
+    uint32_t pressState;
+    uint32_t modifierKeys;
+    uint32_t unused_6;
+    uint32_t unused_7;
+    uint32_t unused_8;
 } KeyEvent;
 
 
@@ -102,13 +113,15 @@ void closeWindow()
     SDL_Quit();
 }
 
-uint32_t mouseButtonState() {
+uint32_t mouseButtonState(void)
+{
     return MouseState.right
             | (MouseState.middle << 1)
             | (MouseState.left << 2);
 }
 
-uint32_t keyModifierState() {
+uint32_t keyModifierState(void)
+{
     return ModifierState.shiftL
             | ModifierState.shiftR
             | (ModifierState.ctrlL << 1)
@@ -197,7 +210,9 @@ void handleKeyEvent(KeyEvent * sqEv,
                     SDL_Keycode keycode,
                     int value,
                     int repeat,
-                    uint32_t timestamp) {
+                    uint32_t timestamp,
+	            SDL_Event event)
+{
     switch(keycode)
     {
     case SDLK_LCTRL:
@@ -238,7 +253,7 @@ void handleKeyEvent(KeyEvent * sqEv,
 
 void getEvents(void *e)
 {
-    if(hasQueuedStroke){
+    if (hasQueuedStroke){
         hasQueuedStroke = false;
         *((KeyEvent*)e) = queuedStroke;
         return;
@@ -271,8 +286,12 @@ void getEvents(void *e)
                     event.key.keysym.sym,
                     event.type == SDL_KEYUP ? KEY_UP : KEY_DOWN,
                     event.key.repeat != 0,
-                    event.key.timestamp);
+                    event.key.timestamp,
+		    event);
             return;
+	default:
+	    (*((KeyEvent*)e)).unused_7 = event.type;
+	   return;
         }
     }
 
