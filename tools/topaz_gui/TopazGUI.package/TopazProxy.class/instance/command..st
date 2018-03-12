@@ -1,5 +1,8 @@
 process communication
 command: aString
 
-	self sendInput: aString , Character lf , Character lf.
-	^ self receiveCommandOutput
+	| rawOutput outputLines errorOutput |
+	self topazProcess inPipe nextPutAll: aString; lf; lf; flush.
+	rawOutput := self topazProcess outPipe reader upToLastLineMatching: 'topaz*> '.
+	outputLines := rawOutput lines allButFirstAndLast.
+	errorOutput := self topazProcess errPipe reader upToEndOfAvailableData.
