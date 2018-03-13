@@ -1,5 +1,5 @@
 {
-	"category" : "TopazGUI-Tools",
+	"category" : "TopazGUI-Proxy",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,9 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"topazProxy",
+		"subject",
 		"envId" ],
-	"name" : "GsBrowser",
+	"name" : "TopazClassOrganizer",
 	"pools" : [
 		 ],
-	"super" : "Browser",
+	"super" : "Object",
 	"type" : "normal" }

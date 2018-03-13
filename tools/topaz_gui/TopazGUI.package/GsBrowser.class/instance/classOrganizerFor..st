@@ -1,0 +1,4 @@
+metaclass
+classOrganizerFor: className
+
+	^ TopazClassOrganizer
