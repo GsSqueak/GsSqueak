@@ -1,0 +1,4 @@
+class initialization
+default
+
+	^ Default

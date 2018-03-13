@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedSymbolDictionary",
-		"selectedSystemCategory",
-		"selectedClassName",
-		"selectedMessageCategoryName",
-		"selectedMessageName",
-		"contents" ],
+		 ],
 	"name" : "GsBrowser",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Browser",
 	"type" : "normal" }

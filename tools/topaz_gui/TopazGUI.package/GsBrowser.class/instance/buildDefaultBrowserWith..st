@@ -1,8 +1,9 @@
 toolbuilder
-buildWith: builder
+buildDefaultBrowserWith: builder
 
 	| max windowSpec |
-	max := 0.42.
+	max := self wantsOptionalButtons ifTrue:[0.42] ifFalse:[0.5].
+	
 	windowSpec := self buildWindowWith: builder specs: {
 		(0@0 corner: 0.2@max) -> [self buildSymbolDictionaryListWith: builder].
 		(0.2@0 corner: 0.4@max) -> [self buildSystemCategoryListWith: builder].
@@ -12,5 +13,6 @@ buildWith: builder
 		(0.8@0 corner: 1@max) -> [self buildMessageListWith: builder].
 		(0@max corner: 1@1) -> [self buildCodePaneWith: builder].
 	}.
+	self setMultiWindowFor:windowSpec.
 	
 	^ builder build: windowSpec

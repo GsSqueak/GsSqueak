@@ -1,4 +1,4 @@
 commands
-listClassesIn: aDictionary
+listClassesInSymbolDictionary: aDictionary
 
 	^ self command: 'list classesIn: ' , aDictionary

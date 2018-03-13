@@ -1,23 +1,22 @@
 {
 	"class" : {
-		"open" : "SL 3/12/2018 16:50" },
+		 },
 	"instance" : {
 		"buildClassListWith:" : "SL 3/12/2018 15:49",
 		"buildCodePaneWith:" : "SL 3/12/2018 16:44",
+		"buildDefaultBrowserWith:" : "SL 3/13/2018 14:36",
 		"buildMessageCategoryListWith:" : "SL 3/12/2018 15:50",
 		"buildMessageListWith:" : "SL 3/12/2018 15:51",
 		"buildSymbolDictionaryListWith:" : "SL 3/12/2018 15:48",
 		"buildSystemCategoryListWith:" : "SL 3/12/2018 15:47",
-		"buildWith:" : "SL 3/12/2018 16:54",
 		"buttonHeight" : "SL 3/12/2018 16:40",
-		"classList" : "SL 3/12/2018 16:16",
 		"classListFrame:" : "SL 3/12/2018 16:56",
 		"classListFrame:fromTop:fromLeft:width:" : "SL 3/12/2018 16:39",
-		"classListIndex" : "SL 3/12/2018 16:54",
-		"classListIndex:" : "SL 3/12/2018 16:12",
 		"contents" : "SL 3/12/2018 16:55",
 		"contents:notifying:" : "SL 3/12/2018 16:46",
 		"contentsSelection" : "SL 3/12/2018 16:47",
+		"flattenHierarchyTree:on:indent:by:" : "SL 3/13/2018 18:08",
+		"hierarchicalClassList" : "SL 3/13/2018 17:26",
 		"messageCategoryList" : "SL 3/12/2018 16:07",
 		"messageCategoryListIndex" : "SL 3/12/2018 16:06",
 		"messageCategoryListIndex:" : "SL 3/12/2018 16:06",
@@ -31,7 +30,4 @@
 		"selectSystemCategory:" : "SL 3/12/2018 16:32",
 		"symbolDictionaryList" : "SL 3/12/2018 16:34",
 		"symbolDictionaryListIndex" : "SL 3/12/2018 16:34",
-		"symbolDictionaryListIndex:" : "SL 3/12/2018 16:35",
-		"systemCategoryList" : "SL 3/12/2018 16:29",
-		"systemCategoryListIndex" : "SL 3/12/2018 16:29",
-		"systemCategoryListIndex:" : "SL 3/12/2018 16:29" } }
+		"symbolDictionaryListIndex:" : "SL 3/12/2018 16:35" } }

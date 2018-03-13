@@ -1,0 +1,4 @@
+accessing
+allElements
+
+	^ self elementArray

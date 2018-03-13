@@ -1,9 +1,9 @@
 parsing topaz output
-convertToCategoryDict: tpzOutput
+convertToCategoryDict: topazOutput
 
 	| categoryDict currentCategory |
 	categoryDict := Dictionary new.
-	tpzOutput linesDo: [:line |
+	topazOutput linesDo: [:line |
 		(line beginsWith: 'category ') ifTrue: [
 			currentCategory := (line allButFirst: 9) asSymbol.
 			categoryDict at: currentCategory put: OrderedCollection new].
