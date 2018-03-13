@@ -1,4 +1,4 @@
 commands
 setClass: class
 
-	self command: 'set class: ' , class
+	^ self set: #class to: class

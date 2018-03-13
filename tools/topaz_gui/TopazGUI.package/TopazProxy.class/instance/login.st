@@ -1,4 +1,4 @@
 commands
 login
 
-	self command: 'login'
+	^ self command: 'login'

@@ -1,4 +1,4 @@
 commands
 logout
 
-	self command: 'logout'
+	^ self command: 'logout'

@@ -1,9 +1,9 @@
 process communication
 command: aString
 
-	| rawOutput outputLines errorOutput |
+	| rawOutput output errorOutput |
 	self topazProcess inPipe nextPutAll: aString; lf; lf; flush.
-	rawOutput := self topazProcess outPipe reader upToLastLineMatching: 'topaz*> '.
-	outputLines := rawOutput lines allButFirstAndLast.
+	rawOutput := self topazProcess outPipe reader upToLastLineMatching: '*topaz*> '.
+	output := rawOutput lines allButFirstAndLast joinSeparatedBy: Character lf.
 	errorOutput := self topazProcess errPipe reader upToEndOfAvailableData.
-	^ outputLines
+	^ Array with: output with: errorOutput
