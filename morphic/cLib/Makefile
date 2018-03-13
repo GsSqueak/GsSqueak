@@ -4,15 +4,15 @@ CFLAGS=`sdl2-config --cflags` -fPIC
 LDLIBS=`sdl2-config --libs`
 LDFLAGS=-fPIC
 
+SRCS=$(shell find -name '*.c')
+OBJS=$(addsuffix .o, $(basename $(SRCS)))
+
 .PHONY: all install clean
 
 all: libgraFFIcs.so
 
-lib%.so: %.o
+libgraFFIcs.so: $(OBJS)
 	$(LINK.o) -shared $^ $(LOADLIBES) $(LDLIBS) -o $@
-
-libgraFFIcs.so: graFFIcs.o
-
 
 install: libgraFFIcs.so
 	if test -z "$(GEMSTONE)"; then echo 'PLEASE SET $$GEMSTONE'; exit 1; else \
@@ -22,5 +22,5 @@ install: libgraFFIcs.so
 	fi
 
 clean:
-	rm -f *.o
-	rm -f *.so
+	rm -f $(OBJS)
+	rm -f libgraFFIcs.so
