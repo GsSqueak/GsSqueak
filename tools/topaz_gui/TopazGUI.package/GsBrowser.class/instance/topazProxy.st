@@ -1,4 +1,0 @@
-topaz
-topazProxy
-
-	^ topazProxy
