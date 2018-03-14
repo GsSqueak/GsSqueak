@@ -2,6 +2,7 @@ api
 categoriesFor: class env: envId
 
 	| topazOutput |
+	self setEnv: 0.
 	topazOutput := self run: (self codeForPrintingListCreatedBy: 
 		'[:class :envId |
 			| set |

@@ -1,14 +1,14 @@
-class list
-selectClassNamed: aSymbolOrString
+environments
+envId: anInteger
 
-	selectedClassName := aSymbolOrString ifNotNil: [ aSymbolOrString asSymbol ].
-	self setClassOrganizer.
-	self setClassDefinition.
+	envId := anInteger.
+	classOrganizer env: envId.
+	metaClassOrganizer env: envId.
 	
 	"Try to reselect the category and/or selector if the new class has them."
 	(self messageCategoryList includes: selectedMessageCategoryName) ifFalse: [selectedMessageCategoryName := nil].
 	(self messageList includes: selectedMessageName) ifFalse: [selectedMessageName := nil].
-
+	
 	self hasMessageSelected ifTrue:
 		[self editSelection: #editMessage] ifFalse:
 	[self hasMessageCategorySelected ifTrue:
@@ -30,3 +30,5 @@ selectClassNamed: aSymbolOrString
 	self changed: #relabel.
 	self changed: #selectedSystemCategoryName.
 	self contentsChanged
+	
+	

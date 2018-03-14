@@ -1,4 +1,12 @@
 helpers
 codeForPrintingListCreatedBy: collectionCreationCode
 
-	^ 'String streamContents: [:stream | (' , collectionCreationCode , ') asStringOn: stream delimiter: Character lf asString]'
+	^ '[:collection |
+	String streamContents: [:stream |
+		| isFirst |
+		isFirst := true.
+		collection do: [:elem |
+			isFirst 
+				ifTrue: [isFirst := false]
+				ifFalse: [ stream nextPut: Character lf].
+			stream nextPutAll: elem asString]]] value: (' , collectionCreationCode , $)

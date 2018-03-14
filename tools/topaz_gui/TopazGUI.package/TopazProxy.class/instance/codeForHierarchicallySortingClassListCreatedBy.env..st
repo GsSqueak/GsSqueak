@@ -1,11 +1,11 @@
 helpers
-codeForHierarchicallySortingClassListCreatedBy: classListCreationCode
+codeForHierarchicallySortingClassListCreatedBy: classListCreationCode env: envId
 
-	^ '[:col |
+	^ '[:col :envId |
 		| transformed hierarchy flattenHierarchyTree |
 		transformed := col collect: [:ea | 
 			| childs indexes |
-			childs := col select: [:class | class superclass = ea].
+			childs := col select: [:class | (class superclassForEnv: envId) = ea].
 			indexes := childs collect: [:child | col indexOf: child].
 			ea -> indexes].
 		transformed copy do: [:ea |
@@ -33,4 +33,4 @@ codeForHierarchicallySortingClassListCreatedBy: classListCreationCode
 			value: hierarchy
 			value: OrderedCollection new
 			value: ''''
-			value: '' ''] value: (' , classListCreationCode , $)
+			value: '' ''] value: (' , classListCreationCode , ') value: (' , envId , $)

@@ -1,4 +1,4 @@
 accessing
 allElements
 
-	^ self elementArray
+	^ self topazProxy allClasses

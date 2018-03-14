@@ -1,0 +1,192 @@
+set user SystemUser p swordfish
+login
+
+### Setup ###
+run
+(Object subclass: #'Shape'
+	instVarNames: #( )
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: {}
+	inDictionary: Globals) 
+    category: #'Demo'
+%
+
+run
+(Shape subclass: #'Rectangle'
+	instVarNames: #( a b )
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: {}
+	inDictionary: Globals)
+    category: #'Demo'
+%
+
+run
+(Shape subclass: #'Square'
+	instVarNames: #( a )
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: {}
+	inDictionary: Globals)
+    category: #'Demo'
+%
+
+run
+Square superclassForEnv: 7 put: Rectangle
+%
+
+##################################################################
+env 0 ############################################################
+##################################################################
+
+############################Shape#################################
+
+category: 'geometry'
+method: Shape
+area
+	self subclassResponsibility
+%
+
+############################Rectangle##############################
+
+category: 'accessing'
+method: Rectangle
+a
+	^ a
+%
+
+category: 'accessing'
+method: Rectangle
+a: anInteger
+	a := anInteger
+%
+
+category: 'accessing'
+method: Rectangle
+b
+	^ b
+%
+
+category: 'accessing'
+method: Rectangle
+b: anInteger
+	b := anInteger
+%
+
+category: 'gemoetry'
+method: Rectangle
+area
+	^ self a * self b
+%
+
+category: 'instance creation'
+classmethod: Rectangle
+a: a b: b
+	^ self new
+		a: a;
+		b: b;
+		yourself
+%
+
+############################Square################################
+
+category: 'accessing'
+method: Square
+a
+	^ a
+%
+
+category: 'geometry'
+method: Square
+area
+	^ self a squared
+%
+
+category: 'instance creation'
+classmethod: Square
+a: a
+	^ self new
+		a: a;
+		yourself
+%
+
+##################################################################
+env 7 ############################################################
+##################################################################
+
+############################Shape#################################
+
+category: 'geometry'
+method: Shape
+area
+	self subclassResponsibility
+%
+
+############################Rectangle##############################
+
+category: 'accessing'
+method: Rectangle
+a
+	^ a
+%
+
+category: 'accessing'
+method: Rectangle
+a: anInteger
+	a := anInteger
+%
+
+category: 'accessing'
+method: Rectangle
+b
+	^ b
+%
+
+category: 'accessing'
+method: Rectangle
+b: anInteger
+	b := anInteger
+%
+
+category: 'gemoetry'
+method: Rectangle
+area
+	^ self a * self b
+%
+
+category: 'instance creation'
+classmethod: Rectangle
+a: a b: b
+	^ self new
+		a: a;
+		b: b;
+		yourself
+%
+
+############################Square################################
+
+category: 'accessing'
+method: Rectangle
+a: anInteger
+	a := anInteger.
+	b := anInteger
+%
+
+category: 'accessing'
+method: Rectangle
+b: anInteger
+	a := anInteger.
+	b := anInteger
+%
+
+category: 'instance creation'
+classmethod: Square
+a: a
+	^ self new
+		a: a;
+		yourself
+%
+
+commit
+logout

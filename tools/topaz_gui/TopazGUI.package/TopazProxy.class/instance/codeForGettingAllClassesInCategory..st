@@ -1,4 +1,4 @@
 helpers
 codeForGettingAllClassesInCategory: category
 
-	^ 'ClassOrganizer cachedOrganizer categories at: #''' , category , ''' ifAbsent: [#()]'
+	^ 'ClassOrganizer new categories at: #''' , category , ''' ifAbsent: [#()]'

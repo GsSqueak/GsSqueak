@@ -1,2 +1,2 @@
-code pane
+contents
 contents: input notifying: aController

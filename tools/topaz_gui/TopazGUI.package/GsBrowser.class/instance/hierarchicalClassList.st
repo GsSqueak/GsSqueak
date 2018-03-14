@@ -6,6 +6,6 @@ hierarchicalClassList
 		ifTrue: [^ self defaultClassList].
 		
 	^ self
-		flattenHierarchyTree: (systemOrganizer hierarchyTreeForCategory: self selectedSystemCategory)
+		flattenHierarchyTree: (self topazProxy hierarchyTreeForCategory: self selectedSystemCategory env: self envId)
 		on: OrderedCollection new
 		indent: ''.

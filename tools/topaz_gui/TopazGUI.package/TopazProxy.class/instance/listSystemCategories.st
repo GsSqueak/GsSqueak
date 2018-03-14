@@ -2,4 +2,4 @@ commands
 listSystemCategories
 
 	self setEnv: 0.
-	^ self run: (self codeForPrintingListCreatedBy: 'ClassOrganizer cachedOrganizer categories keys asArray sortAscending')
+	^ self run: (self codeForPrintingListCreatedBy: 'ClassOrganizer new categories keys asArray sortAscending')
