@@ -167,14 +167,14 @@ a: a b: b
 ############################Square################################
 
 category: 'accessing'
-method: Rectangle
+method: Square
 a: anInteger
 	a := anInteger.
 	b := anInteger
 %
 
 category: 'accessing'
-method: Rectangle
+method: Square
 b: anInteger
 	a := anInteger.
 	b := anInteger

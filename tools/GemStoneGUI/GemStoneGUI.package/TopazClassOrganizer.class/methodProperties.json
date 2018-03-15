@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"suppliedBy:class:" : "SL 3/13/2018 19:14",
+		"suppliedBy:metaclassOf:" : "SL 3/13/2018 19:20" },
+	"instance" : {
+		"allElements" : "SL 3/13/2018 21:53",
+		"allMethodSelectors" : "SL 3/13/2018 21:39",
+		"categories" : "SL 3/13/2018 21:24",
+		"env" : "SL 3/13/2018 21:30",
+		"env:" : "SL 3/13/2018 19:39",
+		"listAtCategoryNamed:" : "SL 3/13/2018 22:20",
+		"setSubject:" : "SL 3/13/2018 21:23",
+		"subject" : "SL 3/13/2018 21:24",
+		"topazProxy" : "SL 3/13/2018 19:36",
+		"topazProxy:" : "SL 3/13/2018 19:36" } }

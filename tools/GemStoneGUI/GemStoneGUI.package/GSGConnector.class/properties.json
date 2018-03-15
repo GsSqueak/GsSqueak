@@ -1,0 +1,17 @@
+{
+	"category" : "GemStoneGUI-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"devkitPath",
+		"stoneName",
+		"password",
+		"username" ],
+	"name" : "GSGConnector",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

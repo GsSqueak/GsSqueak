@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"on:" : "SL 3/14/2018 21:07",
+		"openOn:" : "SL 3/14/2018 21:09" },
+	"instance" : {
+		"buildBrowserButtonWith:" : "SL 3/14/2018 21:24",
+		"buildLogoutButtonWith:" : "SL 3/14/2018 21:53",
+		"buildTestRunnerButtonWith:" : "SL 3/14/2018 21:28",
+		"buildTranscriptButtonWith:" : "SL 3/14/2018 21:26",
+		"buildWith:" : "SL 3/14/2018 21:21",
+		"buildWorkspaceButtonWith:" : "SL 3/14/2018 21:24",
+		"closeSession" : "SL 3/14/2018 22:17",
+		"interface" : "SL 3/14/2018 21:05",
+		"open" : "SL 3/14/2018 21:09",
+		"openBrowser" : "SL 3/14/2018 21:31",
+		"openTestRunner" : "SL 3/14/2018 21:28",
+		"openTranscript" : "SL 3/14/2018 21:28",
+		"openWorkspace" : "SL 3/14/2018 21:28",
+		"setInterface:" : "SL 3/14/2018 21:07",
+		"windowColorToUse" : "SL 3/14/2018 21:10",
+		"windowIsClosing" : "SL 3/14/2018 22:18" } }

@@ -1,0 +1,15 @@
+{
+	"category" : "GemStoneGUI-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default",
+		"NullCategory" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topazProxy" ],
+	"name" : "TopazSystemOrganizer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

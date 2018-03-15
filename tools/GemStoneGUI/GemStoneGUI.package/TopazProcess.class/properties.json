@@ -1,0 +1,17 @@
+{
+	"category" : "GemStoneGUI-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"process",
+		"inPipe",
+		"outPipe",
+		"errPipe" ],
+	"name" : "TopazProcess",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

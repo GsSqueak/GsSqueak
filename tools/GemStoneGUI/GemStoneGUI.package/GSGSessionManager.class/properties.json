@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"interface" ],
+	"name" : "GSGSessionManager",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
