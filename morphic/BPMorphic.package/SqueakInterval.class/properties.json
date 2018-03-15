@@ -1,0 +1,16 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"start",
+		"stop",
+		"step" ],
+	"name" : "SqueakInterval",
+	"pools" : [
+		 ],
+	"super" : "SequenceableCollection",
+	"type" : "variable" }

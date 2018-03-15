@@ -27,7 +27,7 @@ display
   Smalltalk at: #'World' put: WorldProvider getWorld.
   WorldState initialize.
   WorldProvider getWorld viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open."
-  TextMorph new openInWorld.
+  Workspace open.
   Display forceToScreen.
   WorldProvider getWorld doOneCycle.
   [ true ] whileTrue: [ World doOneCycle	"Simulate Animation Framework" ]

@@ -1,0 +1,15 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"MaximumTextHistoryDepth" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"commands",
+		"currentIndex" ],
+	"name" : "TextEditorCommandHistory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Latin1Environment",
+	"pools" : [
+		 ],
+	"super" : "LanguageEnvironment",
+	"type" : "normal" }
