@@ -100,7 +100,7 @@ a
 category: 'geometry'
 method: MySquare
 area
-	^ self a MySquared
+	^ self a squared
 %
 
 category: 'instance creation'
