@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BPDefaultInst" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"parent" ],
+	"name" : "ToolBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

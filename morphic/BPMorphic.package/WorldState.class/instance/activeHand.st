@@ -1,3 +1,3 @@
 hands
 activeHand
-	^ ActiveHand
+  ^ Smalltalk at: #'ActiveHand'

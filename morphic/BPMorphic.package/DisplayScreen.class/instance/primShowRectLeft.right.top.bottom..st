@@ -7,17 +7,4 @@ primShowRectLeft: l right: r top: t bottom: b
   "if this fails, coerce coordinates to integers and try again"
 
   | result |
-  result := GraFFIcsLibrary drawBitmapCo
-    callWith:
-      {(bits cArray).
-      l.
-      r.
-      t.
-      b}.
-  result = 0
-    ifFalse: [ 
-      self
-        primRetryShowRectLeft: l truncated
-        right: r rounded
-        top: t truncated
-        bottom: b rounded ]
+  result := GraFFIcsLibrary drawWindow: bpWindow contents: self bits

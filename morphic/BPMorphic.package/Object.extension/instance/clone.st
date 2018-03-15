@@ -1,0 +1,3 @@
+*BPMorphic
+clone
+  ^ self shallowCopy

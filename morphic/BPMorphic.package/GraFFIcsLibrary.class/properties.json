@@ -5,7 +5,7 @@
 	"classvars" : [
 		"CreateWindowCo",
 		"DisplayStringCo",
-		"DrawBitmapCo",
+		"DrawWindowCo",
 		"GetEventsCo",
 		"GraphicsLib" ],
 	"commentStamp" : "",

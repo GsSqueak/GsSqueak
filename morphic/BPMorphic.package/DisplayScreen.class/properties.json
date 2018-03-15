@@ -11,7 +11,7 @@
 	"instvars" : [
 		"clippingBox",
 		"extraRegions",
-		"graphicsLib",
+		"bpWindow",
 		"createWindowCo",
 		"drawBitmapCo" ],
 	"name" : "DisplayScreen",

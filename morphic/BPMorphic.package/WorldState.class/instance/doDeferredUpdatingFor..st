@@ -20,6 +20,8 @@ doDeferredUpdatingFor: aWorld
       "this world fills the entire Display"
       properDisplay
         ifFalse: [ 
-          aWorld viewBox: Display boundingBox.	"do first since it may clear canvas"
-          self canvas: (Display getCanvas copyClipRect: Display boundingBox) ] ].
+          aWorld viewBox: (Smalltalk at: #'Display') boundingBox.	"do first since it may clear canvas"
+          self
+            canvas:
+              ((Smalltalk at: #'Display') getCanvas copyClipRect: Display boundingBox) ] ].
   ^ true

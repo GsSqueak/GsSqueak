@@ -1,0 +1,24 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UseRetractableScrollBars" ],
+	"commentStamp" : "mk 8/9/2005 10:34",
+	"instvars" : [
+		"scrollBar",
+		"scroller",
+		"retractableScrollBar",
+		"scrollBarOnLeft",
+		"getMenuSelector",
+		"getMenuTitleSelector",
+		"hasFocus",
+		"hScrollBar",
+		"hScrollBarPolicy",
+		"vScrollBarPolicy",
+		"scrollBarThickness" ],
+	"name" : "ScrollPane",
+	"pools" : [
+		 ],
+	"super" : "MorphicModel",
+	"type" : "normal" }

@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptNameEdit" : "sw 10/2/2001 21:20",
+		"acceptNameEdit" : "TobiasZagorni 03/14/2018 05:24",
 		"addChooseGraphicHandle:" : "nk 6/12/2004 09:24",
-		"addCircleHandles" : "jb 02/15/2018 02:12",
+		"addCircleHandles" : "TobiasZagorni 03/14/2018 05:32",
 		"addCollapseHandle:" : "sw 12/13/2001 14:07",
 		"addDebugHandle:" : "sw 1/26/2000 15:51",
 		"addDirectionHandles" : "dgd 4/4/2006 16:56",
@@ -24,7 +24,7 @@
 		"addHandleAt:color:icon:on:send:to:" : "cmm 1/10/2011 14:59",
 		"addHandleAt:color:on:send:to:" : "sw 1/29/2000 18:36",
 		"addHandles" : "sw 1/28/2000 09:57",
-		"addHandlesForWorldHalos" : "jb 02/15/2018 02:14",
+		"addHandlesForWorldHalos" : "TobiasZagorni 03/14/2018 05:30",
 		"addHelpHandle:" : "sw 1/26/2000 16:16",
 		"addMakeSiblingHandle:" : "sw 12/29/2004 22:18",
 		"addMenuHandle:" : "sw 1/26/2000 16:05",

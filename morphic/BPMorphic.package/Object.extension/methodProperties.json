@@ -6,6 +6,8 @@
 		"cCode:inSmalltalk:" : "jb 01/25/2018 02:44",
 		"cCoerce:to:" : "jb 01/25/2018 02:45",
 		"caseOf:otherwise:" : "jb 02/08/2018 05:01",
+		"clone" : "TobiasZagorni 03/15/2018 02:54",
+		"currentHand" : "TobiasZagorni 03/15/2018 02:32",
 		"currentWorld" : "jb 01/18/2018 06:55",
 		"isDefined:inSmalltalk:comment:ifTrue:" : "jb 01/23/2018 07:44",
 		"isDefined:inSmalltalk:comment:ifTrue:ifFalse:" : "jb 01/23/2018 07:44",

@@ -1,0 +1,3 @@
+comparison
+species
+	^ CharacterSet

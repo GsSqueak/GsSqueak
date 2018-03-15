@@ -1,3 +1,3 @@
 accessing
 ascent
-	self subclassResponsibility
+  ^ 9

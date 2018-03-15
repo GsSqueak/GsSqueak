@@ -29,8 +29,10 @@
 		"showChooseGraphicHaloHandle" : "jb 02/15/2018 02:08",
 		"showDirectionHandles" : "jb 02/15/2018 01:27",
 		"simpleHalosInForce" : "jb 02/15/2018 01:20",
+		"standardHaloLabelFont" : "TobiasZagorni 03/14/2018 05:38",
 		"swapControlAndAltKeys" : "jb 02/01/2018 05:47",
 		"swapMouseButtons" : "jb 02/01/2018 05:48",
+		"textHighlightColor" : "TobiasZagorni 03/15/2018 02:39",
 		"uniqueNamesInHalos" : "jb 02/15/2018 02:08" },
 	"instance" : {
 		 } }

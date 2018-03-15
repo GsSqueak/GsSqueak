@@ -16,7 +16,7 @@ mouseTrailFrom: currentBuf
       _gsSqueakTemp_nextEvent sixth = currentBuf sixth
         ifFalse: [ ^ _gsSqueakTemp_trail contents	"modifiers changed" ].	"nextEvent is similar. Remove it from the queue, and check
 			the next."
-      _gsSqueakTemp_nextEvent := Sensor nextEvent.
+      _gsSqueakTemp_nextEvent := (Smalltalk at: #'Sensor') nextEvent.
       _gsSqueakTemp_trail
         nextPut: _gsSqueakTemp_nextEvent third @ _gsSqueakTemp_nextEvent fourth ].
   ^ _gsSqueakTemp_trail contents

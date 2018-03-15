@@ -5,9 +5,5 @@ beDisplay
 	Essential. See Object documentation whatIsAPrimitive."
 
   | result |
-  result := GraFFIcsLibrary createWindowCo
-    callWith:
-      {(offset x).
-      (offset y).
-      width.
-      height}
+  bpWindow := BPWindow new: (Rectangle origin: offset corner: width @ height).
+  ^ 0

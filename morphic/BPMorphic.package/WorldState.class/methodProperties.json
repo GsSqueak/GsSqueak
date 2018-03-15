@@ -10,7 +10,7 @@
 		"lastCycleTime" : "RAA 7/23/2000 17:28",
 		"withClassVersion:" : "bf 4/11/2013 15:15" },
 	"instance" : {
-		"activeHand" : "ar 1/22/2001 14:26",
+		"activeHand" : "TobiasZagorni 03/15/2018 02:35",
 		"addAlarm:withArguments:for:at:" : "jcg 1/9/2010 14:51",
 		"addHand:" : "ar 10/26/2000 14:51",
 		"addRemoteCanvas:" : "ar 10/26/2000 14:11",
@@ -31,7 +31,7 @@
 		"convertToCurrentVersion:refStream:" : "RAA 1/5/2001 10:51",
 		"displayWorld:submorphs:" : "Anonymous 02/06/2018 05:48",
 		"displayWorldSafely:" : "mt 8/11/2016 15:14",
-		"doDeferredUpdatingFor:" : "Anonymous 02/06/2018 05:47",
+		"doDeferredUpdatingFor:" : "TobiasZagorni 03/14/2018 02:13",
 		"doFullRepaint" : "RAA 5/25/2000 15:12",
 		"doOneCycleFor:" : "jb 01/18/2018 07:01",
 		"doOneCycleNowFor:" : "jb 01/18/2018 07:04",
