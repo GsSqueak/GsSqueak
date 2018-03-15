@@ -1,0 +1,4 @@
+accessing
+interface
+
+	^ self topazProxy

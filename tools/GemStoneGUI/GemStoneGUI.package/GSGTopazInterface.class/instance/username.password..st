@@ -1,8 +1,9 @@
 initialize-release
-username: username password: password
+username: user password: password
 
 	| result |
-	self setUsername: username.
+	self setUsername: user.
+	self username: user.
 	self setPassword: password.
 	result := self login.
 	(result at: 2) ifNotEmpty: [:errorMessage | 

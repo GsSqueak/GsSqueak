@@ -1,4 +1,4 @@
-initialize-release
+toolbuilder
 defaultBrowserTitle
 
-	^ 'GemStone Browser'
+	^ 'GemStone Browser [' , self interface stoneName , ', ' , self interface username , $]
