@@ -1,8 +1,13 @@
 {
 	"class" : {
+		"applyNewEToyLook" : "nk 9/1/2004 10:53",
 		"cleanUp:" : "ar 2/27/2010 00:19",
 		"initialize" : "TobiasZagorni 03/14/2018 05:58",
-		"removeUnreferencedPlayers" : "cmm 1/18/2014 17:08" },
+		"noteAddedSelector:meta:" : "ar 1/3/2010 16:52",
+		"registerInFlapsRegistry" : "TobiasZagorni 03/15/2018 09:11",
+		"removePlayersIn:" : "yo 4/5/2007 21:58",
+		"removeUnreferencedPlayers" : "cmm 1/18/2014 17:08",
+		"unload" : "TobiasZagorni 03/15/2018 09:12" },
 	"instance" : {
 		"allClassVarNamesInSystem" : "sw 10/30/2000 16:33",
 		"customizeForEToyUsers:" : "mt 8/26/2015 17:44",
