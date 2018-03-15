@@ -1,12 +1,11 @@
 encoding
-undeclared: name 
-	| sym |
-	(requestor notNil
-			and: [requestor interactive])
-		ifTrue: [requestor requestor == #error:
-				ifTrue: [requestor error: 'Undeclared'].
-			^ self notify: 'Undeclared'].
-	"Allow knowlegeable clients to squash the undeclared warning if they
+undeclared: name
+  | sym |
+  (requestor notNil and: [ requestor interactive ])
+    ifTrue: [ 
+      requestor requestor == #'error:'
+        ifTrue: [ requestor error: 'Undeclared' ].
+      ^ self notify: 'Undeclared' ].	"Allow knowlegeable clients to squash the undeclared warning if they
 	want (e.g.
 	Diffing pretty printers that are simply formatting text). As this breaks
 	compilation it should only be used by clients that want to discard the
@@ -14,8 +13,7 @@ undeclared: name
 	[Compiler format: code in: class notifying: nil decorated: false]
 	on: UndeclaredVariableWarning
 	do: [:ex| ex resume: false]"
-	sym := name asSymbol.
-	^ (UndeclaredVariableWarning new
+  sym := name asSymbol	"^ (UndeclaredVariableWarning new
 			name: name
 			selector: selector
 			class: cue getClass) signal
@@ -29,4 +27,5 @@ undeclared: name
 				name: sym]
 		ifFalse: [self
 				global: (Association key: sym)
-				name: sym]
+				name: sym]"	"Hackedy Hack hack
+"
