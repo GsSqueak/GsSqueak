@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"forStone:inPath:" : "SL 3/14/2018 20:36",
+		"forStone:inPath:" : "SL 3/15/2018 13:01",
 		"forStone:inPath:username:password:" : "SL 3/14/2018 20:54" },
 	"instance" : {
 		"abort" : "SL 3/13/2018 14:26",
@@ -52,9 +52,13 @@
 		"setPassword:" : "SL 3/13/2018 10:34",
 		"setUsername:" : "SL 3/13/2018 10:34",
 		"sourceCodeFor:selector:env:" : "SL 3/14/2018 12:27",
+		"stoneName" : "SL 3/15/2018 13:01",
+		"stoneName:" : "SL 3/15/2018 13:01",
 		"systemCategoryFor:" : "SL 3/14/2018 12:29",
 		"templateForSubclassOf:category:" : "SL 3/14/2018 17:31",
 		"terminate" : "SL 3/14/2018 22:37",
 		"topazProcess" : "SL 3/11/2018 15:18",
 		"topazProcess:" : "SL 3/11/2018 15:18",
-		"username:password:" : "SL 3/14/2018 22:40" } }
+		"username" : "SL 3/15/2018 13:01",
+		"username:" : "SL 3/15/2018 13:01",
+		"username:password:" : "SL 3/15/2018 13:03" } }

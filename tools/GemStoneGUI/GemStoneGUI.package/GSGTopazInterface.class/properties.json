@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"topazProcess" ],
+		"topazProcess",
+		"stoneName",
+		"username" ],
 	"name" : "GSGTopazInterface",
 	"pools" : [
 		 ],

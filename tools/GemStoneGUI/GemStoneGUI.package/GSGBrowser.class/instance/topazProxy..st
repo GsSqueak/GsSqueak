@@ -1,4 +1,4 @@
-topaz
+accessing
 topazProxy: aTopazProxy
 
 	topazProxy := aTopazProxy.

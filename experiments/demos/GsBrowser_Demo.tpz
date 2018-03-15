@@ -3,85 +3,85 @@ login
 
 ### Setup ###
 run
-(Object subclass: #'Shape'
+(Object subclass: #'MyShape'
 	instVarNames: #( )
 	classVars: #()
 	classInstVars: #()
 	poolDictionaries: {}
-	inDictionary: Globals) 
+	inDictionary: UserGlobals) 
     category: #'Demo'
 %
 
 run
-(Shape subclass: #'Rectangle'
+(MyShape subclass: #'MyRectangle'
 	instVarNames: #( a b )
 	classVars: #()
 	classInstVars: #()
 	poolDictionaries: {}
-	inDictionary: Globals)
+	inDictionary: UserGlobals)
     category: #'Demo'
 %
 
 run
-(Shape subclass: #'Square'
+(MyShape subclass: #'MySquare'
 	instVarNames: #( a )
 	classVars: #()
 	classInstVars: #()
 	poolDictionaries: {}
-	inDictionary: Globals)
+	inDictionary: UserGlobals)
     category: #'Demo'
 %
 
 run
-Square superclassForEnv: 7 put: Rectangle
+MySquare superclassForEnv: 7 put: MyRectangle
 %
 
 ##################################################################
 env 0 ############################################################
 ##################################################################
 
-############################Shape#################################
+############################MyShape###############################
 
 category: 'geometry'
-method: Shape
+method: MyShape
 area
 	self subclassResponsibility
 %
 
-############################Rectangle##############################
+############################MyRectangle############################
 
 category: 'accessing'
-method: Rectangle
+method: MyRectangle
 a
 	^ a
 %
 
 category: 'accessing'
-method: Rectangle
+method: MyRectangle
 a: anInteger
 	a := anInteger
 %
 
 category: 'accessing'
-method: Rectangle
+method: MyRectangle
 b
 	^ b
 %
 
 category: 'accessing'
-method: Rectangle
+method: MyRectangle
 b: anInteger
 	b := anInteger
 %
 
 category: 'gemoetry'
-method: Rectangle
+method: MyRectangle
 area
 	^ self a * self b
 %
 
 category: 'instance creation'
-classmethod: Rectangle
+classmethod: MyRectangle
 a: a b: b
 	^ self new
 		a: a;
@@ -89,22 +89,22 @@ a: a b: b
 		yourself
 %
 
-############################Square################################
+############################MySquare##############################
 
 category: 'accessing'
-method: Square
+method: MySquare
 a
 	^ a
 %
 
 category: 'geometry'
-method: Square
+method: MySquare
 area
 	^ self a squared
 %
 
 category: 'instance creation'
-classmethod: Square
+classmethod: MySquare
 a: a
 	^ self new
 		a: a;
@@ -115,48 +115,48 @@ a: a
 env 7 ############################################################
 ##################################################################
 
-############################Shape#################################
+############################MyShape###############################
 
 category: 'geometry'
-method: Shape
+method: MyShape
 area
 	self subclassResponsibility
 %
 
-############################Rectangle##############################
+############################MyRectangle############################
 
 category: 'accessing'
-method: Rectangle
+method: MyRectangle
 a
 	^ a
 %
 
 category: 'accessing'
-method: Rectangle
+method: MyRectangle
 a: anInteger
 	a := anInteger
 %
 
 category: 'accessing'
-method: Rectangle
+method: MyRectangle
 b
 	^ b
 %
 
 category: 'accessing'
-method: Rectangle
+method: MyRectangle
 b: anInteger
 	b := anInteger
 %
 
 category: 'gemoetry'
-method: Rectangle
+method: MyRectangle
 area
 	^ self a * self b
 %
 
 category: 'instance creation'
-classmethod: Rectangle
+classmethod: MyRectangle
 a: a b: b
 	^ self new
 		a: a;
@@ -164,24 +164,24 @@ a: a b: b
 		yourself
 %
 
-############################Square################################
+############################MySquare##############################
 
 category: 'accessing'
-method: Square
+method: MySquare
 a: anInteger
 	a := anInteger.
 	b := anInteger
 %
 
 category: 'accessing'
-method: Square
+method: MySquare
 b: anInteger
 	a := anInteger.
 	b := anInteger
 %
 
 category: 'instance creation'
-classmethod: Square
+classmethod: MySquare
 a: a
 	^ self new
 		a: a;
