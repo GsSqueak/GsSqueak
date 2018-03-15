@@ -2,7 +2,6 @@
 #include "keyboard.h"
 #include "window.h"
 
-
 struct Window *ffi_create_window(uint32_t x,
                                  uint32_t y,
                                  uint32_t width,
@@ -30,6 +29,11 @@ struct Window *ffi_create_window(uint32_t x,
         .shift_r_pressed = false
     };
 
+    window->event_queue = (struct EventQueue) {
+        .first = NULL,
+        .last = NULL
+    };
+
     return window;
 }
 
@@ -49,7 +53,7 @@ void ffi_destroy_window(struct Window *window) {
 }
 
 
-void fetch_new_events(struct Window *window) {
+static void fetch_new_events(struct Window *window) {
     SDL_Event sdl_event;
 
     while (SDL_PollEvent(&sdl_event)) {
@@ -84,9 +88,15 @@ void ffi_process_events(struct Window *window,
     if (event_queue->first == NULL) {
         fetch_new_events(window);
     }
-
     if (event_queue->first != NULL) {
-        memcpy(squeak_event, event_queue->first, sizeof(struct SqueakEvent));
+        memcpy(squeak_event, &event_queue->first->event, sizeof(struct SqueakEvent));
+
+        struct EventQueueNode *new_head = event_queue->first->next;
+        free(event_queue->first);
+        event_queue->first = new_head;
+        if (new_head == NULL) {
+            event_queue->last = NULL;
+        }
     } else {
         bzero(squeak_event, sizeof(struct SqueakEvent));
     }

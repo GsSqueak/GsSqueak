@@ -93,7 +93,10 @@ static void emit_keyboard_event(const struct ModifierState *modifier_state,
         }
     };
 
-    event_queue->last->next = event_node;
+    if (event_queue->last == NULL)
+        event_queue->first = event_node;
+    else
+        event_queue->last->next = event_node;
     event_queue->last = event_node;
 }
 
