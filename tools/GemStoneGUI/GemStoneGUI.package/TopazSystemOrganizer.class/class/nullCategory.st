@@ -1,0 +1,4 @@
+class initialization
+nullCategory
+
+	^ NullCategory
