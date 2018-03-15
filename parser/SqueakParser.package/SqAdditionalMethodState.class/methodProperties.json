@@ -9,6 +9,7 @@
 		"at:ifAbsent:" : "SL 2/27/2018 13:44",
 		"at:ifAbsentPut:" : "SL 2/27/2018 13:44",
 		"at:put:" : "SL 2/27/2018 13:44",
+		"basicSize" : "Anonymous 03/07/2018 01:32",
 		"copyWith:" : "SL 2/27/2018 13:44",
 		"copyWithout:" : "SL 2/27/2018 13:44",
 		"hasAtLeastTheSamePropertiesAs:" : "SL 2/27/2018 13:44",
@@ -25,7 +26,7 @@
 		"methodHome" : "SL 2/27/2018 13:44",
 		"notEmpty" : "SL 2/27/2018 13:44",
 		"postCopy" : "SL 2/27/2018 13:44",
-		"pragmas" : "SL 2/27/2018 13:44",
+		"pragmas" : "Anonymous 03/07/2018 01:31",
 		"printOn:" : "SL 2/27/2018 13:44",
 		"properties" : "SL 2/27/2018 13:44",
 		"propertyKeysAndValuesDo:" : "SL 2/27/2018 13:44",
@@ -35,4 +36,4 @@
 		"removeKey:ifAbsent:" : "SL 2/27/2018 13:44",
 		"selector" : "SL 2/27/2018 13:44",
 		"selector:" : "SL 2/27/2018 13:44",
-		"setMethod:" : "SL 2/27/2018 13:44" } }
+		"setMethod:" : "Anonymous 03/07/2018 01:31" } }

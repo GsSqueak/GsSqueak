@@ -1,11 +1,10 @@
 error handling
-notify: string at: location 
-	cue requestor isNil
-		ifTrue: [| notification |
-			(encoder == self
-					or: [encoder isNil])
-				ifTrue: [^ self fail"failure setting up syntax error"].
-			(notification := SyntaxErrorNotification
+notify: string at: location
+  cue requestor isNil
+    ifTrue: [ 
+      | notification |
+      (encoder == self or: [ encoder isNil ])
+        ifTrue: [ ^ self fail	"failure setting up syntax error" ].	"(notification := SyntaxErrorNotification
 						inClass: encoder classEncoding
 						withCode: (source contents asText
 								copyReplaceFrom: location
@@ -14,10 +13,7 @@ notify: string at: location
 										 yourself))
 						doitFlag: doitFlag
 						errorMessage: string
-						location: location) signal.
-			notification tryNewSourceIfAvailable]
-		ifFalse: [cue requestor
-				notify: string , ' ->'
-				at: location
-				in: source].
-	^ self fail
+						location: location) signal."
+      self halt	"notification tryNewSourceIfAvailable" ]
+    ifFalse: [ cue requestor notify: string , ' ->' at: location in: source ].
+  ^ self fail
