@@ -89,6 +89,7 @@ static void emit_keyboard_event(const struct ModifierState *modifier_state,
         .time_stamp = time_stamp,
         .key = (struct KeyEvent) {
             .character_code = character_code,
+            .press_state = press_state,
             .modifier_keys = modifier_state_to_squeak(modifier_state)
         }
     };
@@ -104,7 +105,7 @@ static void emit_keyboard_event(const struct ModifierState *modifier_state,
 void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
                            struct ModifierState *modifier_state,
                            struct EventQueue *event_queue) {
-    bool pressed = sdl_event->type == SDL_KEYUP;
+    bool pressed = sdl_event->type == SDL_KEYDOWN;
     switch (sdl_event->keysym.sym) {
         case SDLK_LCTRL:
             modifier_state->ctrl_l_pressed = pressed;
@@ -124,6 +125,8 @@ void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
     }
 
     uint32_t character_code = translate_keycode(sdl_event->keysym.sym);
+
+        
     const uint32_t *press_states;
     if (sdl_event->repeat) {
         emit_keyboard_event(modifier_state,
