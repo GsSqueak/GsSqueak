@@ -8,4 +8,5 @@ username: user password: password
 	result := self login.
 	(result at: 2) ifNotEmpty: [:errorMessage | 
 		self terminate.
-		self error: errorMessage]
+		self error: errorMessage].
+	self initializeSession

@@ -1,0 +1,8 @@
+- class definitions should depend on the environmentProxy
+- 
+
+
+- environmentProxies should represent a UserProfile
+
+
+- Browser>>copyClass has a hard reference to Compiler

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"interface:named:inEnvironment:" : "sl 3/16/2018 22:48" },
+	"instance" : {
+		"classComment:stamp:" : "sl 3/16/2018 20:12",
+		"codeReferencingMe" : "sl 3/16/2018 21:14",
+		"comment:stamp:" : "sl 3/16/2018 20:13",
+		"definition" : "sl 3/16/2018 21:44",
+		"environment" : "sl 3/16/2018 21:55",
+		"environment:" : "sl 3/16/2018 21:55",
+		"instanceSide" : "sl 3/16/2018 20:15",
+		"isMeta" : "sl 3/16/2018 20:38",
+		"name" : "sl 3/16/2018 20:24",
+		"name:" : "sl 3/16/2018 20:23",
+		"printHierarchy" : "sl 3/16/2018 21:25",
+		"printHierarchyForEnv:" : "sl 3/16/2018 21:25",
+		"sourceCodeTemplate" : "sl 3/16/2018 21:32",
+		"superclass" : "sl 3/16/2018 22:45",
+		"superclassForEnv:" : "sl 3/16/2018 22:43",
+		"theMetaClass" : "sl 3/16/2018 22:47",
+		"theNonMetaClass" : "sl 3/16/2018 20:29" } }
