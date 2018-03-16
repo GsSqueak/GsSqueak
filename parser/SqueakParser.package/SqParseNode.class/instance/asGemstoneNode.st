@@ -1,0 +1,3 @@
+translating
+asGemstoneNode
+  self subclassResponibility
