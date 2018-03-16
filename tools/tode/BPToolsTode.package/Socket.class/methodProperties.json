@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"deadlineSecs:" : "TobiasZagorni 11/16/2017 08:22" },
+		"deadlineSecs:" : "TobiasZagorni 11/16/2017 08:22",
+		"newTCP" : "TobiasZagorni 03/16/2018 01:36" },
 	"instance" : {
 		"connectTo:port:" : "TobiasZagorni 11/16/2017 08:14",
 		"sendData:" : "TobiasZagorni 11/16/2017 08:45" } }
