@@ -1,11 +1,7 @@
 {
 	"class" : {
-		"interface:class:" : "sl 3/17/2018 18:04",
-		"interface:class:env:" : "sl 3/17/2018 18:04" },
+		"interface:class:" : "sl 3/18/2018 15:47" },
 	"instance" : {
-		"envId" : "sl 3/17/2018 18:05",
-		"envId:" : "sl 3/17/2018 18:04",
-		"printOn:" : "sl 3/17/2018 18:11",
-		"printString" : "sl 3/17/2018 16:50",
-		"subject" : "sl 3/17/2018 16:40",
-		"subject:" : "sl 3/17/2018 16:40" } }
+		"categoryString" : "sl 3/18/2018 15:38",
+		"envId" : "sl 3/18/2018 15:43",
+		"envId:" : "sl 3/18/2018 15:43" } }

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"envId" ],
-	"name" : "GSGClassOrganizerProxy",
+		"subject" ],
+	"name" : "GSGCategorizerProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGCategorizerProxy",
+	"super" : "GSGObjectProxy",
 	"type" : "normal" }

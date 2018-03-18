@@ -1,4 +1,4 @@
 accessing
 envId: anObject
 	
-	envId := anObject.
+	envId := anObject
