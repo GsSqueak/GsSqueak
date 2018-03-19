@@ -1,4 +1,4 @@
 accessing
 interface
 
-	^ self topazProxy
+	^ interface

@@ -3,6 +3,7 @@
 		"initialize" : "SL 3/6/2018 10:56" },
 	"instance" : {
 		"accept:" : "SL 2/27/2018 13:43",
+		"asGemstoneNodeInEnvironment:" : "Anonymous 03/16/2018 05:58",
 		"asStorableNode:" : "SL 2/27/2018 13:43",
 		"assignmentCheck:at:" : "SL 2/27/2018 13:43",
 		"beingAssignedToAnalyseTempsWithin:rootNode:assignmentPools:" : "SL 2/27/2018 13:43",

@@ -22,6 +22,7 @@ display
   Display inspect.
   HandMorph initialize.
   StandardScriptingSystem initialize.
+  ScriptingSystem initializeSmallHaloIcons.
   CharacterScanner initialize.
   WorldProvider setWorld: nil.
   Smalltalk at: #'World' put: WorldProvider getWorld.

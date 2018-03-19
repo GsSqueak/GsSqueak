@@ -1,4 +1,4 @@
 button actions
 openBrowser
 
-	^ (GSGBrowser topazProxy: self interface) buildAndOpenFullBrowser
+	^ (GSGBrowser interface: self interface) buildAndOpenFullBrowser

@@ -1,8 +1,9 @@
-api
-templateForSubclassOf: class category: category
+new api
+templateForSubclassOf: className category: category
 
 	| topazOutput |
 	self setEnv: 0.
+	self flag: #gsg. "Should take the environment into account"
 	topazOutput := self run: '[:superclass :category |
 | aClass anArray dictionaryName str user |
   user := System myUserProfile.
@@ -37,5 +38,5 @@ templateForSubclassOf: class category: category
     add:
         ''
     options: #() ''.
-  str] value: (' , class , ') value: ''' , category , $'.
+  str] value: (' , className , ') value: ''' , category , $'.
 	^ topazOutput at: 1

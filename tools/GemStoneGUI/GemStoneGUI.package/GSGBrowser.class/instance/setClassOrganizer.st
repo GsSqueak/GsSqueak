@@ -1,10 +1,12 @@
 metaclass
 setClassOrganizer
 	"Install whatever organization is appropriate"
+	| theClass |
 	classOrganizer := nil.
 	metaClassOrganizer := nil.
 	self hasClassSelected ifFalse: [^ self].
-	classOrganizer := TopazClassOrganizer suppliedBy: topazProxy class: selectedClassName.
-	metaClassOrganizer := TopazClassOrganizer suppliedBy: topazProxy metaclassOf: selectedClassName.
-	classOrganizer env: envId.
-	metaClassOrganizer env: envId
+	theClass := self selectedClass ifNil: [ ^self ].
+	classOrganizer := theClass organization.
+	classOrganizer envId: self envId.
+	metaClassOrganizer := theClass classSide organization.
+	metaClassOrganizer envId: self envId

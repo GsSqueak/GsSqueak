@@ -1,4 +1,0 @@
-I'm a cache of values, given a key I return a Value from the cache or from the factory.
-
-I use a Dictionary to find the corresponding value for the given key. I also store the key-value pairs in a circular doubly-linked list with a head element. The list is implemented by an LRUCacheHeadNode - stored in the head instance variable - and an LRUCacheNode for each key-value pair. The nodes in the list are ordered by access time. The first node (next of head) is the most recently accessed, the last one (previous of head) is the least recently accessed.
-If the number of stored key-value pairs is equal to size, and a new pair needs to be stored, then I remove the least recently used pair before adding the new pair.
