@@ -13,20 +13,20 @@ display
   (Smalltalk at: #'DefaultTextStyle') lineGrid: 16.
   Smalltalk at: #'Sensor' put: EventSensor new.
   Smalltalk at: #'Display' put: DisplayScreen new.
-  TextConstants at: #'Tab' put: Character tab.
   LanguageEnvironment clearDefault.
   System commit.
   Display setExtent: 640 @ 480 depth: 32.
   1 to: 10000 do: [ :nr | Display bits byteAt: nr * 4 + 1 put: 255 ].
   Display offset: 0 @ 0.
   Display beDisplay.
+  Display inspect.
   HandMorph initialize.
   StandardScriptingSystem initialize.
   CharacterScanner initialize.
   WorldProvider setWorld: nil.
   Smalltalk at: #'World' put: WorldProvider getWorld.
   WorldState initialize.
-  WorldProvider getWorld viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open."
+  WorldProvider getWorld viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open.	 TextMorph new openInWorld."	"BPTestMorph new openInWorld."
   Workspace open.
   Display forceToScreen.
   WorldProvider getWorld doOneCycle.
