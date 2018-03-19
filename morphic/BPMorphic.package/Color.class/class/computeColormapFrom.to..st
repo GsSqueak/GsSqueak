@@ -13,7 +13,7 @@ computeColormapFrom: sourceDepth to: destDepth
         copyFrom: 1
         to: (1 bitShift: sourceDepth))
         collect: [ :c | c pixelValueForDepth: destDepth ].
-      _gsSqueakTemp_map := _gsSqueakTemp_map as: MyBitmap ]
+      _gsSqueakTemp_map := _gsSqueakTemp_map as: Bitmap ]
     ifFalse: [ 
       "source is 16-bit or 32-bit RGB"
       destDepth > 8

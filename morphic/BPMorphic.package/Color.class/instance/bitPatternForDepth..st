@@ -23,7 +23,7 @@ bitPatternForDepth: depth
 
   cachedDepth := depth.
   depth > 2
-    ifTrue: [ ^ cachedBitPattern := MyBitmap with: (self pixelWordForDepth: depth) ].
+    ifTrue: [ ^ cachedBitPattern := Bitmap with: (self pixelWordForDepth: depth) ].
   depth = 1
     ifTrue: [ ^ cachedBitPattern := self halfTonePattern1 ].
   depth = 2

@@ -10,5 +10,5 @@ fillShape: aShapeForm fillColor: aColor at: location
     destOrigin: location + aShapeForm offset
     sourceOrigin: 0 @ 0
     extent: self extent
-    clipRect: self boundingBox) colorMap: (MyBitmap with: 0 with: 4294967295))
+    clipRect: self boundingBox) colorMap: (Bitmap with: 0 with: 4294967295))
     copyBits

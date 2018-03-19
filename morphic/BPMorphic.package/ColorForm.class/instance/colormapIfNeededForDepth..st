@@ -10,7 +10,7 @@ colormapIfNeededForDepth: destDepth
       ^ Color colorMapIfNeededFrom: self depth to: destDepth ].
   (destDepth = cachedDepth and: [ cachedColormap isColormap not ])
     ifTrue: [ ^ cachedColormap ].
-  _gsSqueakTemp_newMap := MyBitmap new: colors size.
+  _gsSqueakTemp_newMap := Bitmap new: colors size.
   1 to: colors size do: [ :i | _gsSqueakTemp_newMap at: i put: ((colors at: i) pixelValueForDepth: destDepth) ].
   cachedDepth := destDepth.
   ^ cachedColormap := _gsSqueakTemp_newMap

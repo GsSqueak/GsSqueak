@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Anonymous 03/19/2018 07:54",
+	"instvars" : [
+		"cArray" ],
+	"name" : "Bitmap",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

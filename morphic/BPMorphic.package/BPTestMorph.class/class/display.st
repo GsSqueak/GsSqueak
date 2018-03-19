@@ -19,7 +19,6 @@ display
   1 to: 10000 do: [ :nr | Display bits byteAt: nr * 4 + 1 put: 255 ].
   Display offset: 0 @ 0.
   Display beDisplay.
-  Display inspect.
   HandMorph initialize.
   StandardScriptingSystem initialize.
   ScriptingSystem initializeSmallHaloIcons.

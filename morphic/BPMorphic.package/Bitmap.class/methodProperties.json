@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"instSize" : "Anonymous 03/19/2018 07:54",
+		"isPointers" : "Anonymous 03/19/2018 07:54",
+		"new" : "Anonymous 03/19/2018 07:54",
+		"new:" : "Anonymous 03/19/2018 07:58",
+		"newFrom:" : "Anonymous 03/19/2018 07:54",
+		"with:" : "Anonymous 03/19/2018 07:54",
+		"with:with:" : "Anonymous 03/19/2018 07:54" },
+	"instance" : {
+		"at:" : "Anonymous 03/19/2018 08:08",
+		"at:put:" : "Anonymous 03/19/2018 08:08",
+		"basicAt:" : "Anonymous 03/19/2018 08:09",
+		"basicAt:put:" : "Anonymous 03/19/2018 08:08",
+		"basicSize" : "Anonymous 03/19/2018 07:54",
+		"byteAt:put:" : "Anonymous 03/19/2018 08:08",
+		"cArray" : "Anonymous 03/19/2018 07:54",
+		"cArray:" : "Anonymous 03/19/2018 07:54",
+		"collect:" : "Anonymous 03/19/2018 07:54",
+		"do:" : "Anonymous 03/19/2018 07:54",
+		"isColormap" : "Anonymous 03/19/2018 07:54",
+		"size" : "Anonymous 03/19/2018 07:54" } }

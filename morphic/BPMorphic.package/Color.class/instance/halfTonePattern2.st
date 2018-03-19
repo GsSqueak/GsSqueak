@@ -6,22 +6,22 @@ halfTonePattern2
   | _gsSqueakTemp_lum |
   _gsSqueakTemp_lum := self luminance.
   _gsSqueakTemp_lum < (125 / 1000)
-    ifTrue: [ ^ MyBitmap with: 1431655765 ].	"black"
+    ifTrue: [ ^ Bitmap with: 1431655765 ].	"black"
   _gsSqueakTemp_lum < (25 / 100)
-    ifTrue: [ ^ MyBitmap with: 1431655765 with: 3722304989 ].	"1/8 gray"
+    ifTrue: [ ^ Bitmap with: 1431655765 with: 3722304989 ].	"1/8 gray"
   _gsSqueakTemp_lum < (375 / 1000)
-    ifTrue: [ ^ MyBitmap with: 3722304989 with: 2004318071 ].	"2/8 gray"
+    ifTrue: [ ^ Bitmap with: 3722304989 with: 2004318071 ].	"2/8 gray"
   _gsSqueakTemp_lum < (5 / 10)
-    ifTrue: [ ^ MyBitmap with: 4294967295 with: 2004318071 ].	"3/8 gray"
+    ifTrue: [ ^ Bitmap with: 4294967295 with: 2004318071 ].	"3/8 gray"
   _gsSqueakTemp_lum < (625 / 1000)
-    ifTrue: [ ^ MyBitmap with: 4294967295 ].	"4/8 gray"
+    ifTrue: [ ^ Bitmap with: 4294967295 ].	"4/8 gray"
   _gsSqueakTemp_lum < (75 / 100)
-    ifTrue: [ ^ MyBitmap with: 4294967295 with: 3149642683 ].	"5/8 gray"
+    ifTrue: [ ^ Bitmap with: 4294967295 with: 3149642683 ].	"5/8 gray"
   _gsSqueakTemp_lum < (875 / 1000)
-    ifTrue: [ ^ MyBitmap with: 4008636142 with: 3149642683 ].	"6/8 gray"
+    ifTrue: [ ^ Bitmap with: 4008636142 with: 3149642683 ].	"6/8 gray"
   _gsSqueakTemp_lum < 1
-    ifTrue: [ ^ MyBitmap with: 2863311530 with: 3149642683 ].	"7/8 gray"
-  ^ MyBitmap with: 2863311530	"opaque white"	"handy expression for computing patterns for 2x2 tiles;
+    ifTrue: [ ^ Bitmap with: 2863311530 with: 3149642683 ].	"7/8 gray"
+  ^ Bitmap with: 2863311530	"opaque white"	"handy expression for computing patterns for 2x2 tiles;
 	set p to a string of 4 letters (e.g., 'wggw' for a gray-and-
 	white checkerboard) and print the result of evaluating:
 	| p d w1 w2 |

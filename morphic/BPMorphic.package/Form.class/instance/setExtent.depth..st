@@ -9,4 +9,4 @@ setExtent: extent depth: bitsPerPixel
   height < 0
     ifTrue: [ height := 0 ].
   depth := bitsPerPixel.
-  bits := MyBitmap new: self bitsSize
+  bits := Bitmap new: self bitsSize
