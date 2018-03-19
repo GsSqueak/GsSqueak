@@ -5,5 +5,5 @@ formAtKey: aString
 		hasInterned: aString
 		ifTrue: [:aKey | ^ FormDictionary
 				at: aKey
-				ifAbsent: [FormDictionary at: #Cat]].
-	^ FormDictionary at: #Cat
+				ifAbsent: []].
+	^ nil

@@ -1,0 +1,3 @@
+scripts-execution
+stopRunning
+	self stopProgramatically

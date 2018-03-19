@@ -1,0 +1,3 @@
+slot-kedama
+getReplicated
+	^ self

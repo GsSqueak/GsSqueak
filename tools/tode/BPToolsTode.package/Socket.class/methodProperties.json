@@ -4,4 +4,7 @@
 		"newTCP" : "TobiasZagorni 03/16/2018 01:36" },
 	"instance" : {
 		"connectTo:port:" : "TobiasZagorni 11/16/2017 08:14",
-		"sendData:" : "TobiasZagorni 11/16/2017 08:45" } }
+		"sendData:" : "TobiasZagorni 11/16/2017 08:45",
+		"sendData:count:" : "Anonymous 03/16/2018 01:42",
+		"sendSomeData:startIndex:count:" : "Anonymous 03/16/2018 01:43",
+		"writeFrom:startingAt:for:" : "Anonymous 03/16/2018 01:43" } }

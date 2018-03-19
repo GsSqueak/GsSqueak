@@ -1,0 +1,18 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		"scripts",
+		"slotInfo",
+		"variableDocks" ],
+	"classvars" : [
+		"BiggestSubclassNumber",
+		"TimeOfError" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"costume",
+		"costumes" ],
+	"name" : "Player",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

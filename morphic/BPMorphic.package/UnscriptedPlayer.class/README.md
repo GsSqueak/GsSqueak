@@ -1,0 +1,1 @@
+My instances are Player objects that have not been scripted, and which hence do not require a unique scripts dictionary, etc.  As soon as the needed, I am transformed automatically into a unique subclass of Player.

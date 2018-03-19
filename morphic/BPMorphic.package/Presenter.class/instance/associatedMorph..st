@@ -1,0 +1,3 @@
+access
+associatedMorph: m 
+	^ self

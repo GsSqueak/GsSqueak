@@ -1,0 +1,3 @@
+stubs
+browseAllScriptsTextually
+	^ self

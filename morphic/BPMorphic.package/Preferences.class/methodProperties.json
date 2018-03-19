@@ -1,9 +1,11 @@
 {
 	"class" : {
 		"alternateHandlesLook" : "jb 02/15/2018 01:39",
+		"alternativeWindowBoxesLook" : "Anonymous 03/16/2018 03:14",
 		"alwaysHideHScrollbar" : "Anonymous 03/15/2018 10:54",
 		"alwaysShowVScrollbar" : "Anonymous 03/15/2018 10:54",
 		"balloonHelpEnabled" : "jb 02/15/2018 02:21",
+		"bigDisplay" : "Anonymous 03/16/2018 05:52",
 		"biggerHandles" : "jb 02/15/2018 01:27",
 		"cmdGesturesEnabled" : "jb 02/15/2018 01:08",
 		"cmdKeysInText" : "jb 02/15/2018 01:03",
@@ -27,6 +29,7 @@
 		"noviceMode" : "jb 02/08/2018 05:38",
 		"oliveHandleForScriptedObjects" : "jb 02/15/2018 02:05",
 		"propertySheetFromHalo" : "jb 02/15/2018 02:06",
+		"reverseWindowStagger" : "Anonymous 03/16/2018 05:53",
 		"scrollBarsNarrow" : "Anonymous 03/15/2018 10:53",
 		"selectiveHalos" : "jb 02/15/2018 01:37",
 		"serverMode" : "jb 01/18/2018 07:02",
@@ -34,6 +37,7 @@
 		"showChooseGraphicHaloHandle" : "jb 02/15/2018 02:08",
 		"showDirectionHandles" : "jb 02/15/2018 01:27",
 		"simpleHalosInForce" : "jb 02/15/2018 01:20",
+		"standardCodeFont" : "Anonymous 03/16/2018 05:18",
 		"standardHaloLabelFont" : "TobiasZagorni 03/14/2018 05:38",
 		"swapControlAndAltKeys" : "jb 02/01/2018 05:47",
 		"swapMouseButtons" : "jb 02/01/2018 05:48",

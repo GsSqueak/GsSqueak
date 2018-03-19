@@ -1,3 +1,3 @@
-as yet unclassified
+-widgets-signals
 positionChanged: aPoint
   self emit

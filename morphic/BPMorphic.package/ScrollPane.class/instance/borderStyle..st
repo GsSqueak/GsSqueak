@@ -1,4 +1,3 @@
 accessing
-borderStyle: aBorderStyle 
-	super borderStyle: aBorderStyle.
-	self setScrollDeltas
+borderStyle: aBorderStyle
+  super borderStyle: aBorderStyle	"self setScrollDeltas"
