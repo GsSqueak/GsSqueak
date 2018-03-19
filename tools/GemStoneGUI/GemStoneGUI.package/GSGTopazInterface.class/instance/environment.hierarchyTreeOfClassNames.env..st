@@ -11,4 +11,4 @@ environment: environmentProxy hierarchyTreeOfClassNames: classes env: envId
 					env: envId)).
 	self setEnv: 0.
 	topazOutput := self run: code.
-	^ self convertToHierarchyTree: (topazOutput at: 1)
+	^ self convertToHierarchyTree: (topazOutput at: 1) environment: environmentProxy

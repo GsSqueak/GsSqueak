@@ -2,6 +2,9 @@
 	"class" : {
 		"interface:class:" : "sl 3/18/2018 15:47" },
 	"instance" : {
+		"allElements" : "sl 3/19/2018 14:35",
+		"categoryArray" : "sl 3/19/2018 14:35",
 		"categoryString" : "sl 3/18/2018 15:38",
 		"envId" : "sl 3/18/2018 15:43",
-		"envId:" : "sl 3/18/2018 15:43" } }
+		"envId:" : "sl 3/18/2018 15:43",
+		"listAtCategoryNamed:" : "sl 3/19/2018 14:37" } }

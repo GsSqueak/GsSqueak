@@ -1,5 +1,5 @@
 new api - classes
-superclassFor: classProxy env: envId
+class: classProxy superclassForEnv: envId
 
 	| code topazOutput superclassName |
 	code := '(' , classProxy codeReferencingMe , ' superclassForEnv: ' , envId , ') ' ,
@@ -8,6 +8,6 @@ superclassFor: classProxy env: envId
 	topazOutput := self run: code.
 	superclassName := topazOutput at: 1.
 	^ superclassName = 'nil'
-		ifTrue: [self convertToClassProxy: superclassName 
+		ifTrue: [self classProxyNamed: superclassName 
 					inEnvironment: classProxy environment]
 		ifFalse: [nil]

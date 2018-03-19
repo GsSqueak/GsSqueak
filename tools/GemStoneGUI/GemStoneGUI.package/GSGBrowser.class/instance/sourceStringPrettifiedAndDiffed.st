@@ -6,7 +6,7 @@ sourceStringPrettifiedAndDiffed
 	class := self selectedClassOrMetaClass.
 	selector := self selectedMessageName.
 	(class isNil or: [selector isNil]) ifTrue: [^'missing'].
-	sourceString := class ultimateSourceCodeAt: selector ifAbsent: [^'error'].
+	sourceString := class ultimateSourceCodeAt: selector env: self envId ifAbsent: [^'error'].
 	"self validateMessageSource: sourceString forSelector: selector inClass: class."
 	(#(#prettyPrint #prettyDiffs) 
 		includes: contentsSymbol) 

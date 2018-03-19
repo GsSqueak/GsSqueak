@@ -1,4 +1,4 @@
-accessing parallel hierarchy
+accessing class hierarchy
 instanceSide
 
 	^ self theNonMetaClass

@@ -1,5 +1,5 @@
-parsing topaz output
-convertToClassProxy: className inEnvironment: environmentProxy
+proxies
+classProxyNamed: className inEnvironment: environmentProxy
 
 	^ ('* class' match: className)
 		ifTrue: [GSGMetaclassProxy
@@ -10,4 +10,3 @@ convertToClassProxy: className inEnvironment: environmentProxy
 					interface: self
 					named: className 
 					inEnvironment: environmentProxy]
-		

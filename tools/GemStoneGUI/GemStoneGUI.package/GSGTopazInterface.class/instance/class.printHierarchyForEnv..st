@@ -1,5 +1,5 @@
 new api - classes
-printHierarchyFor: classProxy env: envId
+class: classProxy printHierarchyForEnv: envId
 
 	| topazOutput |
 	self setEnv: 0.

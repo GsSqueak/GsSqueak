@@ -6,5 +6,4 @@ selectedClass
 	| name envt |
 	(name := self selectedClassName) ifNil: [^ nil].
 	(envt := self selectedEnvironment) ifNil: [^ nil].
-	^ (envt at: name ifAbsent: [envt valueOf: name ifAbsent: [nil]])
-		ifNotNil: [:result | result asClassProxy]
+	^ envt classNamed: name
