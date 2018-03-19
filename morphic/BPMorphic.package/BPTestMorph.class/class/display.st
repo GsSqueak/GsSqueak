@@ -22,12 +22,13 @@ display
   Display beDisplay.
   HandMorph initialize.
   StandardScriptingSystem initialize.
+  ScriptingSystem initializeSmallHaloIcons.
   CharacterScanner initialize.
   WorldProvider setWorld: nil.
   Smalltalk at: #'World' put: WorldProvider getWorld.
   WorldState initialize.
   WorldProvider getWorld viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open."
-  Workspace open.
+  BPTestMorph new openInWorld.
   Display forceToScreen.
   WorldProvider getWorld doOneCycle.
   [ true ] whileTrue: [ World doOneCycle	"Simulate Animation Framework" ]

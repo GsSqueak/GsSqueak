@@ -2,7 +2,7 @@
 	"class" : {
 		"applyNewEToyLook" : "nk 9/1/2004 10:53",
 		"cleanUp:" : "ar 2/27/2010 00:19",
-		"initialize" : "TobiasZagorni 03/14/2018 05:58",
+		"initialize" : "TobiasZagorni 03/19/2018 04:15",
 		"noteAddedSelector:meta:" : "ar 1/3/2010 16:52",
 		"registerInFlapsRegistry" : "TobiasZagorni 03/15/2018 09:11",
 		"removePlayersIn:" : "yo 4/5/2007 21:58",
@@ -13,7 +13,7 @@
 		"customizeForEToyUsers:" : "mt 8/26/2015 17:44",
 		"deletePrivateGraphics" : "ar 3/3/2001 19:45",
 		"deletePrivateGraphics:afterStoringToFileNamed:" : "nice 12/26/2009 21:56",
-		"formAtKey:" : "tfel 8/1/2016 15:58",
+		"formAtKey:" : "TobiasZagorni 03/19/2018 04:38",
 		"formAtKey:extent:depth:" : "ar 3/3/2001 19:46",
 		"formDictionary" : "ar 3/3/2001 19:49",
 		"helpStringOrNilFor:" : "dgd 9/1/2003 14:25",

@@ -1,15 +1,12 @@
 {
 	"class" : {
 		"alternateHandlesLook" : "jb 02/15/2018 01:39",
-		"alwaysHideHScrollbar" : "Anonymous 03/15/2018 10:54",
-		"alwaysShowVScrollbar" : "Anonymous 03/15/2018 10:54",
 		"balloonHelpEnabled" : "jb 02/15/2018 02:21",
 		"biggerHandles" : "jb 02/15/2018 01:27",
 		"cmdGesturesEnabled" : "jb 02/15/2018 01:08",
 		"cmdKeysInText" : "jb 02/15/2018 01:03",
 		"debugHaloHandle" : "jb 02/15/2018 01:57",
 		"defaultWorldColor" : "jb 01/18/2018 03:27",
-		"disable:" : "Anonymous 03/15/2018 11:03",
 		"duplicateAllControlAndAltKeys" : "jb 02/01/2018 05:48",
 		"duplicateControlAndAltKeys" : "jb 02/01/2018 05:04",
 		"eToyFriendly" : "jb 02/08/2018 05:40",
@@ -27,7 +24,6 @@
 		"noviceMode" : "jb 02/08/2018 05:38",
 		"oliveHandleForScriptedObjects" : "jb 02/15/2018 02:05",
 		"propertySheetFromHalo" : "jb 02/15/2018 02:06",
-		"scrollBarsNarrow" : "Anonymous 03/15/2018 10:53",
 		"selectiveHalos" : "jb 02/15/2018 01:37",
 		"serverMode" : "jb 01/18/2018 07:02",
 		"showBoundsInHalo" : "jb 02/15/2018 01:22",
@@ -38,7 +34,6 @@
 		"swapControlAndAltKeys" : "jb 02/01/2018 05:47",
 		"swapMouseButtons" : "jb 02/01/2018 05:48",
 		"textHighlightColor" : "TobiasZagorni 03/15/2018 02:39",
-		"uniqueNamesInHalos" : "jb 02/15/2018 02:08",
-		"valueOfFlag:" : "Anonymous 03/15/2018 10:52" },
+		"uniqueNamesInHalos" : "jb 02/15/2018 02:08" },
 	"instance" : {
 		 } }

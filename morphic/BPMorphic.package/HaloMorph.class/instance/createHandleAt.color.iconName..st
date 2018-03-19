@@ -16,7 +16,7 @@ createHandleAt: aPoint color: aColor iconName: iconName
   iconName isNil
     ifFalse: [ 
       | form |
-      form := nil.	"ScriptingSystem formAtKey: iconName."	"TODO HACK"
+      form := ScriptingSystem formAtKey: iconName.
       form isNil
         ifFalse: [ 
           | image |
