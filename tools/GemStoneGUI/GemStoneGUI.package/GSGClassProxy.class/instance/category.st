@@ -1,4 +1,4 @@
 organization
 category
 
-	^ self interface systemCategoryFor: self
+	^ self environment organization categoryOfElement: self theNonMetaClass name asSymbol

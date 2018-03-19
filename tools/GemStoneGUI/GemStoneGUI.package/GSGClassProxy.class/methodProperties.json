@@ -3,7 +3,7 @@
 		"interface:named:inEnvironment:" : "sl 3/16/2018 22:48" },
 	"instance" : {
 		"allInstVarNames" : "sl 3/19/2018 14:44",
-		"category" : "sl 3/18/2018 15:19",
+		"category" : "sl 3/19/2018 21:55",
 		"classComment:stamp:" : "sl 3/16/2018 20:12",
 		"classSide" : "sl 3/19/2018 14:20",
 		"codeReferencingMe" : "sl 3/16/2018 21:14",
@@ -29,4 +29,5 @@
 		"theMetaClass" : "sl 3/16/2018 22:47",
 		"theNonMetaClass" : "sl 3/16/2018 20:29",
 		"ultimateSourceCodeAt:env:ifAbsent:" : "sl 3/18/2018 14:48",
+		"whichCategoryIncludesSelector:" : "sl 3/19/2018 21:51",
 		"withAllSuperclassesInEnv:do:" : "sl 3/19/2018 15:07" } }
