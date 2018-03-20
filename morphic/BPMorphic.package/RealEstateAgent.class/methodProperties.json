@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"assignCollapseFrameFor:" : "Anonymous 03/20/2018 04:29",
+		"assignCollapsePointFor:" : "Anonymous 03/20/2018 04:28",
+		"initialFrameFor:initialExtent:world:" : "mt 8/19/2016 15:58",
+		"initialFrameFor:world:" : "RAA 5/25/2000 08:13",
+		"initialize" : "tk 11/26/1998 09:34",
+		"maximumUsableArea" : "nice 12/15/2013 22:32",
+		"maximumUsableAreaInWorld:" : "Anonymous 03/16/2018 05:54",
+		"normalInitialFrameFor:initialExtent:world:" : "Anonymous 03/20/2018 04:30",
+		"scaleFactor" : "mt 8/19/2016 15:58",
+		"screenTopSetback" : "Anonymous 03/16/2018 05:55",
+		"scrollBarSetback" : "Anonymous 03/16/2018 05:55",
+		"standardPositions" : "RAA 5/25/2000 08:45",
+		"standardPositionsInWorld:" : "RAA 5/25/2000 08:43",
+		"standardSize" : "cmm 6/8/2010 18:26",
+		"standardSize:" : "cmm 6/9/2010 15:12",
+		"standardWindowExtent" : "cbr 3/30/2010 17:30",
+		"strictlyStaggeredInitialFrameFor:initialExtent:world:" : "Anonymous 03/20/2018 04:33",
+		"windowColumnsDesired" : "RAA 11/21/1999 22:54",
+		"windowRowsDesired" : "RAA 11/21/1999 22:54" },
+	"instance" : {
+		 } }

@@ -1,0 +1,3 @@
+disused options
+slidesOtherObjects
+	^ slidesOtherObjects
