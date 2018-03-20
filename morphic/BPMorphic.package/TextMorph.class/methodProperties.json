@@ -11,7 +11,7 @@
 		"fancyPrototype" : "yo 9/27/2006 22:34",
 		"includeInNewMorphMenu" : "kfr 5/1/2000 13:42",
 		"initialize" : "ar 1/2/2010 14:47",
-		"registerInFlapsRegistry" : "kfr 5/18/2011 22:17",
+		"registerInFlapsRegistry" : "Anonymous 03/20/2018 06:03",
 		"unload" : "asm 4/11/2003 12:41" },
 	"instance" : {
 		"acceptContents" : "di 4/22/1998 10:57",
@@ -112,7 +112,7 @@
 		"isTextMorph" : "ar 12/17/2001 12:46",
 		"isWrapped" : "RAA 8/21/2001 11:18",
 		"justified" : "di 10/25/97 19:20",
-		"keyStroke:" : "TobiasZagorni 03/15/2018 06:36",
+		"keyStroke:" : "Anonymous 03/20/2018 05:57",
 		"keyboardFocusChange:" : "mt 6/5/2016 09:26",
 		"lastCharacterIndex" : "jm 10/28/97 18:31",
 		"leftFlush" : "di 10/25/97 19:20",

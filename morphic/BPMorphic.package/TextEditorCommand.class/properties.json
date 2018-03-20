@@ -1,0 +1,28 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"interval",
+		"message",
+		"paragraph",
+		"selection",
+		"contentsBefore",
+		"contentsAfter",
+		"intervalBefore",
+		"intervalAfter",
+		"valid",
+		"messageToUndo",
+		"messageToRedo",
+		"intervalBetween",
+		"type",
+		"isCompositeUndo",
+		"isCompositeRedo" ],
+	"name" : "TextEditorCommand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

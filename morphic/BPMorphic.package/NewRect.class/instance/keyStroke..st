@@ -1,7 +1,5 @@
 as yet unclassified
 keyStroke: anEvent
-  "Transcript
+  Transcript
     show: 'key stroke: ' , anEvent keyCharacter;
-    cr.
-  self halt"
-
+    cr
