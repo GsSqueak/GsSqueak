@@ -1,6 +1,7 @@
 translating
 asGemstoneLeafInEnvironment: env argNumber: oneBasedArgNum forBlock: aGsComBlockNode
   | gsVarLeaf |
+  self halt.
   gsVarLeaf := GsComVarLeaf new.
   self isBlockArg
     ifTrue: [ gsVarLeaf blockArg: self key argNumber: self index forBlock: aGsComBlockNode ]
