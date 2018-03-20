@@ -1,4 +1,4 @@
 printing
 categoryString
 
-	self interface messageCategoryStringFor: self env: self envId
+	^ self interface messageCategoryStringFor: self env: self envId

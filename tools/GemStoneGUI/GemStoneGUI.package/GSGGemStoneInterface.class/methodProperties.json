@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"classProxyNamed:inEnvironment:" : "sl 3/19/2018 13:50",
 		"environmentProxyForOop:" : "sl 3/16/2018 13:55",
 		"objectProxyForOop:" : "sl 3/16/2018 20:03",
 		"supportsTraits" : "sl 3/16/2018 15:12" } }

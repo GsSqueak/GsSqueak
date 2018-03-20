@@ -1,0 +1,7 @@
+set gemstone test2
+set username DataCurator
+set password swordfish
+set hostusername datacurator
+set hostpassword swordfish
+set gemnetid !@172.18.13.84#netldi:43991!gemnetobject
+login

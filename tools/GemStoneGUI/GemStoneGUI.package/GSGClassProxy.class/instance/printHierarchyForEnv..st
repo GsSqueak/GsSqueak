@@ -1,4 +1,4 @@
 printing
 printHierarchyForEnv: envId
 
-	^ self interface printHierarchyFor: self env: envId
+	^ self interface class: self printHierarchyForEnv: envId
