@@ -130,22 +130,27 @@ void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
 
     const uint32_t *press_states;
     if (sdl_event->repeat) {
-        emit_keyboard_event(modifier_state,
-                            character_code,
-                            KEY_REPEAT,
-                            sdl_event->timestamp,
-                            event_queue);
+        if(sdl_event->keysym.sym == character_code){//!modifier
+            emit_keyboard_event(modifier_state,
+                                character_code,
+                                KEY_REPEAT,
+                                sdl_event->timestamp,
+                                event_queue);
+        }
     } else if (sdl_event->type == SDL_KEYDOWN) {
         emit_keyboard_event(modifier_state,
                             character_code,
                             KEY_DOWN,
                             sdl_event->timestamp,
                             event_queue);
-        emit_keyboard_event(modifier_state,
-                            character_code,
-                            KEY_REPEAT,
-                            sdl_event->timestamp,
-                            event_queue);
+
+        if(sdl_event->keysym.sym == character_code){//!modifier
+            emit_keyboard_event(modifier_state,
+                                character_code,
+                                KEY_REPEAT,
+                                sdl_event->timestamp,
+                                event_queue);
+        }
     } else {
         emit_keyboard_event(modifier_state,
                             character_code,

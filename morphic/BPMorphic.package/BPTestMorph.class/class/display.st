@@ -21,6 +21,7 @@ display
   Display beDisplay.
   HandMorph initialize.
   TextMorph initialize.
+  SmalltalkEditor initialize.
   StandardScriptingSystem initialize.
   ScriptingSystem initializeSmallHaloIcons.
   CharacterScanner initialize.
@@ -28,7 +29,7 @@ display
   Smalltalk at: #'World' put: WorldProvider getWorld.
   WorldState initialize.
   WorldProvider getWorld viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open.	 TextMorph new openInWorld."	"BPTestMorph new openInWorld."
-  TextMorph new openInWorld.
-  Display forceToScreen.
+  BPTestMorph new openInWorld.
+  Workspace open.
   WorldProvider getWorld doOneCycle.
   [ true ] whileTrue: [ World doOneCycle	"Simulate Animation Framework" ]

@@ -1,4 +1,3 @@
 private
 updateFromParagraph
-	super updateFromParagraph.
-	editView setScrollDeltas
+  super updateFromParagraph	"editView setScrollDeltas"
