@@ -3,14 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"common",
-		"commonState" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"text",
-		"background" ],
-	"name" : "BPTestMorph",
+		 ],
+	"name" : "RcRecentInteger",
 	"pools" : [
 		 ],
-	"super" : "NewRect",
-	"type" : "normal" }
+	"super" : "RcCounter",
+	"type" : "variable" }

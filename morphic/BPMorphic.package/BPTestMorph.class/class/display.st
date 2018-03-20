@@ -14,7 +14,6 @@ display
   Smalltalk at: #'Sensor' put: EventSensor new.
   Smalltalk at: #'Display' put: DisplayScreen new.
   LanguageEnvironment clearDefault.
-  System commit.
   Display setExtent: 640 @ 480 depth: 32.
   1 to: 10000 do: [ :nr | Display bits byteAt: nr * 4 + 1 put: 255 ].
   Display offset: 0 @ 0.
@@ -29,7 +28,6 @@ display
   Smalltalk at: #'World' put: WorldProvider getWorld.
   WorldState initialize.
   WorldProvider getWorld viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open.	 TextMorph new openInWorld."	"BPTestMorph new openInWorld."
-  BPTestMorph new openInWorld.
-  Workspace open.
+  BPTestMorph getCommon openInWorld.
   WorldProvider getWorld doOneCycle.
   [ true ] whileTrue: [ World doOneCycle	"Simulate Animation Framework" ]
