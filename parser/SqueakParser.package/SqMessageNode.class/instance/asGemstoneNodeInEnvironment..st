@@ -4,7 +4,8 @@ asGemstoneNodeInEnvironment: env
   GsSendNode := GsComSendNode new.
   GsSendNode
     stSelector: (self selector asGemstoneNodeInEnvironment: env);
-    rcvr: (self receiver asGemstoneNodeInEnvironment: env).
+    rcvr:
+        (self receiver ifNotNil: [ self receiver asGemstoneNodeInEnvironment: env ]).
   self arguments
     do: [ :argument | GsSendNode appendArgument: (argument asGemstoneNodeInEnvironment: env) ].
   self flag: #'toDo'.
