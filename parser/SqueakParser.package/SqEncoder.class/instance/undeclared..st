@@ -1,6 +1,7 @@
 encoding
 undeclared: name
   | sym |
+  self break.
   (requestor notNil and: [ requestor interactive ])
     ifTrue: [ 
       requestor requestor == #'error:'
@@ -13,7 +14,7 @@ undeclared: name
 	[Compiler format: code in: class notifying: nil decorated: false]
 	on: UndeclaredVariableWarning
 	do: [:ex| ex resume: false]"
-  sym := name asSymbol	"^ (UndeclaredVariableWarning new
+  ^ sym := name asSymbol	"^ (UndeclaredVariableWarning new
 			name: name
 			selector: selector
 			class: cue getClass) signal
