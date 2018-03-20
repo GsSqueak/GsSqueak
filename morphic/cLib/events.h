@@ -7,7 +7,7 @@ struct KeyEvent {
     uint32_t character_code;
     uint32_t press_state;
     uint32_t modifier_keys;
-    uint32_t unused_6;
+    uint32_t utf8_key;
     uint32_t unused_7;
     uint32_t unused_8;
 };

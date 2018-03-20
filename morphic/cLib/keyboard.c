@@ -90,7 +90,8 @@ static void emit_keyboard_event(const struct ModifierState *modifier_state,
         .key = (struct KeyEvent) {
             .character_code = character_code,
             .press_state = press_state,
-            .modifier_keys = modifier_state_to_squeak(modifier_state)
+            .modifier_keys = modifier_state_to_squeak(modifier_state),
+            .utf8_key = character_code
         }
     };
 
@@ -126,7 +127,7 @@ void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
 
     uint32_t character_code = translate_keycode(sdl_event->keysym.sym);
 
-        
+
     const uint32_t *press_states;
     if (sdl_event->repeat) {
         emit_keyboard_event(modifier_state,
@@ -153,4 +154,3 @@ void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
                             event_queue);
     }
 }
-
