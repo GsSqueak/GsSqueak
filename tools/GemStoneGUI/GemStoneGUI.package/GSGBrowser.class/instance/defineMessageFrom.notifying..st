@@ -8,7 +8,7 @@ defineMessageFrom: aString notifying: aController
 	contents := nil.
 	category := selectedMessageName
 		ifNil: [self selectedMessageCategoryName]
-		ifNotNil: [selectedClassOrMetaClass whichCategoryIncludesSelector: selectedMessageName].
+		ifNotNil: [self classOrMetaClassOrganizer categoryOfElement: selectedMessageName].
 	category ifNil: [category := ClassOrganizer default].
 	selector := selectedClassOrMetaClass
 				compile: aString
@@ -16,6 +16,7 @@ defineMessageFrom: aString notifying: aController
 				env: self envId
 				notifying: aController.
 	selector == nil ifTrue: [^ nil].
+	self classOrMetaClassOrganizer setTimeStamp: Utilities changeStamp forMethod: selector.
 	contents := aString copy.
 	selector ~~ selectedMessageName
 		ifTrue: 

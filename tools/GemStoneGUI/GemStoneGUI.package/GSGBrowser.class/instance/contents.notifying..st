@@ -12,8 +12,8 @@ contents: input notifying: aController
 	aText := input asText.
 	"editSelection == #newTrait ifTrue: [^self defineTrait: input asString notifying: aController]."
 	"editSelection == #editSystemCategories ifTrue: [^ self changeSystemCategories: aString]."
-	"editSelection == #editClass | (editSelection == #newClass) ifTrue: [^ self defineClass: aString notifying: aController]."
-	"editSelection == #editComment
+	editSelection == #editClass | (editSelection == #newClass) ifTrue: [^ self defineClass: aString notifying: aController].
+	editSelection == #editComment
 		ifTrue: 
 			[theClass := self selectedClass.
 			theClass
@@ -23,7 +23,7 @@ before giving it a comment.'.
 					^ false].
 			theClass comment: aText stamp: Utilities changeStamp.
 			self changed: #classCommentText.
-			^ true]."
+			^ true].
 	editSelection == #hierarchy ifTrue: [^ true].
 	"editSelection == #editMessageCategories ifTrue: [^ self changeMessageCategories: aString]."
 	editSelection == #editMessage | (editSelection == #newMessage)
