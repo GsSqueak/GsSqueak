@@ -5,7 +5,7 @@ class: classProxy sourceCodeAt: selector env: envId ifAbsent: aBlock
 	code := '[:class :selector :envId |
 [class sourceCodeAt: selector environmentId: envId]
     onException: Error
-    do: [ :ex | nil]] value: ' , classProxy codeReferencingMe , ' value: #''' , selector , ''' value: ' , envId.
+    do: [ :ex | nil]] value: ' , classProxy codeReferencingMe , ' value: ' , selector asSymbol printString, ' value: ' , envId.
 	self setEnv: 0.
 	topazOutput := self run: code.
 	^ (topazOutput at: 1) = 'nil'

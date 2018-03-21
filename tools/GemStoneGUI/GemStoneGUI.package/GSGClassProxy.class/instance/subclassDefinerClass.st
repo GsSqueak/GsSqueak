@@ -1,0 +1,4 @@
+compiling
+subclassDefinerClass
+
+	^ self interface

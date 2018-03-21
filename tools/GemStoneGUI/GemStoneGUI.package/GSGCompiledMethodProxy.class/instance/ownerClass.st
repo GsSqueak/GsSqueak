@@ -1,0 +1,4 @@
+accessing
+ownerClass
+	
+	^ ownerClass

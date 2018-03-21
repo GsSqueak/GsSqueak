@@ -1,0 +1,4 @@
+accessing
+commentRemoteStr
+
+	^ self classComment

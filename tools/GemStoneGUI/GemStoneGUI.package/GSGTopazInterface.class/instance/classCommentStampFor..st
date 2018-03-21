@@ -3,4 +3,6 @@ classCommentStampFor: classProxy
 
 	| topazOutput |
 	topazOutput := self run: classProxy codeReferencingMe , ' commentStamp'.
-	^ topazOutput at: 1
+	^ topazOutput first = 'nil'
+		ifTrue: [nil]
+		ifFalse: [topazOutput first]

@@ -1,4 +1,4 @@
-new api - classes
+new api - class organizer
 class: classProxy messageCategoryOf: aSelector env: envId
 
 	| query topazOutput |

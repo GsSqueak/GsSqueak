@@ -7,5 +7,6 @@ buildMessageCategoryListWith: builder
 		model: self;
 		list: #messageCategoryList;
 		getIndex: #messageCategoryListIndex; 
-		setIndex: #messageCategoryListIndex:.
+		setIndex: #messageCategoryListIndex:;
+		menu: #messageCategoryMenu:.
 	^ listSpec

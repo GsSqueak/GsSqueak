@@ -11,7 +11,7 @@ source := nil.
     onException: Error
     do: [ :ex | nil].
   currentClass := currentClass superclassForEnv: envId].
-source] value: ' , classProxy codeReferencingMe , ' value: #''' , selector , ''' value: ' , envId.
+source] value: ' , classProxy codeReferencingMe , ' value: ' , selector asSymbol printString , ' value: ' , envId.
 	self setEnv: 0.
 	topazOutput := self run: code.
 	^ (topazOutput at: 1) = 'nil'
