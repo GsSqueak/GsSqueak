@@ -11,4 +11,4 @@ asMouseMove
       position}
     buttons: buttons
     hand: source
-    stamp: Time eventMillisecondClock
+    stamp: Time millisecondClockValue
