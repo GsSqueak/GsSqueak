@@ -29,6 +29,9 @@ display
   Smalltalk at: #'World' put: WorldProvider getWorld.
   WorldState initialize.
   WorldProvider getWorld viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open.	 TextMorph new openInWorld."	"BPTestMorph new openInWorld."
-  BPTestMorph getCommon openInWorld.
+  STWSimulation new
+    openInWorld;
+    addNodeAt: 60 @ 60;
+    addNodeAt: 200 @ 200.
   WorldProvider getWorld doOneCycle.
   [ true ] whileTrue: [ World doOneCycle	"Simulate Animation  Framework" ]
