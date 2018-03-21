@@ -5,6 +5,4 @@ newMethodFromSqueakString: aString inEnv: env
   ast := parser parse: aString class: self.
   gsAst := ast asGemstoneNodeInEnvironment: env.
   gsMethod := GsNMethod generateFromIR: gsAst.
-  (TestObject persistentMethodDictForEnv: env)
-    at: gsMethod selector
-    put: gsMethod
+  (self persistentMethodDictForEnv: env) at: gsMethod selector put: gsMethod
