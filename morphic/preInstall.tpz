@@ -1,6 +1,30 @@
 login
+
+run
+category: 'Class Instance Variables'
+method: Class
+instVarAt: anIndex put: aValue
+  | sz |
+  self _validatePrivilege ifTrue:[
+    anIndex <= Class instSize ifTrue:[
+      ImproperOperation new object: self ; 
+         signal: 'instVarAt:put: not allowed to a class instance variable
+defined for Class'
+    ].
+    anIndex > (sz := self class instSize) ifTrue:[
+       OutOfRange new name:#anIndex max: sz actual: anIndex ; signal .
+    ].
+    self _unsafeAt: anIndex put: aValue .
+    ^ aValue
+  ].
+  ^ nil
+%
+
+
 run
 Smalltalk at: #TextConstants put: SymbolDictionary new.
+%
+run
 TextConstants at: #'BS' put:  (Character backspace).
 TextConstants at: #'BS2' put:  ($ž).
 TextConstants at: #'Basal' put:  0.
