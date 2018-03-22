@@ -1,37 +1,20 @@
 as yet unclassified
 display
-  EventSensorConstants initialize.
-  IdentityTransform initialize.
-  EventSensor initialize.
-  BitBlt initialize.
-  BitBltSimulator initialize.
-  BitBltSimulation initialize.
-  Smalltalk at: #'DefaultTextStyle' put: TextStyle new.
-  (Smalltalk at: #'DefaultTextStyle') firstIndent: 0.
-  (Smalltalk at: #'DefaultTextStyle') restIndent: 0.
-  (Smalltalk at: #'DefaultTextStyle') rightIndent: 0.
-  (Smalltalk at: #'DefaultTextStyle') lineGrid: 16.
-  Smalltalk at: #'Sensor' put: EventSensor new.
-  Smalltalk at: #'Display' put: DisplayScreen new.
-  LanguageEnvironment clearDefault.
-  Display setExtent: 640 @ 480 depth: 32.
-  1 to: 10000 do: [ :nr | Display bits byteAt: nr * 4 + 1 put: 255 ].
-  Display offset: 0 @ 0.
-  Display beDisplay.
-  HandMorph initialize.
-  TextMorph initialize.
-  ImageMorph initialize.
-  SmalltalkEditor initialize.
-  StandardScriptingSystem initialize.
-  ScriptingSystem initializeSmallHaloIcons.
-  CharacterScanner initialize.
-  WorldProvider setWorld: nil.
-  Smalltalk at: #'World' put: WorldProvider getWorld.
-  WorldState initialize.
-  WorldProvider getWorld viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open.	 TextMorph new openInWorld."	"BPTestMorph new openInWorld."
-  STWSimulation new
-    openInWorld;
-    addNodeAt: 60 @ 60;
-    addNodeAt: 200 @ 200.
-  WorldProvider getWorld doOneCycle.
-  [ true ] whileTrue: [ World doOneCycle	"Simulate Animation  Framework" ]
+  Smalltalk removeKey: #'Sensor' ifAbsent: [  ].
+  Smalltalk removeKey: #'Display' ifAbsent: [  ].
+  Smalltalk removeKey: #'World' ifAbsent: [  ].
+  Smalltalk removeKey: #'ActiveHand' ifAbsent: [  ].
+  SessionTemps current at: #'Sensor' put: EventSensor new.
+  SessionTemps current at: #'Display' put: DisplayScreen new.
+  (SessionTemps current at: #'Display') setExtent: 640 @ 480 depth: 32.
+  1 to: 10000 do: [ :nr | (SessionTemps current at: #'Display') bits byteAt: nr * 4 + 1 put: 255 ].
+  (SessionTemps current at: #'Display') offset: 0 @ 0.
+  (SessionTemps current at: #'Display') beDisplay.
+  SessionTemps current at: #'World' put: nil.
+  SessionTemps current
+    at: #'World'
+    put: (PasteUpMorph new initForProject: AnimWorldState new).
+  (SessionTemps current at: #'World') viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open.	 TextMorph new openInWorld."	"BPTestMorph new openInWorld."
+  BPTestMorph new openInWorld.
+  [ true ]
+    whileTrue: [ (SessionTemps current at: #'World') doOneCycle	"Simulate Animation  Framework" ]

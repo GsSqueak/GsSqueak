@@ -9,10 +9,10 @@ doOneCycleNowFor: aWorld
   LastCycleTime := Time millisecondClockValue.
   self
     handsDo: [ :h | 
-      ActiveHand := h.
+      SessionTemps current at: #'ActiveHand' put: h.
       h processEvents.
       capturingGesture := capturingGesture or: [ h isCapturingGesturePoints ].
-      ActiveHand := nil ].	"the default is the primary hand"	"	ActiveHand := self hands first. TODO: hack"	"The gesture recognizer needs enough points to be accurate.
+      SessionTemps current at: #'ActiveHand' put: nil ].	"the default is the primary hand"	"	ActiveHand := self hands first. TODO: hack"	"The gesture recognizer needs enough points to be accurate.
 	Therefore morph stepping is disabled while capturing points for the
 	recognizer "
   capturingGesture

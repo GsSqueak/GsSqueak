@@ -24,6 +24,6 @@ displayWorld: aWorld submorphs: submorphs
     ifTrue: [ self forceDamageToScreen: allDamage ]
     ifFalse: [ canvas showAt: aWorld viewBox origin invalidRects: allDamage ].
   handsToDraw do: [ :h | h restoreSavedPatchOn: canvas ].	"restore world canvas under hands"
-  (Smalltalk at: #'Display')
+  (SessionTemps current at: #'Display')
     deferUpdates: false;
     forceDisplayUpdate

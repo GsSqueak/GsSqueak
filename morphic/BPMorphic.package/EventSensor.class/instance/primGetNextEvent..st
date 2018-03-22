@@ -1,3 +1,5 @@
 private-I/O
 primGetNextEvent: anArray
-  GraFFIcsLibrary getEvents: (Smalltalk at: #'Display') bpWindow into: anArray
+  GraFFIcsLibrary
+    getEvents: (SessionTemps current at: #'Display') bpWindow
+    into: anArray

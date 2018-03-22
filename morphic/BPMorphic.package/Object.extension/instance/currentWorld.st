@@ -1,3 +1,3 @@
 *BPMorphic
 currentWorld
-  ^ WorldProvider getWorld
+  ^ SessionTemps current at: #'World'

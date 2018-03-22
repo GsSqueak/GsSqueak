@@ -1,6 +1,7 @@
 structure
 activeHand
-  ^ (Smalltalk at: #'ActiveHand')
-    ifNil: [ 
+  ^ SessionTemps current
+    at: #'ActiveHand'
+    ifAbsent: [ 
       self isInWorld
         ifTrue: [ self world activeHand ] ]

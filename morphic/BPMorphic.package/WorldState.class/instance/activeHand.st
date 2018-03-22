@@ -1,3 +1,3 @@
 hands
 activeHand
-  ^ Smalltalk at: #'ActiveHand'
+  ^ SessionTemps current at: #'ActiveHand'
