@@ -1,13 +1,12 @@
 translating
 asGemstoneLeafInEnvironment: env forBlock: aGsComBlockNode
-  | gsVarLeaf |
-  self halt.
-  gsVarLeaf := GsComVarLeaf new.
-  self isBlockArg
-    ifTrue: [ 
-      gsVarLeaf
-        blockArg: self key asSymbol
-        argNumber: self index
+  | currentKey |
+  self assert: self isBlockArg.
+  currentKey := self key asSymbol.
+  ^ SqParser methodVarDict
+    at: currentKey
+    ifAbsentPut: [ 
+      GsComVarLeaf new
+        blockArg: currentKey
+        argNumber: self index + 1
         forBlock: aGsComBlockNode ]
-    ifFalse: [ ^ self fail ].
-  ^ gsVarLeaf

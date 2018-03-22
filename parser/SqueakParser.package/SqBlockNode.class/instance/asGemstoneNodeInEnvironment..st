@@ -7,7 +7,11 @@ asGemstoneNodeInEnvironment: env
       gsBlockNode
         appendArg: (arg asGemstoneLeafInEnvironment: env forBlock: gsBlockNode) ].
   self temporaries
-    do: [ :tmp | gsBlockNode appendTemp: (tmp asGemstoneNodeInEnvironment: env) ].
+    do: [ :tmp | 
+      | gsVarLeaf |
+      gsVarLeaf := tmp asGemstoneBlockTemp.
+      gsVarLeaf varKind = 1
+        ifTrue: [ gsBlockNode appendTemp: gsVarLeaf ] ].
   self statements
     do: [ :statement | gsBlockNode appendStatement: (statement asGemstoneNodeInEnvironment: env) ].
   ^ gsBlockNode
