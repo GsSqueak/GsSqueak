@@ -16,7 +16,11 @@ setExtent: aPoint depth: bitsPerPixel
     and: [ aPoint = self extent and: [ self supportsDisplayDepth: bitsPerPixel ] ])
     ifFalse: [ 
       bits := nil.	"Free up old bitmap in case space is low"
-      DisplayChangeSignature := (DisplayChangeSignature ifNil: [ 0 ]) + 1.
+      SessionTemps current
+        at: #'DisplayScreenDisplayChangeSignature'
+        put:
+          (SessionTemps current at: #'DisplayScreenDisplayChangeSignature' ifAbsent: [ 0 ])
+            + 1.
       (self supportsDisplayDepth: bitsPerPixel)
         ifTrue: [ super setOutputExtent: aPoint depth: bitsPerPixel ]
         ifFalse: [ 

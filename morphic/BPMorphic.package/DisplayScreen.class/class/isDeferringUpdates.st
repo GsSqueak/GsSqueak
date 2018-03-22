@@ -1,3 +1,3 @@
 testing
 isDeferringUpdates
-	^ DeferringUpdates == true
+  ^ (SessionTemps current at: #'DisplayScreenDeferringUpdates') == true

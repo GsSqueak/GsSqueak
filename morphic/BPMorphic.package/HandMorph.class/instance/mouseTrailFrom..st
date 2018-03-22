@@ -7,7 +7,9 @@ mouseTrailFrom: currentBuf
   | _gsSqueakTemp_nextEvent _gsSqueakTemp_trail |
   _gsSqueakTemp_trail := WriteStream on: (Array new: 1).
   _gsSqueakTemp_trail nextPut: currentBuf third @ currentBuf fourth.
-  [ (_gsSqueakTemp_nextEvent := (Smalltalk at: #'Sensor') peekEvent) isNil ]
+  [ 
+  (_gsSqueakTemp_nextEvent := (SessionTemps current at: #'Sensor') peekEvent)
+    isNil ]
     whileFalse: [ 
       _gsSqueakTemp_nextEvent first = currentBuf first
         ifFalse: [ ^ _gsSqueakTemp_trail contents	"different event type" ].
@@ -16,7 +18,7 @@ mouseTrailFrom: currentBuf
       _gsSqueakTemp_nextEvent sixth = currentBuf sixth
         ifFalse: [ ^ _gsSqueakTemp_trail contents	"modifiers changed" ].	"nextEvent is similar. Remove it from the queue, and check
 			the next."
-      _gsSqueakTemp_nextEvent := (Smalltalk at: #'Sensor') nextEvent.
+      _gsSqueakTemp_nextEvent := (SessionTemps current at: #'Sensor') nextEvent.
       _gsSqueakTemp_trail
         nextPut: _gsSqueakTemp_nextEvent third @ _gsSqueakTemp_nextEvent fourth ].
   ^ _gsSqueakTemp_trail contents

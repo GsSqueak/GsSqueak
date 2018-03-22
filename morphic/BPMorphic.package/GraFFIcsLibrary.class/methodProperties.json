@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"createWindow:" : "TobiasZagorni 03/14/2018 02:05",
-		"displayString:at:on:" : "TobiasZagorni 03/06/2018 07:18",
-		"drawWindow:contents:" : "TobiasZagorni 03/14/2018 02:01",
-		"getEvents:into:" : "TobiasZagorni 03/14/2018 04:49",
-		"initialize" : "TobiasZagorni 03/14/2018 02:00" },
+		"inst" : "Anonymous 03/22/2018 08:12" },
 	"instance" : {
-		 } }
+		"createWindow:" : "Anonymous 03/22/2018 08:18",
+		"displayString:at:on:" : "Anonymous 03/22/2018 08:14",
+		"drawWindow:contents:" : "Anonymous 03/22/2018 08:14",
+		"getEvents:into:" : "Anonymous 03/22/2018 08:13",
+		"initialize" : "Anonymous 03/22/2018 08:12" } }

@@ -4,6 +4,7 @@ display
   Smalltalk removeKey: #'Display' ifAbsent: [  ].
   Smalltalk removeKey: #'World' ifAbsent: [  ].
   Smalltalk removeKey: #'ActiveHand' ifAbsent: [  ].
+  GraFFIcsLibrary inst initialize.
   SessionTemps current at: #'Sensor' put: EventSensor new.
   SessionTemps current at: #'Display' put: DisplayScreen new.
   (SessionTemps current at: #'Display') setExtent: 640 @ 480 depth: 32.

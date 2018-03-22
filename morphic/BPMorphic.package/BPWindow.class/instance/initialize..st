@@ -1,3 +1,3 @@
 as yet unclassified
 initialize: aRectangle
-  cPointer := GraFFIcsLibrary createWindow: aRectangle
+  cPointer := GraFFIcsLibrary inst createWindow: aRectangle

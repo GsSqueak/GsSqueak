@@ -3,16 +3,19 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"inst" ],
+	"commentStamp" : "",
+	"instvars" : [
 		"CreateWindowCo",
 		"DisplayStringCo",
 		"DrawWindowCo",
 		"GetEventsCo",
 		"GraphicsLib" ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
 	"name" : "GraFFIcsLibrary",
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"type" : [
+		"normal",
+		[
+			"dbTransient" ] ] }

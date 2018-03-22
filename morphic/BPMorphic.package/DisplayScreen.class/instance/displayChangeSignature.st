@@ -1,3 +1,3 @@
 other
 displayChangeSignature
-	^ DisplayChangeSignature
+  ^ SessionTemps current at: #'DisplayScreenDisplayChangeSignature'

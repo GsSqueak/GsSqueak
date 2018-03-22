@@ -3,13 +3,13 @@ processEvents
   "Process user input events from the local input devices."
 
   | _gsSqueakTemp_evt _gsSqueakTemp_evtBuf _gsSqueakTemp_type _gsSqueakTemp_hadAny |
-  ActiveEvent
+  (SessionTemps current at: #'ActiveEvent' ifAbsent: [ nil ])
     ifNotNil: [ 
       "Meaning that we were invoked from within an event response.
 			Make sure z-order is up to date"
       self mouseOverHandler processMouseOver: lastMouseEvent ].
   _gsSqueakTemp_hadAny := false.
-  [ (_gsSqueakTemp_evtBuf := (Smalltalk at: #'Sensor') nextEvent) isNil ]
+  [ (_gsSqueakTemp_evtBuf := (SessionTemps current at: #'Sensor') nextEvent) isNil ]
     whileFalse: [ 
       _gsSqueakTemp_evt := nil.	"for unknown event types"
       _gsSqueakTemp_type := _gsSqueakTemp_evtBuf first.

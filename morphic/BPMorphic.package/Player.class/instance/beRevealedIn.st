@@ -1,4 +1,4 @@
 misc
-beRevealedIn(Smalltalk at: #'ActiveWorld')
-	"Reveal my corresponding morph in the active world"
-	self revealPlayerIn: (Smalltalk at: #'ActiveWorld')
+beRevealedIn
+  (SessionTemps current at: #'ActiveWorld') self
+    revealPlayerIn: (SessionTemps current at: #'ActiveWorld')	"Reveal my corresponding morph in the active world"

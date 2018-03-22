@@ -1,3 +1,3 @@
 accessing
 maximumUsableArea
-	^ self maximumUsableAreaInWorld: (Smalltalk at: #ActiveWorld)
+  ^ self maximumUsableAreaInWorld: (SessionTemps current at: #'ActiveWorld')

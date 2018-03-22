@@ -8,4 +8,7 @@ displayString: aString on: aDisplayContext from: startIndex to: stopIndex at: aP
     aDisplayContext sourceForm: form.
     aDisplayContext combinationRule: 3.
     aDisplayContext copyBits ]"
-  GraFFIcsLibrary displayString: aString at: aPoint on: aDisplayContext destForm
+  GraFFIcsLibrary inst
+    displayString: aString
+    at: aPoint
+    on: aDisplayContext destForm

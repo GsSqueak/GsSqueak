@@ -1,3 +1,3 @@
 as yet unclassified
 lastCycleTime
-	^ LastCycleTime
+  ^ SessionTemps current at: #'WorldStateLastCycleTime'

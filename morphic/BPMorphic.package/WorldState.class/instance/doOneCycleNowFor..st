@@ -6,7 +6,9 @@ doOneCycleNowFor: aWorld
   | capturingGesture |
   DisplayScreen checkForNewScreenSize.
   capturingGesture := false.	"self flag: #bob.	"	"need to consider remote hands in lower worlds"	"process user input events"
-  LastCycleTime := Time millisecondClockValue.
+  SessionTemps current
+    at: #'WorldStateLastCycleTime'
+    put: Time millisecondClockValue.
   self
     handsDo: [ :h | 
       SessionTemps current at: #'ActiveHand' put: h.

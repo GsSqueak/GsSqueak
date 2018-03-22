@@ -6,11 +6,11 @@ that will provide the default desktop command key handlers.  If the selector tak
 
   | noviceKeys expertKeys |
   noviceKeys := {{$o.
-  (Smalltalk at: #'ActiveWorld').
+  (SessionTemps current at: #'ActiveWorld').
   #'activateObjectsTool'.
   'Activate the "Objects Tool"'}.
   {$r.
-  (Smalltalk at: #'ActiveWorld').
+  (SessionTemps current at: #'ActiveWorld').
   #'restoreMorphicDisplay'.
   'Redraw the screen'}.
   {$z.

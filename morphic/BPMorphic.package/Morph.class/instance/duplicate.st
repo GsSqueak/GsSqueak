@@ -15,5 +15,6 @@ duplicate
   newMorph isPartsDonor: false.	"no longer parts donor"
   (aPlayer := newMorph player) belongsToUniClass
     ifTrue: [ aPlayer class bringScriptsUpToDate ].
-  aPlayer ifNotNil: [ ActiveWorld presenter flushPlayerListCache ].
+  aPlayer
+    ifNotNil: [ (SessionTemps current at: #'ActiveWorld') presenter flushPlayerListCache ].
   ^ newMorph
