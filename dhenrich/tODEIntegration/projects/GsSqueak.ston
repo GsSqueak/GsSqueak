@@ -6,7 +6,8 @@ TDObjectGatewayLeafNode{#name:'GsSqueak',#contents:'^ TDProjectSpecEntryDefiniti
     installScript:
         \'
       mount @/sys/stone/dirs/GsSqueak/dhenrich/tODEIntegration/tode /home gsSqueak   
-      /home/gsSqueak/prep \';
+      /home/gsSqueak/prep
+      /home/gsSqueak/installSymbolCodeLibrianSymbolList \';
     status: #(#\'active\');
     locked: true;
     yourself'}

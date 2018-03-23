@@ -1,0 +1,210 @@
+set -e 
+. defStone.env
+
+# Uncomment following two lines to bootstrap from scratch
+# newExtent $GEMSTONE_NAME
+# todeLoad $GEMSTONE_NAME
+
+export upgradeDir=$GEMSTONE/upgrade
+
+# The bootstrap script is divided into several phases:
+#
+#   Install tODE extension classes in support of GsSqueak remote development
+#
+#   The first phase is to install Metacello into the base image, install
+#     remote tODE browsing and debugging support, create the GsSqueak user, 
+#     and to install the Cypress-Environmental-Tools package
+#     as SystemUser. The Cypress-Environmental-Tools package has extensions
+#     to the Cypress loader that make it possible to specify which 
+#     SymbolDictionary classes are supposed to be installed in as well as 
+#     which environment is to be used for installing methods. The 
+#     Cypress-Environmental-Tools package also has a class that contains
+#     the scripts used for the second and third phases.
+#
+#   The second phase is to install the ProtoObject and Object classes into the 
+#     GsSqueak user space.
+#
+#   The third phase is to install the environment 7 extension methods in the
+#     standard GemStone classes that are being used by GsSqueak.
+#
+$GS_HOME/bin/startTopaz $GEMSTONE_NAME -l << EOF
+
+ifErr 1 stk
+ifErr 2 stack
+ifErr 3 abort
+ifErr 4 exit
+
+#  login is as DataCurator
+
+  set u DataCurator p swordfish
+  login
+
+#--------------------
+#   install tODE support packages (GsSqueak_test group)
+#--------------------
+
+  run
+  Metacello new
+    baseline: 'GsSqueak';
+    repository: 'filetree://$GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/src';
+    get;
+    load: 'GsSqueak_test'.
+%
+  commit
+  logout
+
+#  login is as SystemUser
+
+  set u SystemUser p swordfish
+  login
+
+#--------------------
+#   Install remote tODE browsing and debugging support
+#--------------------
+  run
+  CodeLibrarian new
+    repository: 'cypressft:$GS_HOME/shared/repos/tode/repository/';
+    load: #( 'Tode-Remote-Server' ).
+%
+  commit
+
+#--------------------
+#   Create GsSqueak user and symbol lists, give DataCurator compilation privileges
+#--------------------
+  run
+| gsSqueak |
+gsSqueak := AllUsers userWithId: 'GsSqueak' ifAbsent: [ nil ].
+gsSqueak ~~ nil
+  ifTrue: [
+    AllUsers removeAndCleanup: gsSqueak.
+    System commitTransaction.
+ ].
+AllUsers
+  addNewUserWithId: 'GsSqueak'
+  password: 'swordfish'
+  defaultObjectSecurityPolicy: nil
+  privileges:
+      #('CodeModification' 'UserPassword' 'OtherPassword' 'CompilePrimitives')
+  inGroups: #('DataCuratorGroup').
+(AllUsers userWithId: 'DataCurator') addPrivilege: #'CompilePrimitives'.
+%
+  commit
+  logout
+
+#  login is as GsSqueak
+
+  set u GsSqueak password swordfish
+  login
+! ((GS_AllUsers userWithId: 'DataCurator') objectNamed: 'TDExternalTopezServer') createFor: 1
+  run
+| symbolList userProfile userGlobals dataCurator dataCuratorUserGlobals |
+userProfile := System myUserProfile.
+symbolList := SymbolList new.
+symbolList 
+	createDictionaryNamed: #'UserGlobals' at: 0;    "needed for remote tODE login"
+	createDictionaryNamed: #'GemStone' at: 0;
+	createDictionaryNamed: #'Smalltalk' at: 0;
+	yourself.
+dataCurator := AllUsers userWithId: 'DataCurator'.
+dataCuratorUserGlobals := dataCurator objectNamed: #UserGlobals.
+(symbolList objectNamed: #UserGlobals)
+  at: #'GS_AllUsers' put: AllUsers;
+  at: GsPackagePolicy globalName put: (dataCuratorUserGlobals at: GsPackagePolicy globalName);
+  at: GsPackage globalName put: (dataCuratorUserGlobals at: GsPackage globalName);
+  yourself.
+dataCuratorUserGlobals 
+  at: #'TODE_ExternalTopezServer_CLASS' 
+  put: (dataCurator objectNamed: #'TDExternalGSSqueakTopezServer').
+(symbolList objectNamed: #GemStone) 
+  at: #System put: (Globals at: #System);                "useful GemStone class to have"
+  at: #GemStoneError put: (Globals at: #GemStoneError);  "needed for error message generation"
+  yourself.
+userProfile symbolList: symbolList.
+%
+  commit
+  logout
+
+#  login is as SystemUser
+
+  set u SystemUser p swordfish
+  login
+
+#--------------------
+#   Install GsSqueak-ProofOfConcept0 package
+#--------------------
+  run
+  | codeLibrarianSymbolList sessionSymbolList |
+  codeLibrarianSymbolList := (AllUsers
+            userWithId: 'CodeLibrarianUser'
+            ifAbsent: [  ]) symbolList.
+          sessionSymbolList := GsCurrentSession currentSession symbolList.
+          sessionSymbolList
+            add: (codeLibrarianSymbolList at: 1)
+            after: (sessionSymbolList at: 1).
+%
+
+  run
+  | packageManager repo |
+  packageManager := CypressEnvironmentPackageManager new.
+  repo := CypressAbstractRepository
+     onUrl:
+      (CypressUrl absoluteFromText: 'cypressft:$GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/src/')
+    alias: ''.
+  packageManager
+    defaultSymbolDictionaryName: #UserGlobals;
+    defaultSymbolList: GsCurrentSession currentSession symbolList.
+  #( 'GsSqueak-ProofOfConcept0' )
+    do: [ :packageName | 
+      packageManager
+        addResolvedReference:
+          (CypressResolvedReference
+            name: packageName
+            repository: repo) ].
+  packageManager loadResolvedReferences.
+%
+  commit
+  logout
+
+#  login is as DataCurator
+
+  set u DataCurator p swordfish
+  login
+
+#--------------------
+#   PHASE 2 - install ProtoObject and Object in GsSqueak symbolList
+#--------------------
+
+  run
+GsSqueakProofOfConcept installPhase2
+%
+  commit
+  logout
+
+#  login is as SystemUser
+
+  set u SystemUser p swordfish
+  login
+
+#--------------------
+#   PHASE 3 - install SmallInteger extension methods
+#--------------------
+
+  run
+GsSqueakProofOfConcept installPhase3
+%
+  commit
+  logout
+
+#  login is as GsSqueak
+
+  set u GsSqueak p swordfish
+  login
+
+  set compile_env: 7
+run
+3 foo: 4
+%
+
+  exit
+EOF
+
