@@ -151,7 +151,7 @@ userProfile symbolList: symbolList.
       (CypressUrl absoluteFromText: 'cypressft:$GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/src/')
     alias: ''.
   packageManager
-    defaultSymbolDictionaryName: #UserGlobals;
+    defaultSymbolDictionaryName: #Globals;
     defaultSymbolList: GsCurrentSession currentSession symbolList.
   #( 'GsSqueak-ProofOfConcept0' )
     do: [ :packageName | 
