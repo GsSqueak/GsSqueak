@@ -1,0 +1,39 @@
+TDScriptLeafNode{#name:'installSymbolCodeLibrianSymbolList',#contents:'[ :topez :objIn :tokens :command :commandNode | 
+  | opts args |
+  \"for help: ./installSymbolCodeLibrianSymbolList -h\"
+  command
+    getOptsMixedLongShort: {#(\'help\' $h #\'none\')}
+    optionsAndArguments: [ :options :operands | 
+      opts := options.
+      args := operands ].
+  opts
+    at: \'help\'
+    ifAbsent: [ 
+      | codeLibrarianSymbolList mySymbolList |
+      
+((System stoneVersionReport at: \'gsVersion\') beginsWith: \'3.5\')
+ifTrue: [\"Cypress-Environmenttal-Tools available in GemStone3.5.0 in CodeLibrarianUser UserGlobals\"
+      codeLibrarianSymbolList := (AllUsers
+        userWithId: \'CodeLibrarianUser\'
+        ifAbsent: [  ]) symbolList.
+      mySymbolList := System myUserProfile symbolList.
+      mySymbolList
+        add: (codeLibrarianSymbolList at: 1)
+        after: (mySymbolList at: 1).
+      {codeLibrarianSymbolList.
+      mySymbolList}] ]
+    ifPresent: [ :ignored | 
+      TDManPage
+        viewManPage:
+          \'NAME
+  installSymbolCodeLibrianSymbolList - installSymbolCodeLibrianSymbolList script utility template
+SYNOPSIS
+  installSymbolCodeLibrianSymbolList [-h|--help]
+DESCRIPTION
+  Install CodeLibrarianUser symbolList UserGlobals into my symbolList, so the Cypress Packages are available
+
+EXAMPLES
+  ./installSymbolCodeLibrianSymbolList --help
+  ./installSymbolCodeLibrianSymbolList -h
+\'
+        topez: topez ] ]',#creationTime:DateAndTime['2018-03-22T15:08:28.21308898925781-07:00'],#modificationTime:DateAndTime['2018-03-22T15:31:12.00829911231995-07:00']}

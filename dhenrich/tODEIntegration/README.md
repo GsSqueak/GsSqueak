@@ -65,3 +65,20 @@ The interesting packages like Cypress-Environmental-Tools and GsSqueak-ProofOfCo
 createStone -i GsSqueak -l GsSqueak GsSqueak_dev 3.4.0
 ```
  
+## Notes for use with GemStone 3.5.0
+still needs a bit of testing ...
+```
+# 3.5.0
+createStone GsSqueak_test_350 3.5.0
+devKitCommandLine todeIt GsSqueak_test_350 << EOF
+  mount @/sys/stone/dirs/GsSqueak/dhenrich/tODEIntegration/tode /home gsSqueak
+  /home/gsSqueak/prep
+  /home/gsSqueak/installSymbolCodeLibrianSymbolList
+EOF
+cp $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/bin/installGsSqueak_350 $GS_HOME/server/stones/GsSqueak_test_350
+cd $GS_HOME/server/stones/GsSqueak_test_350
+./installGsSqueak_350
+todeIt GsSqueak_test_350 /home/gsSqueak/createSessionDescription --stone=GsSqueak_test_350
+todeIt GsSqueakUser mount $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/tode /home gsSqueak
+```
+The class **GsSqueakProofOfConcept** contains examples of loading packages as *SystemUser* and *GsSqueakUser* ... which is equivalent to what was available in 3.4.0
