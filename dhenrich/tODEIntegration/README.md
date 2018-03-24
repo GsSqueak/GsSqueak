@@ -81,3 +81,4 @@ cd $GS_HOME/server/stones/GsSqueak_test_350
 todeIt GsSqueak_test_350 /home/gsSqueak/createSessionDescription --stone=GsSqueak_test_350
 todeIt GsSqueakUser mount $GS_HOME/shared/repos/BP2017RH1/dhenrich/tODEIntegration/tode /home gsSqueak
 ```
+The class **GsSqueakProofOfConcept** contains examples of loading packages as *SystemUser* and *GsSqueakUser* ... which is equivalent to what was available in 3.4.0
