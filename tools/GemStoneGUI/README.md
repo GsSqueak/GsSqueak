@@ -6,7 +6,10 @@ Metacello new
   repository: 'http://www.squeaksource.com/MetacelloRepository';
   load.
 ```
-
+Start:
+```smalltalk
+GSGConnector open.
+```
 
 
 <!-- References -->
