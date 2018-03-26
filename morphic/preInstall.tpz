@@ -1,6 +1,5 @@
 login
 
-run
 category: 'Class Instance Variables'
 method: Class
 instVarAt: anIndex put: aValue
