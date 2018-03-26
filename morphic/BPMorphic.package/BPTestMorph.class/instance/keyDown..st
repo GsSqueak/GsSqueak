@@ -8,4 +8,10 @@ keyDown: anEvent
       self position x == self class getCommonState value
         ifFalse: [ self class getCommonState setTo: self position x ].
       Transcript show: System commit.
-      self position x: self class getCommonState value ]
+      self position x: self class getCommonState value ].
+  anEvent keyCharacter = $a
+    ifTrue: [ 
+      Transcript show: 'aborting'.
+      System abort.
+      self position x: self class getCommonState value.
+      self redraw ]

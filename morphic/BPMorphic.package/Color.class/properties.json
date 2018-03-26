@@ -64,8 +64,7 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"rgb",
-		"cachedDepth",
-		"cachedBitPattern" ],
+		"bitPatternCache" ],
 	"name" : "Color",
 	"pools" : [
 		 ],

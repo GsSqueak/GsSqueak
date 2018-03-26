@@ -1,5 +1,6 @@
 private
 flushCache
-	"Flush my cached bit pattern."
-	cachedDepth := nil.
-	cachedBitPattern := nil
+  "Flush my cached bit pattern."
+
+  self bitPatternCache cachedDepth: nil.
+  self bitPatternCache cachedBitPattern: nil

@@ -21,10 +21,17 @@ bitPatternForDepth: depth
 
   "TODO hack"
 
-  cachedDepth := depth.
+  self bitPatternCache cachedDepth: depth.
   depth > 2
-    ifTrue: [ ^ cachedBitPattern := Bitmap with: (self pixelWordForDepth: depth) ].
+    ifTrue: [ 
+      self bitPatternCache
+        cachedBitPattern: (Bitmap with: (self pixelWordForDepth: depth)).
+      ^ self bitPatternCache cachedBitPattern ].
   depth = 1
-    ifTrue: [ ^ cachedBitPattern := self halfTonePattern1 ].
+    ifTrue: [ 
+      self bitPatternCache cachedBitPattern: self halfTonePattern1.
+      ^ self bitPatternCache cachedBitPattern ].
   depth = 2
-    ifTrue: [ ^ cachedBitPattern := self halfTonePattern2 ]
+    ifTrue: [ 
+      self bitPatternCache cachedBitPattern: self halfTonePattern2.
+      ^ self bitPatternCache cachedBitPattern ]
