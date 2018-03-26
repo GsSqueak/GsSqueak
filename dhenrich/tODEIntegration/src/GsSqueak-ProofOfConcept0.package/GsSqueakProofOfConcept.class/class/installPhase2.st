@@ -1,6 +1,6 @@
 installation
 installPhase2
-  "run as SystemUser"
+  "Run as DataCurator to install code into GsSqueak environment"
 
   self
     installGsSqueakPackages: #('GsSqueak-ProofOfConcept1') environmentId: 7;

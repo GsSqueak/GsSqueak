@@ -2,12 +2,18 @@ baseline
 baseline: spec
   <baseline>
   spec
-    for: #(#'gsc3.4.x' #'gsc3.5.x')
+    for: #(#'gsc3.4.x')
     do: [ 
       spec
         package: 'Cypress-Environmental-Tools';
         package: 'GsSqueak-ProofOfConcept0'
           with: [ spec requires: 'Cypress-Environmental-Tools' ];
+        yourself ].
+  spec
+    for: #(#'gsc3.4.x' #'gsc3.5.x')
+    do: [ 
+      spec
+        package: 'GsSqueak-ProofOfConcept0';
         yourself.
       spec
         group: 'GsSqueak_dev' with: #('GsSqueak-ProofOfConcept0');

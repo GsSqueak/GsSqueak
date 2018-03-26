@@ -1,5 +1,7 @@
 installation
 installPhase3
+  "Run as SystemUser to install code into SystemUser system dictionaries"
+
   | gsSqueak gsSqueakObjectClass |
   self installSystemUserPackages: #('GsSqueak-ProofOfConcept2').
   gsSqueak := AllUsers userWithId: 'GsSqueak'.

@@ -5,7 +5,7 @@ asGemstoneNodeInEnvironment: env
   gsMethodNode := GsComMethNode newSmalltalk.
   gsMethodNode
     selector: self selector;
-    source: 'Pit is an upstanding citizen::!!111einself.';
+    source: self sourceText;
     class: self class.
   self arguments do: [ :arg | gsMethodNode appendArg: arg asGemstoneLeaf ].
   self temporaries
