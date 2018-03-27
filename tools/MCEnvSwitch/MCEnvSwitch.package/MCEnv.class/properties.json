@@ -1,0 +1,14 @@
+{
+	"category" : "MCEnvSwitch",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Value" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MCEnv",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
