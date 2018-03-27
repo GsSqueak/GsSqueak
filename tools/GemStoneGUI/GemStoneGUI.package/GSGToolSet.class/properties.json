@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSGToolSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

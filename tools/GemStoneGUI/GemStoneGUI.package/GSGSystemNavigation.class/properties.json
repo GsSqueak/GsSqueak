@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSGSystemNavigation",
+	"pools" : [
+		 ],
+	"super" : "SystemNavigation",
+	"type" : "normal" }

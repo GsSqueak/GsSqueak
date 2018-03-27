@@ -3,7 +3,7 @@ environment: environmentProxy classesInSystemCategory: categoryName
 
 	| code topazOutput |
 	code := self codeForPrintingListCreatedBy: 
-				(self codeForClassOrganizerOn: environmentProxy) , 
+				(self codeForClassOrganizerOn: environmentProxy env: 0) , 
 					' categories at: #''' , categoryName , ''' ifAbsent: [#()]'.
 	self setEnv: 0.
 	topazOutput := self run: code.
