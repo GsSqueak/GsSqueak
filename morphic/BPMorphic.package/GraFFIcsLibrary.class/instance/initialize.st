@@ -20,4 +20,9 @@ initialize
     library: GraphicsLib
     name: #'ffi_display_string'
     result: #'void'
-    args: #(#'const char*' #'int32' #'int32' #'ptr' #'int32' #'int32')
+    args: #(#'const char*' #'int32' #'int32' #'ptr' #'int32' #'int32').
+  DestroyWindowCo := CCallout
+    library: GraphicsLib
+    name: #'ffi_destroy_window'
+    result: #'void'
+    args: #(#'ptr')

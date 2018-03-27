@@ -3,7 +3,8 @@
 		"inst" : "Anonymous 03/22/2018 08:12" },
 	"instance" : {
 		"createWindow:" : "Anonymous 03/22/2018 08:18",
+		"destroyWindow:" : "Anonymous 03/27/2018 01:53",
 		"displayString:at:on:" : "Anonymous 03/22/2018 08:14",
 		"drawWindow:contents:" : "Anonymous 03/22/2018 08:14",
 		"getEvents:into:" : "Anonymous 03/22/2018 08:13",
-		"initialize" : "Anonymous 03/22/2018 08:12" } }
+		"initialize" : "Anonymous 03/27/2018 01:52" } }

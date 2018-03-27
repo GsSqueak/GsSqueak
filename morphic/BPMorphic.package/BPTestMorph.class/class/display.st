@@ -1,6 +1,8 @@
 as yet unclassified
 display
   | myMorph |
+  (SessionTemps current at: #'Display')
+    ifNotNil: [ (SessionTemps current at: #'Display') close ].
   Smalltalk removeKey: #'Sensor' ifAbsent: [  ].
   Smalltalk removeKey: #'Display' ifAbsent: [  ].
   Smalltalk removeKey: #'World' ifAbsent: [  ].
@@ -21,6 +23,7 @@ display
   myMorph openInWorld.
   [ myMorph wantsToLive ]
     whileTrue: [ (SessionTemps current at: #'World') doOneCycle	"Simulate Animation  Framework" ].
+  (SessionTemps current at: #'Display') close.
   Transcript
     show: 'done!';
     cr

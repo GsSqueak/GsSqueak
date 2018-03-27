@@ -9,6 +9,7 @@
 		"CreateWindowCo",
 		"DisplayStringCo",
 		"DrawWindowCo",
+		"DestroyWindowCo",
 		"GetEventsCo",
 		"GraphicsLib" ],
 	"name" : "GraFFIcsLibrary",
