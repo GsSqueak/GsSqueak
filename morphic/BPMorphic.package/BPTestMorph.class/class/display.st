@@ -1,5 +1,6 @@
 as yet unclassified
 display
+  | myMorph |
   Smalltalk removeKey: #'Sensor' ifAbsent: [  ].
   Smalltalk removeKey: #'Display' ifAbsent: [  ].
   Smalltalk removeKey: #'World' ifAbsent: [  ].
@@ -16,6 +17,10 @@ display
     at: #'World'
     put: (PasteUpMorph new initForProject: AnimWorldState new).
   (SessionTemps current at: #'World') viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open.	 TextMorph new openInWorld."	"BPTestMorph new openInWorld."
-  BPTestMorph new openInWorld.
-  [ true ]
-    whileTrue: [ (SessionTemps current at: #'World') doOneCycle	"Simulate Animation  Framework" ]
+  myMorph := BPTestMorph new.
+  myMorph openInWorld.
+  [ myMorph wantsToLive ]
+    whileTrue: [ (SessionTemps current at: #'World') doOneCycle	"Simulate Animation  Framework" ].
+  Transcript
+    show: 'done!';
+    cr

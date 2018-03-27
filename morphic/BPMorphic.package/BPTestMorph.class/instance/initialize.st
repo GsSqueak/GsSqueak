@@ -5,4 +5,5 @@ initialize
   text := StringMorph new.
   text label: 'Test' font: BPFont defaultInstance.
   self addMorph: text.
-  self addMorph: text
+  self addMorph: text.
+  wantsToLive := true
