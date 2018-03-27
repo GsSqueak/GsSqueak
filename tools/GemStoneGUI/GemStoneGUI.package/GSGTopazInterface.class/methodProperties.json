@@ -71,6 +71,7 @@
 		"environment:classesInSystemCategory:" : "sl 3/26/2018 15:10",
 		"environment:hasClassNamed:" : "sl 3/16/2018 21:39",
 		"environment:hierarchyTreeOfClassNames:env:" : "sl 3/19/2018 13:46",
+		"environment:implementorsOf:env:" : "sl 3/27/2018 15:10",
 		"environment:sendersOf:env:" : "sl 3/27/2018 13:36",
 		"evaluate:in:environment:notifying:ifFail:logged:envId:" : "sl 3/20/2018 15:09",
 		"evaluate:in:notifying:logged:envId:" : "sl 3/20/2018 14:59",

@@ -25,7 +25,7 @@ annotation
 					aComment isEmptyOrNil
 						ifFalse: [aStream nextPutAll: aComment , separator]].
 			aRequest == #timeStamp
-				ifTrue: [stamp := self timeStamp.
+				ifTrue: [stamp := self timeStamp ifNil: [''].
 					aStream
 						nextPutAll: (stamp size > 0
 								ifTrue: [stamp , separator]
