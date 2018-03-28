@@ -5,7 +5,7 @@ buildWorkspaceButtonWith: builder
 	buttonSpec := builder pluggableActionButtonSpec new.
 	buttonSpec
 			model: self;
-			label: 'Workspace';
+			label: 'Open Workspace';
 			help: 'Open a workspace capable of executing code for the current session';
 			action: #openWorkspace.
 	^ buttonSpec

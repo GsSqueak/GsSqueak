@@ -1,0 +1,14 @@
+{
+	"category" : "MCEnvSwitch",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "EnvMethodReference",
+	"pools" : [
+		 ],
+	"super" : "MethodReference",
+	"type" : "normal" }

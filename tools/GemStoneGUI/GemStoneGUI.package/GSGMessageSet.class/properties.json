@@ -1,0 +1,15 @@
+{
+	"category" : "GemStoneGUI-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"envId",
+		"interface" ],
+	"name" : "GSGMessageSet",
+	"pools" : [
+		 ],
+	"super" : "MessageSet",
+	"type" : "normal" }
