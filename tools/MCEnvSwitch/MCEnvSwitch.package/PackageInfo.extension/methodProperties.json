@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"coreMethodsEnv:" : "",
+		"env:coreCategoriesForClass:" : "",
+		"env:coreMethods:extensionMethods:overriddenMethods:classes:" : "",
+		"env:coreMethodsForClass:" : "",
+		"env:extensionCategoriesForClass:" : "",
+		"env:extensionMethodsForClass:" : "",
+		"env:extensionMethodsFromClasses:" : "",
+		"env:foreignExtensionCategoriesForClass:" : "",
+		"env:foreignExtensionMethodsForClass:" : "",
+		"env:includesMethod:ofClass:" : "",
+		"env:includesMethodCategory:ofClassNamed:" : "",
+		"env:includesMethodReference:" : "",
+		"env:methodsInCategory:ofClass:" : "",
+		"env:overrideCategoriesForClass:" : "",
+		"extensionClassesEnv:" : "",
+		"extensionMethodsEnv:" : "",
+		"referenceForMethod:ofClass:environmentId:" : "" } }

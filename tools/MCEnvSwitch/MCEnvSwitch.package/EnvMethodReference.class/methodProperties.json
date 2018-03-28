@@ -2,4 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"=" : "",
+		"category" : "",
+		"compiledMethod" : "",
+		"environmentId" : "",
+		"environmentId:" : "",
+		"isValid" : "",
+		"setClassSymbol:classIsMeta:methodSymbol:stringVersion:environmentId:" : "",
+		"setStandardClass:methodSymbol:environmentId:" : "",
+		"source" : "",
+		"sourceCode" : "",
+		"timeStamp" : "" } }

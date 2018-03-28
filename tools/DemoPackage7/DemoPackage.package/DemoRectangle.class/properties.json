@@ -1,14 +1,15 @@
 {
-	"category" : "MCEnvSwitch",
+	"category" : "DemoPackage",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"environmentId" ],
-	"name" : "EnvMethodReference",
+		"a",
+		"b" ],
+	"name" : "DemoRectangle",
 	"pools" : [
 		 ],
-	"super" : "MethodReference",
+	"super" : "Object",
 	"type" : "normal" }
