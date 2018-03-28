@@ -1,7 +1,7 @@
 as yet unclassified
 display
-  | myMorph |
-  (SessionTemps current at: #'Display')
+  | myMorph commitBtn |
+  (SessionTemps current at: #'Display' ifAbsent: [ nil ])
     ifNotNil: [ (SessionTemps current at: #'Display') close ].
   Smalltalk removeKey: #'Sensor' ifAbsent: [  ].
   Smalltalk removeKey: #'Display' ifAbsent: [  ].
@@ -21,6 +21,7 @@ display
   (SessionTemps current at: #'World') viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open.	 TextMorph new openInWorld."	"BPTestMorph new openInWorld."
   myMorph := BPTestMorph new.
   myMorph openInWorld.
+  self ceateButtonBarFor: myMorph.
   [ myMorph wantsToLive ]
     whileTrue: [ (SessionTemps current at: #'World') doOneCycle	"Simulate Animation  Framework" ].
   (SessionTemps current at: #'Display') close.

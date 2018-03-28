@@ -1,0 +1,12 @@
+run
+| packageManager repo gsSqueakUser |
+  packageManager := CypressEnvironmentPackageManager new.
+  repo := CypressAbstractRepository onUrl: (CypressUrl
+    absoluteFromText: 'cypressfiletree:/home/jakob/Studium/bp/BP2017RH1/morphic/') alias: ''.
+  gsSqueakUser := AllUsers userWithId: 'DataCurator'.
+  packageManager defaultEnvironmentId: 7;
+    defaultSymbolDictionaryName: #'Smalltalk';
+    defaultSymbolList: gsSqueakUser symbolList.
+  packageManager addResolvedReference: (CypressResolvedReference name: 'BPMorphic' repository: repo).
+  packageManager loadResolvedReferences.
+%

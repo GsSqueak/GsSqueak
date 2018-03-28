@@ -18,4 +18,5 @@ initialize
   StandardScriptingSystem initialize.
   ScriptingSystem initializeSmallHaloIcons.
   CharacterScanner initialize.
-  WorldState initialize
+  WorldState initialize.
+  Cursor startUp

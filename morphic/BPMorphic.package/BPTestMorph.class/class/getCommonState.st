@@ -1,4 +1,4 @@
 as yet unclassified
 getCommonState
-  commonState ifNil: [ commonState := RcRecentInteger new ].
+  commonState ifNil: [ commonState := BPTestMorphState new ].
   ^ commonState

@@ -1,4 +1,4 @@
 as yet unclassified
 close
-  bpWindow destroy.
+  bpWindow ifNotNil: [ bpWindow destroy ].
   bpWindow := nil
