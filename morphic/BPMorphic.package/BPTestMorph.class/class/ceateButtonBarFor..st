@@ -1,6 +1,6 @@
 as yet unclassified
 ceateButtonBarFor: aTestMorph
-  | commitBtn abortBtn continueBtn exitBtn |
+  | commitBtn abortBtn continueBtn exitBtn changeColorBtn |
   commitBtn := (SimpleButtonMorph newWithLabel: 'commit')
     openInWorld;
     target: aTestMorph;
@@ -15,8 +15,13 @@ ceateButtonBarFor: aTestMorph
     left: abortBtn right;
     target: aTestMorph;
     actionSelector: 'continue'.
-  exitBtn := (SimpleButtonMorph newWithLabel: 'exit')
+  changeColorBtn := (SimpleButtonMorph newWithLabel: 'change color')
     openInWorld;
     left: continueBtn right;
+    target: aTestMorph;
+    actionSelector: 'changeColor'.
+  exitBtn := (SimpleButtonMorph newWithLabel: 'exit')
+    openInWorld;
+    left: changeColorBtn right;
     target: aTestMorph;
     actionSelector: 'die'

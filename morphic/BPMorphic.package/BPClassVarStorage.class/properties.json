@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classes" ],
+	"name" : "BPClassVarStorage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
