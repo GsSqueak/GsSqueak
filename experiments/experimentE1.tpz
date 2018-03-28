@@ -1,0 +1,36 @@
+run
+
+Object subclass: 'Superclass'
+	instVarNames: #()
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: #()
+	inDictionary: ''
+	category: 'Testing'
+	options: #()
+%
+
+run
+
+Superclass subclass: 'Subclass'
+	instVarNames: #()
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: #()
+	inDictionary: ''
+	category: 'Testing'
+	options: #()
+%
+
+run
+
+Subclass superclassForEnv: 7 put: Object
+%
+
+run
+Subclass superclassForEnv: 0 put: Object
+
+"ERROR 2718 , a ArgumentError occurred (error 2718), expected envId > 0 (ArgumentError)
+topaz 1> "
+
+%
