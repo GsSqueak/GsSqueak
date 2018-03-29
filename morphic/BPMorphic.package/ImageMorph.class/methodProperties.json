@@ -6,7 +6,7 @@
 		"fromString:" : "sw 10/23/2000 18:21",
 		"fromString:font:" : "sw 10/23/2000 18:21",
 		"initialize" : "asm 4/10/2003 13:09",
-		"registerInFlapsRegistry" : "Anonymous 03/21/2018 05:57",
+		"registerInFlapsRegistry" : "asm 4/10/2003 13:10",
 		"unload" : "asm 4/11/2003 12:36" },
 	"instance" : {
 		"addCustomMenuItems:hand:" : "ar 11/7/2000 14:55",

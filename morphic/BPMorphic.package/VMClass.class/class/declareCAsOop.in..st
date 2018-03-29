@@ -1,6 +1,7 @@
 translation
-declareCAsOop: arrayOfVariableNames in: aCCodeGenerator 
-	"Declare the variables in arrayOfVariableNames with type representing
+declareCAsOop: arrayOfVariableNames in: aCCodeGenerator
+  "Declare the variables in arrayOfVariableNames with type representing
 	position in object memory."
-	arrayOfVariableNames
-		do: [:varName | aCCodeGenerator var: varName type: 'usqInt']
+
+  arrayOfVariableNames
+    do: [ :varName | aCCodeGenerator var: varName type: 'usqInt' ]

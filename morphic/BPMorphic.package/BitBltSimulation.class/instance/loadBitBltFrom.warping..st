@@ -16,7 +16,7 @@ loadBitBltFrom: bbObj warping: aBool
   (interpreterProxy failed
     or: [ combinationRule < 0 or: [ combinationRule > (OpTableSize - 2) ] ])
     ifTrue: [ 
-      self halt.
+      "self halt."
       ^ false	"non-integer value" ].
   (combinationRule >= 16 and: [ combinationRule <= 17 ])
     ifTrue: [ 
@@ -53,7 +53,7 @@ loadBitBltFrom: bbObj warping: aBool
     ifNil: destHeight.
   interpreterProxy failed
     ifTrue: [ 
-      self halt.
+      "self halt."
       ^ false	"non-integer value" ].
   noSource
     ifTrue: [ sourceX := sourceY := 0 ]
