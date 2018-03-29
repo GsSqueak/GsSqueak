@@ -1,0 +1,4 @@
+*DemoPackage
+isDemoRectangle
+
+	^ false

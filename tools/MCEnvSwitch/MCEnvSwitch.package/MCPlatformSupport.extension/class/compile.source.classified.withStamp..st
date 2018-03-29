@@ -2,7 +2,13 @@
 compile: aClass source: monticelloSource classified: cat withStamp: aString
   | source errString |
   source := monticelloSource withGemstoneLineEndings.
-  errString := aClass compileMethod: source category: cat env: MCEnv current.
+  aClass
+    compileMethod: source
+    category: cat
+    using: GsSession currentSession symbolList
+    environmentId: MCEnv current.
+  errString := (Behavior parseSelector: source for: aClass)
+    ifNotNil: [ :s | s asSymbol ].
   errString
     ifNil: [ aClass setStamp: aString forMethod: (Behavior parseSelector: source for: aClass) ]
     ifNotNil: [ 
