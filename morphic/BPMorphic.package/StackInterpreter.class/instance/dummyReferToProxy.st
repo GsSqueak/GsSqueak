@@ -1,0 +1,3 @@
+initialization
+dummyReferToProxy
+	interpreterProxy := interpreterProxy

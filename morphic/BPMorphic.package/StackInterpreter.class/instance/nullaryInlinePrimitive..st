@@ -1,0 +1,3 @@
+sista bytecodes
+nullaryInlinePrimitive: primIndex 
+	self unknownInlinePrimitive

@@ -1,0 +1,3 @@
+simulation
+displayBits
+	^ displayBits

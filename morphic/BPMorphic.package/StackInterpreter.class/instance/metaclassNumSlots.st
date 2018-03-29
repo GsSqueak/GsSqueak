@@ -1,0 +1,3 @@
+simulation
+metaclassNumSlots
+	^ metaclassNumSlots

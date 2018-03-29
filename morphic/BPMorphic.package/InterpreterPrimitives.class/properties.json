@@ -1,0 +1,33 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CrossedX",
+		"EndOfRun",
+		"MillisecondClockMask" ],
+	"commentStamp" : "eem 12/7/2017 18:44",
+	"instvars" : [
+		"objectMemory",
+		"messageSelector",
+		"argumentCount",
+		"newMethod",
+		"primFailCode",
+		"osErrorCode",
+		"profileMethod",
+		"profileProcess",
+		"profileSemaphore",
+		"nextProfileTick",
+		"preemptionYields",
+		"newFinalization",
+		"sHEAFn" ],
+	"name" : "InterpreterPrimitives",
+	"pools" : [
+		"VMBasicConstants",
+		"VMBytecodeConstants",
+		"VMMethodCacheConstants",
+		"VMObjectIndices",
+		"VMSqueakClassIndices",
+		"VMStackFrameOffsets" ],
+	"super" : "VMClass",
+	"type" : "normal" }

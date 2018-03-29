@@ -1,0 +1,42 @@
+control primitives
+activateNewFullClosure: blockClosure method: theMethod numArgs: numArgs mayContextSwitch: mayContextSwitch 
+	"Similar to activateNewMethod but for Closure and newMethod."
+	| _gsSqueakTemp_numCopied _gsSqueakTemp_methodHeader _gsSqueakTemp_numTemps |
+	self assert: theMethod
+			= (objectMemory fetchPointer: FullClosureCompiledBlockIndex ofObject: blockClosure).
+	_gsSqueakTemp_numCopied := self copiedValueCountOfFullClosure: blockClosure.
+	self push: instructionPointer.
+	self push: framePointer.
+	framePointer := stackPointer.
+	self push: theMethod.
+	self
+		push: (self
+				encodeFrameFieldHasContext: false
+				isBlock: true
+				numArgs: numArgs).
+	self push: objectMemory nilObject.
+	"FxThisContext field"
+	"Because inst var access is not checked, we must follow the receiver in
+	Spur to ensure it is valid."
+	self
+		push: (objectMemory followField: FullClosureReceiverIndex ofObject: blockClosure).
+	"Copy the copied values..."
+	0
+		to: _gsSqueakTemp_numCopied - 1
+		do: [:i | self
+				push: (objectMemory fetchPointer: i + FullClosureFirstCopiedValueIndex ofObject: blockClosure)].
+	self
+		assert: (self frameIsBlockActivation: framePointer).
+	self assert: (self frameHasContext: framePointer) not.
+	_gsSqueakTemp_methodHeader := objectMemory methodHeaderOf: theMethod.
+	_gsSqueakTemp_numTemps := self temporaryCountOfMethodHeader: _gsSqueakTemp_methodHeader.
+	numArgs + _gsSqueakTemp_numCopied + 1
+		to: _gsSqueakTemp_numTemps
+		do: [:i | self push: objectMemory nilObject].
+	instructionPointer := (self initialIPForHeader: _gsSqueakTemp_methodHeader method: theMethod)
+				- 1.
+	self setMethod: theMethod.
+	"Now check for stack overflow or an event (interrupt, must scavenge,
+	etc) "
+	stackPointer < stackLimit
+		ifTrue: [self handleStackOverflowOrEventAllowContextSwitch: mayContextSwitch]

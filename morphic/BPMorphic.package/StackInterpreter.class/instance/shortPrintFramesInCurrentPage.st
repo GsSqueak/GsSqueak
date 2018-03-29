@@ -1,0 +1,3 @@
+debug printing
+shortPrintFramesInCurrentPage
+	self shortPrintFrameAndCallers: localFP

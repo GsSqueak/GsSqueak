@@ -1,0 +1,3 @@
+compiled methods
+alternateHeaderNumLiteralsMask
+	^ AlternateHeaderNumLiteralsMask

@@ -1,0 +1,3 @@
+debug printing
+flush
+	^ self
