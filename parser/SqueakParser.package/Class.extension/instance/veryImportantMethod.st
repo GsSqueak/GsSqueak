@@ -1,0 +1,4 @@
+*SqueakParser-Dependencies
+veryImportantMethod
+
+	^ true

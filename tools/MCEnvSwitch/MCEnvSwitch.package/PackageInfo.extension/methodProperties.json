@@ -18,4 +18,5 @@
 		"env:overrideCategoriesForClass:" : "",
 		"extensionClassesEnv:" : "",
 		"extensionMethodsEnv:" : "",
+		"methodsEnv:" : "",
 		"referenceForMethod:ofClass:environmentId:" : "" } }
