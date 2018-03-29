@@ -3,7 +3,7 @@ setTo: aNumber
   "Increment the current session's counter value by the given amount."
 
   | sessionElement total systm |
-  aNumber _validateClass: Number.
+  "  aNumber _validateClass: Number."
   sessionElement := self _getSessionElementFor: self _thisSessionIndex.
   systm := System.
   systm _addRootObjectToRcReadSet: sessionElement.

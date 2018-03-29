@@ -1,15 +1,13 @@
 {
-	"category" : "BPMorphic",
+	"category" : "BPPanama",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Entities" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"x",
-		"y",
-		"color" ],
-	"name" : "BPTestMorphState",
+		 ],
+	"name" : "BPPanama",
 	"pools" : [
 		 ],
 	"super" : "Object",

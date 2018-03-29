@@ -1,6 +1,5 @@
 as yet unclassified
 commit
-  Transcript show: 'committing'.
   self posToState.
-  Transcript show: System commit.
+  System commit.
   self posFromState

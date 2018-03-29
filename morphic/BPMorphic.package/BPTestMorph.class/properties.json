@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		"common",
-		"commonState",
-		"wantsToLive" ],
+		"commonState" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"text",
-		"background" ],
+		"background",
+		"wantsToLive" ],
 	"name" : "BPTestMorph",
 	"pools" : [
 		 ],
