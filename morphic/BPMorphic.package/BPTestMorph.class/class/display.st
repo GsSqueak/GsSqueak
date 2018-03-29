@@ -7,6 +7,9 @@ display
   Smalltalk removeKey: #'Display' ifAbsent: [  ].
   Smalltalk removeKey: #'World' ifAbsent: [  ].
   Smalltalk removeKey: #'ActiveHand' ifAbsent: [  ].
+  SessionTemps current at: #'CVStorage' put: BPClassVarStorage new.
+  Cursor currentCursor: Cursor new.
+  Cursor startUp.
   GraFFIcsLibrary inst initialize.
   SessionTemps current at: #'Sensor' put: EventSensor new.
   SessionTemps current at: #'Display' put: DisplayScreen new.

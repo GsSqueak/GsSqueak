@@ -1,6 +1,5 @@
 as yet unclassified
 continue
-  Transcript show: 'continuing'.
   self posToState.
-  Transcript show: System continueTransaction.
+  System continueTransaction.
   self posFromState
