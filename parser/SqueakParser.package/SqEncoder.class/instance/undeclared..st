@@ -14,19 +14,5 @@ undeclared: name
 	[Compiler format: code in: class notifying: nil decorated: false]
 	on: UndeclaredVariableWarning
 	do: [:ex| ex resume: false]"
-  ^ sym := name asSymbol	"^ (UndeclaredVariableWarning new
-			name: name
-			selector: selector
-			class: cue getClass) signal
-		ifTrue: [| undeclared |
-			undeclared := cue environment undeclared.
-			[undeclared at: sym put: nil]
-				on: AttemptToWriteReadOnlyGlobal
-				do: [:noti | noti resume: true].
-			self
-				global: (undeclared associationAt: sym)
-				name: sym]
-		ifFalse: [self
-				global: (Association key: sym)
-				name: sym]"	"Hackedy Hack hack
-"
+  sym := name asSymbol.
+  ^ self global: (Association key: sym) name: sym
