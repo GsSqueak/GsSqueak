@@ -1,0 +1,11 @@
+Number <|== Float
+Magnitude <|== Number
+Float <|== BoxedFloat64
+Float <|== SmallFloat64
+Number <|== Fraction
+Number <|== Integer
+Integer <|== LargePositiveInteger
+LargePositiveInteger <|== LargeNegativeInteger
+Integer <|== SmallInteger
+Number <|== ScaledDecimal
+

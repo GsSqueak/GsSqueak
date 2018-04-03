@@ -1,0 +1,17 @@
+Magnitude <|== Number
+Number <|== BinaryFloat
+BinaryFloat <|== Float
+Float <|== SmallDouble
+BinaryFloat <|== SmallFloat
+BinaryFloat <|== UnimplementedFloat1
+BinaryFloat <|== UnimplementedFloat2
+Number <|== DecimalFloat
+Number <|== AbstractFraction
+AbstractFraction <|== Fraction
+AbstractFraction <|== SmallFraction
+Number <|== FixedPoint
+Number <|== Integer
+Integer <|== LargeInteger
+Integer <|== SmallInteger
+Number <|== ScaledDecimal
+
