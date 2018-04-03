@@ -1,4 +1,3 @@
 accessing
 environmentId: anObject
-
-   environmentId := anObject
+  environmentId := anObject
