@@ -1,18 +1,17 @@
 encoding
 undeclared: name
   | sym |
-  self break.
+  ^ SqUndeclaredVariableNode new tag: name asSymbol	"self break.
   (requestor notNil and: [ requestor interactive ])
     ifTrue: [ 
       requestor requestor == #'error:'
         ifTrue: [ requestor error: 'Undeclared' ].
-      ^ self notify: 'Undeclared' ].	"Allow knowlegeable clients to squash the undeclared warning if they
+      ^ self notify: 'Undeclared' ].	"	"Allow knowlegeable clients to squash the undeclared warning if they
 	want (e.g.
 	Diffing pretty printers that are simply formatting text). As this breaks
 	compilation it should only be used by clients that want to discard the
 	result of the compilation. To squash the warning use e.g.
 	[Compiler format: code in: class notifying: nil decorated: false]
 	on: UndeclaredVariableWarning
-	do: [:ex| ex resume: false]"
-  sym := name asSymbol.
-  ^ self global: (Association key: sym) name: sym
+	do: [:ex| ex resume: false]"	"sym := name asSymbol.
+  ^ self global: (Association key: sym) name: sym"
