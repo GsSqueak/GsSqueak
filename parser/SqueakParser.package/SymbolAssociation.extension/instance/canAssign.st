@@ -1,4 +1,0 @@
-*SqueakParser-Dependencies
-canAssign
-
-	^ true

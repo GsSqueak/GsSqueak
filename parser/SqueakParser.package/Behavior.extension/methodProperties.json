@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"classify:under:environmentId:" : "",
+		"newMethodFromSqueakString:inEnv:" : "",
+		"newMethodFromSqueakString:inEnv:classified:" : "",
+		"nonProtectedPersistentMethodDictForEnv:put:" : "" } }
