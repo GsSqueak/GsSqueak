@@ -1,11 +1,10 @@
 *MCEnvSwitch
 compile: aClass source: monticelloSource classified: cat withStamp: aString
   | source errString |
-  self halt.
   source := monticelloSource withGemstoneLineEndings.
   MCEnv current = 7
     ifTrue: [ 
-      aClass newMethodFromSqueakString: source inEnv: MCEnv current.
+      aClass newMethodFromSqueakString: source inEnv: MCEnv current classified: cat.
       ^ self ]
     ifFalse: [ 
       aClass
