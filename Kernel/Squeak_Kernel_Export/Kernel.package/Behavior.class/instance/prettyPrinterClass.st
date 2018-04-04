@@ -1,3 +1,0 @@
-printing
-prettyPrinterClass
-	^self compilerClass

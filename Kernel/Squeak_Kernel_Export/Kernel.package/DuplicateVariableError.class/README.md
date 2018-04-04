@@ -1,1 +1,0 @@
-DuplicateVariableError is signaled when a (class or instance) variable name is used in both super and subclass.

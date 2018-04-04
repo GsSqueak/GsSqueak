@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"anyProcessesAbove:" : "DataCurator 01/25/2018 05:59",
-		"preemtedProcess" : "DataCurator 01/25/2018 05:59",
-		"remove:ifAbsent:" : "DataCurator 01/25/2018 05:59",
-		"terminateActive" : "DataCurator 01/25/2018 05:59" } }

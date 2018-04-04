@@ -1,4 +1,0 @@
-simulation
-primitiveFailToken
-
-	^ PrimitiveFailToken

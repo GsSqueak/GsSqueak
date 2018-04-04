@@ -1,4 +1,0 @@
-private-debugger
-cachesStack
-
-	^false

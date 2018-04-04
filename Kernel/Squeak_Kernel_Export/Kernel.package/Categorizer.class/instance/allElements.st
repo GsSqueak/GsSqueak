@@ -1,4 +1,0 @@
-accessing
-allElements
-
-	^ elementArray copy

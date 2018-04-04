@@ -1,3 +1,0 @@
-printing
-formatterClass
-	 ^self compilerClass

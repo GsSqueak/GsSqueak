@@ -1,4 +1,0 @@
-signaledException
-isResumable
-
-	^true

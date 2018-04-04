@@ -1,0 +1,4 @@
+*SqNumbers-constants
+threePi
+
+	^ ThreePi

@@ -1,0 +1,3 @@
+*SqNumbers-constants
+halfPi
+	^ Halfpi

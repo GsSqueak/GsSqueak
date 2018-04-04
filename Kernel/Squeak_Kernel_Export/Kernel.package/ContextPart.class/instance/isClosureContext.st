@@ -1,4 +1,0 @@
-query
-isClosureContext
-
-	^ false

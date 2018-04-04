@@ -1,4 +1,0 @@
-handling
-isResumable
-	
-	^ false

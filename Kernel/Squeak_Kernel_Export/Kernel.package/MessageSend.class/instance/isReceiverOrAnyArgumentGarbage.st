@@ -1,3 +1,0 @@
-private
-isReceiverOrAnyArgumentGarbage
-	^false

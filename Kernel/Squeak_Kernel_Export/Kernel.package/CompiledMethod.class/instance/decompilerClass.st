@@ -1,3 +1,0 @@
-decompiling
-decompilerClass
-	^self compilerClass decompilerClass

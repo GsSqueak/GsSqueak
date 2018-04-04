@@ -1,0 +1,4 @@
+*SqNumbers-constants
+negativeZero
+
+	^ NegativeZero
