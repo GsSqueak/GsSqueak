@@ -11,6 +11,4 @@ asGemstoneNodeInEnvironment: env
                 literalVariable:
                   (SymbolAssociation new key: #'Smalltalk' value: Smalltalk)));
     appendArgument:
-        (GsComLiteralNode new
-            leaf:
-              (GsComLitLeaf new symbolLiteral: ('Squeak' , self tag) asSymbol))
+        (GsComLiteralNode new leaf: (GsComLitLeaf new symbolLiteral: self tag))
