@@ -1,3 +1,3 @@
-testing
+initialize-release
 isUndeclared
-	^ false
+  ^ false

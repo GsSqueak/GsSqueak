@@ -4,7 +4,7 @@
 	"instance" : {
 		"accept:" : "SL 2/27/2018 13:44",
 		"analyseTempsWithin:rootNode:assignmentPools:" : "SL 2/27/2018 13:44",
-		"asGemstoneNodeInEnvironment:" : "Anonymous 03/19/2018 05:49",
+		"asGemstoneNodeInEnvironment:" : "",
 		"emitCodeForEffect:encoder:" : "SL 2/27/2018 13:44",
 		"emitCodeForValue:encoder:" : "SL 2/27/2018 13:44",
 		"isAssignmentNode" : "SL 2/27/2018 13:44",

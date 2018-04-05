@@ -3,7 +3,10 @@
 		 },
 	"instance" : {
 		"accept:" : "SL 2/27/2018 13:43",
+		"asGemstoneLeaf" : "",
+		"asGemstoneLeafInEnvironment:" : "",
 		"asGemstoneNodeInEnvironment:" : "Anonymous 04/03/2018 04:35",
+		"gemstoneNodeAssign:" : "",
 		"isUndeclared" : "SL 2/27/2018 13:43",
 		"tag" : "SL 2/27/2018 13:43",
 		"tag:" : "SL 2/27/2018 13:43" } }
