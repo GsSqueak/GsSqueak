@@ -1,3 +1,3 @@
 binding
 bindingOf: aSymbol
-  ^ class bindingOf: aSymbol	"TODO: environment: environment"
+  ^ class bindingOf: ('Squeak' , aSymbol) asSymbol	"TODO: environment: environment"
