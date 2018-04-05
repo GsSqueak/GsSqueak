@@ -2,7 +2,7 @@
 compile: aClass source: monticelloSource classified: cat withStamp: aString
   | source errString |
   source := monticelloSource withGemstoneLineEndings.
-  MCEnv current = 7
+  MCEnv usesSqueakParser
     ifTrue: [ 
       aClass newMethodFromSqueakString: source inEnv: MCEnv current classified: cat.
       ^ self ]
