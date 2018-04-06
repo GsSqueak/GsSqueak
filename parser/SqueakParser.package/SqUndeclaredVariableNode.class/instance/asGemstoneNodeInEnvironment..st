@@ -1,14 +1,7 @@
 translating
 asGemstoneNodeInEnvironment: env
-  " Object undeclared, lookup in SmalltalkProxy"
+  " Object undeclared, don't lookup in SmalltalkProxy"
 
-  ^ GsComSendNode new
-    stSelector: #'at:';
-    rcvr:
-        (GsComVariableNode new
-            leaf:
-              (GsComVarLeaf new
-                literalVariable:
-                  (SymbolAssociation new key: #'Smalltalk' value: Smalltalk)));
-    appendArgument:
-        (GsComLiteralNode new leaf: (GsComLitLeaf new symbolLiteral: self tag))
+  ^ GsComVariableNode new
+    leaf:
+      (GsComVarLeaf new literalVariable: (SqueakEnvironment undeclare: tag asSymbol))

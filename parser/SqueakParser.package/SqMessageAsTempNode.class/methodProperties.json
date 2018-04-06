@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"asStorableNode:" : "SL 2/27/2018 13:44",
-		"code" : "SL 2/27/2018 13:44",
-		"emitCodeForStorePop:encoder:" : "SL 2/27/2018 13:44",
-		"sizeCodeForStorePop:" : "SL 2/27/2018 13:44",
-		"store:from:" : "SL 2/27/2018 13:44" } }
+		"asStorableNode:" : "",
+		"code" : "",
+		"emitCodeForStorePop:encoder:" : "",
+		"sizeCodeForStorePop:" : "",
+		"store:from:" : "" } }

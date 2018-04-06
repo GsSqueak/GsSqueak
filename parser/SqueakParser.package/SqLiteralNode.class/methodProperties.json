@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"accept:" : "SL 2/27/2018 13:43",
-		"asGemstoneNodeInEnvironment:" : "Anonymous 03/16/2018 06:24",
-		"emitCodeForValue:encoder:" : "SL 2/27/2018 13:43",
-		"eval" : "SL 2/27/2018 13:43",
-		"isConstantNumber" : "SL 2/27/2018 13:43",
-		"isLiteralNode" : "SL 2/27/2018 13:43",
-		"isSpecialConstant" : "SL 2/27/2018 13:43",
-		"literalValue" : "SL 2/27/2018 13:43",
+		"accept:" : "",
+		"asGemstoneNodeInEnvironment:" : "",
+		"emitCodeForValue:encoder:" : "",
+		"eval" : "",
+		"isConstantNumber" : "",
+		"isLiteralNode" : "",
+		"isSpecialConstant" : "",
+		"literalValue" : "",
 		"name:key:index:type:" : "",
-		"printOn:indent:" : "SL 2/27/2018 13:43",
-		"printWithClosureAnalysisOn:indent:" : "SL 2/27/2018 13:43",
-		"reserve:" : "SL 2/27/2018 13:43",
-		"sizeCodeForValue:" : "SL 2/27/2018 13:43" } }
+		"printOn:indent:" : "",
+		"printWithClosureAnalysisOn:indent:" : "",
+		"reserve:" : "",
+		"sizeCodeForValue:" : "" } }

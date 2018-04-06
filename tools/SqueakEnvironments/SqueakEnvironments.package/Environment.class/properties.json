@@ -1,0 +1,20 @@
+{
+	"category" : "SqueakEnvironments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default",
+		"Instances" ],
+	"commentStamp" : "nice 9/29/2016 10:27",
+	"instvars" : [
+		"info",
+		"declarations",
+		"bindings",
+		"undeclared",
+		"policies",
+		"observers" ],
+	"name" : "Environment",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

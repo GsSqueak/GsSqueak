@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"name:" : "",
+		"name:organization:packages:" : "" },
+	"instance" : {
+		"initializeWithName:organization:packages:" : "",
+		"name" : "",
+		"organization" : "",
+		"packages" : "",
+		"printOn:" : "" } }

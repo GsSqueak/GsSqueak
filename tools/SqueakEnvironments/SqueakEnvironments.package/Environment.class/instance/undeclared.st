@@ -1,0 +1,3 @@
+accessing
+undeclared
+	^ undeclared
