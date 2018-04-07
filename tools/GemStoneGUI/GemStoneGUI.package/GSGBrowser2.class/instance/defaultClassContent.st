@@ -1,0 +1,4 @@
+class content
+defaultClassContent
+
+	^ #classDefinition

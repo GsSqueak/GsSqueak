@@ -1,0 +1,24 @@
+{
+	"category" : "GemStoneGUI-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"environment",
+		"metaClassIndicated",
+		"systemCategoryList",
+		"selectedSystemCategoryName",
+		"classList",
+		"selectedClassName",
+		"selectedMessageCategoryName",
+		"messageCategoryDict",
+		"envId",
+		"editSelection",
+		"selectedClassContent" ],
+	"name" : "GSGBrowser2",
+	"pools" : [
+		 ],
+	"super" : "GSGCodeTool",
+	"type" : "normal" }

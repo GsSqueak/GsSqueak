@@ -5,8 +5,5 @@ codeForSerializingMethods: methodArrayCreationCode
 	| result |
 	result := OrderedCollection new.
 	methods do: [ :method | 
-		result add: method inClass name.
-		result add: method selector.
-		result add: method environmentId.
-		result add: (method inClass categoryOfSelector: method selector environmentId: method environmentId)].
+		' , (self codeForSerializingMethod: 'method' onCollection: 'result') , '].
 	result] value: (' , methodArrayCreationCode , $)

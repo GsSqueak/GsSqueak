@@ -1,0 +1,4 @@
+message category list
+reselectMessageCategory
+
+	self selectMessageCategoryNamed: self selectedMessageCategoryName

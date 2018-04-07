@@ -3,7 +3,7 @@ class: classProxy compile: aString classified: categoryName env: envId notifying
 
 	|query topazOutput | 
 	query := '(' , classProxy codeReferencingMe , 
-				' compileMethod: ' ,   aString asString printString , 
+				' compileMethod: ' ,   aString asString withSqueakLineEndings printString , 
 				' dictionaries: ' , classProxy environment codeReferencingMe , 
 				' category: ' , categoryName asString printString , 
 				' environmentId: ' , envId , ') selector asString'.

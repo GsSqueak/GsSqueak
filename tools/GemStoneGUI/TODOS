@@ -1,0 +1,20 @@
+Todos:
+- create standalone tools
+  - browser
+  - message list
+- change tools to only work with Environment, Class, Metaclass and Method
+  - remove organizers
+  - remove oop capabilities
+- make tools close themselves if the session terminates
+- color code tools according to their session
+- new tools
+  - workspace
+  - inspector
+  - explorer
+  - debugger
+- use gci
+- syntax highlighting
+- notifying of uncommitted changes
+- show compilation errors
+- class icons
+- separate session manager and session
