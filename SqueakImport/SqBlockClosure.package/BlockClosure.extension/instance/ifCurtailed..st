@@ -7,7 +7,6 @@ ifCurtailed: aBlock
 	 primitive.  Primitive 198 always fails.  The VM uses prim 198 in a
 	 context's method as the mark for an ensure:/ifCurtailed: activation."
 	| complete result |
-	self halt.
 	result := self valueNoContextSwitch.
 	complete := true.
 	^result

@@ -1,16 +1,2 @@
 {
-	"category" : "Kernel-Methods",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "eem 4/10/2017 11:17",
-	"instvars" : [
-		"outerContext",
-		"startpc",
-		"numArgs" ],
-	"name" : "BlockClosure",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "variable" }
+	"name" : "BlockClosure" }
