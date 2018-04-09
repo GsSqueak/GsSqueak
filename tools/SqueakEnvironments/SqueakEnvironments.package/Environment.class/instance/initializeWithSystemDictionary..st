@@ -6,10 +6,9 @@ initializeWithSystemDictionary: old
     name: 'Smalltalk'
     organization: old organization
     packages: PackageOrganizer default.
-  old associationsDo: [ :assc | declarations add: assc ].
-  (old at: #'Undeclared') associationsDo: [ :assc | undeclared add: assc ].
   UserGlobals at: #'SqueakEnvironment' put: self.
   squeakSmalltalk := SmalltalkImage new.
-  declarations at: #'Smalltalk' put: squeakSmalltalk.
+  self at: #'Smalltalk' put: squeakSmalltalk.
+  self at: #'Undeclared' put: undeclared.
   squeakSmalltalk globals: self.
-  declarations at: #'Undeclared' put: undeclared
+  self importSelf

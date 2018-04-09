@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakEnvironments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ClassBinding",
+	"pools" : [
+		 ],
+	"super" : "SymbolAssociation",
+	"type" : "normal" }

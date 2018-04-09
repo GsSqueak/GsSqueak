@@ -28,6 +28,7 @@
 		"at:ifPresent:" : "",
 		"at:ifPresent:ifAbsent:" : "",
 		"at:ifPresentAndInMemory:" : "",
+		"at:otherwise:" : "",
 		"at:put:" : "",
 		"beCurrentDuring:" : "",
 		"bind:to:" : "",

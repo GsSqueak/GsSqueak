@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"environment:policy:addSelector:removeSelector:" : "" },
+	"instance" : {
+		"binding:addedTo:notify:" : "",
+		"binding:removedFrom:notify:" : "",
+		"environment" : "",
+		"initializeWithEnvironment:policy:addSelector:removeSelector:" : "",
+		"name:do:" : "",
+		"removeObserver:" : "" } }

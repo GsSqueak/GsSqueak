@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"atRandom:" : "",
+		"isLarge" : "",
+		"isPowerOfTwo" : "",
+		"isPrime" : "",
+		"isZero" : "" } }
