@@ -1,0 +1,4 @@
+*SqNumbers-private
+denominator
+
+	^denominator
