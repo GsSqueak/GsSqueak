@@ -1,6 +1,10 @@
 *MCEnvSwitch
 actualClass
-  ^ self environmentToLoad
+  | environment |
+  environment := (self respondsTo: #'environmentToLoad')
+    ifTrue: [ self environmentToLoad ]
+    ifFalse: [ Smalltalk ].
+  ^ environment
     at: className
     ifPresent: [ :class | 
       classIsMeta
