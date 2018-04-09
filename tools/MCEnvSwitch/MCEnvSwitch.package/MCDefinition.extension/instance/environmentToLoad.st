@@ -1,5 +1,5 @@
 *MCEnvSwitch
 environmentToLoad
-  ^ (MCEnv respondsTo: #'usesSqueakParser')
+  ^ ((MCEnv respondsTo: #'usesSqueakParser') and: [ MCEnv usesSqueakParser ])
     ifTrue: [ SqueakEnvironment ]
     ifFalse: [ Smalltalk ]
