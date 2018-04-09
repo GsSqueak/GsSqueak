@@ -1,0 +1,3 @@
+*SqBlockClosure-testing
+isFullBlock
+	^false

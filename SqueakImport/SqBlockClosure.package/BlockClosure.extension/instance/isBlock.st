@@ -1,0 +1,4 @@
+*SqBlockClosure-accessing
+isBlock
+
+	^ true

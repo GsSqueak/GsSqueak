@@ -1,0 +1,3 @@
+*SqBlockClosure-accessing
+startpc
+	^startpc
