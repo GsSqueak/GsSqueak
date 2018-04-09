@@ -39,4 +39,4 @@ templateForSubclassOf: className category: category
         ''
     options: #() ''.
   str] value: (' , className , ') value: ''' , category , $'.
-	^ topazOutput at: 1
+	^ topazOutput first

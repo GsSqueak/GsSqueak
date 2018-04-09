@@ -1,0 +1,16 @@
+Environment >> systemCategories
+Environment >> classNames
+Environment >> classNamesInSystemCategory:
+Environment >> hierarchyTreeOfClassNames:environmentId:
+Environment >> templateForSubclassOf:category:
+Class >> messageCategoryDictForEnv:
+Class >> name
+Class >> isMeta
+Class >> theNonMetaClass
+Class >> environment
+Class >> category
+Class >> comment
+Class >> definition
+Class >> hierarchy
+Class >> methodAt:environmentId:ifAbsent:
+Method >> source

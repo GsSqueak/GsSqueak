@@ -9,7 +9,7 @@ _baseCategorysForStore: envId
         ifTrue: [ 
           env0Dict := categorys.
           categorys := Array new size: 1.
-          categorys at: 0 put: env0Dict ].
+          categorys at: 1 put: env0Dict ].
       (carr := categorys) _isArray
         ifTrue: [ 
           | ofs |

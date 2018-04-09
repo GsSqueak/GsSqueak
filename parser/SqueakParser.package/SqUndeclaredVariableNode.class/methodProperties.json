@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"accept:" : "SL 2/27/2018 13:43",
-		"asGemstoneNodeInEnvironment:" : "Anonymous 04/03/2018 04:35",
-		"isUndeclared" : "SL 2/27/2018 13:43",
-		"tag" : "SL 2/27/2018 13:43",
-		"tag:" : "SL 2/27/2018 13:43" } }
+		"accept:" : "",
+		"asGemstoneLeaf" : "",
+		"asGemstoneLeafInEnvironment:" : "",
+		"asGemstoneNodeInEnvironment:" : "",
+		"gemstoneNodeAssign:" : "",
+		"isUndeclared" : "",
+		"tag" : "",
+		"tag:" : "" } }

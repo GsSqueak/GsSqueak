@@ -1,6 +1,9 @@
 {
 	"class" : {
 		"current" : "sl 03/27/2018 11:35",
-		"set:" : "sl 03/27/2018 11:32" },
+		"set:" : "sl 03/27/2018 11:32",
+		"useGemstoneParser" : "",
+		"useSqueakParser" : "",
+		"usesSqueakParser" : "" },
 	"instance" : {
 		 } }

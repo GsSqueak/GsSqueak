@@ -6,6 +6,6 @@ parse: sourceStreamOrString class: behavior
     class: behavior
     noPattern: false
     notifying: nil
-    ifFail: [ ^ nil ].
+    ifFail: [ self halt ].
   methodNode class: behavior.
   ^ methodNode

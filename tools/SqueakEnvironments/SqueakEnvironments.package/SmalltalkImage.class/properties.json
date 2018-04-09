@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakEnvironments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"globals" ],
+	"name" : "SmalltalkImage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

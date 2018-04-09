@@ -1,0 +1,4 @@
+system category list
+reselectSystemCategory
+
+	self selectSystemCategory: self selectedSystemCategory

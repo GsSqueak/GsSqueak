@@ -1,0 +1,4 @@
+accessing
+wantsAnnotationPane
+
+	^ true
