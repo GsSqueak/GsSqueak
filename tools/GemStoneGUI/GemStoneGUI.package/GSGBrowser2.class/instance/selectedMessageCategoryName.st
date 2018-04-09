@@ -1,0 +1,4 @@
+message category list
+selectedMessageCategoryName
+
+	^ selectedMessageCategoryName

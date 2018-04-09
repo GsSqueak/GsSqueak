@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"accept:" : "SL 2/27/2018 13:43",
-		"asGemstoneLeaf" : "Anonymous 03/20/2018 07:46",
-		"asGemstoneNodeInEnvironment:" : "Anonymous 03/20/2018 07:44",
-		"emitCodeForStore:encoder:" : "SL 2/27/2018 13:43",
-		"emitCodeForStorePop:encoder:" : "SL 2/27/2018 13:43",
-		"emitCodeForValue:encoder:" : "SL 2/27/2018 13:43",
-		"name:index:" : "SL 2/27/2018 13:43",
-		"sizeCodeForStore:" : "SL 2/27/2018 13:43",
-		"sizeCodeForStorePop:" : "SL 2/27/2018 13:43",
-		"sizeCodeForValue:" : "SL 2/27/2018 13:43" } }
+		"accept:" : "",
+		"asGemstoneLeaf" : "",
+		"asGemstoneNodeInEnvironment:" : "",
+		"emitCodeForStore:encoder:" : "",
+		"emitCodeForStorePop:encoder:" : "",
+		"emitCodeForValue:encoder:" : "",
+		"name:index:" : "",
+		"sizeCodeForStore:" : "",
+		"sizeCodeForStorePop:" : "",
+		"sizeCodeForValue:" : "" } }

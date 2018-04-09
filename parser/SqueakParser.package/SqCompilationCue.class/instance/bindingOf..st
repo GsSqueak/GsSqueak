@@ -1,3 +1,3 @@
 binding
 bindingOf: aSymbol
-  ^ class bindingOf: aSymbol	"TODO: environment: environment"
+  ^ class bindingOf: aSymbol environment: environment

@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"accept:" : "SL 2/27/2018 13:44",
-		"analyseTempsWithin:rootNode:assignmentPools:" : "SL 2/27/2018 13:44",
-		"emitCodeForValue:encoder:" : "SL 2/27/2018 13:44",
-		"numElements" : "SL 2/27/2018 13:44",
-		"numElements:" : "SL 2/27/2018 13:44",
-		"sizeCodeForValue:" : "SL 2/27/2018 13:44" } }
+		"accept:" : "",
+		"analyseTempsWithin:rootNode:assignmentPools:" : "",
+		"emitCodeForValue:encoder:" : "",
+		"numElements" : "",
+		"numElements:" : "",
+		"sizeCodeForValue:" : "" } }

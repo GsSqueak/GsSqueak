@@ -4,7 +4,8 @@ newMethodFromSqueakString: aString inEnv: env classified: aProtocol
   parser := SqParser new.
   ast := parser parse: aString class: self.
   gsAst := ast asGemstoneNodeInEnvironment: env.
-  gsMethod := GsNMethod generateFromIR: gsAst.
+  (gsMethod := GsNMethod generateFromIR: gsAst) _isArray
+    ifTrue: [ gsMethod := gsMethod first ].
   (self selectorsForEnvironment: env)
     contains: [ :sel | sel = gsMethod selector ].
   methDict := self persistentMethodDictForEnv: env.

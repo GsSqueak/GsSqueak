@@ -6,7 +6,7 @@ messageCategoryHierarchyFor: classProxy env: envId
 	topazOutput := self run: '[ :class :envId | 
   | string |
   string := String new.
-  Object env: envId unifiedCategoriesDo: [ :categoryName :selectors | 
+  class env: envId unifiedCategoriesDo: [ :categoryName :selectors | 
       string addAll: categoryName.
       string add: Character lf.
       selectors do: [ :selector | 
@@ -14,4 +14,4 @@ messageCategoryHierarchyFor: classProxy env: envId
           string addAll: selector.
           string add: Character lf ] ].
   string allButLast ] value: ' , classProxy codeReferencingMe , ' value: ' , envId.
-	^ topazOutput at: 1
+	^ topazOutput first
