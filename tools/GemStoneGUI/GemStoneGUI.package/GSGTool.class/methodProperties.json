@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"forSession:" : "sl 4/5/2018 14:53" },
+	"instance" : {
+		"allCategory" : "sl 4/4/2018 10:17",
+		"defaultCategory" : "sl 4/4/2018 10:17",
+		"initializeOnSession:" : "sl 4/5/2018 14:45",
+		"nullCategory" : "sl 4/4/2018 10:18",
+		"open" : "sl 4/5/2018 14:55",
+		"session" : "sl 4/5/2018 14:26",
+		"session:" : "sl 4/5/2018 14:28",
+		"sessionClosed" : "sl 4/5/2018 14:48",
+		"update:" : "sl 4/5/2018 14:48",
+		"wantsStepsIn:" : "sl 4/3/2018 20:15" } }

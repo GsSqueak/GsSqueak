@@ -1,0 +1,4 @@
+class list
+selectedClassName
+
+	^ selectedClassName

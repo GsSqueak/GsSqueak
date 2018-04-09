@@ -1,8 +1,11 @@
 *MCEnvSwitch
 compile: aClass source: monticelloSource classified: cat withStamp: aString
-  | source errString |
+  | source errString envId |
   source := monticelloSource withGemstoneLineEndings.
-  MCEnv usesSqueakParser
+  envId := (MCEnv respondsTo: #'current')
+    ifTrue: [ MCEnv current ]
+    ifFalse: [ 0 ].
+  ((MCEnv respondsTo: #'usesSqueakParser') and: [ MCEnv usesSqueakParser ])
     ifTrue: [ 
       aClass newMethodFromSqueakString: source inEnv: MCEnv current classified: cat.
       ^ self ]
@@ -11,7 +14,7 @@ compile: aClass source: monticelloSource classified: cat withStamp: aString
         compileMethod: source
         category: cat
         using: GsSession currentSession symbolList
-        environmentId: MCEnv current ].
+        environmentId: envId ].
   errString := (Behavior parseSelector: source for: aClass)
     ifNotNil: [ :s | s asSymbol ].
   errString

@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakEnvironments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NamePolicy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

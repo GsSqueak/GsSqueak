@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakEnvironments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"organization",
+		"packages" ],
+	"name" : "EnvironmentInfo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
