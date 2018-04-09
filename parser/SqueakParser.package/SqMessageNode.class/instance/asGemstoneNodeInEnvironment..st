@@ -2,8 +2,9 @@ translating
 asGemstoneNodeInEnvironment: env
   | GsSendNode |
   GsSendNode := GsComSendNode new.
+  GsSendNode environment: env.
   GsSendNode
-    stSelector: (self selector asGemstoneNodeInEnvironment: env);
+    stSelector: (self selector asGemstoneNodeInEnvironment: env) inEnv: env;
     rcvr:
         (self receiver ifNotNil: [ self receiver asGemstoneNodeInEnvironment: env ]).
   self arguments
