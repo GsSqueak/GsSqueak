@@ -5,7 +5,7 @@ buildEnvironmentIdListWith: builder
 	listSpec := builder pluggableListSpec new.
 	listSpec 
 		model: self;
-		list: #environmentIdList;
+		list: #environmentIdTextualList;
 		getIndex: #environmentIdListIndex;
 		setIndex: #environmentIdListIndex:.
 	^ listSpec

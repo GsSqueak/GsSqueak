@@ -2,4 +2,4 @@ button actions
 closeSession
 
 	self changed: #sessionClosed.
-	self changed: #close
+	self interface terminate

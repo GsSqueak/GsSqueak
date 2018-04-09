@@ -5,7 +5,7 @@ selectMessageNamed: aSymbol
 		ifFalse: [nil]
 		ifTrue: [currentMethod := self selectedClassOrMetaClass
 									methodAt: aSymbol
-									environmentId: self envId
+									environmentId: self environmentId
 									ifAbsent: [nil]].
 	self hasMessageSelected ifTrue: [self editSelection: #editMessage].
 	self invalidateContents.

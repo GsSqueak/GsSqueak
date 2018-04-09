@@ -7,4 +7,4 @@ messageListFrame: bottomFraction fromTop: topFraction fromLeft: leftFraction wid
 		leftFraction: leftFraction offset: displacement;
 		topFraction: topFraction offset: 0;
 		rightFraction: (leftFraction + width) offset: 0;
-		bottomFraction: bottomFraction offset: self buttonHeight negated
+		bottomFraction: bottomFraction offset: 0

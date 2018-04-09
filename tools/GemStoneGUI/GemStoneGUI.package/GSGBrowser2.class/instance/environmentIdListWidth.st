@@ -1,4 +1,4 @@
 toolbuilder - layouting
 environmentIdListWidth
 
-	^ 70
+	^ 64

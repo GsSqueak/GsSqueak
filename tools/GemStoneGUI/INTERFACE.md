@@ -13,4 +13,5 @@ Class >> comment
 Class >> definition
 Class >> hierarchy
 Class >> methodAt:environmentId:ifAbsent:
+Class >> compile:classified:env:notifying:
 Method >> source

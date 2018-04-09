@@ -1,5 +1,5 @@
 toolbuilder - layouting
-switchesFrame: bottomFraction
+metaclassSwitchesFrame: bottomFraction
 
 	^ self 
 		switchesFrame: bottomFraction 
