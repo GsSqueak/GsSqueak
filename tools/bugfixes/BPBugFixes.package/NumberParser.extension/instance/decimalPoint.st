@@ -1,0 +1,3 @@
+*BPBugFixes
+decimalPoint
+  ^ $.
