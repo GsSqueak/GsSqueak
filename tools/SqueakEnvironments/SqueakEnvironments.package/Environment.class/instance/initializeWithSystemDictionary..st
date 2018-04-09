@@ -10,5 +10,6 @@ initializeWithSystemDictionary: old
   squeakSmalltalk := SmalltalkImage new.
   self at: #'Smalltalk' put: squeakSmalltalk.
   self at: #'Undeclared' put: undeclared.
+  self initializeCommons.
   squeakSmalltalk globals: self.
   self importSelf
