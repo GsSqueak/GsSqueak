@@ -1,0 +1,17 @@
+{
+	"category" : "SqueakEnvironments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"policy",
+		"environment",
+		"addSelector",
+		"removeSelector" ],
+	"name" : "BindingPolicy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

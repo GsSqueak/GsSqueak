@@ -1,3 +1,3 @@
 binding
-bindingOf: aSymbol ifAbsent: aBlock 
-	^ bindings bindingOf: aSymbol ifAbsent: aBlock
+bindingOf: aSymbol ifAbsent: aBlock
+  ^ bindings associationAt: aSymbol ifAbsent: aBlock
