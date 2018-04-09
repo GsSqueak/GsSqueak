@@ -1,0 +1,4 @@
+*SqCollectionLiterals-converting
+asSqueakPathName
+
+	^ self.

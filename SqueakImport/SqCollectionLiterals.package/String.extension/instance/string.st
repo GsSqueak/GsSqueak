@@ -1,0 +1,3 @@
+*SqCollectionLiterals-converting
+string
+	^self

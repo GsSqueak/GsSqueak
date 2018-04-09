@@ -1,0 +1,3 @@
+*SqCollectionLiterals-accessing
+selector
+	^ self

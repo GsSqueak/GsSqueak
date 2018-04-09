@@ -1,0 +1,4 @@
+*SqCollectionLiterals-accessing
+htmlEntities
+	
+	^ HtmlEntities

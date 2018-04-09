@@ -1,0 +1,4 @@
+*SqCollectionLiterals-*SqByteArray-accessing
+asWideString
+
+	^ WideString fromByteArray: self.
