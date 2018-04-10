@@ -1,4 +1,4 @@
 *SqNumbers-comparing
 >= aNumber
 
-	^ self env0perf: #'>=' with: aNumber
+	^ self _env0 >= aNumber

@@ -1,4 +1,4 @@
 *SqNumbers-mathematical functions
 ln
 	
-	^ self env0perf: #'ln'
+	^ self _env0 ln
