@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"returnSelf" : "" },
 	"instance" : {
 		"accept:" : "SL 2/27/2018 13:44",
 		"analyseTempsWithin:rootNode:assignmentPools:" : "SL 2/27/2018 13:44",
