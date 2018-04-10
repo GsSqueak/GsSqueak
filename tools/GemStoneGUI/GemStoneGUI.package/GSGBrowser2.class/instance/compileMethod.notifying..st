@@ -12,5 +12,5 @@ compileMethod: aString notifying: aController
 	newSelector ifNil: [^ false].
 	newSelector = self selectedMessageName
 		ifTrue: [self invalidateContents]
-		ifFalse: [self invalidateMessageCategoryDict].
-	self
+		ifFalse: [self setSelector: newSelector].
+	^ true
