@@ -1,6 +1,6 @@
 structure
 isInSystemWindow
-	"answer if the receiver is in a system window"
-	^ owner isMorph
-		and: [owner isSystemWindow
-				or: [owner isInSystemWindow]]
+  "answer if the receiver is in a system window"
+
+  ^ self owner isMorph
+    and: [ self owner isSystemWindow or: [ self owner isInSystemWindow ] ]

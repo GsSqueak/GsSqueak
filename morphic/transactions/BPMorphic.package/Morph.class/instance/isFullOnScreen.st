@@ -1,11 +1,12 @@
 testing
 isFullOnScreen
-	"Answer if the receiver is full contained in the owner visible 
+  "Answer if the receiver is full contained in the owner visible 
 	area."
-	owner isInMemory
-		ifFalse: [^ true].
-	owner isNil
-		ifTrue: [^ true].
-	self visible
-		ifFalse: [^ true].
-	^ owner clearArea containsRect: self fullBounds
+
+  self owner isInMemory
+    ifFalse: [ ^ true ].
+  self owner isNil
+    ifTrue: [ ^ true ].
+  self visible
+    ifFalse: [ ^ true ].
+  ^ self owner clearArea containsRect: self fullBounds
