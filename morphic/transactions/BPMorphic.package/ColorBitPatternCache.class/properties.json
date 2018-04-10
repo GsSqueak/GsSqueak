@@ -1,0 +1,18 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cachedDepth",
+		"cachedBitPattern" ],
+	"name" : "ColorBitPatternCache",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : [
+		"normal",
+		[
+			"dbTransient" ] ] }

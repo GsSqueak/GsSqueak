@@ -1,0 +1,3 @@
+private
+sortingByDate
+	^ sortMode == #date

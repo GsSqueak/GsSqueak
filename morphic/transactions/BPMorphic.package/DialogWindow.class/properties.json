@@ -1,0 +1,32 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GradientDialog",
+		"IncludeCloseButton",
+		"IncludeControlMenu",
+		"RoundedDialogCorners",
+		"UseWiggleAnimation" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"titleMorph",
+		"messageMorph",
+		"paneMorph",
+		"buttonRow",
+		"result",
+		"selectedButton",
+		"cancelButton",
+		"timeout",
+		"preferredPosition",
+		"keyMap",
+		"exclusive",
+		"filter",
+		"filterEnabled",
+		"filterMorph",
+		"autoCancel" ],
+	"name" : "DialogWindow",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"next",
+		"previous" ],
+	"name" : "LRUCacheHeadNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

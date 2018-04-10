@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kfr 10/27/2003 10:25",
+	"instvars" : [
+		 ],
+	"name" : "AlignmentMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

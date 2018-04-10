@@ -1,0 +1,3 @@
+preferences
+themeProperties
+	^ super themeProperties , {{#font. 'Fonts'. 'Font for menu items.'}. {#textColor. 'Colors'. 'Color for the menu item''s labels.'}. {#disabledTextColor. 'Colors'. 'Color to use for disabled menu item labels.'}. {#selectionColor. 'Colors'. 'Color used for items when hovering or selecting them.'}. {#selectionTextColor. 'Colors'. 'Color used for label when hovering or selecting them.'}}

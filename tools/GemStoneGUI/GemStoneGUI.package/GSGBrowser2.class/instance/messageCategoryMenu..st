@@ -2,8 +2,8 @@ message category list
 messageCategoryMenu: aMenu
 
 	^ aMenu addList: #(
-			('new category...'				addCategory)
+			('new category...'				addMessageCategory)
 			-
-			('rename...'						renameCategory)
+			('rename...'						renameMessageCategory)
 			('remove (x)'					removeMessageCategory));
 		yourself

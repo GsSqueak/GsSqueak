@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"gripThickness" : "mt 4/24/2015 11:29" },
+	"instance" : {
+		"dotColor" : "jrp 7/5/2005 21:36",
+		"handleColor" : "jrp 7/5/2005 21:35",
+		"handlesMouseDown:" : "jrp 7/5/2005 21:37",
+		"handlesMouseOver:" : "jrp 7/5/2005 21:37",
+		"initialize" : "md 2/24/2006 23:01",
+		"isCursorOverHandle" : "jrp 7/5/2005 21:40",
+		"mouseDown:" : "jrp 7/5/2005 21:42",
+		"mouseEnter:" : "md 2/24/2006 23:01",
+		"mouseLeave:" : "jrp 7/5/2005 21:37",
+		"referencePoint:" : "mt 4/14/2015 08:39",
+		"resizeCursor" : "jrp 7/5/2005 21:37",
+		"setDefaultColors" : "jrp 7/29/2005 13:25",
+		"setInverseColors" : "jrp 7/30/2005 21:30" } }

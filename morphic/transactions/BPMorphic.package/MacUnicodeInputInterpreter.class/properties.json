@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keyValueIndex" ],
+	"name" : "MacUnicodeInputInterpreter",
+	"pools" : [
+		 ],
+	"super" : "KeyboardInputInterpreter",
+	"type" : "normal" }

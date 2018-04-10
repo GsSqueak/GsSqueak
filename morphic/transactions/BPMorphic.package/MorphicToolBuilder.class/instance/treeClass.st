@@ -1,0 +1,3 @@
+widget classes
+treeClass
+	^ PluggableTreeMorph

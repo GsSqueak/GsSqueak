@@ -1,0 +1,3 @@
+testing
+canDrawAtHigherResolution
+	^ false

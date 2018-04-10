@@ -1,0 +1,15 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"lastType",
+		"lastDispatch" ],
+	"name" : "MorphicEventDispatcher",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

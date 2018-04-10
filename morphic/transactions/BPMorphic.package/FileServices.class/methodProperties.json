@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"allRegisteredServices" : "ar 7/16/2005 16:59",
+		"cleanUp" : "ar 2/26/2010 23:02",
+		"initialize" : "TobiasZagorni 03/15/2018 04:32",
+		"isReaderNamedRegistered:" : "ar 7/16/2005 17:00",
+		"itemsForDirectory:" : "ar 7/16/2005 17:00",
+		"itemsForFile:" : "ar 7/16/2005 17:00",
+		"registerFileReader:" : "ar 7/16/2005 17:00",
+		"registeredFileReaderClasses" : "ar 7/16/2005 16:59",
+		"removeObsolete" : "ar 7/17/2005 02:36",
+		"suffixOf:" : "nk 12/7/2002 12:52",
+		"unregisterFileReader:" : "ar 7/16/2005 17:00" },
+	"instance" : {
+		 } }

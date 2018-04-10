@@ -1,0 +1,3 @@
+queries
+isColor
+	^ true

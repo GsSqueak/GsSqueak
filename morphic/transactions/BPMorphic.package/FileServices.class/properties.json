@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"FileReaderRegistry" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FileServices",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

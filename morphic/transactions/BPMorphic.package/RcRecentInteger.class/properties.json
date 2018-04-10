@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RcRecentInteger",
+	"pools" : [
+		 ],
+	"super" : "RcCounter",
+	"type" : "variable" }

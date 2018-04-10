@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TopGripMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderGripMorph",
+	"type" : "normal" }

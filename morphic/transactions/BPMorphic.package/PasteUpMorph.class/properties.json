@@ -1,0 +1,30 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DisableDeferredUpdates",
+		"GlobalCommandKeysEnabled",
+		"MinCycleLapse",
+		"StillAlive",
+		"WindowEventHandler" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"presenter",
+		"model",
+		"cursor",
+		"padding",
+		"backgroundMorph",
+		"turtleTrailsForm",
+		"turtlePen",
+		"lastTurtlePositions",
+		"isPartsBin",
+		"indicateCursor",
+		"wantsMouseOverHalos",
+		"worldState",
+		"griddingOn" ],
+	"name" : "PasteUpMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

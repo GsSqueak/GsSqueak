@@ -1,0 +1,3 @@
+slot-kedama
+die
+	^ self

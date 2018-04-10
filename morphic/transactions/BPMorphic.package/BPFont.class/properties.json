@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"defaultInstance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"form" ],
+	"name" : "BPFont",
+	"pools" : [
+		 ],
+	"super" : "AbstractFont",
+	"type" : "normal" }

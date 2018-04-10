@@ -1,0 +1,10 @@
+objects from disk
+convertToCurrentVersion: varDict refStream: smartRefStrm 
+	| _gsSqueakTemp_newish |
+	_gsSqueakTemp_newish := super convertToCurrentVersion: varDict refStream: smartRefStrm.
+	"major change - much of AlignmentMorph is now implemented
+	more generally in Morph"
+	varDict
+		at: 'hResizing'
+		ifPresent: [:x | ^ _gsSqueakTemp_newish convertOldAlignmentsNov2000: varDict using: smartRefStrm].
+	^ _gsSqueakTemp_newish

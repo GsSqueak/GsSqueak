@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CurrentEnvironment",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

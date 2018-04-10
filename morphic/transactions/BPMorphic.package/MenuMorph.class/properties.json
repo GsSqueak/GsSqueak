@@ -1,0 +1,32 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CloseBoxImage",
+		"CloseBoxImageFlat",
+		"CloseBoxImageGradient",
+		"GradientMenu",
+		"MenuBorderColor",
+		"MenuBorderWidth",
+		"MenuColor",
+		"MenuLineColor",
+		"MenuSelectionColor",
+		"MenuTitleBorderColor",
+		"MenuTitleBorderWidth",
+		"MenuTitleColor",
+		"PushPinImage",
+		"RoundedMenuCorners" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"defaultTarget",
+		"selectedItem",
+		"stayUp",
+		"popUpOwner",
+		"activeSubMenu",
+		"originalFocusHolder" ],
+	"name" : "MenuMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

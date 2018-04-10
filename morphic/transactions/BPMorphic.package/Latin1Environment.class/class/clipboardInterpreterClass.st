@@ -1,0 +1,3 @@
+subclass responsibilities
+clipboardInterpreterClass
+	^ UTF8ClipboardInterpreter

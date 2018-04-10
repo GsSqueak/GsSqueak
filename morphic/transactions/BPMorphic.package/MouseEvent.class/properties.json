@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MouseEvent",
+	"pools" : [
+		 ],
+	"super" : "UserInputEvent",
+	"type" : "normal" }

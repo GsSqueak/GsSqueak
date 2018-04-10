@@ -1,0 +1,3 @@
+emulating
+veryDeepCopyWith: aCopier 
+	^ self

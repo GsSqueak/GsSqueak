@@ -1,0 +1,30 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"text",
+		"textStyle",
+		"firstCharacterIndex",
+		"container",
+		"lines",
+		"positionWhenComposed",
+		"offsetToEnd",
+		"maxRightX",
+		"selectionStart",
+		"selectionStop",
+		"wantsColumnBreaks",
+		"focused",
+		"caretRect",
+		"showCaret",
+		"caretColor",
+		"selectionColor",
+		"unfocusedSelectionColor" ],
+	"name" : "NewParagraph",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

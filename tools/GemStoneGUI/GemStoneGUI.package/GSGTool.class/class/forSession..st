@@ -1,4 +1,4 @@
 instance creation
-forSession: aSessionManager
+forSession: aSession
 
-	^ self new initializeOnSession: aSessionManager
+	^ self new initializeOnSession: aSession

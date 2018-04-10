@@ -1,0 +1,18 @@
+private
+setExtent: extent depth: bitsPerPixel bits: bitmap 
+	"Create a virtual bit map with the given extent and bitsPerPixel."
+	width := extent x asInteger.
+	width < 0
+		ifTrue: [width := 0].
+	height := extent y asInteger.
+	height < 0
+		ifTrue: [height := 0].
+	depth := bitsPerPixel.
+	depth := bitsPerPixel.
+	(bits isNil
+			or: [(bitmap class isWords
+						and: [self bitsSize = bitmap size])
+					or: [bitmap class isBytes
+							and: [self bitsSize * 4 = bitmap size]]])
+		ifFalse: [^ self error: 'Bad dimensions'].
+	bits := bitmap

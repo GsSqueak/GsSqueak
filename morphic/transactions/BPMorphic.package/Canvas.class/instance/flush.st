@@ -1,0 +1,3 @@
+initialization
+flush
+	^ self

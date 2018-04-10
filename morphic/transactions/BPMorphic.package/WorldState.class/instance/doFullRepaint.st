@@ -1,0 +1,3 @@
+canvas
+doFullRepaint
+	damageRecorder doFullRepaint
