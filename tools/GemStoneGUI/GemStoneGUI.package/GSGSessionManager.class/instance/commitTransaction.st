@@ -1,4 +1,4 @@
 button actions
 commitTransaction
 
-	self interface commitTransaction
+	self session commitTransaction

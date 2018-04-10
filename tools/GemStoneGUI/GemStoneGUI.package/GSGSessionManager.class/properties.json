@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"interface" ],
+		 ],
 	"name" : "GSGSessionManager",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "GSGTool",
 	"type" : "normal" }

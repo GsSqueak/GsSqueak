@@ -1,4 +1,4 @@
 button actions
 openBrowser
 
-	^ (GSGBrowser interface: self interface) buildAndOpenFullBrowser
+	^ (GSGBrowser interface: self session) buildAndOpenFullBrowser

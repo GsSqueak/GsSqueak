@@ -1,4 +1,4 @@
 toolbuilder
 labelString
 
-	^ 'Session Manager [' , self interface stoneName , ', ' , self interface username , $]
+	^ 'Session Manager [' , self session stoneName , ', ' , self session username , $]

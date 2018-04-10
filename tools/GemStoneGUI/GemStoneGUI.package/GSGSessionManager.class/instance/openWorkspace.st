@@ -1,4 +1,4 @@
 button actions
 openWorkspace
 
-	self browseEnvironment: self interface defaultEnvironment
+	self browseEnvironment: self session defaultEnvironment
