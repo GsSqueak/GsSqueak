@@ -1,4 +1,4 @@
 *SqNumbers-comparing
 > aNumber
 
-	^ self @env0: > aNumber
+	^ self env0perf: #>with: aNumber

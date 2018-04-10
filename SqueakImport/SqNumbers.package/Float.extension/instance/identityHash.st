@@ -1,4 +1,4 @@
 *SqNumbers-comparing
 identityHash
 
-	^ self @env0: identityHash
+	^ self env0perf: #'identityHash'

@@ -1,4 +1,0 @@
-*SqNumbers-private
-numerator
-
-	^numerator

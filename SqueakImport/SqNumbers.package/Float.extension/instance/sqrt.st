@@ -5,4 +5,4 @@ sqrt
 				ifTrue: [^ 0.0]
 				ifFalse: ["v Chg"
 					^ DomainError signal: 'sqrt undefined for number less than zero.']].
-	^ self @env0: sqrt
+	^ self env0perf: #'sqrt'
