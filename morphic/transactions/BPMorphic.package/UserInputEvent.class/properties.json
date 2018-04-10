@@ -1,0 +1,19 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"type",
+		"buttons",
+		"position",
+		"handler",
+		"wasHandled",
+		"wasIgnored" ],
+	"name" : "UserInputEvent",
+	"pools" : [
+		"EventSensorConstants" ],
+	"super" : "MorphicEvent",
+	"type" : "normal" }

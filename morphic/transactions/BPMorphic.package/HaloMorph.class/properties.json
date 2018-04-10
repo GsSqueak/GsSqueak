@@ -1,0 +1,21 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"innerTarget",
+		"angleOffset",
+		"minExtent",
+		"growingOrRotating",
+		"directionArrowAnchor",
+		"haloBox",
+		"simpleMode",
+		"originalExtent" ],
+	"name" : "HaloMorph",
+	"pools" : [
+		 ],
+	"super" : "SimpleHaloMorph",
+	"type" : "normal" }

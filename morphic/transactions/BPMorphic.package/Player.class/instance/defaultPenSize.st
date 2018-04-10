@@ -1,0 +1,3 @@
+pen
+defaultPenSize
+	^ 1

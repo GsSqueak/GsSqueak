@@ -1,0 +1,3 @@
+slots-user
+hasUserDefinedScripts
+	^ false

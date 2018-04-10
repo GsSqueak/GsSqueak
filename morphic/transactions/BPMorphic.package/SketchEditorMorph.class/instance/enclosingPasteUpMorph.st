@@ -1,0 +1,3 @@
+access
+enclosingPasteUpMorph
+	^ enclosingPasteUpMorph

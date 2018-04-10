@@ -1,0 +1,3 @@
+widget classes
+scrollPaneClass
+	^ PluggableScrollPane

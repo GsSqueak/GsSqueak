@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		"ephemeralPlayerRef" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"patch" ],
+	"name" : "UnscriptedPlayer",
+	"pools" : [
+		 ],
+	"super" : "Player",
+	"type" : "normal" }

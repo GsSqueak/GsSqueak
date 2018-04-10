@@ -1,0 +1,3 @@
+*BPMorphic
+isRectangle
+  ^ false

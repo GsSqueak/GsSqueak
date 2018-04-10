@@ -1,0 +1,3 @@
+*BPMorphic
+isMorph
+  ^ false

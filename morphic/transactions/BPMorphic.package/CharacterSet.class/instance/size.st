@@ -1,0 +1,3 @@
+collection ops
+size
+	^ tally

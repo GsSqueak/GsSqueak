@@ -1,0 +1,17 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CrLf",
+		"NonSeparators",
+		"Separators" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"map",
+		"tally" ],
+	"name" : "CharacterSet",
+	"pools" : [
+		 ],
+	"super" : "Collection",
+	"type" : "variable" }

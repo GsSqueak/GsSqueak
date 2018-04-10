@@ -1,0 +1,15 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value",
+		"timestamp" ],
+	"name" : "RcRecentIntegerElement",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BlinkingCursor",
+		"DestructiveBackWord",
+		"DumbbellCursor",
+		"KeystrokeActions",
+		"SelectionsMayShrink" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"morph",
+		"selectionShowing" ],
+	"name" : "Editor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ReverseStaggerOffset",
+		"StaggerOffset",
+		"StaggerOrigin",
+		"StandardSize",
+		"StandardWindowOrigins" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "RealEstateAgent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

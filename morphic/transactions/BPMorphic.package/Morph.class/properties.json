@@ -1,0 +1,21 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"IndicateKeyboardFocus",
+		"PreferredCornerRadius",
+		"UseSoftDropShadow" ],
+	"commentStamp" : "efc 2/26/2003 20:01",
+	"instvars" : [
+		"bounds",
+		"owner2",
+		"submorphs",
+		"fullBounds",
+		"color",
+		"extension" ],
+	"name" : "Morph",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

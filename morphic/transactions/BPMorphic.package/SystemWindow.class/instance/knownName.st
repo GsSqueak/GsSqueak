@@ -1,0 +1,3 @@
+label
+knownName
+	^ self label

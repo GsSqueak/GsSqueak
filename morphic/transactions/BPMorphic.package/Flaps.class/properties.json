@@ -1,0 +1,16 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"FlapsQuads",
+		"SharedFlapsAllowed",
+		"SharedFlapTabs" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Flaps",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

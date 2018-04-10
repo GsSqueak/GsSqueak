@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"acceptsLoggingOfCompilation" : "sw 8/10/1998 16:23",
+		"ephemeralPlayerRef" : "sw 9/30/1998 09:14",
+		"isSystemDefined" : "sw 8/17/1998 07:33",
+		"isUniClass" : "sw 10/23/1999 22:51",
+		"newUserInstance" : "sw 9/15/1998 13:33",
+		"officialClass" : "sw 8/17/1998 07:34",
+		"referenceSelectorFor:" : "sw 9/30/1998 09:05",
+		"wantsChangeSetLogging" : "sw 9/15/1998 13:49" },
+	"instance" : {
+		"assureUniClass" : "sw 1/30/2001 22:43",
+		"belongsToUniClass" : "sw 8/10/1998 16:23",
+		"copyUniClassWith:" : "tk 10/4/2001 13:43",
+		"doesNotUnderstand:" : "nk 8/21/2004 11:44",
+		"getPatch" : "Anonymous 03/16/2018 06:29",
+		"hasUserDefinedScripts" : "sw 12/28/1998 10:27",
+		"hasUserDefinedSlots" : "sw 12/28/1998 10:27",
+		"rootClassForUniclasses" : "sw 1/30/2001 22:42",
+		"setPatch:" : "Anonymous 03/16/2018 06:29",
+		"wantsSteps" : "sw 10/19/1999 08:30" } }

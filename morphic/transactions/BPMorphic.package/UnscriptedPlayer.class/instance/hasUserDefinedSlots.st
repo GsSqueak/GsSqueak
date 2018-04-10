@@ -1,0 +1,3 @@
+viewer
+hasUserDefinedSlots
+	^ false

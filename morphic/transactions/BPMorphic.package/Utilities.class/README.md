@@ -1,0 +1,1 @@
+A repository for general and miscellaneous utilities; much of what is here are in effect global methods that don't naturally attach to anything else.  1/96 sw

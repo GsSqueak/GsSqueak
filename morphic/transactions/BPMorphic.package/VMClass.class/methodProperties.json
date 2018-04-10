@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"ancilliaryClasses" : "eem 2/28/2009 17:54",
+		"ancilliaryStructClasses" : "eem 2/11/2009 09:29",
+		"apiExportHeaderName" : "dtl 5/27/2012 12:36",
+		"declareC:as:in:" : "eem 7/7/2008 20:18",
+		"declareCAsOop:in:" : "dtl 4/14/2007 16:14",
+		"exportAPISelectors" : "eem 7/16/2009 10:51",
+		"exportAPISelectorsFor:" : "eem 5/20/2010 16:41",
+		"initializeMiscConstantsWith:" : "dtl 5/26/2012 13:16",
+		"initializeWithOptions:" : "eem 6/21/2011 13:27",
+		"isAccessor:" : "eem 2/11/2009 17:18",
+		"isCogitClass" : "eem 5/29/2009 09:49",
+		"isInterpreterClass" : "eem 2/12/2009 15:36",
+		"isPluginClass" : "eem 12/14/2012 11:29",
+		"isStructClass" : "eem 11/26/2012 15:05",
+		"timeStamp" : "tpr 3/27/2002 12:53",
+		"typeForSelf" : "eem 2/9/2009 20:30" },
+	"instance" : {
+		"assert:l:" : "eem 7/16/2013 14:15",
+		"asserta:" : "eem 4/8/2009 18:01",
+		"asserta:l:" : "eem 7/16/2013 14:15" } }

@@ -1,0 +1,3 @@
+stubs
+currentlyViewing: aPlayer 
+	^ false

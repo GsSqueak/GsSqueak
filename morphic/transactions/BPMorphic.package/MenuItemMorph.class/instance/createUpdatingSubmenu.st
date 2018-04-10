@@ -1,0 +1,3 @@
+private
+createUpdatingSubmenu
+	^ UpdatingMenuMorph new

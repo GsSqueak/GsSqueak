@@ -1,0 +1,16 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"x",
+		"y",
+		"color" ],
+	"name" : "BPTestMorphState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

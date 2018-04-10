@@ -1,0 +1,20 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SubMenuMarker" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"isEnabled",
+		"subMenu",
+		"isSelected",
+		"target",
+		"selector",
+		"arguments",
+		"icon" ],
+	"name" : "MenuItemMorph",
+	"pools" : [
+		 ],
+	"super" : "StringMorph",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+compilation
+categoryForSubclasses
+	^ 'Morphic-Models'

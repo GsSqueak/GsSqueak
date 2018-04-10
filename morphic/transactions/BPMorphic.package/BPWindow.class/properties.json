@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cPointer" ],
+	"name" : "BPWindow",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,22 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"inst" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"CreateWindowCo",
+		"DisplayStringCo",
+		"DrawWindowCo",
+		"DestroyWindowCo",
+		"GetEventsCo",
+		"GraphicsLib" ],
+	"name" : "GraFFIcsLibrary",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : [
+		"normal",
+		[
+			"dbTransient" ] ] }

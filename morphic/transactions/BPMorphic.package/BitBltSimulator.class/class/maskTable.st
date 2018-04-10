@@ -1,0 +1,3 @@
+accessing
+maskTable
+	^ maskTable
