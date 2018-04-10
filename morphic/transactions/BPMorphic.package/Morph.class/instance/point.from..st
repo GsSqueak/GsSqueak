@@ -1,6 +1,4 @@
 geometry
-point: aPoint from: aReferenceMorph 
-	owner
-		ifNil: [^ aPoint].
-	^ (owner transformFrom: aReferenceMorph)
-		globalPointToLocal: aPoint
+point: aPoint from: aReferenceMorph
+  self owner ifNil: [ ^ aPoint ].
+  ^ (self owner transformFrom: aReferenceMorph) globalPointToLocal: aPoint

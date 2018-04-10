@@ -8,6 +8,6 @@ transformFrom: uberMorph
 	Note: This method cannot be used to map into the receiver's
 	coordinate system!"
 
-  (self == uberMorph or: [ owner isNil ])
+  (self == uberMorph or: [ self owner isNil ])
     ifTrue: [ ^ IdentityTransform new ].
-  ^ owner transformFrom: uberMorph
+  ^ self owner transformFrom: uberMorph
