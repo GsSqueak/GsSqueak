@@ -1,3 +1,3 @@
 *SqNumbers-converting
 asFloat
-^ self @env0: asFloat.
+^ self _env0 asFloat.

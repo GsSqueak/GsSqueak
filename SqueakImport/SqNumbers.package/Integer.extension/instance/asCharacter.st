@@ -1,3 +1,3 @@
 *SqNumbers-converting
 asCharacter
-^ self @env0: asCharacter.
+^ self _env0 asCharacter.

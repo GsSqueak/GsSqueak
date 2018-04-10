@@ -1,3 +1,3 @@
 *SqNumbers-bit manipulaion
 lowBit
-^ self @env0: lowBit
+^ self _env0 lowBit

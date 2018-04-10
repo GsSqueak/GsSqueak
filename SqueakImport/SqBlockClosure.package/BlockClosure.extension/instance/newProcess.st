@@ -1,4 +1,4 @@
 *SqBlockClosure-scheduling
 newProcess
 	
-	^ self @env0: newProcess
+	^ self _env0 newProcess

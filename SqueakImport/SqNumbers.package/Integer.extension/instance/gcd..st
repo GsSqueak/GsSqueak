@@ -1,3 +1,3 @@
 *SqNumbers-mathematical functions
 gcd: anInteger
-^ self @env0: gcd: anInteger
+^ self _env0 gcd: anInteger
