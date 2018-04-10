@@ -30,6 +30,7 @@
 		"printHierarchyForEnvironmentId:" : "sl 4/10/2018 12:58",
 		"printOn:" : "sl 3/17/2018 15:38",
 		"removeCategory:environmentId:" : "sl 4/10/2018 13:20",
+		"removeSelector:environmentId:" : "sl 4/10/2018 17:19",
 		"renameCategory:to:environmentId:" : "sl 4/10/2018 14:33",
 		"sourceCodeAt:env:ifAbsent:" : "sl 3/18/2018 14:00",
 		"sourceCodeTemplate" : "sl 3/16/2018 21:32",
