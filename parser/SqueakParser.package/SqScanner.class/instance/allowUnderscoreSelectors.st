@@ -1,4 +1,5 @@
 private
 allowUnderscoreSelectors
-	"Query preference"
-	^ self class prefAllowUnderscoreSelectors
+  "Query preference"
+
+  ^ true

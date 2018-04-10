@@ -18,8 +18,8 @@
 		"wellFormedInstanceVariableNameFrom:" : "SL 2/27/2018 13:44" },
 	"instance" : {
 		"advance" : "SL 2/27/2018 13:44",
-		"allowUnderscoreAssignments" : "SL 2/27/2018 13:44",
-		"allowUnderscoreSelectors" : "SL 2/27/2018 13:44",
+		"allowUnderscoreAssignments" : "",
+		"allowUnderscoreSelectors" : "",
 		"ambiguousSelector:inRange:" : "SL 2/27/2018 13:44",
 		"initScannerForTokenization" : "SL 2/27/2018 13:44",
 		"initialize" : "SL 2/27/2018 13:44",
