@@ -4,6 +4,9 @@ Environment >> classNamesInSystemCategory:
 Environment >> hierarchyTreeOfClassNames:environmentId:
 Environment >> templateForSubclassOf:category:
 Class >> messageCategoryDictForEnv:
+Class >> addCategory:environmentId:
+Class >> removeCategory:environmentId:
+Class >> renameCategory:to:environmentId:
 Class >> name
 Class >> isMeta
 Class >> theNonMetaClass
