@@ -1,4 +1,4 @@
 *SqNumbers-mathematical functions
 arcTan
 	
-	^ self @env0: arcTan
+	^ self env0perf: #'arcTan'
