@@ -1,5 +1,4 @@
 session management
-initializeOnSession: aSessionManager
-
-	session := aSessionManager.
+initializeOnSession: aSession
+	session := aSession.
 	session addDependent: self

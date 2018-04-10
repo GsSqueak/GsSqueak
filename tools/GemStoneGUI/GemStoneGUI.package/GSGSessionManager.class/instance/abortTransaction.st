@@ -1,4 +1,4 @@
 button actions
 abortTransaction
 
-	self interface abortTransaction
+	self session abortTransaction

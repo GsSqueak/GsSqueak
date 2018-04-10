@@ -1,4 +1,4 @@
 button actions
 continueTransaction
 
-	self interface continueTransaction
+	self session continueTransaction
