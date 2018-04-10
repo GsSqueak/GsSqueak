@@ -18,4 +18,7 @@ struct ModifierState {
 extern void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
                                   struct ModifierState *modifier_state,
                                   struct EventQueue *event_queue);
+
+extern uint32_t modifier_state_to_squeak(const struct ModifierState *modifier_state);
+
 #endif
