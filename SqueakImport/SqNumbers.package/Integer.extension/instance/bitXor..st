@@ -1,3 +1,3 @@
 *SqNumbers-bit manipulaion
 bitXor: n 
-^ self @env0: bitXor: n
+^ self _env0 bitXor: n

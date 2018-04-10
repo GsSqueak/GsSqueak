@@ -3,10 +3,12 @@ contents: input notifying: aController
 
 	| aString |
 	aString := input asString.
-	(#(classDefinition newClass) includes: self editSelection) 
+	(#(classDefinition newClass) includes: self editSelection)
 		ifTrue: [^ self defineClass: aString notifying: aController].
-	self editSelection == #classComment
-		ifTrue: [].
+	self editSelection == #classComment ifTrue: [
+		self hasClassSelected ifFalse: [^ false].
+		self selectedClass comment: input.
+		^ true].
 	self editSelection == #classHierarchy ifTrue: [^ true].
 	self editSelection == #editMessage | (self editSelection == #newMessage)
 		ifTrue:

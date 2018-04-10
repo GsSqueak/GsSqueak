@@ -1,4 +1,4 @@
 *SqBlockClosure-scheduling
 newProcessWith: anArray
 	
-	^ self @env0: newProcessWith: anArray
+	^ self _env0 newProcessWith: anArray

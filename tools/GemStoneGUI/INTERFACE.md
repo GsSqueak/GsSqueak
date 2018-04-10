@@ -10,8 +10,9 @@ Class >> theNonMetaClass
 Class >> environment
 Class >> category
 Class >> comment
+Class >> comment:
 Class >> definition
-Class >> hierarchy
+Class >> printHierarchyForEnvironmentId:
 Class >> methodAt:environmentId:ifAbsent:
 Class >> compile:classified:env:notifying:
 Method >> source
