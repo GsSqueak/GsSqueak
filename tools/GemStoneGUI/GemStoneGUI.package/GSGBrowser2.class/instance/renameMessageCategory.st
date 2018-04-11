@@ -4,7 +4,7 @@ renameMessageCategory
 	current selection, or at the end if no current selection"
 	| oldName newName selector |
 	self hasClassSelected ifFalse: [^ self].
-	self okToChange ifFalse: [^ self].
+	self okayToChange ifFalse: [^ self].
 	self hasMessageCategorySelected ifFalse: [^ self].		
 	oldName := self selectedMessageCategoryName.
 	newName := UIManager default

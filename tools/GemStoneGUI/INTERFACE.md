@@ -7,6 +7,7 @@ Class >> messageCategoryDictForEnv:
 Class >> addCategory:environmentId:
 Class >> removeCategory:environmentId:
 Class >> renameCategory:to:environmentId:
+Class >> removeSelector:environmentId:
 Class >> name
 Class >> isMeta
 Class >> theNonMetaClass

@@ -5,7 +5,7 @@ removeMessageCategory
  	from the system. If so, remove it."
 	| messageCategoryName |
 	self hasMessageCategorySelected ifFalse: [^ self].
-	self okToChange ifFalse: [^ self].
+	self okayToChange ifFalse: [^ self].
 	messageCategoryName := self selectedMessageCategoryName.
 	(self messageList isEmpty
 		or: [self confirm: 'Are you sure you want to
