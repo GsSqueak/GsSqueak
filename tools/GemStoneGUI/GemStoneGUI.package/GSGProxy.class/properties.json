@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "GSGEnvironmentProxy",
+		"interface",
+		"oop" ],
+	"name" : "GSGProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGProxy",
+	"super" : "Object",
 	"type" : "normal" }

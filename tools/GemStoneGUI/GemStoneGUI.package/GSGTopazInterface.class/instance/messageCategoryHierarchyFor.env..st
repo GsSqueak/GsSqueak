@@ -13,5 +13,5 @@ messageCategoryHierarchyFor: classProxy env: envId
           string addAll: ''  ''.
           string addAll: selector.
           string add: Character lf ] ].
-  string allButLast ] value: ' , classProxy codeReferencingMe , ' value: ' , envId.
+  string allButLast ] value: (' , classProxy codeReferencingMe , ') value: ' , envId.
 	^ topazOutput first

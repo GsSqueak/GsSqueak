@@ -1,4 +1,4 @@
 proxies
 objectProxyForOop: anOop
 
-	^ GSGObjectProxy interface: self oop: anOop
+	^ GSGProxy interface: self oop: anOop

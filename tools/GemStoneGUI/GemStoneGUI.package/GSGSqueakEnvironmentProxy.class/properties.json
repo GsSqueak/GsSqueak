@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"interface",
-		"oop" ],
-	"name" : "GSGObjectProxy",
+		 ],
+	"name" : "GSGSqueakEnvironmentProxy",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GSGProxy",
 	"type" : "normal" }

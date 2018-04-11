@@ -3,7 +3,10 @@
 		"interface:oop:" : "sl 3/16/2018 11:10" },
 	"instance" : {
 		"asClassProxy" : "sl 3/16/2018 15:00",
+		"codeForCreatingArrayWith:" : "sl 4/11/2018 10:44",
+		"codeForPrintingListCreatedBy:" : "sl 4/11/2018 10:18",
 		"codeReferencingMe" : "sl 3/19/2018 12:48",
+		"convertToSymbolList:" : "sl 4/11/2018 10:19",
 		"interface" : "sl 3/16/2018 10:54",
 		"interface:" : "sl 3/16/2018 10:54",
 		"oop" : "sl 3/16/2018 11:08",

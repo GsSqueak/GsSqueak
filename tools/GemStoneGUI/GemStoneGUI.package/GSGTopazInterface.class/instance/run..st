@@ -1,4 +1,4 @@
 commands
 run: code
 
-	^ self blockCommand: 'run' content: code
+	^ self run: code environmentId: 0

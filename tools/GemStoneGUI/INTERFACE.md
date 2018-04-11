@@ -1,4 +1,7 @@
+Session >> run:
+Session >> run:environmentId:
 Environment >> systemCategories
+Environment >> classNamed:
 Environment >> classNames
 Environment >> classNamesInSystemCategory:
 Environment >> hierarchyTreeOfClassNames:environmentId:
