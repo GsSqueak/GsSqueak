@@ -1,5 +1,6 @@
 *SqNumbers-class initialization
 initialize
+    self _env0 superclassForEnv:7 put: Number.
 	"Float initialize"
 	"Constants from Computer Approximations, pp. 182-183:
 		Pi = 3.14159265358979323846264338327950288
