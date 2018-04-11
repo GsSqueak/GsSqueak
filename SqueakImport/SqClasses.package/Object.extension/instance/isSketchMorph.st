@@ -1,0 +1,3 @@
+*SqClasses-testing
+isSketchMorph
+	^false

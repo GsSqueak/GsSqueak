@@ -1,6 +1,6 @@
 as yet unclassified
 loadSqueakyMouse
-  ScriptingSystem
+  (Smalltalk at: #'ScriptingSystem')
     saveForm:
       (Form
         extent: 30 @ 29

@@ -16,7 +16,7 @@ createHandleAt: aPoint color: aColor iconName: iconName
   iconName isNil
     ifFalse: [ 
       | form |
-      form := ScriptingSystem formAtKey: iconName.
+      form := (Smalltalk at: #'ScriptingSystem') formAtKey: iconName.
       form isNil
         ifFalse: [ 
           | image |

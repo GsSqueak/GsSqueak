@@ -1,0 +1,3 @@
+*SqClasses-testing
+isPlayer
+	^false

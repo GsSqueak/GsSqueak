@@ -1,0 +1,3 @@
+*SqClasses-testing
+isMeta
+	^ true

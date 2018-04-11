@@ -1,0 +1,4 @@
+*SqClasses-converting
+withoutListWrapper
+
+	^self
