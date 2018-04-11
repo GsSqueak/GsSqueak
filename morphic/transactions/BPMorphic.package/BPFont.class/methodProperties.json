@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"defaultInstance" : "TobiasZagorni 03/06/2018 04:41" },
+	"instance" : {
+		"descent" : "TobiasZagorni 03/14/2018 08:50",
+		"descentKern" : "TobiasZagorni 03/14/2018 08:58",
+		"displayString:on:from:to:at:kern:" : "Anonymous 03/22/2018 08:15",
+		"emphasized:" : "TobiasZagorni 03/14/2018 08:57",
+		"height" : "TobiasZagorni 03/06/2018 04:57",
+		"initialize" : "Anonymous 03/19/2018 08:00",
+		"installOn:foregroundColor:backgroundColor:" : "TobiasZagorni 03/06/2018 07:19",
+		"widthOf:" : "TobiasZagorni 03/06/2018 04:56" } }

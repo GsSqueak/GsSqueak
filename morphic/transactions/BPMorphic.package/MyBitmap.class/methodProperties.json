@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"checkCArrays" : "Anonymous 03/19/2018 06:38",
+		"instSize" : "jb 02/01/2018 00:59",
+		"isPointers" : "jb 01/25/2018 02:34",
+		"new" : "jb 01/30/2018 01:52",
+		"new:" : "jb 02/01/2018 06:13",
+		"newFrom:" : "jb 02/08/2018 02:15",
+		"with:" : "jb 02/01/2018 00:38",
+		"with:with:" : "jb 02/08/2018 02:16" },
+	"instance" : {
+		"at:" : "jb 01/25/2018 04:52",
+		"at:put:" : "jb 01/25/2018 04:52",
+		"basicAt:" : "jb 01/25/2018 04:52",
+		"basicAt:put:" : "jb 01/30/2018 03:19",
+		"basicSize" : "jb 01/25/2018 02:22",
+		"byteAt:put:" : "jb 01/25/2018 04:52",
+		"cArray" : "jb 01/18/2018 01:45",
+		"cArray:" : "jb 01/16/2018 07:09",
+		"checkCArray" : "Anonymous 03/19/2018 06:17",
+		"collect:" : "TobiasZagorni 03/15/2018 05:00",
+		"do:" : "jb 02/08/2018 02:29",
+		"isColormap" : "TobiasZagorni 03/19/2018 04:34",
+		"size" : "jb 01/23/2018 06:07" } }

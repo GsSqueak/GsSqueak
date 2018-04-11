@@ -12,4 +12,9 @@ asGemstoneNodeInEnvironment: env
     do: [ :tempVar | gsMethodNode appendTemp: tempVar asGemstoneLeaf ].
   self block statements
     do: [ :statement | gsMethodNode appendStatement: (statement asGemstoneNodeInEnvironment: env) ].
+  (self block statements last isKindOf: SqReturnNode)
+    ifFalse: [ 
+      gsMethodNode
+        appendStatement:
+          (SqReturnNode returnSelf asGemstoneNodeInEnvironment: env) ].
   ^ gsMethodNode

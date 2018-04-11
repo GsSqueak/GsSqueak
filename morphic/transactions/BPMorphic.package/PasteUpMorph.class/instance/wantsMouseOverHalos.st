@@ -1,0 +1,3 @@
+options
+wantsMouseOverHalos
+	^ wantsMouseOverHalos == true

@@ -1,0 +1,4 @@
+accessing
+windowColorToUse
+
+	^ self windowColor

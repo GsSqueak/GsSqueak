@@ -1,3 +1,3 @@
 *SqNumbers-bit manipulaion
 hashMultiply
-^ self @env0: hashMultiply
+^ self _env0 hashMultiply

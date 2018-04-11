@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "jb 02/08/2018 04:01",
+		"initializeTrackedMorphs" : "jb 02/08/2018 04:02",
+		"noticeMouseOver:event:" : "ul 11/22/2009 21:53",
+		"processMouseOver:" : "jb 02/08/2018 04:02" } }

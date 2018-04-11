@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"fontNumber" ],
+	"name" : "TextFontChange",
+	"pools" : [
+		 ],
+	"super" : "TextAttribute",
+	"type" : "normal" }

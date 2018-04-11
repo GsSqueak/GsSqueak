@@ -1,0 +1,3 @@
+accessing
+wasIgnored
+	^ wasIgnored == true

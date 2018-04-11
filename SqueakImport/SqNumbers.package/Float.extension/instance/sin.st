@@ -1,4 +1,4 @@
 *SqNumbers-mathematical functions
 sin
 	
-	^ self @env0: sin
+	^ self _env0 sin

@@ -1,3 +1,3 @@
 *SqNumbers-truncation and round off
 truncated
-	^ self @env0: truncated
+	^ self _env0 truncated

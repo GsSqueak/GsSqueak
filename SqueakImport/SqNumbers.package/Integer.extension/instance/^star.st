@@ -1,3 +1,3 @@
 *SqNumbers-arithmetic
 * anInteger
-^ self @env0: * anInteger
+^ self _env0 * anInteger

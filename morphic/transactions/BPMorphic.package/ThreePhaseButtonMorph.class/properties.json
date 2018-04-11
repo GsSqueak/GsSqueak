@@ -1,0 +1,23 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AuthorModeOwner" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"offImage",
+		"pressedImage",
+		"state",
+		"target",
+		"actionSelector",
+		"arguments",
+		"actWhen",
+		"label",
+		"font",
+		"textColor" ],
+	"name" : "ThreePhaseButtonMorph",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

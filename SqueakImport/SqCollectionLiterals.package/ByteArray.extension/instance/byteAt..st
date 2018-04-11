@@ -1,4 +1,4 @@
 *SqCollectionLiterals-*SqByteArray-accessing
 byteAt: index
 	
-	^ self @env0: byteAt: index
+	^ self _env0 byteAt: index

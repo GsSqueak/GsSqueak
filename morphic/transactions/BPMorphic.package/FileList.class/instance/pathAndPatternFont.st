@@ -1,0 +1,3 @@
+toolbuilder
+pathAndPatternFont
+	^ Preferences standardDefaultTextFont

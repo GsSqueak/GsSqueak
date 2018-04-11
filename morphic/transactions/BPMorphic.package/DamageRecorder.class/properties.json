@@ -1,0 +1,15 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"invalidRects",
+		"totalRepaint" ],
+	"name" : "DamageRecorder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

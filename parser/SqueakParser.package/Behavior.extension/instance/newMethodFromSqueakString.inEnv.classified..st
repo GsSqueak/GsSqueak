@@ -6,8 +6,7 @@ newMethodFromSqueakString: aString inEnv: env classified: aProtocol
   gsAst := ast asGemstoneNodeInEnvironment: env.
   (gsMethod := GsNMethod generateFromIR: gsAst) _isArray
     ifTrue: [ gsMethod := gsMethod first ].
-  (self selectorsForEnvironment: env)
-    contains: [ :sel | sel = gsMethod selector ].
+  self removeSelector: gsMethod selector environmentId: env ifAbsent: [  ].
   methDict := self persistentMethodDictForEnv: env.
   methDict ifNil: [ methDict := GsMethodDictionary new ].
   methDict at: gsMethod selector put: gsMethod.

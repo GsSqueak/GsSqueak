@@ -1,0 +1,3 @@
+access
+flapShowing
+	^ flapShowing == true

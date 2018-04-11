@@ -1,0 +1,3 @@
+-Etoys
+newPlayerInstance
+	^ UnscriptedPlayer newUserInstance

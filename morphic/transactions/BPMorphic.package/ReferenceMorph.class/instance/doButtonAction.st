@@ -1,0 +1,3 @@
+button
+doButtonAction
+	self tabSelected

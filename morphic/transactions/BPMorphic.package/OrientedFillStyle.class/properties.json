@@ -1,0 +1,16 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"origin",
+		"direction",
+		"normal" ],
+	"name" : "OrientedFillStyle",
+	"pools" : [
+		 ],
+	"super" : "FillStyle",
+	"type" : "normal" }

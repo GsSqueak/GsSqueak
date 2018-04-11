@@ -1,4 +1,4 @@
 session management
-session: aSessionManager
-
-	session := aSessionManager
+session: anInterface
+	
+	session := anInterface

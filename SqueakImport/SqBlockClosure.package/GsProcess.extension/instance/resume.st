@@ -1,4 +1,4 @@
 *SqBlockClosure-changing process state
 resume
 
-	^ self @env0: resume
+	^ self _env0 resume

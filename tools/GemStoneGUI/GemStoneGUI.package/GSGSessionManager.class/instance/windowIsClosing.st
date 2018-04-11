@@ -1,4 +1,4 @@
 updating
 windowIsClosing
 
-	self interface terminate
+	self closeSession

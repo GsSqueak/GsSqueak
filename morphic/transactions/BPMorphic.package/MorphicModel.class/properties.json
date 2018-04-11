@@ -1,0 +1,16 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		"prototype" ],
+	"classvars" : [
+		"TimeOfError" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"model",
+		"slotName",
+		"open" ],
+	"name" : "MorphicModel",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

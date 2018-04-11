@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"defaultFontChange" : "sw 12/6/1999 17:52",
+		"font1" : "Anonymous 03/16/2018 04:55",
+		"font2" : "Anonymous 03/16/2018 04:55",
+		"font3" : "Anonymous 03/16/2018 04:55",
+		"font4" : "Anonymous 03/16/2018 04:55",
+		"fontNumber:" : "Anonymous 03/16/2018 04:55",
+		"scanCharacter" : "dtl 1/2/2014 12:11",
+		"scanFrom:" : "dtl 1/2/2014 13:12" },
+	"instance" : {
+		"=" : "di 10/31/97 11:15",
+		"closeHtmlOn:" : "dgd 9/2/2005 12:39",
+		"dominates:" : "nk 9/3/2004 15:48",
+		"emphasizeScanner:" : "Anonymous 03/16/2018 04:55",
+		"fontNumber" : "Anonymous 03/16/2018 04:55",
+		"fontNumber:" : "Anonymous 03/16/2018 04:55",
+		"forFontInStyle:do:" : "di 11/9/97 17:46",
+		"hash" : "ar 9/9/2003 22:03",
+		"openHtmlOn:" : "dgd 9/2/2005 12:38",
+		"printOn:" : "Anonymous 03/16/2018 04:55",
+		"writeScanOn:" : "dtl 1/2/2014 12:11" } }

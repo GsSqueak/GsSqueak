@@ -7,5 +7,5 @@ buildLogoutButtonWith: builder
 			model: self;
 			label: 'Logout';
 			help: 'Close the current session';
-			action: #closeSession.
+			action: #logoutButtonHit.
 	^ buttonSpec

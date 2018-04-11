@@ -1,4 +1,4 @@
 *SqCollectionLiterals-*SqByteArray-accessing
 atAllPut: value
 	
-	^ self @env0: atAllPut: value
+	^ self _env0 atAllPut: value

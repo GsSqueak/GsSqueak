@@ -1,0 +1,3 @@
+dropping/grabbing
+transportedMorph
+	^ self

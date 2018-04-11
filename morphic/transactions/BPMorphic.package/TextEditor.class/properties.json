@@ -1,0 +1,31 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		"cmdActions",
+		"shiftCmdActions",
+		"yellowButtonMenu",
+		"shiftedYellowButtonMenu" ],
+	"classvars" : [
+		"AutoEnclose",
+		"AutoIndent",
+		"ChangeText",
+		"EncloseSelection",
+		"FindText" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"model",
+		"paragraph",
+		"markBlock",
+		"pointBlock",
+		"beginTypeInIndex",
+		"emphasisHere",
+		"lastParenLocation",
+		"otherInterval",
+		"oldInterval",
+		"typeAhead",
+		"history" ],
+	"name" : "TextEditor",
+	"pools" : [
+		 ],
+	"super" : "Editor",
+	"type" : "normal" }

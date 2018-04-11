@@ -1,4 +1,4 @@
 *SqNumbers-comparing
 > aNumber
 
-	^ self @env0: > aNumber
+	^ self _env0 > aNumber

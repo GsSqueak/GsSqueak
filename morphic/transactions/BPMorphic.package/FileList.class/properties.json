@@ -1,0 +1,25 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"FileReaderRegistry",
+		"RecentDirs" ],
+	"commentStamp" : "nk 11/26/2002 11:52",
+	"instvars" : [
+		"fileName",
+		"directory",
+		"volList",
+		"volListIndex",
+		"list",
+		"listIndex",
+		"pattern",
+		"sortMode",
+		"brevityState",
+		"directoryCache",
+		"lastGraphicsExtent" ],
+	"name" : "FileList",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

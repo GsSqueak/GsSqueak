@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"translateDict" : "Anonymous 03/12/2018 04:30" },
+	"instance" : {
+		"=" : "ar 10/24/2000 17:44",
+		"hash" : "ar 9/13/2000 15:50",
+		"isKeyDown" : "ar 9/13/2000 15:49",
+		"isKeyUp" : "ar 9/13/2000 15:49",
+		"isKeyboard" : "ar 9/13/2000 15:49",
+		"isKeystroke" : "ar 9/13/2000 15:49",
+		"isMouseMove" : "ar 10/9/2000 00:43",
+		"keyCharacter" : "ar 9/13/2000 15:51",
+		"keyString" : "nk 10/13/2004 10:43",
+		"keyValue" : "ar 9/13/2000 15:51",
+		"printKeyStringOn:" : "jb 02/13/2018 02:59",
+		"printOn:" : "mt 8/19/2016 09:53",
+		"scanCode:" : "djr 3/30/2010 12:38",
+		"sentTo:" : "Anonymous 03/05/2018 00:34",
+		"setType:buttons:position:keyValue:hand:stamp:" : "Anonymous 03/12/2018 04:11",
+		"storeOn:" : "ar 10/25/2000 22:07",
+		"translateShift" : "Anonymous 03/12/2018 05:06",
+		"type:readFrom:" : "ar 10/25/2000 22:08" } }

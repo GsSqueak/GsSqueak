@@ -1,4 +1,4 @@
 *SqBlockClosure-evaluating
 value
 
-	^ self @env0: value
+	^ self _env0 value

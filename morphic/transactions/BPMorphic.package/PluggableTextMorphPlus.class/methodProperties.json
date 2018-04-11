@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"themeProperties" : "mt 7/25/2016 11:07" },
+	"instance" : {
+		"accept" : "ar 7/16/2005 19:02",
+		"acceptAction" : "ar 7/16/2005 19:01",
+		"acceptAction:" : "ar 7/16/2005 19:01",
+		"acceptTextInModel" : "ar 8/17/2009 23:48",
+		"applyUserInterfaceTheme" : "mt 7/24/2016 13:21",
+		"balloonText" : "mt 3/30/2015 09:35",
+		"correctFrom:to:with:" : "ar 8/17/2009 23:49",
+		"drawBalloonTextOn:" : "mt 7/25/2016 11:09",
+		"drawOn:" : "mt 3/30/2015 09:30",
+		"getColorSelector" : "ar 2/11/2005 21:21",
+		"getColorSelector:" : "ar 2/11/2005 21:21",
+		"getMenu:" : "cwp 11/20/2011 23:15",
+		"getTextColorSelector" : "mt 8/16/2016 13:12",
+		"getTextColorSelector:" : "mt 8/16/2016 13:12",
+		"hasUnacceptedEdits:" : "mt 5/5/2015 14:32",
+		"okToStyle" : "mt 5/6/2015 09:16",
+		"setText:" : "ar 8/21/2009 21:58",
+		"styler" : "ar 8/17/2009 23:51",
+		"styler:" : "ar 8/17/2009 23:50",
+		"stylerStyled:" : "cmm 7/26/2013 10:39",
+		"stylerStyledInBackground:" : "mt 4/1/2015 15:24",
+		"update:" : "mt 8/16/2016 13:14",
+		"updateStyle" : "mt 5/5/2015 14:32",
+		"useDefaultStyler" : "mt 7/3/2016 14:27" } }

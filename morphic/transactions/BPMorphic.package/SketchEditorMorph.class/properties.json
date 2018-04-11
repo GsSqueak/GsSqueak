@@ -1,0 +1,30 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SketchTimes" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"hostView",
+		"palette",
+		"ticksToDwell",
+		"rotationCenter",
+		"registrationPoint",
+		"newPicBlock",
+		"emptyPicBlock",
+		"paintingForm",
+		"dimForm",
+		"formCanvas",
+		"rotationButton",
+		"scaleButton",
+		"cumRot",
+		"cumMag",
+		"undoBuffer",
+		"enclosingPasteUpMorph",
+		"forEachHand" ],
+	"name" : "SketchEditorMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+initializing
+borderWidth
+	^ AbstractResizerMorph gripThickness

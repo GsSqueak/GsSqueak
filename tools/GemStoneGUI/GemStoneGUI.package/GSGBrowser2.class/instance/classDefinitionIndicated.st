@@ -1,4 +1,4 @@
 class content
 classDefinitionIndicated
 
-	^ self selectedClassContent == #classComment
+	^ self selectedClassContent == #classDefinition

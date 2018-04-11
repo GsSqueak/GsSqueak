@@ -1,0 +1,19 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"originalForm",
+		"rotationStyle",
+		"scalePoint",
+		"framesToDwell",
+		"rotatedForm",
+		"keepAspectRatio" ],
+	"name" : "SketchMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

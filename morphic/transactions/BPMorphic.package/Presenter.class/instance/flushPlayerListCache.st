@@ -1,0 +1,3 @@
+stubs
+flushPlayerListCache
+	^ self

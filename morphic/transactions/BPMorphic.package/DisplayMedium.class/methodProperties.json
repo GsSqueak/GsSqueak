@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"border:width:" : "jb 01/16/2018 06:43",
+		"border:width:fillColor:" : "jb 01/16/2018 06:43",
+		"border:width:rule:fillColor:" : "jb 01/16/2018 06:43",
+		"border:widthRectangle:rule:fillColor:" : "jb 01/16/2018 06:43",
+		"copyBits:from:at:clippingBox:rule:fillColor:" : "jb 01/16/2018 06:43",
+		"deferUpdatesIn:while:" : "hmm 9/16/2000 21:27",
+		"drawLine:from:to:clippingBox:rule:fillColor:" : "jb 01/16/2018 06:43",
+		"fill:fillColor:" : "jb 01/16/2018 06:43",
+		"fill:rule:fillColor:" : "jb 01/16/2018 06:43",
+		"fillBlack" : "jb 01/16/2018 06:43",
+		"fillBlack:" : "jb 01/16/2018 06:43",
+		"fillColor:" : "jb 01/16/2018 06:43",
+		"fillGray" : "jb 01/16/2018 06:43",
+		"fillGray:" : "jb 01/16/2018 06:43",
+		"fillShape:fillColor:" : "jb 01/16/2018 06:43",
+		"fillShape:fillColor:at:" : "Anonymous 03/19/2018 08:01",
+		"fillWhite" : "jb 01/16/2018 06:43",
+		"fillWhite:" : "jb 01/16/2018 06:43",
+		"fillWithColor:" : "jb 01/16/2018 06:43",
+		"reverse" : "jm 6/18/1999 19:01",
+		"reverse:" : "jm 6/18/1999 19:00",
+		"reverse:fillColor:" : "jb 01/16/2018 06:43" } }

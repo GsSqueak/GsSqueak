@@ -2,5 +2,5 @@ metaclass
 indicateClassMessages
 	"Indicate that the message selection should come from the metaclass 
 	messages."
-	self okToChange ifTrue: [
+	self okayToChange ifTrue: [
 		self metaClassIndicated: true]

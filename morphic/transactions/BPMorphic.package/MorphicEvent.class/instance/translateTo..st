@@ -1,0 +1,3 @@
+transforming
+translateTo: point 
+	^ self

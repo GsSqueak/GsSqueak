@@ -1,3 +1,0 @@
-*SqNumbers-converting
-isFraction
-	^ true

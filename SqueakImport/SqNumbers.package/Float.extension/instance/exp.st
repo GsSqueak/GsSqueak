@@ -1,4 +1,4 @@
 *SqNumbers-mathematical functions
 exp
 	
-	^ self @env0: exp
+	^ self _env0 exp
