@@ -1,4 +1,4 @@
 referencing
 codeReferencingClass: classProxy
 
-	^ self codeReferencingMe , ' classNamed: ' , classProxy name printString
+	^ '(' , self codeReferencingMe , ' classNamed: ' , classProxy name printString , ')'

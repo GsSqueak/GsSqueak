@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"actualClass" : "" } }
+		"actualClass" : "",
+		"postload" : "" } }

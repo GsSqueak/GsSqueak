@@ -1,4 +1,3 @@
 *SqNumbers-class initialization
 initialize
-
-    self superclassForEnv: 7 put: (SqueakEnvironment at: #Number) 
+    self _env0 superclassForEnv: 7 put: Number
