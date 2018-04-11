@@ -6,4 +6,8 @@ perform: selector withArguments: argArray inSuperclass: lookupClass
 	cannot be found among the receiver's superclasses.
 	Primitive. Essential. See Object documentation whatIsAPrimitive."
 
-	self halt.
+	(self isKindOf: lookupClass) ifFalse: [self error: 'lookupClass is not in my inheritance chain'].
+	^ (lookupClass lookupSelector: selector)
+		ifNil: [self error: 'lookupClass is not in my inheritance chain']
+		ifNotNil: [:compiledMethod | self withArgs: argArray executeMethod: compiledMethod]
+	
