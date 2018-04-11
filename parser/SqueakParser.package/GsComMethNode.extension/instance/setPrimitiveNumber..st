@@ -8,6 +8,5 @@ setPrimitiveNumber: anInt
     ifTrue: [ ArgumentError signal: 'invalid primitive number' ].
   anInt > 1079
     ifTrue: [ ArgumentError signal: 'invalid primitive number for this VM' ].	"System _maxPrimitiveNumber"
-  self halt.
   newBits := anInt bitShift: 16.
   methInfo := (methInfo bitAnd: mask bitInvert) bitOr: newBits
