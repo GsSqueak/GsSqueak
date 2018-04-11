@@ -1,4 +1,4 @@
 *GemStoneGUI-TopazInterface
 codeReferencingMe
 
-	^ self name
+	^ self environment codeReferencingClass: self

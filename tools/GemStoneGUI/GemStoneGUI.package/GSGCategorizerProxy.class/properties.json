@@ -10,5 +10,5 @@
 	"name" : "GSGCategorizerProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGObjectProxy",
+	"super" : "GSGProxy",
 	"type" : "normal" }

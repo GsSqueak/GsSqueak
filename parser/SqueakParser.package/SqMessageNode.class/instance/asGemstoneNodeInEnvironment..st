@@ -1,6 +1,6 @@
 translating
 asGemstoneNodeInEnvironment: env
-  | gsSendNode |
+  | gsSendNode primitive |
   (self selector startsWith: '_env')
     ifTrue: [ ^ self receiver asGemstoneNodeInEnvironment: env ].
   gsSendNode := GsComSendNode new.

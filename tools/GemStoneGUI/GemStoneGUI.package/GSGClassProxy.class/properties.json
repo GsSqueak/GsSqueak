@@ -11,5 +11,5 @@
 	"name" : "GSGClassProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGObjectProxy",
+	"super" : "GSGProxy",
 	"type" : "normal" }

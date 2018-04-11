@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bindingOf:environment:" : "" } }
+		"bindingOf:environment:" : "",
+		"compile:namespace:classified:environmentId:" : "" } }
