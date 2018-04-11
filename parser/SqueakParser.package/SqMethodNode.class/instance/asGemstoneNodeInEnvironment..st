@@ -17,4 +17,8 @@ asGemstoneNodeInEnvironment: env
       gsMethodNode
         appendStatement:
           (SqReturnNode returnSelf asGemstoneNodeInEnvironment: env) ].
+  (primitive := self properties at: #'primitive:' ifAbsent: [ nil ])
+    ifNotNil: [ 
+      "Set IRNode Prim Number"
+      gsMethodNode setPrimitiveNumber: primitive arguments first ].
   ^ gsMethodNode

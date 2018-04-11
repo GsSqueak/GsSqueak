@@ -4,7 +4,7 @@ changesEnvironment
     ifTrue: [ ^ self selector key last asDigit ]
     ifFalse: [ 
       self arguments
-        ifNotNil: [ :args | 
+        ifNotEmpty: [ :args | 
           (args last isKindOf: SqMessageNode)
             ifTrue: [ ^ args last changesEnvironment ] ] ].
   ^ false
