@@ -1,0 +1,4 @@
+*SqClasses-evaluating
+value
+
+	^self

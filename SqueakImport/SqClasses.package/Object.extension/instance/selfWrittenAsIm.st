@@ -1,0 +1,4 @@
+*SqClasses-scripting
+selfWrittenAsIm
+
+	^self

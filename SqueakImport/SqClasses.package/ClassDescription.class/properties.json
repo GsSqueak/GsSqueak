@@ -1,0 +1,15 @@
+{
+	"category" : "Kernel-Classes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"TraitImpl" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"instanceVariables",
+		"organization" ],
+	"name" : "ClassDescription",
+	"pools" : [
+		 ],
+	"super" : "Behavior",
+	"type" : "normal" }
