@@ -7,7 +7,7 @@ initialize
   FormDictionary := IdentityDictionary new.
   (self environment at: #'ScriptingSystem' ifAbsent: [  ])
     ifNil: [ self environment at: #'ScriptingSystem' put: self new ].
-  ScriptingSystem initializeHelpStrings.
+  (Smalltalk at: #'ScriptingSystem') initializeHelpStrings.
   self registerInFlapsRegistry.
   FormDictionary := Dictionary new.
   self loadSqueakyMouse
