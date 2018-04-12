@@ -6,4 +6,4 @@ ifFalse: alternativeBlock
 	receiver is nonBoolean. Execution does not actually reach here because 
 	the expression is compiled in-line."
 
-	self @env0: ifFalse: alternativeBlock
+	self _env0 ifFalse: alternativeBlock

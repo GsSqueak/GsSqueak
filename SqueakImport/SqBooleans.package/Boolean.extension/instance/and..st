@@ -4,4 +4,4 @@ and: alternativeBlock
 	the argument, alternativeBlock; otherwise answer false without 
 	evaluating the argument."
 
-	self @env0: and: alternativeBlock
+	self _env0 and: alternativeBlock

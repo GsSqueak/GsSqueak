@@ -1,0 +1,15 @@
+{
+	"category" : "SqNumbers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 11/14/2017 20:39",
+	"instvars" : [
+		"numerator",
+		"denominator" ],
+	"name" : "Fraction",
+	"pools" : [
+		 ],
+	"super" : "Number",
+	"type" : "normal" }

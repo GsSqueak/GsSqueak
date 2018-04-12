@@ -3,4 +3,4 @@ not
 	"Negation. Answer true if the receiver is false, answer false if the 
 	receiver is true."
 
-	self @env0: not
+	self _env0 not
