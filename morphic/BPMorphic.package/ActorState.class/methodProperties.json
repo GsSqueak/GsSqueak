@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addPlayerMenuItemsTo:hand:" : "sw 4/22/1998 17:02",
+		"choosePenColor:" : "nk 6/12/2004 16:36",
+		"choosePenSize" : "ar 8/6/2009 20:00",
+		"costume" : "sw 4/13/1998 19:36",
+		"defaultPenColor" : "sw 2/4/98 15:16",
+		"defaultPenSize" : "sw 2/4/98 15:03",
+		"fractionalPosition" : "jm 4/24/1998 21:34",
+		"fractionalPosition:" : "jm 4/24/1998 21:31",
+		"getPenArrowheads" : "tk 10/4/2001 16:42",
+		"getPenColor" : "sw 4/22/1998 13:35",
+		"getPenDown" : "sw 4/22/1998 13:40",
+		"getPenSize" : "sw 4/22/1998 13:43",
+		"initializeFor:" : "sw 5/13/1998 16:37",
+		"instantiatedUserScriptsDictionary" : "sw 4/9/98 22:35",
+		"liftPen" : "sw 2/4/98 18:07",
+		"lowerPen" : "sw 2/4/98 14:58",
+		"penColor:" : "sw 2/4/98 18:03",
+		"printOn:" : "sw 5/12/1998 23:35",
+		"setPenArrowheads:" : "tk 10/4/2001 16:43",
+		"setPenColor:" : "sw 4/22/1998 13:51",
+		"setPenDown:" : "sw 4/22/1998 13:47",
+		"setPenSize:" : "sw 4/22/1998 13:45",
+		"trailStyle" : "sw 4/16/2003 12:26",
+		"trailStyle:" : "sw 3/11/2003 11:28" } }

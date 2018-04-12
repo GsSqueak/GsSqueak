@@ -4,11 +4,13 @@ initialize
 
   super initialize.	""
   self initializePreferences.
-  hasFocus := false.	"self initializeScrollBars."	""
-  self extent: self defaultExtent.	"self
+  hasFocus := false.
+  self initializeScrollBars.
+  self extent: self defaultExtent.
+  self
     resizeScrollBars;
     resizeScroller;
     hideOrShowScrollBars;
-	updateMinimumExtent."
+    updateMinimumExtent.
   self setDefaultParameters.
   self addKeyboardCaptureFilter: self

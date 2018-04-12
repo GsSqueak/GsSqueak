@@ -1,0 +1,20 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 2/11/2005 21:53",
+	"instvars" : [
+		"enabled",
+		"action",
+		"getColorSelector",
+		"getEnabledSelector",
+		"updateMap",
+		"disabledColor",
+		"disabledTextColor" ],
+	"name" : "PluggableButtonMorphPlus",
+	"pools" : [
+		 ],
+	"super" : "PluggableButtonMorph",
+	"type" : "normal" }

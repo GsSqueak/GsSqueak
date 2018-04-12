@@ -1,0 +1,3 @@
+accessing
+askBeforeChanging
+	^ askBeforeChanging

@@ -1,5 +1,5 @@
 colors
 paneColorToUse
-	^ Display depth <= 2
-		ifTrue: [Color white]
-		ifFalse: [self paneColor]
+  ^ self paneColor	"(Smalltalk at: #'Display') depth <= 2
+    ifTrue: [ Color white ]
+    ifFalse: ["	"]"

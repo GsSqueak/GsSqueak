@@ -1,7 +1,7 @@
 accessing
 maximumUsableAreaInWorld: aWorldOrNil
   | _gsSqueakTemp_allowedArea |
-  _gsSqueakTemp_allowedArea := Display usableArea.
+  _gsSqueakTemp_allowedArea := (SessionTemps current at: #'Display') usableArea.
   aWorldOrNil
     ifNotNil: [ 
       _gsSqueakTemp_allowedArea := _gsSqueakTemp_allowedArea

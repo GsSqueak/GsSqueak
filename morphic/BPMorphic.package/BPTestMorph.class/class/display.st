@@ -22,7 +22,7 @@ display
     at: #'World'
     put: (PasteUpMorph new initForProject: AnimWorldState new).
   (SessionTemps current at: #'World') viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open.	 TextMorph new openInWorld."	"BPTestMorph new openInWorld."
-  myMorph := RectangleMorph new openInWorld.
+  FontImporterTool open.
   [ true ]
     whileTrue: [ (SessionTemps current at: #'World') doOneCycle	"Simulate Animation  Framework" ].
   (SessionTemps current at: #'Display') close.

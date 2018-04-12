@@ -1,0 +1,3 @@
+filtering
+selectNextMorphByFilter
+	^ self

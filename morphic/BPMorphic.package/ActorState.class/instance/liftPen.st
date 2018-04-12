@@ -1,0 +1,3 @@
+pen
+liftPen
+	penDown := false

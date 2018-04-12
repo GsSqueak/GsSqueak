@@ -1,3 +1,3 @@
 testing
-basicHasGlyphOf: aCharacter 
-	self subclassResponsibility
+basicHasGlyphOf: aCharacter
+  ^ aCharacter asInteger < 128

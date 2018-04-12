@@ -1,0 +1,3 @@
+pen
+defaultPenColor
+	^ Color blue
