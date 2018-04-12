@@ -1,0 +1,3 @@
+testing
+isAnExactFloat
+	^fraction isAnExactFloat
