@@ -1,0 +1,32 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"FilterByLabelsOnly",
+		"MaximumSearchDepth" ],
+	"commentStamp" : "ar 2/12/2005 04:38",
+	"instvars" : [
+		"rootWrappers",
+		"selectedWrapper",
+		"getRootsSelector",
+		"getChildrenSelector",
+		"hasChildrenSelector",
+		"getLabelSelector",
+		"getIconSelector",
+		"getSelectedPathSelector",
+		"setSelectedParentSelector",
+		"getHelpSelector",
+		"dropItemSelector",
+		"wantsDropSelector",
+		"dragItemSelector",
+		"dragTypeSelector",
+		"nodeClass",
+		"lastKeystrokeTime",
+		"lastKeystrokes",
+		"dragStartedSelector" ],
+	"name" : "PluggableTreeMorph",
+	"pools" : [
+		 ],
+	"super" : "SimpleHierarchicalListMorph",
+	"type" : "normal" }

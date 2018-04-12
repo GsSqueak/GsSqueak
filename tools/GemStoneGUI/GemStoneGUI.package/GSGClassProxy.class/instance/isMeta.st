@@ -1,4 +1,4 @@
 accessing parallel hierarchy
 isMeta
 
-	^ false
+	^ isMeta

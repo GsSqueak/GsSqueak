@@ -1,0 +1,3 @@
+*BPMorphic
+complexContents
+  ^ self

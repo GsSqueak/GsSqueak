@@ -1,12 +1,13 @@
 proxies
 classProxyNamed: className inEnvironment: environmentProxy
 
-	^ ('* class' match: className)
-		ifTrue: [GSGMetaclassProxy
-					interface: self
-					named: (className allButLast: 6) 
-					inEnvironment: environmentProxy]
-		ifFalse: [GSGClassProxy 
-					interface: self
-					named: className 
-					inEnvironment: environmentProxy]
+	| isMeta name |
+	isMeta := '* class' match: className.
+	name := isMeta 
+				ifTrue: [(className allButLast: 6) ]
+				ifFalse: [className].
+	^ GSGClassProxy 
+		interface: self
+		named: name
+		meta: isMeta
+		inEnvironment: environmentProxy

@@ -1,0 +1,3 @@
+drawing
+unhighlightSelection
+	^ self

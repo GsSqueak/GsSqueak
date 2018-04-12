@@ -1,4 +1,6 @@
 accessing parallel hierarchy
 theNonMetaClass
 
-	^ self
+	^ self isMeta
+		ifTrue: [self copy isMeta: false]
+		ifFalse: [self]

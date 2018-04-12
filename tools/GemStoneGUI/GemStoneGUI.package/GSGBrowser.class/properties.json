@@ -6,10 +6,19 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"environment",
+		"metaClassIndicated",
+		"systemCategoryList",
+		"selectedSystemCategoryName",
+		"classList",
+		"selectedClassName",
+		"selectedMessageCategoryName",
+		"messageCategoryDict",
 		"envId",
-		"interface" ],
+		"editSelection",
+		"selectedClassContent" ],
 	"name" : "GSGBrowser",
 	"pools" : [
 		 ],
-	"super" : "Browser",
+	"super" : "GSGCodeTool",
 	"type" : "normal" }

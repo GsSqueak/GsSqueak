@@ -1,0 +1,3 @@
+*SqUndefinedObject-testing
+isLiteral
+	^ true

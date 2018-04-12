@@ -1,0 +1,3 @@
+updating
+applyUserInterfaceTheme
+	super applyUserInterfaceTheme

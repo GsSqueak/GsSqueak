@@ -5,7 +5,8 @@ buildMessageListWith: builder
 	listSpec := builder pluggableListSpec new.
 	listSpec 
 		model: self;
-		list: #messageList;
+		list: #messageList; 
 		getIndex: #messageListIndex; 
-		setIndex: #messageListIndex:.
+		setIndex: #messageListIndex:;
+		menu: #messageListMenu:shifted:.
 	^ listSpec

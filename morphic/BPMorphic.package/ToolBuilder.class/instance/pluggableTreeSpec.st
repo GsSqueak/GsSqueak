@@ -1,3 +1,3 @@
 defaults
 pluggableTreeSpec
-	^ PluggableTreeSpec
+  ^ PluggableTreeSpec

@@ -1,0 +1,3 @@
+pen
+getPenArrowheads
+	^ penArrowheads == true

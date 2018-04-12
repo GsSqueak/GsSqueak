@@ -1,3 +1,3 @@
 defaults
 pluggableInputFieldSpec
-	^ PluggableInputFieldSpec
+  ^ PluggableInputFieldSpec

@@ -1,4 +1,4 @@
-classes and traits
+referencing
 codeReferencingClass: classProxy
 
 	^ classProxy name

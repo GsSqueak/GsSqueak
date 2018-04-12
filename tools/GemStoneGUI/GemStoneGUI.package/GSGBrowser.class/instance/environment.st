@@ -1,4 +1,4 @@
-accessing
+environment
 environment
 
-	^ environment 	ifNil: [environment := self interface defaultEnvironment]
+	^ environment

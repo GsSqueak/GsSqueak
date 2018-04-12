@@ -1,0 +1,21 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"owningPlayer",
+		"penDown",
+		"penSize",
+		"penColor",
+		"fractionalPosition",
+		"instantiatedUserScriptsDictionary",
+		"penArrowheads",
+		"trailStyle" ],
+	"name" : "ActorState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

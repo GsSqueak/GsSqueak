@@ -1,3 +1,3 @@
 widget classes
 buttonClass
-	^ PluggableButtonMorphPlus
+  ^ PluggableButtonMorphPlus

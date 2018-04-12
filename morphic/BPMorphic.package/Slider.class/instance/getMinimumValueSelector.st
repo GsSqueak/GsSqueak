@@ -1,0 +1,3 @@
+accessing - model
+getMinimumValueSelector
+	^ getMinimumValueSelector

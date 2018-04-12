@@ -1,3 +1,3 @@
 defaults
 pluggablePanelSpec
-	^ PluggablePanelSpec
+  ^ PluggablePanelSpec
