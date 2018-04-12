@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"initialize" : "SL 2/27/2018 13:44",
+		"initialize" : "",
 		"pushNilCode" : "SL 2/27/2018 13:44",
 		"tempSortBlock" : "SL 2/27/2018 13:44" },
 	"instance" : {
@@ -64,4 +64,6 @@
 		"sizeCodeForBlockValue:" : "SL 2/27/2018 13:44",
 		"sizeCodeForEffect:" : "SL 2/27/2018 13:44",
 		"sizeCodeForReturn:" : "SL 2/27/2018 13:44",
+		"sourceOffset" : "",
+		"sourceOffset:" : "",
 		"toDoIncrement:" : "SL 2/27/2018 13:44" } }

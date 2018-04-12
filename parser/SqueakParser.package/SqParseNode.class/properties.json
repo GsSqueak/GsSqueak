@@ -32,7 +32,8 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"comment",
-		"pc" ],
+		"pc",
+		"sourceOffset" ],
 	"name" : "SqParseNode",
 	"pools" : [
 		 ],

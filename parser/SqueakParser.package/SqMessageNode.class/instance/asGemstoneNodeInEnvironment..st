@@ -11,4 +11,5 @@ asGemstoneNodeInEnvironment: env
         (self receiver ifNotNil: [ self receiver asGemstoneNodeInEnvironment: env ]).
   self arguments
     do: [ :argument | gsSendNode appendArgument: (argument asGemstoneNodeInEnvironment: env) ].
+  gsSendNode sourceOffset: self sourceOffset.
   ^ gsSendNode
