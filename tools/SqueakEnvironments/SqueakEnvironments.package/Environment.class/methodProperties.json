@@ -84,6 +84,7 @@
 		"printOn:" : "",
 		"purgeUndeclared" : "",
 		"recompileAll" : "",
+		"recompileAllMethods" : "",
 		"remove:from:readdAfter:" : "",
 		"removeClassNamed:" : "",
 		"removeKey:" : "",
