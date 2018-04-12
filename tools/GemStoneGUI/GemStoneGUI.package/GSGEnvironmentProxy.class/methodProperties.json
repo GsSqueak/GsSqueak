@@ -2,13 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"classNamed:" : "sl 3/19/2018 14:34",
-		"classNames" : "sl 4/12/2018 12:57",
-		"classNamesInSystemCategory:" : "sl 4/5/2018 17:06",
 		"classProxyNamed:" : "sl 4/12/2018 13:09",
 		"codeForHierarchicallySortingClassListCreatedBy:environmentId:" : "sl 4/12/2018 13:09",
-		"codeReferencingClass:" : "sl 4/11/2018 10:51",
-		"convertToHierarchyTree:environment:" : "sl 4/12/2018 13:10",
-		"hierarchyTreeOfClassNames:environmentId:" : "sl 4/5/2018 15:18",
-		"systemCategories" : "sl 4/5/2018 15:06",
-		"templateForSubclassOf:category:" : "sl 4/6/2018 21:17" } }
+		"convertToHierarchyTree:environment:" : "sl 4/12/2018 13:10" } }

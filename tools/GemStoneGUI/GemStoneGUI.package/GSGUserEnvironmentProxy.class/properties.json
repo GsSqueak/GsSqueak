@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "GSGSessionEnvironmentProxy",
+		"username" ],
+	"name" : "GSGUserEnvironmentProxy",
 	"pools" : [
 		 ],
 	"super" : "GSGGemStoneEnvironmentProxy",
