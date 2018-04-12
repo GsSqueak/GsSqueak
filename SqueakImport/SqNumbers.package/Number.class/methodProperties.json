@@ -5,7 +5,8 @@
 		"readFrom:base:" : "nice 3/15/2008 00:27",
 		"readFrom:ifFail:" : "nice 2/22/2010 22:40",
 		"readSmalltalkSyntaxFrom:" : "nice 2/22/2010 21:41",
-		"zero" : "fbs 3/30/2013 21:40" },
+		"zero" : "fbs 3/30/2013 21:40",
+		"initialize":""},
 	"instance" : {
 		"*" : "",
 		"**" : "pre 5/19/2017 13:56",
