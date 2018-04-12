@@ -1,0 +1,34 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mvdg 3/21/2008 20:59",
+	"instvars" : [
+		"roots",
+		"getSelectedPath",
+		"setSelected",
+		"getSelected",
+		"setSelectedParent",
+		"getChildren",
+		"hasChildren",
+		"label",
+		"icon",
+		"unusedVar",
+		"menu",
+		"keyPress",
+		"dropItem",
+		"dropAccept",
+		"autoDeselect",
+		"dragItem",
+		"nodeClass",
+		"columns",
+		"vScrollBarPolicy",
+		"hScrollBarPolicy",
+		"dragStarted" ],
+	"name" : "PluggableTreeSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableWidgetSpec",
+	"type" : "normal" }

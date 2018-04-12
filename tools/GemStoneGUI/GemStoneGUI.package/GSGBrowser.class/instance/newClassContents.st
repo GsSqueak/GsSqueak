@@ -3,6 +3,6 @@ newClassContents
 
 	| superclass |
 	superclass := self selectedClassName ifNil: [#Object].
-	^ self interface 
-			templateForSubclassOf: superclass
-			category: self selectedSystemCategory
+	^ self environment
+		templateForSubclassOf: superclass
+		category: self selectedSystemCategory

@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSGSessionEnvironmentProxy",
+	"pools" : [
+		 ],
+	"super" : "GSGEnvironmentProxy",
+	"type" : "normal" }

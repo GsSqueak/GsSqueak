@@ -1,4 +1,6 @@
 accessing parallel hierarchy
 theMetaClass
 
-	^ GSGMetaclassProxy interface: interface named: name inEnvironment: environment
+	^ self isMeta
+		ifTrue: [self]
+		ifFalse: [self copy isMeta: true]

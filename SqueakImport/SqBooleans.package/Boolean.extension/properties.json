@@ -1,0 +1,14 @@
+{
+	"category" : "SqBooleans",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Boolean",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+*SqBooleans-controlling
+and: block1 and: block2 and: block3 and: block4
+	"Nonevaluating conjunction without deep nesting.
+	The receiver is evaluated, followed by the blocks in order.
+	If any of these evaluates as false, then return false immediately,
+		without evaluating any further blocks.
+	If all return true, then return true."
+
+	self ifFalse: [^ false].
+	block1 value ifFalse: [^ false].
+	block2 value ifFalse: [^ false].
+	block3 value ifFalse: [^ false].
+	block4 value ifFalse: [^ false].
+	^ true

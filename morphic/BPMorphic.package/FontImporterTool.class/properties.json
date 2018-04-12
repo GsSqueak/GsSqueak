@@ -1,0 +1,19 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "topa 3/9/2015 18:56",
+	"instvars" : [
+		"title",
+		"allFonts",
+		"emphasis",
+		"currentSelection",
+		"currentParent",
+		"warningSeen" ],
+	"name" : "FontImporterTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

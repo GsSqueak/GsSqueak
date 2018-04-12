@@ -66,6 +66,7 @@
 		"includesKey:" : "",
 		"info" : "",
 		"initialize" : "",
+		"initialize2AllCLasses" : "",
 		"initializeCommons" : "",
 		"initializeWithName:" : "",
 		"initializeWithSystemDictionary:" : "",

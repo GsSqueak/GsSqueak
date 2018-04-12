@@ -1,0 +1,3 @@
+toolbuilder
+filenameFont
+	^ Preferences standardDefaultTextFont

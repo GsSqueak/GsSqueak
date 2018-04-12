@@ -1,0 +1,17 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fontname",
+		"filename",
+		"children",
+		"parent" ],
+	"name" : "FontImporterFontDescription",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

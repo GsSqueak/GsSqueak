@@ -1,4 +1,6 @@
 accessing
 name
 	
-	^ name
+	^ self isMeta
+		ifTrue: [name , ' class']
+		ifFalse: [name]

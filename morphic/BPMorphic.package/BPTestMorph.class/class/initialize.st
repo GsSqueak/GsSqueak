@@ -12,7 +12,8 @@ initialize
   (Smalltalk at: #'DefaultTextStyle') rightIndent: 0.
   (Smalltalk at: #'DefaultTextStyle') lineGrid: 16.
   HandMorph initialize.
-  TextMorph initialize.	"  ImageMorph initialize."
+  TextMorph initialize.
+  ImageMorph initialize.
   SmalltalkEditor initialize.
   StandardScriptingSystem initialize.
   ScriptingSystem initializeSmallHaloIcons.

@@ -1,4 +1,0 @@
-annotation
-annotationRequests
-
-	^ #(#timeStamp #messageCategory)

@@ -1,4 +1,0 @@
-printing
-printString
-
-	^ self fullPrintString

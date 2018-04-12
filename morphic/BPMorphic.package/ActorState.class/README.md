@@ -1,0 +1,1 @@
+Holds a record of data representing actor-like slots in the Morph, on behalf of an associated Player.  Presently also holds onto the scriptInstantion objects that represent active scripts in an instance, but this will probably change soon.

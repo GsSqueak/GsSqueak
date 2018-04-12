@@ -1,4 +1,4 @@
-accessing
+private
 name: anObject
 	
 	name := anObject.

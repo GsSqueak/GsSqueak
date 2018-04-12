@@ -1,0 +1,3 @@
+drawing
+textColorToUse
+	^ self textColor
