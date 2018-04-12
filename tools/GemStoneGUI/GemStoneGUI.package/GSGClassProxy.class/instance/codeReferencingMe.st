@@ -1,4 +1,8 @@
 *GemStoneGUI-TopazInterface
 codeReferencingMe
 
-	^ self environment codeReferencingClass: self
+	| nonMetaClassRef |
+	nonMetaClassRef := self environment codeReferencingClass: self theNonMetaClass.
+	^ self isMeta
+		ifTrue: ['(' , nonMetaClassRef , ') class']
+		ifFalse: [nonMetaClassRef]
