@@ -1,4 +1,4 @@
-classes and traits
+interface
 classNames
 
-	^ (self allClasses collect: [:class | class name]) sort
+	^ (self interface classNamesFor: self) sort

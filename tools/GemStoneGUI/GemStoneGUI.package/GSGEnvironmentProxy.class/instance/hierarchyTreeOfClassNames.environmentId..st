@@ -1,4 +1,4 @@
-classes and traits
+interface
 hierarchyTreeOfClassNames: collectionOfSymbols environmentId: envId
 
 	^ self interface 

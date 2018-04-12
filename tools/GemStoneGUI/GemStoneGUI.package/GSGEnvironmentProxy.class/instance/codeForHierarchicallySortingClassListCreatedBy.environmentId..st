@@ -1,4 +1,4 @@
-helpers
+query construction
 codeForHierarchicallySortingClassListCreatedBy: classListCreationCode environmentId: envId
 
 	^ '[:col :envId |

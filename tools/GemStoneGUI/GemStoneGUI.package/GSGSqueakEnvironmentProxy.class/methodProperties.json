@@ -1,17 +1,12 @@
 {
 	"class" : {
-		"forSession:" : "sl 4/11/2018 10:04" },
+		 },
 	"instance" : {
 		"classNamed:" : "sl 4/11/2018 11:14",
 		"classNames" : "sl 4/11/2018 10:30",
 		"classNamesInSystemCategory:" : "sl 4/11/2018 10:33",
-		"classProxyNamed:" : "sl 4/12/2018 12:46",
-		"codeForHierarchicallySortingClassListCreatedBy:environmentId:" : "sl 4/11/2018 10:39",
 		"codeReferencingClass:" : "sl 4/11/2018 11:33",
 		"codeReferencingMe" : "sl 4/11/2018 10:17",
-		"convertToHierarchyTree:environment:" : "sl 4/11/2018 10:42",
 		"hierarchyTreeOfClassNames:environmentId:" : "sl 4/11/2018 10:44",
-		"initializeOnSession:" : "sl 4/11/2018 10:04",
-		"session" : "sl 4/11/2018 10:03",
 		"systemCategories" : "sl 4/11/2018 10:21",
 		"templateForSubclassOf:category:" : "sl 4/11/2018 10:49" } }

@@ -2,9 +2,5 @@ accessing parallel hierarchy
 theNonMetaClass
 
 	^ self isMeta
-		ifTrue: [self class
-					interface: interface
-					named: name
-					meta: false
-					inEnvironment: environment]
+		ifTrue: [self copy isMeta: false]
 		ifFalse: [self]

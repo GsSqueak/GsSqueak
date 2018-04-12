@@ -1,4 +1,4 @@
-proxy creation
+deserializing
 classProxyNamed: className
 
 	| isMeta name |

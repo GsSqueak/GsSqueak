@@ -10,5 +10,5 @@
 	"name" : "GSGClassOrganizerProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGCategorizerProxy",
+	"super" : "AnObsoleteGSGCategorizerProxy",
 	"type" : "normal" }

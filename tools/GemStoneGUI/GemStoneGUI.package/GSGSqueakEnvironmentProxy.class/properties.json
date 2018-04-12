@@ -10,5 +10,5 @@
 	"name" : "GSGSqueakEnvironmentProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGProxy",
+	"super" : "GSGEnvironmentProxy",
 	"type" : "normal" }
