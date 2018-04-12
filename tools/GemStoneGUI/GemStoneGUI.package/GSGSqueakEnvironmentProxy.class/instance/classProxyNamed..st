@@ -1,12 +1,13 @@
 proxy creation
 classProxyNamed: className
 
-	^ ('* class' match: className)
-		ifTrue: [GSGMetaclassProxy
-					interface: self session
-					named: (className allButLast: 6) 
-					inEnvironment: self]
-		ifFalse: [GSGClassProxy 
-					interface: self session
-					named: className 
-					inEnvironment: self]
+	| isMeta name |
+	isMeta := '* class' match: className.
+	name := isMeta 
+				ifTrue: [(className allButLast: 6) ]
+				ifFalse: [className].
+	^ GSGClassProxy 
+		interface: self session
+		named: name
+		meta: isMeta
+		inEnvironment: self
