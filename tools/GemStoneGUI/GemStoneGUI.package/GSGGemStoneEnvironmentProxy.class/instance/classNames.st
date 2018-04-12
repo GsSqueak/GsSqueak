@@ -1,4 +1,6 @@
 interface
 classNames
 
-	^ (self interface classNamesFor: self) sort
+	| query |
+	query := (self codeForClassOrganizerInEnv: 0) , ' classes collect: [:class | class name]'.
+	^ (self fetchArrayOfSymbols: query) sort

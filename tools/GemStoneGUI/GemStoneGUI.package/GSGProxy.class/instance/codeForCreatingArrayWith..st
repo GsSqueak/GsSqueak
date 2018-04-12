@@ -1,4 +1,4 @@
-serializing
+serialization
 codeForCreatingArrayWith: elements
 
 	^ String streamContents: [:stream |
