@@ -54,7 +54,7 @@
 		"parse:class:" : "",
 		"parse:class:noPattern:notifying:ifFail:" : "",
 		"parseArgsAndTemps:" : "SL 2/27/2018 13:44",
-		"parseCue:noPattern:ifFail:" : "Anonymous 03/07/2018 00:28",
+		"parseCue:noPattern:ifFail:" : "",
 		"parseMethodComment:setPattern:" : "SL 2/27/2018 13:44",
 		"parseParameterNames:" : "SL 2/27/2018 13:44",
 		"parseSelector:" : "SL 2/27/2018 13:44",

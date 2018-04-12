@@ -59,7 +59,7 @@
 		"removeTempNode:ifAbsent:" : "SL 2/27/2018 13:44",
 		"returnLast" : "SL 2/27/2018 13:44",
 		"returnNilIfNoOther" : "SL 2/27/2018 13:44",
-		"returnSelfIfNoOther:" : "SL 2/27/2018 13:44",
+		"returnSelfIfNoOther:" : "",
 		"returns" : "SL 2/27/2018 13:44",
 		"sizeCodeExceptLast:" : "SL 2/27/2018 13:44",
 		"sizeCodeForEvaluatedClosureValue:" : "SL 2/27/2018 13:44",

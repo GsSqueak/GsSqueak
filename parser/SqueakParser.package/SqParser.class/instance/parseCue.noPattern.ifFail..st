@@ -24,7 +24,7 @@ parseCue: aCue noPattern: noPattern ifFail: aBlock
   doitFlag := noPattern.
   failBlock := aBlock.
   [ methNode := self method: noPattern context: cue context ]
-    on: ReparseAfterSourceEditing
+    on: false
     do: [ :ex | 
       repeatNeeded := true.
       properties := nil.	"Avoid accumulating pragmas and primitives Number"
