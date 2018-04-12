@@ -6,6 +6,6 @@ buildClassListWith: builder
 	listSpec 
 		model: self;
 		list: #classList;
-		getIndex: #classListIndex; 
+		getIndex: #classListIndex;
 		setIndex: #classListIndex:.
 	^ listSpec

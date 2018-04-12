@@ -5,7 +5,7 @@ removeMessage
 	so, remove it."
 	| messageName confirmation classOrMetaClass |
 	self hasMessageSelected ifFalse: [^ self].
-	self okayToChange ifFalse: [^ self].
+	self okToChange ifFalse: [^ self].
 	messageName := self selectedMessageName.
 	classOrMetaClass := self selectedClassOrMetaClass.
 	confirmation := self 

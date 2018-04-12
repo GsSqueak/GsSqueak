@@ -1,5 +1,5 @@
 user edits
-okayToChange
+okToChange
 
 	self canDiscardEdits ifTrue: [^ true].
 	self changed: #wantToChange.  "Solicit cancel from view"

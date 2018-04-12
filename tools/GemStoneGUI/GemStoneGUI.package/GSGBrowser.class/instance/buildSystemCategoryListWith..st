@@ -5,8 +5,7 @@ buildSystemCategoryListWith: builder
 	listSpec := builder pluggableListSpec new.
 	listSpec 
 		model: self;
-		list: #systemCategoryList; 
-		getIndex: #systemCategoryListIndex; 
-		setIndex: #systemCategoryListIndex:;
-		keyPress: #systemCatListKey:from:.
+		list: #systemCategoryList;
+		getIndex: #systemCategoryListIndex;
+		setIndex: #systemCategoryListIndex:.
 	^ listSpec
