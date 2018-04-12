@@ -1,6 +1,6 @@
 toolset
 browseEnvironment: anEnvironment
 
-	^ (GSGBrowser2 forSession: self session)
+	^ (GSGBrowser forSession: self session)
 		selectEnvironment: anEnvironment;
 		open

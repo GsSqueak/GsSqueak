@@ -4,7 +4,7 @@
 		"openOn:" : "SL 3/14/2018 21:09" },
 	"instance" : {
 		"abortTransaction" : "maf 4/10/2018 12:58",
-		"browseEnvironment:" : "maf 4/10/2018 13:41",
+		"browseEnvironment:" : "sl 4/12/2018 12:14",
 		"buildAbortButtonWith:" : "sl 3/23/2018 09:55",
 		"buildBrowserButtonWith:" : "sl 3/23/2018 09:55",
 		"buildCommitButtonWith:" : "sl 3/23/2018 09:54",
