@@ -1,0 +1,41 @@
+#!/bin/bash
+set -e
+set -x
+
+if [ "$#" -ne 1 ]; then
+    echo "Usage createGsSqueakStone <stone name>"
+    exit 1
+fi
+
+createStone "$1" 3.5.0
+
+startTopaz "$1" -l << EOF
+    set u SystemUser p swordfish
+    login
+    run
+        SystemObjectSecurityPolicy worldAuthorization: #write.
+        (AllUsers userWithId: 'DataCurator') addPrivilege: #'CompilePrimitives'
+%
+    commit
+
+    run
+        GsCompilerClasses keysAndValuesDo: [:symbol : class |
+          Globals at: symbol put: class ]
+%
+
+    commit
+    logout
+    login
+
+    input $GS_HOME/server/stones/$1/product/upgrade/GsNMethodIr.gs
+
+    commit
+    logout
+    exit
+EOF
+
+todeIt $1 mc load BPBugFixes filetree://$GS_HOME/shared/repos/BP2017RH1/tools/bugfixes
+todeIt $1 mc load MCEnvSwitch filetree://$GS_HOME/shared/repos/BP2017RH1/tools/MCEnvSwitch
+todeIt $1 mc load SqueakParser filetree://$GS_HOME/shared/repos/BP2017RH1/parser
+todeIt $1 mc load SqueakEnvironments filetree://$GS_HOME/shared/repos/BP2017RH1/tools/SqueakEnvironments
+
