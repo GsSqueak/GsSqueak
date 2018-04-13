@@ -1,4 +1,4 @@
 serialization
 serializeClass: classReturningCode
 
-	^ classReturningCode name
+	^ classReturningCode , ' name'

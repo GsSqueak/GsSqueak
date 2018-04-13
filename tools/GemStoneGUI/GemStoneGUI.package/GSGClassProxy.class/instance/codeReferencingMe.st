@@ -1,4 +1,4 @@
-*GemStoneGUI-TopazInterface
+query assembly
 codeReferencingMe
 
 	| nonMetaClassRef |

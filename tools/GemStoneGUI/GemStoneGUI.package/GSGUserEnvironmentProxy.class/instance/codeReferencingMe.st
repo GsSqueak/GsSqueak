@@ -1,4 +1,4 @@
 query assembly
 codeReferencingMe
 
-	^ '(' , self codeReferencingUser , ' symbolList)'
+	^ self codeReferencingSymbolList

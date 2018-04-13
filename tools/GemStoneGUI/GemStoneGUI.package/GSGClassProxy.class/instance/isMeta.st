@@ -1,4 +1,4 @@
-accessing parallel hierarchy
+general interface
 isMeta
 
 	^ isMeta

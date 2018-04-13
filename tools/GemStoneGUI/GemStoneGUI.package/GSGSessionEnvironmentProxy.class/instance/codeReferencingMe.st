@@ -1,4 +1,4 @@
 query assembly
 codeReferencingMe
 
-	^ '(GsSession currentSession symbolList)'
+	^ self codeReferencingSymbolList

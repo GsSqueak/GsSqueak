@@ -16,6 +16,7 @@ Class >> isMeta
 Class >> theNonMetaClass
 Class >> environment
 Class >> category
+Class >> category:
 Class >> comment
 Class >> comment:
 Class >> definition

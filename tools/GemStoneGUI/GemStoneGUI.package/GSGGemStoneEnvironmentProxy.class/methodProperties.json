@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"classNamed:" : "sl 3/19/2018 14:34",
+		"classNamed:" : "sl 4/13/2018 14:21",
 		"classNames" : "sl 4/12/2018 16:48",
 		"classNamesInSystemCategory:" : "sl 4/12/2018 16:47",
-		"codeForClassOrganizerInEnv:" : "sl 4/12/2018 16:38",
-		"codeReferencingClass:" : "sl 4/12/2018 13:53",
+		"classProxyClass" : "sl 4/13/2018 14:56",
+		"codeForClassOrganizerInEnv:" : "sl 4/13/2018 14:55",
+		"codeReferencingClass:" : "sl 4/13/2018 14:20",
+		"codeReferencingClassNamed:" : "sl 4/13/2018 14:19",
 		"hierarchyTreeOfClassNames:environmentId:" : "sl 4/5/2018 15:18",
 		"systemCategories" : "sl 4/12/2018 16:46",
 		"templateForSubclassOf:category:" : "sl 4/6/2018 21:17" } }

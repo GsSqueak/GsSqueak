@@ -1,4 +1,4 @@
 interface
-classNamed: className
+classNamed: aSymbol
 
-	^ self interface environment: self classNamed: className ifAbsent: [nil]
+	^ self fetchClass: (self codeReferencingClassNamed: aSymbol) forEnvironment: self

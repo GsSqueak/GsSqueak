@@ -1,4 +1,4 @@
-accessing method dictionary
+interface - messages
 renameCategory: oldName to: newName environmentId: envId
 
 	self interface
