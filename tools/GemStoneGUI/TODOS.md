@@ -1,9 +1,9 @@
 Todos:
 - [ ] create standalone tools
-  - [ ] browser
+  - [x] browser
   - [ ] message list
 - [ ] change tools to only work with Environment, Class, Metaclass and Method
-  - [ ] remove organizers
+  - [x] remove organizers
   - [ ] remove oop capabilities
 - [x] make tools close themselves if the session terminates
 - [x] color code tools according to their session
@@ -14,7 +14,9 @@ Todos:
   - [ ] debugger
 - [ ] use gci
 - [ ] syntax highlighting
-- [ ] notifying of uncommitted changes
+- [x] notifying of uncommitted changes
 - [ ] show compilation errors
 - [ ] class icons
+- [ ] message icons
 - [ ] separate session manager and session
+- [ ] choose which environment to browse
