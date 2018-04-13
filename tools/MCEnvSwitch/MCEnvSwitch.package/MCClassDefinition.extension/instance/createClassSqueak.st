@@ -1,7 +1,7 @@
 *MCEnvSwitch
 createClassSqueak
   | aClass ivArray cvArray civArray poolArray newClass ty opts dict |
-  aClass := SqueakEnvironment classNamed: superclassName.
+  aClass := (Smalltalk at: #'SqueakEnvironment') classNamed: superclassName.
   (aClass == nil and: [ superclassName asString ~= 'nil' ])
     ifTrue: [ self error: 'non-existent superclass' ].
   ivArray := (self instanceVariablesString findTokens: ' ') asArray.

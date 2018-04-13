@@ -3,4 +3,5 @@ asGemstoneLeaf
   " Object undeclared, lookup in SmalltalkProxy"
 
   ^ GsComVarLeaf new
-    literalVariable: (SqueakEnvironment undeclare: tag asSymbol)
+    literalVariable:
+      ((Smalltalk at: #'SqueakEnvironment') undeclare: tag asSymbol)

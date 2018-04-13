@@ -5,7 +5,7 @@ allBehaviorsDo: aBlock
 
   ((MCEnv respondsTo: #'usesSqueakParser') and: [ MCEnv usesSqueakParser ])
     ifTrue: [ 
-      SqueakEnvironment
+      (Smalltalk at: #'SqueakEnvironment')
         allClassesDo: [ :class | 
           aBlock value: class.
           aBlock value: class class ] ]
