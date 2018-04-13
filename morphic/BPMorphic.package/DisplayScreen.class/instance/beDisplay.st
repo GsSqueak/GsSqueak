@@ -4,6 +4,5 @@ beDisplay
 	image. Fail if the form is too wide to fit on the physical display. 
 	Essential. See Object documentation whatIsAPrimitive."
 
-  | result |
-  bpWindow := BPWindow new: (Rectangle origin: offset corner: width @ height).
+  GraFFIcsLibrary inst screenSize: self width @ self height.
   ^ 0

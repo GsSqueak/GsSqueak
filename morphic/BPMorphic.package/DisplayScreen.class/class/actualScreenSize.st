@@ -1,5 +1,3 @@
 snapshots
 actualScreenSize
-  "TODO:"
-
-  ^ 640 @ 480
+  ^ GraFFIcsLibrary inst screenSize

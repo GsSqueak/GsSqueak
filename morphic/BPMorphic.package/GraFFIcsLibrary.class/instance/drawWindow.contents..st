@@ -1,6 +1,6 @@
 as yet unclassified
 drawWindow: aWindow contents: aBitmap
-  DrawWindowCo
+  drawWindowCo
     callWith:
-      {(aWindow cPointer).
+      {aWindow.
       (aBitmap cArray)}

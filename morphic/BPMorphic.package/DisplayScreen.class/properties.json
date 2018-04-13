@@ -3,6 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"BpWindow",
 		"DeferringUpdates",
 		"DisplayChangeSignature",
 		"DisplayIsFullScreen",
@@ -11,7 +12,6 @@
 	"instvars" : [
 		"clippingBox",
 		"extraRegions",
-		"bpWindow",
 		"createWindowCo",
 		"drawBitmapCo" ],
 	"name" : "DisplayScreen",

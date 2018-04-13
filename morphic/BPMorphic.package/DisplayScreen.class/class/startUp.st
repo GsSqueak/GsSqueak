@@ -1,5 +1,8 @@
 snapshots
 startUp
-	"DisplayScreen startUp"
-	Display setExtent: self actualScreenSize depth: Display nativeDepth.
-	Display beDisplay
+  "DisplayScreen startUp"
+
+  (SessionTemps current at: #'Display')
+    setExtent: self actualScreenSize
+    depth: (SessionTemps current at: #'Display') nativeDepth.
+  (SessionTemps current at: #'Display') beDisplay

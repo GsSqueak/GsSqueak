@@ -1,6 +1,6 @@
 as yet unclassified
 displayString: aString at: aPoint on: aForm
-  DisplayStringCo
+  displayStringCo
     callWith:
       {aString.
       (aPoint x).

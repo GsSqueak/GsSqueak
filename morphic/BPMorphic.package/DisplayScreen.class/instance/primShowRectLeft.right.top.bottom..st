@@ -7,4 +7,4 @@ primShowRectLeft: l right: r top: t bottom: b
   "if this fails, coerce coordinates to integers and try again"
 
   | result |
-  result := GraFFIcsLibrary inst drawWindow: bpWindow contents: self bits
+  result := GraFFIcsLibrary inst drawContents: self bits

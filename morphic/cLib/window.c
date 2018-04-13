@@ -2,13 +2,16 @@
 #include "keyboard.h"
 #include "window.h"
 
-struct Window *ffi_create_window(uint32_t x,
-                                 uint32_t y,
-                                 uint32_t width,
+struct Window *ffi_create_window(uint32_t width,
                                  uint32_t height) {
     struct Window *window = malloc(sizeof(struct Window));
 
-    window->sdl_window = SDL_CreateWindow("GsSqueak", x, y, width, height, 0);
+    window->sdl_window = SDL_CreateWindow("GsSqueak",
+                                          SDL_WINDOWPOS_UNDEFINED,
+                                          SDL_WINDOWPOS_UNDEFINED,
+                                          width,
+                                          height,
+                                          SDL_WINDOW_RESIZABLE);
     window->renderer = SDL_CreateRenderer(window->sdl_window, -1, 0);
     window->texture = SDL_CreateTexture(window->renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STATIC, width, height);
     window->width = width;
@@ -36,6 +39,23 @@ struct Window *ffi_create_window(uint32_t x,
 
     return window;
 }
+
+
+uint32_t ffi_get_window_size(struct Window *window,
+                             struct WindowSize *result) {
+    SDL_GetWindowSize(window->sdl_window, &result->x, &result->y);
+}
+
+
+void ffi_set_window_size(struct Window *window,
+                         uint32_t width,
+                         uint32_t height) {
+    SDL_SetWindowSize(window->sdl_window, width, height);
+    SDL_DestroyTexture(window->texture);
+    window->texture = SDL_CreateTexture(window->renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STATIC, width, height);
+    window->width = width;
+}
+
 
 void ffi_draw_window(struct Window *window,
                      char *data) {

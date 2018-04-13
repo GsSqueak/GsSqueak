@@ -1,8 +1,8 @@
 as yet unclassified
 display
   | myMorph commitBtn |
-  (SessionTemps current at: #'Display' ifAbsent: [ nil ])
-    ifNotNil: [ (SessionTemps current at: #'Display') close ].
+  "(SessionTemps current at: #'Display' ifAbsent: [ nil ])
+    ifNotNil: [ (SessionTemps current at: #'Display') close ]."
   Smalltalk removeKey: #'Sensor' ifAbsent: [  ].
   Smalltalk removeKey: #'Display' ifAbsent: [  ].
   Smalltalk removeKey: #'World' ifAbsent: [  ].
@@ -14,6 +14,7 @@ display
   SessionTemps current at: #'Sensor' put: EventSensor new.
   SessionTemps current at: #'Display' put: DisplayScreen new.
   (SessionTemps current at: #'Display') setExtent: 640 @ 480 depth: 32.
+  DisplayScreen startUp.
   1 to: 10000 do: [ :nr | (SessionTemps current at: #'Display') bits byteAt: nr * 4 + 1 put: 255 ].
   (SessionTemps current at: #'Display') offset: 0 @ 0.
   (SessionTemps current at: #'Display') beDisplay.
@@ -21,8 +22,8 @@ display
   SessionTemps current
     at: #'World'
     put: (PasteUpMorph new initForProject: AnimWorldState new).
-  (SessionTemps current at: #'World') viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open.	 TextMorph new openInWorld."	"BPTestMorph new openInWorld."
-  FontImporterTool open.
+  (SessionTemps current at: #'World') viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open.	 TextMorph new openInWorld."	"BPTestMorph new openInWorld."	"FontImporterTool open."
+  RectangleMorph new openInWorld.
   [ true ]
     whileTrue: [ (SessionTemps current at: #'World') doOneCycle	"Simulate Animation  Framework" ].
   (SessionTemps current at: #'Display') close.

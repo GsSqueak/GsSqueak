@@ -1,28 +1,38 @@
 as yet unclassified
 initialize
-  GraphicsLib := CLibrary named: '$GEMSTONE/lib/libgraFFIcs'.
-  CreateWindowCo := CCallout
-    library: GraphicsLib
+  graphicsLib := CLibrary named: '$GEMSTONE/lib/libgraFFIcs'.
+  createWindowCo := CCallout
+    library: graphicsLib
     name: #'ffi_create_window'
     result: #'ptr'
-    args: #(#'int32' #'int32' #'int32' #'int32').
-  DrawWindowCo := CCallout
-    library: GraphicsLib
+    args: #(#'uint32' #'uint32').
+  drawWindowCo := CCallout
+    library: graphicsLib
     name: #'ffi_draw_window'
     result: #'void'
     args: #(#'ptr' #'ptr').
-  GetEventsCo := CCallout
-    library: GraphicsLib
+  getSizeCo := CCallout
+    library: graphicsLib
+    name: #'ffi_get_window_size'
+    result: #'void'
+    args: #(#'ptr' #'ptr').
+  setSizeCo := CCallout
+    library: graphicsLib
+    name: #'ffi_set_window_size'
+    result: #'void'
+    args: #(#'ptr' #'uint32' #'uint32').
+  getEventsCo := CCallout
+    library: graphicsLib
     name: #'ffi_process_events'
     result: #'void'
     args: #(#'ptr' #'ptr').
-  DisplayStringCo := CCallout
-    library: GraphicsLib
+  displayStringCo := CCallout
+    library: graphicsLib
     name: #'ffi_display_string'
     result: #'void'
-    args: #(#'const char*' #'int32' #'int32' #'ptr' #'int32' #'int32').
-  DestroyWindowCo := CCallout
-    library: GraphicsLib
+    args: #(#'const char*' #'uint32' #'uint32' #'ptr' #'uint32' #'uint32').
+  destroyWindowCo := CCallout
+    library: graphicsLib
     name: #'ffi_destroy_window'
     result: #'void'
     args: #(#'ptr')

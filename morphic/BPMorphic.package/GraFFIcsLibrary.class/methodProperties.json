@@ -3,9 +3,14 @@
 		"initialize" : "TZ 04/11/2018 06:22",
 		"inst" : "Anonymous 03/22/2018 08:12" },
 	"instance" : {
-		"createWindow:" : "Anonymous 03/22/2018 08:18",
-		"destroyWindow:" : "Anonymous 03/27/2018 01:53",
-		"displayString:at:on:" : "Anonymous 03/22/2018 08:14",
-		"drawWindow:contents:" : "Anonymous 03/22/2018 08:14",
-		"getEvents:into:" : "Anonymous 03/22/2018 08:13",
-		"initialize" : "Anonymous 03/27/2018 01:52" } }
+		"createWindow:" : "TZ 04/13/2018 04:19",
+		"defaultWindow" : "TZ 04/13/2018 04:34",
+		"destroyWindow:" : "TZ 04/13/2018 04:32",
+		"displayString:at:on:" : "TZ 04/13/2018 03:53",
+		"drawContents:" : "TZ 04/13/2018 04:20",
+		"drawWindow:contents:" : "TZ 04/13/2018 04:32",
+		"getEvents:into:" : "TZ 04/13/2018 04:33",
+		"getEventsInto:" : "TZ 04/13/2018 04:59",
+		"initialize" : "TZ 04/13/2018 04:04",
+		"screenSize" : "TZ 04/13/2018 04:58",
+		"screenSize:" : "TZ 04/13/2018 04:19" } }

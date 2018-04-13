@@ -1,8 +1,6 @@
 as yet unclassified
-createWindow: aRectangle
-  ^ CreateWindowCo
+createWindow: aPoint
+  ^ createWindowCo
     callWith:
-      {(aRectangle left).
-      (aRectangle top).
-      (aRectangle width).
-      (aRectangle height)}
+      {(aPoint x).
+      (aPoint y)}

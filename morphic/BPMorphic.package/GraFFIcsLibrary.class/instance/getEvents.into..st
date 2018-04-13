@@ -1,9 +1,9 @@
 as yet unclassified
-getEvents: aBPWindow into: anArray
+getEvents: aWindow into: anArray
   | cArray |
   cArray := CByteArray gcMalloc: 8 * 4.
-  GetEventsCo
+  getEventsCo
     callWith:
-      {(aBPWindow cPointer).
+      {aWindow.
       cArray}.
   1 to: 8 do: [ :each | anArray at: each put: (cArray uint32At: (each - 1) * 4) ]

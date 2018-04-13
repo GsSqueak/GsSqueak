@@ -46,4 +46,9 @@ struct EventQueue {
     struct EventQueueNode *last;
 };
 
+struct WindowSize {
+    uint32_t x;
+    uint32_t y;
+};
+
 #endif

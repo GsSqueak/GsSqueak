@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"actualScreenDepth" : "ar 2/5/2001 17:24",
-		"actualScreenSize" : "jb 01/23/2018 01:53",
+		"actualScreenSize" : "TZ 04/13/2018 04:29",
 		"boundingBox" : "jb 01/16/2018 07:00",
 		"checkForNewScreenSize" : "Anonymous 03/22/2018 03:29",
 		"displayIsFullScreen" : "mt 5/6/2016 15:20",
@@ -15,12 +15,12 @@
 		"primitiveWindow:width:height:" : "mt 5/7/2016 09:30",
 		"setNewScreenSize:" : "mt 8/19/2016 08:40",
 		"shutDown" : "ar 5/28/2000 11:26",
-		"startUp" : "ar 5/17/2001 15:50",
+		"startUp" : "TZ 04/13/2018 01:47",
 		"toggleFullScreen" : "mt 5/6/2016 15:20" },
 	"instance" : {
 		"DisplayScreen" : "jb 02/01/2018 02:44",
 		"addExtraRegion:for:" : "ar 4/19/2001 05:44",
-		"beDisplay" : "TobiasZagorni 03/13/2018 09:33",
+		"beDisplay" : "TZ 04/13/2018 04:27",
 		"boundingBox" : "jb 01/16/2018 07:00",
 		"bpWindow" : "TobiasZagorni 03/14/2018 02:06",
 		"clippingTo:do:" : "jb 01/16/2018 07:00",
@@ -52,7 +52,7 @@
 		"newDepth:" : "mt 5/9/2016 11:16",
 		"objectForDataStream:" : "tk 9/28/2000 15:41",
 		"primRetryShowRectLeft:right:top:bottom:" : "jm 6/3/1998 13:00",
-		"primShowRectLeft:right:top:bottom:" : "Anonymous 03/22/2018 08:16",
+		"primShowRectLeft:right:top:bottom:" : "TZ 04/13/2018 04:23",
 		"primitiveDeferUpdates:" : "jb 01/25/2018 05:23",
 		"release" : "ar 5/26/2000 00:07",
 		"replacedBy:do:" : "jb 01/16/2018 07:00",
@@ -61,6 +61,6 @@
 		"setExtent:depth:" : "Anonymous 03/22/2018 08:41",
 		"shutDown" : "TobiasZagorni 03/13/2018 09:18",
 		"supportedDisplayDepths" : "ar 5/17/2001 21:02",
-		"supportsDisplayDepth:" : "jb 01/16/2018 07:01",
+		"supportsDisplayDepth:" : "TZ 04/13/2018 03:41",
 		"usableArea" : "jb 01/16/2018 07:00",
 		"width" : "jb 01/16/2018 07:00" } }
