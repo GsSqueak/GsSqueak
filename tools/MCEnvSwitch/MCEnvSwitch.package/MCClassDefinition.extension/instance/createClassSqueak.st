@@ -8,7 +8,11 @@ createClassSqueak
   cvArray := (self classVariablesString findTokens: ' ') asArray.
   civArray := (self classInstanceVariablesString findTokens: ' ') asArray.
   poolArray := aClass
-    poolDictionariesForNames: (self sharedPoolsString findTokens: ' ') asArray.
+    ifNotNil: [ 
+      aClass
+        poolDictionariesForNames:
+          (self sharedPoolsString findTokens: ' ') asArray ]
+    ifNil: [ #() ].
   newClass := nil.
   opts := #().
   (ty := self type) _isArray
