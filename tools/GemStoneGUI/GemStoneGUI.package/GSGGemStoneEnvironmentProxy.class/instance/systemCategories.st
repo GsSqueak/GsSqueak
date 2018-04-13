@@ -1,4 +1,6 @@
 interface
 systemCategories
 
-	^ self interface allSystemCategoriesFor: self
+	| query |
+	query := (self codeForClassOrganizerInEnv: 0) , 'categories keys asArray sortAscending'.
+	^ (self fetchArrayOfSymbols: query) sort

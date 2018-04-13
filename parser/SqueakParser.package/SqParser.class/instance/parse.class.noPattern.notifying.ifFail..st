@@ -4,6 +4,6 @@ parse: sourceStream class: class noPattern: noPattern notifying: req ifFail: aBl
   c := SqCompilationCue
     source: sourceStream
     class: class
-    environment: SqueakEnvironment
+    environment: (Smalltalk at: #'SqueakEnvironment')
     requestor: req.
   ^ self parseCue: c noPattern: noPattern ifFail: aBlock

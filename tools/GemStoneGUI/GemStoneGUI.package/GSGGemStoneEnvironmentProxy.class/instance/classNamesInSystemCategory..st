@@ -1,4 +1,7 @@
 interface
 classNamesInSystemCategory: aSymbol
 
-	^ self interface environment: self classesInSystemCategory: aSymbol
+	| query |
+	query := (self codeForClassOrganizerInEnv: 0) , ' 
+				categories at: ' , aSymbol printString , ' ifAbsent: [#()]'.
+	^ (self fetchArrayOfSymbols: query) sort
