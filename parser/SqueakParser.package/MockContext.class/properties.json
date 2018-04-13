@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MockContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

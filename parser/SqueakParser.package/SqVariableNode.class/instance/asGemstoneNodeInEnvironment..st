@@ -17,4 +17,6 @@ asGemstoneNodeInEnvironment: env
     ifTrue: [ ^ GsComLiteralNode newNil ].
   self key = 'super'
     ifTrue: [ ^ gsVariableNode leaf: GsComVarLeaf new initializeSuper ].
+  self key = 'thisContext'
+    ifTrue: [ ^ MockContext asSqParseNode asGemstoneNodeInEnvironment: env ].
   self fail
