@@ -1,0 +1,21 @@
+{
+	"category" : "SqCharacter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AlphaNumericMask",
+		"CharacterTable",
+		"ClassificationTable",
+		"DigitBit",
+		"DigitValues",
+		"LetterMask",
+		"LowercaseBit",
+		"UppercaseBit" ],
+	"commentStamp" : "eem 8/12/2014 14:53",
+	"instvars" : [
+		 ],
+	"name" : "Character",
+	"pools" : [
+		 ],
+	"super" : "Magnitude",
+	"type" : "normal" }
