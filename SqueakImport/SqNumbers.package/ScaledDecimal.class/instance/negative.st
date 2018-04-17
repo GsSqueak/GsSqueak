@@ -1,4 +1,0 @@
-testing
-negative
-
-	^fraction negative

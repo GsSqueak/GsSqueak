@@ -1,3 +1,0 @@
-converting
-asExactFloat
-	^fraction asExactFloat

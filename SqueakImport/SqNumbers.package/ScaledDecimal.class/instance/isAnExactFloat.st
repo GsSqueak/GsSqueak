@@ -1,3 +1,0 @@
-testing
-isAnExactFloat
-	^fraction isAnExactFloat
