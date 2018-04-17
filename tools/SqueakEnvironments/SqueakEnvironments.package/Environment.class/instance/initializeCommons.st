@@ -7,4 +7,7 @@ initializeCommons
   self at: #'Object' put: Object.
   self at: #'Class' put: Class.
   self at: #'Metaclass' put: Metaclass3.
-  self at: #'Behavior' put: Behavior
+  self at: #'Behavior' put: Behavior.
+  self at: #'Character' put: Character.
+  self at: #'ByteArray' put: ByteArray.
+  self at: #'Array' put: Array
