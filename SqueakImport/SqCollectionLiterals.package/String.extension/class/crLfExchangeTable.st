@@ -1,4 +1,0 @@
-*SqCollectionLiterals-accessing
-crLfExchangeTable
-
-	^CrLfExchangeTable

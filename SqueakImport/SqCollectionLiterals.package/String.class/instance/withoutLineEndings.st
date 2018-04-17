@@ -1,0 +1,4 @@
+converting
+withoutLineEndings
+
+	^self withLineEndings: ' '

@@ -1,0 +1,23 @@
+{
+	"category" : "SqCollectionLiterals-Collections-Strings",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AsciiOrder",
+		"CSMacroCharacters",
+		"CaseInsensitiveOrder",
+		"CaseSensitiveOrder",
+		"CrLfExchangeTable",
+		"FormatCharacterSet",
+		"HtmlEntities",
+		"LowercasingTable",
+		"Tokenish",
+		"UppercasingTable" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "String",
+	"pools" : [
+		 ],
+	"super" : "ArrayedCollection",
+	"type" : "normal" }

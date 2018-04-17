@@ -1,3 +1,0 @@
-*SqCollectionLiterals-converting
-string
-	^self

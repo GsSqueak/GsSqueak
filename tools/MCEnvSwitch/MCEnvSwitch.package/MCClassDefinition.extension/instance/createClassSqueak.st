@@ -55,7 +55,7 @@ createClassSqueak
                 inDictionary: dict
                 options: opts ] ] ].
   newClass ifNil: [ ^ self error: 'Unrecognized class type ' , ty ].	"pre GLASS.230-dkh.196+ versions need this call to _resolveUndeclaredSymbolsForClass: included."
-  SqueakEnvironment at: name asSymbol put: newClass.
+  (Smalltalk at: #'SqueakEnvironment') at: name asSymbol put: newClass.
   SystemChangeNotifier uniqueInstance
     doSilently: [ Class _resolveUndeclaredSymbolsForClass: newClass ].
   ^ newClass
