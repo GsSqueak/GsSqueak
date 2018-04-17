@@ -6,5 +6,7 @@ initializeCommons
   self at: #'Float' put: Float.
   self at: #'Object' put: Object.
   self at: #'Class' put: Class.
+  self at: #'Behavior' put: Behavior.
   self at: #'Metaclass' put: Metaclass3.
-  self at: #'Behavior' put: Behavior
+  self at: #'Boolean' put: Boolean.
+  self at: #'Metaclass3' put: Metaclass3

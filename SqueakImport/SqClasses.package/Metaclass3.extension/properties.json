@@ -7,8 +7,8 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"thisClass" ],
-	"name" : "Metaclass",
+	"name" : "Metaclass3",
 	"pools" : [
 		 ],
-	"super" : "Metaclass3",
+	"super" : "Module",
 	"type" : "normal" }
