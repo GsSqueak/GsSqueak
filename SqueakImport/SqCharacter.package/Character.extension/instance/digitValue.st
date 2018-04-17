@@ -1,8 +1,12 @@
 *SqCharacter-accessing
 digitValue
-	"Answer 0-9 if the receiver is $0-$9, 10-35 if it is $A-$Z, and < 0 
-	otherwise. This is used to parse literal numbers of radix 2-36."
+  "Returns a SmallInteger representing the value of the receiver,
+ a digit, or returns nil if the receiver is not a digit."
 
-	| integerValue |
-	(integerValue := self asInteger) > 16rFF ifTrue: [^self encodedCharSet digitValueOf: self].
-	^DigitValues at: integerValue + 1
+  self isDigit
+    ifTrue: [ ^ self asciiValue - $0 asciiValue ].
+  self isLowercase
+    ifTrue: [ ^ self asciiValue - $a asciiValue + 10 ].
+  self isUppercase
+    ifTrue: [ ^ self asciiValue - $A asciiValue + 10 ].
+  ^ -1
