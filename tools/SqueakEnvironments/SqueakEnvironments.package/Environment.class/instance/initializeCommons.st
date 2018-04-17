@@ -10,7 +10,7 @@ initializeCommons
   self at: #'Behavior' put: Behavior.
   self at: #'Character' put: Character.
   self at: #'ByteArray' put: ByteArray.
-  self at: #'Array' put: Array
+  self at: #'Array' put: Array.
   self at: #'Boolean' put: Boolean.
   self at: #'Metaclass' put: Metaclass3.
   self at: #'Metaclass3' put: Metaclass3.
