@@ -1,0 +1,14 @@
+{
+	"category" : "Kernel-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "gh 5/2/2002 20:26",
+	"instvars" : [
+		 ],
+	"name" : "AttemptToWriteReadOnlyGlobal",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

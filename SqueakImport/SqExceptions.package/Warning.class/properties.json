@@ -1,14 +1,14 @@
 {
-	"category" : "SqClasses",
+	"category" : "Kernel-Exceptions",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"thisClass" ],
-	"name" : "Metaclass",
+		 ],
+	"name" : "Warning",
 	"pools" : [
 		 ],
-	"super" : "Metaclass3",
+	"super" : "Notification",
 	"type" : "normal" }

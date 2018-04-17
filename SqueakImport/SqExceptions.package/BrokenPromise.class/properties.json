@@ -1,0 +1,14 @@
+{
+	"category" : "Kernel-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 2/17/2017 13:53",
+	"instvars" : [
+		"promise" ],
+	"name" : "BrokenPromise",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

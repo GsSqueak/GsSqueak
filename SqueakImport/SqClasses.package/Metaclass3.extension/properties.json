@@ -1,0 +1,14 @@
+{
+	"category" : "SqClasses",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"thisClass" ],
+	"name" : "Metaclass3",
+	"pools" : [
+		 ],
+	"super" : "Module",
+	"type" : "normal" }
