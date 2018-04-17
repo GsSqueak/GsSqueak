@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"allCharacters" : "nice 12/1/2017 02:28",
+		"fromMap:" : "nice 12/1/2017 01:49" },
+	"instance" : {
+		"=" : "ul 8/23/2015 23:56",
+		"add:" : "nice 12/1/2017 01:00",
+		"asString" : "ar 10/25/2010 18:54",
+		"byteArrayMap" : "nice 12/1/2017 01:00",
+		"do:" : "nice 12/1/2017 01:00",
+		"fromMap:" : "nice 12/1/2017 01:50",
+		"hasWideCharacters" : "nice 5/9/2006 23:23",
+		"hash" : "ls 8/17/1998 20:46",
+		"includes:" : "nice 12/1/2017 01:00",
+		"initialize" : "nice 12/1/2017 01:51",
+		"isEmpty" : "nice 10/20/2016 23:08",
+		"postCopy" : "nice 12/1/2017 01:00",
+		"remove:" : "ul 8/23/2015 22:16",
+		"remove:ifAbsent:" : "nice 12/1/2017 01:00",
+		"removeAll" : "nice 12/1/2017 01:00",
+		"size" : "ul 8/23/2015 23:58",
+		"union:" : "nice 12/1/2017 02:12",
+		"wideCharacterMap" : "nice 12/1/2017 02:02" } }

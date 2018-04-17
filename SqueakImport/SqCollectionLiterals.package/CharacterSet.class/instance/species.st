@@ -1,0 +1,3 @@
+private
+species
+	^CharacterSet

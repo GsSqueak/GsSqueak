@@ -1,0 +1,15 @@
+{
+	"category" : "SqCollectionLiterals-Collections-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ul 8/22/2015 00:52",
+	"instvars" : [
+		"bytes",
+		"tally" ],
+	"name" : "Bitset",
+	"pools" : [
+		 ],
+	"super" : "Collection",
+	"type" : "normal" }

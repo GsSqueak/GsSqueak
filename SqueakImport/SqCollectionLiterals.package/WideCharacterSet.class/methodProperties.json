@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"newFrom:" : "nice 11/15/2007 22:38" },
+	"instance" : {
+		"=" : "nice 12/1/2017 02:21",
+		"add:" : "ul 8/22/2015 12:32",
+		"byteArrayMap" : "ul 8/20/2015 01:51",
+		"do:" : "ul 8/22/2015 12:33",
+		"hasWideCharacters" : "nice 5/9/2006 23:25",
+		"hash" : "ul 8/22/2015 12:49",
+		"includes:" : "ul 3/10/2016 14:08",
+		"initialize" : "ul 8/19/2015 22:18",
+		"initializeWithLowBits:" : "ul 8/22/2015 12:33",
+		"postCopy" : "nice 10/5/2009 08:53",
+		"remove:" : "ul 8/22/2015 12:39",
+		"remove:ifAbsent:" : "ul 8/22/2015 12:46",
+		"removeAll" : "ul 8/22/2015 12:45",
+		"size" : "ul 8/22/2015 12:45",
+		"union:" : "nice 12/1/2017 02:15",
+		"wideCharacterMap" : "nice 5/9/2006 23:14" } }

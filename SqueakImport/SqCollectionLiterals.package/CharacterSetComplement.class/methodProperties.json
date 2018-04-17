@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"of:" : "nice 9/16/2011 21:26" },
+	"instance" : {
+		"=" : "nice 3/23/2007 02:19",
+		"add:" : "nice 12/1/2017 01:55",
+		"canBeEnumerated" : "nice 12/1/2017 02:19",
+		"complement" : "nice 3/23/2007 02:08",
+		"complement:" : "nice 12/1/2017 01:55",
+		"do:" : "nice 3/23/2007 02:11",
+		"hasWideCharacters" : "nice 3/23/2007 02:12",
+		"hash" : "nice 11/1/2007 19:39",
+		"includes:" : "ul 3/10/2016 10:44",
+		"intersection:" : "nice 11/30/2017 17:52",
+		"postCopy" : "nice 10/5/2009 08:52",
+		"printOn:" : "nice 11/19/2007 23:54",
+		"reject:" : "nice 11/30/2017 20:53",
+		"remove:" : "nice 12/1/2017 01:56",
+		"remove:ifAbsent:" : "nice 12/10/2009 19:20",
+		"select:" : "nice 11/30/2017 20:53",
+		"storeOn:" : "nice 11/19/2007 23:55",
+		"union:" : "nice 12/1/2017 02:14" } }

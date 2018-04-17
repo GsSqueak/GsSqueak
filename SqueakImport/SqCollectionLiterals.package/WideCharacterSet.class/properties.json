@@ -1,0 +1,17 @@
+{
+	"category" : "SqCollectionLiterals-Collections-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 12/10/2009 19:17",
+	"instvars" : [
+		"map",
+		"bitsetCapacity",
+		"highBitsShift",
+		"lowBitsMask" ],
+	"name" : "WideCharacterSet",
+	"pools" : [
+		 ],
+	"super" : "CharacterSet",
+	"type" : "normal" }

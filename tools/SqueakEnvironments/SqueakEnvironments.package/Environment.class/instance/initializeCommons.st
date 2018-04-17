@@ -12,4 +12,5 @@ initializeCommons
   self at: #'Array' put: Array
   self at: #'Boolean' put: Boolean.
   self at: #'Metaclass' put: Metaclass3.
-  self at: #'Metaclass3' put: Metaclass3
+  self at: #'Metaclass3' put: Metaclass3.
+  self at: #'BlockClosure' put: BlockClosure

@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"allCharacters" : "nice 12/1/2017 02:27",
+		"cleanUp:" : "ul 4/1/2015 22:53",
+		"crlf" : "ul 4/1/2015 22:53",
+		"empty" : "nk 8/3/2004 06:54",
+		"isAbstract" : "nice 12/1/2017 01:58",
+		"new" : "nice 12/1/2017 02:02",
+		"newFrom:" : "ls 1/3/1999 12:52",
+		"nonSeparators" : "ul 4/1/2015 19:41",
+		"separators" : "ul 4/2/2015 00:01",
+		"withAll:" : "ul 4/1/2015 23:30" },
+	"instance" : {
+		"byteArrayMap" : "mt 12/14/2017 11:06",
+		"byteComplement" : "nice 12/1/2017 02:06",
+		"canBeEnumerated" : "nice 12/1/2017 02:18",
+		"complement" : "nice 11/20/2007 00:19",
+		"createByteArrayMap" : "mt 12/14/2017 11:06",
+		"findFirstInByteString:startingAt:" : "nice 12/9/2009 15:29",
+		"isCharacters:" : "nice 12/1/2017 02:12",
+		"occurrencesOf:" : "nice 12/1/2017 01:57",
+		"postCopy" : "nice 12/1/2017 01:43",
+		"removeAll" : "nice 12/1/2017 01:47",
+		"species" : "tk 7/5/2001 21:57" } }
