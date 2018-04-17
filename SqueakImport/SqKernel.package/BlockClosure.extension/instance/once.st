@@ -1,4 +1,4 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 once
 	"Evaluate the receiver exactly once, so that repeated evaluations
 	 answer exactly the same object as the first evaluation.  This
@@ -11,3 +11,4 @@ once
 				propertyValueAt: #onceCache
 				ifAbsent: [self method propertyValueAt: #onceCache put: Dictionary new].
 	^cache at: startpc ifAbsentPut: [self value]
+

@@ -1,4 +1,5 @@
-*SqBlockClosure-accessing
+*SqKernel-accessing
 isBlock
 
 	^ true
+

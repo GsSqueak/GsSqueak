@@ -1,4 +1,4 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 durationToRun
 
 	"Answer the duration taken to execute this block."
@@ -6,3 +6,4 @@ durationToRun
 
 
 	^ Duration milliSeconds: self timeToRun
+

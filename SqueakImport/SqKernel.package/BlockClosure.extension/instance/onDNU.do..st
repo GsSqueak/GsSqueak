@@ -1,4 +1,4 @@
-*SqBlockClosure-exceptions
+*SqKernel-exceptions
 onDNU: selector do: handleBlock
 	"Catch MessageNotUnderstood exceptions but only those of the given selector (DNU stands for doesNotUnderstand:)"
 
@@ -7,3 +7,4 @@ onDNU: selector do: handleBlock
 			ifTrue: [handleBlock cull: exception]
 			ifFalse: [exception pass]
 	  ]
+

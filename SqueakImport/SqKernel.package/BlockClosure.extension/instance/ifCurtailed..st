@@ -1,4 +1,4 @@
-*SqBlockClosure-exceptions
+*SqKernel-exceptions
 ifCurtailed: aBlock
 	"Evaluate the receiver with an abnormal termination action.
 	 Evaluate aBlock only if execution is unwound during execution
@@ -10,3 +10,4 @@ ifCurtailed: aBlock
 	result := self valueNoContextSwitch.
 	complete := true.
 	^result
+

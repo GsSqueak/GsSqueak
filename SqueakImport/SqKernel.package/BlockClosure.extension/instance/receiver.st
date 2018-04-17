@@ -1,3 +1,4 @@
-*SqBlockClosure-accessing
+*SqKernel-accessing
 receiver
 	^outerContext receiver
+

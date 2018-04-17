@@ -1,4 +1,4 @@
-*SqBlockClosure-private
+*SqKernel-private
 asContextWithSender: aContext
 	"Inner private support method for evaluation.  Do not use unless you know what you're doing."
 
@@ -9,3 +9,4 @@ asContextWithSender: aContext
 		closure: self
 		startpc: startpc;
 		privRefresh
+

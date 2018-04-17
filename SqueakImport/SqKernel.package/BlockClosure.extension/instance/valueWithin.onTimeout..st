@@ -1,4 +1,4 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 valueWithin: aDuration onTimeout: timeoutBlock
 	"Evaluate the receiver.
 	If the evaluation does not complete in less than aDuration evaluate the timeoutBlock instead"
@@ -30,3 +30,4 @@ valueWithin: aDuration onTimeout: timeoutBlock
 			e tag == tag 
 				ifTrue:[ timeoutBlock value ]
 				ifFalse:[ e pass]].
+

@@ -1,4 +1,4 @@
-*SqBlockClosure-exceptions
+*SqKernel-exceptions
 ensure: aBlock
 	"Evaluate a termination block after evaluating the receiver, regardless of
 	 whether the receiver's evaluation completes.  N.B.  This method is *not*
@@ -13,3 +13,4 @@ ensure: aBlock
 		aBlock value.
 	].
 	^ returnValue
+

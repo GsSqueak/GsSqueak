@@ -1,4 +1,4 @@
-*SqBlockClosure-scheduling
+*SqKernel-scheduling
 forkNamed: aString
 
 	"Create and schedule a Process running the code in the receiver and
@@ -8,3 +8,4 @@ forkNamed: aString
 
 
 	^ self newProcess name: aString; resume
+

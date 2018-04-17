@@ -1,3 +1,4 @@
-*SqBlockClosure-testing
+*SqKernel-testing
 isClosure
 	^true
+

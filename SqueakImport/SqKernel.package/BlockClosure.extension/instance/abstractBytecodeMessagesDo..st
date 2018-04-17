@@ -1,4 +1,4 @@
-*SqBlockClosure-scanning
+*SqKernel-scanning
 abstractBytecodeMessagesDo: aBlock
 	"Evaluate aBlock with the sequence of abstract bytecodes in the receiver."
 	self method
@@ -11,3 +11,4 @@ abstractBytecodeMessagesDo: aBlock
 	 (SortedCollection sortBlock: [:a :b| a compare: b caseSensitive: false]) sortBlock
 		abstractBytecodeMessagesDo: [:msg| msgs add: msg selector].
 	 msgs"
+

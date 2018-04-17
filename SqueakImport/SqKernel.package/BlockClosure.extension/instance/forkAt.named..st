@@ -1,4 +1,4 @@
-*SqBlockClosure-scheduling
+*SqKernel-scheduling
 forkAt: priority named: name
 
 	"Create and schedule a Process running the code in the receiver at the
@@ -18,3 +18,4 @@ forkAt: priority named: name
 	forkedProcess name: name.
 
 	^ forkedProcess resume
+

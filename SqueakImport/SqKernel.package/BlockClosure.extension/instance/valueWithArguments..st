@@ -1,4 +1,4 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 valueWithArguments: anArray
 
 	^ self _env0 valueWithArguments: anArray

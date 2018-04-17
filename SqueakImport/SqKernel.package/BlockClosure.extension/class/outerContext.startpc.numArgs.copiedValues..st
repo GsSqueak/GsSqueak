@@ -1,4 +1,4 @@
-*SqBlockClosure-instance creation
+*SqKernel-instance creation
 outerContext: aContext startpc: aStartpc numArgs: argCount copiedValues: anArrayOrNil
 	^(self new: anArrayOrNil basicSize)
 		outerContext: aContext

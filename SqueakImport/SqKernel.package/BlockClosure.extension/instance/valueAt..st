@@ -1,4 +1,4 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 valueAt: blockPriority 
 	"Evaluate the receiver (block), with another priority as the actual one 
 	and restore it afterwards. The caller should be careful with using 
@@ -13,3 +13,4 @@ valueAt: blockPriority
 	blockPriority > outsidePriority
 		ifTrue: [Processor yield].
 	^ result
+

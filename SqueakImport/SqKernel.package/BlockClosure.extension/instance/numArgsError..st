@@ -1,4 +1,4 @@
-*SqBlockClosure-error handing
+*SqKernel-error handing
 numArgsError: numArgsForInvocation
 
 	| printNArgs |
@@ -6,3 +6,4 @@ numArgsError: numArgsForInvocation
 	self error: 
 			'This block accepts ', (printNArgs value: numArgs), 
 			', but was called with ', (printNArgs value: numArgsForInvocation), '.'
+

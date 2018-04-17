@@ -1,3 +1,4 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 valueWithExit 
 	  self value: [ ^nil ]
+
