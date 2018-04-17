@@ -1,0 +1,4 @@
+accessing
+htmlEntities
+	
+	^ HtmlEntities

@@ -1,3 +1,0 @@
-*SqCollectionLiterals-testing
-isSymbol
-	^ true 
