@@ -1,4 +1,5 @@
-*SqBlockClosure-testing
+*SqKernel-testing
 isDead
 	"Has self finished"
 	^false
+

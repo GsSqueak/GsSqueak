@@ -1,4 +1,4 @@
-*SqBlockClosure-controlling
+*SqKernel-controlling
 doWhileTrue: conditionBlock
 	"Evaluate the receiver once, then again as long the value of conditionBlock is true."
  
@@ -7,3 +7,4 @@ doWhileTrue: conditionBlock
 	conditionBlock value] whileTrue.
 
 	^ result
+

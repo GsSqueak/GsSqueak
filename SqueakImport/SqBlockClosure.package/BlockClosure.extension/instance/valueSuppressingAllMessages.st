@@ -1,4 +1,5 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 valueSuppressingAllMessages
 
 	^ self valueSuppressingMessages: #('*')
+

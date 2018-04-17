@@ -1,4 +1,4 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 benchFor: aDuration
 	"See how many times I can value within the given duration.  I'll answer a meaningful description."
 
@@ -33,3 +33,4 @@ benchFor: aDuration
 			' {1} {2} per run.' format: {
 				(roundTo3Digits value: elapsedTime * pair first / count).
 				pair second } ])
+

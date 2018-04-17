@@ -1,4 +1,4 @@
-*SqBlockClosure-objects from disk
+*SqKernel-objects from disk
 storeDataOn: aDataStream
 	"Blocks are allowed go to out in DataStreams, but only without home senders."
 
@@ -15,3 +15,4 @@ storeDataOn: aDataStream
 			(contexts includes: ex tag)
 				ifTrue: [ex resume: ex tag]
 				ifFalse: [ex pass]]
+

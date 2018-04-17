@@ -4,6 +4,7 @@ initializeCommons
   self at: #'SmallInteger' put: SmallInteger.
   self at: #'LargeInteger' put: LargeInteger.
   self at: #'Float' put: Float.
+  self at: #'ScaledDecimal' put: ScaledDecimal.
   self at: #'Object' put: Object.
   self at: #'Class' put: Class.
   self at: #'Behavior' put: Behavior.

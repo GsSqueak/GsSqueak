@@ -1,6 +1,7 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 cull: firstArg
 	"Activate the receiver, with one or zero arguments."
 	
 	numArgs >= 1 ifTrue: [ ^self value: firstArg ].
 	^self value
+

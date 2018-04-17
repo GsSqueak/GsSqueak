@@ -1,4 +1,4 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 valueWithPossibleArgs: anArray 
 
 	^numArgs = 0
@@ -11,3 +11,4 @@ valueWithPossibleArgs: anArray
 						[numArgs > anArray size
 							ifTrue: [anArray, (Array new: numArgs - anArray size)]
 							ifFalse: [anArray copyFrom: 1 to: numArgs]])]
+

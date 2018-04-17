@@ -1,4 +1,4 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 valueWithEnoughArguments: anArray
 	"call me with enough arguments from anArray"
 	| args |
@@ -12,3 +12,4 @@ valueWithEnoughArguments: anArray
 		startingAt: 1.
 
 	^ self valueWithArguments: args
+

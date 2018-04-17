@@ -1,4 +1,4 @@
-*SqBlockClosure-exceptions
+*SqKernel-exceptions
 on: exception1 do: block1 on: exception2 do: block2 on: exception3 do: block3
 
 	^[
@@ -9,3 +9,4 @@ on: exception1 do: block1 on: exception2 do: block2 on: exception3 do: block3
 		do: block2
 		on: exception3
 		do: block3
+

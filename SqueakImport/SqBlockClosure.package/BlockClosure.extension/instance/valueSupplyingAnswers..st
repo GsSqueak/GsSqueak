@@ -1,4 +1,4 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 valueSupplyingAnswers: aListOfPairs
 	"evaluate the block using a list of questions / answers that might be called upon to
 	automatically respond to Object>>confirm: or FillInTheBlank requests"
@@ -20,3 +20,4 @@ valueSupplyingAnswers: aListOfPairs
 					(ProvideAnswerNotification signal: notification messageText)
 						ifNil: [ notification resume ]
 						ifNotNil: [ :outerAnswer | notification resume: outerAnswer ] ] ]
+

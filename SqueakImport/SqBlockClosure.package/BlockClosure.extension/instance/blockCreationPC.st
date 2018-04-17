@@ -1,4 +1,4 @@
-*SqBlockClosure-scanning
+*SqKernel-scanning
 blockCreationPC
 	"Answer the pc for the bytecode that created the receuver."
 	| method |
@@ -6,3 +6,4 @@ blockCreationPC
 	^method encoderClass
 		pcOfBlockCreationBytecodeForBlockStartingAt: startpc
 		in: method
+

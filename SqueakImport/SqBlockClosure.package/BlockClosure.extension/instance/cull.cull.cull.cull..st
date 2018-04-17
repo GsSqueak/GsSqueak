@@ -1,4 +1,4 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 cull: firstArg cull: secondArg cull: thirdArg cull: fourthArg
 	"Activate the receiver, with four or less arguments."
 	
@@ -9,3 +9,4 @@ cull: firstArg cull: secondArg cull: thirdArg cull: fourthArg
 	numArgs = 2 ifTrue: [ ^self value: firstArg value: secondArg ].	
 	numArgs = 1 ifTrue: [ ^self value: firstArg ].
 	^self value
+

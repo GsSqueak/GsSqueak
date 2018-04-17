@@ -1,4 +1,4 @@
-*SqBlockClosure-testing
+*SqKernel-testing
 isNestedWithin: aContextOrBlock
 	"Answer if the receiver is nested within aContextOrBlock, which may be ither a Context, or a BlockClosure."
 	aContextOrBlock ifNotNil:
@@ -7,3 +7,4 @@ isNestedWithin: aContextOrBlock
 			 (ctxt == aContextOrBlock
 			  or: [ctxt closure = aContextOrBlock]) ifTrue: [^true]]].
 	^false
+

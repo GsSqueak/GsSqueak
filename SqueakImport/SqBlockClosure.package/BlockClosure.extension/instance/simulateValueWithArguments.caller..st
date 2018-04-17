@@ -1,4 +1,4 @@
-*SqBlockClosure-system simulation
+*SqKernel-system simulation
 simulateValueWithArguments: anArray caller: aContext
 	"Simulate the valueWithArguments: primitive. Fail if anArray is not an array of the right arity."
 	| newContext sz |
@@ -18,3 +18,4 @@ simulateValueWithArguments: anArray caller: aContext
 	1 to: sz do:
 		[:i| newContext at: i + numArgs put: (self at: i)].
 	^newContext
+

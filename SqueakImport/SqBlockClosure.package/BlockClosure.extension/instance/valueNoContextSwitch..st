@@ -1,3 +1,3 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 valueNoContextSwitch: anArg
 	^ self value: anArg

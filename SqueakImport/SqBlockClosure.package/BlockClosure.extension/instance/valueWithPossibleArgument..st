@@ -1,4 +1,4 @@
-*SqBlockClosure-evaluating
+*SqKernel-evaluating
 valueWithPossibleArgument: anArg 
 	"Evaluate the block represented by the receiver. 
 	 If the block requires one argument, use anArg, if it requires more than one,
@@ -10,3 +10,4 @@ valueWithPossibleArgument: anArg
 	a := Array new: numArgs.
 	a at: 1 put: anArg.
 	^self valueWithArguments: a
+
