@@ -1,0 +1,4 @@
+description
+isResumable
+
+	^true
