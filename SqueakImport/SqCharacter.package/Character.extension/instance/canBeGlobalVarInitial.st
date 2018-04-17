@@ -1,4 +1,5 @@
 *SqCharacter-testing
 canBeGlobalVarInitial
+  "Compatibility with Squeak, we always run in UTF8"
 
-	^self encodedCharSet canBeGlobalVarInitial: self
+  ^ self isLetter and: self isUppercase

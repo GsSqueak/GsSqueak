@@ -1,10 +1,3 @@
 *SqCharacter-converting
 asUppercase
-	"Answer the receiver's matching uppercase Character."
-	
-	| integerValue |
-	(integerValue := self asInteger) > 255 ifFalse: [ 
-		| result |
-		(result := ((ClassificationTable at: integerValue + 1) bitShift: -8) bitAnd: 16rFF) > 0
-			ifTrue: [ ^self class value: result ] ].
-	^self class value: (self encodedCharSet toUppercaseCode: integerValue)
+	^ self _env0 asUppercase
