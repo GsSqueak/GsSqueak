@@ -4,5 +4,5 @@ asGemstoneNodeInEnvironment: env
   gsAssignmentNode := GsComAssignmentNode new.
   gsAssignmentNode
     dest: self variable asGemstoneLeaf
-    source: (self value asGemstoneNodeInEnvironment: 0).
+    source: (self value asGemstoneNodeInEnvironment: env).
   ^ gsAssignmentNode
