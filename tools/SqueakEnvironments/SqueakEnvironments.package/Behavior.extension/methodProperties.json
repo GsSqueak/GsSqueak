@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"bindingOf:environment:" : "",
+		"bindingOf:environment:inEnvId:" : "",
 		"compile:namespace:classified:environmentId:" : "" } }
