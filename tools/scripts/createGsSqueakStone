@@ -60,10 +60,8 @@ todeIt $1 mc load SqNumbers filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImp
 startTopaz "$1" -l << EOF
 login
 run
-Float superclassForEnv: 7 put: Number.
-Integer superclassForEnv: 7 put: Number.
-Magnitude _env0 _setSelfCanBeSpecial.
-Number _env0 _setSelfCanBeSpecial.
+Magnitude _setSelfCanBeSpecial.
+Number _setSelfCanBeSpecial.
 %
 commit
 logout
@@ -74,16 +72,16 @@ todeIt $1 mc load SqBooleans filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakIm
 todeIt $1 mc load SqClasses filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $1 mc load SqKernel filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $1 mc load SqUndefinedObject filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-
 todeIt $1 mc load SqCharacter filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $1 mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+
 startTopaz "$1" -l << EOF
 login
 run
-ByteArray _env0 superclassForEnv: 7 put: ArrayedCollection.
-ByteArray class _env0 superclassForEnv: 7 put: ArrayedCollection class.
+SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: anObject' inEnv: 7
 %
 commit
 logout
 exit
 EOF
+todeIt $1 mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+

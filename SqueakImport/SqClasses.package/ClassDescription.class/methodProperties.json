@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"initialize": ""
 		 },
 	"instance" : {
 		"acceptsLoggingOfCompilation" : "al 5/8/2004 20:00",

@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"initialize": "",
 		"isAbstract" : "nice 11/30/2017 22:51",
 		"new" : "",
 		"new:withAll:" : "",

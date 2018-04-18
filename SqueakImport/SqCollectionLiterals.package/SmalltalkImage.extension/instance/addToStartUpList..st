@@ -1,3 +1,0 @@
-*SqCollectionLiterals
-addToStartUpList: anObject
-  ^ self
