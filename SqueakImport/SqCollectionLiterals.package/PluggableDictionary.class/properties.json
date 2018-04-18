@@ -1,0 +1,15 @@
+{
+	"category" : "SqCollectionLiterals-Collections-Unordered",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 3/30/2017 17:44",
+	"instvars" : [
+		"hashBlock",
+		"equalBlock" ],
+	"name" : "PluggableDictionary",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"type" : "normal" }

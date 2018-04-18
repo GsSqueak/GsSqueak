@@ -1,0 +1,14 @@
+{
+	"category" : "SqCollectionLiterals-Collections-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 11/30/2017 21:40",
+	"instvars" : [
+		"block" ],
+	"name" : "LazyCharacterSet",
+	"pools" : [
+		 ],
+	"super" : "CharacterSet",
+	"type" : "normal" }

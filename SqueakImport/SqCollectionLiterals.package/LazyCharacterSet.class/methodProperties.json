@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"including:" : "nice 11/30/2017 22:25" },
+	"instance" : {
+		"add:" : "nice 11/30/2017 21:44",
+		"addAll:" : "nice 11/30/2017 21:44",
+		"block" : "nice 11/30/2017 20:42",
+		"block:" : "nice 12/1/2017 01:55",
+		"canBeEnumerated" : "nice 12/1/2017 02:18",
+		"complement" : "nice 11/30/2017 21:44",
+		"do:" : "nice 11/30/2017 21:11",
+		"includes:" : "nice 11/30/2017 20:41",
+		"intersection:" : "nice 12/1/2017 00:48",
+		"reject:" : "nice 11/30/2017 20:50",
+		"remove:" : "nice 11/30/2017 21:44",
+		"remove:ifAbsent:" : "nice 11/30/2017 21:45",
+		"removeAll:" : "nice 11/30/2017 21:44",
+		"select:" : "nice 11/30/2017 20:50",
+		"union:" : "nice 12/1/2017 02:14" } }
