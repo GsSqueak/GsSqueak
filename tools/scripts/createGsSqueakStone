@@ -7,9 +7,9 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
-#createStone -f "testRun" 3.5.0
-todeRestore "testRun" tode.dbf
-startTopaz "testRun" -l << EOF
+createStone -f "$1" 3.5.0
+
+startTopaz "$1" -l << EOF
 set u SystemUser p swordfish
 login
 run
@@ -23,7 +23,7 @@ commit
 logout
 login
 
-input $GS_HOME/server/stones/testRun/product/upgrade/GsNMethodIr.gs
+input $GS_HOME/server/stones/$1/product/upgrade/GsNMethodIr.gs
 
 commit
 logout
@@ -39,12 +39,12 @@ logout
 exit
 EOF
 
-todeIt testRun mc load BPBugFixes filetree://$GS_HOME/shared/repos/BP2017RH1/tools/bugfixes
-todeIt testRun mc load MCEnvSwitch filetree://$GS_HOME/shared/repos/BP2017RH1/tools/MCEnvSwitch
-todeIt testRun mc load SqueakParser filetree://$GS_HOME/shared/repos/BP2017RH1/parser
-todeIt testRun mc load SqueakEnvironments filetree://$GS_HOME/shared/repos/BP2017RH1/tools/SqueakEnvironments
+todeIt $1 mc load BPBugFixes filetree://$GS_HOME/shared/repos/BP2017RH1/tools/bugfixes
+todeIt $1 mc load MCEnvSwitch filetree://$GS_HOME/shared/repos/BP2017RH1/tools/MCEnvSwitch
+todeIt $1 mc load SqueakParser filetree://$GS_HOME/shared/repos/BP2017RH1/parser
+todeIt $1 mc load SqueakEnvironments filetree://$GS_HOME/shared/repos/BP2017RH1/tools/SqueakEnvironments
 
-startTopaz "testRun" -l << EOF
+startTopaz "$1" -l << EOF
 login
 run
 MCEnv set: 7.
@@ -56,9 +56,9 @@ logout
 exit
 EOF
 
-todeIt -D testRun mc load SqNumbers filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt -D testRun mc load SqNumbers filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-startTopaz "testRun" -l << EOF
+todeIt -D $1 mc load SqNumbers filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt -D $1 mc load SqNumbers filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+startTopaz "$1" -l << EOF
 login
 run
 Magnitude _setSelfCanBeSpecial.
@@ -69,13 +69,13 @@ logout
 exit
 EOF
 
-todeIt testRun mc load SqBooleans filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt testRun mc load SqClasses filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt testRun mc load SqKernel filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt testRun mc load SqUndefinedObject filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt testRun mc load SqCharacter filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $1 mc load SqBooleans filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $1 mc load SqClasses filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $1 mc load SqKernel filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $1 mc load SqUndefinedObject filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $1 mc load SqCharacter filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 
-startTopaz "testRun" -l << EOF
+startTopaz "$1" -l << EOF
 login
 run
 SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: anObject' inEnv: 7
@@ -84,5 +84,5 @@ commit
 logout
 exit
 EOF
-todeIt -D testRun mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt -D $1 mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 
