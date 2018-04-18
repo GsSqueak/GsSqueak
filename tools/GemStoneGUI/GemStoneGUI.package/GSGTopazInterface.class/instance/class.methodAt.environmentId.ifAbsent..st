@@ -7,7 +7,7 @@ class: classProxy methodAt: selector environmentId: envId ifAbsent: aBlock
 		method := class compiledMethodAt: selector environmentId: envId otherwise: nil.
 		method ifNil: [^ nil].
 		result := OrderedCollection new.
-	' , (self codeForSerializingMethod: 'method' onCollection: 'result') , '.
+	' , (self codeForSerializingMethod: 'method' onCollection: 'result' environmentId: envId) , '.
 	result] value: ' , classProxy codeReferencingMe , 
 	' value: ' , selector asSymbol printString, 
 	' value: ' , envId).
