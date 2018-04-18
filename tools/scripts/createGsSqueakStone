@@ -7,31 +7,36 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
-createStone "$1" 3.5.0
-
+#createStone -f "$1" 3.5.0
+todeRestore "$1" tode.dbf
 startTopaz "$1" -l << EOF
-    set u SystemUser p swordfish
-    login
-    run
-        SystemObjectSecurityPolicy worldAuthorization: #write.
-        (AllUsers userWithId: 'DataCurator') addPrivilege: #'CompilePrimitives'
+set u SystemUser p swordfish
+login
+run
+SystemObjectSecurityPolicy worldAuthorization: #write.
+(AllUsers userWithId: 'DataCurator') addPrivilege: #'CompilePrimitives'.
 %
-    commit
-
-    run
-        GsCompilerClasses keysAndValuesDo: [:symbol : class |
-          Globals at: symbol put: class ]
+run
+GsCompilerClasses keysAndValuesDo: [:symbol : class | Globals at: symbol put: class ]
 %
+commit
+logout
+login
 
-    commit
-    logout
-    login
+input $GS_HOME/server/stones/$1/product/upgrade/GsNMethodIr.gs
 
-    input $GS_HOME/server/stones/$1/product/upgrade/GsNMethodIr.gs
-
-    commit
-    logout
-    exit
+commit
+logout
+set u DataCurator p swordfish
+login
+method: Behavior
+_clearSubclassesDisallowed
+    self _unsafeAt: 2 put: (format bitAnd: (16r20 bitInvert))
+%
+send Behavior _clearSubclassesDisallowed
+commit
+logout
+exit
 EOF
 
 todeIt $1 mc load BPBugFixes filetree://$GS_HOME/shared/repos/BP2017RH1/tools/bugfixes
@@ -39,3 +44,34 @@ todeIt $1 mc load MCEnvSwitch filetree://$GS_HOME/shared/repos/BP2017RH1/tools/M
 todeIt $1 mc load SqueakParser filetree://$GS_HOME/shared/repos/BP2017RH1/parser
 todeIt $1 mc load SqueakEnvironments filetree://$GS_HOME/shared/repos/BP2017RH1/tools/SqueakEnvironments
 
+startTopaz "$1" -l << EOF
+login
+run
+MCEnv set: 7.
+MCEnv useSqueakParser.
+Environment initialize.
+%
+commit
+logout
+exit
+EOF
+
+todeIt $1 mc load SqNumbers filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+
+startTopaz "$1" -l << EOF
+login
+run
+SqueakEnvironment initialize2AllCLasses.
+SqueakEnvironment recompileAllMethods.
+%
+commit
+logout
+exit
+EOF
+
+todeIt $1 mc load SqBooleans filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $1 mc load SqClasses filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $1 mc load SqKernel filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+
+
+todeIt $1 mc load SqUndefinedObject filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
