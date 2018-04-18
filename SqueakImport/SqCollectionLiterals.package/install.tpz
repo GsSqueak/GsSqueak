@@ -1,9 +1,0 @@
-set u DataCurator p swordfish
-login
-env 0
-run
-ByteArray superclassForEnv: 7 put: ArrayedCollection.
-Array superclassForEnv: 7 put: ArrayedCollection.
-String superclassForEnv: 7 put: ArrayedCollection.
-%
-logout

@@ -14,4 +14,5 @@ initializeCommons
   self at: #'Boolean' put: Boolean.
   self at: #'Metaclass' put: Metaclass3.
   self at: #'Metaclass3' put: Metaclass3.
-  self at: #'BlockClosure' put: BlockClosure
+  self at: #'BlockClosure' put: BlockClosure.
+  self at: #'UndefinedObject' put: UndefinedObject.
