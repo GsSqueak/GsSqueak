@@ -20,5 +20,6 @@ asGemstoneNodeInEnvironment: env
   (primitive := self properties at: #'primitive:' ifAbsent: [ nil ])
     ifNotNil: [ 
       "Set IRNode Prim Number"
-      gsMethodNode setPrimitiveNumber: primitive arguments first ].
+      gsMethodNode setPrimitiveNumber: primitive arguments first ].	"set compile env"
+  gsMethodNode setCompileEnv: env.
   ^ gsMethodNode
