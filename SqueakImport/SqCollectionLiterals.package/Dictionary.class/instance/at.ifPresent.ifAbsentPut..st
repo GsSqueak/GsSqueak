@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 at: key ifPresent: oneArgBlock ifAbsentPut: absentBlock
 	"Lookup the given key in the receiver. If it is present, answer the value of
 	 evaluating oneArgBlock with the value associated with the key. Otherwise

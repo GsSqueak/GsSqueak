@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 replaceAll: oldObject with: newObject 
 	"Replace all occurences of oldObject with newObject"
 	

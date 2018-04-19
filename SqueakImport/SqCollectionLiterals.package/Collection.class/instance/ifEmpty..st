@@ -1,4 +1,4 @@
-testing
+*SqCollectionLiterals-*SqCollectionLiterals-testing
 ifEmpty: aBlock
 	"Evaluate the block if I'm empty"
 

@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 withoutTrailingBlanks
 	"Return a copy of the receiver from which trailing blanks have been trimmed."
 

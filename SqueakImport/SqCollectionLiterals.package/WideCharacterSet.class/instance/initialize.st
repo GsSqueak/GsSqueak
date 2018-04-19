@@ -1,4 +1,4 @@
-initialize-release
+*SqCollectionLiterals-*SqCollectionLiterals-initialize-release
 initialize
 
 	map := PluggableDictionary integerDictionary.

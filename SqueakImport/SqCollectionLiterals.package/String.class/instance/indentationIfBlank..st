@@ -1,4 +1,4 @@
-paragraph support
+*SqCollectionLiterals-*SqCollectionLiterals-paragraph support
 indentationIfBlank: aBlock
 	"Answer the number of leading tabs in the receiver.  If there are
 	 no visible characters, pass the number of tabs to aBlock and return its value."

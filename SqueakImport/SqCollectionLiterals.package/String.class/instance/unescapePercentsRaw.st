@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 unescapePercentsRaw
 	"Decode myself if I'm percent-encoded, also replace + with space. Return self if the encoding is not valid."
 	

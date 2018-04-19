@@ -1,4 +1,4 @@
-testing
+*SqCollectionLiterals-*SqCollectionLiterals-testing
 endsWith: sequence
 	"Answer true if the receiver ends with the argument collection. The comparison is case-sensitive."
 	

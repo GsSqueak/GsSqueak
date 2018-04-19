@@ -1,4 +1,4 @@
-comparing
+*SqCollectionLiterals-*SqCollectionLiterals-comparing
 startingAt: keyStart match: text startingAt: textStart
 	"Answer whether text matches the pattern in this string.
 	Matching ignores upper/lower case differences.

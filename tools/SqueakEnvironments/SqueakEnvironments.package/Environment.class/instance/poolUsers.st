@@ -17,7 +17,7 @@ poolUsers
 					or: [pool isKindOf: SharedPool class])
 				ifTrue: [refs := (self systemNavigation allClasses
 								select: [:c | c sharedPools identityIncludes: pool]
-								thenCollect: [:c | c name]) asOrderedCollection.
+								thenCollect: [:c | c @env7: name]) asOrderedCollection.
 					refs
 						add: (self systemNavigation
 								allCallsOn: (self associationAt: k)).

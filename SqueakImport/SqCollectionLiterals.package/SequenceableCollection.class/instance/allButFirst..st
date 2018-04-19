@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 allButFirst: n
 	"Answer a copy of the receiver containing all but the first n
 	elements. Raise an error if there are not enough elements."

@@ -1,4 +1,4 @@
-removing
+*SqCollectionLiterals-*SqCollectionLiterals-removing
 removeAll
 	"Remove each element from the receiver and leave it empty.
 	ArrayedCollections cannot respond to this message.

@@ -1,4 +1,4 @@
-copying
+*SqCollectionLiterals-*SqCollectionLiterals-copying
 copyWithoutIndex: index
 	"Return a copy containing all elements except the index-th."
 

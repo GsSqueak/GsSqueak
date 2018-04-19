@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 keysAndValuesDo: aBlock 
 	"Enumerate the receiver with all the keys (aka indices) and values."
 

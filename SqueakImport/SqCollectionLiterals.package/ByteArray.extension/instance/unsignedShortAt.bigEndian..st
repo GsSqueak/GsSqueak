@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqByteArray-platform independent access
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-platform independent access
 unsignedShortAt: index bigEndian: bigEndian
 	"Return a 16-bit unsigned integer quantity starting from the given byte index"
 

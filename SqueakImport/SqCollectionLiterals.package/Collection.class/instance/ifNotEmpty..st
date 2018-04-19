@@ -1,4 +1,4 @@
-testing
+*SqCollectionLiterals-*SqCollectionLiterals-testing
 ifNotEmpty: aBlock
 	"Evaluate the given block unless the receiver is empty.
 

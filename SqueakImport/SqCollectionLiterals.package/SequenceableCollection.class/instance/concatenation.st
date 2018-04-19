@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 concatenation
 	"Flattens the collection by one level into an Array. Avoids using #gather: and #streamContents: for performance reasons."
 

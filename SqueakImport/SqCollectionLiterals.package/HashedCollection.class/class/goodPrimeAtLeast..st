@@ -1,4 +1,4 @@
-sizing
+*SqCollectionLiterals-*SqCollectionLiterals-sizing
 goodPrimeAtLeast: lowerLimit
 	"Answer the next good prime >= lowerlimit.
 	If lowerLimit is larger than the largest known good prime,

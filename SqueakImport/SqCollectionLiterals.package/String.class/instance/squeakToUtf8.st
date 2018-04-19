@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 squeakToUtf8
 	"Convert the receiver into a UTF8-encoded string"
 	

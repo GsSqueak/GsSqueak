@@ -1,4 +1,4 @@
-printing
+*SqCollectionLiterals-*SqCollectionLiterals-printing
 printOn: aStream delimiter: delimString last: lastDelimString
 	"Print elements on a stream separated
 	with a delimiter between all the elements and with

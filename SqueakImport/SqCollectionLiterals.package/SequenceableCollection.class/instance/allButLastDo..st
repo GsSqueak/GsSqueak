@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 allButLastDo: block
 
 	1 to: self size - 1 do:

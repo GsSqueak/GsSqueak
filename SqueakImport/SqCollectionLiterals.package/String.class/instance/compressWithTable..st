@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 compressWithTable: tokens
 	"Return a string with all substrings that occur in tokens replaced
 	by a character with ascii code = 127 + token index.

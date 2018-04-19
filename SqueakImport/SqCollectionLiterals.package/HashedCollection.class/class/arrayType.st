@@ -1,3 +1,3 @@
-private
+*SqCollectionLiterals-*SqCollectionLiterals-private
 arrayType
 	^ Array

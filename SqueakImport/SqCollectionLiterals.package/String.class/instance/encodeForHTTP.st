@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 encodeForHTTP
 	"change dangerous characters to their %XX form, for use in HTTP transactions"
 

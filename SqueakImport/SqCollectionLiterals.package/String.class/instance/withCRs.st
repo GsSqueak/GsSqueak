@@ -1,4 +1,4 @@
-formatting
+*SqCollectionLiterals-*SqCollectionLiterals-formatting
 withCRs
 	"Return a copy of the receiver in which backslash (\) characters have been replaced with carriage returns."
 

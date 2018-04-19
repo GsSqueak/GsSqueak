@@ -1,4 +1,4 @@
-internet
+*SqCollectionLiterals-*SqCollectionLiterals-internet
 utf8ToIso
 	"Only UTF-8 characters that maps to 8-bit ISO-8559-1 values are converted. Others raises an error"
 	| s i c v c2 v2 |

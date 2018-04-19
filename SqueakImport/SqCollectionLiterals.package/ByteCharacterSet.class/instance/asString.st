@@ -1,4 +1,4 @@
-conversion
+*SqCollectionLiterals-*SqCollectionLiterals-conversion
 asString
 	"Convert the receiver into a String"
 

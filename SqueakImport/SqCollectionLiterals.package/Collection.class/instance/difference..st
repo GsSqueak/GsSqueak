@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 difference: aCollection
 	"Answer the set theoretic difference of two collections."
 

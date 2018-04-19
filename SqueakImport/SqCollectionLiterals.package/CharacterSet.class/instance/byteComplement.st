@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 byteComplement
 	"return a character set containing precisely the single byte characters the receiver does not"
 	

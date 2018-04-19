@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 overlappingPairsWithIndexDo: aBlock 
 	"Emit overlapping pairs of my elements into aBlock, along with an index."
 

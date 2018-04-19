@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 inject: anObject into: aBlock
 	"Optimized for speed. See super."
 	

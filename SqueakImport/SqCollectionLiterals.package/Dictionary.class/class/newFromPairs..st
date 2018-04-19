@@ -1,4 +1,4 @@
-instance creation
+*SqCollectionLiterals-*SqCollectionLiterals-instance creation
 newFromPairs: anArray 
 
 	"Answer an instance of me associating (anArray at:i) to (anArray at: i+1)

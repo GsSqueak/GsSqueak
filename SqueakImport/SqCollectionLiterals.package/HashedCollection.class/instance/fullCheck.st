@@ -1,4 +1,4 @@
-compatibility
+*SqCollectionLiterals-*SqCollectionLiterals-compatibility
 fullCheck
 	"This is a private method, formerly implemented in Set, that is no longer required.
 	It is here for compatibility with external packages only."

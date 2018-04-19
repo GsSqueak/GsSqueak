@@ -1,4 +1,4 @@
-sorting
+*SqCollectionLiterals-*SqCollectionLiterals-sorting
 quickSortFrom: from to: to by: sortBlock
 	"Sort elements i through j of self to be nondescending according to sortBlock using an in-place quicksort with simple median-of-three partitioning with guaranteed O(log(n)) space usage."
 

@@ -1,4 +1,4 @@
-private
+*SqCollectionLiterals-*SqCollectionLiterals-private
 growTo: anInteger
 	"Grow the elements array and reinsert the old elements"
 	

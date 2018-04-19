@@ -1,4 +1,4 @@
-instance creation
+*SqCollectionLiterals-*SqCollectionLiterals-instance creation
 with: firstObject with: secondObject with: thirdObject with: fourthObject with: fifthObject
 	"Answer an instance of me, containing the five arguments as the elements."
 

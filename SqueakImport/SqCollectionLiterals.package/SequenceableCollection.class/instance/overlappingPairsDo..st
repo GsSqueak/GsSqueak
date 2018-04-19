@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 overlappingPairsDo: aBlock 
 	"Emit overlapping pairs of my elements into aBlock"
 

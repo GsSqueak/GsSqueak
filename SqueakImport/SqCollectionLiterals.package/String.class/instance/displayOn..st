@@ -1,4 +1,4 @@
-displaying
+*SqCollectionLiterals-*SqCollectionLiterals-displaying
 displayOn: aDisplayMedium
 	"Display the receiver on the given DisplayMedium.  5/16/96 sw"
 

@@ -1,4 +1,4 @@
-printing
+*SqCollectionLiterals-*SqCollectionLiterals-printing
 storeOn: aStream
 	"Store a description of the elements of the complement rather than self."
 	

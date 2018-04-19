@@ -1,4 +1,4 @@
-copying
+*SqCollectionLiterals-*SqCollectionLiterals-copying
 withoutDuplicates
 	"Answer a copy of the receiver that preserves order but eliminates any duplicates."
 	| seen |

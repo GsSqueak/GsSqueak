@@ -1,4 +1,4 @@
-bindings
+*SqCollectionLiterals-*SqCollectionLiterals-bindings
 beBindingOfType: aClass announcing: aBool
 	"Make the receiver a global binding of the given type"
 

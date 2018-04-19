@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 do: aBlock
 	"evaluate aBlock with each character in the set"
 

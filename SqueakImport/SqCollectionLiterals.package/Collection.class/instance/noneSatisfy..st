@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 noneSatisfy: aBlock
 	"Evaluate aBlock with the elements of the receiver.
 	If aBlock returns false for all elements return true.

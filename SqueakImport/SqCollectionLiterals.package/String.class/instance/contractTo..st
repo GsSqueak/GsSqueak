@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 contractTo: smallSize
 	"return myself or a copy shortened by ellipsis to smallSize"
 	| leftSize |

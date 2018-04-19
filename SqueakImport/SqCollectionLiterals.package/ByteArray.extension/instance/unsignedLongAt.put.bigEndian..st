@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqByteArray-platform independent access
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-platform independent access
 unsignedLongAt: index put: value bigEndian: bigEndian
 	"Store a 32-bit unsigned integer quantity starting from the given byte index"
 	

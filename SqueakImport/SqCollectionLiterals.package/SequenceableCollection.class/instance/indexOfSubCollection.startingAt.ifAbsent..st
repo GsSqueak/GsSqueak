@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 indexOfSubCollection: sub startingAt: start ifAbsent: exceptionBlock
 	"Answer the index of the receiver's first element, such that that element 
 	equals the first element of sub, and the next elements equal 

@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 someElement
 
 	self deprecated: 'Use #anyOne'.

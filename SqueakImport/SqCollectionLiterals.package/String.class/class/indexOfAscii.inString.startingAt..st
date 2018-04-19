@@ -1,4 +1,4 @@
-primitives
+*SqCollectionLiterals-*SqCollectionLiterals-primitives
 indexOfAscii: anInteger inString: aString startingAt: start
 	"Trivial, non-primitive version"
 

@@ -1,4 +1,4 @@
-printing
+*SqCollectionLiterals-*SqCollectionLiterals-printing
 printOn: aStream delimiter: delimString
 	"Print elements on a stream separated
 	with a delimiter String like: 'a, b, c' "

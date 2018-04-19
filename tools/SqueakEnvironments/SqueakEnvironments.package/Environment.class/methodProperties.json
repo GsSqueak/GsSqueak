@@ -13,6 +13,7 @@
 		"addAllBindings" : "",
 		"addObserver:" : "",
 		"allClasses" : "",
+		"allClassesAndMetaClassesDo:" : "",
 		"allClassesAndTraits" : "",
 		"allClassesAndTraitsDo:" : "",
 		"allClassesDo:" : "",

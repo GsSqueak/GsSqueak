@@ -1,3 +1,3 @@
-testing
+*SqCollectionLiterals-*SqCollectionLiterals-testing
 includesUnifiedCharacter
 	^false

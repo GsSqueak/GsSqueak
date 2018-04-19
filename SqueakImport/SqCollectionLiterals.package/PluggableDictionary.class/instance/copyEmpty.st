@@ -1,4 +1,4 @@
-copying
+*SqCollectionLiterals-*SqCollectionLiterals-copying
 copyEmpty
 
 	^super copyEmpty

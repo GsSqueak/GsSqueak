@@ -1,4 +1,4 @@
-private
+*SqCollectionLiterals-*SqCollectionLiterals-private
 defaultElement
 
 	^nil

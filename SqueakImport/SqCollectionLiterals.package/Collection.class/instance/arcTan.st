@@ -1,3 +1,3 @@
-math functions
+*SqCollectionLiterals-*SqCollectionLiterals-math functions
 arcTan
 	^self collect: [:each | each arcTan]

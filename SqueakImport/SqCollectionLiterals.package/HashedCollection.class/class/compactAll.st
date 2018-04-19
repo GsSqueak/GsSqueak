@@ -1,4 +1,4 @@
-initialize-release
+*SqCollectionLiterals-*SqCollectionLiterals-initialize-release
 compactAll
 	"HashedCollection compactAll"	
 		

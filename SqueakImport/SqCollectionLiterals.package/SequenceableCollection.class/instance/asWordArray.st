@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 asWordArray
 	"Answer a WordArray whose elements are the elements of the receiver, in 
 	the same order."

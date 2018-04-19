@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 splitBy: aCollection
 	"Answer the receiver, split by aCollection.
 

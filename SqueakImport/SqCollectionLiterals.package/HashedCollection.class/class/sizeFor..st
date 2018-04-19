@@ -1,4 +1,4 @@
-sizing
+*SqCollectionLiterals-*SqCollectionLiterals-sizing
 sizeFor: nElements
 	"Large enough prime (or odd if too large) size to hold nElements with some slop (see fullCheck)"
 	

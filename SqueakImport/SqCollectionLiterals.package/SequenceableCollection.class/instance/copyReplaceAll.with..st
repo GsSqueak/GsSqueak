@@ -1,4 +1,4 @@
-copying
+*SqCollectionLiterals-*SqCollectionLiterals-copying
 copyReplaceAll: oldSubstring with: newSubstring 
 	"Default is not to do token matching.
 	See also String copyReplaceTokens:with:"

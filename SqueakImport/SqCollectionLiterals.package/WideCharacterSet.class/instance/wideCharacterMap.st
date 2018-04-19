@@ -1,3 +1,3 @@
-comparing
+*SqCollectionLiterals-*SqCollectionLiterals-comparing
 wideCharacterMap
 	^map

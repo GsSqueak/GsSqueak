@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 asDate
 	"Many allowed forms, see Date>>#readFrom:"
 

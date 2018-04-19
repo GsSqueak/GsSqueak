@@ -1,4 +1,4 @@
-formatting
+*SqCollectionLiterals-*SqCollectionLiterals-formatting
 expandMacrosWithArguments: anArray 
 	
 	^self class new: self size streamContents: [ :output |

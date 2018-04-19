@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 atLast: indexFromEnd
 	"Return element at indexFromEnd from the last position.
 	 atLast: 1, returns the last element"

@@ -1,4 +1,4 @@
-private
+*SqCollectionLiterals-*SqCollectionLiterals-private
 atNewIndex: index put: anObject
 
 	array at: index put: anObject.

@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 piecesCutWhere: binaryBlock
 	"Answer substrings of the receiver derived from cutting the receiver
 	 at points where binaryBlock answers true for adjacent elements."

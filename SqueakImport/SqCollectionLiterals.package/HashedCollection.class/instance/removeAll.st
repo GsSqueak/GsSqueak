@@ -1,4 +1,4 @@
-removing
+*SqCollectionLiterals-*SqCollectionLiterals-removing
 removeAll
 	"remove all elements from this collection.
 	Preserve the capacity"

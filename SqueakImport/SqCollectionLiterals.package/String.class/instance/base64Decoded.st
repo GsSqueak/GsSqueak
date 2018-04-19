@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 base64Decoded
 	"Decode the receiver from base 64"
 	"'SGVsbG8gV29ybGQ=' base64Decoded"

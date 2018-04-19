@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqByteArray-converting
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-converting
 base64Encoded
 	"Encode the receiver as base64"
 	"'Hello World' asByteArray base64Encoded"

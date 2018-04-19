@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 doWithIndex: aBlock2
 	"Support Set enumeration with a counter, even though not ordered"
 	| index |

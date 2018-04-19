@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 lineNumber: anIndex
 	"Answer a string containing the characters in the given line number."
 

@@ -1,4 +1,4 @@
-testing
+*SqCollectionLiterals-*SqCollectionLiterals-testing
 beginsWith: sequence
 	"Answer true if the receiver starts with the argument collection."
 	

@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqByteArray-converting
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-converting
 asByteArray
 	^ self

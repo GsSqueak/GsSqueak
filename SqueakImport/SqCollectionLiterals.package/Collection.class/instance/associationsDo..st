@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 associationsDo: aBlock
 	"Evaluate aBlock for each of the receiver's elements (key/value 
 	associations).  If any non-association is within, the error is not caught now,

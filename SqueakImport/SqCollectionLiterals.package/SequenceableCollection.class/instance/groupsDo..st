@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 groupsDo: aBlock 
 	"Evaluate aBlock with my elements taken n at a time, where n is the number of arguments of aBlock. Ignore any leftovers at the end."
 	

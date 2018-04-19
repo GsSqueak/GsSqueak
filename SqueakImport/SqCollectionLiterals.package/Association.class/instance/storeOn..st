@@ -1,4 +1,4 @@
-printing
+*SqCollectionLiterals-*SqCollectionLiterals-printing
 storeOn: aStream
 	| arrow |
 	"Store in the format (key->value)"

@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 asCamelCase
 	"Convert to CamelCase. Can be convenient 
 	in conjunction with #asLegalSelector 

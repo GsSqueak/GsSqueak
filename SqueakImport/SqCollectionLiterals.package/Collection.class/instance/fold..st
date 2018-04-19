@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 fold: binaryBlock
 	"Evaluate the block with the first two elements of the receiver,
 	 then with the result of the first evaluation and the next element,

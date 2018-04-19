@@ -1,4 +1,4 @@
-removing
+*SqCollectionLiterals-*SqCollectionLiterals-removing
 removeAllFoundIn: aCollection 
 	"Remove each element of aCollection which is present in the receiver 
 	from the receiver. Answer aCollection. No error is raised if an element

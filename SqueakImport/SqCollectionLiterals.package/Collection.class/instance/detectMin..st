@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 detectMin: aBlock
 	"Evaluate aBlock with each of the receiver's elements as the argument. 
 	Answer the element for which aBlock evaluates to the lowest number.

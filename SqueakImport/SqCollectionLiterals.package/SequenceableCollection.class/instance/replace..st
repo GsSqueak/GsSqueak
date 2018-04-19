@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 replace: aBlock 
 	"Evaluate aBlock with each of the receiver's elements as the argument.  
 	Collect the resulting values into self."

@@ -1,4 +1,4 @@
-comparing
+*SqCollectionLiterals-*SqCollectionLiterals-comparing
 = anObject
 	"Two dictionaries are equal if
 	 (a) they are the same 'kind' of thing.

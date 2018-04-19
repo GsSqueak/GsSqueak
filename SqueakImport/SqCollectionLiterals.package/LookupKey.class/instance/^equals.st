@@ -1,4 +1,4 @@
-comparing
+*SqCollectionLiterals-*SqCollectionLiterals-comparing
 = aLookupKey
 
 	self species = aLookupKey species

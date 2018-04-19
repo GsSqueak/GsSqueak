@@ -1,4 +1,4 @@
-*collections
+*SqCollectionLiterals-*SqCollectionLiterals-*collections
 compareSafely: aString 
 	^ aString isString
 		ifTrue: [ self < aString ]

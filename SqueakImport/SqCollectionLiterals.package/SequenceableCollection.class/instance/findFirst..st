@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 findFirst: aBlock
 	"Return the index of my first element for which aBlock evaluates as true."
 

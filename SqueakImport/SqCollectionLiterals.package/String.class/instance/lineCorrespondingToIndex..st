@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 lineCorrespondingToIndex: anIndex
 	"Answer a string containing the line at the given character position."
 

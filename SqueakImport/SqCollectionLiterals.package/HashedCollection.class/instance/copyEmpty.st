@@ -1,4 +1,4 @@
-copying
+*SqCollectionLiterals-*SqCollectionLiterals-copying
 copyEmpty
 	"Answer an empty copy of this collection"
 	

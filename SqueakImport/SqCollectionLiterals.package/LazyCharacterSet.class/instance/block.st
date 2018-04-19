@@ -1,3 +1,3 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 block
 	^block

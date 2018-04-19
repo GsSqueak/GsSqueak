@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqArray-filter streaming
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-filter streaming
 byteEncode:aStream
 	aStream writeArray:self.

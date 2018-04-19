@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 keysSortedSafely
 	"Answer a sorted Array containing the receiver's keys."
 	^ self keys sort:

@@ -1,4 +1,4 @@
-primitives
+*SqCollectionLiterals-*SqCollectionLiterals-primitives
 translate: aString from: start  to: stop  table: table
 	"Trivial, non-primitive version"
 

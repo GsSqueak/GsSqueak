@@ -1,4 +1,4 @@
-instance creation
+*SqCollectionLiterals-*SqCollectionLiterals-instance creation
 newFrom: aCollection
 	| newCollection |
 	newCollection := self new.

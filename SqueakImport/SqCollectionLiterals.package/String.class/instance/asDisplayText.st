@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 asDisplayText
 	"Answer a DisplayText whose text string is the receiver."
 

@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 intersection: aCollection
 	"Answer the set theoretic intersection of two collections."
 

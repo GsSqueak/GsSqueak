@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 findLastOccurrenceOfString: subString startingAt: start 
 	"Answer the index of the last occurrence of subString within the receiver, starting at start. If 
 	the receiver does not contain subString, answer 0.  Case-sensitive match used."

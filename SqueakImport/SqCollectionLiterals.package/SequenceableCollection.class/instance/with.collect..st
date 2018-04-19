@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 with: otherCollection collect: twoArgBlock 
 	"Collect and return the result of evaluating twoArgBlock with corresponding elements from this collection and otherCollection."
 	| result |

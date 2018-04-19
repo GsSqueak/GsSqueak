@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 unparenthetically
 	"If the receiver starts with (..( and ends with matching )..), strip them"
 

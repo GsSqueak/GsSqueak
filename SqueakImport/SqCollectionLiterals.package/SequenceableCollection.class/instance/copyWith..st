@@ -1,4 +1,4 @@
-copying
+*SqCollectionLiterals-*SqCollectionLiterals-copying
 copyWith: newElement 
 	"Answer a copy of the receiver that is 1 bigger than the receiver and has 
 	newElement at the last element."

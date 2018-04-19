@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 asPluralBasedOn: aNumberOrCollection
 	"Append an 's' to this string based on whether aNumberOrCollection is 1 or of size 1."
 

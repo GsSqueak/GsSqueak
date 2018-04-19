@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 atRandom: aGenerator
 	"Answer a random element of the receiver.  Uses aGenerator which
 	should be kept by the user in a variable and used every time. Use
