@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 last: n
 	"Answer the last n elements of the receiver.  
 	Raise an error if there are not enough elements."

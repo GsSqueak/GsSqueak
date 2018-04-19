@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqByteArray-converting
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-converting
 asString
 	"Convert to a String with Characters for each byte.
 	Fast code uses primitive that avoids character conversion"

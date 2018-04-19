@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqArray-arithmetic
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-arithmetic
 +* aCollection
 	"Premultiply aCollection by self.  aCollection should be an Array or Matrix.
 	 The name of this method is APL's +.x squished into Smalltalk syntax."

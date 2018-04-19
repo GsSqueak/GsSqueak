@@ -1,3 +1,3 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 byteAt: index put: value
 	^self subclassResponsibility

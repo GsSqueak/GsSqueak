@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqArray-copying
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-copying
 copyWithDependent: newElement
 	self size = 0 ifTrue:[^DependentsArray with: newElement].
 	^self copyWith: newElement

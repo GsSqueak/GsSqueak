@@ -1,4 +1,4 @@
-initialize-release
+*SqCollectionLiterals-*SqCollectionLiterals-initialize-release
 cleanUp: aggressive
 	"Rehash all instances when cleaning aggressively"
 

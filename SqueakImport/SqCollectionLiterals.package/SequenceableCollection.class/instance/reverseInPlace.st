@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 reverseInPlace
 	"Reverse this collection in place."
 	

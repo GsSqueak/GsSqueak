@@ -1,4 +1,4 @@
-comparing
+*SqCollectionLiterals-*SqCollectionLiterals-comparing
 = anObject
 	"Implementation note: we do not test if equal to a WideCharacterSet,
 	because it is unlikely that WideCharacterSet is as complete as self"

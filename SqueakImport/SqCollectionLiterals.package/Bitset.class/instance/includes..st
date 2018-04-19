@@ -1,4 +1,4 @@
-testing
+*SqCollectionLiterals-*SqCollectionLiterals-testing
 includes: anInteger
 
 	anInteger isInteger ifFalse: [ ^false ].

@@ -1,4 +1,4 @@
-removing
+*SqCollectionLiterals-*SqCollectionLiterals-removing
 remove: oldObject ifAbsent: anExceptionBlock 
 	"Remove oldObject from the receiver's elements. If several of the 
 	elements are equal to oldObject, only one is removed. If no element is 

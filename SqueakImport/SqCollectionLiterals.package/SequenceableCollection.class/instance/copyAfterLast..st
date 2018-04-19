@@ -1,4 +1,4 @@
-copying
+*SqCollectionLiterals-*SqCollectionLiterals-copying
 copyAfterLast: anElement
 	"Answer a copy of the receiver from after the last occurence
 	of anElement up to the end. If no such element exists, answer 

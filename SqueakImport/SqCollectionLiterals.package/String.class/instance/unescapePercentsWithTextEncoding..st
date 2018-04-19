@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 unescapePercentsWithTextEncoding: encodingName 
 	"decode string including %XX form"
 	

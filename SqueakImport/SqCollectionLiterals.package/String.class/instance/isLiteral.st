@@ -1,4 +1,4 @@
-testing
+*SqCollectionLiterals-*SqCollectionLiterals-testing
 isLiteral
 	"Answer whether the receiver is a valid Smalltalk literal."
 

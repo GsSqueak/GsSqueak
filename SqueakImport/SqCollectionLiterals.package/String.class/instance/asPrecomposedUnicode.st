@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 asPrecomposedUnicode
 	"Convert the receiver into a precomposed Unicode representation.
 	Optimized for the common case that no composition needs to take place."

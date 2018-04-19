@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqByteArray-platform independent access
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-platform independent access
 signedByteAt: index put: anInteger
 	"Store an 8-bit signed integer quantity at the given byte index."
 	

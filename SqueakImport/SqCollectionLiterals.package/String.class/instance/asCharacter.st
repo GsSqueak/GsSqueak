@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 asCharacter
 	"Answer the receiver's first character, or '*' if none.  Idiosyncratic, provisional."
 

@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 capacity
 	"Return the highest integer this collection can store plus one."
 

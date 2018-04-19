@@ -1,3 +1,3 @@
-filter streaming
+*SqCollectionLiterals-*SqCollectionLiterals-filter streaming
 contents
 	^ self

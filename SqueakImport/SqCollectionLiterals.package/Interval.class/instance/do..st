@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 do: aBlock 
 	"Evaluate aBlock for each value of the interval.
 	Implementation note: instead of repeatedly incrementing the value

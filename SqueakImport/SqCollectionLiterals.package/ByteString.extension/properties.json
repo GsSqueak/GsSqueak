@@ -1,0 +1,14 @@
+{
+	"category" : "SqColletionLiterals-Collections-Strings",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ByteString",
+	"pools" : [
+		 ],
+	"super" : "String",
+	"type" : "bytes" }

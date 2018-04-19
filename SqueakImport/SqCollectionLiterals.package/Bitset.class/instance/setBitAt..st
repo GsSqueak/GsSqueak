@@ -1,4 +1,4 @@
-bit manipulation
+*SqCollectionLiterals-*SqCollectionLiterals-bit manipulation
 setBitAt: anInteger
 	"Set the value corresponding to anInteger to 1. Return true if the value wasn't 1."
 

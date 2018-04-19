@@ -1,4 +1,4 @@
-examples
+*SqCollectionLiterals-*SqCollectionLiterals-examples
 example
 	"To see the string displayed at the cursor point, execute this expression
 	and select a point by pressing a mouse button."

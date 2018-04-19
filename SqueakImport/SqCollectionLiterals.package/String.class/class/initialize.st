@@ -1,4 +1,4 @@
-initialization
+*SqCollectionLiterals-*SqCollectionLiterals-initialization
 initialize   "self initialize"
 
 	| order |

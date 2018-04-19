@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 asHtml
 	"Do the basic character conversion for HTML.  Leave all original return 
 	and tabs in place, so can conver back by simply removing bracked 

@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 asOctetString
 	"Convert the receiver into an octet string"
 	| string |

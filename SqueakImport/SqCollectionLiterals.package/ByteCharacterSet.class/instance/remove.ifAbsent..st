@@ -1,4 +1,4 @@
-removing
+*SqCollectionLiterals-*SqCollectionLiterals-removing
 remove: aCharacter ifAbsent: aBlock
 
 	| index |

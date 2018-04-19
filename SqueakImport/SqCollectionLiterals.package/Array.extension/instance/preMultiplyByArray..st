@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqArray-arithmetic
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-arithmetic
 preMultiplyByArray: a
 	"Answer a+*self where a is an Array.  Arrays are always understood as column vectors,
 	 so an n element Array is an n*1 Array.  This multiplication is legal iff self size = 1."

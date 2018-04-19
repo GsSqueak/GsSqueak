@@ -1,3 +1,3 @@
-formatting
+*SqCollectionLiterals-*SqCollectionLiterals-formatting
 expandMacros
 	^self expandMacrosWithArguments: #()

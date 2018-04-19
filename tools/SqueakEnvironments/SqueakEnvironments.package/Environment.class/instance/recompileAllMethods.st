@@ -1,7 +1,7 @@
 updating
 recompileAllMethods
   self
-    allClassesDo: [ :aClass | 
+    allClassesAndMetaClassesDo: [ :aClass | 
       (aClass persistentMethodDictForEnv: 7)
         ifNotNil: [ :methods | 
           methods

@@ -1,3 +1,3 @@
-objects from disk
+*SqCollectionLiterals-*SqCollectionLiterals-objects from disk
 byteSize
 	^self basicSize * self bytesPerBasicElement

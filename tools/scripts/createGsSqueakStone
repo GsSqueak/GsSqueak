@@ -44,6 +44,13 @@ _clearSubclassesDisallowed
     self _unsafeAt: 2 put: (format bitAnd: (16r20 bitInvert))
 %
 send Behavior _clearSubclassesDisallowed
+
+env 7
+method: Class
+name
+	^ self @env0: name
+%
+
 commit
 logout
 exit

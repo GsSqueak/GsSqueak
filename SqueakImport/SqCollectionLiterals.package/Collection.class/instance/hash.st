@@ -1,4 +1,4 @@
-comparing
+*SqCollectionLiterals-*SqCollectionLiterals-comparing
 hash
 	"Answer an integer hash value for the receiver such that,
 	  -- the hash value of an unchanged object is constant over time, and

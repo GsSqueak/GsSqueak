@@ -1,4 +1,4 @@
-copying
+*SqCollectionLiterals-*SqCollectionLiterals-copying
 postCopy
 	"Must copy the associations, or later store will affect both the
 original and the copy"

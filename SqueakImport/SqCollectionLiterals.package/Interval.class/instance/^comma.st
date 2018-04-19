@@ -1,4 +1,4 @@
-adding
+*SqCollectionLiterals-*SqCollectionLiterals-adding
 , otherCollection
 	"Override to answer an Interval if otherCollection is an adjacent and congruent interval."
 	^(otherCollection isInterval

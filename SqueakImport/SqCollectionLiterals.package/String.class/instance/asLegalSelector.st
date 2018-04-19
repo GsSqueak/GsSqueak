@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 asLegalSelector
 	| toUse |
 	toUse := self select: [:char | char isAlphaNumeric].

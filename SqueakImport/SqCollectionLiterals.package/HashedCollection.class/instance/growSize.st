@@ -1,4 +1,4 @@
-private
+*SqCollectionLiterals-*SqCollectionLiterals-private
 growSize
 	"Answer what my next higher table size should be"
 	

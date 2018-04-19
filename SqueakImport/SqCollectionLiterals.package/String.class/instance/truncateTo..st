@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 truncateTo: smallSize
 	"return myself or a copy shortened to smallSize.  1/18/96 sw"
 

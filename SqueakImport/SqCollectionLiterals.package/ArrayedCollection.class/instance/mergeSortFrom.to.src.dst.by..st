@@ -1,4 +1,4 @@
-sorting
+*SqCollectionLiterals-*SqCollectionLiterals-sorting
 mergeSortFrom: first to: last src: src dst: dst by: aBlock
 	"Private. Split the range to be sorted in half, sort each half, and 
 	merge the two half-ranges into dst."

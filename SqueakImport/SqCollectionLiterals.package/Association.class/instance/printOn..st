@@ -1,4 +1,4 @@
-printing
+*SqCollectionLiterals-*SqCollectionLiterals-printing
 printOn: aStream
 	| arrow |
 	super printOn: aStream.

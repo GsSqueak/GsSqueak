@@ -1,4 +1,4 @@
-stream creation
+*SqCollectionLiterals-*SqCollectionLiterals-stream creation
 new: newSize streamContents: blockWithArg
 
 	| stream originalContents |

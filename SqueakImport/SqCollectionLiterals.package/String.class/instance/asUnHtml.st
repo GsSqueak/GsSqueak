@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 asUnHtml
 	"Strip out all Html stuff (commands in angle brackets <>) and convert
 the characters &<> back to their real value.  Leave actual cr and tab as

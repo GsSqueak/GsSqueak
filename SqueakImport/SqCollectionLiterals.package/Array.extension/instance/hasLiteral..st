@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqArray-private
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-private
 hasLiteral: literal
 	"Answer true if literal is identical to any literal in this array, even 
 	if imbedded in further array structure. This method is only intended 

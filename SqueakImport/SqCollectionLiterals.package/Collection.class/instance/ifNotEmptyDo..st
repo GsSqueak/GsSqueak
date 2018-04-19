@@ -1,4 +1,4 @@
-testing
+*SqCollectionLiterals-*SqCollectionLiterals-testing
 ifNotEmptyDo: aBlock
 	"Evaluate the given block with the receiver as its argument."
 

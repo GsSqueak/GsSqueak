@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 at: anInteger 
 	"Answer the anInteger'th element."
 

@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 asTimeStamp
 	"Convert from obsolete TimeStamp format"
 

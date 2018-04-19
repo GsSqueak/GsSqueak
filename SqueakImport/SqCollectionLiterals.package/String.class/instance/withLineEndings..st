@@ -1,4 +1,4 @@
-internet
+*SqCollectionLiterals-*SqCollectionLiterals-internet
 withLineEndings: lineEndingString
 
 	| stream |

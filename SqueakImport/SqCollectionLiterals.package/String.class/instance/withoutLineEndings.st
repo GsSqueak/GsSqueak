@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 withoutLineEndings
 
 	^self withLineEndings: ' '

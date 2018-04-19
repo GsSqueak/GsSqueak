@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqByteArray-platform independent access
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-platform independent access
 doubleAt: index bigEndian: bool 
 	"Return a 64 bit float starting from the given byte index"
 	| w1 w2 dbl |

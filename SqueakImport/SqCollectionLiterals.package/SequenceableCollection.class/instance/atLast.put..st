@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 atLast: indexFromEnd put: obj
 	"Set the element at indexFromEnd from the last position.
 	 atLast: 1 put: obj, sets the last element"

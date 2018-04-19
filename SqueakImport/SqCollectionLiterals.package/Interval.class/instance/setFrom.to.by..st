@@ -1,4 +1,4 @@
-private
+*SqCollectionLiterals-*SqCollectionLiterals-private
 setFrom: startInteger to: stopInteger by: stepInteger
 
 	start := startInteger.

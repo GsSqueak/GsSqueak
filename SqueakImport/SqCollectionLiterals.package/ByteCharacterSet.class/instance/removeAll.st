@@ -1,4 +1,4 @@
-removing
+*SqCollectionLiterals-*SqCollectionLiterals-removing
 removeAll
 
 	byteArrayMap atAllPut: 0.

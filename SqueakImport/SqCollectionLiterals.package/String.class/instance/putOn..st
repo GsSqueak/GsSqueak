@@ -1,4 +1,4 @@
-filter streaming
+*SqCollectionLiterals-*SqCollectionLiterals-filter streaming
 putOn:aStream
 
 	^aStream nextPutAll: self.

@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 indexOf: aCharacter startingAt: start
 
 	(aCharacter isCharacter) ifFalse: [^ 0].

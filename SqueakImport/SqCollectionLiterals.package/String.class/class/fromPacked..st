@@ -1,4 +1,4 @@
-instance creation
+*SqCollectionLiterals-*SqCollectionLiterals-instance creation
 fromPacked: aLong
 	"Convert from a longinteger to a String of length 4."
 

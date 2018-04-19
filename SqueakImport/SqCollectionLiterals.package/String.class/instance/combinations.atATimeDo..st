@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 combinations: kk atATimeDo: aBlock
 	"Gather the combinations into a String rather than an Array"
 	

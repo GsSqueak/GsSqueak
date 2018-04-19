@@ -1,4 +1,4 @@
-copying
+*SqCollectionLiterals-*SqCollectionLiterals-copying
 , otherCollection 
 	"Concatenate two Strings or Collections."
 	^ self copyReplaceFrom: self size + 1

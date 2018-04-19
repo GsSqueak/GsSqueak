@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 do: aBlock
 	"Evaluate aBlock with each integer which has its bit set to 1."
 

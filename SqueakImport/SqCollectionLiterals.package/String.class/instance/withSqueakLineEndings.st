@@ -1,4 +1,4 @@
-internet
+*SqCollectionLiterals-*SqCollectionLiterals-internet
 withSqueakLineEndings
 	"Assume the string is textual, and that CR, LF, and CRLF are all valid line endings.
 	Replace each occurence with a single CR."

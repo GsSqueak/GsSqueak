@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqByteArray-converting
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-converting
 ascii85Encoded
 	"Encode the receiver as Ascii85"
 	"'Hello World' asByteArray ascii85Encoded"

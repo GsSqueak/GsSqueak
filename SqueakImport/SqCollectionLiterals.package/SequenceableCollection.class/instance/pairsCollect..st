@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 pairsCollect: aBlock 
 	"Evaluate aBlock with my elements taken two at a time, and return an Array with the results"
 

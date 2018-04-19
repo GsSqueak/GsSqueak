@@ -1,4 +1,4 @@
-private
+*SqCollectionLiterals-*SqCollectionLiterals-private
 storeElementsFrom: firstIndex to: lastIndex on: aStream
 
 	| noneYet defaultElement arrayElement |

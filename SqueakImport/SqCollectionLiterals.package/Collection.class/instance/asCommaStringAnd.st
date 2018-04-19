@@ -1,4 +1,4 @@
-printing
+*SqCollectionLiterals-*SqCollectionLiterals-printing
 asCommaStringAnd
 	"Return collection printed as 'a, b and c' "
 

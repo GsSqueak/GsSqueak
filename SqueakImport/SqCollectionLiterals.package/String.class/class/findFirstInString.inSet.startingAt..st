@@ -1,4 +1,4 @@
-primitives
+*SqCollectionLiterals-*SqCollectionLiterals-primitives
 findFirstInString: aString inSet: inclusionMap startingAt: start
 	"Trivial, non-primitive version"
 	

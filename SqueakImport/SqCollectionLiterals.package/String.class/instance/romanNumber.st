@@ -1,4 +1,4 @@
-converting
+*SqCollectionLiterals-*SqCollectionLiterals-converting
 romanNumber
 	| value v1 v2 |
 	value := v1 := v2 := 0.

@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 associationDeclareAt: aKey
 	"Return an existing association, or create and return a new one.  Needed as a single message by ImageSegment.prepareToBeSaved."
 	self flag: #environments.

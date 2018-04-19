@@ -1,4 +1,4 @@
-removing
+*SqCollectionLiterals-*SqCollectionLiterals-removing
 unreferencedKeys
 	"| uk | (Time millisecondsToRun: [uk := TextConstants unreferencedKeys]) -> uk"
 

@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 groupBy: keyBlock
 	"Like in SQL operation - Split the recievers contents into collections of elements for which keyBlock returns the same results, and return them."
 

@@ -1,4 +1,4 @@
-testing
+*SqCollectionLiterals-*SqCollectionLiterals-testing
 notEmpty
 	"Answer whether the receiver contains any elements."
 

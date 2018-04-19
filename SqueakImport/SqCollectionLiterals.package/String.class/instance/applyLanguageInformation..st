@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 applyLanguageInformation: languageEnvironment
 	
 	| leadingChar |

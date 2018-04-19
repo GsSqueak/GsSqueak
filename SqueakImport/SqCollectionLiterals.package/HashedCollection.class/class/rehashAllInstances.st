@@ -1,4 +1,4 @@
-initialize-release
+*SqCollectionLiterals-*SqCollectionLiterals-initialize-release
 rehashAllInstances
 	"Do not use #allInstancesDo: because #rehash may create new instances."
 

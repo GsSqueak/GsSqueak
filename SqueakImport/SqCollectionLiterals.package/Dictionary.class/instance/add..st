@@ -1,4 +1,4 @@
-adding
+*SqCollectionLiterals-*SqCollectionLiterals-adding
 add: anAssociation
 
 	| index |

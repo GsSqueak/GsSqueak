@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqArray-printing
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-printing
 printOn: aStream
 	self class == Array ifFalse:
 		[^super printOn: aStream].

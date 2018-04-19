@@ -1,4 +1,4 @@
-internet
+*SqCollectionLiterals-*SqCollectionLiterals-internet
 decodeQuotedPrintable
 	"Assume receiver is in MIME 'quoted-printable' encoding, and decode it."
   

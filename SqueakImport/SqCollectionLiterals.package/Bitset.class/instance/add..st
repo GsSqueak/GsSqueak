@@ -1,4 +1,4 @@
-adding
+*SqCollectionLiterals-*SqCollectionLiterals-adding
 add: anInteger
 	"Add anInteger to this set. Return anInteger."
 

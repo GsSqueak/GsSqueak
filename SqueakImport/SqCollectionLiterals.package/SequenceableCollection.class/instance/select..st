@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 select: aBlock 
 	"Refer to the comment in Collection|select:."
 	| aStream |

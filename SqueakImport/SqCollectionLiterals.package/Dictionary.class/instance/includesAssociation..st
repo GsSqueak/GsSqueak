@@ -1,4 +1,4 @@
-testing
+*SqCollectionLiterals-*SqCollectionLiterals-testing
 includesAssociation: anAssociation
   ^ (self   
       associationAt: anAssociation key

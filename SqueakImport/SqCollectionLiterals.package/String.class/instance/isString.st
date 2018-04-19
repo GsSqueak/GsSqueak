@@ -1,3 +1,3 @@
-testing
+*SqCollectionLiterals-*SqCollectionLiterals-testing
 isString
 	^ true

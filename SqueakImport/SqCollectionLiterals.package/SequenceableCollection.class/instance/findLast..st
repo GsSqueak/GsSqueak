@@ -1,4 +1,4 @@
-enumerating
+*SqCollectionLiterals-*SqCollectionLiterals-enumerating
 findLast: aBlock
 	"Return the index of my last element for which aBlock evaluates as true."
 

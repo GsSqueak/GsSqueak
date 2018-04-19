@@ -1,4 +1,4 @@
-accessing
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
 indexOf: anElement startingAt: startIndex
 	"startIndex is an positive integer, the collection index where the search is started."
 	"during the computation of val , floats are only used when the receiver	contains floats"
