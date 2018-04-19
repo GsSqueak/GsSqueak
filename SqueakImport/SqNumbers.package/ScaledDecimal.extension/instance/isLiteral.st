@@ -6,12 +6,12 @@ isLiteral
 	Some has an infinite precision and would need an infinite number of digits to print literally.
 	Try for example (3.00s2 reciprocal)."
 	
-	^fraction denominator = 1 "first test trivial case before engaging arithmetic"
+	^mantissa denominator = 1 "first test trivial case before engaging arithmetic"
 	
 		or: ["Exactly we should test:
-			(fraction numerator * (10 raisedTo; scale)) \\ fraction denominator = 0.
-			But since we can assume fraction is reduced already this will be simply:"
+			(mantissa numerator * (10 raisedTo; scale)) \\ mantissa denominator = 0.
+			But since we can assume mantissa is reduced already this will be simply:"
 			
-			(10 raisedTo: scale) \\ fraction denominator = 0]
+			(10 raisedTo: scale) \\ mantissa denominator = 0]
 	
 	

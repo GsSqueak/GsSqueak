@@ -1,4 +1,4 @@
 *SqNumbers-converting
 asFloat
 	"Reimplementation - Number 'converting' method."
-	^ fraction asFloat
+	^ mantissa asFloat

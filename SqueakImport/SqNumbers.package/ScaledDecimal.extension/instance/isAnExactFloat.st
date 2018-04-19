@@ -1,3 +1,3 @@
 *SqNumbers-testing
 isAnExactFloat
-	^fraction isAnExactFloat
+	^mantissa isAnExactFloat

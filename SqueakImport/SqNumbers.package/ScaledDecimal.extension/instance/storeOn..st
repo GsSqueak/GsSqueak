@@ -7,9 +7,9 @@ storeOn: aStream
 		ifTrue: [self printOn: aStream]
 		ifFalse: [aStream
 			nextPut: $(;
-		 	store: fraction numerator;
+		 	store: mantissa numerator;
 			nextPut: $/;
-			store: fraction denominator;
+			store: mantissa denominator;
 			nextPut: $s;
 			store: scale;
 			nextPut: $)]

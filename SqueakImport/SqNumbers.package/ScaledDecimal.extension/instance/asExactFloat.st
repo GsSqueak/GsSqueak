@@ -1,3 +1,3 @@
 *SqNumbers-converting
 asExactFloat
-	^fraction asExactFloat
+	^mantissa asExactFloat

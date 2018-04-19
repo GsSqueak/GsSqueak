@@ -1,3 +1,3 @@
 *SqNumbers-mathematical functions
 raisedToInteger: aNumber
-	^self class newFromNumber: (fraction raisedToInteger: aNumber) scale: scale
+	^self class newFromNumber: (mantissa raisedToInteger: aNumber) scale: scale

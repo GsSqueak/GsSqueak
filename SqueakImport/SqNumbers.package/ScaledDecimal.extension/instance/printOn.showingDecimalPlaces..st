@@ -1,5 +1,5 @@
 *SqNumbers-printing
 printOn: aStream showingDecimalPlaces: placesDesired
-	"Same as super, except the fraction knows better how to do it."
+	"Same as super, except the mantissa knows better how to do it."
 
-	fraction printOn: aStream showingDecimalPlaces: placesDesired
+	mantissa printOn: aStream showingDecimalPlaces: placesDesired

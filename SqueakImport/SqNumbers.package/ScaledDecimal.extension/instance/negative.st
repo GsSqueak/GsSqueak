@@ -1,4 +1,4 @@
 *SqNumbers-testing
 negative
 
-	^fraction negative
+	^mantissa negative
