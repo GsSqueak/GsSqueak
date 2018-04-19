@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"initialize": "",
 		"initializedInstance" : "sw 5/5/2000 09:31" },
 	"instance" : {
 		"==" : "md 11/24/1999 19:27",

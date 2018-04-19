@@ -1,7 +1,5 @@
 {
-	"class" : {
-        	"initialize2":""
-		 },
+	"class" : {},
 	"instance" : {
 		"<" : "",
 		"<=" : "",
