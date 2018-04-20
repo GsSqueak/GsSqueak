@@ -1,0 +1,15 @@
+{
+	"category" : "SqNumbers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BitCountPerByteTable",
+		"LowBitPerByteTable" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Integer",
+	"pools" : [
+		 ],
+	"super" : "Number",
+	"type" : "normal" }
