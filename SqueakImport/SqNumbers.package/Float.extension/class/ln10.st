@@ -1,3 +1,3 @@
 *SqNumbers-constants
 ln10
-	^ Ln10
+	^ 10.0 ln

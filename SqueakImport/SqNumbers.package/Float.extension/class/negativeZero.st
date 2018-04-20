@@ -1,4 +1,4 @@
 *SqNumbers-constants
 negativeZero
 
-	^ NegativeZero
+	^ 1.0 / self infinity negated

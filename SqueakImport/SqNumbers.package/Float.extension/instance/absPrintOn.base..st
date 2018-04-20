@@ -27,7 +27,7 @@ absPrintOn: aStream base: base
 			s := 1.0 timesTwoPower:  significantBits.
 			mMinus := 1.0 timesTwoPower: (exp max: -1024).
 			mPlus :=
-				(exp = MinValLogBase2) | (self significand ~= 1.0)
+				(exp = self class minValLogBase2) | (self significand ~= 1.0)
 					ifTrue: [mMinus]
 					ifFalse: [mMinus * 2.0]].
 	baseExpEstimate >= 0

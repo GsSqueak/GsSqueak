@@ -2,4 +2,4 @@
 fminDenormalized
 	"Answer the minimum denormalized value representable."
 	
-	^1.0 timesTwoPower: MinValLogBase2
+	^1.0 timesTwoPower: -1074

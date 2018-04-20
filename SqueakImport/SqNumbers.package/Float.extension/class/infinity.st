@@ -2,4 +2,4 @@
 infinity
 	"Answer the value used to represent an infinite magnitude"
 
-	^ Infinity
+	^ self fmax * self fmax
