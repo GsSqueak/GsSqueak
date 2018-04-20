@@ -16,3 +16,4 @@ initializeCommons
   self at: #'Metaclass3' put: Metaclass3.
   self at: #'BlockClosure' put: BlockClosure.
   self at: #'UndefinedObject' put: UndefinedObject.
+  self at: #'ByteString' put: String.

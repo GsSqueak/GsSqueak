@@ -7,10 +7,8 @@ env: envId coreMethods: coreMethodBlock extensionMethods: extensionMethodBlock o
   myClasses := IdentitySet new.
   self systemCategories
     do: [ :cat | 
-      (SystemOrganizer new listAtCategoryNamed: cat)
-        do: [ :className | 
-          | cl |
-          cl := Smalltalk classNamed: className.
+      (SystemOrganizer new listClassesAtCategoryNamed: cat)
+        do: [ :cl | 
           myClasses add: cl.
           myBehaviors
             add: cl;

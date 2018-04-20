@@ -2,6 +2,7 @@
 initialize   "self initialize"
 
 	| order |
+	self initializeSubclasses.
 	AsciiOrder := (0 to: 255) as: ByteArray.
 
 	CaseInsensitiveOrder := AsciiOrder copy.

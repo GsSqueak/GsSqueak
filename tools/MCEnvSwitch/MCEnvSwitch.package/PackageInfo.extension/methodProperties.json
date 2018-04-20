@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"classes" : "",
 		"coreMethodsEnv:" : "",
 		"env:coreCategoriesForClass:" : "",
 		"env:coreMethods:extensionMethods:overriddenMethods:classes:" : "",

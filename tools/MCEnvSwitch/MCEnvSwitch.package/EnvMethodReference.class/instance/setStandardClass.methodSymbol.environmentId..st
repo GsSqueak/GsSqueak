@@ -1,8 +1,9 @@
 setting
 setStandardClass: aClass methodSymbol: methodSym environmentId: envId
-  aClass isMeta
-    ifTrue: [ classSymbol := aClass instanceSymbol ]
-    ifFalse: [ classSymbol := aClass name ].
+  classSymbol := ((MCEnv respondsTo: #'usesSqueakParser')
+    and: [ MCEnv usesSqueakParser ])
+    ifTrue: [ aClass theNonMetaClass name ]
+    ifFalse: [ aClass theNonMetaClass @env7: name ].
   classIsMeta := aClass isMeta.
   methodSymbol := methodSym.
   stringVersion := aClass name , ' ' , methodSym.
