@@ -3,6 +3,6 @@ max: aMagnitude
 	"Answer the receiver or the argument, whichever has the greater 
 	magnitude."
 
-	self < aMagnitude
-		ifTrue: [^aMagnitude]
-		ifFalse: [^self]
+	self > aMagnitude
+		ifTrue: [^self]
+		ifFalse: [^aMagnitude]

@@ -78,8 +78,9 @@ todeIt -D $name mc load SqNumbers filetree://$GS_HOME/shared/repos/BP2017RH1/Squ
 startTopaz $name -l << EOF
 login
 run
-Magnitude _setSelfCanBeSpecial.
-Number _setSelfCanBeSpecial.
+(SqueakEnvironment at: #Magnitude) _setSelfCanBeSpecial.
+(SqueakEnvironment at: #Number) _setSelfCanBeSpecial.
+(SqueakEnvironment at: #Integer) _setSelfCanBeSpecial.
 %
 commit
 logout
@@ -88,6 +89,16 @@ EOF
 
 todeIt $name mc load SqBooleans filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqClasses filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+startTopaz $name -l << EOF
+login
+run
+(SqueakEnvironment at: #ProtoObject) _setSelfCanBeSpecial.
+%
+commit
+logout
+exit
+EOF
+
 todeIt $name mc load SqKernel filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqUndefinedObject filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqCharacter filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
