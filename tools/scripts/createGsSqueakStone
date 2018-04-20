@@ -106,7 +106,8 @@ todeIt $name mc load SqCharacter filetree://$GS_HOME/shared/repos/BP2017RH1/Sque
 startTopaz $name -l << EOF
 login
 run
-SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: anObject' inEnv: 7
+SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: anObject' inEnv: 7.
+UserGlobals at: #ByteString put: String.
 %
 commit
 logout
