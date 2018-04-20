@@ -1,5 +1,5 @@
 classes and traits
 allClassesAndMetaClassesDo: aBlock 
 	self allClassesDo: [:aClass |
-		aBlock theNonMetaClass value: aClass.
-		aBlock theMetaClass value: aClass]
+		aBlock value: aClass theNonMetaClass.
+		aBlock value: aClass theMetaClass]
