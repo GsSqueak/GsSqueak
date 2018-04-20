@@ -14,7 +14,7 @@ absPrintExactlyOn: aStream base: base decimalPlaces: placesDesired showTrailingF
 	| significand exp baseExpEstimate r s mPlus mMinus scale roundingLowIncludesLimits roundingHighIncludesLimits d tc1 tc2 decPointCount slowbit shead delta |
 	self isInfinite ifTrue: [aStream nextPutAll: 'Infinity'. ^ self].
 	significand := self significandAsInteger.
-	exp := (self exponent - 52) max: MinValLogBase2.
+	exp := (self exponent - 52) max: self class minValLogBase2.
 	exp >= 0
 		ifTrue:
 			[significand ~= 16r10000000000000
@@ -27,7 +27,7 @@ absPrintExactlyOn: aStream base: base decimalPlaces: placesDesired showTrailingF
 					s := 4.
 					mPlus := 2 * (mMinus := 1 bitShift: exp)]]
 		ifFalse:
-			[(exp = MinValLogBase2 or: [significand ~= 16r10000000000000])
+			[(exp = self class minValLogBase2 or: [significand ~= 16r10000000000000])
 				ifTrue:
 					[r := significand bitShift: 1.
 					s := 1 bitShift: 1 - exp.

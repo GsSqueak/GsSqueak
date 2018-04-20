@@ -14,7 +14,7 @@ absPrintExactlyOn: aStream base: base
 	self isInfinite ifTrue: [aStream nextPutAll: 'Infinity'. ^ self].
 	significand := self significandAsInteger.
 	roundingIncludesLimits := significand even.
-	exp := (self exponent - 52) max: MinValLogBase2.
+	exp := (self exponent - 52) max: self class minValLogBase2.
 	baseExpEstimate := (self exponent * base asFloat reciprocalLogBase2 - 1.0e-10) ceiling.
 	exp >= 0
 		ifTrue:
@@ -28,7 +28,7 @@ absPrintExactlyOn: aStream base: base
 					s := 4.
 					mPlus := 2 * (mMinus := 1 bitShift: exp)]]
 		ifFalse:
-			[(exp = MinValLogBase2 or: [significand ~= 16r10000000000000])
+			[(exp = self class minValLogBase2 or: [significand ~= 16r10000000000000])
 				ifTrue:
 					[r := significand bitShift: 1.
 					s := 1 bitShift: 1 - exp.

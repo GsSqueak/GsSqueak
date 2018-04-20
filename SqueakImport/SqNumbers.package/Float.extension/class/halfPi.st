@@ -1,3 +1,3 @@
 *SqNumbers-constants
 halfPi
-	^ Halfpi
+	^ self pi / 2

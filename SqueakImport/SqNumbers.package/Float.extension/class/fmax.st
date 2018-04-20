@@ -2,4 +2,4 @@
 fmax
 	"Answer the maximum finite floating point value representable."
 	
-	^MaxVal
+	^1.7976931348623157e308

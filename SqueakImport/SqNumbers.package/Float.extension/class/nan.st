@@ -2,4 +2,4 @@
 nan
 	"Answer the canonical value used to represent Not-A-Number"
 
-	^ NaN
+	^ self infinity - self infinity
