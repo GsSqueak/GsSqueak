@@ -94,6 +94,8 @@ run
 (SqueakEnvironment at: #Magnitude) _setSelfCanBeSpecial.
 (SqueakEnvironment at: #Number) _setSelfCanBeSpecial.
 (SqueakEnvironment at: #Integer) _setSelfCanBeSpecial.
+(SqueakEnvironment at: #ScaledDecimal) _setSelfCanBeSpecial.
+(SqueakEnvironment at: #Fraction) _setSelfCanBeSpecial.
 %
 commit
 logout
@@ -109,6 +111,7 @@ login
 run
 SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: anObject' inEnv: 7.
 UserGlobals at: #ByteString put: String.
+SqueakEnvironment recompileAllMethods.
 %
 commit
 logout
