@@ -15,7 +15,7 @@ bindingOf: varName environment: anEnvironment
 	].
 
 	"Next look into superclass pools"
-	superclass ifNotNil: [^ superclass bindingOf: aSymbol environment: anEnvironment].
+	self superclass ifNotNil: [^ self superclass bindingOf: aSymbol environment: anEnvironment].
 	
 	"No more superclass... Last look in declared environment."
 	^anEnvironment bindingOf: aSymbol

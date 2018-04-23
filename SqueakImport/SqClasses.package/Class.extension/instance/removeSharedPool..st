@@ -11,8 +11,8 @@ removeSharedPool: aDictionary
 
 	"first see if it is declared in a superclass in which case we can remove it."
 	(self selectSuperclasses: [:class | class sharedPools includes: aDictionary]) isEmpty
-		ifFalse: [sharedPools remove: aDictionary.
-				sharedPools isEmpty ifTrue: [sharedPools := nil].
+		ifFalse: [self sharedPools remove: aDictionary.
+				self sharedPools isEmpty ifTrue: [self sharedPools: nil].
 				^self]. 
 
 	"second get all the subclasses that reference aDictionary through me rather than a 
@@ -38,5 +38,5 @@ removeSharedPool: aDictionary
 				ifFalse: [^self error: aGlobal key 
 								, ' is still used in code of class '
 								, sub name]]].
-	sharedPools remove: aDictionary.
-	sharedPools isEmpty ifTrue: [sharedPools := nil]
+	self sharedPools remove: aDictionary.
+	self sharedPools isEmpty ifTrue: [self sharedPools: nil]

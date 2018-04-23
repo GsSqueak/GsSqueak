@@ -4,12 +4,12 @@ definition
 
 	| aStream path |
 	aStream := WriteStream on: (String new: 300).
-	superclass == nil
+	self superclass == nil
 		ifTrue: [aStream nextPutAll: 'ProtoObject']
 		ifFalse: [path := ''.
-				self environment scopeFor: superclass name from: nil
+				self environment scopeFor: self superclass name from: nil
 						envtAndPathIfFound: [:envt :remotePath | path := remotePath].
-				aStream nextPutAll: path , superclass name].
+				aStream nextPutAll: path , self superclass name].
 	aStream nextPutAll: self kindOfSubclass;
 			store: self name.
 	(self hasTraitComposition and: [self traitComposition notEmpty]) ifTrue: [
@@ -24,7 +24,7 @@ definition
 	aStream cr; tab; nextPutAll: 'category: ';
 			store: (self environment organization categoryOfElement: self name) asString.
 
-	superclass ifNil: [ 
+	self superclass ifNil: [ 
 		aStream nextPutAll: '.'; cr.
 		aStream nextPutAll: self name.
 		aStream space; nextPutAll: 'superclass: nil'. ].

@@ -1,4 +1,3 @@
 *SqClasses-accessing
 methodDict
-	methodDict == nil ifTrue: [self recoverFromMDFaultWithTrace].
-	^ methodDict
+	^ self _env0 persistentMethodDictForEnv: 7

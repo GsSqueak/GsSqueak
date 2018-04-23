@@ -8,8 +8,8 @@ instVarNames
 	| mySize superSize |
 	mySize := self instSize.
 	superSize := 
-		superclass == nil
+		superClass == nil
 			ifTrue: [0]
-			ifFalse: [superclass instSize].
+			ifFalse: [superClass instSize].
 	mySize = superSize ifTrue: [^#()].	
 	^(superSize + 1 to: mySize) collect: [:i | 'inst' , i printString]

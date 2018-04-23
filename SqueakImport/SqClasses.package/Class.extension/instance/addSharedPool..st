@@ -6,6 +6,6 @@ addSharedPool: aSharedPool
 
 	(self sharedPools includes: aSharedPool)
 		ifTrue: [^self error: 'This is already in my shared pool list'].
-	sharedPools == nil
-		ifTrue: [sharedPools := OrderedCollection with: aSharedPool]
-		ifFalse: [sharedPools add: aSharedPool]
+	self sharedPools == nil
+		ifTrue: [self sharedPools: (OrderedCollection with: aSharedPool)]
+		ifFalse: [self sharedPools add: aSharedPool]

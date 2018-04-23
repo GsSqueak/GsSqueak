@@ -1,6 +1,6 @@
 *SqClasses-queries
 whichSuperclassSatisfies: aBlock 
 	(aBlock value: self) ifTrue: [^self].
-	^superclass isNil 
+	^ self superclass isNil 
 		ifTrue: [nil]
-		ifFalse: [superclass whichSuperclassSatisfies: aBlock]
+		ifFalse: [self superclass whichSuperclassSatisfies: aBlock]

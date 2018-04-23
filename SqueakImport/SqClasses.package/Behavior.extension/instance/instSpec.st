@@ -21,4 +21,4 @@ instSpec
 	 number of elements missing up to the slot size.  For example, a 2-byte ByteString instance
 	 has format 18 in 32-bits, since its size is one 32-bit slot - 2 bytes ((18 bitAnd: 3) = 2), and
 	 22 in 64 bits, since its size is one 64-bit slot - 6 bytes ((22 bitAnd: 7) = 6)."
-	^(format bitShift: -16) bitAnd: 16r1F
+	^ self shouldBeImplemented

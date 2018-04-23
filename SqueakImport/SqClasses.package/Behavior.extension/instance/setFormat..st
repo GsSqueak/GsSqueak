@@ -4,4 +4,4 @@ setFormat: aFormatInstanceDescription
      ie a description of the number of instance variables and whether the class is
      compact, variable sized"
 
-	format := aFormatInstanceDescription
+	self shouldNotImplement

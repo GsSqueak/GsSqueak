@@ -3,13 +3,13 @@ instVarIndexFor: instVarName ifAbsent: aBlock
 	"Answer the index of the named instance variable."
 
 	| index |
-	index := instanceVariables
+	index := self instVarNames
 		ifNil: [ 0 ]
-		ifNotNil: [ instanceVariables indexOf: instVarName ].
+		ifNotNil: [ self instVarNames indexOf: instVarName ].
 	index = 0 ifTrue: [
-		^superclass
+		^ superClass
 			ifNil: [ aBlock value ]
-			ifNotNil: [ superclass instVarIndexFor: instVarName ifAbsent: aBlock ] ].
-	^superclass 
+			ifNotNil: [ superClass instVarIndexFor: instVarName ifAbsent: aBlock ] ].
+	^ superClass
 		ifNil: [ index ]
-		ifNotNil: [ index + superclass instSize ]
+		ifNotNil: [ index + superClass instSize ]

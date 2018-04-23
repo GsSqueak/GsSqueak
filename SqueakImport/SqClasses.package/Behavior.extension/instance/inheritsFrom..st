@@ -4,7 +4,7 @@ inheritsFrom: aClass
 	chain."
 
 	| aSuperclass |
-	aSuperclass := superclass.
+	aSuperclass := self superclass.
 	[aSuperclass == nil]
 		whileFalse: 
 			[aSuperclass == aClass ifTrue: [^true].

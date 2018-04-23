@@ -12,6 +12,6 @@ canFindWithoutEnvironment: varName
 	].
 
 	"Finally look higher up the superclass chain and fail at the end."
-	superclass == nil
+	self superclass == nil
 		ifTrue: [^ false]
-		ifFalse: [^ superclass canFindWithoutEnvironment: varName].
+		ifFalse: [^ self superclass canFindWithoutEnvironment: varName].

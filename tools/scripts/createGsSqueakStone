@@ -47,6 +47,11 @@ _clearSubclassesDisallowed
 %
 send Behavior _clearSubclassesDisallowed
 
+run
+Behavior addInstVar: 'organization'.
+Class addInstVar: 'environment'
+%
+
 env 7
 method: Class
 name
