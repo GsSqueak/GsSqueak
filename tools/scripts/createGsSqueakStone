@@ -2,15 +2,17 @@
 set -e
 set -x
 
-restore=true
-while getopts ":n:r:" opt; do
+restore=false
+while getopts "r" opt; do
 	case $opt in
-		n) name="$OPTARG"
-		;;
 		r) restore=true
 		;;
 	esac
 done
+
+shift $((OPTIND-1))
+name=$1;
+
 
 if $restore
 then

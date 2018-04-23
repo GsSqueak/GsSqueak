@@ -1,6 +1,7 @@
 translating
 asGemstoneNodeInEnvironment: env
   | gsMethodNode |
+  SqBlockNode lexLevel: 1.
   SqParser methodVarDict: nil.
   gsMethodNode := GsComMethNode newSmalltalk.
   gsMethodNode
