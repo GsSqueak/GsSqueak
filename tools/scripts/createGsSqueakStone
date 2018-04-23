@@ -111,6 +111,7 @@ login
 run
 SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: anObject' inEnv: 7.
 UserGlobals at: #ByteString put: String.
+SqueakEnvironment recompileAllMethods.
 %
 commit
 logout
