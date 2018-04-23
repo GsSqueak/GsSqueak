@@ -1,6 +1,7 @@
 translating
 asGemstoneNodeInEnvironment: env
-  gsBlock := GsComBlockNode new lexLevel: 1.
+  gsBlock := GsComBlockNode new lexLevel: LexLevel.
+  LexLevel := LexLevel + 1.
   self arguments
     do: [ :arg | gsBlock appendArg: (arg asGemstoneLeafInEnvironment: env forBlock: self) ].
   self temporaries
@@ -11,4 +12,5 @@ asGemstoneNodeInEnvironment: env
         ifTrue: [ gsBlock appendTemp: gsVarLeaf ] ].
   self statements
     do: [ :statement | gsBlock appendStatement: (statement asGemstoneNodeInEnvironment: env) ].
+  LexLevel := LexLevel - 1.
   ^ gsBlock
