@@ -18,5 +18,5 @@ asGemstoneNodeInEnvironment: env
   self key = 'super'
     ifTrue: [ ^ gsVariableNode leaf: GsComVarLeaf new initializeSuper ].
   self key = 'thisContext'
-    ifTrue: [ ^ Context asSqParseNode asGemstoneNodeInEnvironment: env ].
+    ifTrue: [ ^ SqContext asSqParseNode asGemstoneNodeInEnvironment: env ].
   self fail
