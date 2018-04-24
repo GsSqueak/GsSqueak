@@ -1,8 +1,8 @@
 *SqClasses-class hierarchy
 subclasses
 	"Answer the receiver's subclasses."
-	thisClass == nil ifTrue:[^#()].
-	^thisClass subclasses 
+	destClass == nil ifTrue:[^#()].
+	^destClass subclasses 
 		select:[:aSubclass| aSubclass isMeta not] 
 		thenCollect:[:aSubclass| aSubclass class]
 

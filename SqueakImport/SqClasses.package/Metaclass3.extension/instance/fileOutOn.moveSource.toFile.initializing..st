@@ -4,4 +4,4 @@ fileOutOn: aFileStream moveSource: moveSource toFile: fileIndex initializing: aB
 	(aBool
 	 and: [moveSource == false
 	 and: [self methodDict includesKey: #initialize]]) ifTrue: 
-		[aFileStream cr; cr; nextChunkPut: thisClass name , ' initialize'; cr]
+		[aFileStream cr; cr; nextChunkPut: destClass name , ' initialize'; cr]

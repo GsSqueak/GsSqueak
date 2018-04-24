@@ -5,5 +5,5 @@ canUnderstand: selector
 	receiver's class or any of its superclasses."
 
 	(self includesSelector: selector) ifTrue: [^true].
-	superclass == nil ifTrue: [^false].
-	^superclass canUnderstand: selector
+	self superclass == nil ifTrue: [^false].
+	^ self superclass canUnderstand: selector

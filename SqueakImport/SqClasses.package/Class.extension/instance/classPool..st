@@ -1,3 +1,3 @@
 *SqClasses-accessing
 classPool: aDictionary
-	classPool := aDictionary
+	self shouldNotImplement

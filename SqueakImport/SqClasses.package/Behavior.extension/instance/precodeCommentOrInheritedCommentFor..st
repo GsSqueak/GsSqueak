@@ -7,8 +7,8 @@ precodeCommentOrInheritedCommentFor: selector
 	| aSuper aComment |
 	^ (aComment := self firstPrecodeCommentFor: selector) isEmptyOrNil
 		ifTrue: [(self == Behavior
-					or: [superclass == nil
-							or: [(aSuper := superclass whichClassIncludesSelector: selector) == nil]])
+					or: [self superclass == nil
+							or: [(aSuper := self superclass whichClassIncludesSelector: selector) == nil]])
 				ifFalse: [aSuper precodeCommentOrInheritedCommentFor: selector]
 			"ActorState precodeCommentOrInheritedCommentFor: #printOn:"]
 		ifFalse: [aComment]

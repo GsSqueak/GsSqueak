@@ -5,8 +5,8 @@ possibleVariablesFor: misspelled continuedFrom: oldResults
 	results := misspelled correctAgainstDictionary: self classPool continuedFrom: oldResults.
 	self sharedPools do: [:pool | 
 		results := misspelled correctAgainstDictionary: pool continuedFrom: results ].
-	superclass == nil
+	self superclass == nil
 		ifTrue: 
 			[ ^ misspelled correctAgainstDictionary: self environment continuedFrom: results ]
 		ifFalse:
-			[ ^ superclass possibleVariablesFor: misspelled continuedFrom: results ]
+			[ ^ self superclass possibleVariablesFor: misspelled continuedFrom: results ]

@@ -4,8 +4,7 @@ instVarNameForIndex: index
 
 	| superInstSize |
 	index > self instSize ifTrue: [^nil].
-	superInstSize := superclass isNil ifTrue: [0] ifFalse: [superclass instSize].
+	superInstSize := superClass isNil ifTrue: [0] ifFalse: [superClass instSize].
 	index > superInstSize ifTrue:
-		[^instanceVariables at: index - superInstSize].
-	superclass isNil ifTrue: [^nil].
-	^superclass instVarNameForIndex: index
+		[^ self instVarNames at: index - superInstSize].
+	^ superClass ifNotNil: [:cls | cls instVarNameForIndex: index]

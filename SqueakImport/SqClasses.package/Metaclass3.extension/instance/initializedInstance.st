@@ -1,4 +1,4 @@
 *SqClasses-instance creation
 initializedInstance
-	thisClass class == self ifFalse: [^self new].
-	^thisClass
+	destClass class == self ifFalse: [^self new].
+	^destClass

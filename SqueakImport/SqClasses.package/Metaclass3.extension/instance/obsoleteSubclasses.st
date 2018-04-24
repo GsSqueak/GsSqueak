@@ -1,8 +1,8 @@
 *SqClasses-class hierarchy
 obsoleteSubclasses
 	"Answer the receiver's subclasses."
-	thisClass == nil ifTrue:[^#()].
-	^thisClass obsoleteSubclasses 
+	destClass == nil ifTrue:[^#()].
+	^destClass obsoleteSubclasses 
 		select:[:aSubclass| aSubclass isMeta not] 
 		thenCollect:[:aSubclass| aSubclass class]
 

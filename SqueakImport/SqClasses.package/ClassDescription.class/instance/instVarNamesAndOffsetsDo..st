@@ -6,7 +6,7 @@ instVarNamesAndOffsetsDo: aBinaryBlock
 	 same names occurring earlier."
 
 	| superInstSize |
-	(superInstSize := superclass notNil ifTrue: [superclass instSize] ifFalse: [0]) > 0 ifTrue:
-		[superclass instVarNamesAndOffsetsDo: aBinaryBlock].
+	(superInstSize := superClass notNil ifTrue: [superClass instSize] ifFalse: [0]) > 0 ifTrue:
+		[superClass instVarNamesAndOffsetsDo: aBinaryBlock].
 	1 to: self instSize - superInstSize do:
-		[:i| aBinaryBlock value: (instanceVariables at: i) value: i + superInstSize]
+		[:i| aBinaryBlock value: (self instVarNames at: i) value: i + superInstSize]

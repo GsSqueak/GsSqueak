@@ -6,4 +6,4 @@ format
 	 inst vars, if any, and a 5-bit format field, describing the kind of class.  c.f. instSpec.
 		(msb)<5 bit format><16 bit #fixed fields>(lsb)"
 
-	^format
+	self notYetImplemented

@@ -4,8 +4,4 @@ allInstVarNames
 	Array ordering is the order in which the variables are stored and 
 	accessed by the interpreter."
 
-	| vars |
-	superclass == nil
-		ifTrue: [vars := self instVarNames copy]	"Guarantee a copy is answered."
-		ifFalse: [vars := superclass allInstVarNames , self instVarNames].
-	^vars
+	^ self _env0 allInstVarNames

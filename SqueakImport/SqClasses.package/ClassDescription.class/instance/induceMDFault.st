@@ -5,6 +5,4 @@ induceMDFault
 	See: ClassDescription>>recoverFromMDFault
 	and ImageSegment>>discoverActiveClasses."
 
-	organization := Array with: methodDict with: organization.
-	methodDict := nil.
-	self flushCache
+	self shouldNotImplement

@@ -1,6 +1,6 @@
 *SqClasses-testing
 canZapMethodDictionary
 	"Return true if it is safe to zap the method dictionary on #obsolete"
-	thisClass == nil
+	destClass == nil
 		ifTrue:[^true]
-		ifFalse:[^thisClass canZapMethodDictionary]
+		ifFalse:[^destClass canZapMethodDictionary]
