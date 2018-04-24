@@ -1,3 +1,5 @@
+sudo: required
+
 git:
   lfs_skip_smudge: true
   depth: 5
