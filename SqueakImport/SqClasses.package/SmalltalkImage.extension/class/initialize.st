@@ -2,5 +2,8 @@
 initialize
 	"SmalltalkImage initialize"
 
-	self initializeStartUpList.
-	self initializeShutDownList.
+	"TODO"
+	self flag: #gssqueak.
+
+	"self initializeStartUpList."
+	"self initializeShutDownList."
