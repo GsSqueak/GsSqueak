@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "fbs 1/26/2013 00:20",
-	"instvars" : [
-		 ],
-	"name" : "SubclassResponsibility",
-	"pools" : [
-		 ],
-	"super" : "NotImplemented",
-	"type" : "normal" }
+{"super": "NotImplemented", "classvars": [], "instvars": [], "name": "SubclassResponsibility", "pools": [], "classinstvars": [], "commentStamp": "fbs 1/26/2013 00:20", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}

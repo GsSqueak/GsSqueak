@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "InMidstOfFileinNotification",
-	"pools" : [
-		 ],
-	"super" : "Notification",
-	"type" : "normal" }
+{"super": "Notification", "classvars": [], "instvars": [], "name": "InMidstOfFileinNotification", "pools": [], "classinstvars": [], "commentStamp": "", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}

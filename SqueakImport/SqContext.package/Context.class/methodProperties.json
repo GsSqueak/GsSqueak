@@ -1,9 +1,15 @@
 {
 	"class" : {
+		"asSqParseNode" : " 04/24/2018 05:14:20",
 		"createContext" : "",
 		"secondMethod" : "",
 		"senderMethod" : "",
 		"stackClass" : "",
 		"thirdMethod" : "" },
 	"instance" : {
+		"contextTag" : " 04/24/2018 05:14:20",
+		"findNextHandlerContextStarting" : "",
+		"isHandlerContext" : "",
+		"nextHandlerContext" : "",
+		"receiver" : " 04/24/2018 05:14:20",
 		"sender" : "" } }

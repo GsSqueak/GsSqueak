@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "IllegalResumeAttempt",
-	"pools" : [
-		 ],
-	"super" : "Exception",
-	"type" : "normal" }
+{"super": "Exception", "classvars": [], "instvars": [], "name": "IllegalResumeAttempt", "pools": [], "classinstvars": [], "commentStamp": "<historical>", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}

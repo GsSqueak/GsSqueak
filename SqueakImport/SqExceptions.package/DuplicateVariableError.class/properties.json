@@ -1,15 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "ar 2/13/2010 15:05",
-	"instvars" : [
-		"superclass",
-		"variable" ],
-	"name" : "DuplicateVariableError",
-	"pools" : [
-		 ],
-	"super" : "Error",
-	"type" : "normal" }
+{"super": "Error", "classvars": [], "instvars": ["superclass", "variable"], "name": "DuplicateVariableError", "pools": [], "classinstvars": [], "commentStamp": "ar 2/13/2010 15:05", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}

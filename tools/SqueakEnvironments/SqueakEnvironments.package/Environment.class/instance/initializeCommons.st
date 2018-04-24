@@ -17,3 +17,4 @@ initializeCommons
   self at: #'BlockClosure' put: BlockClosure.
   self at: #'UndefinedObject' put: UndefinedObject.
   self at: #'ByteString' put: String.
+  self at: #'Context' put: Context.

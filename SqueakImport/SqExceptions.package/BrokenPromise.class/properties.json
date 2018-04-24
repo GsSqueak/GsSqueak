@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "tonyg 2/17/2017 13:53",
-	"instvars" : [
-		"promise" ],
-	"name" : "BrokenPromise",
-	"pools" : [
-		 ],
-	"super" : "Error",
-	"type" : "normal" }
+{"super": "Error", "classvars": [], "instvars": ["promise"], "name": "BrokenPromise", "pools": [], "classinstvars": [], "commentStamp": "tonyg 2/17/2017 13:53", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}
