@@ -67,6 +67,7 @@
 		"highBitOfByte" : "",
 		"highBitOfMagnitude" : "",
 		"integerPart" : "",
+		"isFraction" : "",
 		"isInteger" : "",
 		"isProbablyPrimeWithK:andQ:" : "",
 		"lastDigit" : "",
