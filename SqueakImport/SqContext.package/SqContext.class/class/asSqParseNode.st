@@ -4,6 +4,6 @@ asSqParseNode
     receiver:
         (SqLiteralVariableNode new
             key: (SymbolAssociation new key: #'Context'
-            name: #'Context');
+            value: #'Context'));
     selector: (SqSelectorNode new key: #'createContext');
     arguments: #()

@@ -1,5 +1,6 @@
 initialize-release
 initializeCommons
+  self at: #'SmalltalkImage' put: SmalltalkImage.
   self at: #'SmallInteger' put: SmallInteger.
   self at: #'LargeInteger' put: LargeInteger.
   self at: #'Float' put: Float.

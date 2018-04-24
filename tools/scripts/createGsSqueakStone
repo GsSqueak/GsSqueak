@@ -47,11 +47,6 @@ _clearSubclassesDisallowed
 %
 send Behavior _clearSubclassesDisallowed
 
-run
-Behavior addInstVar: 'organization'.
-Class addInstVar: 'environment'
-%
-
 env 7
 method: Class
 name
@@ -67,6 +62,7 @@ todeIt $name mc load BPBugFixes filetree://$GS_HOME/shared/repos/BP2017RH1/tools
 todeIt $name mc load MCEnvSwitch filetree://$GS_HOME/shared/repos/BP2017RH1/tools/MCEnvSwitch
 todeIt $name mc load SqueakParser filetree://$GS_HOME/shared/repos/BP2017RH1/parser
 todeIt $name mc load SqueakEnvironments filetree://$GS_HOME/shared/repos/BP2017RH1/tools/SqueakEnvironments
+todeIt $name mc load SqContext filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 
 startTopaz $name -l << EOF
 login
