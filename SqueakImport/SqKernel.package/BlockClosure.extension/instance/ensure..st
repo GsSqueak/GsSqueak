@@ -6,7 +6,6 @@ ensure: aBlock
 	 198 in a context's method as the mark for an ensure:/ifCurtailed: activation."
 
 	| complete returnValue |
-	self halt.
 	returnValue := self valueNoContextSwitch.
 	complete ifNil:[
 		complete := true.
