@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"newForParent:withLabel:" : "Anonymous 04/24/2018 04:01" },
+	"instance" : {
+		"add:" : "Anonymous 04/24/2018 02:02",
+		"count" : "Anonymous 04/24/2018 04:05",
+		"displayUnder:" : "Anonymous 04/24/2018 04:36",
+		"handlesMouseDown:" : "Anonymous 04/24/2018 02:30",
+		"initialize" : "Anonymous 04/24/2018 02:22",
+		"label:" : "Anonymous 04/24/2018 04:00",
+		"mouseDown:" : "Anonymous 04/24/2018 04:22",
+		"parent:" : "Anonymous 04/24/2018 02:01" } }
