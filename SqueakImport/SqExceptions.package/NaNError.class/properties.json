@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Numbers-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "ar 12/14/2010 00:03",
-	"instvars" : [
-		 ],
-	"name" : "NaNError",
-	"pools" : [
-		 ],
-	"super" : "ArithmeticError",
-	"type" : "normal" }
+{"super": "ArithmeticError", "classvars": [], "instvars": [], "name": "NaNError", "pools": [], "classinstvars": [], "commentStamp": "ar 12/14/2010 00:03", "category": "SqExceptions-Kernel-Numbers-Exceptions", "type": "normal"}

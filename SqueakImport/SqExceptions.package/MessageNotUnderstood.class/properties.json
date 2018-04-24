@@ -1,16 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		"message",
-		"receiver",
-		"reachedDefaultHandler" ],
-	"name" : "MessageNotUnderstood",
-	"pools" : [
-		 ],
-	"super" : "NotImplemented",
-	"type" : "normal" }
+{"super": "NotImplemented", "classvars": [], "instvars": ["message", "receiver", "reachedDefaultHandler"], "name": "MessageNotUnderstood", "pools": [], "classinstvars": [], "commentStamp": "<historical>", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}

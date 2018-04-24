@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Exceptions-Kernel",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "ExceptionAboutToReturn",
-	"pools" : [
-		 ],
-	"super" : "Notification",
-	"type" : "normal" }
+{"super": "Notification", "classvars": [], "instvars": [], "name": "ExceptionAboutToReturn", "pools": [], "classinstvars": [], "commentStamp": "<historical>", "category": "SqExceptions-Kernel-Exceptions-Kernel", "type": "normal"}

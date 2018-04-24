@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Numbers-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "ArithmeticError",
-	"pools" : [
-		 ],
-	"super" : "Error",
-	"type" : "normal" }
+{"super": "Error", "classvars": [], "instvars": [], "name": "ArithmeticError", "pools": [], "classinstvars": [], "commentStamp": "", "category": "SqExceptions-Kernel-Numbers-Exceptions", "type": "normal"}

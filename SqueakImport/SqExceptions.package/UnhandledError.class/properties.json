@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "mt 8/25/2015 14:42",
-	"instvars" : [
-		"exception" ],
-	"name" : "UnhandledError",
-	"pools" : [
-		 ],
-	"super" : "Exception",
-	"type" : "normal" }
+{"super": "Exception", "classvars": [], "instvars": ["exception"], "name": "UnhandledError", "pools": [], "classinstvars": [], "commentStamp": "mt 8/25/2015 14:42", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}
