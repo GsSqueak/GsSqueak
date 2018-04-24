@@ -1,5 +1,5 @@
 as yet unclassified
-display
+display: aBlock
   | myMorph commitBtn |
   (SessionTemps current at: #'Display' ifAbsent: [ nil ])
     ifNotNil: [ (SessionTemps current at: #'Display') close ].
@@ -24,8 +24,10 @@ display
   (SessionTemps current at: #'World') viewBox: (0 @ 0 corner: 640 @ 480).	"Workspace open.	 TextMorph new openInWorld."	"BPTestMorph new openInWorld."
   myMorph := BPTestMorph new.
   myMorph openInWorld.
+  aBlock value.
   self ceateButtonBarFor: myMorph.
-  [ myMorph wantsToLive ]
+  wantsToLive := true.
+  [ wantsToLive ]
     whileTrue: [ (SessionTemps current at: #'World') doOneCycle	"Simulate Animation  Framework" ].
   (SessionTemps current at: #'Display') close.
   Transcript
