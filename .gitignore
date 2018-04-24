@@ -10,4 +10,5 @@ apps/AmpelServer/AmpelServer
 *.o
 *.autosave
 *.kate-swp
+*.directory
 
