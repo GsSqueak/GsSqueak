@@ -2,5 +2,5 @@
 initialize
 	"SmalltalkImage initialize"
 
-	self initializeStartUpList.
-	self initializeShutDownList.
+	"self initializeStartUpList."
+	"self initializeShutDownList."
