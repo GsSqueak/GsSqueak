@@ -27,7 +27,30 @@ loadPanama
                   value := entity at: index.	"Convert the value"
                   value := self convertValue: value fromKey: key asSymbol.
                   newEntity at: key put: value ].
-              Entities at: (newEntity at: #'node_id') put: newEntity	"System commit" ] ] ]	"  Entities := IdentityDictionary withAll: Entities"	"
+              newEntity at: 'sourceFile' put: fileName.
+              Entities at: (newEntity at: #'node_id') put: newEntity.
+              self lazyCommit ] ] ].
+  relationFiles
+    do: [ :fileName | 
+      | keys rawEntities |
+      (ServerFileDirectory on: '/home/jakob/Studium/bp/panama')
+        readOnlyFileNamed: fileName
+        do: [ :strm | 
+          | parser |
+          parser := NeoCSVReader on: strm.
+          parser next.
+          parser
+            do: [ :relation | 
+              | source relationName target |
+              source := relation first asNumber.
+              relationName := relation second asSymbol.
+              target := relation third asNumber.
+              (Entities at: source) at: relationName put: (Entities at: target).
+              self lazyCommit ] ] ]	"
+                  value := self convertValue: value fromKey: key asSymbol.
+                  newEntity at: key put: value ].
+              Entities at: (newEntity at: #'node_id') put: newEntity.
+              self lazyCommit ] ] ]."	"  Entities := IdentityDictionary withAll: Entities"	"
   resultRelations := OrderedCollection new.
   relationFiles
     do: [ :fileName | 

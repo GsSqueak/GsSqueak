@@ -1,0 +1,4 @@
+
+
+script: 
+- tools/scrips/setupGs.sh
