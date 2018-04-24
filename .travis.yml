@@ -10,5 +10,6 @@ branches:
 
 install:
   - tools/scripts/setupGs.sh
+  - tools/scripts/setupTode.sh
 
 script: true
