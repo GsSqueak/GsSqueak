@@ -3,12 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"commitCtr",
-		"Entities" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "BPPanama",
+	"name" : "BPPanamaVis1",
 	"pools" : [
 		 ],
 	"super" : "Object",
