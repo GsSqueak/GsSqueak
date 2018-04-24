@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Numbers-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "nice 4/20/2011 22:13",
-	"instvars" : [
-		 ],
-	"name" : "DomainError",
-	"pools" : [
-		 ],
-	"super" : "ArithmeticError",
-	"type" : "normal" }
+{"super": "ArithmeticError", "classvars": [], "instvars": [], "name": "DomainError", "pools": [], "classinstvars": [], "commentStamp": "nice 4/20/2011 22:13", "category": "SqExceptions-Kernel-Numbers-Exceptions", "type": "normal"}

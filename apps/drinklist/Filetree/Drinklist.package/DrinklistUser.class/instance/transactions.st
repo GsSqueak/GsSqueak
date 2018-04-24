@@ -1,4 +1,0 @@
-accessing
-transactions
-	
-	^ transactions

@@ -23,5 +23,5 @@ ceateButtonBarFor: aTestMorph
   exitBtn := (SimpleButtonMorph newWithLabel: 'exit')
     openInWorld;
     left: changeColorBtn right;
-    target: aTestMorph;
+    target: self;
     actionSelector: 'die'

@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Numbers-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "NumberParserError",
-	"pools" : [
-		 ],
-	"super" : "Error",
-	"type" : "normal" }
+{"super": "Error", "classvars": [], "instvars": [], "name": "NumberParserError", "pools": [], "classinstvars": [], "commentStamp": "", "category": "SqExceptions-Kernel-Numbers-Exceptions", "type": "normal"}

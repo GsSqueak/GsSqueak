@@ -76,6 +76,7 @@ logout
 exit
 EOF
 
+todeIt $name mc load SqContext7 filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqBooleans filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqClasses filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 startTopaz $name -l << EOF
@@ -119,4 +120,5 @@ logout
 exit
 EOF
 todeIt -D $name mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SqExceptions filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 

@@ -1,0 +1,14 @@
+{
+	"category" : "BPPanama",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"statistic" ],
+	"name" : "BPPanamaVis1",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

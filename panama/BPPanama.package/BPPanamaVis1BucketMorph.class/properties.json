@@ -1,0 +1,16 @@
+{
+	"category" : "BPPanama",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"bucket",
+		"label" ],
+	"name" : "BPPanamaVis1BucketMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

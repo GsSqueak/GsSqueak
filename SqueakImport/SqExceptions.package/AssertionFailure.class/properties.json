@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "gh 5/2/2002 20:29",
-	"instvars" : [
-		 ],
-	"name" : "AssertionFailure",
-	"pools" : [
-		 ],
-	"super" : "Halt",
-	"type" : "normal" }
+{"super": "Halt", "classvars": [], "instvars": [], "name": "AssertionFailure", "pools": [], "classinstvars": [], "commentStamp": "gh 5/2/2002 20:29", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}

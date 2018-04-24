@@ -1,15 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		"result",
-		"deadHome" ],
-	"name" : "BlockCannotReturn",
-	"pools" : [
-		 ],
-	"super" : "Error",
-	"type" : "normal" }
+{"super": "Error", "classvars": [], "instvars": ["result", "deadHome"], "name": "BlockCannotReturn", "pools": [], "classinstvars": [], "commentStamp": "<historical>", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}

@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "NotImplemented",
-	"pools" : [
-		 ],
-	"super" : "Error",
-	"type" : "normal" }
+{"super": "Error", "classvars": [], "instvars": [], "name": "NotImplemented", "pools": [], "classinstvars": [], "commentStamp": "", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}

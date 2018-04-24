@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "ProvideAnswerNotification",
-	"pools" : [
-		 ],
-	"super" : "Notification",
-	"type" : "normal" }
+{"super": "Notification", "classvars": [], "instvars": [], "name": "ProvideAnswerNotification", "pools": [], "classinstvars": [], "commentStamp": "", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}

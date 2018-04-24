@@ -1,3 +1,3 @@
 as yet unclassified
 defaultWorldColor
-  ^ Color red
+  ^ Color lightGray

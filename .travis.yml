@@ -1,0 +1,12 @@
+git:
+  lfs_skip_smudge: true
+  depth: 5
+
+branches:
+  only:
+    - master
+
+install:
+  - tools/scripts/setupGs.sh
+
+script: true

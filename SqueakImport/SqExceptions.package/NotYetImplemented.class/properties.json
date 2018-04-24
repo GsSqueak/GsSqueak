@@ -1,16 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "jcg 10/21/2009 01:20",
-	"instvars" : [
-		"receiverClass",
-		"selector",
-		"context" ],
-	"name" : "NotYetImplemented",
-	"pools" : [
-		 ],
-	"super" : "NotImplemented",
-	"type" : "normal" }
+{"super": "NotImplemented", "classvars": [], "instvars": ["receiverClass", "selector", "context"], "name": "NotYetImplemented", "pools": [], "classinstvars": [], "commentStamp": "jcg 10/21/2009 01:20", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}

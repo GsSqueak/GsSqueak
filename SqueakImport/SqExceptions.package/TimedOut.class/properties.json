@@ -1,14 +1,1 @@
-{
-	"category" : "Kernel-Exceptions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "brp 10/21/2004 17:47",
-	"instvars" : [
-		 ],
-	"name" : "TimedOut",
-	"pools" : [
-		 ],
-	"super" : "Notification",
-	"type" : "normal" }
+{"super": "Notification", "classvars": [], "instvars": [], "name": "TimedOut", "pools": [], "classinstvars": [], "commentStamp": "brp 10/21/2004 17:47", "category": "SqExceptions-Kernel-Exceptions", "type": "normal"}
