@@ -1,0 +1,4 @@
+accessing
+byteSize
+
+	^ self subclassResponsibility

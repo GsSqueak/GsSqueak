@@ -1,0 +1,14 @@
+{
+	"category" : "*SqCollectionLiterals-Collections-Strings",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "yo 10/19/2004 22:34",
+	"instvars" : [
+		 ],
+	"name" : "QuadByteString",
+	"pools" : [
+		 ],
+	"super" : "String",
+	"type" : "words" }
