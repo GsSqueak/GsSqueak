@@ -1,3 +1,4 @@
+*SqueakParser-asGemstoneLiteralNode
 asGemstoneLiteralNode
   | gsArrayNode |
   gsArrayNode := GsComLiteralNode new leaf: self asGemstoneLitLeaf.
