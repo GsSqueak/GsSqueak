@@ -27,7 +27,7 @@ loadPanama
                   value := entity at: index.	"Convert the value"
                   value := self convertValue: value fromKey: key asSymbol.
                   newEntity at: key put: value ].
-              newEntity at: 'sourceFile' put: fileName.
+              newEntity at: #'sourceFile' put: fileName.
               Entities at: (newEntity at: #'node_id') put: newEntity.
               self lazyCommit ] ] ].
   relationFiles

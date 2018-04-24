@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"statistic" ],
-	"name" : "BPPanamaVis1",
+		"parent",
+		"bucket",
+		"label" ],
+	"name" : "BPPanamaVis1BucketMorph",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "RectangleMorph",
 	"type" : "normal" }

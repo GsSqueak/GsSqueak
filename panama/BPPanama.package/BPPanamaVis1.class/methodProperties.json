@@ -1,5 +1,10 @@
 {
 	"class" : {
-		 },
+		"createOn:forAttr:" : "Anonymous 04/24/2018 04:30",
+		"setup" : "Anonymous 04/24/2018 04:24" },
 	"instance" : {
-		"createStatisticForData:forAttr:" : "Anonymous 04/24/2018 01:48" } }
+		"display" : "Anonymous 04/24/2018 03:52",
+		"max" : "Anonymous 04/24/2018 04:33",
+		"show" : "Anonymous 04/24/2018 04:25",
+		"statistic:" : "Anonymous 04/24/2018 02:09",
+		"sum" : "Anonymous 04/24/2018 04:06" } }
