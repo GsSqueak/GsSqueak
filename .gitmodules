@@ -1,3 +1,0 @@
-[submodule "apps/drinklist/core"]
-	path = apps/drinklist/core
-	url = https://github.com/marcfreiheit/drinklist.git
