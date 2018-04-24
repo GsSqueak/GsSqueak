@@ -1,4 +1,3 @@
 as yet unclassified
 close
-  bpWindow ifNotNil: [ bpWindow destroy ].
-  bpWindow := nil
+  GraFFIcsLibrary inst destroyWindow

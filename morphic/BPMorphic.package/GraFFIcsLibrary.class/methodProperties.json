@@ -5,6 +5,7 @@
 	"instance" : {
 		"createWindow:" : "TZ 04/13/2018 04:19",
 		"defaultWindow" : "TZ 04/13/2018 04:34",
+		"destroyWindow" : "Anonymous 04/24/2018 01:10",
 		"destroyWindow:" : "TZ 04/13/2018 04:32",
 		"displayString:at:on:" : "TZ 04/13/2018 03:53",
 		"drawContents:" : "TZ 04/13/2018 04:20",

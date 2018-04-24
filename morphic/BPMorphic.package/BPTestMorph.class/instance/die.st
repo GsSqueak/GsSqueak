@@ -1,3 +1,5 @@
 as yet unclassified
 die
-  wantsToLive := false
+  "wantsToLive := false"
+
+  self halt

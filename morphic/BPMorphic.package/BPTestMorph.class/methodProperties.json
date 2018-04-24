@@ -1,24 +1,26 @@
 {
 	"class" : {
 		"ceateButtonBarFor:" : "Anonymous 03/28/2018 00:41",
-		"display" : "TZ 04/13/2018 04:26",
-		"displaySTWB" : "Anonymous 03/22/2018 04:23",
+		"display" : "Anonymous 04/03/2018 00:31",
+		"displaySameMorph" : "Anonymous 04/10/2018 06:17",
 		"getCommon" : "Anonymous 03/20/2018 08:09",
 		"getCommonState" : "Anonymous 03/28/2018 00:45",
 		"initialize" : "TZ 04/11/2018 06:48",
+		"resetCommon" : "Anonymous 04/02/2018 23:25",
 		"resetCommonState" : "Anonymous 03/28/2018 00:46" },
 	"instance" : {
-		"abort" : "Anonymous 03/28/2018 00:59",
+		"abort" : "Anonymous 04/10/2018 05:01",
 		"changeColor" : "Anonymous 03/28/2018 03:57",
 		"click:" : "Anonymous 03/21/2018 06:32",
-		"commit" : "Anonymous 03/28/2018 07:21",
+		"commit" : "Anonymous 04/24/2018 01:12",
 		"continue" : "Anonymous 03/28/2018 07:21",
-		"die" : "Anonymous 03/28/2018 00:35",
+		"die" : "Anonymous 04/10/2018 06:16",
 		"handleExecution" : "Anonymous 03/07/2018 05:45",
 		"initialize" : "Anonymous 03/27/2018 01:28",
 		"keyDown:" : "Anonymous 03/28/2018 00:35",
 		"posFromState" : "Anonymous 03/28/2018 04:03",
 		"posToState" : "Anonymous 03/28/2018 07:21",
+		"reanimate" : "Anonymous 04/02/2018 23:27",
 		"step" : "Anonymous 03/28/2018 06:07",
 		"stepTime" : "Anonymous 03/28/2018 06:06",
-		"wantsToLive" : "Anonymous 03/27/2018 01:28" } }
+		"wantsToLive" : "Anonymous 04/05/2018 07:06" } }
