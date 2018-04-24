@@ -1,6 +1,6 @@
 class initialization
-
+initialize
 	Metaclass3 _env0 superclassForEnv: 7 put: self.
-	Metaclass3 _env0 class _env0 superclassForEnv: 7 put: self _env0 class.
+	Metaclass3 class _env0 superclassForEnv: 7 put: self class.
 	Class _env0 superclassForEnv: 7 put: self.
-	Class _env0 class _env0 superclassForEnv: 7 put: self _env0 class.
+	Class class _env0 superclassForEnv: 7 put: self class.
