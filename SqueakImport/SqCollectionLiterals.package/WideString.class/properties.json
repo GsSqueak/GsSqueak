@@ -1,5 +1,5 @@
 {
-	"category" : "Collections-Strings",
+	"category" : "SqCollectionLiterals-Collections-Strings",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -11,4 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "String",
-	"type" : "words" }
+	"type" : "normal" }
