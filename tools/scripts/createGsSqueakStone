@@ -106,7 +106,6 @@ exit
 EOF
 
 todeIt $name mc load SqKernel filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SqUndefinedObject filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqCharacter filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 
 startTopaz $name -l << EOF
