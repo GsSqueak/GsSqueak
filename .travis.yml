@@ -1,3 +1,4 @@
+language: smalltalk
 sudo: required
 
 env:
