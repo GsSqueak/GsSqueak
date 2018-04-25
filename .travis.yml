@@ -16,5 +16,6 @@ branches:
 install:
   - tools/scripts/setupGs.sh
   - tools/scripts/setupTode.sh
+  - tools/scripts/createStones.sh
 
 script: skip
