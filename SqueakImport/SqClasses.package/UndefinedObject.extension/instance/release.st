@@ -1,3 +1,3 @@
-*SqUndefinedObject-dependents access
+*SqClasses-dependents access
 release
 	"Nil release is a no-op"

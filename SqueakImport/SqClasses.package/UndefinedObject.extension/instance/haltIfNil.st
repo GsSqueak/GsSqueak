@@ -1,3 +1,3 @@
-*SqUndefinedObject-testing
+*SqClasses-testing
 haltIfNil
 	self halt

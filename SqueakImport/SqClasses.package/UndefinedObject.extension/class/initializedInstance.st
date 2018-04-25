@@ -1,3 +1,3 @@
-*SqUndefinedObject-instance creation
+*SqClasses-instance creation
 initializedInstance
 	^ nil

@@ -1,4 +1,4 @@
-*SqUndefinedObject-compiling
+*SqClasses-compiling
 parserClass
 
 	^ Compiler parserClass

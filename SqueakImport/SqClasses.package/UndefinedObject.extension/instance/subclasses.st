@@ -1,4 +1,4 @@
-*SqUndefinedObject-class hierarchy
+*SqClasses-class hierarchy
 subclasses
 	"Return all the subclasses of nil"
 	| classList |

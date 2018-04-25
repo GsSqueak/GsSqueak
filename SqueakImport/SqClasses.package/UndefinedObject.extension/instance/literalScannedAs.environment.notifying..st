@@ -1,3 +1,3 @@
-*SqUndefinedObject-class hierarchy
+*SqClasses-class hierarchy
 literalScannedAs: scannedLiteral environment: anEnvironment notifying: requestor 
 	^ scannedLiteral
