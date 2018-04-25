@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"sortBlock:" : "" },
+	"instance" : {
+		"=" : "",
+		"add:" : "go 4/27/2000 13:19",
+		"addAll:" : "sma 4/28/2000 18:35",
+		"addFirst:" : "go 4/26/2000 17:26",
+		"at:put:" : "sma 4/28/2000 17:47",
+		"copyEmpty" : "MPH 10/23/2000 13:31",
+		"indexForInserting:" : "stp 04/23/1999 05:36",
+		"insert:before:" : "go 4/26/2000 17:17",
+		"median" : "tk 3/28/1999 22:55",
+		"reSort" : "ul 6/8/2011 23:18",
+		"reverseInPlace" : "ul 3/15/2011 15:03",
+		"reversed" : "nice 2/26/2008 22:28",
+		"should:precede:" : "hg 12/17/2001 19:30",
+		"sort:" : "ul 12/23/2009 12:12",
+		"sortBlock" : "",
+		"sortBlock:" : "ul 6/2/2016 20:13",
+		"sortTopologically" : "hg 1/2/2002 13:34" } }

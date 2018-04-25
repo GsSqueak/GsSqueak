@@ -5,5 +5,5 @@ instVarAt: index put: anObject
 	 instance variables. Fail if the index is not an Integer or is not the index of a fixed
 	 or indexed variable. Essential. See Object documentation whatIsAPrimitive."
 
-	<primitive: 604>
+	<primitive: 604> "Gemstone primitive"
 	self primitiveFailed

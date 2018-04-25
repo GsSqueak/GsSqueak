@@ -1,0 +1,14 @@
+{
+	"category" : "SqCollections-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Stream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

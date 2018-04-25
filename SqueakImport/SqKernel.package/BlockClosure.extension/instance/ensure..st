@@ -5,11 +5,4 @@ ensure: aBlock
 	 implemented as a primitive.  Primitive 198 always fails.  The VM uses prim
 	 198 in a context's method as the mark for an ensure:/ifCurtailed: activation."
 
-	| complete returnValue |
-	returnValue := self valueNoContextSwitch.
-	complete ifNil:[
-		complete := true.
-		aBlock value.
-	].
-	^ returnValue
-
+	^ self _env0 ensure: aBlock
