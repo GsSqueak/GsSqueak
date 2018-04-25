@@ -5,5 +5,5 @@ instVarAt: index
 	 variables. Fail if the index is not an Integer or is not the index of a fixed or
 	 indexed variable. Essential. See Object documentation whatIsAPrimitive."
 
-	<primitive: 611>
+	<primitive: 611> "Gemstone primitive"
 	self primitiveFailed

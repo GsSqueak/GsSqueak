@@ -5,12 +5,12 @@ at: index put: aCharacter
 	the argument is not a Character. Essential. See Object documentation
 	whatIsAPrimitive."
 
-	<primitive: 293> "GemStone privimitve"
+	<primitive: 293> "GemStone primitive"
 	aCharacter isCharacter 
 		ifFalse:[^self errorImproperStore].
 	aCharacter isOctetCharacter ifFalse:[
 		"Convert to WideString"
-		self becomeForward: (WideString from: self).
+		self _env0 _convertToQuadByte.
 		^self at: index put: aCharacter.
 	].
 	index isInteger
