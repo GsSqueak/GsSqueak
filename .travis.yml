@@ -1,5 +1,10 @@
 sudo: required
 
+env:
+  GS_HOME=$TRAVIS_BUILD_DIR/GsDevKit_home
+  GS_SCRIPTS=$GS_HOME/bin
+  GSSQUEAK_SCRIPTS=$GS_HOME/shared/repos/BP2017RH1/tools/scripts
+
 git:
   lfs_skip_smudge: true
   depth: 5
@@ -12,4 +17,4 @@ install:
   - tools/scripts/setupGs.sh
   - tools/scripts/setupTode.sh
 
-script: true
+script: skip
