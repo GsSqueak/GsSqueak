@@ -1,3 +1,5 @@
-*SqClasses-as yet unclassified
+*SqUndefinedObject-testing
 ifNil: aBlock
-    ^aBlock value
+	"A convenient test, in conjunction with Object ifNil:"
+
+	^ aBlock value

@@ -8,5 +8,5 @@ basicNew: anInteger
 	 If the primitive fails because space is low then the scavenger will run before the
 	 method is activated.  Check args and retry via handleFailingBasicNew: if they're OK."
 
-	<primitive: 52>
+	<primitive: 52> "GemStone primitive"
 	self primitiveFailed
