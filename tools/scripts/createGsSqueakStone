@@ -123,7 +123,7 @@ commit
 logout
 exit
 EOF
-todeIt -D $name mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqCollections filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqExceptions filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 
