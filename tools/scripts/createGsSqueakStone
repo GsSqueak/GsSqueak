@@ -113,6 +113,8 @@ login
 run
 SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: anObject' inEnv: 7.
 SmalltalkImage newMethodFromSqueakString: 'addToShutDownList: anObject' inEnv: 7.
+SmalltalkImage newMethodFromSqueakString: 'removeFromStartUpList: anObject' inEnv: 7.
+SmalltalkImage newMethodFromSqueakString: 'removeFromShutDownList: anObject' inEnv: 7.
 UserGlobals at: #ByteString put: String.
 UserGlobals at: #ByteSymbol put: Symbol.
 SqueakEnvironment recompileAllMethods.
