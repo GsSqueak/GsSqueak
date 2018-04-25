@@ -1,6 +1,9 @@
 language: smalltalk
 sudo: required
 
+notifications:
+  email: false
+
 env:
   GS_HOME=$TRAVIS_BUILD_DIR/GsDevKit_home
   GS_SCRIPTS=$GS_HOME/bin
