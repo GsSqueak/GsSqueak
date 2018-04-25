@@ -4,4 +4,4 @@ or: alternativeBlock
 	the argument, alternativeBlock; otherwise answer true without 
 	evaluating the argument."
 
-	self _env0 or: alternativeBlock 
+	^ self _env0 or: alternativeBlock 

@@ -4,6 +4,6 @@ basicSize
 	This value is the same as the largest legal subscript. Essential. Do not 
 	override in any subclass. See Object documentation whatIsAPrimitive."
 
-	<primitive: 0>
+	<primitive: 0> "Gemstone primitive"
 	"The number of indexable fields of fixed-length objects is 0"
 	^0	

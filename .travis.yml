@@ -1,9 +1,14 @@
+language: smalltalk
 sudo: required
+
+notifications:
+  email: false
 
 env:
   GS_HOME=$TRAVIS_BUILD_DIR/GsDevKit_home
   GS_SCRIPTS=$GS_HOME/bin
   GSSQUEAK_SCRIPTS=$GS_HOME/shared/repos/BP2017RH1/tools/scripts
+  PATH=$PATH:$GS_HOME/bin
 
 git:
   lfs_skip_smudge: true
@@ -16,5 +21,7 @@ branches:
 install:
   - tools/scripts/setupGs.sh
   - tools/scripts/setupTode.sh
+  - downloadGemStone -f -d 3.5.0-EA-43870 3.5.0 # download version will change with each drop
+  - tools/scripts/createStones.sh
 
 script: skip

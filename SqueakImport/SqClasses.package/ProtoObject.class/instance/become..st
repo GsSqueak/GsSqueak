@@ -5,4 +5,4 @@ become: otherObject
 	 now point to the argument, and vice-versa.
 	 Fails if either object is an immediate such as a SmallInteger."
 
-	{self} elementsExchangeIdentityWith: {otherObject}
+	otherObject _env0 become: self

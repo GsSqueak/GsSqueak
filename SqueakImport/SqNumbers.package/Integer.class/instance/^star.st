@@ -1,3 +1,4 @@
 arithmetic
-* anInteger
-^ self _env0 * anInteger
+* aNumber
+  <primitive: 260>
+^ aNumber adaptToInteger: self andSend: #*

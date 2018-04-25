@@ -5,7 +5,7 @@ at: index
 	Integer or is out of bounds. Essential. See Object documentation 
 	whatIsAPrimitive."
 
-	<primitive: 32>
+	<primitive: 32> "Gemstone primitive"
 	index isInteger ifTrue:
 		[self class isVariable
 			ifTrue: [self errorSubscriptBounds: index]
