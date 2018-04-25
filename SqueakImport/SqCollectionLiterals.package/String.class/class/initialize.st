@@ -1,8 +1,9 @@
 *SqCollectionLiterals-*SqCollectionLiterals-initialization
 initialize   "self initialize"
-
 	| order |
 	self initializeSubclasses.
+	WideString initialize.
+
 	AsciiOrder := (0 to: 255) as: ByteArray.
 
 	CaseInsensitiveOrder := AsciiOrder copy.
