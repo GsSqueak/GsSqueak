@@ -19,6 +19,7 @@
 		"alignedTo:" : "",
 		"allMask:" : "",
 		"anyBitOfMagnitudeFrom:to:" : "",
+		"digitAt:" : "",
 		"anyMask:" : "",
 		"asCharacter" : "",
 		"asFloat" : "",
