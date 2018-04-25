@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
+		"byteSubclass:instVarNames:classVars:classInstVars:poolDictionaries:inDictionary:newVersionOf:description:options:" : "",
+		"byteSubclassInNoDictionary:instVarNames:classVars:classInstVars:poolDictionaries:newVersionOf:description:options:" : "",
 		"subclassInNoDictionary:instVarNames:classVars:classInstVars:poolDictionaries:category:options:" : "" } }
