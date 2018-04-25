@@ -1,5 +1,8 @@
 sudo: required
 
+env:
+  GS_HOME=$TRAVIS_BUILD_DIR/GsDevKit_home
+
 git:
   lfs_skip_smudge: true
   depth: 5
@@ -11,5 +14,4 @@ branches:
 install:
   - tools/scripts/setupGs.sh
   - tools/scripts/setupTode.sh
-
 script: true
