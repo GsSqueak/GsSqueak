@@ -1,3 +1,14 @@
 {
-	"name" : "UndefinedObject"
-}
+	"category" : "SqUndefinedObject",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "UndefinedObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
