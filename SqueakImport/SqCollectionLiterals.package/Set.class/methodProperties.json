@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"newFrom:" : "",
+		"quickRehashAllSets" : "ul 11/19/2009 01:15",
+		"rehashAllSets" : "ul 11/19/2009 01:15" },
+	"instance" : {
+		"=" : "ul 10/13/2015 23:29",
+		"add:" : "Igor.Stasenko 11/13/2009 06:59",
+		"addIfNotPresent:" : "eem 6/15/2017 12:22",
+		"asSet" : "ar 11/20/1998 16:34",
+		"collect:" : "ul 11/20/2009 17:33",
+		"copyWithout:" : "sma 5/12/2000 14:45",
+		"do:" : "ar 2/1/2010 19:55",
+		"fixCollisionsFrom:" : "ul 2/4/2010 04:06",
+		"ifAbsentAdd:" : "eem 6/15/2017 11:37",
+		"includes:" : "ul 2/12/2011 01:05",
+		"like:" : "ar 2/1/2010 20:09",
+		"like:ifAbsent:" : "ul 2/19/2010 14:49",
+		"noCheckNoGrowFillFrom:" : "ar 2/1/2010 19:56",
+		"occurrencesOf:" : "ul 3/9/2016 21:48",
+		"postCopy" : "ul 11/19/2009 01:45",
+		"remove:ifAbsent:" : "ul 9/25/2009 00:38",
+		"scanFor:" : "eem 12/3/2016 09:17",
+		"select:" : "nice 5/22/2008 14:56" } }

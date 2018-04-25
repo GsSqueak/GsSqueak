@@ -1,0 +1,16 @@
+{
+	"category" : "SqCollections",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"array",
+		"firstIndex",
+		"lastIndex" ],
+	"name" : "OrderedCollection",
+	"pools" : [
+		 ],
+	"super" : "SequenceableCollection",
+	"type" : "normal" }

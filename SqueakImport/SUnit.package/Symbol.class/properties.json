@@ -1,0 +1,16 @@
+{
+	"category" : "SUnit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"NewSymbols",
+		"OneCharacterSymbols",
+		"SymbolTable" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Symbol",
+	"pools" : [
+		 ],
+	"super" : "String",
+	"type" : "normal" }
