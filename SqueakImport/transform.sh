@@ -1,12 +1,16 @@
+#!/bin/bash
+set -e
+set -x
+
 cd SqCollectionLiterals.package
-find -name '*.st' | xargs sed -i -E 's/<prim.*>//g'
-for i in ByteString.class;
+for i in ByteSymbol.class WideSymbol.class;
 do      
         new=$(echo "$i" | sed 's/.class/.extension/')
+	for j in $(find $i -name '*.st');
+	do
+		echo "*SqCollectionLiterals-$(cat $j)" > $j
+	done
+	find $i -name '*.json' | xargs sed -i -E 's/\\/\\\\/g'
         mv "$i" "$new"
 done
-for i in $(find -name '*.st');
-do
-	echo "*SqCollectionLiterals-$(cat $i)" > $i
-done
-find -name '*.json' | xargs sed -i -E 's/\\/\\\\/g'
+
