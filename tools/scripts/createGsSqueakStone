@@ -106,13 +106,15 @@ exit
 EOF
 
 todeIt $name mc load SqKernel filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SqUndefinedObject filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqCharacter filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 
 startTopaz $name -l << EOF
 login
 run
 SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: anObject' inEnv: 7.
+SmalltalkImage newMethodFromSqueakString: 'addToShutDownList: anObject' inEnv: 7.
+SmalltalkImage newMethodFromSqueakString: 'removeFromStartUpList: anObject' inEnv: 7.
+SmalltalkImage newMethodFromSqueakString: 'removeFromShutDownList: anObject' inEnv: 7.
 UserGlobals at: #ByteString put: String.
 UserGlobals at: #ByteSymbol put: Symbol.
 SqueakEnvironment recompileAllMethods.
