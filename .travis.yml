@@ -18,6 +18,12 @@ branches:
   only:
     - master
 
+smalltalk:
+  - GemStone-3.3.0
+
+smalltalk_config:
+  - .first-steps.ston
+
 install:
   - tools/scripts/setupGs.sh
   - tools/scripts/setupTode.sh
@@ -25,3 +31,7 @@ install:
   - tools/scripts/createStones.sh
 
 script: skip
+
+cache:
+  directories:
+    - $SMALLTALK_CI_CACHE
