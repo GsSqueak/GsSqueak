@@ -1,4 +1,4 @@
-*SqUndefinedObject-testing
+*SqClasses-testing
 notNil 
 	"Refer to the comment in Object|notNil."
 

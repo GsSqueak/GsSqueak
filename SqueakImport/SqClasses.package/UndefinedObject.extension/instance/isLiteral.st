@@ -1,3 +1,3 @@
-*SqUndefinedObject-testing
+*SqClasses-testing
 isLiteral
 	^ true

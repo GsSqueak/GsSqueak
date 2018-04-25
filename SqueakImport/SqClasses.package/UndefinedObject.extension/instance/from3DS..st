@@ -1,3 +1,3 @@
-*SqUndefinedObject-3ds parser support
+*SqClasses-3ds parser support
 from3DS: aDictionary
 	^aDictionary
