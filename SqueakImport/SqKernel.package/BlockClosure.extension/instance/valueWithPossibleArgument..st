@@ -5,9 +5,9 @@ valueWithPossibleArgument: anArg
 	 fill up the rest with nils."
 
 	| a |
-	numArgs = 0 ifTrue: [^self value].
-	numArgs = 1 ifTrue: [^self value: anArg].
-	a := Array new: numArgs.
+	self numArgs = 0 ifTrue: [^self value].
+	self numArgs = 1 ifTrue: [^self value: anArg].
+	a := Array new: self numArgs.
 	a at: 1 put: anArg.
 	^self valueWithArguments: a
 
