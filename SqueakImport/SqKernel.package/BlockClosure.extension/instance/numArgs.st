@@ -2,5 +2,5 @@
 numArgs
 	"Answer the number of arguments that must be used to evaluate this block"
 
-	^numArgs
+	^self _env0 numArgs
 
