@@ -1,0 +1,13 @@
+{
+	"category" : "SqCollectionLiterals-Collections-Strings",
+	"classinstvars" : [
+		 ],
+	"classvars" : [ ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Symbol",
+	"pools" : [
+		 ],
+	"super" : "String",
+	"type" : "normal" }
