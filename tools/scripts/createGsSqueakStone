@@ -128,8 +128,8 @@ startTopaz $name -l << EOF
 login
 run
 SqueakEnvironment recompileAllMethods.
+%
+
 commit
 logout
 exit
-
-%

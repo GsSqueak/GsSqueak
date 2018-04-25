@@ -19,4 +19,7 @@ initializeCommons
   self at: #'ByteString' put: String.
   self at: #'Context' put: Context.  
   self at: #'DoubleByteString' put: DoubleByteString.
-  self at: #'QuadByteString' put: QuadByteString
+  self at: #'QuadByteString' put: QuadByteString.
+  self at: #'ByteSymbol' put: Symbol.
+  self at: #'DoubleByteSymbol' put: DoubleByteSymbol.
+  self at: #'QuadByteSymbol' put: QuadByteSymbol.

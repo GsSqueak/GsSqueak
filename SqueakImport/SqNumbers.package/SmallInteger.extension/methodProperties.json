@@ -10,6 +10,7 @@
 		">" : "",
 		">=" : "",
 		"deepCopy" : "",
+		"hash": "",
 		"isLarge" : "",
 		"shallowCopy" : "",
 		"veryDeepCopyWith:" : "",
