@@ -6,4 +6,4 @@ ifTrue: trueAlternativeBlock ifFalse: falseAlternativeBlock
 	is a nonBoolean then create an error notification. Execution does not 
 	actually reach here because the expression is compiled in-line."
 
-	self _env0 ifTrue: trueAlternativeBlock ifFalse: falseAlternativeBlock 
+	^ self _env0 ifTrue: trueAlternativeBlock ifFalse: falseAlternativeBlock 

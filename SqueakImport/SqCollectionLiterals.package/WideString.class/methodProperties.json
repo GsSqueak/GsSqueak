@@ -6,7 +6,8 @@
 		"fromByteArray:" : "ar 4/10/2005 19:38",
 		"fromISO2022JPString:" : "yo 8/30/2002 17:00",
 		"fromPacked:" : "ar 4/12/2005 19:58",
-		"fromString:" : "yo 8/28/2002 13:39" },
+		"fromString:" : "yo 8/28/2002 13:39",
+		"initialize" : "sl 4/24/2018 12:34"},
 	"instance" : {
 		"asFourCode" : "yo 8/28/2002 14:46",
 		"asLowercase" : "nice 11/1/2013 23:36",

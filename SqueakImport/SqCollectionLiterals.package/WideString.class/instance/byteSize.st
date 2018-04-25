@@ -1,4 +1,4 @@
 accessing
 byteSize
 
-	^ self subclassResponsibility
+	^ self basicSize

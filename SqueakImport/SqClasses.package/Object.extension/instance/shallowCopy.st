@@ -2,7 +2,7 @@
 shallowCopy
 	"Answer a copy of the receiver which shares the receiver's instance variables."
 
-	<primitive: 885>
+	<primitive: 885> "Gemstone primitive"
 	| class newObject |
 	ec == #'insufficient object memory' ifFalse:
 		[^self primitiveFailed].
