@@ -4,6 +4,7 @@ name
 	self == ByteString ifTrue: [^ #'ByteString'].
 	self == Metaclass ifTrue: [^ #'Metaclass'].
 	self == ByteSymbol ifTrue: [^ #'ByteSymbol'].
+	self == GsMethodDictionary ifTrue: [^ #'MethodDictionary'].
 	name == nil
 		ifTrue: [^super name]
 		ifFalse: [^name]

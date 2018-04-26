@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"convenienceTestForClass:" : "",
+		"testByteSubclass" : "",
+		"testDoubleByteSubclass" : "",
+		"testDoubleWordSubclass" : "",
+		"testSubclass" : "",
+		"testWordSubclass" : "" } }

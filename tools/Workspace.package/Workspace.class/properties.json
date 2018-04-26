@@ -1,0 +1,14 @@
+{
+	"category" : "Workspace",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Workspace",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
