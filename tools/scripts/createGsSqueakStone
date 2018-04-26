@@ -65,6 +65,7 @@ todeIt $name mc load SqSuperclasses filetree://$GS_HOME/shared/repos/BP2017RH1/t
 todeIt $name mc load SqueakEnvironments filetree://$GS_HOME/shared/repos/BP2017RH1/tools/SqueakEnvironments
 todeIt $name mc load SqContext filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqClassCreation filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load Workspace filetree://$GS_HOME/shared/repos/BP2017RH1/tools
 
 startTopaz $name -l << EOF
 login
