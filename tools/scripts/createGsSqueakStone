@@ -122,7 +122,6 @@ SmalltalkImage newMethodFromSqueakString: 'removeFromShutDownList: anObject' inE
 UserGlobals at: #ByteString put: String.
 UserGlobals at: #ByteSymbol put: Symbol.
 UserGlobals at: #MethodDictionary put: Dictionary.
-SqueakEnvironment recompileAllMethods.
 %
 commit
 logout
