@@ -64,6 +64,7 @@ todeIt $name mc load SqueakParser filetree://$GS_HOME/shared/repos/BP2017RH1/par
 todeIt $name mc load SqueakEnvironments filetree://$GS_HOME/shared/repos/BP2017RH1/tools/SqueakEnvironments
 todeIt $name mc load SqContext filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqClassCreation filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load BPGsTests filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 
 startTopaz $name -l << EOF
 login
