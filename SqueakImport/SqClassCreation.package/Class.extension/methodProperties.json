@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"byteSubclass:instVarNames:classVars:classInstVars:poolDictionaries:inDictionary:newVersionOf:description:options:" : "",
-		"byteSubclassInNoDictionary:instVarNames:classVars:classInstVars:poolDictionaries:newVersionOf:description:options:" : "",
-		"subclassInNoDictionary:instVarNames:classVars:classInstVars:poolDictionaries:category:options:" : "" } }
+		"byteSubclassInNoDictionary:instVarNames:classVars:classInstVars:poolDictionaries:category:newVersionOf:description:options:" : "",
+		"indexableSubclassInNoDictionary:instVarNames:classVars:classInstVars:poolDictionaries:category:newVersionOf:description:options:" : "",
+		"subclassInNoDictionary:instVarNames:classVars:classInstVars:poolDictionaries:category:newVersionOf:description:options:" : "" } }

@@ -6,6 +6,6 @@ variableByteSubclass: t instanceVariableNames: f
 	have indexable 8-bit byte-sized nonpointer variables."
 	| newClass old |
 	old := Smalltalk globals _env0 at: (t asSymbol) ifAbsent: [nil].
-	newClass := self _env0 byteSubclassInNoDictionary: t instVarNames: f  classVars: d classInstVars: (Array new) poolDictionaries: s  newVersionOf: old description: nil options: (Array new).
+	newClass := self _env0 byteSubclassInNoDictionary: t instVarNames: (self asArrayParam: f)  classVars: (self asArrayParam: d) classInstVars: #() poolDictionaries: (self asArrayParam: s) category: cat newVersionOf: old description: nil options: #().
 	Smalltalk globals _env0 at: (newClass name) put: newClass.
 	^ newClass.
