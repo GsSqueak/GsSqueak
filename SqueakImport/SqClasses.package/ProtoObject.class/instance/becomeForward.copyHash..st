@@ -5,6 +5,4 @@ becomeForward: otherObject copyHash: copyHash
 	 argument's identity hash bits will be set to those of the receiver.
 	 Fails if either argument is an immediate such as a SmallInteger."
 
-	{self}
-		elementsForwardIdentityTo: {otherObject}
-		copyHash: copyHash
+	self notYetImplemented

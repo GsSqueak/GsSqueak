@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"addWeakDependent:" : "ul 8/27/2010 23:38",
+		"initialize" : "nk 6/21/2004 10:22",
+		"isFinalizationSupported" : "ul 8/27/2010 23:28",
+		"removeWeakDependent:" : "ul 8/27/2010 23:25",
+		"restartFinalizationProcess" : "ul 8/27/2010 23:26",
+		"runningFinalizationProcess" : "nk 10/28/2000 20:26",
+		"startUp:" : "nk 6/21/2004 09:22" },
+	"instance" : {
+		"copyWith:" : "bf 4/7/2015 14:01",
+		"copyWithout:" : "bf 4/7/2015 14:01",
+		"species" : "cmm 2/5/2015 15:03" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "SqWeak-Kernel-Models",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 11/11/2009 20:30",
+	"instvars" : [
+		 ],
+	"name" : "DependentsArray",
+	"pools" : [
+		 ],
+	"super" : "Array",
+	"type" : "normal" }
