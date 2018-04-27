@@ -124,6 +124,15 @@ UserGlobals at: #ByteString put: String.
 UserGlobals at: #ByteSymbol put: Symbol.
 UserGlobals at: #MethodDictionary put: GsMethodDictionary.
 UserGlobals at: #'CompiledMethod' put: GsNMethod.
+Object subclass: 'WeakActionSequenceTrappingErrors'
+	instVarNames: #()
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: #()
+	inDictionary: 'Globals'
+	category: 'Kernel'
+	options: #()
+
 %
 commit
 logout
@@ -134,7 +143,7 @@ todeIt $name mc load SqCollections filetree://$GS_HOME/shared/repos/BP2017RH1/Sq
 todeIt $name mc load CompiledMethod filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqExceptions filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqWeak filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load '`System-Object Events`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load '`System-Change Notification`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt -D $name mc load '`System-Change Notification`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 
