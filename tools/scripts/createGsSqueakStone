@@ -89,6 +89,7 @@ startTopaz $name -l << EOF
 login
 run
 (SqueakEnvironment at: #ProtoObject) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #Object) @env7: initialize.
 %
 commit
 logout
