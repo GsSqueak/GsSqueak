@@ -75,6 +75,7 @@ run
 MCEnv set: 7.
 MCEnv useSqueakParser.
 Environment initialize.
+Object addClassVarName: 'DependentsFields'.
 %
 commit
 logout
