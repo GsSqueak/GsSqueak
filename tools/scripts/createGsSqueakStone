@@ -1,6 +1,6 @@
 #!/bin/bash
-set -e
-set -x
+
+set -ex
 
 restore=false
 while getopts "r" opt; do
