@@ -1,0 +1,16 @@
+{
+	"category" : "SqClasses-Kernel-Classes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"subject",
+		"classComment",
+		"commentStamp" ],
+	"name" : "BasicClassOrganizer",
+	"pools" : [
+		 ],
+	"super" : "Categorizer",
+	"type" : "normal" }

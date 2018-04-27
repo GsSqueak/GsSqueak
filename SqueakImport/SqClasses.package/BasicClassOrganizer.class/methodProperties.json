@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"ambiguous" : "NS 4/19/2004 15:52",
+		"class:" : "NS 4/7/2004 16:04",
+		"class:defaultList:" : "NS 4/7/2004 16:04" },
+	"instance" : {
+		"classComment" : "NS 4/7/2004 16:02",
+		"classComment:" : "NS 4/7/2004 16:03",
+		"classComment:stamp:" : "NS 4/7/2004 16:03",
+		"commentRemoteStr" : "NS 4/7/2004 16:03",
+		"commentStamp" : "NS 4/7/2004 16:03",
+		"commentStamp:" : "NS 4/7/2004 16:03",
+		"dateCommentLastSubmitted" : "NS 4/7/2004 16:03",
+		"fileOutCommentOn:moveSource:toFile:" : "NS 4/7/2004 16:03",
+		"hasNoComment" : "NS 4/7/2004 16:03",
+		"hasSubject" : "NS 4/7/2004 16:04",
+		"moveChangedCommentToFile:numbered:" : "NS 4/7/2004 16:04",
+		"objectForDataStream:" : "NS 4/7/2004 16:04",
+		"putCommentOnFile:numbered:moveSource:forClass:" : "NS 4/7/2004 16:04",
+		"setSubject:" : "NS 4/7/2004 16:04",
+		"subject" : "NS 4/7/2004 16:04" } }

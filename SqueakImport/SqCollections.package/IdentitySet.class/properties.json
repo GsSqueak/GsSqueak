@@ -1,0 +1,14 @@
+{
+	"category" : "SqCollections-Unordered",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 8/26/2010 22:00",
+	"instvars" : [
+		 ],
+	"name" : "IdentitySet",
+	"pools" : [
+		 ],
+	"super" : "Set",
+	"type" : "normal" }
