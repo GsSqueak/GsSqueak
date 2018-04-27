@@ -121,7 +121,8 @@ SmalltalkImage newMethodFromSqueakString: 'removeFromStartUpList: anObject' inEn
 SmalltalkImage newMethodFromSqueakString: 'removeFromShutDownList: anObject' inEnv: 7.
 UserGlobals at: #ByteString put: String.
 UserGlobals at: #ByteSymbol put: Symbol.
-UserGlobals at: #MethodDictionary put: Dictionary.
+UserGlobals at: #MethodDictionary put: GsMethodDictionary.
+UserGlobals at: #'CompiledMethod' put: GsNMethod.
 %
 commit
 logout
@@ -129,6 +130,7 @@ exit
 EOF
 todeIt $name mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqCollections filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load CompiledMethod filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqExceptions filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqWeak filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
