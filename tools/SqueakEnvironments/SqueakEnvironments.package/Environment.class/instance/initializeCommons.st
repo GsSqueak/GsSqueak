@@ -24,3 +24,4 @@ initializeCommons
   self at: #'DoubleByteSymbol' put: DoubleByteSymbol.
   self at: #'QuadByteSymbol' put: QuadByteSymbol.
   self at: #'MethodDictionary' put: GsMethodDictionary.
+  self at: #'CompiledMethod' put: GsNMethod.
