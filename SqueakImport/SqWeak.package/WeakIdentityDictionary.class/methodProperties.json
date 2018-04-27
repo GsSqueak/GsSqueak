@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"arrayType" : "nice 10/27/2016 15:55" },
+	"instance" : {
+		"add:" : "nice 10/27/2016 16:47",
+		"associationAt:ifAbsent:" : "nice 10/27/2016 16:45",
+		"associationsDo:" : "nice 10/27/2016 16:44",
+		"at:ifAbsent:" : "nice 10/27/2016 16:41",
+		"at:ifPresent:ifAbsent:" : "eem 3/9/2018 16:29",
+		"at:ifPresent:ifAbsentPut:" : "nice 10/27/2016 16:43",
+		"at:put:" : "nice 10/27/2016 16:36",
+		"cleanupIndex:" : "nice 10/27/2016 16:20",
+		"compact" : "ul 3/5/2018 22:33",
+		"fixCollisionsFrom:" : "nice 10/27/2016 19:02",
+		"growTo:" : "nice 10/27/2016 15:54",
+		"includesKey:" : "ul 2/28/2017 19:06",
+		"initialize:" : "nice 10/27/2016 18:51",
+		"noCheckNoGrowFillFrom:" : "nice 10/27/2016 16:31",
+		"postCopy" : "nice 10/27/2016 17:24",
+		"removeKey:ifAbsent:" : "nice 10/27/2016 16:32",
+		"removeUnreferencedKeys" : "ul 3/5/2018 22:38",
+		"scanFor:" : "nice 10/27/2016 19:37",
+		"scanForEmptySlotFor:" : "nice 10/27/2016 19:39",
+		"scanWithoutGarbagingFor:" : "nice 10/27/2016 19:38",
+		"slowSize" : "ul 3/5/2018 22:32" } }

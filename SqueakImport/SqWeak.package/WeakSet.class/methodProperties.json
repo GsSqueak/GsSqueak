@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"arrayType" : "ul 1/4/2016 14:54" },
+	"instance" : {
+		"add:" : "ar 2/1/2010 21:31",
+		"collect:" : "ar 2/1/2010 21:32",
+		"compact" : "ul 4/12/2010 22:59",
+		"do:" : "ul 9/4/2013 20:43",
+		"do:after:" : "ul 9/12/2010 03:37",
+		"fixCollisionsFrom:" : "ul 2/5/2010 04:10",
+		"growSize" : "ul 2/5/2010 04:35",
+		"growTo:" : "ul 1/4/2016 14:56",
+		"includes:" : "ul 2/28/2017 19:06",
+		"initialize:" : "ul 1/4/2016 14:57",
+		"like:" : "ar 2/1/2010 21:30",
+		"like:ifAbsent:" : "ul 2/19/2010 14:56",
+		"noCheckNoGrowFillFrom:" : "ar 2/1/2010 21:32",
+		"postCopy" : "nice 10/5/2009 08:59",
+		"remove:ifAbsent:" : "ul 9/23/2009 21:14",
+		"scanFor:" : "eem 12/3/2016 09:18",
+		"scanForEmptySlotFor:" : "eem 12/3/2016 09:25",
+		"scanForLoadedSymbol:" : "ar 2/1/2010 21:30",
+		"size" : "SqR 8/23/2000 15:12",
+		"slowSize" : "ul 2/4/2010 01:10" } }

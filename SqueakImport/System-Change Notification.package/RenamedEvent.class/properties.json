@@ -1,0 +1,15 @@
+{
+	"category" : "System-Change Notification",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"newName",
+		"oldName" ],
+	"name" : "RenamedEvent",
+	"pools" : [
+		 ],
+	"super" : "AbstractEvent",
+	"type" : "normal" }

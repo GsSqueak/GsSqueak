@@ -65,6 +65,9 @@ todeIt $name mc load SqSuperclasses filetree://$GS_HOME/shared/repos/BP2017RH1/t
 todeIt $name mc load SqueakEnvironments filetree://$GS_HOME/shared/repos/BP2017RH1/tools/SqueakEnvironments
 todeIt $name mc load SqContext filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqClassCreation filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load Workspace filetree://$GS_HOME/shared/repos/BP2017RH1/tools
+todeIt $name mc load BPGsTests filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+
 
 startTopaz $name -l << EOF
 login
@@ -72,6 +75,7 @@ run
 MCEnv set: 7.
 MCEnv useSqueakParser.
 Environment initialize.
+Object addClassVarName: 'DependentsFields'.
 %
 commit
 logout
@@ -84,7 +88,7 @@ todeIt $name mc load SqClasses filetree://$GS_HOME/shared/repos/BP2017RH1/Squeak
 startTopaz $name -l << EOF
 login
 run
-(SqueakEnvironment at: #ProtoObject) _setSelfCanBeSpecial.
+(SqueakEnvironment at: #ProtoObject) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
 %
 commit
 logout
@@ -95,11 +99,11 @@ todeIt $name mc load SqNumbers filetree://$GS_HOME/shared/repos/BP2017RH1/Squeak
 startTopaz $name -l << EOF
 login
 run
-(SqueakEnvironment at: #Magnitude) _setSelfCanBeSpecial.
-(SqueakEnvironment at: #Number) _setSelfCanBeSpecial.
-(SqueakEnvironment at: #Integer) _setSelfCanBeSpecial.
-(SqueakEnvironment at: #ScaledDecimal) _setSelfCanBeSpecial.
-(SqueakEnvironment at: #Fraction) _setSelfCanBeSpecial.
+(SqueakEnvironment at: #Magnitude) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #Number) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #Integer) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #ScaledDecimal) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #Fraction) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
 %
 commit
 logout
@@ -118,7 +122,8 @@ SmalltalkImage newMethodFromSqueakString: 'removeFromStartUpList: anObject' inEn
 SmalltalkImage newMethodFromSqueakString: 'removeFromShutDownList: anObject' inEnv: 7.
 UserGlobals at: #ByteString put: String.
 UserGlobals at: #ByteSymbol put: Symbol.
-SqueakEnvironment recompileAllMethods.
+UserGlobals at: #MethodDictionary put: GsMethodDictionary.
+UserGlobals at: #'CompiledMethod' put: GsNMethod.
 %
 commit
 logout
@@ -126,5 +131,10 @@ exit
 EOF
 todeIt $name mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqCollections filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load CompiledMethod filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqExceptions filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SqWeak filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load '`System-Object Events`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load '`System-Change Notification`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 

@@ -1,0 +1,14 @@
+{
+	"category" : "System-Change Notification",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ModifiedClassDefinitionEvent",
+	"pools" : [
+		 ],
+	"super" : "ModifiedEvent",
+	"type" : "normal" }

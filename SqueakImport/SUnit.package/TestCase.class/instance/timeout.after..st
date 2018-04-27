@@ -7,25 +7,25 @@ timeout: aBlock after: seconds
 	| theProcess delay watchdog |
 
 	"the block will be executed in the current process"
-	theProcess := Processor activeProcess.
-	delay := Delay forSeconds: seconds.
+	"theProcess := Processor activeProcess.
+	delay := Delay forSeconds: seconds."
 
 	"make a watchdog process"
-	watchdog := [
-		delay wait. 	"wait for timeout or completion"
+	"watchdog := [
+		delay wait. 	""wait for timeout or completion""
 		theProcess ifNotNil:[ theProcess signalException: 
 			(TestFailure new messageText: 'Test timed out') ] 
-	] newProcess.
+	] newProcess."
 
 	"Watchdog needs to run at high priority to do its job (but not at timing priority)"
-	watchdog priority: Processor timingPriority-1.
+	"watchdog priority: Processor timingPriority-1."
 
 	"catch the timeout signal"
-	watchdog resume.				"start up the watchdog"
+	"watchdog resume."				"start up the watchdog"
 	^[aBlock on: TestFailure, Error, Halt do:[:ex|
-		theProcess := nil.
+		"theProcess := nil."
 		ex pass.
 	]] ensure:[							"evaluate the receiver"
-		theProcess := nil.				"it has completed, so ..."
-		delay delaySemaphore signal.	"arrange for the watchdog to exit"
+		"theProcess := nil."				"it has completed, so ..."
+		"delay delaySemaphore signal."	"arrange for the watchdog to exit"
 	]
