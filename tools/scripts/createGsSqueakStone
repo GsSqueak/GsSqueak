@@ -87,7 +87,7 @@ todeIt $name mc load SqClasses filetree://$GS_HOME/shared/repos/BP2017RH1/Squeak
 startTopaz $name -l << EOF
 login
 run
-(SqueakEnvironment at: #ProtoObject) _setSelfCanBeSpecial.
+(SqueakEnvironment at: #ProtoObject) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
 %
 commit
 logout
@@ -98,11 +98,11 @@ todeIt $name mc load SqNumbers filetree://$GS_HOME/shared/repos/BP2017RH1/Squeak
 startTopaz $name -l << EOF
 login
 run
-(SqueakEnvironment at: #Magnitude) _setSelfCanBeSpecial.
-(SqueakEnvironment at: #Number) _setSelfCanBeSpecial.
-(SqueakEnvironment at: #Integer) _setSelfCanBeSpecial.
-(SqueakEnvironment at: #ScaledDecimal) _setSelfCanBeSpecial.
-(SqueakEnvironment at: #Fraction) _setSelfCanBeSpecial.
+(SqueakEnvironment at: #Magnitude) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #Number) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #Integer) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #ScaledDecimal) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #Fraction) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
 %
 commit
 logout

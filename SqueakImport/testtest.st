@@ -11,4 +11,4 @@ test := (SqueakEnvironment at: #TestCase) subclass: #TestTest
 test newMethodFromSqueakString: 'testAssertion
 self assert: true' inEnv: 7.
 (SqueakEnvironment at: #TestTest put: test).
-((SqueakEnvironment at: #TestTest) @env7: run: #testAssertion) @env7: tests
+((SqueakEnvironment at: #SUnitTest) @env7: buildSuite) @env7: run
