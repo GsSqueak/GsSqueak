@@ -89,10 +89,7 @@ startTopaz $name -l << EOF
 login
 run
 (SqueakEnvironment at: #ProtoObject) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
-(SqueakEnvironment at: #SystemOrganization put: ((SqueakEnvironment at: #SystemOrganizer) @env7: defaultList: SqueakEnvironment allClasses))
 %
-env 7
-
 commit
 logout
 exit
@@ -150,3 +147,13 @@ todeIt $name mc load '`System-Object Events`' filetree://$GS_HOME/shared/repos/B
 todeIt $name mc load '`System-Change Notification`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 
+
+startTopaz $name -l << EOF
+login
+run
+(SqueakEnvironment at: #SystemOrganization put: ((SqueakEnvironment at: #SystemOrganizer) @env7: defaultList: SqueakEnvironment allClasses))
+%
+commit
+logout
+exit
+EOF
