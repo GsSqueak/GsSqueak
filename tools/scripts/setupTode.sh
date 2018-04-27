@@ -1,5 +1,5 @@
 #!/bin/sh
-set -ev
+set -evx
 
 cd $GS_HOME/shared/repos/tode
 git fetch --all

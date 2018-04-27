@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"cleanUp:" : "ar 2/26/2010 23:01",
+		"default" : "spd 5/19/2010 15:54" },
+	"instance" : {
+		"addCategory:before:" : "cwp 2/12/2013 00:40",
+		"categoriesMatching:" : "di 3/3/2001 16:07",
+		"classify:under:" : "jr 10/22/2016 14:55",
+		"commentInventory:" : "dtl 8/26/2004 11:18",
+		"fileOut" : "yo 7/5/2004 20:22",
+		"fileOutCategory:" : "di 6/28/97 19:01",
+		"fileOutCategory:asHtml:" : "yo 7/5/2004 20:22",
+		"fileOutCategory:on:" : "ar 12/22/1999 17:28",
+		"fileOutCategory:on:initializing:" : "ar 3/5/2010 20:42",
+		"ifClassOrganizerDo:" : "rw 7/31/2003 17:23",
+		"objectForDataStream:" : "tk 9/28/2000 15:50",
+		"orderedTraitsIn:" : "nice 8/19/2010 16:35",
+		"removeCategoriesMatching:" : "di 3/3/2001 16:08",
+		"removeCategory:" : "dtl 1/17/2013 19:50",
+		"removeMissingClasses" : "jm 5/20/1998 19:38",
+		"removeSystemCategory:" : "al 4/25/2004 11:38",
+		"renameCategory:toBe:" : "dtl 1/17/2013 19:51",
+		"superclassOrder:" : "dvf 9/27/2005 19:06",
+		"uncommentedClassesIn:" : "dtl 8/26/2004 11:23" } }

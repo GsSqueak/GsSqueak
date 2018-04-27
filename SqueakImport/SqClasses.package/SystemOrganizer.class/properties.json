@@ -1,0 +1,14 @@
+{
+	"category" : "SqClasses-System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SystemOrganizer",
+	"pools" : [
+		 ],
+	"super" : "Categorizer",
+	"type" : "normal" }

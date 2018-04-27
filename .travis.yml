@@ -1,14 +1,17 @@
-language: smalltalk
+language: generic
 sudo: required
 
 notifications:
   email: false
 
 env:
-  GS_HOME=$TRAVIS_BUILD_DIR/GsDevKit_home
-  GS_SCRIPTS=$GS_HOME/bin
-  GSSQUEAK_SCRIPTS=$GS_HOME/shared/repos/BP2017RH1/tools/scripts
-  PATH=$PATH:$GS_HOME/bin
+  global:
+    - GS_HOME=$TRAVIS_BUILD_DIR/GsDevKit_home
+    - GS_SCRIPTS=$GS_HOME/bin
+    - GSSQUEAK_SCRIPTS=$GS_HOME/shared/repos/BP2017RH1/tools/scripts
+    - PATH=$PATH:$GS_HOME/bin
+  matrix:
+    - TEST=BasicGs
 
 git:
   lfs_skip_smudge: true
@@ -18,20 +21,10 @@ branches:
   only:
     - master
 
-smalltalk:
-  - GemStone-3.3.0
-
-smalltalk_config:
-  - .first-steps.ston
-
 install:
   - tools/scripts/setupGs.sh
-  - tools/scripts/setupTode.sh
-  - downloadGemStone -f -d 3.5.0-EA-43870 3.5.0 # download version will change with each drop
   - tools/scripts/createStones.sh
 
-script: skip
+script:
+  - tests/testTravisCI.sh
 
-cache:
-  directories:
-    - $SMALLTALK_CI_CACHE

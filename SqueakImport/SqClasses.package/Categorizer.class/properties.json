@@ -1,0 +1,17 @@
+{
+	"category" : "SqClasses-Kernel-Classes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default",
+		"NullCategory" ],
+	"commentStamp" : "nice 5/6/2010 21:10",
+	"instvars" : [
+		"categoryArray",
+		"categoryStops",
+		"elementArray" ],
+	"name" : "Categorizer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
