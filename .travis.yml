@@ -25,7 +25,6 @@ smalltalk_config:
   - .first-steps.ston
 
 install:
-  - exit 1
   - tools/scripts/setupGs.sh
   - tools/scripts/setupTode.sh
   - downloadGemStone -f -d 3.5.0-EA-43870 3.5.0 # download version will change with each drop
