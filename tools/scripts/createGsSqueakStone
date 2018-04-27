@@ -134,6 +134,6 @@ todeIt $name mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP201
 todeIt $name mc load SqCollections filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load CompiledMethod filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqExceptions filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqWeak filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 
