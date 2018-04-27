@@ -1,0 +1,16 @@
+{
+	"category" : "System-Change Notification",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 9/26/2013 17:49",
+	"instvars" : [
+		"item",
+		"itemKind",
+		"environment" ],
+	"name" : "AbstractEvent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
