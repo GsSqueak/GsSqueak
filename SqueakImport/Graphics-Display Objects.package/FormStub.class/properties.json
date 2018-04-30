@@ -1,0 +1,14 @@
+{
+	"category" : "Graphics-Display Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"locator" ],
+	"name" : "FormStub",
+	"pools" : [
+		 ],
+	"super" : "Form",
+	"type" : "normal" }

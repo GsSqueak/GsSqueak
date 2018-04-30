@@ -1,0 +1,14 @@
+{
+	"category" : "Graphics-Primitives",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 3/24/2010 07:38",
+	"instvars" : [
+		"points" ],
+	"name" : "PenPointRecorder",
+	"pools" : [
+		 ],
+	"super" : "Pen",
+	"type" : "normal" }

@@ -25,5 +25,6 @@ initializeCommons
   self at: #'QuadByteSymbol' put: QuadByteSymbol.
   self at: #'MethodDictionary' put: GsMethodDictionary.
   self at: #'CompiledMethod' put: GsNMethod.
+  self at: #'Exception' put: Exception.
   self at: #'GemstoneSmalltalk' put: Smalltalk.
   self at: #'CompilationCue' put: SqCompilationCue.

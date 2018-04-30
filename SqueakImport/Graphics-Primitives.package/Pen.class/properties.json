@@ -1,0 +1,16 @@
+{
+	"category" : "Graphics-Primitives",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"location",
+		"direction",
+		"penDown" ],
+	"name" : "Pen",
+	"pools" : [
+		 ],
+	"super" : "BitBlt",
+	"type" : "normal" }

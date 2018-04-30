@@ -123,16 +123,7 @@ SmalltalkImage newMethodFromSqueakString: 'removeFromShutDownList: anObject' inE
 UserGlobals at: #ByteString put: String.
 UserGlobals at: #ByteSymbol put: Symbol.
 UserGlobals at: #MethodDictionary put: GsMethodDictionary.
-UserGlobals at: #'CompiledMethod' put: GsNMethod.
-Object subclass: 'WeakActionSequenceTrappingErrors'
-	instVarNames: #()
-	classVars: #()
-	classInstVars: #()
-	poolDictionaries: #()
-	inDictionary: 'Globals'
-	category: 'Kernel'
-	options: #()
-
+UserGlobals at: #CompiledMethod put: GsNMethod.
 %
 commit
 logout
@@ -147,6 +138,7 @@ todeIt $name mc load '`System-Object Events`' filetree://$GS_HOME/shared/repos/B
 todeIt $name mc load '`System-Change Notification`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqCompiler filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+
 
 
 startTopaz $name -l << EOF

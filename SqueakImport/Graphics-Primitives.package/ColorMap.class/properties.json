@@ -1,0 +1,16 @@
+{
+	"category" : "Graphics-Primitives",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"shifts",
+		"masks",
+		"colors" ],
+	"name" : "ColorMap",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

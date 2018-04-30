@@ -1,0 +1,14 @@
+{
+	"category" : "Graphics-Primitives",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"alpha" ],
+	"name" : "TranslucentColor",
+	"pools" : [
+		 ],
+	"super" : "Color",
+	"type" : "normal" }
