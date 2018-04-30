@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:" : "ar 3/21/98 16:00",
+		"associationClass" : "ul 9/27/2015 23:13",
+		"associationsDo:" : "ul 12/3/2014 03:50",
+		"at:put:" : "ul 9/27/2015 23:14",
+		"compact" : "ul 4/12/2010 22:59",
+		"finalizeValues" : "ul 6/12/2010 18:38",
+		"finalizer:" : "ul 2/3/2010 06:22",
+		"fixCollisionsFrom:" : "ul 2/17/2010 13:37",
+		"growSize" : "ul 2/5/2010 04:35",
+		"noCheckNoGrowFillFrom:" : "ul 2/4/2010 01:02",
+		"slowSize" : "ul 2/4/2010 00:59" } }

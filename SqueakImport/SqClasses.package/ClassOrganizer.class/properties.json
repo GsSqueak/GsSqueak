@@ -1,0 +1,15 @@
+{
+	"category" : "SqClasses-Kernel-Classes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"OrganizerDict"
+		 ],
+	"commentStamp" : "NS 4/6/2004 16:13",
+	"instvars" : [
+		 ],
+	"name" : "ClassOrganizer",
+	"pools" : [
+		 ],
+	"super" : "BasicClassOrganizer",
+	"type" : "normal" }

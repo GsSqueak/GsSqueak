@@ -1,0 +1,15 @@
+{
+	"category" : "System-Change Notification",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UniqueInstance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"eventSource",
+		"silenceLevel" ],
+	"name" : "SystemChangeNotifier",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

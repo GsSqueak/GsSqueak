@@ -4,4 +4,4 @@ becomeForward: otherObject
 	 to the receiver now point to the argument.
 	 Fails if either argument is an immediate such as a SmallInteger."
 
-	{self} elementsForwardIdentityTo: {otherObject}
+	self notYetImplemented

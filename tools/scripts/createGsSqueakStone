@@ -1,6 +1,6 @@
 #!/bin/bash
-set -e
-set -x
+
+set -ex
 
 restore=false
 while getopts "r" opt; do
@@ -75,6 +75,7 @@ run
 MCEnv set: 7.
 MCEnv useSqueakParser.
 Environment initialize.
+Object addClassVarName: 'DependentsFields'.
 %
 commit
 logout
@@ -87,7 +88,7 @@ todeIt $name mc load SqClasses filetree://$GS_HOME/shared/repos/BP2017RH1/Squeak
 startTopaz $name -l << EOF
 login
 run
-(SqueakEnvironment at: #ProtoObject) _setSelfCanBeSpecial.
+(SqueakEnvironment at: #ProtoObject) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
 %
 commit
 logout
@@ -98,11 +99,11 @@ todeIt $name mc load SqNumbers filetree://$GS_HOME/shared/repos/BP2017RH1/Squeak
 startTopaz $name -l << EOF
 login
 run
-(SqueakEnvironment at: #Magnitude) _setSelfCanBeSpecial.
-(SqueakEnvironment at: #Number) _setSelfCanBeSpecial.
-(SqueakEnvironment at: #Integer) _setSelfCanBeSpecial.
-(SqueakEnvironment at: #ScaledDecimal) _setSelfCanBeSpecial.
-(SqueakEnvironment at: #Fraction) _setSelfCanBeSpecial.
+(SqueakEnvironment at: #Magnitude) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #Number) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #Integer) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #ScaledDecimal) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+(SqueakEnvironment at: #Fraction) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
 %
 commit
 logout
@@ -121,7 +122,17 @@ SmalltalkImage newMethodFromSqueakString: 'removeFromStartUpList: anObject' inEn
 SmalltalkImage newMethodFromSqueakString: 'removeFromShutDownList: anObject' inEnv: 7.
 UserGlobals at: #ByteString put: String.
 UserGlobals at: #ByteSymbol put: Symbol.
-SqueakEnvironment recompileAllMethods.
+UserGlobals at: #MethodDictionary put: GsMethodDictionary.
+UserGlobals at: #'CompiledMethod' put: GsNMethod.
+Object subclass: 'WeakActionSequenceTrappingErrors'
+	instVarNames: #()
+	classVars: #()
+	classInstVars: #()
+	poolDictionaries: #()
+	inDictionary: 'Globals'
+	category: 'Kernel'
+	options: #()
+
 %
 commit
 logout
@@ -129,5 +140,20 @@ exit
 EOF
 todeIt $name mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqCollections filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load CompiledMethod filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 todeIt $name mc load SqExceptions filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SqWeak filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load '`System-Object Events`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load '`System-Change Notification`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
 
+
+startTopaz $name -l << EOF
+login
+run
+(SqueakEnvironment at: #SystemOrganization put: ((SqueakEnvironment at: #SystemOrganizer) @env7: defaultList: SqueakEnvironment allClasses))
+%
+commit
+logout
+exit
+EOF

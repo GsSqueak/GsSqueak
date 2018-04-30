@@ -1,0 +1,14 @@
+{
+	"category" : "SqWeak-Collections-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "WeakValueAssociation",
+	"pools" : [
+		 ],
+	"super" : "Association",
+	"type" : "normal" }

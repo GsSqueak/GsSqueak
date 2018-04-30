@@ -7,5 +7,5 @@ identityHash
 
 	Do not override."
 
-	<primitive: 609>
+	<primitive: 609> "GemStone Primitive"
   	self _primitiveFailed

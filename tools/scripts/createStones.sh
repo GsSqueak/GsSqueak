@@ -1,6 +1,5 @@
 #!/bin/sh
-set -ev
+set -evx
 
 $GS_SCRIPTS/createClient tode
-$GS_SCRIPTS/createStone GsSqueak_test_350 3.5.0
-$GSSQUEAK_SCRIPTS/createGsSqueakStone GsSqueak
+$GSSQUEAK_SCRIPTS/createGsSqueakStone ${STONE_NAME:=GsSqueak_travis_350}
