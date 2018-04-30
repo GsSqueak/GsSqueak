@@ -1,1 +1,0 @@
-{"super": "Object", "classvars": [], "instvars": ["messageText", "tag", "signalContext", "handlerContext", "outerContext"], "name": "Exception", "pools": [], "classinstvars": [], "commentStamp": "eem 3/30/2017 17:49", "category": "SqExceptions-Kernel-Exceptions-Kernel", "type": "normal"}

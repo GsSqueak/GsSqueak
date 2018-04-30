@@ -1,0 +1,15 @@
+{
+	"category" : "SqCompiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cwp 12/26/2012 23:17",
+	"instvars" : [
+		"parser",
+		"cue" ],
+	"name" : "Compiler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
