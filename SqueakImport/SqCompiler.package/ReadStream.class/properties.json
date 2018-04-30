@@ -1,0 +1,14 @@
+{
+	"category" : "SqCompiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"initialPositionOrNil" ],
+	"name" : "ReadStream",
+	"pools" : [
+		 ],
+	"super" : "PositionableStream",
+	"type" : "normal" }

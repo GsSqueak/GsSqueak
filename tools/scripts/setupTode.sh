@@ -11,7 +11,7 @@ git checkout dev
 git pull origin dev
 cd $GS_HOME/shared/repos
 # Link our repo to GemStones repository location
-ln ${GS_HOME}/BP2017RH1 ${TRAVIS_BUILD_DIR}
+git clone git@github.com:HPI-SWA-Lab/BP2017RH1.git
 mkdir gs_port && cd gs_port
 git clone https://github.com/GsDevKit/ston.git
 cd ston
