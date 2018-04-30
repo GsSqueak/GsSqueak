@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"initialize" : "sw 7/4/1998 15:59",
+		"turnOffSoundWhile:" : "sw 7/4/1998 16:43" },
+	"instance" : {
+		"addBookMenuItemsTo:hand:" : "dgd 8/30/2003 21:13",
+		"addCustomMenuItems:hand:" : "sw 10/4/2007 22:29",
+		"addPageControlMorph:" : "sw 6/6/2003 14:10",
+		"clearNewPagePrototype" : "sw 7/4/1998 15:39",
+		"currentPlayerDo:" : "kfr 11/24/2011 18:23",
+		"fewerPageControls" : "sw 5/23/2000 13:07",
+		"firstPage" : "sw 7/4/1998 15:40",
+		"fullControlSpecs" : "yo 1/14/2005 19:25",
+		"hidePageControls" : "sw 7/4/1998 16:12",
+		"indexForPageControls" : "sw 6/6/2003 17:00",
+		"insertPage" : "sw 7/4/1998 17:18",
+		"makePageControlsFrom:" : "tfel 8/30/2016 16:36",
+		"move" : "ar 10/10/2000 16:09",
+		"pageSize" : "sw 7/4/1998 15:36",
+		"pageSize:" : "sw 7/4/1998 16:51",
+		"playPageFlipSound:" : "gk 2/24/2004 08:27",
+		"setEventHandlerForPageControls:" : "sw 6/6/2003 22:44",
+		"shortControlSpecs" : "tak 1/11/2007 15:41",
+		"showPageControls" : "sw 3/2/1999 15:01",
+		"showPageControls:" : "sw 6/6/2003 13:58",
+		"showingFullScreenString" : "sw 10/5/2006 19:30",
+		"showingPageControlsString" : "sw 8/15/2007 20:17",
+		"sortPages" : "tk 2/25/1999 11:04" } }

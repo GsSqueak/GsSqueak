@@ -1,0 +1,14 @@
+{
+	"category" : "System-Object Events",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tlk 5/7/2006 20:02",
+	"instvars" : [
+		 ],
+	"name" : "ActionSequence",
+	"pools" : [
+		 ],
+	"super" : "Array",
+	"type" : "variable" }

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actionsWithReceiver:forEvent:" : "nk 8/27/2003 16:23",
+		"asActionSequence" : "rw 4/27/2002 07:48",
+		"asActionSequenceTrappingErrors" : "rw 7/20/2003 16:03",
+		"renameActionsWithReceiver:forEvent:toEvent:" : "nk 8/27/2003 17:45" } }

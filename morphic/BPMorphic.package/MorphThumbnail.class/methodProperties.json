@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCustomMenuItems:hand:" : "dgd 8/30/2003 21:53",
+		"computeThumbnail" : "sw 11/13/1998 09:53",
+		"defaultColor" : "dgd 2/14/2003 22:28",
+		"grabOriginal" : "sw 7/6/1998 22:08",
+		"initialize" : "dgd 2/14/2003 21:51",
+		"innocuousName" : "bf 3/31/1999 12:24",
+		"isPartsDonor" : "dgd 2/16/2003 21:37",
+		"isPartsDonor:" : "dgd 2/16/2003 21:40",
+		"morphRepresented" : "jm 11/17/97 17:30",
+		"morphRepresented:" : "ar 10/7/2000 15:38",
+		"partRepresented" : "ar 10/6/2000 22:46",
+		"representativeNoTallerThan:norWiderThan:thumbnailHeight:" : "bf 3/31/1999 07:54",
+		"revealOriginal" : "md 10/22/2003 15:24",
+		"smaller" : "sw 8/10/1998 07:05",
+		"veryDeepFixupWith:" : "tk 1/8/1999 09:39",
+		"veryDeepInner:" : "tk 1/8/1999 09:39" } }

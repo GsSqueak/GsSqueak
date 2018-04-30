@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"changeKind" : "rw 7/10/2003 12:08",
+		"supportedKinds" : "rw 7/10/2003 11:20" },
+	"instance" : {
+		"isCommented" : "rw 7/1/2003 11:37",
+		"printEventKindOn:" : "rw 7/1/2003 11:37" } }

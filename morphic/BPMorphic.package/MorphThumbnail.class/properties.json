@@ -1,0 +1,14 @@
+{
+	"category" : "BPMorphic-Extras-Books",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"morphRepresented" ],
+	"name" : "MorphThumbnail",
+	"pools" : [
+		 ],
+	"super" : "SketchMorph",
+	"type" : "normal" }
