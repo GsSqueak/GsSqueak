@@ -1,5 +1,4 @@
 *SqClasses-testing
 isBytes
-	(self _env0 typeOfClass == #'bytes') ifFalse: [^ false].
-    ((self _env0 _optionsArray) _env0 size > 0) ifTrue: [^ false].
-    ^ true
+	self _env0 isBytes _env0 ifFalse: [^ false].
+	^ ((self _env0 format _env0 bitShift: -31) _env0 bitAnd: 3) == 0
