@@ -5,9 +5,10 @@ on: exceptionOrExceptionSet do: handlerAction
 	<primitive: 2030> "always fails"
 	| fastPath | "fastPath := true by primitive if form 1 or 2 detected"
 		     "fastPath := nil  by primitive if form 3 detected."
-	fastPath ifNotNil:[ "fast path code"
+	fastPath := nil. "fix"
+	"fastPath ifNotNil:[" fast path code
 	 ^ self value
-	].
+	]."
 	"Any changes to this method's code before this line may also
 	 require changes to code in comgen.c conditional on BcPrim_ENTER_onDo .
 	"
