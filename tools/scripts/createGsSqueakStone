@@ -123,16 +123,7 @@ SmalltalkImage newMethodFromSqueakString: 'removeFromShutDownList: anObject' inE
 UserGlobals at: #ByteString put: String.
 UserGlobals at: #ByteSymbol put: Symbol.
 UserGlobals at: #MethodDictionary put: GsMethodDictionary.
-UserGlobals at: #'CompiledMethod' put: GsNMethod.
-Object subclass: 'WeakActionSequenceTrappingErrors'
-	instVarNames: #()
-	classVars: #()
-	classInstVars: #()
-	poolDictionaries: #()
-	inDictionary: 'Globals'
-	category: 'Kernel'
-	options: #()
-
+UserGlobals at: #CompiledMethod put: GsNMethod.
 %
 commit
 logout
