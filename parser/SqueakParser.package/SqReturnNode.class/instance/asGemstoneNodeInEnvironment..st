@@ -2,4 +2,4 @@ translating
 asGemstoneNodeInEnvironment: env
   | GsReturnNode |
   GsReturnNode := GsComReturnNode new.
-  ^ GsReturnNode return: (self expr asGemstoneNodeInEnvironment: env)
+  ^ GsReturnNode returnFromHome: (self expr asGemstoneNodeInEnvironment: env)
