@@ -1,0 +1,17 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"wordingProvider",
+		"wordingSelector",
+		"enablementSelector",
+		"wordingArgument" ],
+	"name" : "UpdatingMenuItemMorph",
+	"pools" : [
+		 ],
+	"super" : "MenuItemMorph",
+	"type" : "normal" }
