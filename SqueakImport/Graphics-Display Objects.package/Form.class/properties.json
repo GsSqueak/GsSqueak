@@ -1,0 +1,18 @@
+{
+	"category" : "Graphics-Display Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cbc 5/5/2017 10:07",
+	"instvars" : [
+		"bits",
+		"width",
+		"height",
+		"depth",
+		"offset" ],
+	"name" : "Form",
+	"pools" : [
+		 ],
+	"super" : "DisplayMedium",
+	"type" : "normal" }

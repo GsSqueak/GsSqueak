@@ -1,0 +1,15 @@
+{
+	"category" : "Graphics-Primitives",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 7/25/2010 14:56",
+	"instvars" : [
+		"origin",
+		"corner" ],
+	"name" : "Rectangle",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
