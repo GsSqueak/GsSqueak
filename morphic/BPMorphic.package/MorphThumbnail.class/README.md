@@ -1,0 +1,1 @@
+A morph whose appearance is a thumbnail of some other morph.

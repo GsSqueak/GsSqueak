@@ -9,10 +9,7 @@ justDroppedInto: aMorph event: anEvent
   self formerOwner: nil.
   self formerPosition: nil.
   cmd := self valueOfProperty: #'undoGrabCommand'.
-  cmd
-    ifNotNil: [ 
-      aMorph rememberCommand: cmd.
-      self removeProperty: #'undoGrabCommand' ].
+  cmd ifNotNil: [ self removeProperty: #'undoGrabCommand' ].
   (partsBinCase := aMorph isPartsBin)
     ifFalse: [ self isPartsDonor: false ].
   (self isInWorld and: [ partsBinCase not ])

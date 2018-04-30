@@ -4,10 +4,5 @@ formAtKey: aString
 
   Symbol
     hasInterned: aString
-    ifTrue: [ :aKey | 
-      ^ FormDictionary
-        at: aKey
-        ifAbsent: [ 
-          self halt.
-          FormDictionary at: #'SmallHalo-Grab' ] ].
-  ^ FormDictionary at: #'Cat'
+    ifTrue: [ :aKey | ^ FormDictionary at: aKey ifAbsent: [ FormDictionary at: #'squeakyMouse' ] ].
+  ^ FormDictionary at: #'squeakyMouse'

@@ -1,0 +1,24 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"startMorph",
+		"endMorph",
+		"startBlock",
+		"completionBlock",
+		"stepNumber",
+		"nSteps",
+		"stepTime",
+		"startForm",
+		"endForm",
+		"effect",
+		"direction" ],
+	"name" : "TransitionMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

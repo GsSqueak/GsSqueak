@@ -1,0 +1,15 @@
+{
+	"category" : "BPMorphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"PageFlipSoundOn" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"pageSize",
+		"newPagePrototype" ],
+	"name" : "BooklikeMorph",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }
