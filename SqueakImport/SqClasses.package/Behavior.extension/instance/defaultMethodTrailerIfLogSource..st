@@ -1,5 +1,5 @@
 *SqClasses-compiling
 defaultMethodTrailerIfLogSource: logSource
 
-	logSource ifFalse: [ ^self defaultMethodTrailer ].
-	^CompiledMethodTrailer sourcePointerInFile: 2
+self flag: #'hack'.
+	^ nil

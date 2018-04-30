@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"convenienceCreateTestClass:" : "",
 		"convenienceTestForClass:" : "",
 		"testByteSubclass" : "",
 		"testDoubleByteSubclass" : "",
 		"testDoubleWordSubclass" : "",
+		"testMethodCreation" : "",
 		"testSubclass" : "",
 		"testWordSubclass" : "" } }

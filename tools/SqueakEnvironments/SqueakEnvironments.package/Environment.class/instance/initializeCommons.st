@@ -26,3 +26,4 @@ initializeCommons
   self at: #'MethodDictionary' put: GsMethodDictionary.
   self at: #'CompiledMethod' put: GsNMethod.
   self at: #'GemstoneSmalltalk' put: Smalltalk.
+  self at: #'CompilationCue' put: SqCompilationCue.

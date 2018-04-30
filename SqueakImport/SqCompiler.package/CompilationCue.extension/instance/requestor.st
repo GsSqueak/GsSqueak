@@ -1,0 +1,3 @@
+*SqCompiler-accessing
+requestor
+	^ requestor
