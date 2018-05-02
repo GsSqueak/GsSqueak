@@ -1,4 +1,5 @@
 submorphs-accessing
-noteNewOwner: aMorph 
-	"I have just been added as a submorph of aMorph"
-	^ self
+noteNewOwner: aMorph
+  "I have just been added as a submorph of aMorph"
+
+  ^ self

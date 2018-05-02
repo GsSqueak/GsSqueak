@@ -1,4 +1,4 @@
 structure
 world
-	^ owner isNil
-		ifFalse: [owner world]
+  ^ self owner isNil
+    ifFalse: [ self owner world ]

@@ -1,6 +1,6 @@
 testing
 isFlexed
-	"Return true if the receiver is currently flexed"
-	owner
-		ifNil: [^ false].
-	^ owner isFlexMorph
+  "Return true if the receiver is currently flexed"
+
+  self owner ifNil: [ ^ false ].
+  ^ self owner isFlexMorph

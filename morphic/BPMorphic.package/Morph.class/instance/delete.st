@@ -9,12 +9,10 @@ delete
     ifTrue: [ 
       self disableSubmorphFocusForHand: self activeHand.
       self activeHand
-        ifNotNil: [ 
-          self activeHand
-            releaseKeyboardFocus: self;
-            releaseMouseFocus: self ] ].	"Preserve world reference for player notificaiton. See below."
+        releaseKeyboardFocus: self;
+        releaseMouseFocus: self ].	"Preserve world reference for player notificaiton. See below."
   aWorld := self world ifNil: [ World ].
-  owner
+  self owner
     ifNotNil: [ 
       self privateDelete.
       self player
