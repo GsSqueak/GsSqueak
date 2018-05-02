@@ -1,4 +1,4 @@
 *SqCollectionLiterals-accessing
-size
+charSize
 
-	^ self basicSize // 2
+	^ 4 "bytes"
