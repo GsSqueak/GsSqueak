@@ -104,6 +104,20 @@ run
 (SqueakEnvironment at: #Integer) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
 (SqueakEnvironment at: #ScaledDecimal) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
 (SqueakEnvironment at: #Fraction) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
+MCEnv useGemstoneParser.
+%
+commit
+logout
+exit
+EOF
+
+todeIt $name mc load SqBlock filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SqBlock filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+
+startTopaz $name -l << EOF
+login
+run
+MCEnv useSqueakParser.
 %
 commit
 logout
