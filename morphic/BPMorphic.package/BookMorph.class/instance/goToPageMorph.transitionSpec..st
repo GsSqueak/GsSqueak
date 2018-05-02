@@ -5,16 +5,16 @@ goToPageMorph: newPage transitionSpec: transitionSpec
 	provided. "
 
   | _gsSqueakTemp_pageIndex _gsSqueakTemp_aWorld _gsSqueakTemp_oldPageIndex _gsSqueakTemp_ascending _gsSqueakTemp_tSpec _gsSqueakTemp_readIn |
-  pages isEmpty
+  self pages isEmpty
     ifTrue: [ ^ self	"In the process of a prior pageTurn" ].
   self setProperty: #'searchContainer' toValue: nil.	"forget previous search"
   self setProperty: #'searchOffset' toValue: nil.
   self setProperty: #'searchKey' toValue: nil.
-  _gsSqueakTemp_pageIndex := pages
+  _gsSqueakTemp_pageIndex := self pages
     identityIndexOf: newPage
     ifAbsent: [ ^ self	"In the process of a prior pageTurn" ].
   _gsSqueakTemp_readIn := newPage isInMemory not.
-  _gsSqueakTemp_oldPageIndex := pages
+  _gsSqueakTemp_oldPageIndex := self pages
     identityIndexOf: currentPage
     ifAbsent: [  ].
   _gsSqueakTemp_ascending := (_gsSqueakTemp_oldPageIndex isNil
@@ -34,8 +34,8 @@ goToPageMorph: newPage transitionSpec: transitionSpec
   currentPage ifNotNil: [ currentPage updateCachedThumbnail ].
   self currentPage notNil
     ifTrue: [ 
-      (((pages at: _gsSqueakTemp_pageIndex) owner isKindOf: TransitionMorph)
-        and: [ (pages at: _gsSqueakTemp_pageIndex) isInWorld ])
+      (((self pages at: _gsSqueakTemp_pageIndex) owner isKindOf: TransitionMorph)
+        and: [ (self pages at: _gsSqueakTemp_pageIndex) isInWorld ])
         ifTrue: [ ^ self	"In the process of a prior pageTurn" ].
       self currentPlayerDo: [ :aPlayer | aPlayer runAllClosingScripts ].
       _gsSqueakTemp_ascending
@@ -43,13 +43,14 @@ goToPageMorph: newPage transitionSpec: transitionSpec
           "Show appropriate page transition and start new page
 					when done"
           currentPage stopStepping.
-          (pages at: _gsSqueakTemp_pageIndex) position: currentPage position.
+          (self pages at: _gsSqueakTemp_pageIndex)
+            position: currentPage position.
           ^ (TransitionMorph
             effect: _gsSqueakTemp_tSpec second
             direction: _gsSqueakTemp_tSpec third
             inverse: (_gsSqueakTemp_ascending or: [ transitionSpec notNil ]) not)
             showTransitionFrom: currentPage
-            to: (pages at: _gsSqueakTemp_pageIndex)
+            to: (self pages at: _gsSqueakTemp_pageIndex)
             in: self
             whenStart: [ self playPageFlipSound: _gsSqueakTemp_tSpec first ]
             whenDone: [ 
@@ -58,7 +59,7 @@ goToPageMorph: newPage transitionSpec: transitionSpec
                 fullReleaseCachedState.
               self
                 insertPageMorphInCorrectSpot:
-                  (pages at: _gsSqueakTemp_pageIndex).
+                  (self pages at: _gsSqueakTemp_pageIndex).
               self adjustCurrentPageForFullScreen.
               self snapToEdgeIfAppropriate.
               _gsSqueakTemp_aWorld
@@ -75,7 +76,7 @@ goToPageMorph: newPage transitionSpec: transitionSpec
       currentPage
         delete;
         fullReleaseCachedState ].
-  self insertPageMorphInCorrectSpot: (pages at: _gsSqueakTemp_pageIndex).	"sets currentPage"
+  self insertPageMorphInCorrectSpot: (self pages at: _gsSqueakTemp_pageIndex).	"sets currentPage"
   self adjustCurrentPageForFullScreen.
   self snapToEdgeIfAppropriate.
   _gsSqueakTemp_aWorld

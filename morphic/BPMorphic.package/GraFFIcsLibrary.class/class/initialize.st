@@ -1,3 +1,3 @@
 as yet unclassified
 initialize
-  inst := nil
+  SessionTemps current at: #'GrafficsInst' put: nil

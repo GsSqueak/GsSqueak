@@ -1,5 +1,5 @@
 initialization
 removeEverything
-	currentPage := nil.
-	pages := OrderedCollection new.
-	self removeAllMorphs
+  currentPage := nil.
+  self pages: OrderedCollection new.
+  self removeAllMorphs

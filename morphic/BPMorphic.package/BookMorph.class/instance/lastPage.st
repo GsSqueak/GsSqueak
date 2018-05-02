@@ -1,3 +1,3 @@
 navigation
 lastPage
-	self goToPage: pages size
+  self goToPage: self pages size

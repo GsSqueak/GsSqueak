@@ -1,4 +1,3 @@
 other
-resizePagesTo: anExtent 
-	pages
-		do: [:aPage | aPage extent: anExtent]
+resizePagesTo: anExtent
+  self pages do: [ :aPage | aPage extent: anExtent ]

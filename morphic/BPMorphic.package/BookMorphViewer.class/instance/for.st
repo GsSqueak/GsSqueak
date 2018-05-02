@@ -1,3 +1,3 @@
 as yet unclassified
-die
-  self halt
+for
+  ^ for

@@ -3,6 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"bookMorph",
 		"common",
 		"commonState",
 		"wantsToLive" ],

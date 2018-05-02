@@ -1,5 +1,3 @@
 accessing
-pageNamed: aName 
-	^ pages
-		detect: [:p | p knownName = aName]
-		ifNone: []
+pageNamed: aName
+  ^ self pages detect: [ :p | p knownName = aName ] ifNone: [  ]
