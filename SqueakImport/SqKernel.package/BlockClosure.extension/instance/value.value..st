@@ -1,4 +1,14 @@
 *SqKernel-evaluating
-value: firstArg value: secondArg
+value: firstObject value: secondObject
+  "Return the value of the receiver evaluated with the two objects as its
+ arguments.  If the block expects a different number of arguments, an error is
+ generated.
 
-	^ self _env0 value: firstArg value: secondArg
+ #value:value: is optimized by the compiler.
+ This method is in the image for use by perform: and for
+ failure paths from the optimized bytecode "
+
+  ^ self
+    valueWithArguments:
+      {firstObject.
+      secondObject}

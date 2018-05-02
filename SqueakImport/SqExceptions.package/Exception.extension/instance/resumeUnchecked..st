@@ -7,6 +7,6 @@ resumeUnchecked: resumptionValue
 		signalContext return: resumptionValue
 	] ifNotNil: [
 		ctxt := outerContext.
-		outerContext := ctxt tempAt: 1. "prevOuterContext in #outer"
+		outerContext := ctxt tempAt: 1. ""prevOuterContext in #outer""
 		ctxt return: resumptionValue
 	]."
