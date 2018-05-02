@@ -5,11 +5,5 @@ at: index
 	Integer or is out of bounds. Essential. See Object documentation 
 	whatIsAPrimitive."
 
-	<primitive: 32> "Gemstone primitive"
-	index isInteger ifTrue:
-		[self class isVariable
-			ifTrue: [self errorSubscriptBounds: index]
-			ifFalse: [self errorNotIndexable]].
-	index isNumber
-		ifTrue: [^self at: index asInteger]
-		ifFalse: [self errorNonIntegerIndex]
+	self class isWords ifTrue: [^ self primWordBasicAt: index].
+	^ self primNormalBasicAt: index

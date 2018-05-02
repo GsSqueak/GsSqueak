@@ -7,13 +7,5 @@ basicAt: index put: value
 	was stored. Essential. Do not override in a subclass. See Object 
 	documentation whatIsAPrimitive."
 
-	<primitive: 268> "Gemstone Primitive"
-	index isInteger
-		ifTrue: [(index >= 1 and: [index <= self size])
-					ifTrue: [self errorImproperStore]
-					ifFalse: [self errorSubscriptBounds: index]].
-	self class _env0 isIndexable
-    		ifFalse: [ ^ self _env0 _errorNotIndexable ].	"not an indexable object"
-	index isNumber
-		ifTrue: [^self basicAt: index asInteger put: value]
-		ifFalse: [self errorNonIntegerIndex]
+	self class isWords ifTrue: [^ self primWordBasicAt: index put: value].
+	^ self primNormalBasicAt: index put: value

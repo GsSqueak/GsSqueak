@@ -1,4 +1,4 @@
 accessing
 byteSize
 
-	^ self basicSize
+	^ self size * self charSize

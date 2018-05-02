@@ -6,13 +6,5 @@ at: index put: value
 	the right type for this kind of collection. Answer the value that was 
 	stored. Essential. See Object documentation whatIsAPrimitive."
 
-	<primitive: 268> "Gemstone Primitive"
-	index isInteger ifTrue:
-		[self class isVariable
-			ifTrue: [(index >= 1 and: [index <= self size])
-					ifTrue: [self errorImproperStore]
-					ifFalse: [self errorSubscriptBounds: index]]
-			ifFalse: [self errorNotIndexable]].
-	index isNumber
-		ifTrue: [^self at: index asInteger put: value]
-		ifFalse: [self errorNonIntegerIndex]
+	self class isWords ifTrue: [^ self primWordBasicAt: index put: value].
+	^ self primNormalBasicAt: index put: value

@@ -53,7 +53,18 @@ createClassSqueak
                 poolDictionaries: poolArray
                 category: category
                 inDictionary: dict
-                options: opts ] ] ].
+                options: opts ]
+            ifFalse: [ 
+              ty == #'words'
+                ifTrue: [ 
+                  newClass := aClass
+                    byteSubclass: name
+                    classVars: cvArray
+                    classInstVars: civArray
+                    poolDictionaries: poolArray
+                    inDictionary: ''
+                    category: category
+                    options: #(#'4byteWords') ] ] ] ].
   newClass ifNil: [ ^ self error: 'Unrecognized class type ' , ty ].	"pre GLASS.230-dkh.196+ versions need this call to _resolveUndeclaredSymbolsForClass: included."
   (Smalltalk at: #'SqueakEnvironment') at: name asSymbol put: newClass.
   SystemChangeNotifier uniqueInstance

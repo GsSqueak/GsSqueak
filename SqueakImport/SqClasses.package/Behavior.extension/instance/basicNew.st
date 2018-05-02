@@ -9,4 +9,5 @@ basicNew
 	 via handleFailingBasicNew if so."
 
 	<primitive: 50>
+	self isVariable ifTrue: [^self basicNew: 0].
 	self primitiveFailed
