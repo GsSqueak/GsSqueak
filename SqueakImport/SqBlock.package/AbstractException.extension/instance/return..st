@@ -15,6 +15,6 @@ return: returnValue
  Generates an error if sent within a legacy handler's handlerBlock.
  or if the return would cross the frame of a C primitive or user action.
 "
- self _executeEnsuresBelow: 1 .
+ self @env0: _executeEnsuresBelow: 1 .
  self _return: returnValue .
 

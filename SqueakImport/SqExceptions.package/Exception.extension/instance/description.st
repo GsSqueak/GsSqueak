@@ -4,7 +4,6 @@ description
 
 	| desc mt |
 	desc := self class name asString.
-	self halt.
 	^(mt := self messageText) == nil
 		ifTrue: [desc]
 		ifFalse: [desc, ': ', mt]
