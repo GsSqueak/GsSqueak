@@ -1,0 +1,3 @@
+garbage collection
+biasToGrow
+	self subclassResponsibility

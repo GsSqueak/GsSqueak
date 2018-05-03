@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"*" : "ajh 8/20/2002 00:35",
+		"+" : "ajh 8/20/2002 01:43",
+		"+=" : "ajh 8/20/2002 01:34",
+		"-" : "ajh 8/20/2002 01:43",
+		"-=" : "ajh 8/20/2002 01:35",
+		"//" : "ajh 8/20/2002 00:35",
+		"<<" : "ajh 8/20/2002 00:35",
+		">>" : "ajh 8/20/2002 00:35",
+		"adaptToNumber:andSend:" : "ajh 8/20/2002 01:29",
+		"asCArrayAccessor" : "di 7/15/2004 16:55",
+		"asInteger" : "ajh 8/20/2002 01:10",
+		"at:" : "di 7/6/2004 09:32",
+		"at:put:" : "di 7/19/2004 12:01",
+		"bitAnd:" : "ajh 8/20/2002 00:35",
+		"bitOr:" : "ajh 8/20/2002 00:35",
+		"bitShift:" : "ajh 8/20/2002 00:35",
+		"coerceTo:sim:" : "tpr 3/23/2005 12:36",
+		"doesNotUnderstand:" : "ajh 8/20/2002 01:23",
+		"floatAt:" : "di 7/16/2004 12:45",
+		"floatAt:put:" : "di 7/16/2004 12:45",
+		"intAt:" : "di 7/16/2004 12:45",
+		"intAt:put:" : "di 7/16/2004 12:45",
+		"interpreter:address:unitSize:" : "ajh 8/20/2002 00:30",
+		"ptrAddress" : "ajh 8/20/2002 00:36" } }

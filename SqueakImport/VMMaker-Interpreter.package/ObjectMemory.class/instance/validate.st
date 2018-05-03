@@ -1,0 +1,3 @@
+memory access
+validate
+	^ self

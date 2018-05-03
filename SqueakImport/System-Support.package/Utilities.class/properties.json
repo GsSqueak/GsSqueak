@@ -1,0 +1,18 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AuthorInitials",
+		"AuthorName",
+		"CommonRequestStrings",
+		"LastStats",
+		"ScrapsBook" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "Utilities",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

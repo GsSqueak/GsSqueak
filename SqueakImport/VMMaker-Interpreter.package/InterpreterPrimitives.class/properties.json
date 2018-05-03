@@ -1,0 +1,26 @@
+{
+	"category" : "VMMaker-Interpreter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CrossedX",
+		"EndOfRun",
+		"InterpreterSourceVersion",
+		"MillisecondClockMask",
+		"PrimitiveExternalCallIndex",
+		"PrimitiveTable" ],
+	"commentStamp" : "dtl 4/14/2013 23:16",
+	"instvars" : [
+		"objectMemory",
+		"primitiveTable",
+		"primFailCode",
+		"argumentCount",
+		"interruptKeycode",
+		"newMethod",
+		"preemptionYields" ],
+	"name" : "InterpreterPrimitives",
+	"pools" : [
+		"VMObjectIndices",
+		"VMSqueakV3ObjectRepresentationConstants" ],
+	"super" : "VMClass",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+I am a shared pool for basic constants upon which the VM as a whole depends.

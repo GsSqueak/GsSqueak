@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"declareCVarsIn:" : "dtl 9/18/2016 20:35",
+		"initialize" : "dtl 9/18/2016 20:33",
+		"initializeCaches" : "dtl 4/22/2016 21:41",
+		"initializePrimitiveTable" : "dtl 12/21/2016 16:54",
+		"primitiveTableString" : "dtl 9/17/2016 10:37" },
+	"instance" : {
+		"areIntegers:and:" : "tpr 3/15/2004 19:35",
+		"byteSwapByteObjectsFrom:to:" : "dtl 2/18/2012 08:50",
+		"checkedIntegerValueOf:" : "eem (objmem refactor) 6/8/2010 17:12",
+		"initializeInterpreter" : "dtl 9/18/2016 20:23",
+		"makePointwithxValue:yValue:" : "dtl 1/23/2012 00:13",
+		"objCouldBeClassObj:" : "dtl 9/11/2016 18:24",
+		"primitiveNewMethod" : "dtl 2/16/2014 20:42",
+		"signExtend16:" : "",
+		"signalExternalSemaphores" : "dtl 9/18/2016 21:00",
+		"signalSemaphoreWithIndex:" : "tpr 3/22/2004 14:25",
+		"storeInteger:ofObject:withValue:" : "eem (objmem refactor) 6/14/2010 10:15",
+		"vmEndianness" : "dtl 12/28/2005 13:03" } }

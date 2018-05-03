@@ -1,0 +1,14 @@
+{
+	"category" : "VMMaker-InterpreterSimulation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ObjectMemorySimulatorLSB64",
+	"pools" : [
+		 ],
+	"super" : "ObjectMemorySimulatorLSB",
+	"type" : "normal" }

@@ -1,0 +1,29 @@
+{
+	"category" : "VMMaker-InterpreterSimulation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 5/5/2011 19:42",
+	"instvars" : [
+		"bytesPerWord",
+		"byteCount",
+		"sendCount",
+		"traceOn",
+		"myBitBlt",
+		"displayForm",
+		"filesOpen",
+		"imageName",
+		"pluginList",
+		"mappedPluginEntries",
+		"inputSem",
+		"quitBlock",
+		"transcript",
+		"displayView",
+		"logging" ],
+	"name" : "InterpreterSimulator",
+	"pools" : [
+		"VMObjectIndices",
+		"VMSqueakV3ObjectRepresentationConstants" ],
+	"super" : "ContextInterpreter",
+	"type" : "normal" }

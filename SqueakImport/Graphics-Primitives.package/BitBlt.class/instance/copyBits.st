@@ -19,4 +19,4 @@ copyBits
 	28	rgbMin: sourceWord with: destinationWord
 	29	rgbMin: sourceWord bitInvert32 with: destinationWord
 "
-	self notYetImplemented
+	^ self copyBitsSimulated

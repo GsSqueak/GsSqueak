@@ -1,0 +1,14 @@
+{
+	"category" : "VMMaker-Interpreter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 4/11/2012 20:40",
+	"instvars" : [
+		 ],
+	"name" : "ClassicObjectMemory",
+	"pools" : [
+		 ],
+	"super" : "ObjectMemory",
+	"type" : "normal" }

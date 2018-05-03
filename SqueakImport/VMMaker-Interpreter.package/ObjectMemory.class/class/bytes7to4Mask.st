@@ -1,0 +1,3 @@
+accessing
+bytes7to4Mask
+	^Bytes7to4Mask

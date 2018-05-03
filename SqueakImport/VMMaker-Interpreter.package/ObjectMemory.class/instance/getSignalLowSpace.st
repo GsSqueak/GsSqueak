@@ -1,0 +1,3 @@
+accessing
+getSignalLowSpace
+	^signalLowSpace

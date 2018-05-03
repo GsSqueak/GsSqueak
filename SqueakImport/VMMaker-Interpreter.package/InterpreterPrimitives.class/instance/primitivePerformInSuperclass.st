@@ -1,0 +1,3 @@
+control primitives
+primitivePerformInSuperclass
+	self subclassResponsibility

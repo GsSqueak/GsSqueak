@@ -1,0 +1,19 @@
+{
+	"category" : "VMMaker-SmartSyntaxPlugins",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"isPrimitive",
+		"suppressingFailureGuards",
+		"selectorOverride",
+		"fullArgs",
+		"parmSpecs",
+		"rcvrSpec" ],
+	"name" : "SmartSyntaxPluginTMethod",
+	"pools" : [
+		 ],
+	"super" : "TMethod",
+	"type" : "normal" }

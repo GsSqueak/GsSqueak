@@ -1,0 +1,41 @@
+allocation
+allocate: byteSize headerSize: hdrSize h1: baseHeader h2: classOop h3: extendedSize doFill: doFill with: fillWord 
+	"Allocate a new object of the given size and number of header words. (Note: byteSize already includes space for the base header word.) Initialize the header fields of the new object and fill the remainder of the object with the given value.
+	May cause a GC"
+
+	| newObj remappedClassOop end i |
+	<inline: true>
+	<var: #i type: 'usqInt'>
+	<var: #end type: 'usqInt'>
+	"remap classOop in case GC happens during allocation"
+	hdrSize > 1 ifTrue: [self pushRemappableOop: classOop].
+	newObj := self allocateChunk: byteSize + (hdrSize - 1 * self bytesPerWord).
+	hdrSize > 1 ifTrue: [remappedClassOop := self popRemappableOop].
+
+	hdrSize = 3
+		ifTrue: [self longAt: newObj put: (extendedSize bitOr: HeaderTypeSizeAndClass).
+			self longAt: newObj + self bytesPerWord put: (remappedClassOop bitOr: HeaderTypeSizeAndClass).
+			self longAt: newObj + (self bytesPerWord*2) put: (baseHeader bitOr: HeaderTypeSizeAndClass).
+			newObj := newObj + (self bytesPerWord*2)].
+
+	hdrSize = 2
+		ifTrue: [self longAt: newObj put: (remappedClassOop bitOr: HeaderTypeClass).
+			self longAt: newObj + self bytesPerWord put: (baseHeader bitOr: HeaderTypeClass).
+			newObj := newObj + self bytesPerWord].
+
+	hdrSize = 1
+		ifTrue: [self longAt: newObj put: (baseHeader bitOr: HeaderTypeShort)].
+	"clear new object"
+	doFill ifTrue: [end := newObj + byteSize.
+			i := newObj + self bytesPerWord.
+			[i < end] whileTrue: [self longAt: i put: fillWord.
+					i := i + self bytesPerWord]].
+	DoAssertionChecks
+		ifTrue: [self okayOop: newObj.
+			interpreter oopHasOkayClass: newObj.
+			(self objectAfter: newObj) = freeBlock
+				ifFalse: [self error: 'allocate bug: did not set header of new oop correctly'].
+			(self objectAfter: freeBlock) = endOfMemory
+				ifFalse: [self error: 'allocate bug: did not set header of freeBlock correctly']].
+
+	^newObj
