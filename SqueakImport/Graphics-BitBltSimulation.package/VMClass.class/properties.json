@@ -1,0 +1,16 @@
+{
+	"category" : "Graphics-BitBltSimulation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultBase",
+		"ExpensiveAsserts" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "VMClass",
+	"pools" : [
+		"VMBasicConstants",
+		"VMObjectIndices" ],
+	"super" : "Object",
+	"type" : "normal" }

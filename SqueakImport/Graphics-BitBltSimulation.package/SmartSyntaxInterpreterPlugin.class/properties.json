@@ -1,0 +1,14 @@
+{
+	"category" : "Graphics-BitBltSimulation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"simulator" ],
+	"name" : "SmartSyntaxInterpreterPlugin",
+	"pools" : [
+		 ],
+	"super" : "InterpreterPlugin",
+	"type" : "normal" }

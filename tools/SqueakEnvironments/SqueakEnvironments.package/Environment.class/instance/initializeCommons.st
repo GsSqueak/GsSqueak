@@ -28,4 +28,5 @@ initializeCommons
   self at: #'Exception' put: AbstractException.
   self at: #'GemstoneSmalltalk' put: Smalltalk.
   self at: #'CompilationCue' put: SqCompilationCue.
+  self at: #'SymbolDictionary' put: SymbolDictionary.
   self at: #'Mutex' put: Mutex.
