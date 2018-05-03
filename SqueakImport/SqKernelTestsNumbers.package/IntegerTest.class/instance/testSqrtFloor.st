@@ -1,6 +1,8 @@
 tests - mathematical functions
 testSqrtFloor
 
+    self assert: false.
+    
 	#(-1234567890123 -10 -5 -1) do: [ :each |
 		self should: [ each sqrtFloor ] raise: Error ].
 	#(

@@ -1,0 +1,14 @@
+{
+	"category" : "SqNumbers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 2/13/2010 00:36",
+	"instvars" : [
+		 ],
+	"name" : "SqNumberParser",
+	"pools" : [
+		 ],
+	"super" : "NumberParser",
+	"type" : "normal" }

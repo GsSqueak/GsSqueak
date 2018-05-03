@@ -3,9 +3,12 @@
 set -ex
 
 restore=false
-while getopts "r" opt; do
+restoreFast=false
+while getopts "r f" opt; do
 	case $opt in
 		r) restore=true
+		;;
+		f) restoreFast=true
 		;;
 	esac
 done
@@ -13,12 +16,15 @@ done
 shift $((OPTIND-1))
 name=$1;
 
-
+if $restoreFast
+then
+    todeRestore gs1 fast.dbf
+else
 if $restore
 then
-	todeRestore $name tode.dbf
+    todeRestore $name tode.dbf
 else
-	createStone -f $name 3.5.0
+    createStone -f $name 3.5.0
 fi
 
 startTopaz $name -l << EOF
@@ -50,7 +56,7 @@ send Behavior _clearSubclassesDisallowed
 env 7
 method: Class
 name
-	^ self @env0: name
+    ^ self @env0: name
 %
 
 commit
@@ -58,16 +64,18 @@ logout
 exit
 EOF
 
-todeIt $name mc load BPBugFixes filetree://$GS_HOME/shared/repos/BP2017RH1/tools/bugfixes
-todeIt $name mc load MCEnvSwitch filetree://$GS_HOME/shared/repos/BP2017RH1/tools/MCEnvSwitch
-todeIt $name mc load SqueakParser filetree://$GS_HOME/shared/repos/BP2017RH1/parser
-todeIt $name mc load SqSuperclasses filetree://$GS_HOME/shared/repos/BP2017RH1/tools/superclasses
-todeIt $name mc load SqueakEnvironments filetree://$GS_HOME/shared/repos/BP2017RH1/tools/SqueakEnvironments
-todeIt $name mc load SqContext filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SqClassCreation filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load Workspace filetree://$GS_HOME/shared/repos/BP2017RH1/tools
-todeIt $name mc load BPGsTests filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load BPBugFixes filetree://$GS_HOME/shared/repos/BP2017RH1/tools/bugfixes 2>&1 | parseTodeitOutput
+todeIt $name mc load MCEnvSwitch filetree://$GS_HOME/shared/repos/BP2017RH1/tools/MCEnvSwitch 2>&1 | parseTodeitOutput
+todeIt $name mc load SqueakParser filetree://$GS_HOME/shared/repos/BP2017RH1/parser 2>&1 | parseTodeitOutput
+todeIt $name mc load SqSuperclasses filetree://$GS_HOME/shared/repos/BP2017RH1/tools/superclasses 2>&1 | parseTodeitOutput
+todeIt $name mc load SqueakEnvironments filetree://$GS_HOME/shared/repos/BP2017RH1/tools/SqueakEnvironments 2>&1 | parseTodeitOutput
+todeIt $name mc load SqContext filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load SqClassCreation filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load Workspace filetree://$GS_HOME/shared/repos/BP2017RH1/tools 2>&1 | parseTodeitOutput
+todeIt $name mc load BPGsTests filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
 
+todeBackup $name fast.dbf
+fi
 
 startTopaz $name -l << EOF
 login
@@ -82,9 +90,9 @@ logout
 exit
 EOF
 
-todeIt $name mc load SqContext7 filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SqBooleans filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SqClasses filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SqContext7 filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load SqBooleans filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load SqClasses filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
 startTopaz $name -l << EOF
 login
 run
@@ -95,7 +103,8 @@ logout
 exit
 EOF
 
-todeIt $name mc load SqNumbers filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SqExceptions filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load SqNumbers filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
 startTopaz $name -l << EOF
 login
 run
@@ -111,8 +120,8 @@ logout
 exit
 EOF
 
-todeIt $name mc load SqBlock filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SqBlock filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SqBlock filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load SqBlock filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
 
 startTopaz $name -l << EOF
 login
@@ -124,8 +133,8 @@ logout
 exit
 EOF
 
-todeIt $name mc load SqKernel filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SqCharacter filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SqKernel filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load SqCharacter filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
 
 startTopaz $name -l << EOF
 login
@@ -143,15 +152,14 @@ commit
 logout
 exit
 EOF
-todeIt $name mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SqCollections filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load CompiledMethod filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SqExceptions filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SqWeak filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load '`System-Object Events`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load '`System-Change Notification`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
-todeIt $name mc load SqCompiler filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport
+todeIt $name mc load SqCollectionLiterals filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load SqCollections filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load CompiledMethod filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load SqWeak filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load '`System-Object Events`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load '`System-Change Notification`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load SqCompiler filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
 
 
 
