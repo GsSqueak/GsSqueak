@@ -14,7 +14,7 @@ initializeCommons
   self at: #'Boolean' put: Boolean.
   self at: #'Metaclass' put: Metaclass3.
   self at: #'Metaclass3' put: Metaclass3.
-  self at: #'BlockClosure' put: BlockClosure.
+  self at: #'BlockClosure' put: ExecBlock.
   self at: #'UndefinedObject' put: UndefinedObject.
   self at: #'ByteString' put: String.
   self at: #'Context' put: Context.  
@@ -25,7 +25,8 @@ initializeCommons
   self at: #'QuadByteSymbol' put: QuadByteSymbol.
   self at: #'MethodDictionary' put: GsMethodDictionary.
   self at: #'CompiledMethod' put: GsNMethod.
-  self at: #'Exception' put: Exception.
+  self at: #'Exception' put: AbstractException.
   self at: #'GemstoneSmalltalk' put: Smalltalk.
   self at: #'CompilationCue' put: SqCompilationCue.
   self at: #'SymbolDictionary' put: SymbolDictionary.
+  self at: #'Mutex' put: Mutex.

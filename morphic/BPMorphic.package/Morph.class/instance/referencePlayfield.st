@@ -4,7 +4,7 @@ referencePlayfield
 	reference "
 
   | former |
-  owner
+  self owner
     ifNotNil: [ 
       (self topRendererOrSelf owner isHandMorph
         and: [ (former := self formerOwner) notNil ])

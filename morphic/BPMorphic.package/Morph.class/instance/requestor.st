@@ -1,5 +1,3 @@
 -services-base
 requestor
-	^ owner
-		ifNil: [super requestor]
-		ifNotNil: [owner requestor]
+  ^ self owner ifNil: [ super requestor ] ifNotNil: [ self owner requestor ]

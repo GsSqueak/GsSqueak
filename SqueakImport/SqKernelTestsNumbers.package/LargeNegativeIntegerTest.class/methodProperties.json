@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testDenormalizedPrintString" : "ul 11/15/2010 11:51",
+		"testDigitAt" : "dtl 7/22/2014 21:40",
+		"testDigitAtPut" : "dtl 7/22/2014 22:25",
+		"testDigitLength" : "dtl 7/22/2014 21:39",
+		"testEmptyTemplate" : "ul 11/15/2010 11:52",
+		"testMinimumNegativeIntegerArithmetic" : "nice 8/31/2012 23:00",
+		"testReplaceFromToWithStartingAt" : "dtl 7/22/2014 22:26" } }

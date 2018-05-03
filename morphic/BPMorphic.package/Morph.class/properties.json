@@ -9,7 +9,7 @@
 	"commentStamp" : "efc 2/26/2003 20:01",
 	"instvars" : [
 		"bounds",
-		"owner",
+		"owner2",
 		"submorphs",
 		"fullBounds",
 		"color",

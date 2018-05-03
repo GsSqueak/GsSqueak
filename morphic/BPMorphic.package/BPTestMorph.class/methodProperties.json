@@ -1,16 +1,17 @@
 {
 	"class" : {
 		"ceateButtonBarFor:" : "Anonymous 04/24/2018 04:41",
-		"die" : "Anonymous 04/24/2018 04:22",
+		"die" : "Anonymous 05/02/2018 04:12",
 		"display:" : "Anonymous 04/24/2018 04:24",
+		"displayBook" : "Anonymous 05/02/2018 05:15",
 		"displaySameMorph" : "Anonymous 04/10/2018 06:17",
 		"getCommon" : "Anonymous 03/20/2018 08:09",
 		"getCommonState" : "Anonymous 03/28/2018 00:45",
 		"initialize" : "Anonymous 04/30/2018 01:05",
-		"resetCommon" : "Anonymous 04/02/2018 23:25",
+		"resetCommon" : "Anonymous 05/02/2018 04:17",
 		"resetCommonState" : "Anonymous 03/28/2018 00:46" },
 	"instance" : {
-		"abort" : "Anonymous 04/10/2018 05:01",
+		"abort" : "Anonymous 05/02/2018 04:13",
 		"changeColor" : "Anonymous 03/28/2018 03:57",
 		"click:" : "Anonymous 03/21/2018 06:32",
 		"commit" : "Anonymous 04/24/2018 01:12",

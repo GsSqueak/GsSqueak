@@ -1,4 +1,5 @@
 accessing
 cardsOrPages
-	"The turnable and printable entities"
-	^ pages
+  "The turnable and printable entities"
+
+  ^ self pages

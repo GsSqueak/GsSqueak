@@ -1,0 +1,16 @@
+{
+	"category" : "SqExceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"selector",
+		"args",
+		"lookupClass" ],
+	"name" : "Message",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

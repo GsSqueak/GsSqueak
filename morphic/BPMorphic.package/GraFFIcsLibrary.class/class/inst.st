@@ -1,4 +1,5 @@
 as yet unclassified
 inst
-  inst ifNil: [ inst := self new ].
-  ^ inst
+  (SessionTemps current at: #'GrafficsInst' ifAbsent: [ nil ])
+    ifNil: [ SessionTemps current at: #'GrafficsInst' put: self new ].
+  ^ SessionTemps current at: #'GrafficsInst'

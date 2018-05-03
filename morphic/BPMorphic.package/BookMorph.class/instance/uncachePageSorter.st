@@ -1,4 +1,3 @@
 menu
 uncachePageSorter
-	pages
-		do: [:aPage | aPage removeProperty: #cachedThumbnail]
+  self pages do: [ :aPage | aPage removeProperty: #'cachedThumbnail' ]
