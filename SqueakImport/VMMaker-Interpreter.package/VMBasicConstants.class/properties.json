@@ -1,0 +1,31 @@
+{
+	"category" : "VMMaker-Interpreter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DoAssertionChecks",
+		"DoExpensiveAssertionChecks",
+		"PrimErrBadArgument",
+		"PrimErrBadIndex",
+		"PrimErrBadMethod",
+		"PrimErrBadNumArgs",
+		"PrimErrBadReceiver",
+		"PrimErrGenericFailure",
+		"PrimErrInappropriate",
+		"PrimErrLimitExceeded",
+		"PrimErrNamedInternal",
+		"PrimErrNoCMemory",
+		"PrimErrNoMemory",
+		"PrimErrNoModification",
+		"PrimErrNotFound",
+		"PrimErrObjectMayMove",
+		"PrimErrUnsupported",
+		"PrimNoErr" ],
+	"commentStamp" : "dtl 4/21/2011 22:44",
+	"instvars" : [
+		 ],
+	"name" : "VMBasicConstants",
+	"pools" : [
+		 ],
+	"super" : "SharedPool",
+	"type" : "normal" }

@@ -1,0 +1,28 @@
+{
+	"category" : "VMMaker-Interpreter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AtCacheEntries",
+		"AtCacheFixedFields",
+		"AtCacheFmt",
+		"AtCacheMask",
+		"AtCacheOop",
+		"AtCacheSize",
+		"AtCacheTotalSize",
+		"AtPutBase",
+		"MaxExternalPrimitiveTableSize",
+		"MaxPrimitiveIndex",
+		"SemaphoresToSignalSize" ],
+	"commentStamp" : "dtl 4/22/2016 22:14",
+	"instvars" : [
+		"semaphoresUseBufferA",
+		"semaphoresToSignalA",
+		"semaphoresToSignalCountA",
+		"semaphoresToSignalB",
+		"semaphoresToSignalCountB" ],
+	"name" : "Interpreter",
+	"pools" : [
+		 ],
+	"super" : "InterpreterPrimitives",
+	"type" : "normal" }

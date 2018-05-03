@@ -1,3 +1,0 @@
-accessing
-objectRepresentationClass
-	^ self class objectRepresentationClass

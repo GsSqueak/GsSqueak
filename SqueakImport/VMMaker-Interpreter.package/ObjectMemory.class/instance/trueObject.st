@@ -1,0 +1,3 @@
+plugin support
+trueObject
+	^trueObj

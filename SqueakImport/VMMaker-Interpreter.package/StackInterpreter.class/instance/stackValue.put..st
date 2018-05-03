@@ -1,0 +1,6 @@
+internal interpreter access
+stackValue: offset put: oop
+	"In the StackInterpreter stacks grow down."
+	^stackPages
+		longAt: stackPointer + (offset * objectMemory bytesPerWord)
+		put: oop

@@ -1,0 +1,3 @@
+memory access
+bytesPerWord
+	^bytesPerWord

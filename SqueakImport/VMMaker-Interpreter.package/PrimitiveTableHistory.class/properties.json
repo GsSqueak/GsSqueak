@@ -1,0 +1,15 @@
+{
+	"category" : "VMMaker-Interpreter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"MaxPrimitiveIndex",
+		"PrimitiveTable" ],
+	"commentStamp" : "dtl 12/26/2016 10:15",
+	"instvars" : [
+		 ],
+	"name" : "PrimitiveTableHistory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

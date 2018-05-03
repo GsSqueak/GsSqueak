@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"byteSwapped:" : "dtl 5/5/2011 21:50",
+		"long32At:" : "di 6/13/2004 10:56",
+		"long32At:put:" : "di 6/13/2004 11:01",
+		"longAt:" : "dtl 5/5/2011 21:54",
+		"longAt:put:" : "dtl 5/5/2011 21:55" } }

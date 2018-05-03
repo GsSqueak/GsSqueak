@@ -1,0 +1,3 @@
+accessing
+byte1ShiftNegated
+	^Byte1ShiftNegated

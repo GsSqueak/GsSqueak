@@ -1,0 +1,3 @@
+accessing
+allocationCount
+	^allocationCount

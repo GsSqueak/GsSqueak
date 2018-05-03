@@ -1,0 +1,3 @@
+debug support
+capturePendingFinalizationSignals
+	objectMemory setStatpendingFinalizationSignals: pendingFinalizationSignals.
