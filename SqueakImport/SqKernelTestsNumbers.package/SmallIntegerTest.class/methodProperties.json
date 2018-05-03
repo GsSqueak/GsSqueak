@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBasicNew" : "sd 6/5/2005 08:59",
+		"testDecimalDigitLength" : "ul 4/2/2016 21:17",
+		"testDivide" : "sd 6/5/2005 08:59",
+		"testEven" : "p4s 7/12/2009 01:33",
+		"testMaxVal" : "nice 10/31/2015 18:47",
+		"testMinVal" : "nice 10/31/2015 18:47",
+		"testNew" : "sd 6/5/2005 08:59",
+		"testOdd" : "p4s 7/12/2009 01:35",
+		"testPrintPaddedWith" : "fbs 12/8/2005 12:58",
+		"testPrintString" : "ul 4/2/2016 21:14" } }

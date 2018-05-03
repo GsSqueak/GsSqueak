@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBitShift" : "md 3/17/2003 15:20",
+		"testDenormalizedPrintString" : "ul 11/15/2010 11:52",
+		"testDigitAt" : "dtl 7/22/2014 21:40",
+		"testDigitAtPut" : "dtl 7/22/2014 21:35",
+		"testDigitLength" : "dtl 7/22/2014 21:39",
+		"testEmptyTemplate" : "ul 11/15/2010 11:52",
+		"testLargeSqrtFloor" : "nice 3/21/2014 18:38",
+		"testMultDicAddSub" : "sd 6/5/2005 08:52",
+		"testNormalize" : "sd 6/5/2005 08:53",
+		"testReciprocalModulo" : "nice 9/6/2010 21:51",
+		"testReplaceFromToWithStartingAt" : "dtl 7/22/2014 21:59" } }

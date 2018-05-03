@@ -1,0 +1,2 @@
+I test the random number generator implemented by Random. Whenever its implementation changes, I'll have to be updated to match the new implementation.
+Instead of adding methods to Random to access the internal state, I use reflection (#instVarNamed:).
