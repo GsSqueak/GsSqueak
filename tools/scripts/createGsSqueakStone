@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -ex
+set -o pipefail
 
 restore=false
 restoreFast=false
@@ -160,8 +161,7 @@ todeIt $name mc load '`System-Object Events`' filetree://$GS_HOME/shared/repos/B
 todeIt $name mc load '`System-Change Notification`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
 todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
 todeIt $name mc load SqCompiler filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
-
-
+#todeIt $name mc load SqKernelTestsNumbers filetree://${GS_HOME}/shared/repos/BP2017RH1/SqueakImport/  2>&1 | parseTodeitOutput
 
 
 startTopaz $name -l << EOF

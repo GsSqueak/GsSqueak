@@ -5,7 +5,7 @@ home = Path('.')
 for x in home.iterdir():
     if x.is_dir():
         json_dict = {}
-        if x.suffix == '.extension':
+        if x.suffix == '.extension' or x.suffix == '.class':
             classname = x.name[:-10]
             for y in x.iterdir():
                 if y.is_dir():
