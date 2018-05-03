@@ -1,0 +1,3 @@
+accessing
+bytes3to0Mask
+	^Bytes3to0Mask

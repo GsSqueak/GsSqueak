@@ -161,8 +161,22 @@ todeIt $name mc load '`System-Object Events`' filetree://$GS_HOME/shared/repos/B
 todeIt $name mc load '`System-Change Notification`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
 todeIt $name mc load SUnit filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
 todeIt $name mc load SqCompiler filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
-todeIt $name mc load SqKernelTestsNumbers filetree://${GS_HOME}/shared/repos/BP2017RH1/SqueakImport/  2>&1 | parseTodeitOutput
 
+todeBackup $name flag1
+todeIt $name mc load '`Kernel-Processes-Variables`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load '`Kernel-Numbers`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load '`Kernel-Pools`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load '`Graphics-converting`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load '`Graphics-Primitives`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeBackup $name flag2
+# todeIt $name mc load '`VMMaker-Support`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+# todeIt $name mc load '`VMMaker-Plugins`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+# todeIt $name mc load '`VMMaker-SmartSyntaxPlugins`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+# todeIt $name mc load '`VMMaker-Interpreter`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+# todeIt $name mc load '`VMMaker-InterpreterSimulation`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+# todeIt $name mc load '`System-Support`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+# todeIt $name mc load '`Graphics-Display Objects`' filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
+todeIt $name mc load SqKernelTestsNumbers filetree://${GS_HOME}/shared/repos/BP2017RH1/SqueakImport/  2>&1 | parseTodeitOutput
 
 startTopaz $name -l << EOF
 login

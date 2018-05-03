@@ -1,0 +1,15 @@
+{
+	"category" : "VMMaker-InterpreterSimulation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 2/15/2012 20:12",
+	"instvars" : [
+		"bytesPerWord",
+		"transcript" ],
+	"name" : "ObjectMemorySimulator",
+	"pools" : [
+		 ],
+	"super" : "ClassicObjectMemory",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+control primitives
+primitivePerformWithArgs
+	self subclassResponsibility

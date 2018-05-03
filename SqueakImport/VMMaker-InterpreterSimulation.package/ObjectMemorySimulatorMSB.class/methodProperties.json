@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"byteAt:" : "dtl 5/1/2011 17:45",
+		"byteAt:put:" : "dtl 5/1/2011 17:46",
+		"halfWordHighInLong32:" : "di 7/16/2004 14:58",
+		"halfWordLowInLong32:" : "di 7/16/2004 14:58",
+		"shortAt:" : "dtl 5/1/2011 17:47",
+		"shortAt:put:" : "dtl 5/1/2011 17:47",
+		"vmEndianness" : "tpr 12/22/2005 17:46" } }
