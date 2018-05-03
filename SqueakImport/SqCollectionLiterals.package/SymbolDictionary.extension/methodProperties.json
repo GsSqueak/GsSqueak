@@ -1,0 +1,35 @@
+{
+        "class": {
+                "braceStream..st": "",
+                "empty.st": "",
+                "new..st": ""
+        },
+        "instance": {
+                "^plus.star.st": "",
+                "asArray.st": "",
+                "atWrap..st": "",
+                "atWrap.put..st": "",
+                "byteEncode..st": "",
+                "copyWithDependent..st": "",
+                "elementsExchangeIdentityWith..st": "",
+                "elementsForwardIdentityTo..st": "",
+                "elementsForwardIdentityTo.copyHash..st": "",
+                "evalStrings.st": "",
+                "hasLiteral..st": "",
+                "hasLiteralSuchThat..st": "",
+                "isArray.st": "",
+                "isLiteral.st": "",
+                "isLiteralIfContainedBy..st": "",
+                "literalEqual..st": "",
+                "preMultiplyByArray..st": "",
+                "preMultiplyByMatrix..st": "",
+                "printAsBraceFormOn..st": "",
+                "printAsLiteralOn..st": "",
+                "printOn..st": "",
+                "replaceFrom.to.with.startingAt..st": "",
+                "shouldBePrintedAsLiteral.st": "",
+                "shouldBePrintedAsLiteralVisiting..st": "",
+                "sorted..st": "",
+                "storeOn..st": ""
+        }
+}

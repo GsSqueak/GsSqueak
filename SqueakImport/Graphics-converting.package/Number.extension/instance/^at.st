@@ -4,5 +4,4 @@
 	value is the argument. Optional. No Lookup. See Object documentation 
 	whatIsAPrimitive."
 
-	<primitive: 18>
-	^Point x: self y: y
+	^ Point x: self y: y
