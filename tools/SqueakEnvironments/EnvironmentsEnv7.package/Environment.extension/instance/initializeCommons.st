@@ -1,4 +1,4 @@
-initialize-release
+*EnvironmentsEnv7-initialize-release
 initializeCommons
   self at: #'SmalltalkImage' put: SmalltalkImage.
   self at: #'SmallInteger' put: SmallInteger.
@@ -29,4 +29,3 @@ initializeCommons
   self at: #'GemstoneSmalltalk' put: Smalltalk.
   self at: #'CompilationCue' put: SqCompilationCue.
   self at: #'Mutex' put: Mutex.
-  self at: #'Environment' put: Environment.
