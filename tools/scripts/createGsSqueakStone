@@ -104,7 +104,7 @@ logout
 exit
 EOF
 
-loadPackage SqueakEnvironmentsEnv7 "tools/SqueakEnvironments"
+loadPackage EnvironmentsEnv7 "tools/SqueakEnvironments"
 loadSqueakPackage SqContext7
 loadSqueakPackage SqBooleans
 loadSqueakPackage SqClasses
