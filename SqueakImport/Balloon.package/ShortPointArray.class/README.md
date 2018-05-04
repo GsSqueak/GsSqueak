@@ -1,0 +1,1 @@
+This class stores points that are in short integer range (e.g., -32768 <= value <= 32767). It is used to pass data efficiently to the primitive level during high-bandwidth 2D graphics operations.

@@ -1,0 +1,18 @@
+{
+	"category" : "Collections-Arrayed",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"runs",
+		"values",
+		"lastIndex",
+		"lastRun",
+		"lastOffset" ],
+	"name" : "RunArray",
+	"pools" : [
+		 ],
+	"super" : "ArrayedCollection",
+	"type" : "normal" }

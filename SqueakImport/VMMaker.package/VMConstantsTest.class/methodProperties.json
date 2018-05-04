@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"initialize" : "dtl 5/19/2011 21:43" },
+	"instance" : {
+		"initializeVMConstants" : "dtl 4/22/2016 21:48",
+		"tearDown" : "dtl 5/8/2011 14:49",
+		"testConstMinusOne" : "dtl 4/22/2016 21:48" } }

@@ -1,0 +1,4 @@
+private
+primitiveSetBitBltPlugin: pluginName
+	
+	^nil

@@ -1,0 +1,1 @@
+This is a stub for Cogit, the code generator for the Cog VM.

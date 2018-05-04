@@ -1,0 +1,3 @@
+accessing
+display
+	^color display

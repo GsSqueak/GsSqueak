@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Arrayed",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WordArrayForSegment",
+	"pools" : [
+		 ],
+	"super" : "WordArray",
+	"type" : "words" }

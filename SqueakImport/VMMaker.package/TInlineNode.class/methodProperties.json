@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bindVariableUsesIn:" : "ar 7/6/2003 20:34",
+		"copyTree" : "ar 7/6/2003 20:15",
+		"emitCCodeOn:level:generator:" : "ar 7/6/2003 20:19",
+		"mapReceiversIn:" : "dtl 1/22/2012 14:43",
+		"method" : "ar 7/6/2003 20:08",
+		"method:" : "ar 7/6/2003 20:08",
+		"nodesDo:" : "ar 7/6/2003 20:36",
+		"nodesDo:unless:" : "eem 2/27/2009 16:47",
+		"printOn:level:" : "ar 7/6/2003 22:00",
+		"replaceNodesIn:" : "ar 7/6/2003 21:30" } }

@@ -1,0 +1,21 @@
+{
+	"category" : "VMMaker-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 9/19/2010 21:36",
+	"instvars" : [
+		"cg",
+		"inlineFlag",
+		"primFailCode",
+		"aVarWithOneReference",
+		"aVarWithTwoReferences",
+		"objectMemory",
+		"aVariable",
+		"breakSelector" ],
+	"name" : "SlangTestSupportInterpreter",
+	"pools" : [
+		 ],
+	"super" : "ObjectMemory",
+	"type" : "normal" }

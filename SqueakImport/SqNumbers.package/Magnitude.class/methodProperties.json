@@ -1,19 +1,20 @@
 {
-	"class" : {},
-	"instance" : {
-		"<" : "",
-		"<=" : "",
-		"<=>" : "ul 5/24/2015 05:11",
-		"=" : "",
-		">" : "",
-		">=" : "nice 12/31/2008 04:06",
-		"between:and:" : "ul 10/8/2014 12:46",
-		"clampHigh:" : "mtf 3/7/2011 21:35",
-		"clampLow:" : "mtf 3/7/2011 21:34",
-		"clampLow:high:" : "mtf 3/7/2011 21:35",
-		"hash" : "",
-		"inRangeOf:and:" : "cmm 9/15/2013 14:55",
-		"max:" : "",
-		"min:" : "",
-		"min:max:" : "",
-		"putOn:" : "kph 9/27/2007 22:10" } }
+        "instance": {
+                "^equals.st": "",
+                "^less.equals.more.st": "",
+                "^less.equals.st": "",
+                "^less.st": "",
+                "^more.equals.st": "",
+                "^more.st": "",
+                "between.and..st": "",
+                "clampHigh..st": "",
+                "clampLow..st": "",
+                "clampLow.high..st": "",
+                "hash.st": "",
+                "inRangeOf.and..st": "",
+                "max..st": "",
+                "min..st": "",
+                "min.max..st": "",
+                "putOn..st": ""
+        }
+}
