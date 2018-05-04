@@ -31,3 +31,4 @@ initializeCommons
   self at: #'SymbolDictionary' put: SymbolDictionary.
   self at: #'Mutex' put: Mutex.
   self at: #'Environment' put: Environment.
+  self at: #'SymbolAssociation' put: SymbolAssociation.

@@ -17,18 +17,7 @@ done
 shift $((OPTIND-1))
 name=$1;
 
-
-function loadPackage() {
-	todeIt $name mc load "$1" "filetree://$GS_HOME/shared/repos/BP2017RH1/$2" 2>&1 | parseTodeitOutput
-}
-
-function debugLoadPackage() {
-	todeIt -D $name mc load "$1" "filetree://$GS_HOME/shared/repos/BP2017RH1/$2" 2>&1 | parseTodeitOutput
-}
-
-function loadSqueakPackage() {
-	loadPackage "$1" "SqueakImport"
-}
+export name
 
 if $restoreFast
 then
@@ -83,10 +72,10 @@ loadPackage MCEnvSwitch "tools/MCEnvSwitch"
 loadPackage SqueakParser "parser"
 loadPackage SqSuperclasses "tools/superclasses"
 loadPackage SqueakEnvironments "tools/SqueakEnvironments"
-loadSqueakPackage SqContext
-loadSqueakPackage SqClassCreation
+loadPackage -S SqContext
+loadPackage -S SqClassCreation
 loadPackage Workspace "tools"
-loadSqueakPackage BPGsTests
+loadPackage -S BPGsTests
 
 todeBackup $name fast.dbf
 fi
@@ -105,10 +94,9 @@ exit
 EOF
 
 loadPackage EnvironmentsEnv7 "tools/SqueakEnvironments"
-loadSqueakPackage SqContext7
-loadSqueakPackage SqBooleans
-loadSqueakPackage SqClasses
-
+loadPackage -S SqContext7
+loadPackage -S SqBooleans
+loadPackage -S SqClasses
 startTopaz $name -l << EOF
 login
 run
@@ -119,8 +107,8 @@ logout
 exit
 EOF
 
-loadSqueakPackage SqExceptions
-loadSqueakPackage SqNumbers
+loadPackage -S SqExceptions
+loadPackage -S SqNumbers
 startTopaz $name -l << EOF
 login
 run
@@ -136,8 +124,8 @@ logout
 exit
 EOF
 
-loadSqueakPackage SqBlock
-loadSqueakPackage SqBlock
+loadPackage -S SqBlock
+loadPackage -S SqBlock
 
 startTopaz $name -l << EOF
 login 
@@ -149,16 +137,21 @@ logout
 exit
 EOF
 
-loadSqueakPackage SqKernel
-loadSqueakPackage SqCharacter
+loadPackage -S SqKernel
+loadPackage -S SqCharacter
 
 startTopaz $name -l << EOF
 login
 run
 SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: anObject' inEnv: 7.
+SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: aClass after: predecessor' inEnv: 7.
+SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: aClass before: predecessor' inEnv: 7.
 SmalltalkImage newMethodFromSqueakString: 'addToShutDownList: anObject' inEnv: 7.
+SmalltalkImage newMethodFromSqueakString: 'addToShutDownList: aClass after: predecessor' inEnv: 7.
+SmalltalkImage newMethodFromSqueakString: 'addToShutDownList: aClass before: predecessor' inEnv: 7.
 SmalltalkImage newMethodFromSqueakString: 'removeFromStartUpList: anObject' inEnv: 7.
 SmalltalkImage newMethodFromSqueakString: 'removeFromShutDownList: anObject' inEnv: 7.
+
 UserGlobals at: #ByteString put: String.
 UserGlobals at: #ByteSymbol put: Symbol.
 UserGlobals at: #MethodDictionary put: GsMethodDictionary.
@@ -168,29 +161,29 @@ commit
 logout
 exit
 EOF
-loadSqueakPackage SqCollectionLiterals
-loadSqueakPackage SqCollections
-loadSqueakPackage CompiledMethod
-loadSqueakPackage SqWeak
-loadSqueakPackage '`System-Object Events`'
-loadSqueakPackage '`System-Change Notification`'
-loadSqueakPackage '`System-Support`'
-loadSqueakPackage SUnit
-loadSqueakPackage SqCompiler
-# loadSqueakPackage '`Compiler-ParseNodes`'
+loadPackage -S SqCollectionLiterals
+loadPackage -S SqCollections
+loadPackage -S CompiledMethod
+loadPackage -S SqWeak
+loadPackage -S '`System-Object Events`'
+loadPackage -S '`System-Change Notification`'
+loadPackage -S '`System-Support`'
+loadPackage -S SUnit
+loadPackage -S SqCompiler
 
 todeBackup $name flag1
-loadSqueakPackage '`Kernel-Processes-Variables`'
-loadSqueakPackage '`Kernel-Numbers`'
-loadSqueakPackage '`Kernel-Pools`'
-loadSqueakPackage '`Graphics-converting`'
-loadSqueakPackage '`Graphics-Primitives`'
-todeBackup $name flag2
-loadSqueakPackage '`Collections-Arrayed`'
+loadPackage -S '`Kernel-Processes-Variables`'
+loadPackage -S '`Kernel-Numbers`'
+loadPackage -S '`Kernel-Pools`'
+loadPackage -S '`Graphics-converting`'
+loadPackage -S '`Graphics-Primitives`'
+loadPackage -S '`Collections-Arrayed`'
 
-# loadSqueakPackage '`VMMaker`'
-# loadSqueakPackage '`Graphics-Display Objects`'
-loadSqueakPackage SqKernelTestsNumbers
+todeBackup $name flag2
+loadPackage -S '`Balloon`'
+# loadPackage -S '`VMMaker`'
+# loadPackage -S '`Graphics-Display Objects`'
+loadPackage -S SqKernelTestsNumbers
 
 startTopaz $name -l << EOF
 login

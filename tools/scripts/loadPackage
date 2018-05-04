@@ -1,0 +1,29 @@
+#!/bin/bash
+
+set -ex
+set -o pipefail
+
+debug=""
+squeakImport=false
+while getopts "D S" opt; do
+	case $opt in
+		D) debug=-D
+		;;
+		S) squeakImport=true
+		;;
+	esac
+done
+
+shift $((OPTIND-1))
+
+if [ ${squeakImport} = true ]
+then
+	packagePath="SqueakImport"
+else
+	packagePath="${2}"
+fi
+
+
+packageName="$1"
+
+todeIt ${debug} $name mc load "${packageName}" "filetree://$GS_HOME/shared/repos/BP2017RH1/${packagePath}" 2>&1 | parseTodeitOutput

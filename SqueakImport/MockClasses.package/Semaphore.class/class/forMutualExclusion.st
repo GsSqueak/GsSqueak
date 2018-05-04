@@ -1,0 +1,4 @@
+mocked
+forMutualExclusion
+
+	^ self new
