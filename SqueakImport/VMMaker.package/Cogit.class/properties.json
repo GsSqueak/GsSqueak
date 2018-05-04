@@ -1,0 +1,14 @@
+{
+	"category" : "VMMaker-JIT",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 4/2/2012 19:13",
+	"instvars" : [
+		 ],
+	"name" : "Cogit",
+	"pools" : [
+		 ],
+	"super" : "CogClass",
+	"type" : "normal" }

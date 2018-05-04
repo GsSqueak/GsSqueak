@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Arrayed",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ColorArray",
+	"pools" : [
+		 ],
+	"super" : "ArrayedCollection",
+	"type" : "words" }

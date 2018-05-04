@@ -1,0 +1,5 @@
+accessing
+bytesPerElement
+
+	^ 4.
+	

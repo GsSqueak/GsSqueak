@@ -1,0 +1,14 @@
+{
+	"category" : "VMMaker-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 9/18/2010 17:43",
+	"instvars" : [
+		 ],
+	"name" : "SlangTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

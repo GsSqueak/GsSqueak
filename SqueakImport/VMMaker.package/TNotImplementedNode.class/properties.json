@@ -1,0 +1,14 @@
+{
+	"category" : "VMMaker-Translation to C",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 10/12/2010 19:37",
+	"instvars" : [
+		"parseNode" ],
+	"name" : "TNotImplementedNode",
+	"pools" : [
+		 ],
+	"super" : "TParseNode",
+	"type" : "normal" }

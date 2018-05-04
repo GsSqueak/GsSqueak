@@ -22,49 +22,53 @@ createClassSqueak
   dict := SymbolDictionary new.
   ty == #'normal'
     ifTrue: [ 
-      newClass := aClass
+      (newClass := aClass
         subclass: name
         instVarNames: ivArray
         classVars: cvArray
         classInstVars: civArray
         poolDictionaries: poolArray
-        category: category
         inDictionary: dict
-        options: opts ]
+        newVersionOf: nil
+        description: nil
+        options: opts) category: category ]
     ifFalse: [ 
       ty == #'variable'
         ifTrue: [ 
-          newClass := aClass
+          (newClass := aClass
             indexableSubclass: name
             instVarNames: ivArray
             classVars: cvArray
             classInstVars: civArray
             poolDictionaries: poolArray
-            category: category
             inDictionary: dict
-            options: opts ]
+            newVersionOf: nil
+            description: nil
+            options: opts) category: category ]
         ifFalse: [ 
           ty == #'bytes'
             ifTrue: [ 
-              newClass := aClass
+              (newClass := aClass
                 byteSubclass: name
                 classVars: cvArray
                 classInstVars: civArray
                 poolDictionaries: poolArray
-                category: category
+                newVersionOf: nil
+                description: nil
                 inDictionary: dict
-                options: opts ]
+                options: opts) category: category ]
             ifFalse: [ 
               ty == #'words'
                 ifTrue: [ 
-                  newClass := aClass
+                  (newClass := aClass
                     byteSubclass: name
                     classVars: cvArray
                     classInstVars: civArray
                     poolDictionaries: poolArray
-                    inDictionary: ''
-                    category: category
-                    options: #(#'4byteWords') ] ] ] ].
+                    inDictionary: dict
+                    newVersionOf: nil
+                    description: nil
+                    options: #(#'4byteWords')) category: category ] ] ] ].
   newClass ifNil: [ ^ self error: 'Unrecognized class type ' , ty ].	"pre GLASS.230-dkh.196+ versions need this call to _resolveUndeclaredSymbolsForClass: included."
   (Smalltalk at: #'SqueakEnvironment') at: name asSymbol put: newClass.
   SystemChangeNotifier uniqueInstance

@@ -1,0 +1,16 @@
+{
+	"category" : "VMMaker-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 5/31/2010 16:47",
+	"instvars" : [
+		"saveWordSize",
+		"omv32",
+		"omv64" ],
+	"name" : "ObjectMemoryVariablesTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

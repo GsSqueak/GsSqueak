@@ -1,0 +1,5 @@
+menus
+rescanPlugins
+
+
+	vmMaker reinitializePluginsLists

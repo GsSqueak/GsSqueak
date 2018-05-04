@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedFailures" : "dtl 9/22/2012 16:06",
+		"testLargeIntegerBugFixedInVMMakerOscog1744" : "dtl 3/28/2016 10:05",
+		"testPrimitiveSubtractLargeIntegersParameterBounds" : "dtl 9/22/2012 16:07",
+		"testSigned64BitValueOfLargeNegativeInteger" : "dtl 9/22/2012 15:53",
+		"testSigned64BitValueOfLargePositiveInteger" : "dtl 9/22/2012 16:04" } }

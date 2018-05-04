@@ -1,0 +1,14 @@
+{
+	"category" : "Balloon-Collections",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "PointArray",
+	"pools" : [
+		 ],
+	"super" : "IntegerArray",
+	"type" : "words" }

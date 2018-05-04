@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "dtl 6/6/2010 12:25",
+		"testByte0Mask" : "dtl 5/31/2010 16:35",
+		"testByte0Shift" : "dtl 5/31/2010 16:36",
+		"testByte1Mask" : "dtl 5/31/2010 16:36",
+		"testByte1Shift" : "dtl 5/31/2010 16:36",
+		"testByte1ShiftNegated" : "dtl 5/31/2010 16:36",
+		"testByte2Mask" : "dtl 5/31/2010 16:37",
+		"testByte2Shift" : "dtl 5/31/2010 16:37",
+		"testByte3Mask" : "dtl 5/31/2010 16:37",
+		"testByte3Shift" : "dtl 5/31/2010 16:37",
+		"testByte3ShiftNegated" : "dtl 5/31/2010 16:37",
+		"testByte4Mask" : "dtl 5/31/2010 16:39",
+		"testByte4Shift" : "dtl 5/31/2010 16:37",
+		"testByte4ShiftNegated" : "dtl 5/31/2010 16:39",
+		"testByte5Mask" : "dtl 5/31/2010 16:39",
+		"testByte5Shift" : "dtl 5/31/2010 16:39",
+		"testByte5ShiftNegated" : "dtl 5/31/2010 16:39",
+		"testByte6Mask" : "dtl 5/31/2010 16:39",
+		"testByte6Shift" : "dtl 5/31/2010 16:39",
+		"testByte7Mask" : "dtl 5/31/2010 16:39",
+		"testByte7Shift" : "dtl 5/31/2010 16:39",
+		"testByte7ShiftNegated" : "dtl 5/31/2010 16:39",
+		"testBytes3to0Mask" : "dtl 5/31/2010 16:38",
+		"testBytes7to4Mask" : "dtl 5/31/2010 16:38" } }

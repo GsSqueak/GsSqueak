@@ -1,0 +1,14 @@
+{
+	"category" : "VMMaker-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 5/8/2011 14:43",
+	"instvars" : [
+		 ],
+	"name" : "VMConstantsTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

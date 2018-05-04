@@ -1,0 +1,14 @@
+{
+	"category" : "Balloon-Collections",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 11/12/2015 23:50",
+	"instvars" : [
+		 ],
+	"name" : "ShortPointArray",
+	"pools" : [
+		 ],
+	"super" : "ShortIntegerArray",
+	"type" : "words" }

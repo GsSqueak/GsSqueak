@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"isActiveVMMakerClassFor:" : "" },
+	"instance" : {
+		"createCodeGenerator" : "dtl 12/30/2014 13:27",
+		"deleteUnwantedExternalPluginDirectories" : "dtl 9/24/2012 21:24",
+		"deleteUnwantedInternalPluginDirectories" : "dtl 9/24/2012 21:24",
+		"internalPluginsDirectory" : "dtl 9/24/2012 21:32" } }
