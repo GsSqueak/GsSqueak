@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-emulating
 select: aBlock 
-	^ declarations select: aBlock
+^ self _env0 select: aBlock 

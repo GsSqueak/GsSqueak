@@ -1,6 +1,3 @@
 *EnvironmentsEnv7-emulating
 at: key ifPresentAndInMemory: aBlock 
-	^ declarations
-		at: key
-		ifPresent: [:v | v isInMemory
-				ifTrue: [aBlock value: v]]
+^ self _env0 at: key ifPresentAndInMemory: aBlock 

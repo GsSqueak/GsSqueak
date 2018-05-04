@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-emulating
 environment
-	^ self
+^ self _env0 environment

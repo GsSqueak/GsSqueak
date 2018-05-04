@@ -1,5 +1,3 @@
 *EnvironmentsEnv7-classes and traits
 allClassesDo: aBlock 
-	self
-		allClassesAndTraitsDo: [:value | (value isKindOf: Class)
-				ifTrue: [aBlock value: value]]
+^ self _env0 allClassesDo: aBlock 

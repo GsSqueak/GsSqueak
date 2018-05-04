@@ -1,5 +1,3 @@
 *EnvironmentsEnv7-observing
 removeObserver: anObject 
-	observers
-		remove: anObject
-		ifAbsent: []
+^ self _env0 removeObserver: anObject 

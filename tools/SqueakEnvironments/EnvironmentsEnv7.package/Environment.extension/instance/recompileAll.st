@@ -1,5 +1,3 @@
 *EnvironmentsEnv7-operations
 recompileAll
-	self allClassesAndTraits
-		do: [:classOrTrait | classOrTrait compileAll]
-		displayingProgress: [:classOrTrait | 'Recompiling ' , classOrTrait]
+^ self _env0 recompileAll

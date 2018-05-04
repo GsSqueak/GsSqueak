@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-accessing
 default: anEnvironment 
-	Default := anEnvironment
+^ self _env0 default: anEnvironment 

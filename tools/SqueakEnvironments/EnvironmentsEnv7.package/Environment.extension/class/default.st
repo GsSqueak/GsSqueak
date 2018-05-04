@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-accessing
 default
-	^ Default
+^ self _env0 default

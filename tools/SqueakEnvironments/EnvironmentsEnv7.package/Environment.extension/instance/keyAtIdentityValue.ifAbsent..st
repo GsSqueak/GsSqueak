@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-emulating
 keyAtIdentityValue: anObject ifAbsent: aBlock 
-	^ declarations keyAtIdentityValue: anObject ifAbsent: aBlock
+^ self _env0 keyAtIdentityValue: anObject ifAbsent: aBlock 

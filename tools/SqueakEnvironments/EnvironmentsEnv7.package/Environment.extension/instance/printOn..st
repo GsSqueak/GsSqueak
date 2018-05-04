@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-printing
 printOn: aStream 
-	aStream nextPutAll: info name
+^ self _env0 printOn: aStream 

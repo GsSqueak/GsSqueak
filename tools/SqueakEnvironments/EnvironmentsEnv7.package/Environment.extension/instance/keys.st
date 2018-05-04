@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-emulating
 keys
-	^ declarations keys
+^ self _env0 keys

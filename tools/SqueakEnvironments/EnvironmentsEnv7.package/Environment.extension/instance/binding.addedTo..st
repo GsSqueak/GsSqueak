@@ -1,7 +1,3 @@
 *EnvironmentsEnv7-updating
 binding: aBinding addedTo: anEnvironment 
-	policies
-		do: [:ea | ea
-				binding: aBinding
-				addedTo: anEnvironment
-				notify: self]
+^ self _env0 binding: aBinding addedTo: anEnvironment 

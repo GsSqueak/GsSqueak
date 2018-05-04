@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-binding
 declarationOf: aSymbol 
-	^ declarations bindingOf: aSymbol
+^ self _env0 declarationOf: aSymbol 

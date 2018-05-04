@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-binding
 valueOf: aSymbol 
-	^ self valueOf: aSymbol ifAbsent: nil
+^ self _env0 valueOf: aSymbol 

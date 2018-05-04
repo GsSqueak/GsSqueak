@@ -89,7 +89,7 @@ commit
 logout
 exit
 EOF
-
+todeIt $name mc load SqueakEnvironmentsEnv7 filetree://$GS_HOME/shared/repos/BP2017RH1/tools/SqueakEnvironments 2>&1 | parseTodeitOutput
 todeIt $name mc load SqContext7 filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
 todeIt $name mc load SqBooleans filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput
 todeIt $name mc load SqClasses filetree://$GS_HOME/shared/repos/BP2017RH1/SqueakImport 2>&1 | parseTodeitOutput

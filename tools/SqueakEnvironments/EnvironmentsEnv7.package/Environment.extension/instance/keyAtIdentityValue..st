@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-emulating
 keyAtIdentityValue: anObject 
-	^ declarations keyAtIdentityValue: anObject
+^ self _env0 keyAtIdentityValue: anObject 
