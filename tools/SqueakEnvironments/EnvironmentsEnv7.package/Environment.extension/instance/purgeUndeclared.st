@@ -1,0 +1,3 @@
+*EnvironmentsEnv7-declaring
+purgeUndeclared
+	undeclared removeUnreferencedKeys

@@ -30,3 +30,4 @@ initializeCommons
   self at: #'CompilationCue' put: SqCompilationCue.
   self at: #'SymbolDictionary' put: SymbolDictionary.
   self at: #'Mutex' put: Mutex.
+  self at: #'Environment' put: Environment.

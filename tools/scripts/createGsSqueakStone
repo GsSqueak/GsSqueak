@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -ex
+set -o pipefail
 
 restore=false
 restoreFast=false
@@ -137,7 +138,7 @@ loadSqueakPackage SqBlock
 loadSqueakPackage SqBlock
 
 startTopaz $name -l << EOF
-login
+login 
 run
 MCEnv useSqueakParser.
 %
@@ -183,12 +184,11 @@ loadSqueakPackage '`Kernel-Pools`'
 loadSqueakPackage '`Graphics-converting`'
 loadSqueakPackage '`Graphics-Primitives`'
 todeBackup $name flag2
-
 loadSqueakPackage '`Collections-Arrayed`'
 
 # loadSqueakPackage '`VMMaker`'
 # loadSqueakPackage '`Graphics-Display Objects`'
-
+loadSqueakPackage SqKernelTestsNumbers
 
 startTopaz $name -l << EOF
 login
