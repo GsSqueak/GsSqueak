@@ -14,6 +14,8 @@
                 "printOn.base..st": "",
                 "printOn.base.length.padded..st": "",
                 "shallowCopy.st": "",
-                "veryDeepCopyWith..st": ""
+                "veryDeepCopyWith..st": "",
+                "numberOfDigitsInBase..st": "",
+                "decimalDigitLength.st": ""
         }
 }
