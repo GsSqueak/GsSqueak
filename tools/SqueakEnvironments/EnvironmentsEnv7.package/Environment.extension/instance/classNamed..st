@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-classes and traits
 classNamed: aString 
-	^ self classOrTraitNamed: aString
+^ self _env0 classNamed: aString 

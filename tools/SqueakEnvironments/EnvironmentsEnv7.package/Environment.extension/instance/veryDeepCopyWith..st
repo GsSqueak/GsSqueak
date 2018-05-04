@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-emulating
 veryDeepCopyWith: aCopier 
-	^ self
+^ self _env0 veryDeepCopyWith: aCopier 

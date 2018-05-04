@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-emulating
 at: aSymbol put: anObject 
-	^ self bind: aSymbol to: anObject
+^ self _env0 at: aSymbol put: anObject 

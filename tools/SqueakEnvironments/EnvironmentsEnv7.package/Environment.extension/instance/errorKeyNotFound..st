@@ -1,4 +1,3 @@
 *EnvironmentsEnv7-private
 errorKeyNotFound: key 
-	"Signal KeyNotFound error"
-	^ (KeyNotFound key: key) signal
+^ self _env0 errorKeyNotFound: key 

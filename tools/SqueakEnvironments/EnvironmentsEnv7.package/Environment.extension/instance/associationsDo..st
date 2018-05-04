@@ -1,5 +1,3 @@
 *EnvironmentsEnv7-emulating
 associationsDo: aBlock 
-	"Evaluate aBlock for each of the receiver's elements (key/value
-	associations). "
-	declarations associationsDo: aBlock
+^ self _env0 associationsDo: aBlock 

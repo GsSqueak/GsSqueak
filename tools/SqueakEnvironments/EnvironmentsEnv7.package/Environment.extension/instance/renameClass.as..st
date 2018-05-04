@@ -1,6 +1,3 @@
 *EnvironmentsEnv7-classes and traits
 renameClass: aClass as: newName 
-	^ self
-		renameClass: aClass
-		from: aClass name
-		to: newName
+^ self _env0 renameClass: aClass as: newName 

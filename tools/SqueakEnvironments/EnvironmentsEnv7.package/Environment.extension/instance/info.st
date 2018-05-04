@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-accessing
 info
-	^ info
+^ self _env0 info

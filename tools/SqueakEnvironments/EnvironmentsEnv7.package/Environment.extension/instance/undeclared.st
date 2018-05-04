@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-accessing
 undeclared
-	^ undeclared
+^ self _env0 undeclared

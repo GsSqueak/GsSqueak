@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-declaring
 purgeUndeclared
-	undeclared removeUnreferencedKeys
+^ self _env0 purgeUndeclared

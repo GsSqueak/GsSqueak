@@ -1,5 +1,3 @@
 *EnvironmentsEnv7-classes and traits
 allClasses
-	^ Array
-		streamContents: [:out | self
-				allClassesDo: [:class | out nextPut: class]]
+^ self _env0 allClasses

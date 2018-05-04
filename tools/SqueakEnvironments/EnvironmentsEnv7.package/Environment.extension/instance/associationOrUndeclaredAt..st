@@ -1,6 +1,3 @@
 *EnvironmentsEnv7-emulating
 associationOrUndeclaredAt: key 
-	^ bindings
-		associationAt: key
-		ifAbsent: [undeclared at: key put: nil.
-			undeclared associationAt: key]
+^ self _env0 associationOrUndeclaredAt: key 

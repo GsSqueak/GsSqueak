@@ -1,4 +1,3 @@
 *EnvironmentsEnv7-emulating
 keysAndValuesDo: aBlock 
-	^ self
-		associationsDo: [:assoc | aBlock value: assoc key value: assoc value]
+^ self _env0 keysAndValuesDo: aBlock 

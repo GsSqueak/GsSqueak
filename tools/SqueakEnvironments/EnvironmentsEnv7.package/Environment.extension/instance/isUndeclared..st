@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-declaring
 isUndeclared: aSymbol 
-	^ undeclared includesKey: aSymbol
+^ self _env0 isUndeclared: aSymbol 

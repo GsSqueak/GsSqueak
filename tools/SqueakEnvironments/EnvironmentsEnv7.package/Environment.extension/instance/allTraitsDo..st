@@ -1,5 +1,3 @@
 *EnvironmentsEnv7-classes and traits
 allTraitsDo: aBlock 
-	self
-		allClassesAndTraitsDo: [:value | value isTrait
-				ifTrue: [aBlock value: value]]
+^ self _env0 allTraitsDo: aBlock 

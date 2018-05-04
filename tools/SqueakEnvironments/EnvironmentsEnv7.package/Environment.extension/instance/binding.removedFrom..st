@@ -1,7 +1,3 @@
 *EnvironmentsEnv7-updating
 binding: aBinding removedFrom: anEnvironment 
-	policies
-		do: [:ea | ea
-				binding: aBinding
-				removedFrom: anEnvironment
-				notify: self]
+^ self _env0 binding: aBinding removedFrom: anEnvironment 

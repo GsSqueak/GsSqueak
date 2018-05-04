@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-observing
 addObserver: anObject 
-	observers add: anObject
+^ self _env0 addObserver: anObject 

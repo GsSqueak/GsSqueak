@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-instance creation
 withName: aString 
-	^ self basicNew initializeWithName: aString
+^ self _env0 withName: aString 

@@ -1,4 +1,3 @@
 *EnvironmentsEnv7-accessing
 current
-	^ CurrentEnvironment signal
-		ifNil: [self default]
+^ self _env0 current

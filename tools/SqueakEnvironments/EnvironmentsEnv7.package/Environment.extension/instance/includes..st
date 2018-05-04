@@ -1,3 +1,3 @@
 *EnvironmentsEnv7-emulating
 includes: value 
-	^ declarations includes: value
+^ self _env0 includes: value 

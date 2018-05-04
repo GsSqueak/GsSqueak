@@ -1,4 +1,3 @@
 *EnvironmentsEnv7-observing
 stopObserving: anEnvironment 
-	policies := policies
-				reject: [:ea | ea environment == anEnvironment]
+^ self _env0 stopObserving: anEnvironment 
