@@ -1,4 +1,0 @@
-other declarations
-anAbstractMethod
-
-	self subclassResponsibility

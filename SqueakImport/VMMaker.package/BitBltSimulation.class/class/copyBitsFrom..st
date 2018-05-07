@@ -3,7 +3,8 @@ copyBitsFrom: aBitBlt
 	"Simulate the copyBits primitive"
 	| proxy bb |
 	proxy := InterpreterProxy new.
-	proxy loadStackFrom: thisContext sender home.
+	self flag: #goodEnoughForNow.
+	proxy loadStackFrom: thisContext sender. "actually: thisContext sender home"
 	bb := self simulatorClass new.
 	bb initialiseModule.
 	bb setInterpreter: proxy.

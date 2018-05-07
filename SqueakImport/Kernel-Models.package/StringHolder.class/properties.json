@@ -1,14 +1,14 @@
 {
-	"category" : "VMMaker-Support",
+	"category" : "Kernel-Models",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
-	"name" : "VMClass",
+		"contents" ],
+	"name" : "StringHolder",
 	"pools" : [
-		"VMBasicConstants" ],
-	"super" : "Object",
+		 ],
+	"super" : "Model",
 	"type" : "normal" }

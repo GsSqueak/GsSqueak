@@ -1,14 +1,14 @@
 {
-	"category" : "VMMaker-Support",
+	"category" : "System-FileRegistry",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
+		"FileReaderRegistry" ],
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "VMClass",
+	"name" : "FileServices",
 	"pools" : [
-		"VMBasicConstants" ],
+		 ],
 	"super" : "Object",
 	"type" : "normal" }

@@ -1,14 +1,15 @@
 {
-	"category" : "VMMaker-Support",
+	"category" : "Kernel-Models",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"UseColorfulWindows",
+		"WindowActiveOnFirstClick" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
-	"name" : "VMClass",
+		"dependents" ],
+	"name" : "Model",
 	"pools" : [
-		"VMBasicConstants" ],
+		 ],
 	"super" : "Object",
 	"type" : "normal" }

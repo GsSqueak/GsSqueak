@@ -1,1 +1,0 @@
-This class overrides a few methods in ObjectMemorySimulator required for simulation to work on little-endian architectures (such as the x86 family of processors).

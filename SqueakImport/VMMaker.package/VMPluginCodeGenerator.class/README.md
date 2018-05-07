@@ -1,1 +1,0 @@
-I generate code that can be loaded dynamically from external libraries (e.g., DSOs on Unix or DLLs on Windows)
