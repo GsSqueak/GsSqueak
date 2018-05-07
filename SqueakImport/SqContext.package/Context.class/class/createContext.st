@@ -1,6 +1,7 @@
 as yet unclassified
 createContext
   | level framesArr aFrame frames previous stack |
+
   stack := self stackClass new
     process: GsProcess _current;
     yourself.
@@ -18,10 +19,24 @@ createContext
       frameIndex: index;
       frameContents: (framesArr at: index);
       stack: stack;
-      yourself.
+yourself.
+
     frames add: frame.
     previous ifNotNil: [ previous parent: frame ].
     frame next: previous.
     previous := frame ].
+
+
+
+frames last closureOrNil: nil.
+
+(2 to: frames size) reverse do: [ :index |
+	
+	((frames at: index) receiver isBlock ) ifTrue: [
+		[
+			(frames at: index - 1) closureOrNil: ((frames at: index) receiver).
+		]
+	].
+
   stack frames: frames.
   ^ stack frames first
