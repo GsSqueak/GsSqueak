@@ -178,11 +178,14 @@ loadPackage -S '`Kernel-Pools`'
 loadPackage -S '`Graphics-converting`'
 loadPackage -S '`Graphics-Primitives`'
 loadPackage -S '`Collections-Arrayed`'
+loadPackage -S '`MockClasses`'
 
 todeBackup $name flag2
 loadPackage -S '`Balloon`'
-# loadPackage -S '`VMMaker`'
-# loadPackage -S '`Graphics-Display Objects`'
+loadPackage -S '`VMMaker`'
+loadPackage -S '`Kernel-Models`'
+loadPackage -S '`System-FileRegistry`'
+loadPackage -S '`Graphics-Display Objects`'
 loadPackage -S SqKernelTestsNumbers
 
 startTopaz $name -l << EOF
