@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"arrayLiteral:" : "",
 		"byteArrayLiteral:" : "",
-		"scaledDecimalLiteral:" : "" } }
+		"scaledDecimalLiteral:" : "",
+		"stringLiteral:" : "" } }

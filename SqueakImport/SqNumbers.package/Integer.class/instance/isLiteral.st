@@ -1,0 +1,4 @@
+*SqNumbers-printing
+isLiteral
+
+	^true

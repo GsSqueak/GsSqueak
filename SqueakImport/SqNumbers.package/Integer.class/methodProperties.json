@@ -137,6 +137,7 @@
                 "take..st": "",
                 "timesRepeat..st": "",
                 "tinyBenchmarks.st": "",
-                "truncated.st": ""
+                "truncated.st": "",
+		"itLiteral.st": ""
         }
 }
