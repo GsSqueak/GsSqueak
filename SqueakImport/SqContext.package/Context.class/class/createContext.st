@@ -36,7 +36,8 @@ frames last closureOrNil: nil.
 		[
 			(frames at: index - 1) closureOrNil: ((frames at: index) receiver).
 		]
-	].
+	]
+].
 
   stack frames: frames.
   ^ stack frames first
