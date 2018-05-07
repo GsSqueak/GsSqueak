@@ -1,7 +1,3 @@
-*SqueakParser-asGemstoneLiteralNode
+*SqueakParser
 asGemstoneLiteralNode
-  | gsArrayNode |
-  gsArrayNode := GsComLiteralNode new leaf: self asGemstoneLitLeaf.
-  ^ GsComSendNode new
-    stSelector: #'beMutable';
-    rcvr: gsArrayNode
+  ^ GsComLiteralNode new leaf: self asGemstoneLitLeaf
