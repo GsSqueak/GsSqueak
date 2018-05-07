@@ -28,15 +28,17 @@ yourself.
 
 
 
-frames last closureOrNil: nil.
 
-(2 to: frames size) reverse do: [ :index |
+(1 to: frames size) do: [ :index | |contextFrame senderFrame|
 	
-	((frames at: index) receiver isBlock ) ifTrue: [
-		[
-			(frames at: index - 1) closureOrNil: ((frames at: index) receiver).
-		]
-	]
+	contextFrame := (frames at: index).
+	senderFrame := contextFrame parent.
+	senderFrame ifNotNil: [
+		senderFrame receiver isBlock ifTrue: [
+			contextFrame closureOrNil: senderFrame receiver.
+		]	
+	].
+	
 ].
 
   stack frames: frames.
