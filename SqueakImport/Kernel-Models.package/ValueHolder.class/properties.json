@@ -1,0 +1,14 @@
+{
+	"category" : "Kernel-Models",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contents" ],
+	"name" : "ValueHolder",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

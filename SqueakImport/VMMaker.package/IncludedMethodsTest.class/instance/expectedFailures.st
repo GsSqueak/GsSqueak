@@ -1,5 +1,0 @@
-testing
-expectedFailures
-
-	^#(testFindSubstringOldVersionWithMissingTypeChecks
-		testFindSubstringInWideString)

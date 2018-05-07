@@ -1,3 +1,0 @@
-version
-minorNO
-	^ 0

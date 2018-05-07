@@ -7,7 +7,7 @@ debug=""
 squeakImport=false
 while getopts "D S" opt; do
 	case $opt in
-		D) debug=-D
+		D) debug="-D"
 		;;
 		S) squeakImport=true
 		;;

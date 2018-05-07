@@ -1,3 +1,0 @@
-version
-majorNO
-	^ 2

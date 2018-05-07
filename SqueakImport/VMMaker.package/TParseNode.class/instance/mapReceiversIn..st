@@ -1,3 +1,0 @@
-transformations
-mapReceiversIn: aDictionary
-	^self

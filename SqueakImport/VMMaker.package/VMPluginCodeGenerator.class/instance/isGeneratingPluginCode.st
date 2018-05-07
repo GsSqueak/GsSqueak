@@ -1,3 +1,0 @@
-testing
-isGeneratingPluginCode
-	^true

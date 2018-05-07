@@ -1,1 +1,0 @@
-This class overrides a few methods in ObjectMemorySimulator required for simulation to work on big-endian architectures.
