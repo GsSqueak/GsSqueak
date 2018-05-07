@@ -185,6 +185,8 @@ loadPackage -S '`Balloon`'
 loadPackage -S '`VMMaker`'
 loadPackage -S '`Kernel-Models`'
 loadPackage -S '`System-FileRegistry`'
+
+todeBackup $name flag3
 loadPackage -S '`Graphics-Display Objects`'
 loadPackage -S SqKernelTestsNumbers
 
