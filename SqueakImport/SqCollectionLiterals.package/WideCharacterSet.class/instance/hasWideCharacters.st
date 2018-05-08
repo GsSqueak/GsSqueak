@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-testing
+testing
 hasWideCharacters
 	"Answer true if i contain any wide character"
 	

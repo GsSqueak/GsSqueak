@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 from: startIndex to: endIndex put: anObject
 	"Put anObject in all indexes between startIndex 
 	and endIndex. Very fast. Faster than to:do: for

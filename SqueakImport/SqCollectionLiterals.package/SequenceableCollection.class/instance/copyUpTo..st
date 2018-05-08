@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-copying
+copying
 copyUpTo: anElement 
 	"Answer all elements up to but not including anObject. If there
 	is no such object, answer a copy of the receiver."

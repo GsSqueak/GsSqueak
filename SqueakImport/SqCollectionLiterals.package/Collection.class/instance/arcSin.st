@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-math functions
+math functions
 arcSin
 	^self collect: [:each | each arcSin]

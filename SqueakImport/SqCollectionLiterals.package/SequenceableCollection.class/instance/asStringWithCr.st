@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asStringWithCr
 	"Convert to a string with returns between items.  Elements are
 usually strings.

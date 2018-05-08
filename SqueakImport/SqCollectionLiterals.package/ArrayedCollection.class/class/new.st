@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-instance creation
+instance creation
 new
 	"Answer a new instance of me, with size = 0."
 

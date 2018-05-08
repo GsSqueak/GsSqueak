@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-removing
+removing
 remove: oldObject ifAbsent: anExceptionBlock 
 	"SequencableCollections cannot implement removing."
 

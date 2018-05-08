@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 do: aBlock displayingProgress: aStringOrBlock every: msecs
 	"Enumerate aBlock displaying progress information. 
 	If the argument is a string, use a static label for the process. 

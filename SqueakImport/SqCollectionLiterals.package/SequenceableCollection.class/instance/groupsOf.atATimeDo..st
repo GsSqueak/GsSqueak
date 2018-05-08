@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 groupsOf: n atATimeDo: aBlock 
 	"Evaluate aBlock with my elements taken n at a time. Ignore any leftovers at the end.
 	Allows use of a flattened 

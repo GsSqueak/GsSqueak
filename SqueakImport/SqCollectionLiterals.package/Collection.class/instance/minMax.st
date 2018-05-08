@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-math functions
+math functions
 minMax
 	"Scans for minimum and maximum in one pass returning the results as a two-element array"
 	| min max |

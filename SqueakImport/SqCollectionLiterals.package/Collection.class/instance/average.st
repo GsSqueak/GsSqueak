@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-math functions
+math functions
 average
 	^ self sum / self size

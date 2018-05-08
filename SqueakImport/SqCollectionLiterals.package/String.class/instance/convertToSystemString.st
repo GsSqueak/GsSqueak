@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 convertToSystemString
 	^self convertToWithConverter: LanguageEnvironment defaultSystemConverter

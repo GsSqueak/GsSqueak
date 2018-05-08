@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 analogousCodeTo: anObject
 	"For MethodProperties comparison."
 	^anObject isVariableBinding

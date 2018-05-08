@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-adapting
+adapting
 adaptToComplex: rcvr andSend: selector
 	"If I am involved in arithmetic with a scalar, return a Collection of
 	the results of each element combined with the scalar in that expression."

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-private
+private
 wideCharacterMap
 	"used for comparing with WideByteCharacterSet"
 	

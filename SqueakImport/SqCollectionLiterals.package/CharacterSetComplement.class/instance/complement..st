@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-initialize-release
+initialize-release
 complement: aCharacterSet
 	"initialize with the complement"
 	

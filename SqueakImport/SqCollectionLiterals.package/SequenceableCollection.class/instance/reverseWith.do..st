@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 reverseWith: aSequenceableCollection do: aBlock 
 	"Evaluate aBlock with each of the receiver's elements, in reverse order, 
 	along with the  

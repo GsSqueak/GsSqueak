@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 findFirstInByteString: aByteString startingAt: start
 	"Find the index of first character starting at start in aByteString that is included in the receiver.
 	Default is to use a naive algorithm.

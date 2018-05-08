@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 at: anInteger
 
 	^self bitAt: anInteger

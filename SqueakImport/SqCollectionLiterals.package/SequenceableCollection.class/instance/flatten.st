@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 flatten
 	"Similar to #concatenation but removes all nesting except for strings.
 Example: {3 .4 .{2 .4 .{'hi'} .'ho'}} flatten = {3 .4 .2 .4 .'hi' .'ho'}"

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 splitBy: aCollection do: aBlock
 	"Split the receiver by aCollection. Evaluate aBlock with the parts.
 

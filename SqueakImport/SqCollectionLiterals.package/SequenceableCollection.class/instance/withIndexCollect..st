@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 withIndexCollect: elementAndIndexBlock 
 	"Just like with:collect: except that the iteration index supplies the second argument to the block."
 	| result |

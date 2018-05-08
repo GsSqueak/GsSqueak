@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-math functions
+math functions
 arcCos
 	^self collect: [:each | each arcCos]

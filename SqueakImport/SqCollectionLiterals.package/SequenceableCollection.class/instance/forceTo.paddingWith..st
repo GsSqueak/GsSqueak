@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-copying
+copying
 forceTo: length paddingWith: elem
 	"Force the length of the collection to length, padding
 	if necessary with elem.  Note that this makes a copy."

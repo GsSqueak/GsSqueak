@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-sorting
+sorting
 isSorted
 	"Return true if the receiver is sorted by #<=."
 

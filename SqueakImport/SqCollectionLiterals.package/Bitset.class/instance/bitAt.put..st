@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-bit manipulation
+bit manipulation
 bitAt: anInteger put: aBit
 	"Set the value corresponding to anInteger to aBit. Return the new value."
 

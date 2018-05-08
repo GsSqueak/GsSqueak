@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 reversed
 	"Answer a copy of the receiver with element order reversed."
 	"Example: 'frog' reversed"

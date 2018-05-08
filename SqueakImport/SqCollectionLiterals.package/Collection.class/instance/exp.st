@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-math functions
+math functions
 exp
 	^self collect: [:each | each exp]

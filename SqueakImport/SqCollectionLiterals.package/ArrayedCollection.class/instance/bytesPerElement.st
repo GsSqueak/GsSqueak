@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-objects from disk
+objects from disk
 bytesPerElement
 	| bytesPerElementOrZero |
 	bytesPerElementOrZero := #[0 0 0 0 0 0 0 0 8 4 4 2 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1] at: self class instSpec.

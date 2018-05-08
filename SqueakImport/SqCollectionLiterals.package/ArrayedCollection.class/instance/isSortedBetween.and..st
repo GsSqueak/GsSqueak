@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-sorting
+sorting
 isSortedBetween: startIndex and: endIndex
 	"Return true if the receiver is sorted by #<= between startIndex and endIndex."
 

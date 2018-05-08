@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 capacity
 	"Answer the current capacity of the receiver."
 

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-initialize-release
+initialize-release
 cleanUp: aggressive
 
 	CrLf := NonSeparators := Separators := nil

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-instance creation
+instance creation
 allCharacters
 	"return a set containing all characters"
 

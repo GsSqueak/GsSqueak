@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-shuffling
+shuffling
 shuffleBy: aRandom
 	"Durstenfeld's version of the Fisher-Yates shuffle"
 

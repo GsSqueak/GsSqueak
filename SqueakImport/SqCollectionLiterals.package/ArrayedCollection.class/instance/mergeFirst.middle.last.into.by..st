@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-sorting
+sorting
 mergeFirst: first middle: middle last: last into: dst by: aBlock
 	"Private. Merge the sorted ranges [first..middle] and [middle+1..last] 
 	of the receiver into the range [first..last] of dst."

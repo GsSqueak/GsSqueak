@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-math functions
+math functions
 tan
 	^self collect: [:each | each tan]

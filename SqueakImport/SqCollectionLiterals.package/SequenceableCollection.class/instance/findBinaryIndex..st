@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 findBinaryIndex: aBlock
 	"Search for an element in the receiver using binary search.
 	The argument aBlock is a one-element block returning

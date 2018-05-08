@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 select: selectBlock thenCollect: collectBlock
 	"Utility method to improve readability."
 

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 = anAssociation
 
 	^ super = anAssociation and: [value = anAssociation value]

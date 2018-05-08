@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-copying
+copying
 copyLast: num
 	"Deprecated. Use #last:"
 

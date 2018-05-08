@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-initialize-release
+initialize-release
 initialize
 	byteArrayMap := ByteArray new: 256.
 	tally := 0

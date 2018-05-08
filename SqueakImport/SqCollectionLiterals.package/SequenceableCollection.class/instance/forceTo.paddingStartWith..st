@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-copying
+copying
 forceTo: length paddingStartWith: elem 
 	"Force the length of the collection to length, padding  
 	the beginning of the result if necessary with elem.  

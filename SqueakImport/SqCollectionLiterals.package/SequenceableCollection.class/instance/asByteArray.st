@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asByteArray
 	"Answer a ByteArray whose elements are the elements of the receiver."
 

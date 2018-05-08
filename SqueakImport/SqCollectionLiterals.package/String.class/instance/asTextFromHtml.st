@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asTextFromHtml
 	"Answer a Text by interpreting the receiver as HTML."
 

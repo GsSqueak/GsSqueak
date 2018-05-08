@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 atAll: indexArray putAll: valueArray
 	"Store the elements of valueArray into the slots
 	of this collection selected by indexArray."

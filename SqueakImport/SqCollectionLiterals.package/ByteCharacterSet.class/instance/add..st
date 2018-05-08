@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-adding
+adding
 add: aCharacter
 	"I automatically become a WideByteCharacterSet if you add a wide character to myself"
 	

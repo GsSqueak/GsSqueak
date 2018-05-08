@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 reduce: binaryBlock
 	"Apply the argument, binaryBlock cumulatively to the elements of the receiver.
 	For sequenceable collections the elements will be used in order, for unordered

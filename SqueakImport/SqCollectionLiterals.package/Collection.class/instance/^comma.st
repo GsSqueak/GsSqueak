@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-copying
+copying
 , aCollection
 
 	^ self copy addAll: aCollection asCollection; yourself

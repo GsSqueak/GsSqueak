@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asDecomposedUnicode
 	"Convert the receiver into a decomposed Unicode representation.
 	Optimized for the common case that no decomposition needs to take place."

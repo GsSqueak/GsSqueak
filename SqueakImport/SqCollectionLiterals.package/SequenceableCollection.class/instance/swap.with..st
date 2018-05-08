@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 swap: oneIndex with: anotherIndex 
 	"Move the element at oneIndex to anotherIndex, and vice-versa."
 

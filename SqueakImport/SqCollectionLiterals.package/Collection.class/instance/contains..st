@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-testing
+testing
 contains: aBlock
 	"VW compatibility"
 	^self anySatisfy: aBlock

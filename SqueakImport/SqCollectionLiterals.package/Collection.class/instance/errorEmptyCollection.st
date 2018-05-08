@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-private
+private
 errorEmptyCollection
 
 	self error: 'this collection is empty'

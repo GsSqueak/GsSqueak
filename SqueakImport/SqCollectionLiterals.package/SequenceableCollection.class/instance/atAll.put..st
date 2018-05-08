@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 atAll: aCollection put: anObject 
 	"Put anObject at every index specified by the elements of aCollection."
 

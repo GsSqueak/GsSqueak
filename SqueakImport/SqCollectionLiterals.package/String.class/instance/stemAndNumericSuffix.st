@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 stemAndNumericSuffix
 	"Parse the receiver into a string-valued stem and a numeric-valued suffix.  6/7/96 sw"
 

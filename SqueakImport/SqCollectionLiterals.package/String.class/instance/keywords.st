@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 keywords
 	"Answer an array of the keywords that compose the receiver."
 	| keywords |

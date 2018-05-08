@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-testing
+testing
 endsWith: sequence
 	"Answer true if the receiver ends with the argument collection."
 	

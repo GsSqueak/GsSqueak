@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 topologicallySortedUsing: aSortBlock 
 	"Answer a SortedCollection whose elements are the elements of the 
 	receiver, but topologically sorted. The topological order is defined 

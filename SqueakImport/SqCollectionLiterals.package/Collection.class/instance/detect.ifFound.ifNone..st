@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 detect: aBlock ifFound: foundBlock ifNone: exceptionBlock 
 	"foundBlock takes one argument, the found object."
 	self 

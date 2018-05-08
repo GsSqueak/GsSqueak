@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-instance creation
+instance creation
 with: anObject 
 	"Answer a new instance of me, containing only anObject."
 

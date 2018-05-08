@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-private
+private
 stringhash
 
 	^ self hash.

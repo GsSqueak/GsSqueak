@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 lineIndicesDo: aBlock
 	"execute aBlock with 3 arguments for each line:
 	- start index of line

@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 size
 	^self subclassResponsibility

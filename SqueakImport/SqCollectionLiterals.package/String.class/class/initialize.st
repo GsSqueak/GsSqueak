@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-initialization
+initialization
 initialize   "self initialize"
 	| order |
 	self initializeSubclasses.

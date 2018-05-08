@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-bit manipulation
+bit manipulation
 clearBitAt: anInteger
 	"Set the value corresponding to anInteger to 0. Return true if the value wasn't 0."
 

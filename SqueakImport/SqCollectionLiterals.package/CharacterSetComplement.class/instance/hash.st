@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 hash
 	^ absent hash bitXor: self class hash

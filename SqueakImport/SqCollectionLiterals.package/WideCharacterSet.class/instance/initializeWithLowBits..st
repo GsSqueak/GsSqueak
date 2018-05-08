@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-initialize-release
+initialize-release
 initializeWithLowBits: lowBits
 
 	bitsetCapacity := 1 bitShift: lowBits.

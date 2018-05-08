@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 readStream
 	^ ReadStream on: self

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 hash
 	"Answer a hash code aimed at storing and retrieving the receiver in a Set or Dictionary.
 	Two equal objects should have equal hash.

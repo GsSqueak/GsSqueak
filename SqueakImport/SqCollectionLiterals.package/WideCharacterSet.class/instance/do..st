@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 do: aBlock
  
 	map keysAndValuesDo: [ :index :bitset |

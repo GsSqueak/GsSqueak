@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-initialization
+initialization
 initializeHtmlEntities
 	"self initializeHtmlEntities"
 

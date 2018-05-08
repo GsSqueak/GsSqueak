@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-printing
+printing
 storeOn: aStream 
 	aStream nextPut: $(;
 	 store: start;

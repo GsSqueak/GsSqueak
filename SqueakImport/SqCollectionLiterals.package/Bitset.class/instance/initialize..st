@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-private
+private
 initialize: capacity
 	"Capacity is expected to be a non-negative, multiple-of-eight integer."
 

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-filter streaming
+filter streaming
 writeOnFilterStream: aStream
 
 	aStream write:key.

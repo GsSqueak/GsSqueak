@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 size
 
 	^map detectSum: [ :each | each size ]

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 crlf
 
 	^CrLf ifNil: [ CrLf := self with: Character cr with: Character lf ]

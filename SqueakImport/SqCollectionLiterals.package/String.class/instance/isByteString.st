@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-testing
+testing
 isByteString
 	"Answer whether the receiver is a ByteString"
 	^false

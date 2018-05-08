@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-instance creation
+instance creation
 withAll: aCollection
 	"Create a new CharacterSet containing all the characters from aCollection."
 

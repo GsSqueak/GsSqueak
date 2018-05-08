@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-copying
+copying
 grownBy: length 
 	"Answer a copy of receiver collection with size grown by length"
 	^ (self class ofSize: self size + length)

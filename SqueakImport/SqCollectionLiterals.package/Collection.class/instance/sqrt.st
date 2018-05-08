@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-math functions
+math functions
 sqrt
 	^ self collect: [:each | each sqrt]

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-instance creation
+instance creation
 with: firstObject with: secondObject 
 	"Answer a new instance of me, containing firstObject and secondObject."
 

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-bit manipulation
+bit manipulation
 bitAt: anInteger
 	"Return the bit corresponding to anInteger."
 

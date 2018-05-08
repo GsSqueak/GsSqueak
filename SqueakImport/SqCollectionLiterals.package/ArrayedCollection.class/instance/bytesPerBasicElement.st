@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-objects from disk
+objects from disk
 bytesPerBasicElement
 	"Answer the number of bytes that each of my basic elements requires.
 	In other words:

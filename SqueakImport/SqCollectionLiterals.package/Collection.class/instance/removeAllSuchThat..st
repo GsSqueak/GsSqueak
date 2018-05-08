@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-removing
+removing
 removeAllSuchThat: aBlock 
 	"Evaluate aBlock for each element and remove all that elements from
 	the receiver for that aBlock evaluates to true.  Use a copy to enumerate 

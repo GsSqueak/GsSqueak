@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-sorting
+sorting
 mergeSortFrom: startIndex to: stopIndex by: aBlock
 	"Sort the given range of indices using the mergesort algorithm.
 	Mergesort is a worst-case O(N log N) sorting algorithm that usually

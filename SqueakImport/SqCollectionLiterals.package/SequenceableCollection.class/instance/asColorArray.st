@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asColorArray
 	^ColorArray withAll: self

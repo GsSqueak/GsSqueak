@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-testing
+testing
 hasWideCharacters
 	^false

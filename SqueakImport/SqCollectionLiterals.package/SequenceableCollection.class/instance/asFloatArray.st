@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asFloatArray
 	"Answer a FloatArray whose elements are the elements of the receiver, in 
 	the same order."

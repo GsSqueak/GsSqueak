@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-private
+private
 species
 	^CharacterSet

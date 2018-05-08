@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 indexOfSubCollection: subCollection startingAt: start
 	"Answer the index of the receiver's first element, such that that element 
 	equals the first element of sub, and the next elements equal 

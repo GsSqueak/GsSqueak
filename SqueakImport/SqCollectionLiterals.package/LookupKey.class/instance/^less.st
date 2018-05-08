@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 < aLookupKey 
 	"Refer to the comment in Magnitude|<."
 

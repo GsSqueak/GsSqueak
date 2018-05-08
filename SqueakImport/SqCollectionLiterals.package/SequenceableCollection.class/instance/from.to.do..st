@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 from: start to: stop do: aBlock
 	"Evaluate aBlock for all elements between start and stop (inclusive)."
 

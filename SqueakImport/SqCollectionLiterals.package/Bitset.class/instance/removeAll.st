@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-removing
+removing
 removeAll
 
 	tally = 0 ifTrue: [ ^self ].

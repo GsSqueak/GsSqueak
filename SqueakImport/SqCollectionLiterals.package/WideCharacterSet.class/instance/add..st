@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-adding
+adding
 add: aCharacter
 
 	| value highBits lowBits |

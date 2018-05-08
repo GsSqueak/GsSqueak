@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 , anObject
 	"Concatenate the argument to the receiver.
 		Transcript cr; show: 'The value is: ', 3.

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-filter streaming
+filter streaming
 byteEncode:aStream
 
 	^aStream writeString: self.

@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 anyOne
 	^ self first

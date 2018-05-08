@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 upTo: anObject
 	"Deprecated. Use copyUpTo:"
 	self deprecated: 'Use #copyUpTo:'.

@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 writeStream
 	^ WriteStream on: self

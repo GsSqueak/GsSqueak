@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 detectMax: aBlock
 	"Evaluate aBlock with each of the receiver's elements as the argument. 
 	Answer the element for which aBlock evaluates to the highest magnitude.

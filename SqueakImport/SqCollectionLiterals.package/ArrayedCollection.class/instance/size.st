@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 size
 	"Answer how many elements the receiver contains."
 	

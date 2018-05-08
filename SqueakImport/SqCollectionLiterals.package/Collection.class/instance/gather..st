@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 gather: aBlock
 	^ Array streamContents:
 		[:stream |

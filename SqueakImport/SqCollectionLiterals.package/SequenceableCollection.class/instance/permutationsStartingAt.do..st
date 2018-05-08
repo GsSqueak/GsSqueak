@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-private
+private
 permutationsStartingAt: anInteger do: aBlock
 	"#(1 2 3 4) permutationsDo: [:each | Transcript cr; show: each printString]"
 

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-sorting
+sorting
 quickSort
 	"Sort elements of self to be nondescending according to #<= using an in-place quicksort with simple median-of-three partitioning with guaranteed O(log(n)) space usage."
 

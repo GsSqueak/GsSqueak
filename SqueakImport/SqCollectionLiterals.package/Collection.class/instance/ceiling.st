@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-math functions
+math functions
 ceiling
 	^ self collect: [:a | a ceiling]

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 atRandom
 	"Answer a random element of the receiver.  Uses the process-local random number generator. Causes an error if self has no elements."
 

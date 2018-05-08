@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-private
+private
 emptyCheck
 
 	self isEmpty ifTrue: [self errorEmptyCollection]

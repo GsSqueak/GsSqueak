@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 numericSuffix
 	^ self stemAndNumericSuffix last
 

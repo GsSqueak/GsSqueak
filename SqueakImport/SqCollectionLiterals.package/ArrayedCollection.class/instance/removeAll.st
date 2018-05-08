@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-removing
+removing
 removeAll
 
 	self shouldNotImplement

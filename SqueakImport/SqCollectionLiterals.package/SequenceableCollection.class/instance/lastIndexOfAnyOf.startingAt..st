@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 lastIndexOfAnyOf: aCollection startingAt: lastIndex
 	"Answer the index of the last occurence of any element of aCollection
 	within the receiver. If the receiver does not contain any of those

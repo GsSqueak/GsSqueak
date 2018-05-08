@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-math functions
+math functions
 sum
 	"Compute the sum of all the elements in the receiver"
 

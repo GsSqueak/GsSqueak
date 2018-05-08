@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 union: aCollection
 	"Answer the set theoretic union of two collections."
 

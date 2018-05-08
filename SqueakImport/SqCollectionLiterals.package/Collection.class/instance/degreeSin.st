@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-math functions
+math functions
 degreeSin
 	^self collect: [:each | each degreeSin]

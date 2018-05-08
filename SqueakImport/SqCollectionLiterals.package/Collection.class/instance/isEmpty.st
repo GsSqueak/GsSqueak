@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-testing
+testing
 isEmpty
 	"Answer whether the receiver contains any elements.
 	 This implementation uses the do: block rather than

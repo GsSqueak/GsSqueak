@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asOrderedCollection
 	"Answer an OrderedCollection whose elements are the elements of the
 	receiver. The order in which elements are added depends on the order

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-instance creation
+instance creation
 fromByteArray: aByteArray
 
 	^ aByteArray asString

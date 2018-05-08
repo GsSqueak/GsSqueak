@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 = anObject
 
 	self species == anObject species ifFalse: [ ^false ].

@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-printing
+printing
 printNameOn: aStream
 	super printOn: aStream

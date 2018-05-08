@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 atAll: indexArray
 	"Answer a new collection like the receiver which contains all elements
 	of the receiver at the indices of indexArray."

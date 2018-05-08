@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 collect: aBlock from: firstIndex to: lastIndex
 	"Refer to the comment in Collection|collect:."
 

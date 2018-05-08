@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-internet
+internet
 squeakToIso
 	^self "no longer needed"

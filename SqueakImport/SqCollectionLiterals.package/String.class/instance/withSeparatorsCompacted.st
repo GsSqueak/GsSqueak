@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 withSeparatorsCompacted
 	"replace each sequences of whitespace by a single space character"
 	"' test ' withSeparatorsCompacted = ' test '"

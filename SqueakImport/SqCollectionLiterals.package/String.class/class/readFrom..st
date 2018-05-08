@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-instance creation
+instance creation
 readFrom: inStream
 	"Answer an instance of me that is determined by reading the stream, 
 	inStream. Embedded double quotes become the quote Character."

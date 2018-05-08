@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asIntegerSigned: signed
 	"Return the first decimal integer I can find or nil."
 

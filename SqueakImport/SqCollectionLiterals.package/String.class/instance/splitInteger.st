@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 splitInteger
 	"Answer an array that is a splitting of self into a string and an integer.
 	'43Sam' ==> #(43 'Sam').  'Try90' ==> #('Try' 90)

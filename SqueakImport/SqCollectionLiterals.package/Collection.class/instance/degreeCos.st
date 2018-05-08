@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-math functions
+math functions
 degreeCos
 	^self collect: [:each | each degreeCos]

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-shuffling
+shuffling
 shuffled
 
 	^self shuffledBy: ThreadSafeRandom value

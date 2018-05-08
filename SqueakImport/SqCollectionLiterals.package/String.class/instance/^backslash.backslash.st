@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-arithmetic
+arithmetic
 \\ arg
 
 	^ arg adaptToString: self andSend: #\\

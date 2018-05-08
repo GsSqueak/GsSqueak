@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-filter streaming
+filter streaming
 byteEncode: aStream
 	aStream writeAssocation:self.

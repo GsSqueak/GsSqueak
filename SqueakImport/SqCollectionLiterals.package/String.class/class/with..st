@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-instance creation
+instance creation
 with: aCharacter
 	| newCollection |
 	aCharacter asInteger < 256

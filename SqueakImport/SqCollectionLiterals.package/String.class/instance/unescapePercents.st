@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 unescapePercents
 	"decode %xx form.  This is the opposite of #encodeForHTTP. Assume UTF-8 encoding by default."
 	

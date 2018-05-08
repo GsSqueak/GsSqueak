@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-removing
+removing
 removeAll
 
 	map isEmpty ifTrue: [ ^self ].

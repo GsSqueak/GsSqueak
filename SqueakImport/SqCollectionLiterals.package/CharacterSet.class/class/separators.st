@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 separators
 	"return a set containing just the whitespace characters"
 

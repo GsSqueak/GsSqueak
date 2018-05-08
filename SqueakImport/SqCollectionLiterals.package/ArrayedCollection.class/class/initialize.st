@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-initialization
+initialization
 initialize
 	ByteArray superclass: self.
 	Array superclass: self.

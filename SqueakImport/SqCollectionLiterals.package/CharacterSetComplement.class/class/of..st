@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-instance creation
+instance creation
 of: aCharacterSet
 	"answer the complement of aCharacterSet"
 	

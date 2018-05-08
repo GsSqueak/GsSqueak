@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-objects from disk
+objects from disk
 swapHalves
 		"A normal switch in endianness (byte order in words) reverses the order of 4 bytes.  That is not correct for SoundBuffers, which use 2-bytes units.  If a normal switch has be done, this method corrects it further by swapping the two halves of the long word.
 	This method is only used for 16-bit quanities in SoundBuffer, ShortIntegerArray, etc."

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-copying
+copying
 postCopy
 	super postCopy.
 	absent := absent copy

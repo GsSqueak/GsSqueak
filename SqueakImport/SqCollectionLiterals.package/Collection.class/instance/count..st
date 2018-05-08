@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 count: aBlock 
 	"Evaluate aBlock with each of the receiver's elements as the argument.  
 	Answer the number of elements that answered true."

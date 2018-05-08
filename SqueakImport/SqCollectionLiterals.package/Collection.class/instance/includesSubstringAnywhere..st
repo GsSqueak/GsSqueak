@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-testing
+testing
 includesSubstringAnywhere: testString
 	"Answer whether the receiver includes, anywhere in its nested structure, a string that has testString as a substring"
 	self do:

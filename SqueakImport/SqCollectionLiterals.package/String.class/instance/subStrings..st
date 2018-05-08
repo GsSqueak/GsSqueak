@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 subStrings: separators 
 	"Answer an array containing the substrings in the receiver separated 
 	by the elements of separators."

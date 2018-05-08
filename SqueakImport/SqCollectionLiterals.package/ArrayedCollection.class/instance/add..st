@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-adding
+adding
 add: newObject
 	self shouldNotImplement

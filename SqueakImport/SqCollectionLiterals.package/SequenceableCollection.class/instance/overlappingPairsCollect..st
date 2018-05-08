@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 overlappingPairsCollect: aBlock 
 	"Answer the result of evaluating aBlock with all of the overlapping pairs of my elements."
 	| retval |

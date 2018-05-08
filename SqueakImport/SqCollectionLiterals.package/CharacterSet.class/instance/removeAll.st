@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-removing
+removing
 removeAll
 	self becomeForward: ByteCharacterSet new

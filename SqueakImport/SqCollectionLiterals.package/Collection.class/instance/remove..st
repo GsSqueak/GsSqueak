@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-removing
+removing
 remove: oldObject 
 	"Remove oldObject from the receiver's elements. Answer oldObject 
 	unless no element is equal to oldObject, in which case, raise an error.

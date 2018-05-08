@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 truncateWithElipsisTo: maxLength
 	"Return myself or a copy suitably shortened but with elipsis added"
 

@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 hash
 	^self byteArrayMap hash

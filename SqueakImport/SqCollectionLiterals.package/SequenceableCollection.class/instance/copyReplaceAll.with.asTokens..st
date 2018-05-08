@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-private
+private
 copyReplaceAll: oldSubstring with: newSubstring asTokens: ifTokens
 	"Answer a copy of the receiver in which all occurrences of
 	oldSubstring have been replaced by newSubstring.

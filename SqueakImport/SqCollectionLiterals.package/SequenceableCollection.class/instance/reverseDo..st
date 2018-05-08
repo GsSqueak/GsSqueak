@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 reverseDo: aBlock
 	"Evaluate aBlock with each of the receiver's elements as the argument, 
 	starting with the last element and taking each in sequence up to the 

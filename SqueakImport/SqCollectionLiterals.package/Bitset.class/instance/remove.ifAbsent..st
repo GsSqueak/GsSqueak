@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-removing
+removing
 remove: anInteger ifAbsent: absentBlock
 
 	(self clearBitAt: anInteger) ifTrue: [ ^anInteger ].

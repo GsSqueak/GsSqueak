@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 piecesCutWhere: binaryBlock do: pieceBlock
 	"Evaluate pieceBlock with substrings of the receiver derived from cutting the
 	 receiver at points where binaryBlock answers true for adjacent elements."

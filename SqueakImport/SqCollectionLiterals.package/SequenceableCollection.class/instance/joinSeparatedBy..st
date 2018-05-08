@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 joinSeparatedBy: aSeparator
 	"Returns a string, which is a concatenation of each element's string representation separated by another string."
 
