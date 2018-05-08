@@ -6,5 +6,6 @@ value
  #value is optimized by the compiler.
  This method is in the image for use by perform: and for
  failure paths from the optimized bytecode "
-
+  self numArgs ~= 0 ifTrue:
+	[self numArgsError: 0].
   ^ self valueWithArguments: #()

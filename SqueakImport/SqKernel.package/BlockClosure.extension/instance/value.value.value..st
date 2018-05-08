@@ -7,7 +7,8 @@ value: firstObject value: secondObject value: thirdObject
  #value:value:value: is optimized by the compiler.
  This method is in the image for use by perform: and for
  failure paths from the optimized bytecode "
-
+  self numArgs ~= 3 ifTrue:
+	[self numArgsError: 3].
   ^ self
     valueWithArguments:
       {firstObject.

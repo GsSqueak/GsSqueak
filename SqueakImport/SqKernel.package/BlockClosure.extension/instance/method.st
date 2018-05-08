@@ -1,4 +1,4 @@
 *SqKernel-accessing
 method
-	^outerContext method
+	^ self _env0 method
 

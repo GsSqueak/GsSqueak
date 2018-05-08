@@ -6,5 +6,6 @@ value: anObject
  #value: is optimized by the compiler.
  This method is in the image for use by perform: and for
  failure paths from the optimized bytecode "
-
+  self numArgs ~= 1 ifTrue:
+	[self numArgsError: 1].
   ^ self valueWithArguments: {anObject}
