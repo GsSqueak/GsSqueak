@@ -1,0 +1,4 @@
+testing
+testIfTrue
+	
+	self assert: (true ifTrue: ['alternativeBlock']) = 'alternativeBlock'. 

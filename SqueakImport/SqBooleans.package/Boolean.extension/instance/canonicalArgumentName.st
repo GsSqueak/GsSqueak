@@ -1,0 +1,3 @@
+*SqBooleans-copying
+canonicalArgumentName
+	^ 'Boolean'

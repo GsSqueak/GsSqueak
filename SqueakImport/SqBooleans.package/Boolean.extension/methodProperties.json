@@ -11,6 +11,8 @@
 		"and:and:and:" : "zz 3/2/2004 23:44",
 		"and:and:and:and:" : "zz 3/2/2004 23:44",
 		"asBit" : "",
+		"basicType" : "",
+		"canonicalArgumentName" : "",
 		"deepCopy" : "",
 		"eqv:" : "",
 		"ifFalse:" : "",
@@ -30,4 +32,5 @@
 		"storeOn:" : "",
 		"veryDeepCopy" : "cmm 11/4/2013 20:52",
 		"veryDeepCopyWith:" : "tk 8/20/1998 16:07",
+		"xor:" : "",
 		"|" : "" } }
