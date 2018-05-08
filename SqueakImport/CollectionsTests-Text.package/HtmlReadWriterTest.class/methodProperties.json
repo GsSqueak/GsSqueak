@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"convertHtml:" : "mt 5/3/2015 17:27",
+		"convertText:" : "mt 5/3/2015 17:26",
+		"setUp" : "mt 5/3/2015 17:25",
+		"test01Emphasis" : "mt 5/3/2015 17:33",
+		"test02Mixed" : "pre 8/29/2017 16:34",
+		"test03FontTag" : "mt 5/3/2015 17:41",
+		"test04LineBreaks" : "mt 5/3/2015 20:11",
+		"test05Escaping" : "mt 5/3/2015 20:38",
+		"test06Comments" : "mt 5/3/2015 21:05",
+		"test07CodeRoundTrip" : "topa 2/9/2017 16:51",
+		"test08MultilineCode" : "pre 8/29/2017 16:12",
+		"test09StruckOut" : "topa 2/10/2017 16:46",
+		"test10Underline" : "topa 2/10/2017 15:46",
+		"test11Alignment" : "topa 2/10/2017 17:11",
+		"test12AlignmentMixed" : "topa 2/10/2017 17:18",
+		"test13SpanTag" : "fn 3/6/2017 22:19",
+		"test14NumericalHtmlEntities" : "fn 3/7/2017 10:40",
+		"test15NestedTagsStillEndBefore" : "pre 8/29/2017 14:28",
+		"textWithDoIt" : "topa 2/9/2017 16:51" } }

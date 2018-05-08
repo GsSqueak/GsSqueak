@@ -1,0 +1,14 @@
+{
+	"category" : "CollectionsTests-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "TextAttributesScanningTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

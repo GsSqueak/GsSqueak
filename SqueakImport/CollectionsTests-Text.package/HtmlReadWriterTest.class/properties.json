@@ -1,0 +1,16 @@
+{
+	"category" : "CollectionsTests-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"readWriter",
+		"html",
+		"text" ],
+	"name" : "HtmlReadWriterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

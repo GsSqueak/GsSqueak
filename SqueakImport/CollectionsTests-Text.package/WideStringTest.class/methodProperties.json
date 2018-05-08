@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAsInteger" : "ul 9/28/2015 16:46",
+		"testAsIntegerSigned" : "ul 10/10/2015 15:19",
+		"testAsIntegerSignedUsingRandomNumbers" : "ul 10/10/2015 15:35",
+		"testAtPut" : "nice 4/2/2008 23:49",
+		"testBeginsWith" : "nice 7/28/2007 23:29",
+		"testCharactersExactlyMatching" : "nice 7/28/2007 23:22",
+		"testCompare" : "nice 7/28/2007 23:19",
+		"testEndsWith" : "nice 10/3/2009 21:18",
+		"testEqual" : "nice 1/18/2010 14:55",
+		"testFindSubstring" : "nice 7/28/2007 00:46",
+		"testMatch" : "nice 7/28/2007 23:16",
+		"testRelationOrder" : "nice 7/28/2007 23:14",
+		"testRelationOrderWithCase" : "nice 7/28/2007 23:21",
+		"testSameAs" : "nice 1/18/2010 14:56",
+		"testSubstrings" : "nice 3/23/2007 01:52" } }
