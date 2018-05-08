@@ -1,0 +1,14 @@
+{
+	"category" : "LispGs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "spfa 9/21/2010 13:21",
+	"instvars" : [
+		 ],
+	"name" : "LispPrimitiveSpecial",
+	"pools" : [
+		 ],
+	"super" : "LispPrimitive",
+	"type" : "normal" }

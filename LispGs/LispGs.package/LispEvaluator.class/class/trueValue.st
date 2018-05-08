@@ -1,0 +1,3 @@
+booleans
+trueValue
+	^ true
