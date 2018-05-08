@@ -1,0 +1,25 @@
+{
+	"category" : "GraphicsLibrary",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"inst" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"createWindowCo",
+		"displayStringCo",
+		"drawWindowCo",
+		"destroyWindowCo",
+		"getEventsCo",
+		"getSizeCo",
+		"setSizeCo",
+		"graphicsLib",
+		"defaultWindow" ],
+	"name" : "GraphicsLibrary",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : [
+		"normal",
+		[
+			"dbTransient" ] ] }
