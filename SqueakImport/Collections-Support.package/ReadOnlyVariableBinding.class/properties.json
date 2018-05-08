@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value" ],
+	"name" : "ReadOnlyVariableBinding",
+	"pools" : [
+		 ],
+	"super" : "LookupKey",
+	"type" : "normal" }

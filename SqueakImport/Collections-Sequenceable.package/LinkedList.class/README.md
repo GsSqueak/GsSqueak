@@ -1,0 +1,3 @@
+I represent a collection of links, which are containers for other objects. Using the message sequence addFirst:/removeLast causes the receiver to behave as a stack; using addLast:/removeFirst causes the receiver to behave as a queue.
+
+If you attempt to add any object into a LinkedList that is not a Link, it will automatically be wrapped by a ValueLink. A LinkedList therefore behaves very much like any collection, except that certain calls such as atIndex: are linear rather than constant time.

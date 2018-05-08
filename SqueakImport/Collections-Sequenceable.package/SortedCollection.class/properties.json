@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Sequenceable",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 3/30/2017 17:33",
+	"instvars" : [
+		"sortBlock" ],
+	"name" : "SortedCollection",
+	"pools" : [
+		 ],
+	"super" : "OrderedCollection",
+	"type" : "normal" }

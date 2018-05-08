@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"arrayType" : "ul 12/25/2016 03:38",
+		"isAbstract" : "nice 11/30/2017 22:59" },
+	"instance" : {
+		"makeRoomAtFirst" : "ul 12/25/2016 03:37",
+		"makeRoomAtLast" : "ul 12/25/2016 03:37",
+		"removeAllSuchThat:" : "ul 12/25/2016 03:36",
+		"removeFirst" : "ul 3/26/2017 21:34",
+		"removeFirst:" : "ul 12/25/2016 03:36",
+		"removeIndex:" : "ul 3/26/2017 21:34",
+		"removeLast" : "ul 3/26/2017 21:34",
+		"removeLast:" : "ul 12/25/2016 03:36" } }

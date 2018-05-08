@@ -1,4 +1,0 @@
-converting
-asCollection
-
-	^ self

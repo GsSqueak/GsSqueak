@@ -1,0 +1,18 @@
+{
+	"category" : "Collections-Sequenceable",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"contentsArray",
+		"readPosition",
+		"writePosition",
+		"accessProtect",
+		"readSynch" ],
+	"name" : "SharedQueue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

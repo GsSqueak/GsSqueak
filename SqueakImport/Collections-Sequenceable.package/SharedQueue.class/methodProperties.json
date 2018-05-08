@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"new" : "",
+		"new:" : "nice 4/4/2006 22:10" },
+	"instance" : {
+		"flush" : "bf 2/11/2006 15:17",
+		"flushAllSuchThat:" : "ul 12/8/2010 04:45",
+		"initialize:" : "nice 4/4/2006 22:09",
+		"isEmpty" : "",
+		"makeRoomAtEnd" : "ul 10/19/2010 04:53",
+		"next" : "nice 12/26/2009 21:25",
+		"nextOrNil" : "ul 12/8/2010 04:31",
+		"nextOrNilSuchThat:" : "ul 12/8/2010 04:44",
+		"nextPut:" : "",
+		"peek" : "ul 12/8/2010 04:37",
+		"postCopy" : "nice 10/5/2009 09:01",
+		"printOn:" : "ar 10/4/2006 12:43",
+		"size" : "" } }
