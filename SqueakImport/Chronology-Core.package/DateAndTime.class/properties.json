@@ -1,0 +1,21 @@
+{
+	"category" : "Chronology-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AutomaticTimezone",
+		"ClockProvider",
+		"LastClockValue",
+		"LocalTimeZone",
+		"NanoOffset" ],
+	"commentStamp" : "bf 2/18/2016 16:20",
+	"instvars" : [
+		"seconds",
+		"offset",
+		"jdn",
+		"nanos" ],
+	"name" : "DateAndTime",
+	"pools" : [
+		"ChronologyConstants" ],
+	"super" : "Magnitude",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Chronology-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "brp 5/13/2003 09:48",
+	"instvars" : [
+		"schedule" ],
+	"name" : "Schedule",
+	"pools" : [
+		 ],
+	"super" : "Timespan",
+	"type" : "normal" }

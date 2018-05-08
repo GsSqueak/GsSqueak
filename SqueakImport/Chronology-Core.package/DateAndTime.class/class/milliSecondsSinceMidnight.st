@@ -1,0 +1,3 @@
+squeak protocol
+milliSecondsSinceMidnight
+	^Time milliSecondsSinceMidnight

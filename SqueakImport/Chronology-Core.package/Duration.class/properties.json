@@ -1,0 +1,15 @@
+{
+	"category" : "Chronology-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 7/11/2009 15:03",
+	"instvars" : [
+		"nanos",
+		"seconds" ],
+	"name" : "Duration",
+	"pools" : [
+		"ChronologyConstants" ],
+	"super" : "Magnitude",
+	"type" : "normal" }

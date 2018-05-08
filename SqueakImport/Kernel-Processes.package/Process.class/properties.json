@@ -1,0 +1,21 @@
+{
+	"category" : "Kernel-Processes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ul 3/22/2011 05:18",
+	"instvars" : [
+		"suspendedContext",
+		"priority",
+		"myList",
+		"threadId",
+		"effectiveProcess",
+		"name",
+		"island",
+		"env" ],
+	"name" : "Process",
+	"pools" : [
+		 ],
+	"super" : "Link",
+	"type" : "normal" }

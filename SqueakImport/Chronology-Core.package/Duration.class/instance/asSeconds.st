@@ -1,0 +1,5 @@
+ansi protocol
+asSeconds
+
+
+	^ seconds

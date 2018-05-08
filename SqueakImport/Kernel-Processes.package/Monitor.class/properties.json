@@ -1,0 +1,17 @@
+{
+	"category" : "Kernel-Processes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 1/7/2016 11:38",
+	"instvars" : [
+		"defaultQueue",
+		"queueDict",
+		"queuesMutex",
+		"nestingLevel" ],
+	"name" : "Monitor",
+	"pools" : [
+		 ],
+	"super" : "Mutex",
+	"type" : "normal" }

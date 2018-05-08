@@ -1,0 +1,3 @@
+Instances of Date are Timespans with duration of 1 day.  As with all Chronology Timespan sub-instances, Dates can be instantiated as position values which compare equally to any other instance of the same Date, irregardless of the timezone in which either is created.
+
+However, like the other Timespan subInstances, there are rare cases where it may be desirable to use instances of Date to represent a particular 1-day span of time at a particular locality on the globe.  All Timespans, including Dates, may specify a particular timezone offset for this purpose.
