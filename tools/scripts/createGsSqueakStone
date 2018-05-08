@@ -128,7 +128,7 @@ loadPackage -S SqBlock
 loadPackage -S SqBlock
 
 startTopaz $name -l << EOF
-login 
+login
 run
 MCEnv useSqueakParser.
 %
@@ -189,6 +189,7 @@ loadPackage -S '`System-FileRegistry`'
 todeBackup $name flag3
 loadPackage -S '`Graphics-Display Objects`'
 loadPackage -S SqKernelTestsNumbers
+loadPackage -S '`KernelTests-Objects`'
 
 startTopaz $name -l << EOF
 login
