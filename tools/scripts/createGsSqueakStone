@@ -55,6 +55,7 @@ _clearSubclassesDisallowed
     self _unsafeAt: 2 put: (format bitAnd: (16r20 bitInvert))
 %
 send Behavior _clearSubclassesDisallowed
+send LargeInteger _clearSubclassesDisallowed
 
 env 7
 method: Class

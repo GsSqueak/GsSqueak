@@ -4,6 +4,7 @@
                 "isLarge.st": "",
                 "isPowerOfTwo.st": "",
                 "isPrime.st": "",
-                "isZero.st": ""
+                "isZero.st": "",
+		"printOn..base.st": ""
         }
 }
