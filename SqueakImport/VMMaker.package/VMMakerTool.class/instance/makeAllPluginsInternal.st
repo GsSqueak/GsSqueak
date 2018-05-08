@@ -1,5 +1,0 @@
-menus
-makeAllPluginsInternal
-
-
-	vmMaker makeAllModulesInternal

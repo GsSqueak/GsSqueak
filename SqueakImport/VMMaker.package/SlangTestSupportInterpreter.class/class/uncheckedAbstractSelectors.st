@@ -1,3 +1,0 @@
-translation
-uncheckedAbstractSelectors
-	^ super uncheckedAbstractSelectors, ObjectMemory uncheckedAbstractSelectors

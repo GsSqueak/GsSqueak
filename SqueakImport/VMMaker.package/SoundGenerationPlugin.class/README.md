@@ -1,1 +1,0 @@
-This class is a stub for the directly generated primitives in AbstractSound and subclasses.

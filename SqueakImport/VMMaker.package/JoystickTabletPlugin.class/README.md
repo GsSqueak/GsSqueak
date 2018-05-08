@@ -1,1 +1,0 @@
-This plugin implements the interface to the joystick and tablet input devices, if you have one.  Since it requires platform support it will only be built when supported on your platform

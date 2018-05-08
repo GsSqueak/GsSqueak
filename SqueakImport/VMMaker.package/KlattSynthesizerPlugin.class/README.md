@@ -1,1 +1,0 @@
-This is a pluggable primitive implementation of the KlattSynthesizer.

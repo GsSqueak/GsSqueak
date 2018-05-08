@@ -1,1 +1,0 @@
-This plugin provide GSM typecodec capabilities.
