@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "mjr 8/20/2003 18:55",
-		"testEquality" : "mjr 8/17/2003 20:29",
-		"testHash" : "mjr 8/17/2003 20:16" } }
