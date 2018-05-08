@@ -1,6 +1,10 @@
 translating
-asGemstoneNodeInEnvironment: env
-  | gsMethodNode |
+asGemstoneNodeInEnvironment: anEnvironment
+  | gsMethodNode env |
+  "Set Environment according to Pragma"
+  env := (self properties at: #'messageSendInEnv:' ifAbsent: [ nil ])
+    ifNil: [ anEnvironment ]
+    ifNotNil: [ (self properties at: #'messageSendInEnv:') arguments first ].	"set compile env"
   SqBlockNode lexLevel: 1.
   SqParser methodVarDict: nil.
   gsMethodNode := GsComMethNode newSmalltalk.
