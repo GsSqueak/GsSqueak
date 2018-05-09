@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"createTableFrom:" : "pre 5/4/2017 18:34",
+		"decodeTable" : "nice 12/7/2009 12:56",
+		"encodeTable" : "nice 12/7/2009 12:56",
+		"initialize" : "pre 4/25/2017 14:37",
+		"initializeDecodeTable" : "nice 12/7/2009 12:54",
+		"initializeEncodeTable" : "nice 12/8/2009 21:41" },
+	"instance" : {
+		"backFromStream:" : "ul 3/22/2010 08:18",
+		"currentCharSize" : "nice 12/8/2009 21:49",
+		"decode:" : "ul 4/26/2011 02:02",
+		"encode:" : "pre 4/28/2017 17:27",
+		"fromSqueak:" : "nice 12/8/2009 21:16",
+		"nextFromStream:" : "nice 8/27/2010 20:14",
+		"nextPut:toStream:" : "pre 4/28/2017 17:32",
+		"toSqueak:" : "nice 12/8/2009 21:22" } }

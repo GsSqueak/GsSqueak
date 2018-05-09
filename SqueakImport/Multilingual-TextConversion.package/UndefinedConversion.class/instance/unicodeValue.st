@@ -1,0 +1,4 @@
+accessing
+unicodeValue
+	
+	^ unicodeValue

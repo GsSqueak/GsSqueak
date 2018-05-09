@@ -1,0 +1,14 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CP1251TextConverter",
+	"pools" : [
+		 ],
+	"super" : "WinCPTextConverter",
+	"type" : "normal" }

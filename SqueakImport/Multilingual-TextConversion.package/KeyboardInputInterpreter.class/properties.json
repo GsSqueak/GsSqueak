@@ -1,0 +1,14 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "KeyboardInputInterpreter",
+	"pools" : [
+		"EventSensorConstants" ],
+	"super" : "Object",
+	"type" : "normal" }

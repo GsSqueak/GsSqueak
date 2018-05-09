@@ -1,0 +1,14 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"converter" ],
+	"name" : "CP1250InputInterpreter",
+	"pools" : [
+		 ],
+	"super" : "KeyboardInputInterpreter",
+	"type" : "normal" }

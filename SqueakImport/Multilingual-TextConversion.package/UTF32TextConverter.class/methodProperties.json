@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"encodingNames" : "pre 6/8/2017 09:15",
+		"initializeLatin1MapAndEncodings" : "pre 6/7/2017 18:37" },
+	"instance" : {
+		"initialize" : "pre 5/22/2017 13:04",
+		"next16BitValue:toStream:" : "pre 5/22/2017 13:04",
+		"next32BitValue:toStream:" : "pre 6/7/2017 18:26",
+		"nextFromStream:" : "pre 6/8/2017 09:14",
+		"nextPut:toStream:" : "pre 6/7/2017 18:26",
+		"swapLatin1EncodingByteOrder" : "pre 6/7/2017 18:31",
+		"useByteOrderMark" : "pre 5/22/2017 13:04",
+		"useByteOrderMark:" : "pre 5/22/2017 13:04",
+		"useLittleEndian" : "pre 5/22/2017 13:04",
+		"useLittleEndian:" : "pre 5/22/2017 13:04" } }

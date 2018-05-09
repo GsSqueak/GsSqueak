@@ -1,0 +1,4 @@
+friend
+currentCharSize
+
+	self subclassResponsibility.

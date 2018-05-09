@@ -1,0 +1,4 @@
+class methods
+compoundTextSequence
+
+	^ CompoundTextSequence.
