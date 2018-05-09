@@ -1,0 +1,14 @@
+{
+	"category" : "SqNumbers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "LargePositiveInteger",
+	"pools" : [
+		 ],
+	"super" : "LargeInteger",
+	"type" : "words" }

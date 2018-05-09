@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"compoundTextSequence" : "yo 10/22/2002 19:50",
+		"initialize" : "yo 10/22/2002 19:50",
+		"isLetterCode:" : "nice 5/29/2014 08:17",
+		"leadingChar" : "yo 10/22/2002 19:51",
+		"nextPutValue:toStream:withShiftSequenceIfNeededForTextConverterState:" : "yo 11/24/2002 17:03",
+		"ucsTable" : "yo 10/14/2003 10:19" },
+	"instance" : {
+		 } }

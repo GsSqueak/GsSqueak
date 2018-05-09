@@ -1,0 +1,15 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		"encodeTable",
+		"decodeTable" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 12/7/2009 12:02",
+	"instvars" : [
+		 ],
+	"name" : "ByteTextConverter",
+	"pools" : [
+		 ],
+	"super" : "TextConverter",
+	"type" : "normal" }

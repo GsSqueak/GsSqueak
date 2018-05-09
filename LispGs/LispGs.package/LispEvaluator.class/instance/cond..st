@@ -1,4 +1,4 @@
-LISP-primitives
+LISP-special forms
 cond: aConsCell 
 	"(cond &rest CLAUSES)
 	Try each clause until one succeeds.

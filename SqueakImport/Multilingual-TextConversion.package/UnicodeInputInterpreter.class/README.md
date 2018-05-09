@@ -1,0 +1,1 @@
+UnicodeInputInterpreter composes decomposed unicode input characters.

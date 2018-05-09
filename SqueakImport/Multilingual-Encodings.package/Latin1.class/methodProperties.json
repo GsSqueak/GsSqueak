@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"charFromUnicode:" : "nice 5/29/2014 15:32",
+		"convertToUnicode:" : "nice 5/29/2014 14:51",
+		"emitSequenceToResetStateIfNeededOn:forState:" : "yo 8/18/2003 17:46",
+		"initialize" : "nice 5/30/2013 23:59",
+		"isLetterCode:" : "nice 5/29/2014 08:19",
+		"leadingChar" : "yo 8/18/2003 17:32",
+		"nextPutRightHalfValue:toStream:withShiftSequenceIfNeededForTextConverterState:" : "yo 8/18/2003 17:41",
+		"nextPutValue:toStream:withShiftSequenceIfNeededForTextConverterState:" : "yo 8/18/2003 17:41",
+		"printingDirection" : "yo 8/18/2003 17:32" },
+	"instance" : {
+		 } }

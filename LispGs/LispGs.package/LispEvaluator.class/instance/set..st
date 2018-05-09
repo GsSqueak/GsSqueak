@@ -1,4 +1,4 @@
-LISP-primitives
+LISP-special forms
 set: aConsCell 
 	"(set SYMBOL NEWVAL)
 	Set SYMBOL's value to NEWVAL, and return NEWVAL.

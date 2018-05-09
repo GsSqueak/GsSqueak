@@ -1,0 +1,14 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ISO88592ClipboardInterpreter",
+	"pools" : [
+		 ],
+	"super" : "ClipboardInterpreter",
+	"type" : "normal" }

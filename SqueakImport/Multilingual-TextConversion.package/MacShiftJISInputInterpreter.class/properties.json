@@ -1,0 +1,14 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"converter" ],
+	"name" : "MacShiftJISInputInterpreter",
+	"pools" : [
+		 ],
+	"super" : "KeyboardInputInterpreter",
+	"type" : "normal" }

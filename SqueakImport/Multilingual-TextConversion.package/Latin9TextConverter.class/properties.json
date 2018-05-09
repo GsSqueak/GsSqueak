@@ -1,0 +1,14 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pre 4/21/2017 11:40",
+	"instvars" : [
+		 ],
+	"name" : "Latin9TextConverter",
+	"pools" : [
+		 ],
+	"super" : "ISO885915TextConverter",
+	"type" : "normal" }

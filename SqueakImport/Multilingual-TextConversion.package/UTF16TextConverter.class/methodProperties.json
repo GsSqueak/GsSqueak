@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"encodingNames" : "pre 6/8/2017 09:39" },
+	"instance" : {
+		"charFromStream:withFirst:" : "ul 5/22/2011 13:58",
+		"initialize" : "ul 5/22/2011 14:04",
+		"next16BitValue:toStream:" : "ul 5/22/2011 13:57",
+		"nextFromStream:" : "ul 5/22/2011 17:12",
+		"nextPut:toStream:" : "ul 5/22/2011 14:02",
+		"swapLatin1EncodingByteOrder" : "HenrikSperreJohansen 6/7/2010 15:04",
+		"useByteOrderMark" : "ul 5/22/2011 14:01",
+		"useByteOrderMark:" : "yo 1/12/2004 13:54",
+		"useLittleEndian" : "ul 5/22/2011 14:03",
+		"useLittleEndian:" : "ul 5/22/2011 14:00" } }

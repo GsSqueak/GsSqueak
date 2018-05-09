@@ -183,10 +183,13 @@ todeBackup $name flag1
 loadPackage -S '`Kernel-Processes-Variables`'
 loadPackage -S '`Kernel-Numbers`'
 loadPackage -S '`Kernel-Pools`'
-loadPackage -S '`MockClasses`'
-loadPackage -S '`Chronology-Core`' # don't debug this! it causes pharo to crash
 
+# loadPackage -S '`MockClasses`'
+loadPackage -S '`Chronology-Core`'
 # loadPackage -S '`Kernel-Processes`'
+
+loadPackage -S '`Multilingual-TextConversion`'
+loadPackage -S '`Multilingual-Encodings`'
 
 todeBackup $name flag2
 loadPackage -S '`Balloon`'

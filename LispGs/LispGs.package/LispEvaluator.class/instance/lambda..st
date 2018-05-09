@@ -1,4 +1,4 @@
-LISP-primitives
+LISP-special forms
 lambda: aConsCell 
 	"(lambda ARGS &rest BODY)
 	Return a lambda expression.

@@ -1,0 +1,3 @@
+class methods
+charsetClass
+	^self

@@ -1,4 +1,4 @@
-LISP-primitives
+LISP-special forms
 setD: aConsCell 
 	"(set! SYMBOL VALUE)
 	Changes the value bound to SYMBOL to VALUE.

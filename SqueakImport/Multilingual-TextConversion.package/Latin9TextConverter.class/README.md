@@ -1,0 +1,1 @@
+Text converter for ISO 8859-15.  An international encoding also used in Western Europe.

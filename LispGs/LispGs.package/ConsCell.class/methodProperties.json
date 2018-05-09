@@ -1,13 +1,15 @@
 {
 	"class" : {
-		"car:cdr:" : "Anonymous 05/08/2018 07:27",
-		"fromList:" : "Anonymous 05/08/2018 07:29" },
+		"car:" : "Anonymous 05/09/2018 01:52",
+		"car:cdr:" : " 05/09/2018 00:42:43",
+		"fromList:" : " 05/09/2018 00:42:43" },
 	"instance" : {
-		"car" : "Anonymous 05/07/2018 03:25",
-		"car:" : "Anonymous 05/07/2018 03:25",
-		"cdr" : "Anonymous 05/07/2018 03:25",
-		"cdr:" : "Anonymous 05/07/2018 03:25",
-		"do:" : "Anonymous 05/08/2018 07:42",
-		"doWithCdr:" : "Anonymous 05/07/2018 05:21",
-		"isConsCell" : "Anonymous 05/07/2018 03:20",
-		"valueForLisp:" : "Anonymous 05/07/2018 04:01" } }
+		"car" : " 05/09/2018 00:42:43",
+		"car:" : " 05/09/2018 00:42:43",
+		"cdr" : " 05/09/2018 00:42:43",
+		"cdr:" : " 05/09/2018 00:42:43",
+		"collect:" : "Anonymous 05/09/2018 01:22",
+		"do:" : " 05/09/2018 00:42:43",
+		"doWithCdr:" : " 05/09/2018 00:42:43",
+		"isConsCell" : " 05/09/2018 00:42:43",
+		"valueForLisp:" : "Anonymous 05/09/2018 01:58" } }

@@ -1,4 +1,4 @@
-LISP-primitives
+LISP-special forms
 LISPand: aConsCell 
 	"(and &rest CONDITIONS)
 	Eval CONDITIONS until one of them yields nil, then return nil.

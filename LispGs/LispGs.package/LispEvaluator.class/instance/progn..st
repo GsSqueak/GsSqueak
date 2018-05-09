@@ -1,4 +1,4 @@
-LISP-primitves
+LISP-special forms
 progn: aConsCell 
 	"(progn &rest BODY)
 	Eval BODY forms sequentially and return value of last one."
