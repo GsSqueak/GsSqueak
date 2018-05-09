@@ -1,7 +1,7 @@
 {
-        "instance": {
-                "asCons.st": "",
-                "asConsList.st": "",
-                "cutAt..st": ""
-        }
-}
+	"class" : {
+		 },
+	"instance" : {
+		"asCons" : "Anonymous 05/09/2018 06:11:08",
+		"asConsList" : "Anonymous 05/09/2018 06:11:08",
+		"cutAt:" : "Anonymous 05/09/2018 06:11:08" } }

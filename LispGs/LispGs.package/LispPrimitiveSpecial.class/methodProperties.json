@@ -1,6 +1,6 @@
 {
-        "instance": {
-                "applyTo.inLisp..st": "",
-                "isLispPrimitiveSpecial.st": ""
-        }
-}
+	"class" : {
+		 },
+	"instance" : {
+		"applyTo:inLisp:" : "Anonymous 05/09/2018 06:11:08",
+		"isLispPrimitiveSpecial" : "Anonymous 05/09/2018 06:11:08" } }

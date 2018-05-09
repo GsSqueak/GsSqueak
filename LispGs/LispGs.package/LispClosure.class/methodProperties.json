@@ -1,13 +1,13 @@
 {
-        "instance": {
-                "applyInTailTo.inLisp.asMacro..st": "",
-                "applyTo.inLisp..st": "",
-                "applyTo.inLisp.asMacro..st": "",
-                "environment..st": "",
-                "environment.st": "",
-                "form..st": "",
-                "form.st": "",
-                "isLispClosure.st": "",
-                "isProcedure.st": ""
-        }
-}
+	"class" : {
+		 },
+	"instance" : {
+		"applyInTailTo:inLisp:asMacro:" : "Anonymous 05/09/2018 06:11:08",
+		"applyTo:inLisp:" : "Anonymous 05/09/2018 06:11:08",
+		"applyTo:inLisp:asMacro:" : "Anonymous 05/09/2018 06:11:08",
+		"environment" : "Anonymous 05/09/2018 06:11:08",
+		"environment:" : "Anonymous 05/09/2018 06:11:08",
+		"form" : "Anonymous 05/09/2018 06:11:08",
+		"form:" : "Anonymous 05/09/2018 06:11:08",
+		"isLispClosure" : "Anonymous 05/09/2018 06:11:08",
+		"isProcedure" : "Anonymous 05/09/2018 06:11:08" } }

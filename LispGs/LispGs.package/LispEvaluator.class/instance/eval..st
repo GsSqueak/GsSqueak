@@ -6,4 +6,4 @@ eval: aString
     do: [ ^ self lispError: 'Invalid Expression' ].
   array class == Array
     ifFalse: [ ^ self lispError: 'Invalid Expression' ].
-  ^ self evaluate: array asCons
+  ^ self evaluate: (self class rewrite: array asCons)
