@@ -1,0 +1,3 @@
+*SqCollectionLiterals
+classPool
+    ^ self.
