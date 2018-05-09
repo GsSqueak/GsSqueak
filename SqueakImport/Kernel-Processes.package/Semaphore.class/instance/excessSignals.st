@@ -1,4 +1,0 @@
-accessing
-excessSignals
-
-	^excessSignals
