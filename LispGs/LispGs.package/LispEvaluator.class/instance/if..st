@@ -1,4 +1,4 @@
-LISP-primitives
+LISP-special forms
 if: aConsCell 
 	"(if COND THEN &optional ELSE)
 	If COND yields non-nil, do THEN, else do ELSE

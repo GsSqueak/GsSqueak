@@ -1,4 +1,4 @@
-LISP-primitives
+LISP-special forms
 letStar: aConsCell 
 	"(let* VARLIST &rest BODY)
 	Bind variables according to VARLIST then eval BODY.

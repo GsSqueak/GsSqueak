@@ -1,4 +1,4 @@
-LISP-primitives
+LISP-special forms
 letrec: aConsCell 
 	"(let VARLIST &rest BODY)
 	Bind variables according to VARLIST then eval BODY.

@@ -2,10 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"asCons" : "Anonymous 05/08/2018 07:23",
-		"asOneLispValue" : "spfa 11/18/2009 18:15",
-		"instVarsInclude:" : "05/08/2018 06:32:45",
-		"isConsCell" : "05/08/2018 06:17:04",
-		"isLispValues" : "05/08/2018 06:17:04",
-		"pointsTo:" : "05/08/2018 06:17:04",
-		"valueForLisp:" : "spfa 11/18/2009 18:15" } }
+		"asCons" : " 05/09/2018 00:42:43",
+		"asOneLispValue" : " 05/09/2018 00:42:43",
+		"instVarsInclude:" : " 05/09/2018 00:42:43",
+		"isCompiledProcedure" : "Anonymous 05/09/2018 02:01",
+		"isComplex" : " 05/09/2018 00:42:43",
+		"isConsCell" : " 05/09/2018 00:42:43",
+		"isLispPrimitive" : "Anonymous 05/09/2018 01:58",
+		"isLispValues" : " 05/09/2018 00:42:43",
+		"isProcedure" : "Anonymous 05/09/2018 02:01",
+		"pointsTo:" : " 05/09/2018 00:42:43",
+		"valueForLisp:" : " 05/09/2018 00:42:43" } }

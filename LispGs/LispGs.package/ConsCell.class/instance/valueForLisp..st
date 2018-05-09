@@ -4,5 +4,5 @@ valueForLisp: aLisp
   "function lookup"
   func := aLisp lookUpFunction: car.
   (aLisp isProcedure: func)
-	ifFalse: [^ aLisp evalIrregularProcedure: func withArguments: cdr].
+    ifFalse: [ ^ aLisp evalIrregularProcedure: func withArguments: cdr ].
   ^ func applyTo: cdr inLisp: aLisp

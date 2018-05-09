@@ -8,9 +8,15 @@ compilePrimitiveLists
     streamContents: [ :sfstr | 
       var := Array
         streamContents: [ :pstr | 
-          self primitiveSelectors
+          self specialFormSelectors
             do: [ :sel | 
               sfstr nextPut: sel.
+              pstr nextPut: sel.
+              CachedPrimitives
+                at: sel
+                put: (LispPrimitive selector: sel for: self) ].
+          self primitiveSelectors
+            do: [ :sel | 
               pstr nextPut: sel.
               CachedPrimitives
                 at: sel

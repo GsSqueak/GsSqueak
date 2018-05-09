@@ -1,4 +1,4 @@
-LISP-primitives
+LISP-special forms
 LISPor: aConsCell 
 	"(or &rest CONDITIONS)
 	Eval CONDITIONS until one of them yields non-nil, then return that
