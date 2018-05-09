@@ -4,7 +4,7 @@ at: index
 	 argument.  Primitive.  Fail if the index argument is not an Integer or is out
 	 of bounds.  Essential.  See Object documentation whatIsAPrimitive."
 
-	<primitive: 655>
+	<primitive: 655> "GemStone Primitive"
 	^index isInteger
 		ifTrue:
 			[self errorSubscriptBounds: index]
