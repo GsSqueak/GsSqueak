@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"selector:for:" : "PW 5/3/2018 14:29" },
+	"instance" : {
+		"applyInTailTo:inLisp:" : "05/08/2018 06:17:04",
+		"applyTo:inLisp:" : "05/08/2018 06:17:04",
+		"isLispPrimitive" : "PW 5/3/2018 14:29",
+		"isLispPrimitiveSpecial" : "PW 5/3/2018 14:29",
+		"lisp:" : "PW 5/3/2018 14:29",
+		"lispCode" : "PW 5/3/2018 14:29",
+		"printOn:" : "PW 5/3/2018 14:29",
+		"selector" : "PW 5/3/2018 14:29",
+		"selector:" : "PW 5/3/2018 14:29" } }
