@@ -1,0 +1,16 @@
+{
+	"category" : "SqCollections-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"FromCharTable",
+		"ToCharTable" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"data",
+		"multiLine" ],
+	"name" : "Base64MimeConverter",
+	"pools" : [
+		 ],
+	"super" : "MimeConverter",
+	"type" : "normal" }

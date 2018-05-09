@@ -1,0 +1,14 @@
+{
+	"category" : "SqCollections-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "QuotedPrintableMimeConverter",
+	"pools" : [
+		 ],
+	"super" : "MimeConverter",
+	"type" : "normal" }

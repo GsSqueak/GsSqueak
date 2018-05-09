@@ -1,0 +1,16 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"useLittleEndian",
+		"useByteOrderMark",
+		"byteOrderMarkDone" ],
+	"name" : "UTF16TextConverter",
+	"pools" : [
+		 ],
+	"super" : "TextConverter",
+	"type" : "normal" }

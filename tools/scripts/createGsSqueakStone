@@ -183,9 +183,12 @@ todeBackup $name flag1
 loadPackage -S '`Kernel-Processes-Variables`'
 loadPackage -S '`Kernel-Numbers`'
 loadPackage -S '`Kernel-Pools`'
+loadPackage -S '`Kernel-Processes`'
+loadPackage -S '`Multilingual-TextConversion`'
+loadPackage -S '`Multilingual-Encodings`'
+loadPackage -S '`Collections-Arrayed`'
 # loadPackage -S '`MockClasses`'
 loadPackage -S '`Chronology-Core`'
-# loadPackage -S '`Kernel-Processes`'
 
 todeBackup $name flag2
 loadPackage -S '`Balloon`'

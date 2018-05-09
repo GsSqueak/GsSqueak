@@ -1,0 +1,15 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"unicodeValue",
+		"targetEncoding" ],
+	"name" : "UndefinedConversion",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

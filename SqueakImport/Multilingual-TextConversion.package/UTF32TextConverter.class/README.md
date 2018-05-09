@@ -1,0 +1,1 @@
+Text converter for UTF-32.  It supports the endianness and byte order mark.
