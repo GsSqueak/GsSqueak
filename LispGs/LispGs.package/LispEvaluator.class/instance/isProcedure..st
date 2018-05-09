@@ -1,5 +1,5 @@
 private
 isProcedure: anObject
   ^ anObject isLispPrimitive
-    or: [ anObject isProcedure ]
+    or: [ anObject isLispClosure ]
     or: [ anObject isCompiledProcedure ]

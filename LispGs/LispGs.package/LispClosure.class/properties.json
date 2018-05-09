@@ -1,0 +1,15 @@
+{
+	"category" : "LispGs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"form",
+		"environment" ],
+	"name" : "LispClosure",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

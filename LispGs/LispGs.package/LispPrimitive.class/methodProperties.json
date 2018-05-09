@@ -1,13 +1,12 @@
 {
 	"class" : {
-		"selector:for:" : " 05/09/2018 00:42:43" },
+		"selector:for:" : "Anonymous 05/09/2018 06:11:08" },
 	"instance" : {
-		"applyInTailTo:inLisp:" : " 05/09/2018 00:42:43",
-		"applyTo:inLisp:" : " 05/09/2018 00:42:43",
-		"isLispPrimitive" : " 05/09/2018 00:42:43",
-		"isLispPrimitiveSpecial" : " 05/09/2018 00:42:43",
-		"lisp:" : " 05/09/2018 00:42:43",
-		"lispCode" : " 05/09/2018 00:42:43",
-		"printOn:" : " 05/09/2018 00:42:43",
-		"selector" : " 05/09/2018 00:42:43",
-		"selector:" : " 05/09/2018 00:42:43" } }
+		"applyInTailTo:inLisp:" : "Anonymous 05/09/2018 06:11:08",
+		"applyTo:inLisp:" : "Anonymous 05/09/2018 06:11:08",
+		"isLispPrimitive" : "Anonymous 05/09/2018 06:11:08",
+		"isLispPrimitiveSpecial" : "Anonymous 05/09/2018 06:11:08",
+		"lisp:" : "Anonymous 05/09/2018 06:11:08",
+		"lispCode" : "Anonymous 05/09/2018 06:11:08",
+		"selector" : "Anonymous 05/09/2018 06:11:08",
+		"selector:" : "Anonymous 05/09/2018 06:11:08" } }
