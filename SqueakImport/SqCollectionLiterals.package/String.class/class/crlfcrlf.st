@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-instance creation
+instance creation
 crlfcrlf
 	^self crlf , self crlf.

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 at: anInteger put: anObject 
 	"Storing into an Interval is not allowed."
 

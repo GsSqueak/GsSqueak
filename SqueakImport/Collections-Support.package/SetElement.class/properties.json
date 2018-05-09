@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"NilElement" ],
+	"commentStamp" : "nice 8/26/2010 22:21",
+	"instvars" : [
+		"enclosedElement" ],
+	"name" : "SetElement",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -129,7 +129,7 @@ loadPackage -S SqBlock
 loadPackage -S SqBlock
 
 startTopaz $name -l << EOF
-login 
+login
 run
 MCEnv useSqueakParser.
 %
@@ -162,8 +162,15 @@ commit
 logout
 exit
 EOF
+
+todeBackup $name preCollections
+loadPackage -S '`Collections-Abstract`'
+loadPackage -S '`Collections-Support`'
 loadPackage -S SqCollectionLiterals
 loadPackage -S SqCollections
+loadPackage -S '`Collections-Sequenceable`'
+loadPackage -S '`Collections-Heap`'
+loadPackage -S '`Collections-Arrayed`'
 loadPackage -S CompiledMethod
 loadPackage -S SqWeak
 loadPackage -S '`System-Object Events`'
@@ -179,10 +186,9 @@ loadPackage -S '`Kernel-Pools`'
 loadPackage -S '`Kernel-Processes`'
 loadPackage -S '`Multilingual-TextConversion`'
 loadPackage -S '`Multilingual-Encodings`'
-loadPackage -S '`Graphics-converting`'
-loadPackage -S '`Graphics-Primitives`'
 loadPackage -S '`Collections-Arrayed`'
-loadPackage -S '`MockClasses`'
+# loadPackage -S '`MockClasses`'
+loadPackage -S '`Chronology-Core`'
 
 todeBackup $name flag2
 loadPackage -S '`Balloon`'
@@ -191,8 +197,12 @@ loadPackage -S '`Kernel-Models`'
 loadPackage -S '`System-FileRegistry`'
 
 todeBackup $name flag3
+loadPackage -S '`GraphicsLibrary`'
+loadPackage -S '`Graphics-converting`'
+loadPackage -S '`Graphics-Primitives`'
 loadPackage -S '`Graphics-Display Objects`'
 loadPackage -S SqKernelTestsNumbers
+loadPackage -S '`KernelTests-Objects`'
 
 startTopaz $name -l << EOF
 login

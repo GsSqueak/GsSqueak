@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-user interface
+user interface
 asExplorerString
 
 	^ self printString

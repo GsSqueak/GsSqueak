@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-testing
+testing
 isAsciiString
 
 	^self allSatisfy: [ :each | each asciiValue <= 127 ]

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-formatting
+formatting
 format: aCollection 
 	"format the receiver with aCollection  
 	 

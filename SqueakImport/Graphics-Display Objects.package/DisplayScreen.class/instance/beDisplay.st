@@ -4,5 +4,5 @@ beDisplay
 	image. Fail if the form is too wide to fit on the physical display. 
 	Essential. See Object documentation whatIsAPrimitive."
 
-	GraFFIcsLibrary inst screenSize: self width @ self height.
+	GraphicsLibrary instance screenSize: self width @ self height.
 	^ 0

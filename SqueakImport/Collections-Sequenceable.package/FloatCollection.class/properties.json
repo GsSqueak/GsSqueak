@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Sequenceable",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cmm 1/28/2013 19:49",
+	"instvars" : [
+		 ],
+	"name" : "FloatCollection",
+	"pools" : [
+		 ],
+	"super" : "NonPointersOrderedCollection",
+	"type" : "normal" }

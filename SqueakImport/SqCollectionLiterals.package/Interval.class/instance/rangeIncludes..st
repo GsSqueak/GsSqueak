@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 rangeIncludes: aNumber
 	"Return true if the number lies in the interval between start and stop."
 

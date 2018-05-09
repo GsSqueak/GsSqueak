@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 encodeForHTTPWithTextEncoding: encodingName conditionBlock: conditionBlock
 	"change dangerous characters to their %XX form, for use in HTTP transactions"
 

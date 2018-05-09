@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"car:cdr:" : "Anonymous 05/08/2018 07:27",
+		"fromList:" : "Anonymous 05/08/2018 07:29" },
+	"instance" : {
+		"car" : "Anonymous 05/07/2018 03:25",
+		"car:" : "Anonymous 05/07/2018 03:25",
+		"cdr" : "Anonymous 05/07/2018 03:25",
+		"cdr:" : "Anonymous 05/07/2018 03:25",
+		"do:" : "Anonymous 05/08/2018 07:42",
+		"doWithCdr:" : "Anonymous 05/07/2018 05:21",
+		"isConsCell" : "Anonymous 05/07/2018 03:20",
+		"valueForLisp:" : "Anonymous 05/07/2018 04:01" } }

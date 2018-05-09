@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 convertToSuperSwikiServerString
 	^self convertToEncoding: 'shift_jis'

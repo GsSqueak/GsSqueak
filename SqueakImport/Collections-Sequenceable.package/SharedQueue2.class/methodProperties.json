@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"new" : "ls 6/25/2005 13:53" },
+	"instance" : {
+		"initialize" : "ls 6/25/2005 13:48",
+		"isEmpty" : "ls 6/25/2005 14:03",
+		"next" : "ul 10/15/2010 08:24",
+		"nextOrNil" : "ls 6/25/2005 14:00",
+		"nextOrNilSuchThat:" : "nice 12/26/2009 21:34",
+		"nextPut:" : "ul 10/15/2010 08:23",
+		"peek" : "ls 6/25/2005 14:00",
+		"postCopy" : "nice 10/5/2009 19:07",
+		"printOn:" : "ls 6/25/2005 13:56",
+		"removeAll" : "ul 10/15/2010 08:23",
+		"removeAllSuchThat:" : "ls 6/25/2005 14:01",
+		"size" : "ls 6/25/2005 14:04" } }

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 capitalized
 	"Return a copy with the first letter capitalized"
 	| cap |

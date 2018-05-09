@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-instance creation
+instance creation
 lf
 	"Answer a string containing a single carriage return character."
 

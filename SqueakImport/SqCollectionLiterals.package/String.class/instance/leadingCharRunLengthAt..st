@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 leadingCharRunLengthAt: index
 
 	| leadingChar |

@@ -1,0 +1,15 @@
+{
+	"category" : "Collections-Sequenceable",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "topa 12/6/2016 14:17",
+	"instvars" : [
+		"firstLink",
+		"lastLink" ],
+	"name" : "LinkedList",
+	"pools" : [
+		 ],
+	"super" : "SequenceableCollection",
+	"type" : "normal" }

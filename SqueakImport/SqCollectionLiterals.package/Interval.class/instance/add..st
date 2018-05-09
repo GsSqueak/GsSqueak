@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-adding
+adding
 add: newObject 
 	"Adding to an Interval is not allowed."
 

@@ -1,0 +1,3 @@
+private
+noTimezone
+	^offset == nil

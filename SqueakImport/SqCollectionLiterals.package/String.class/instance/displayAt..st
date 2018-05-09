@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-displaying
+displaying
 displayAt: aPoint 
 	"Display the receiver as a DisplayText at aPoint on the display screen."
 

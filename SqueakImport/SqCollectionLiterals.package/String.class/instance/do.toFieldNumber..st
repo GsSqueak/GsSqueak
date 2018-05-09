@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 do: aBlock toFieldNumber: aNumber
 	"Considering the receiver as a holder of tab-delimited fields, evaluate aBlock on behalf of a field in this string"
 

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 translateToUppercase
 	"Translate all characters to uppercase, in place"
 

@@ -1,0 +1,1 @@
+I am an OrderedCollection with an internal array holding non-pointers objects. This has the advantage that the array is never subject of garbage collection. But I can only hold objects of a given type defined by my class-side #arrayType method, which is the only method they have to implement.

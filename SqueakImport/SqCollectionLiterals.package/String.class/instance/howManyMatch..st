@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 howManyMatch: string 
 	"Count the number of characters that match up in self and aString."
 	| count shorterLength |

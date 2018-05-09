@@ -7,7 +7,8 @@ value: first value: second value: third value: fourth
  #value:value:value:value: is optimized by the compiler.
  This method is in the image for use by perform: and for
  failure paths from the optimized bytecode "
-
+  self numArgs ~= 4 ifTrue:
+	[self numArgsError: 4].
   ^ self
     valueWithArguments:
       {first.

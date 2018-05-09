@@ -1,0 +1,10 @@
+accessing
+indexOfSubCollection: aSubCollection
+	"Answer the index of the receiver's first element, such that that element
+	equals the first element of aSubCollection, and the next elements equal 
+	the rest of the elements of aSubCollection. Begin the search at the first
+	element of the receiver. If no such match is found, answer 0."
+
+	^self
+		indexOfSubCollection: aSubCollection
+		startingAt: 1

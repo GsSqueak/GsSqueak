@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addSymbolFunction:" : "PW 5/3/2018 14:29",
+		"addSymbolValue:" : "PW 5/3/2018 14:29",
+		"allBoundSymbols" : "PW 5/3/2018 14:29",
+		"bindsSymbol:" : "PW 5/3/2018 14:29",
+		"depth" : "PW 5/3/2018 14:29",
+		"initialize" : "PW 5/3/2018 14:29",
+		"inspectWith:" : "PW 5/3/2018 14:29",
+		"newChild" : "PW 5/3/2018 14:29",
+		"nthParent:" : "PW 5/3/2018 14:29",
+		"parent" : "PW 5/3/2018 14:29",
+		"parent:" : "PW 5/3/2018 14:29",
+		"printOn:forLisp:" : "PW 5/3/2018 14:29",
+		"relativeLookUpValue:" : "PW 5/3/2018 14:29",
+		"removeSymbolValue:" : "PW 5/3/2018 14:29",
+		"scopedSymbolBinding:" : "PW 5/3/2018 14:29",
+		"symbolBinding:" : "Anonymous 05/08/2018 07:05",
+		"symbolValue:" : "PW 5/3/2018 14:29",
+		"symbolValue:ifNone:" : "PW 5/3/2018 14:29",
+		"symbolValueBinding:" : "PW 5/3/2018 14:29",
+		"symbolValues" : "PW 5/3/2018 14:29",
+		"symbolValues:" : "05/08/2018 06:17:04",
+		"symbolValuesDictionaryFor:" : "PW 5/3/2018 14:29",
+		"symbolValuesDictionaryFor:ifNone:" : "PW 5/3/2018 14:29" } }

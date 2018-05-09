@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-displaying
+displaying
 displayOn: aDisplayMedium at: aPoint textColor: aColor
 	"Show a representation of the receiver as a DisplayText at location aPoint on aDisplayMedium, rendering the text in the designated color"
 

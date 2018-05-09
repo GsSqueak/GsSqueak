@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 surroundedBySingleQuotes
 	"Answer the receiver with leading and trailing quotes.  "
 

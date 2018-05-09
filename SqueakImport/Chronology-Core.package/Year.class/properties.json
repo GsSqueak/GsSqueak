@@ -1,0 +1,14 @@
+{
+	"category" : "Chronology-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cbr 7/28/2010 18:10",
+	"instvars" : [
+		 ],
+	"name" : "Year",
+	"pools" : [
+		 ],
+	"super" : "Timespan",
+	"type" : "normal" }

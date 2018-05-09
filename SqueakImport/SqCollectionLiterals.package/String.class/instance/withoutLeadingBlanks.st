@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 withoutLeadingBlanks
 	
 	"Return a copy of the receiver from which leading blanks have been

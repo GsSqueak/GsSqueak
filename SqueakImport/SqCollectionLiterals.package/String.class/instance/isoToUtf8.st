@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-internet
+internet
 isoToUtf8
 	"Convert ISO 8559-1 to UTF-8"
 	| s |

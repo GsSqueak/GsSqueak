@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asPacked
 	"Convert to a longinteger that describes the string"
 

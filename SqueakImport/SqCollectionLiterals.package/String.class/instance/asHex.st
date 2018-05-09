@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asHex
 	| stream |
 	stream := WriteStream on: (String new: self size * 4).

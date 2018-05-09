@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 compare: string1 with: string2 collated: order
 
 	(string1 isByteString and: [string2 isByteString]) ifTrue: [

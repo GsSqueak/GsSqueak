@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-encoding
+encoding
 writeLeadingCharRunsOn: stream
 
 	| runLength runValues runStart leadingChar |

@@ -1,0 +1,5 @@
+squeak protocol
+nanoSecond
+
+
+	^ nanos

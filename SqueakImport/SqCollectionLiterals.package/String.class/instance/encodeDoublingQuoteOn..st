@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-printing
+printing
 encodeDoublingQuoteOn: aStream 
 	"Print inside string quotes, doubling inbedded quotes."
 	| x |

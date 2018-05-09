@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-enumerating
+enumerating
 collect: aBlock
 	| nextValue result |
 	result := self species new: self size.

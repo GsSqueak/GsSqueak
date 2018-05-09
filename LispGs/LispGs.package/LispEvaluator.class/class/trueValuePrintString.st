@@ -1,0 +1,3 @@
+booleans
+trueValuePrintString
+	^ '#t'

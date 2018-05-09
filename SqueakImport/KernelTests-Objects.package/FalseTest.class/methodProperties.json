@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAND" : "sd 6/5/2005 09:02",
+		"testAnd" : "sd 6/5/2005 09:02",
+		"testAsBit" : "it 7/13/2009 22:24",
+		"testIfFalse" : "sd 6/5/2005 09:03",
+		"testIfFalseIfTrue" : "sd 6/5/2005 09:03",
+		"testIfTrue" : "sd 6/5/2005 09:03",
+		"testIfTrueIfFalse" : "sd 6/5/2005 09:03",
+		"testInMemory" : "it 7/13/2009 22:22",
+		"testNew" : "sd 6/5/2005 09:03",
+		"testNot" : "sd 6/5/2005 09:03",
+		"testOR" : "sd 6/5/2005 09:04",
+		"testOr" : "sd 6/5/2005 09:04",
+		"testPrintOn" : "sd 6/5/2005 09:04",
+		"testXor" : "nice 10/14/2009 23:07" } }

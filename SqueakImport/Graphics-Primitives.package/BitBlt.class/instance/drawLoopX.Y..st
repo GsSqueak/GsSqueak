@@ -7,7 +7,6 @@ drawLoopX: xDelta Y: yDelta
 	first and last points, so that these can be called for as needed in client code.
 	Optional. See Object documentation whatIsAPrimitive."
 	| dx dy px py P |
-	self notYetImplemented. "Code below was previous fallback code"
 	dx := xDelta sign.
 	dy := yDelta sign.
 	px := yDelta abs.

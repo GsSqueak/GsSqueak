@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-copying
+copying
 copyReplaceTokens: oldSubstring with: newSubstring 
 	"Replace all occurrences of oldSubstring that are surrounded
 	by non-alphanumeric characters"

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-internet
+internet
 decodeMimeHeader
 	"See RFC 2047, MIME Part Three: Message Header Extension for Non-ASCII  
 	Text and RFC 1342. Text containing non-ASCII characters is encoded by the sequence  

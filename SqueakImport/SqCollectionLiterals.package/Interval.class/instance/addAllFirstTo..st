@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-adding
+adding
 addAllFirstTo: anOrderedCollection
 	"Add all of my elements to the beginning of anOrderedCollection"
 

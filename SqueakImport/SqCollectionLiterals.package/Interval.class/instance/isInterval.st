@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-testing
+testing
 isInterval
 
 	^ true

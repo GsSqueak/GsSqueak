@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 crc16
 	"Compute a 16 bit cyclic redundancy check."
 

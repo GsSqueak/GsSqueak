@@ -1,0 +1,4 @@
+*LispGs
+isLispValues
+
+	^ false

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 first 
 	"Refer to the comment in SequenceableCollection|first."
 
