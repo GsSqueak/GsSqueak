@@ -184,7 +184,7 @@ loadPackage -S '`Kernel-Processes-Variables`'
 loadPackage -S '`Kernel-Numbers`'
 loadPackage -S '`Kernel-Pools`'
 
-# loadPackage -S '`MockClasses`'
+loadPackage -S '`MockClasses`'
 loadPackage -S '`Chronology-Core`'
 # loadPackage -S '`Kernel-Processes`'
 
@@ -193,7 +193,6 @@ loadPackage -S '`Multilingual-Encodings`'
 
 todeBackup $name flag2
 loadPackage -S '`Balloon`'
-loadPackage -S '`VMMaker`'
 loadPackage -S '`Kernel-Models`'
 loadPackage -S '`System-FileRegistry`'
 
@@ -201,7 +200,9 @@ todeBackup $name flag3
 loadPackage -S '`GraphicsLibrary`'
 loadPackage -S '`Graphics-converting`'
 loadPackage -S '`Graphics-Primitives`'
+loadPackage -S '`VMMaker`'
 loadPackage -S '`Graphics-Display Objects`'
+
 loadPackage -S SqKernelTestsNumbers
 loadPackage -S '`KernelTests-Objects`'
 
