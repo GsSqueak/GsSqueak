@@ -1,3 +1,0 @@
-booleans
-trueValuePrintString
-	^ '#t'

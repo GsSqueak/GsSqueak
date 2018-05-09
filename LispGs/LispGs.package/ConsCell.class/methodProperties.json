@@ -1,15 +1,31 @@
 {
-	"class" : {
-		"car:" : "Anonymous 05/09/2018 01:52",
-		"car:cdr:" : " 05/09/2018 00:42:43",
-		"fromList:" : " 05/09/2018 00:42:43" },
-	"instance" : {
-		"car" : " 05/09/2018 00:42:43",
-		"car:" : " 05/09/2018 00:42:43",
-		"cdr" : " 05/09/2018 00:42:43",
-		"cdr:" : " 05/09/2018 00:42:43",
-		"collect:" : "Anonymous 05/09/2018 01:22",
-		"do:" : " 05/09/2018 00:42:43",
-		"doWithCdr:" : " 05/09/2018 00:42:43",
-		"isConsCell" : " 05/09/2018 00:42:43",
-		"valueForLisp:" : "Anonymous 05/09/2018 01:58" } }
+        "class": {
+                "car..st": "",
+                "car.cdr..st": "",
+                "fromList..st": ""
+        },
+        "instance": {
+                "addLast..st": "",
+                "append..st": "",
+                "append2..st": "",
+                "applyTo.inLisp.withEnvironment..st": "",
+                "applyTo.inLisp.withEnvironment.noSubLisp..st": "",
+                "bindingsWithArguments..st": "",
+                "car..st": "",
+                "car.st": "",
+                "cdr..st": "",
+                "cdr.st": "",
+                "collect..st": "",
+                "cycles.st": "",
+                "do..st": "",
+                "doWithCdr..st": "",
+                "isConsCell.st": "",
+                "lambdaFormBindingsWith..st": "",
+                "lastCell.st": "",
+                "listCopy.st": "",
+                "nthCell.ifAbsent..st": "",
+                "safeLength.st": "",
+                "storeCycles.with..st": "",
+                "valueForLisp..st": ""
+        }
+}

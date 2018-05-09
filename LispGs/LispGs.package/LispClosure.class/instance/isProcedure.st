@@ -1,0 +1,3 @@
+testing
+isProcedure
+  ^ form isProcedure

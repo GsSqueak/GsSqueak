@@ -1,13 +1,15 @@
 {
-	"class" : {
-		"selector:for:" : " 05/09/2018 00:42:43" },
-	"instance" : {
-		"applyInTailTo:inLisp:" : " 05/09/2018 00:42:43",
-		"applyTo:inLisp:" : " 05/09/2018 00:42:43",
-		"isLispPrimitive" : " 05/09/2018 00:42:43",
-		"isLispPrimitiveSpecial" : " 05/09/2018 00:42:43",
-		"lisp:" : " 05/09/2018 00:42:43",
-		"lispCode" : " 05/09/2018 00:42:43",
-		"printOn:" : " 05/09/2018 00:42:43",
-		"selector" : " 05/09/2018 00:42:43",
-		"selector:" : " 05/09/2018 00:42:43" } }
+        "class": {
+                "selector.for..st": ""
+        },
+        "instance": {
+                "applyInTailTo.inLisp..st": "",
+                "applyTo.inLisp..st": "",
+                "isLispPrimitive.st": "",
+                "isLispPrimitiveSpecial.st": "",
+                "lisp..st": "",
+                "lispCode.st": "",
+                "selector..st": "",
+                "selector.st": ""
+        }
+}

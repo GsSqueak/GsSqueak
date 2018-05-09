@@ -1,3 +1,0 @@
-booleans
-falseValuePrintString
-	^ '#f'

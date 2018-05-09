@@ -1,3 +1,3 @@
 private - interpreter
-evalObject: anObject 
-	^ self evalObject: anObject multipleValue: false
+evalObject: anObject
+  ^ self evalObject: anObject multipleValue: false
