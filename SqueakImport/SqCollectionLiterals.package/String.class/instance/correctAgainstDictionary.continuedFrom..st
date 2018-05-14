@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 correctAgainstDictionary: wordDict continuedFrom: oldCollection
 	"Like correctAgainst:continuedFrom:.  Use when you want to correct against a dictionary."
 

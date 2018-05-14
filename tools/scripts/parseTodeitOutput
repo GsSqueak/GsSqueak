@@ -1,6 +1,6 @@
 #!/bin/bash
 while IFS= read line; do
-    echo "Line: ${line}";
+    echo "$line"
     echo "$line" | grep "errors while loading" && echo "found error" && exit 7;
 done
 exit 0;

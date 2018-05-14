@@ -1,0 +1,3 @@
+friend
+currentCharSize
+	^ 1

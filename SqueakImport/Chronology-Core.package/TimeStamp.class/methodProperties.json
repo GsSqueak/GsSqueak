@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"current" : "dtl 7/13/2009 13:45",
+		"now" : "fbs 4/20/2004 14:22" },
+	"instance" : {
+		"asDateAndTime" : "klc 9/12/2010 16:10",
+		"asTimeStamp" : "brp 7/27/2003 17:13",
+		"date" : "brp 7/27/2003 17:14",
+		"dateAndTime" : "brp 7/27/2003 17:17",
+		"minusDays:" : "brp 7/27/2003 17:19",
+		"minusSeconds:" : "brp 7/27/2003 17:19",
+		"plusDays:" : "brp 7/27/2003 17:18",
+		"plusSeconds:" : "brp 7/27/2003 17:19",
+		"printOn:" : "brp 7/27/2003 17:17",
+		"storeOn:" : "brp 7/27/2003 17:17",
+		"time" : "brp 7/27/2003 17:15" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 8/17/2009 20:32",
+	"instvars" : [
+		 ],
+	"name" : "UnicodeInputInterpreter",
+	"pools" : [
+		 ],
+	"super" : "KeyboardInputInterpreter",
+	"type" : "normal" }

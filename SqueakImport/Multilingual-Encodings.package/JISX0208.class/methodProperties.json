@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"charAtKuten:" : "nice 1/10/2010 15:42",
+		"compoundTextSequence" : "yo 9/2/2002 16:49",
+		"initialize" : "nice 5/30/2013 23:58",
+		"isBreakableAt:in:" : "yo 3/18/2003 11:11",
+		"isLetterCode:" : "nice 5/29/2014 08:18",
+		"leadingChar" : "yo 9/2/2002 17:38",
+		"nextPutValue:toStream:withShiftSequenceIfNeededForTextConverterState:" : "yo 11/24/2002 17:03",
+		"printingDirection" : "yo 9/4/2002 22:52",
+		"stringFromKutenArray:" : "ar 4/12/2005 17:34",
+		"ucsTable" : "yo 10/14/2003 10:19",
+		"unicodeLeadingChar" : "yo 7/21/2004 18:36" },
+	"instance" : {
+		 } }

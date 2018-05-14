@@ -1,0 +1,14 @@
+{
+	"category" : "Kernel-Processes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 1/7/2016 11:36",
+	"instvars" : [
+		"owner" ],
+	"name" : "TransientMutex",
+	"pools" : [
+		 ],
+	"super" : "LinkedList",
+	"type" : "normal" }

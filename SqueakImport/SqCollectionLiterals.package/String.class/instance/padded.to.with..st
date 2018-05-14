@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-copying
+copying
 padded: leftOrRight to: length with: aCharacter
 
 	| result paddingLength |

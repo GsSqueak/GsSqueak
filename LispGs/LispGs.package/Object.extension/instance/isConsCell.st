@@ -1,0 +1,3 @@
+*LispGs
+isConsCell
+  ^ false

@@ -6,5 +6,9 @@
                 "isPrime.st": "",
                 "isZero.st": "",
 		"printOn..base.st": ""
-        }
+        },
+	"class": {
+		"basicNew..st": "",
+		"_new..st": ""
+	}
 }

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 = anObject
 
 	^ self == anObject

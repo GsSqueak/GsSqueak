@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-internet
+internet
 withoutQuoting
 	"remove the initial and final quote marks, if present"
 	"'''h''' withoutQuoting"

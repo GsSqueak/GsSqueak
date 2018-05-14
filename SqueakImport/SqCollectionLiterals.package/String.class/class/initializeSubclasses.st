@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-initialization
+initialization
 initializeSubclasses
 
 	ByteString superclass: String.

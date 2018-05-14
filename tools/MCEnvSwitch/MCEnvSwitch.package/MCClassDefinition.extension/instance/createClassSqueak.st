@@ -9,9 +9,8 @@ createClassSqueak
   civArray := (self classInstanceVariablesString findTokens: ' ') asArray.
   poolArray := aClass
     ifNotNil: [ 
-      aClass
-        poolDictionariesForNames:
-          (self sharedPoolsString findTokens: ' ') asArray ]
+      (self sharedPoolsString findTokens: ' ') asArray
+        collect: [ :each | ((Smalltalk at: #SqueakEnvironment) at: each asSymbol) _classVars ] ]
     ifNil: [ #() ].
   newClass := nil.
   opts := #().

@@ -1,0 +1,14 @@
+{
+	"category" : "Chronology-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "TimeStamp",
+	"pools" : [
+		 ],
+	"super" : "DateAndTime",
+	"type" : "normal" }

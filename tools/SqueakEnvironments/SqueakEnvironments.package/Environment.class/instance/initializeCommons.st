@@ -29,6 +29,9 @@ initializeCommons
   self at: #'GemstoneSmalltalk' put: Smalltalk.
   self at: #'CompilationCue' put: SqCompilationCue.
   self at: #'SymbolDictionary' put: SymbolDictionary.
-  self at: #'Mutex' put: Mutex.
+  self at: #'Mutex' put: TransientMutex.
+  self at: #'TransientMutex' put: TransientMutex.
   self at: #'Environment' put: Environment.
   self at: #'SymbolAssociation' put: SymbolAssociation.
+  self at: #'Semaphore' put: TransientSemaphore.
+  self at: #'TransientSemaphore' put: TransientSemaphore

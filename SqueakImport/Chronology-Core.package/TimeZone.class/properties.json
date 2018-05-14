@@ -1,0 +1,16 @@
+{
+	"category" : "Chronology-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 7/11/2009 15:03",
+	"instvars" : [
+		"offset",
+		"abbreviation",
+		"name" ],
+	"name" : "TimeZone",
+	"pools" : [
+		"ChronologyConstants" ],
+	"super" : "Object",
+	"type" : "normal" }

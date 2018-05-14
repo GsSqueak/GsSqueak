@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 compare: aString 
 	"Answer a comparison code telling how the receiver sorts relative to aString:
 		1 - before

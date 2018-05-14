@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 subStrings
 	"Answer an array of the substrings that compose the receiver."
 	#Collectn.

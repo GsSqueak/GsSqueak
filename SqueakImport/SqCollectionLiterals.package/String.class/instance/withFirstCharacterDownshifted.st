@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 withFirstCharacterDownshifted
 	"Return a copy with the first letter downShifted"
 	

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 withNoLineLongerThan: aNumber
 	"Answer a string with the same content as receiver, but rewrapped so that no line has more characters than the given number"
 	aNumber isNumber not | (aNumber < 1) ifTrue: [self error: 'too narrow'].

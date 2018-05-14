@@ -1,0 +1,16 @@
+{
+	"category" : "LispGs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "spfa 5/21/2008 14:25",
+	"instvars" : [
+		"upperBindings",
+		"symbolPlists",
+		"symbolValues" ],
+	"name" : "LispEnvironment",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

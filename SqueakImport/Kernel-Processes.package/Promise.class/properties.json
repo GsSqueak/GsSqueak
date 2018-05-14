@@ -1,0 +1,19 @@
+{
+	"category" : "Kernel-Processes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tonyg 1/31/2018 23:34",
+	"instvars" : [
+		"value",
+		"resolvers",
+		"mutex",
+		"state",
+		"error",
+		"rejecters" ],
+	"name" : "Promise",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-instance creation
+instance creation
 initializedInstance
 	^self newFrom: #()

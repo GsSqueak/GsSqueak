@@ -4,7 +4,7 @@ at: index put: aCharacter
 	 Primitive.  Fail if the index is not an Integer or is out of bounds, or if the
 	 argument is not a Character.  Essential.  See Object documentation whatIsAPrimitive."
 
-	<primitive: 667>
+	<primitive: 667> "GemStone Primitive"
 	^aCharacter isCharacter
 		ifTrue:
 			[index isInteger

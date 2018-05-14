@@ -9,7 +9,4 @@ handleFailingFailingBasicNew
 	 indexable or if the argument is not a positive Integer, or if there is not
 	 enough memory available. Essential. See Object documentation whatIsAPrimitive."
 
-	<primitive: 70>
-	"space must be low"
-	OutOfMemory signal.
-	^self basicNew  "retry if user proceeds"
+	self shouldNotImplement

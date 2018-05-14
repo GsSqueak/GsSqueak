@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-testing
+testing
 startsWithDigit
 	"Answer whether the receiver's first character represents a digit"
 

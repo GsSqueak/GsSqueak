@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asWideString 
 	self isWideString
 		ifTrue:[^self]

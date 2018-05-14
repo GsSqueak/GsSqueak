@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"encodeChar:to:" : "bf 3/11/2000 23:16",
+		"encodeWord:" : "bf 3/11/2000 23:13",
+		"isStructuredField:" : "bf 3/12/2000 14:36",
+		"mimeDecode" : "bf 11/27/1998 17:04",
+		"mimeEncode" : "bf 3/10/2000 16:06",
+		"readWord" : "bf 3/11/2000 22:30" } }

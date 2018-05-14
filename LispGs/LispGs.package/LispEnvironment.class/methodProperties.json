@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addSymbolFunction:" : "Anonymous 05/09/2018 06:11:08",
+		"addSymbolValue:" : "Anonymous 05/09/2018 06:11:08",
+		"allBoundSymbols" : "Anonymous 05/09/2018 06:11:08",
+		"bindsSymbol:" : "Anonymous 05/09/2018 06:11:08",
+		"depth" : "Anonymous 05/09/2018 06:11:08",
+		"initialize" : "Anonymous 05/09/2018 06:11:08",
+		"inspectWith:" : "Anonymous 05/09/2018 06:11:08",
+		"newChild" : "Anonymous 05/09/2018 06:11:08",
+		"nthParent:" : "Anonymous 05/09/2018 06:11:08",
+		"parent" : "Anonymous 05/09/2018 06:11:08",
+		"parent:" : "Anonymous 05/09/2018 06:11:08",
+		"relativeLookUpValue:" : "Anonymous 05/09/2018 06:11:08",
+		"removeSymbolValue:" : "Anonymous 05/09/2018 06:11:08",
+		"scopedSymbolBinding:" : "Anonymous 05/09/2018 06:11:08",
+		"symbolBinding:" : "Anonymous 05/09/2018 06:11:08",
+		"symbolValue:" : "Anonymous 05/09/2018 06:11:08",
+		"symbolValue:ifNone:" : "Anonymous 05/09/2018 06:11:08",
+		"symbolValueBinding:" : "Anonymous 05/09/2018 06:11:08",
+		"symbolValues" : "Anonymous 05/09/2018 06:11:08",
+		"symbolValues:" : "Anonymous 05/09/2018 06:11:08",
+		"symbolValuesDictionaryFor:" : "Anonymous 05/09/2018 06:11:08",
+		"symbolValuesDictionaryFor:ifNone:" : "Anonymous 05/09/2018 06:11:08" } }

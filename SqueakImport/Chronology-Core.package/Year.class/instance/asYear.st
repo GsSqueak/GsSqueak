@@ -1,0 +1,5 @@
+squeak protocol
+asYear
+
+
+	^ self

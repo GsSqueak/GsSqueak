@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-testing
+testing
 beginsWith: sequence
 	"Answer true if the receiver starts with the argument collection. The comparison is case-sensitive. Overridden for better performance."
 

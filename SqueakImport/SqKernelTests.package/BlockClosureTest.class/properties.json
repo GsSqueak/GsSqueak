@@ -1,0 +1,15 @@
+{
+	"category" : "SqKernelTests-Methods",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 3/30/2017 17:45",
+	"instvars" : [
+		"aBlockClosure",
+		"homeOfABlockClosure" ],
+	"name" : "BlockClosureTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

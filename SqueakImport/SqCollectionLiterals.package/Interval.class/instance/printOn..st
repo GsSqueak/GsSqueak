@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-printing
+printing
 printOn: aStream
 	aStream nextPut: $(;
 	 print: start;

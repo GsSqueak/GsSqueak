@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 adaptToPoint: rcvr andSend: selector
 	"If I am involved in arithmetic with a point, convert me to a number."
 

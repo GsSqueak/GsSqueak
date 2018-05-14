@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asVmPathName
 
 	^ (FilePath pathName: self) asVmPathName.

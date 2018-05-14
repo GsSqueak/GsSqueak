@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asTime
 	"Many allowed forms, see Time>>readFrom:"
 

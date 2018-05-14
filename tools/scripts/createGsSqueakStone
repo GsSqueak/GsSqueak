@@ -162,8 +162,15 @@ commit
 logout
 exit
 EOF
+
+todeBackup $name preCollections
+loadPackage -S '`Collections-Abstract`'
+loadPackage -S '`Collections-Support`'
 loadPackage -S SqCollectionLiterals
 loadPackage -S SqCollections
+loadPackage -S '`Collections-Sequenceable`'
+loadPackage -S '`Collections-Heap`'
+loadPackage -S '`Collections-Arrayed`'
 loadPackage -S CompiledMethod
 loadPackage -S SqWeak
 loadPackage -S '`System-Object Events`'
@@ -176,19 +183,26 @@ todeBackup $name flag1
 loadPackage -S '`Kernel-Processes-Variables`'
 loadPackage -S '`Kernel-Numbers`'
 loadPackage -S '`Kernel-Pools`'
-loadPackage -S '`Graphics-converting`'
-loadPackage -S '`Graphics-Primitives`'
-loadPackage -S '`Collections-Arrayed`'
+
 loadPackage -S '`MockClasses`'
+loadPackage -S '`Chronology-Core`'
+# loadPackage -S '`Kernel-Processes`'
+
+loadPackage -S '`Multilingual-TextConversion`'
+loadPackage -S '`Multilingual-Encodings`'
 
 todeBackup $name flag2
 loadPackage -S '`Balloon`'
-loadPackage -S '`VMMaker`'
 loadPackage -S '`Kernel-Models`'
 loadPackage -S '`System-FileRegistry`'
 
 todeBackup $name flag3
+loadPackage -S '`GraphicsLibrary`'
+loadPackage -S '`Graphics-converting`'
+loadPackage -S '`Graphics-Primitives`'
+loadPackage -S '`VMMaker`'
 loadPackage -S '`Graphics-Display Objects`'
+
 loadPackage -S SqKernelTestsNumbers
 loadPackage -S '`KernelTests-Objects`'
 loadPackage -S '`CollectionsTests-Text`'

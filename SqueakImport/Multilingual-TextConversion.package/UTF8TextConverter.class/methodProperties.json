@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"decodeByteString:" : "tonyg 1/31/2018 23:12",
+		"encodeByteString:" : "ul 3/17/2010 09:54",
+		"encodingNames" : "yo 12/19/2003 22:01",
+		"errorMalformedInput:" : "nice 5/23/2013 22:42",
+		"strictUtf8Conversions" : "ar 9/1/2010 18:16",
+		"strictUtf8Conversions:" : "ar 9/1/2010 18:16",
+		"writeBOMOn:" : "tak 1/12/2005 13:22" },
+	"instance" : {
+		"backFromStream:" : "ul 3/22/2010 08:18",
+		"decodeString:" : "ul 4/15/2015 00:52",
+		"encodeString:" : "ul 4/15/2015 00:55",
+		"errorMalformedInput:" : "ar 9/1/2010 18:21",
+		"leadingChar" : "yo 11/8/2002 16:17",
+		"nextChunkFromStream:" : "ul 4/15/2015 00:48",
+		"nextChunkTextFromStream:" : "ul 3/27/2010 00:11",
+		"nextFromStream:" : "jr 1/19/2017 17:11",
+		"nextPut:toStream:" : "ul 5/17/2011 17:25",
+		"parseLangTagFor:fromStream:" : "ul 3/27/2010 00:09",
+		"skipSeparatorsAndPeekNextFrom:" : "ul 3/27/2010 16:44",
+		"skipSeparatorsFrom:" : "ul 3/27/2010 00:04" } }

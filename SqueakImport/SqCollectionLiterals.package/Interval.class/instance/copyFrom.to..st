@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-copying
+copying
 copyFrom: startIndex to: stopIndex
 	(startIndex = 1 and: [stopIndex = self size]) ifTrue: [^self].
 	stopIndex < startIndex ifTrue: [^self copyEmpty].

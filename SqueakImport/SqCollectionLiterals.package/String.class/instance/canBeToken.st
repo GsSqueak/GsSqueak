@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-testing
+testing
 canBeToken
 	"Extracted from #numArgs to allow specialization by subclasses"
 	

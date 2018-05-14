@@ -1,0 +1,14 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ISO88593TextConverter",
+	"pools" : [
+		 ],
+	"super" : "ISO8859TextConverter",
+	"type" : "normal" }

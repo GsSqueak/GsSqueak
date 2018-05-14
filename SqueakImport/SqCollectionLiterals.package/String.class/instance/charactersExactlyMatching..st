@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-comparing
+comparing
 charactersExactlyMatching: aString
 	"Do a character-by-character comparison between the receiver and aString.  Return the index of the final character that matched exactly."
 

@@ -1,0 +1,14 @@
+{
+	"category" : "Chronology-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cmm 6/28/2016 21:36",
+	"instvars" : [
+		 ],
+	"name" : "Date",
+	"pools" : [
+		"ChronologyConstants" ],
+	"super" : "Timespan",
+	"type" : "normal" }

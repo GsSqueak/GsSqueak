@@ -1,0 +1,14 @@
+{
+	"category" : "Kernel-Processes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"excessSignals" ],
+	"name" : "TransientSemaphore",
+	"pools" : [
+		 ],
+	"super" : "LinkedList",
+	"type" : "normal" }

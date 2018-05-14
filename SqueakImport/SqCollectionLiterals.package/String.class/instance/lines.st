@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessing
+accessing
 lines
 	"Answer an array of lines composing this receiver without the line ending delimiters."
 

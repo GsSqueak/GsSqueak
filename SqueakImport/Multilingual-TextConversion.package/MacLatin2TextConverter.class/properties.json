@@ -1,0 +1,14 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MacLatin2TextConverter",
+	"pools" : [
+		 ],
+	"super" : "MacOSCPTextConverter",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+*LispGs
+isProcedure
+  ^ false

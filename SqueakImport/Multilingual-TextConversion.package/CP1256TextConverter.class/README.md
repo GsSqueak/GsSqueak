@@ -1,0 +1,1 @@
+Text converter for CP1256.  Windows code page used for Maghrib states.

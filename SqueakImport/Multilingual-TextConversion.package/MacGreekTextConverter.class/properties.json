@@ -1,0 +1,14 @@
+{
+	"category" : "Multilingual-TextConversion",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MacGreekTextConverter",
+	"pools" : [
+		 ],
+	"super" : "MacOSCPTextConverter",
+	"type" : "normal" }

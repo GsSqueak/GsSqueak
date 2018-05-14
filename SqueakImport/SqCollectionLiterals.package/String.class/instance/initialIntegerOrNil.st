@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 initialIntegerOrNil
 	"Answer the integer represented by the leading digits of the receiver, or nil if the receiver does not begin with a digit"
 	| firstNonDigit |

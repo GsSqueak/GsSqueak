@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-private
+private
 correctAgainstEnumerator: wordBlock continuedFrom: oldCollection
 	"The guts of correction, instead of a wordList, there is a block that should take another block and enumerate over some list with it."
 

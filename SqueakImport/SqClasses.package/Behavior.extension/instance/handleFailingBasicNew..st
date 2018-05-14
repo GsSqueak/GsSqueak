@@ -12,10 +12,4 @@ handleFailingBasicNew: sizeRequested
 	 indexable or if the argument is not a positive Integer, or if there is not
 	 enough memory available. Essential. See Object documentation whatIsAPrimitive."
 
-	<primitive: 71>
-	| bytesRequested |
-	bytesRequested := self byteSizeOfInstanceOfSize: sizeRequested.
-	Smalltalk garbageCollect < bytesRequested ifTrue:
-		[Smalltalk growMemoryByAtLeast: bytesRequested].
-	"retry after global garbage collect and possible grow"
-	^self handleFailingFailingBasicNew: sizeRequested
+	self shouldNotImplement

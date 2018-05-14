@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 translateToLowercase
 	"Translate all characters to lowercase, in place"
 

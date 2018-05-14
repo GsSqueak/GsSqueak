@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 withBlanksCondensed
 	"Return a copy of the receiver with leading/trailing blanks removed
 	 and consecutive white spaces condensed."

@@ -12,7 +12,7 @@ replaceFrom: startIndex to: stopIndex with: aSeqCollection startingAt: repIndex
 
  Returns the receiver."
 
-<primitive: 297>
+<primitive: 297> "GemStone Primitive"
 startIndex _isSmallInteger ifFalse:[ startIndex _validateClass: SmallInteger ].
 stopIndex _isSmallInteger ifFalse:[ stopIndex _validateClass: SmallInteger ].
 repIndex _isSmallInteger ifFalse:[ repIndex _validateClass: SmallInteger ].

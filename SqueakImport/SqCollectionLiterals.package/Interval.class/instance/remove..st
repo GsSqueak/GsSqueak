@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-removing
+removing
 remove: newObject 
 	"Removing from an Interval is not allowed."
 
