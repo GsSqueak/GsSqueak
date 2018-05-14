@@ -191,6 +191,7 @@ todeBackup $name flag3
 loadPackage -S '`Graphics-Display Objects`'
 loadPackage -S SqKernelTestsNumbers
 loadPackage -S '`KernelTests-Objects`'
+loadPackage -S '`CollectionsTests-Text`'
 
 startTopaz $name -l << EOF
 login
