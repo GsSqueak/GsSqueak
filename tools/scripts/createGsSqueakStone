@@ -5,30 +5,50 @@ set -o pipefail
 
 restore=false
 restoreFast=false
-while getopts "r f" opt; do
+
+# Available stages are
+# 0 -
+# 1 -
+# 2 -
+STAGE=0
+
+while getopts rfs: opt; do
 	case $opt in
 		r) restore=true
 		;;
 		f) restoreFast=true
 		;;
+    s)
+      echo "Starting from stage $OPTARG"
+      STAGE=$OPTARG
+    ;;
+    /?)
+      echo "Invalid option: -$OPTARG" >&2
+      exit 1
+      ;;
 	esac
 done
+
+
+if [ \( $STAGE -gt 2 \) -o \( $STAGE -lt 0 \) ]; then
+  echo "Invalid stage ${STAGE}. Please select a stage between 0 and 2"
+  exit 1
+fi
 
 shift $((OPTIND-1))
 name=$1;
 
+
 export name
 
-if $restoreFast
-then
-    todeRestore $name fast.dbf
-else
-if $restore
-then
+if [ $STAGE -le 1 ]; then
+  # start import from scratch by creating a stone
+  if [ $STAGE = 0 ]; then
+    createStone -f $stone 3.5.0
+  # load backup created by tode in order to skip stone creation
+  elif [ $STAGE = 1 ]; then
     todeRestore $name tode.dbf
-else
-    createStone -f $name 3.5.0
-fi
+  fi
 
 startTopaz $name -l << EOF
 set u SystemUser p swordfish
@@ -78,8 +98,16 @@ loadPackage -S SqClassCreation
 loadPackage Workspace "tools"
 loadPackage -S BPGsTests
 
-todeBackup $name fast.dbf
+# create backup for that stage
+todeBackup $name stage-1.dbf
+
 fi
+
+
+if [ $STAGE -le 2 ]; then
+  if [ $STAGE = 2 ]; then
+    todeRestore $name stage-1.dbf
+  fi
 
 startTopaz $name -l << EOF
 login
@@ -163,49 +191,78 @@ logout
 exit
 EOF
 
-todeBackup $name preCollections
-loadPackage -S '`Collections-Abstract`'
-loadPackage -S '`Collections-Support`'
-loadPackage -S SqCollectionLiterals
-loadPackage -S SqCollections
-loadPackage -S '`Collections-Sequenceable`'
-loadPackage -S '`Collections-Heap`'
-loadPackage -S '`Collections-Arrayed`'
-loadPackage -S CompiledMethod
-loadPackage -S SqWeak
-loadPackage -S '`System-Object Events`'
-loadPackage -S '`System-Change Notification`'
-loadPackage -S '`System-Support`'
-loadPackage -S SUnit
-loadPackage -S SqCompiler
+todeBackup $name stage-2.dbf
 
-todeBackup $name flag1
-loadPackage -S '`Kernel-Processes-Variables`'
-loadPackage -S '`Kernel-Numbers`'
-loadPackage -S '`Kernel-Pools`'
+fi
 
-loadPackage -S '`MockClasses`'
-loadPackage -S '`Chronology-Core`'
-# loadPackage -S '`Kernel-Processes`'
+if [ $STAGE -le 3 ]; then
+  if [ $STAGE = 3 ]; then
+    todeRestore $name stage-2.dbf
+  fi
 
-loadPackage -S '`Multilingual-TextConversion`'
-loadPackage -S '`Multilingual-Encodings`'
+  loadPackage -S '`Collections-Abstract`'
+  loadPackage -S '`Collections-Support`'
+  loadPackage -S SqCollectionLiterals
+  loadPackage -S SqCollections
+  loadPackage -S '`Collections-Sequenceable`'
+  loadPackage -S '`Collections-Heap`'
+  loadPackage -S '`Collections-Arrayed`'
+  loadPackage -S CompiledMethod
+  loadPackage -S SqWeak
+  loadPackage -S '`System-Object Events`'
+  loadPackage -S '`System-Change Notification`'
+  loadPackage -S '`System-Support`'
+  loadPackage -S SUnit
+  loadPackage -S SqCompiler
 
-todeBackup $name flag2
-loadPackage -S '`Balloon`'
-loadPackage -S '`Kernel-Models`'
-loadPackage -S '`System-FileRegistry`'
+  todeBackup $name stage-3.dbf
 
-todeBackup $name flag3
-loadPackage -S '`Graphics-converting`'
-loadPackage -S '`Graphics-Primitives`'
-loadPackage -S '`GraphicsLibrary`'
-loadPackage -S '`VMMaker`'
-loadPackage -S '`Graphics-Display Objects`'
+fi
 
-loadPackage -S SqKernelTestsNumbers
-loadPackage -S '`KernelTests-Objects`'
-loadPackage -S '`CollectionsTests-Text`'
+if [ $STAGE -le 4 ]; then
+  if [ $STAGE = 4 ]; then
+    todeRestore $name stage-3.dbf
+  fi
+
+  loadPackage -S '`Kernel-Processes-Variables`'
+  loadPackage -S '`Kernel-Numbers`'
+  loadPackage -S '`Kernel-Pools`'
+
+  loadPackage -S '`MockClasses`'
+  loadPackage -S '`Chronology-Core`'
+  # loadPackage -S '`Kernel-Processes`'
+
+  loadPackage -S '`Multilingual-TextConversion`'
+  loadPackage -S '`Multilingual-Encodings`'
+
+  todeBackup $name stage-4.dbf
+fi
+
+if [ $STAGE -le 5 ]; then
+  if [ $STAGE = 5 ]; then
+    todeRestore $name stage-4.dbf
+  fi
+
+  loadPackage -S '`Balloon`'
+  loadPackage -S '`Kernel-Models`'
+  loadPackage -S '`System-FileRegistry`'
+  todeBackup $name stage-5.dbf
+fi
+
+if [ $STAGE -le 6 ]; then
+  if [ $STAGE = 6 ]; then
+    todeRestore $name stage-5.dbf
+  fi
+
+  loadPackage -S '`Graphics-converting`'
+  loadPackage -S '`Graphics-Primitives`'
+  loadPackage -S '`GraphicsLibrary`'
+  loadPackage -S '`VMMaker`'
+  loadPackage -S '`Graphics-Display Objects`'
+
+  loadPackage -S SqKernelTestsNumbers
+  loadPackage -S '`KernelTests-Objects`'
+  loadPackage -S '`CollectionsTests-Text`'
 
 startTopaz $name -l << EOF
 login
@@ -216,3 +273,7 @@ commit
 logout
 exit
 EOF
+
+fi
+
+todeBackup $name full.dbf
