@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "sl 5/14/2018 20:55",
 	"instvars" : [
-		"topazProcess",
-		"stoneName",
-		"username" ],
-	"name" : "GSGTopazInterface",
+		 ],
+	"name" : "GSGLiveRepository",
 	"pools" : [
 		 ],
-	"super" : "GSGGemStoneRepository",
+	"super" : "GSGRepository",
 	"type" : "normal" }
