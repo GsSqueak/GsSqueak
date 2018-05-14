@@ -197,9 +197,9 @@ loadPackage -S '`Kernel-Models`'
 loadPackage -S '`System-FileRegistry`'
 
 todeBackup $name flag3
-loadPackage -S '`GraphicsLibrary`'
 loadPackage -S '`Graphics-converting`'
 loadPackage -S '`Graphics-Primitives`'
+loadPackage -S '`GraphicsLibrary`'
 loadPackage -S '`VMMaker`'
 loadPackage -S '`Graphics-Display Objects`'
 
