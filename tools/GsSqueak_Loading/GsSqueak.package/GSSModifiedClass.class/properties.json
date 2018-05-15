@@ -1,0 +1,14 @@
+{
+	"category" : "GsSqueak-Loading",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"realClass" ],
+	"name" : "GSSModifiedClass",
+	"pools" : [
+		 ],
+	"super" : "GSSClassDefinition",
+	"type" : "normal" }
