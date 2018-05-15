@@ -1,4 +1,0 @@
-api
-defaultEnvironment
-
-	self subclassResponsibility

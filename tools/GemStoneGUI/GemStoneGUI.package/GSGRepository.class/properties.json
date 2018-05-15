@@ -1,13 +1,13 @@
 {
-	"category" : "GemStoneGUI-Interfaces",
+	"category" : "GemStoneGUI-Repositories",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "sl 5/14/2018 20:55",
 	"instvars" : [
 		 ],
-	"name" : "GSGInterface",
+	"name" : "GSGRepository",
 	"pools" : [
 		 ],
 	"super" : "Object",

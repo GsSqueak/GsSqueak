@@ -1,4 +1,4 @@
-proxies
+deprecated
 classProxyNamed: className inEnvironment: environmentProxy
 
 	| isMeta name |
