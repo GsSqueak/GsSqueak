@@ -1,0 +1,15 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "akg 1/8/2018 15:09",
+	"instvars" : [
+		"errorName",
+		"errorCode" ],
+	"name" : "PrimitiveError",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

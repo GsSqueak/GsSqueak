@@ -1,0 +1,3 @@
+accessing
+maximumSubmissionCount
+	^ maximumSubmissionCount.

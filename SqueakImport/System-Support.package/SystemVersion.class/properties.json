@@ -1,0 +1,17 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current" ],
+	"commentStamp" : "tlk 11/14/2004 10:44",
+	"instvars" : [
+		"version",
+		"date",
+		"highestUpdate",
+		"updates" ],
+	"name" : "SystemVersion",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

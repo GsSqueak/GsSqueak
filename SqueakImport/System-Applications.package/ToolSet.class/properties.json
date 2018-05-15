@@ -1,0 +1,14 @@
+{
+	"category" : "System-Applications",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 7/15/2005 17:58",
+	"instvars" : [
+		 ],
+	"name" : "ToolSet",
+	"pools" : [
+		 ],
+	"super" : "AppRegistry",
+	"type" : "normal" }

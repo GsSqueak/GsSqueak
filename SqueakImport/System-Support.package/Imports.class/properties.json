@@ -1,0 +1,14 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sd 5/11/2003 20:34",
+	"instvars" : [
+		"imports" ],
+	"name" : "Imports",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

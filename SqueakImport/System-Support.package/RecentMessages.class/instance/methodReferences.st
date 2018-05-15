@@ -1,0 +1,3 @@
+accessing
+methodReferences
+	^ methodReferences asArray

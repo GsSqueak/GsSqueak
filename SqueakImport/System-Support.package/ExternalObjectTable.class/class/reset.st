@@ -1,0 +1,4 @@
+accessing
+reset
+
+	current := nil

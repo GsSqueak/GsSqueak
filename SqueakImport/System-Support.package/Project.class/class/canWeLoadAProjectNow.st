@@ -1,0 +1,4 @@
+utilities
+canWeLoadAProjectNow
+
+	^ Smalltalk verifyMorphicAvailability

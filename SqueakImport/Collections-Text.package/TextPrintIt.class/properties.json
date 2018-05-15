@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TextPrintIt",
+	"pools" : [
+		 ],
+	"super" : "TextDoIt",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asPreference" : "mt 8/26/2015 16:09",
+		"attemptToSetValueFromGetter:" : "eem 11/14/2017 10:56",
+		"id" : "mt 8/26/2015 16:48",
+		"localToProject" : "mt 8/26/2015 16:09",
+		"preferenceValue" : "ar 3/9/2009 21:31",
+		"preferenceValue:" : "ar 3/9/2009 21:30",
+		"printOn:" : "ar 3/9/2009 21:28",
+		"provider" : "kb 11/28/2009 12:17",
+		"provider:getter:setter:" : "ar 3/9/2009 21:35",
+		"rawValue:" : "eem 11/14/2017 09:18",
+		"restoreDefaultValue" : "ar 3/9/2009 21:28",
+		"togglePreferenceValue" : "ar 3/9/2009 21:31" } }

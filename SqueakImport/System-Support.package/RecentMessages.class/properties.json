@@ -1,0 +1,16 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodReferences",
+		"maximumSubmissionCount",
+		"isSuspended" ],
+	"name" : "RecentMessages",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

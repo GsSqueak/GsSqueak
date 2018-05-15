@@ -171,34 +171,52 @@ loadPackage -S SqCollections
 loadPackage -S '`Collections-Sequenceable`'
 loadPackage -S '`Collections-Heap`'
 loadPackage -S '`Collections-Arrayed`'
+
+loadPackage -S '`Graphics-Primitives`'
+loadPackage -S '`Graphics-converting`'
+
+startTopaz $name -l << EOF
+login
+run
+SqueakEnvironment at: #TextConstants put: SymbolDictionary new
+%
+commit
+logout
+exit
+EOF
+
+loadPackage -S '`Collections-Text`'
+
+todeBackup $name flag0
+
 loadPackage -S CompiledMethod
 loadPackage -S SqWeak
 loadPackage -S '`System-Object Events`'
 loadPackage -S '`System-Change Notification`'
+loadPackage -S '`Kernel-Models`'
+loadPackage -S '`System-FileRegistry`'
+loadPackage -S '`System-Applications`'
 loadPackage -S '`System-Support`'
 loadPackage -S SUnit
 loadPackage -S SqCompiler
 
 todeBackup $name flag1
-loadPackage -S '`Kernel-Processes-Variables`'
-loadPackage -S '`Kernel-Numbers`'
+loadPackage -S '`System-Preferences`'
 loadPackage -S '`Kernel-Pools`'
+
+loadPackage -SD '`Kernel-Processes`'
+loadPackage -S '`Kernel-Numbers`'
 
 loadPackage -S '`MockClasses`'
 loadPackage -S '`Chronology-Core`'
-# loadPackage -S '`Kernel-Processes`'
 
 loadPackage -S '`Multilingual-TextConversion`'
 loadPackage -S '`Multilingual-Encodings`'
 
 todeBackup $name flag2
 loadPackage -S '`Balloon`'
-loadPackage -S '`Kernel-Models`'
-loadPackage -S '`System-FileRegistry`'
 
 todeBackup $name flag3
-loadPackage -S '`Graphics-converting`'
-loadPackage -S '`Graphics-Primitives`'
 loadPackage -S '`GraphicsLibrary`'
 loadPackage -S '`VMMaker`'
 loadPackage -S '`Graphics-Display Objects`'
@@ -210,7 +228,9 @@ loadPackage -S '`CollectionsTests-Text`'
 startTopaz $name -l << EOF
 login
 run
-(SqueakEnvironment at: #SystemOrganization put: ((SqueakEnvironment at: #SystemOrganizer) @env7: defaultList: SqueakEnvironment allClasses))
+(SqueakEnvironment at: #SystemOrganization put: ((SqueakEnvironment at: #SystemOrganizer) @env7: defaultList: SqueakEnvironment allClasses)).
+
+(SqueakEnvironemnt at: #Text) @env7: initializeLate
 %
 commit
 logout

@@ -1,0 +1,4 @@
+accessing
+clearInterpreter
+
+	interpreter := nil.

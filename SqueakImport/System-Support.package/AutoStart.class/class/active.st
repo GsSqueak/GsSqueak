@@ -1,0 +1,3 @@
+private
+active
+	^ Active == true

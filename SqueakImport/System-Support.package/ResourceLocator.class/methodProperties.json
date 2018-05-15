@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"make:relativeTo:" : "ul 8/14/2015 18:03" },
+	"instance" : {
+		"=" : "tk 7/5/2001 22:10",
+		"adjustToDownloadUrl:" : "",
+		"adjustToRename:from:" : "mir 6/19/2001 16:55",
+		"hasRemoteContents" : "ar 2/27/2001 22:11",
+		"hash" : "ar 2/27/2001 20:02",
+		"localFileName" : "ar 2/27/2001 20:00",
+		"localFileName:" : "ar 2/27/2001 20:01",
+		"printOn:" : "ar 2/27/2001 20:02",
+		"resourceFileSize" : "ar 3/2/2001 18:13",
+		"resourceFileSize:" : "ar 3/2/2001 18:13",
+		"species" : "tk 7/5/2001 22:10",
+		"urlString" : "ar 2/27/2001 19:57",
+		"urlString:" : "ar 2/27/2001 19:57" } }

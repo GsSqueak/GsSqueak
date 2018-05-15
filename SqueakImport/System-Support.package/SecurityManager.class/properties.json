@@ -1,0 +1,16 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"privateKeyPair",
+		"trustedKeys",
+		"keysFileName" ],
+	"name" : "SecurityManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

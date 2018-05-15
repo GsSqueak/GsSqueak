@@ -1,0 +1,14 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SqueakTheme",
+	"pools" : [
+		 ],
+	"super" : "UserInterfaceTheme",
+	"type" : "normal" }
