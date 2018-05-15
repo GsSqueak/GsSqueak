@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"directoryExtensions" : "sl 5/15/2018 13:11" },
+	"instance" : {
+		"category" : "sl 5/15/2018 16:32",
+		"classInstVars" : "sl 5/15/2018 14:24",
+		"classMethods" : "sl 5/15/2018 16:27",
+		"classVars" : "sl 5/15/2018 14:24",
+		"comment" : "sl 5/15/2018 15:06",
+		"commentStamp" : "sl 5/15/2018 15:07",
+		"instVars" : "sl 5/15/2018 14:25",
+		"instanceMethods" : "sl 5/15/2018 16:25",
+		"overlayMethods:with:" : "sl 5/15/2018 16:49",
+		"pools" : "sl 5/15/2018 14:28",
+		"realClass" : "sl 5/15/2018 14:31",
+		"setRealClass:" : "sl 5/15/2018 16:36",
+		"superclass" : "sl 5/15/2018 15:10" } }

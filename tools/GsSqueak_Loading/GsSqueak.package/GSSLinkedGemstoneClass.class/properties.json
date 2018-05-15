@@ -1,0 +1,14 @@
+{
+	"category" : "GsSqueak-Loading",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSSLinkedGemstoneClass",
+	"pools" : [
+		 ],
+	"super" : "GSSClassDefinition",
+	"type" : "normal" }

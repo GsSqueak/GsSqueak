@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"fromDirectory:" : "sl 5/15/2018 10:59" },
+	"instance" : {
+		"classDefinitions" : "sl 5/15/2018 16:50",
+		"classDefinitions:" : "MS 5/14/2018 17:16",
+		"isClassDirectoryExtension:" : "sl 5/15/2018 13:34",
+		"loadClassDefinitionFrom:" : "sl 5/15/2018 16:52",
+		"loadClassesFromDirectory:" : "sl 5/15/2018 16:45",
+		"loadFromDirectory:" : "sl 5/15/2018 16:52",
+		"loadSqueakClassesFrom:" : "sl 5/15/2018 17:10" } }
