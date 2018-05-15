@@ -1,3 +1,3 @@
 public
-evaluate: anObject 
-	^ self new evaluate: anObject
+evaluate: anObject
+  ^ self current evaluate: anObject

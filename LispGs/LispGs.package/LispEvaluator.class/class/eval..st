@@ -1,3 +1,3 @@
 public
 eval: anObject
-  ^ self new eval: anObject
+  ^ self current eval: anObject

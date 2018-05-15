@@ -6,7 +6,7 @@
 		"CachedPrimitives",
 		"SpecialForms" ],
 	"classvars" : [
-		 ],
+		"Current" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"constantVariables",
