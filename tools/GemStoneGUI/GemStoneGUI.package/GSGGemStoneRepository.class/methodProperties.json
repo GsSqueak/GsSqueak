@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"deserializeClass:forEnvironment:" : "sl 5/16/2018 13:31",
 		"executeString:" : "sl 5/14/2018 21:13",
-		"fetch:serialization:deserialization:" : "sl 5/14/2018 21:39" } }
+		"fetch:serialization:deserialization:" : "sl 5/16/2018 13:47",
+		"fetchClass:forEnvironment:" : "sl 5/16/2018 13:28",
+		"serializeClass:" : "sl 5/16/2018 13:29" } }
