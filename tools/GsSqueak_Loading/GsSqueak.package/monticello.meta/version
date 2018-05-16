@@ -1,1 +1,1 @@
-(name 'GsSqueak-sl.1' message 'Initial Commit' id '7431051d-a803-427b-9913-8ab049ab0856' date '15 May 2018' time '5:14:37.788484 pm' author 'sl' ancestors () stepChildren ())
+(name 'GsSqueak-sl.2' message 'Loading of class diffs into Squeak now works.' id 'd1d8dbd0-2bd1-472c-8b35-ff286ecf091b' date '16 May 2018' time '5:05:14.079894 pm' author 'sl' ancestors ((name 'GsSqueak-sl.1' message 'Initial Commit' id '7431051d-a803-427b-9913-8ab049ab0856' date '15 May 2018' time '5:14:37.788484 pm' author 'sl' ancestors () stepChildren ())) stepChildren ())
