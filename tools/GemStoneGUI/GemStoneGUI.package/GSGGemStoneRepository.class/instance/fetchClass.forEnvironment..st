@@ -3,8 +3,7 @@ fetchClass: queryCode forEnvironment: anEnvironment
 
 	^ self
 		fetch: queryCode
-		serialization: [:code |
-			self serializeClass: code]
+		serialization: [:code | self serializeClass: code]
 		deserialization: [:output |
 			output = 'nil'
 				ifTrue: [nil]

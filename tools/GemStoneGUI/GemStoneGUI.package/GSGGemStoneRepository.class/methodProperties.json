@@ -3,7 +3,10 @@
 		 },
 	"instance" : {
 		"deserializeClass:forEnvironment:" : "sl 5/16/2018 13:31",
+		"deserializeCollection:eachElementDo:" : "sl 5/16/2018 20:18",
 		"executeString:" : "sl 5/14/2018 21:13",
 		"fetch:serialization:deserialization:" : "sl 5/16/2018 13:47",
-		"fetchClass:forEnvironment:" : "sl 5/16/2018 13:28",
-		"serializeClass:" : "sl 5/16/2018 13:29" } }
+		"fetchArrayOfSymbols:" : "sl 5/16/2018 20:16",
+		"fetchClass:forEnvironment:" : "sl 5/16/2018 19:30",
+		"serializeClass:" : "sl 5/16/2018 13:29",
+		"serializeCollection:elementTransformation:" : "sl 5/16/2018 20:16" } }
