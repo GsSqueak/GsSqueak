@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Purple" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TextAction",
+	"pools" : [
+		 ],
+	"super" : "TextAttribute",
+	"type" : "normal" }

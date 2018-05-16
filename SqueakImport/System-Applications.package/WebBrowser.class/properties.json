@@ -1,0 +1,14 @@
+{
+	"category" : "System-Applications",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WebBrowser",
+	"pools" : [
+		 ],
+	"super" : "AppRegistry",
+	"type" : "normal" }

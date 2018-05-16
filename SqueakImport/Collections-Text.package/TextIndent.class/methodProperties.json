@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"amount:" : "ls 6/27/1998 15:55",
+		"example" : "ls 6/24/1998 18:06",
+		"tabs:" : "ls 6/27/1998 15:54" },
+	"instance" : {
+		"amount" : "ls 6/22/1998 17:51",
+		"amount:" : "ls 6/22/1998 17:51",
+		"dominates:" : "ls 6/22/1998 19:27",
+		"emphasizeScanner:" : "ls 6/22/1998 18:56",
+		"printOn:" : "ls 6/22/1998 18:03",
+		"shouldFormBlocks" : "topa 2/9/2017 10:23" } }

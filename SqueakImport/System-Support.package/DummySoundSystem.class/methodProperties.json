@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"initialize" : "topa 4/2/2015 10:37",
+		"unload" : "topa 4/2/2015 10:37" },
+	"instance" : {
+		"beep" : "gk 2/24/2004 23:53",
+		"playSampledSound:rate:" : "gk 2/23/2004 19:53",
+		"playSound:" : "mt 4/6/2016 09:38",
+		"playSoundNamed:" : "gk 2/23/2004 19:54",
+		"playSoundNamed:ifAbsentReadFrom:" : "gk 2/23/2004 19:54",
+		"playSoundNamedOrBeep:" : "gk 4/8/2005 14:15",
+		"randomBitsFromSoundInput:" : "gk 2/23/2004 20:48",
+		"sampledSoundChoices" : "gk 2/23/2004 19:54",
+		"soundNamed:" : "gk 2/23/2004 19:55" } }

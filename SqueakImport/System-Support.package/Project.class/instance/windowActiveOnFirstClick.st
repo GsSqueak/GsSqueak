@@ -1,0 +1,4 @@
+initialization
+windowActiveOnFirstClick
+
+	^ true

@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"assignCollapseFrameFor:" : "kfr 7/21/2014 15:56",
+		"assignCollapsePointFor:" : "nice 12/15/2013 22:35",
+		"initialFrameAtPointerFor:initialExtent:world:" : "eem 6/8/2017 10:16",
+		"initialFrameFor:initialExtent:world:" : "eem 6/8/2017 10:14",
+		"initialFrameFor:world:" : "RAA 5/25/2000 08:13",
+		"initialize" : "tk 11/26/1998 09:34",
+		"maximumUsableArea" : "nice 12/15/2013 22:32",
+		"maximumUsableAreaInWorld:" : "mt 5/17/2016 14:22",
+		"normalInitialFrameFor:initialExtent:world:" : "mt 4/19/2015 18:15",
+		"placeWindowsAtPointer" : "eem 6/8/2017 10:13",
+		"placeWindowsAtPointer:" : "ar 7/7/2010 17:36",
+		"scaleFactor" : "mt 8/19/2016 15:58",
+		"screenTopSetback" : "di 9/22/1998 20:58",
+		"scrollBarSetback" : "di 9/22/1998 20:58",
+		"standardPositions" : "RAA 5/25/2000 08:45",
+		"standardPositionsInWorld:" : "RAA 5/25/2000 08:43",
+		"standardSize" : "cmm 6/8/2010 18:26",
+		"standardSize:" : "cmm 6/9/2010 15:12",
+		"standardWindowExtent" : "cbr 3/30/2010 17:30",
+		"strictlyStaggeredInitialFrameFor:initialExtent:world:" : "nice 12/15/2013 22:35",
+		"windowColumnsDesired" : "RAA 11/21/1999 22:54",
+		"windowRowsDesired" : "RAA 11/21/1999 22:54" },
+	"instance" : {
+		 } }

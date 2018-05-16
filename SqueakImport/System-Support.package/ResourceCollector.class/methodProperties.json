@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"current" : "ar 2/24/2001 21:41",
+		"current:" : "ar 2/24/2001 21:41" },
+	"instance" : {
+		"baseUrl" : "ar 2/27/2001 20:32",
+		"baseUrl:" : "ar 2/27/2001 20:39",
+		"forgetObsolete" : "ar 2/27/2001 23:08",
+		"initialize" : "ar 3/3/2001 19:49",
+		"initializeFrom:" : "ar 2/27/2001 22:36",
+		"localDirectory" : "ar 2/24/2001 22:23",
+		"localDirectory:" : "ar 2/24/2001 22:24",
+		"locatorMap" : "tk 6/28/2001 15:58",
+		"locators" : "ar 2/27/2001 22:54",
+		"locatorsDo:" : "ar 2/27/2001 20:07",
+		"noteResource:replacing:" : "ar 2/27/2001 17:01",
+		"objectForDataStream:" : "ar 2/24/2001 22:37",
+		"objectForDataStream:fromForm:" : "mir 10/29/2003 13:33",
+		"removeLocator:" : "ar 2/27/2001 22:59",
+		"replaceAll" : "ar 2/27/2001 20:21",
+		"resourceDirectory" : "mir 6/21/2001 14:51",
+		"resourceFileNames" : "ar 2/27/2001 20:08",
+		"stubMap" : "ar 2/27/2001 17:01",
+		"writeResourceForm:fromLocator:" : "yo 11/13/2002 23:30",
+		"writeResourceForm:locator:" : "ar 9/23/2002 03:34" } }

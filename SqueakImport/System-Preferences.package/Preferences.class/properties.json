@@ -1,0 +1,15 @@
+{
+	"category" : "System-Preferences",
+	"classinstvars" : [
+		"preferencesDictionary" ],
+	"classvars" : [
+		"DesktopColor",
+		"Parameters" ],
+	"commentStamp" : "eem 6/30/2015 15:10",
+	"instvars" : [
+		 ],
+	"name" : "Preferences",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

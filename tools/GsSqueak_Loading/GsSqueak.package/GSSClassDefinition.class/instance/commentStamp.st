@@ -1,0 +1,4 @@
+accessing
+commentStamp
+	
+	^ commentStamp ifNil: ['']

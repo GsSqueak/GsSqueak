@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classAndMethod" ],
+	"name" : "TextLink",
+	"pools" : [
+		 ],
+	"super" : "TextAction",
+	"type" : "normal" }

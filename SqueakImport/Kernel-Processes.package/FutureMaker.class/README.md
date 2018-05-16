@@ -1,1 +1,0 @@
-Uses #doesNotUnderstand: to transform messages into future messages.  In practice, this class is never used; for efficiency, the Compiler has been modified to use FutureNode to transform code at compile-time to directly send #futureSend:at:args:.  However, this is simply an optimization... the semantics are unchanged.

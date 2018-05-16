@@ -1,0 +1,4 @@
+testing
+isCurrentProject
+
+	^self == CurrentProject

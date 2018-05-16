@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-Repositories",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sl 5/14/2018 20:55",
+	"instvars" : [
+		 ],
+	"name" : "GSGRepository",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

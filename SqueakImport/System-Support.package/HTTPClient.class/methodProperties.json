@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"browserSupportsAPI" : "mir 4/2/2002 15:37",
+		"browserSupportsAPI:" : "mir 4/2/2002 15:36",
+		"composeMailTo:subject:body:" : "mir 8/22/2001 12:29",
+		"determineIfRunningInBrowser" : "mir 2/2/2001 17:27",
+		"exampleMailTo" : "mir 2/2/2001 17:43",
+		"examplePostArgs" : "ul 1/11/2010 07:17",
+		"examplePostMultipart" : "ul 1/11/2010 07:17",
+		"getDirectoryListing:" : "mir 5/13/2003 10:43",
+		"httpGet:" : "nk 8/30/2004 07:50",
+		"httpGetDocument:" : "mir 5/11/2001 12:55",
+		"httpPostDocument:args:" : "mir 5/1/2001 15:04",
+		"httpPostDocument:target:args:" : "mir 5/1/2001 15:06",
+		"httpPostMultipart:args:" : "mir 5/1/2001 12:51",
+		"isRunningInBrowser" : "ccn 3/14/2001 19:56",
+		"isRunningInBrowser:" : "mir 8/4/2003 13:44",
+		"mailTo:message:" : "mir 5/1/2001 12:51",
+		"pluginHttpPostMultipart:args:" : "nice 12/27/2009 03:11",
+		"requestURL:target:" : "mir 4/2/2002 15:52",
+		"shouldUsePluginAPI" : "mt 5/6/2016 15:21",
+		"uploadFileNamed:to:user:passwd:" : "mir 2/2/2001 17:59" },
+	"instance" : {
+		 } }

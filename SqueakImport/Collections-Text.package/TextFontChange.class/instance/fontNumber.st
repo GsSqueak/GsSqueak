@@ -1,0 +1,3 @@
+accessing
+fontNumber
+	^ fontNumber

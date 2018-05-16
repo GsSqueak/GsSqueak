@@ -1,0 +1,16 @@
+{
+	"category" : "GsSqueak-Loading",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"category",
+		"source",
+		"selector" ],
+	"name" : "GSSMethodDefinition",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

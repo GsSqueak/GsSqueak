@@ -1,0 +1,4 @@
+release
+windowIsClosing
+
+	self prepareForDelete.

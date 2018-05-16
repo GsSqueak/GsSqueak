@@ -10,7 +10,11 @@ createClassSqueak
   poolArray := aClass
     ifNotNil: [ 
       (self sharedPoolsString findTokens: ' ') asArray
-        collect: [ :each | ((Smalltalk at: #SqueakEnvironment) at: each asSymbol) _classVars ] ]
+        collect: [ :each | | global |
+          global := ((Smalltalk at: #SqueakEnvironment) at: each asSymbol).
+          (global isKindOf: SharedPool) ifTrue: [
+            global := global _classVars ].
+          global ] ]
     ifNil: [ #() ].
   newClass := nil.
   opts := #().

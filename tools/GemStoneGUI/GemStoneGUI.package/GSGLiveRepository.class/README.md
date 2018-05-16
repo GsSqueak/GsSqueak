@@ -1,0 +1,1 @@
+I represent a Smalltalk repository that is capable of executing code.

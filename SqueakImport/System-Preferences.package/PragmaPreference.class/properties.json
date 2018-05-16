@@ -1,0 +1,16 @@
+{
+	"category" : "System-Preferences",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 11/14/2017 11:20",
+	"instvars" : [
+		"provider",
+		"getter",
+		"setter" ],
+	"name" : "PragmaPreference",
+	"pools" : [
+		 ],
+	"super" : "Preference",
+	"type" : "normal" }

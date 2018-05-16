@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"defaultFontChange" : "sw 12/6/1999 17:52",
+		"font1" : "",
+		"font2" : "",
+		"font3" : "",
+		"font4" : "",
+		"fontNumber:" : "",
+		"scanCharacter" : "dtl 1/2/2014 12:11",
+		"scanFrom:" : "dtl 1/2/2014 13:12" },
+	"instance" : {
+		"=" : "di 10/31/97 11:15",
+		"closeHtmlOn:" : "dgd 9/2/2005 12:39",
+		"dominates:" : "nk 9/3/2004 15:48",
+		"emphasizeScanner:" : "",
+		"fontNumber" : "",
+		"fontNumber:" : "",
+		"forFontInStyle:do:" : "di 11/9/97 17:46",
+		"hash" : "ar 9/9/2003 22:03",
+		"openHtmlOn:" : "dgd 9/2/2005 12:38",
+		"printOn:" : "",
+		"writeScanOn:" : "dtl 1/2/2014 12:11" } }

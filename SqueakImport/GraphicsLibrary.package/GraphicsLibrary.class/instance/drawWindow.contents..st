@@ -4,4 +4,4 @@ drawWindow: aWindow contents: aBitmap
 	drawWindowCo
 		callWith: {
 			aWindow.
-			aBitmap asCByteArray }
+			aBitmap _env7 asCByteArray }

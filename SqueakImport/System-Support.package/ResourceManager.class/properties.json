@@ -1,0 +1,20 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CachedResources",
+		"LocalizedExternalResources" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"resourceMap",
+		"loaded",
+		"unloaded",
+		"stopSemaphore",
+		"stopFlag",
+		"loaderProcess" ],
+	"name" : "ResourceManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

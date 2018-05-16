@@ -1,0 +1,16 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"urlString",
+		"fileSize",
+		"localFileName" ],
+	"name" : "ResourceLocator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
