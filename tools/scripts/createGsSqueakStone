@@ -7,21 +7,26 @@ restore=false
 restoreFast=false
 
 # Available stages are
-# 0 -
+# 0 - Import from scratch by creating a stone
 # 1 -
 # 2 -
-STAGE=0
+# 3 - 
+# 4 - 
+# 5 -
+# 6 -
+FROM_STAGE=0
+TILL_STAGE=6 # equals numeber of current stages
 
-while getopts rfs: opt; do
+while getopts f:t: opt; do
 	case $opt in
-		r) restore=true
-		;;
-		f) restoreFast=true
-		;;
-    s)
+    f)
       echo "Starting from stage $OPTARG"
-      STAGE=$OPTARG
-    ;;
+      FROM_STAGE=$OPTARG
+      ;;
+    t)
+      echo "Importing till stage $OPTARG"
+      TILL_STAGE=$OPTARG
+      ;;
     /?)
       echo "Invalid option: -$OPTARG" >&2
       exit 1
@@ -30,24 +35,40 @@ while getopts rfs: opt; do
 done
 
 
-if [ \( $STAGE -gt 2 \) -o \( $STAGE -lt 0 \) ]; then
-  echo "Invalid stage ${STAGE}. Please select a stage between 0 and 2"
+# basic error handling of stages
+if [ \( $FROM_STAGE -gt 6 \) -o \( $FROM_STAGE -lt 0 \) ]; then
+  echo "Invalid FROM stage ${FROM_STAGE}. Please select a stage between 0 and 6"
   exit 1
 fi
 
+if [ \( $TILL_STAGE -gt 6 \) -o \( $TILL_STAGE -lt 0 \) ]; then
+  echo "Invalid TILL stage ${TILL_STAGE}. Please select a stage between 0 and 6"
+  exit 1
+fi
+
+if [ $FROM_STAGE -gt $TILL_STAGE ]; then
+  echo "Invalid configuration. You have to specify a FROM stage greater than your TILL stage."
+  exit 1
+fi
+
+
+# Get name of the stone
 shift $((OPTIND-1))
 name=$1;
-
-
 export name
 
-if [ $STAGE -le 1 ]; then
+if [ $FROM_STAGE -le 1 ]; then
   # start import from scratch by creating a stone
-  if [ $STAGE = 0 ]; then
-    createStone -f $stone 3.5.0
+  if [ $FROM_STAGE = 0 ]; then
+    createStone -f $name 3.5.0 # creates a backup called tode.bdf
+
+    if [ $TILL_STAGE = 0 ]; then
+      echo "Exit script after stage 0 because of configuration"
+      exit 0
+    fi
   # load backup created by tode in order to skip stone creation
-  elif [ $STAGE = 1 ]; then
-    todeRestore $name tode.dbf
+  elif [ $FROM_STAGE = 1 ]; then
+    todeRestore $name tode.dbf 
   fi
 
 startTopaz $name -l << EOF
@@ -101,11 +122,15 @@ loadPackage -S BPGsTests
 # create backup for that stage
 todeBackup $name stage-1.dbf
 
+  if [ $TILL_STAGE = 1 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
 fi
 
 
-if [ $STAGE -le 2 ]; then
-  if [ $STAGE = 2 ]; then
+if [ $FROM_STAGE -le 2 ]; then
+  if [ $FROM_STAGE = 2 ]; then
     todeRestore $name stage-1.dbf
   fi
 
@@ -193,10 +218,15 @@ EOF
 
 todeBackup $name stage-2.dbf
 
+  if [ $TILL_STAGE = 2 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+
 fi
 
-if [ $STAGE -le 3 ]; then
-  if [ $STAGE = 3 ]; then
+if [ $FROM_STAGE -le 3 ]; then
+  if [ $FROM_STAGE = 3 ]; then
     todeRestore $name stage-2.dbf
   fi
 
@@ -217,10 +247,14 @@ if [ $STAGE -le 3 ]; then
 
   todeBackup $name stage-3.dbf
 
+  if [ $TILL_STAGE = 3 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
 fi
 
-if [ $STAGE -le 4 ]; then
-  if [ $STAGE = 4 ]; then
+if [ $FROM_STAGE -le 4 ]; then
+  if [ $FROM_STAGE = 4 ]; then
     todeRestore $name stage-3.dbf
   fi
 
@@ -236,10 +270,15 @@ if [ $STAGE -le 4 ]; then
   loadPackage -S '`Multilingual-Encodings`'
 
   todeBackup $name stage-4.dbf
+
+  if [ $TILL_STAGE = 4 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
 fi
 
-if [ $STAGE -le 5 ]; then
-  if [ $STAGE = 5 ]; then
+if [ $FROM_STAGE -le 5 ]; then
+  if [ $FROM_STAGE = 5 ]; then
     todeRestore $name stage-4.dbf
   fi
 
@@ -247,10 +286,15 @@ if [ $STAGE -le 5 ]; then
   loadPackage -S '`Kernel-Models`'
   loadPackage -S '`System-FileRegistry`'
   todeBackup $name stage-5.dbf
+
+  if [ $TILL_STAGE = 5 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
 fi
 
-if [ $STAGE -le 6 ]; then
-  if [ $STAGE = 6 ]; then
+if [ $FROM_STAGE -le 6 ]; then
+  if [ $FROM_STAGE = 6 ]; then
     todeRestore $name stage-5.dbf
   fi
 
@@ -274,6 +318,11 @@ logout
 exit
 EOF
 
+  todeBackup $name full.dbf
+
+  if [ $TILL_STAGE = 6 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
 fi
 
-todeBackup $name full.dbf
