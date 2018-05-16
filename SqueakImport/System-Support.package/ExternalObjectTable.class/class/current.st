@@ -1,5 +1,5 @@
 accessing
-current
+current4
 
 	^current ifNil: [
 		| newInstance |

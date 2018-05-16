@@ -1,13 +1,13 @@
 {
-	"category" : "System-Support",
+	"category" : "System-Themes",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "mt 7/26/2016 16:22",
 	"instvars" : [
 		 ],
-	"name" : "MonokaiTheme",
+	"name" : "CommunityTheme",
 	"pools" : [
 		 ],
 	"super" : "UserInterfaceTheme",
