@@ -76,6 +76,7 @@ loadPackage SqueakEnvironments "tools/SqueakEnvironments"
 loadPackage -S SqContext
 loadPackage -S SqClassCreation
 loadPackage Workspace "tools"
+loadPackage -S Env0Extensions
 loadPackage -S BPGsTests
 
 todeBackup $name fast.dbf
@@ -196,14 +197,15 @@ loadPackage -S '`System-Change Notification`'
 loadPackage -S '`Kernel-Models`'
 loadPackage -S '`System-FileRegistry`'
 loadPackage -S '`System-Applications`'
-loadPackage -S '`System-Support`'
+todeBackup $name flag0_5
+loadPackage -SD '`System-Support`'
 loadPackage -S SUnit
 loadPackage -S SqCompiler
 
-todeBackup $name flag1
 loadPackage -S '`System-Preferences`'
 loadPackage -S '`Kernel-Pools`'
 
+todeBackup $name flag1
 loadPackage -SD '`Kernel-Processes`'
 loadPackage -S '`Kernel-Numbers`'
 
