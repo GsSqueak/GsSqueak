@@ -23,4 +23,5 @@ Class >> definition
 Class >> printHierarchyForEnvironmentId:
 Class >> methodAt:environmentId:ifAbsent:
 Class >> compile:classified:env:notifying:
+	--> compileMethod:category:notifying:
 Method >> source
