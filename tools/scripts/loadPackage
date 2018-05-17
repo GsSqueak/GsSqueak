@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -ex
 set -o pipefail
 
 debug=""
@@ -26,4 +25,18 @@ fi
 
 packageName="$1"
 
-todeIt ${debug} $name mc load "${packageName}" "filetree://$GS_HOME/shared/repos/BP2017RH1/${packagePath}" 2>&1 | parseTodeitOutput
+YELLOW='\033[1;33m'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
+echo -en "[ ${YELLOW}PENDING${NC} ] Load $packageName" 
+
+todeIt ${debug} $name mc load "${packageName}" "filetree://$GS_HOME/shared/repos/BP2017RH1/${packagePath}" 2>&1 | parseTodeitOutput > /dev/null
+
+if [ $? = 7 ]; then
+  echo -e "\r[ ${RED}ERRORED${NC} ] Load $packageName"
+  exit 1
+fi
+
+echo -e "\r[ ${GREEN}OK${NC} ] Load $packageName"

@@ -1,17 +1,23 @@
 #!/bin/bash
 
-set -ex
+set -e
 set -o pipefail
 
 restore=false
 restoreFast=false
 
+# Set colors
+YELLOW='\033[1;33m'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
 # Available stages are
 # 0 - Import from scratch by creating a stone
 # 1 -
 # 2 -
-# 3 - 
-# 4 - 
+# 3 -
+# 4 -
 # 5 -
 # 6 -
 FROM_STAGE=0
@@ -60,7 +66,10 @@ export name
 if [ $FROM_STAGE -le 1 ]; then
   # start import from scratch by creating a stone
   if [ $FROM_STAGE = 0 ]; then
-    createStone -f $name 3.5.0 # creates a backup called tode.bdf
+    echo -en "[ ${YELLOW}PENDING${NC} ] Create new stone named $name"
+    createStone -f $name 3.5.0 >/dev/null 2>&1 # creates a backup called tode.bdf
+    echo -e "\r[ ${GREEN}OK${NC} ] Create new stone named $name"
+    echo -e "[ ${GREEN}OK${NC} ] STAGE 0"
 
     if [ $TILL_STAGE = 0 ]; then
       echo "Exit script after stage 0 because of configuration"
@@ -68,10 +77,16 @@ if [ $FROM_STAGE -le 1 ]; then
     fi
   # load backup created by tode in order to skip stone creation
   elif [ $FROM_STAGE = 1 ]; then
-    todeRestore $name tode.dbf 
+<<<<<<< HEAD
+    echo -en "[ ${YELLOW}PENDING${NC} ] Restore stone named $name from tODE backup"
+    todeRestore $name tode.dbf >/dev/null 2>&1
+    echo -e "\e[0K\r [ ${GREEN}OK${NC} ] Restore stone named $name from tODE backup"
+=======
+    todeRestore $name tode.dbf
+>>>>>>> 8f0ffab4b498876b02cccae0a8419807bafef204
   fi
 
-startTopaz $name -l << EOF
+startTopaz $name -l >/dev/null 2>&1 << EOF
 set u SystemUser p swordfish
 login
 run
@@ -121,7 +136,9 @@ loadPackage -S Env0Extensions
 loadPackage -S BPGsTests
 
 # create backup for that stage
-todeBackup $name stage-1.dbf
+todeBackup $name stage-1.dbf >/dev/null 2>&1
+
+  echo -e "[ ${GREEN}OK${NC} ] STAGE 1"
 
   if [ $TILL_STAGE = 1 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
@@ -132,10 +149,10 @@ fi
 
 if [ $FROM_STAGE -le 2 ]; then
   if [ $FROM_STAGE = 2 ]; then
-    todeRestore $name stage-1.dbf
+    todeRestore $name stage-1.dbf >/dev/null 2>&1
   fi
 
-startTopaz $name -l << EOF
+startTopaz $name -l >/dev/null 2>&1 << EOF
 login
 run
 MCEnv set: 7.
@@ -152,7 +169,7 @@ loadPackage EnvironmentsEnv7 "tools/SqueakEnvironments"
 loadPackage -S SqContext7
 loadPackage -S SqBooleans
 loadPackage -S SqClasses
-startTopaz $name -l << EOF
+startTopaz $name -l >/dev/null 2>&1 << EOF
 login
 run
 (SqueakEnvironment at: #ProtoObject) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
@@ -164,7 +181,7 @@ EOF
 
 loadPackage -S SqExceptions
 loadPackage -S SqNumbers
-startTopaz $name -l << EOF
+startTopaz $name -l >/dev/null 2>&1 << EOF
 login
 run
 (SqueakEnvironment at: #Magnitude) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
@@ -182,7 +199,7 @@ EOF
 loadPackage -S SqBlock
 loadPackage -S SqBlock
 
-startTopaz $name -l << EOF
+startTopaz $name -l >/dev/null 2>&1 << EOF
 login
 run
 MCEnv useSqueakParser.
@@ -195,7 +212,7 @@ EOF
 loadPackage -S SqKernel
 loadPackage -S SqCharacter
 
-startTopaz $name -l << EOF
+startTopaz $name -l >/dev/null 2>&1 << EOF
 login
 run
 SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: anObject' inEnv: 7.
@@ -217,7 +234,9 @@ logout
 exit
 EOF
 
-todeBackup $name stage-2.dbf
+todeBackup $name stage-2.dbf >/dev/null 2>&1
+
+  echo -e "[ ${GREEN}OK${NC} ] STAGE 2"
 
   if [ $TILL_STAGE = 2 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
@@ -228,7 +247,7 @@ fi
 
 if [ $FROM_STAGE -le 3 ]; then
   if [ $FROM_STAGE = 3 ]; then
-    todeRestore $name stage-2.dbf
+    todeRestore $name stage-2.dbf >/dev/null 2>&1
   fi
 
   loadPackage -S '`Collections-Abstract`'
@@ -240,9 +259,11 @@ if [ $FROM_STAGE -le 3 ]; then
   loadPackage -S '`Collections-Arrayed`'
   loadPackage -S '`Graphics-Primitives`'
   loadPackage -S '`Graphics-converting`'
-  
-  todeBackup $name stage-3.dbf
-  
+
+  todeBackup $name stage-3.dbf >/dev/null 2>&1
+
+  echo -e "[ ${GREEN}OK${NC} ] STAGE 3"
+
   if [ $TILL_STAGE = 3 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
     exit 0
@@ -251,7 +272,7 @@ fi
 
 if [ $FROM_STAGE -le 4 ]; then
   if [ $FROM_STAGE = 4 ]; then
-    todeRestore $name stage-3.dbf
+    todeRestore $name stage-3.dbf >/dev/null 2>&1
   fi
 
 startTopaz $name -l << EOF
@@ -263,9 +284,9 @@ commit
 logout
 exit
 EOF
-  
+
   loadPackage -S '`Collections-Text`'
-  
+
   loadPackage -S '`CompiledMethod`'
   loadPackage -S '`SqWeak`'
   loadPackage -S '`System-Object Events`'
@@ -273,7 +294,7 @@ EOF
   loadPackage -S '`Kernel-Models`'
   loadPackage -S '`System-FileRegistry`'
   loadPackage -S '`System-Applications`'
-  
+
   loadPackage -S '`System-Support`'
   loadPackage -S SUnit
   loadPackage -S '`SqCompiler`'
@@ -282,7 +303,9 @@ EOF
   loadPackage -S '`Kernel-Pools`'
 
 
-  todeBackup $name stage-4.dbf
+  todeBackup $name stage-4.dbf >/dev/null 2>&1
+
+  echo -e "[ ${GREEN}OK${NC} ] STAGE 4"
 
   if [ $TILL_STAGE = 4 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
@@ -292,20 +315,21 @@ fi
 
 if [ $FROM_STAGE -le 5 ]; then
   if [ $FROM_STAGE = 5 ]; then
-    todeRestore $name stage-4.dbf
+    todeRestore $name stage-4.dbf >/dev/null 2>&1
   fi
 
   loadPackage -S '`Kernel-Processes`'
   loadPackage -S '`Kernel-Numbers`'
-  
+
   #loadPackage -S '`MockClasses`'
   loadPackage -S '`Chronology-Core`'
-  
+
   loadPackage -S '`Multilingual-TextConversion`'
   loadPackage -S '`Multilingual-Encodings`'
 
   loadPackage -S '`Balloon`'
 
+  echo -e "[ ${GREEN}OK${NC} ] STAGE 5"
   todeBackup $name stage-5.dbf
 
   if [ $TILL_STAGE = 5 ]; then
@@ -316,7 +340,7 @@ fi
 
 if [ $FROM_STAGE -le 6 ]; then
   if [ $FROM_STAGE = 6 ]; then
-    todeRestore $name stage-5.dbf
+    todeRestore $name stage-5.dbf >/dev/null 2>&1
   fi
 
   loadPackage -S '`GraphicsLibrary`'
@@ -346,7 +370,7 @@ if [ $FROM_STAGE -le 7 ]; then
   loadPackage -SD Tools-FileList
   loadPackage -SD Morphic
 
-startTopaz $name -l << EOF
+startTopaz $name -l >/dev/null 2>&1 << EOF
 login
 run
 (SqueakEnvironment at: #SystemOrganization put: ((SqueakEnvironment at: #SystemOrganizer) @env7: defaultList: SqueakEnvironment allClasses))
@@ -356,7 +380,9 @@ logout
 exit
 EOF
 
-  todeBackup $name full.dbf
+  todeBackup $name full.dbf >/dev/null 2>&1
+
+  echo -e "[ ${GREEN}OK${NC} ] STAGE 6"
 
   if [ $TILL_STAGE = 7 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
@@ -364,3 +390,4 @@ EOF
   fi
 fi
 
+spd-say 'My job here is done.'
