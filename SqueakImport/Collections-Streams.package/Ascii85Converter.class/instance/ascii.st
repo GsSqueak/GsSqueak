@@ -1,0 +1,4 @@
+accessing
+ascii
+
+	binary := false.

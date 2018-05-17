@@ -1,0 +1,3 @@
+protocol
+binary
+	"do nothing"

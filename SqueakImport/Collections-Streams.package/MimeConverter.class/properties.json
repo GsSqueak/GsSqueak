@@ -1,0 +1,15 @@
+{
+	"category" : "Collections-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dataStream",
+		"mimeStream" ],
+	"name" : "MimeConverter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

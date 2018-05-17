@@ -1,0 +1,14 @@
+{
+	"category" : "System-Object Storage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 3/5/2013 09:42",
+	"instvars" : [
+		 ],
+	"name" : "DummyStream",
+	"pools" : [
+		 ],
+	"super" : "Stream",
+	"type" : "normal" }

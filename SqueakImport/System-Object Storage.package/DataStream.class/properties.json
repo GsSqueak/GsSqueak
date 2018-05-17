@@ -1,0 +1,16 @@
+{
+	"category" : "System-Object Storage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"TypeMap" ],
+	"commentStamp" : "nice 3/25/2010 23:01",
+	"instvars" : [
+		"byteStream",
+		"topCall",
+		"basePos" ],
+	"name" : "DataStream",
+	"pools" : [
+		 ],
+	"super" : "Stream",
+	"type" : "normal" }

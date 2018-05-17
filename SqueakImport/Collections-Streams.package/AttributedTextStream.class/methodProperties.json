@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"new" : "ul 8/15/2016 00:56",
+		"new:" : "ul 8/15/2016 00:56" },
+	"instance" : {
+		"contents" : "nice 12/9/2009 08:26",
+		"cr" : "ul 11/2/2010 21:51",
+		"crlf" : "ul 11/2/2010 21:51",
+		"currentAttributes" : "ls 6/27/1998 15:09",
+		"currentAttributes:" : "ar 10/16/2001 22:57",
+		"initialize:" : "ul 8/15/2016 00:56",
+		"lf" : "ul 11/2/2010 21:45",
+		"next:putAll:startingAt:" : "ul 8/14/2016 20:38",
+		"nextPut:" : "nice 3/19/2010 19:03",
+		"nextPutAll:" : "nice 3/19/2010 19:12",
+		"size" : "ls 9/10/1998 03:36",
+		"withAttribute:do:" : "ul 11/2/2010 21:57",
+		"withAttributes:do:" : "ul 11/2/2010 06:42" } }

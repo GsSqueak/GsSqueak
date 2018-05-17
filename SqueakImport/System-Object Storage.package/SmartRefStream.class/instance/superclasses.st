@@ -1,0 +1,3 @@
+read write
+superclasses
+	^superclasses

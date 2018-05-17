@@ -1,0 +1,20 @@
+{
+	"category" : "System-Object Storage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"RefTypes" ],
+	"commentStamp" : "nice 3/25/2010 23:03",
+	"instvars" : [
+		"references",
+		"objects",
+		"currentReference",
+		"fwdRefEnds",
+		"blockers",
+		"skipping",
+		"insideASegment" ],
+	"name" : "ReferenceStream",
+	"pools" : [
+		 ],
+	"super" : "DataStream",
+	"type" : "normal" }

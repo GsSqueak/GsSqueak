@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"example1" : "bf 2/19/1999 11:48",
+		"example2" : "bf 2/19/1999 12:46",
+		"exampleStream" : "bf 2/19/1999 12:44",
+		"on:delimiter:" : "bf 11/24/1998 14:31" },
+	"instance" : {
+		"atEnd" : "bf 11/13/1998 16:55",
+		"close" : "bf 11/13/1998 17:00",
+		"delimiter:" : "bf 11/24/1998 14:25",
+		"lastLineRead" : "bf 11/13/1998 13:08",
+		"limitingBlock:" : "nice 1/11/2010 20:56",
+		"linesUpToEnd" : "bf 2/19/1999 11:45",
+		"next" : "bf 11/24/1998 14:37",
+		"nextLine" : "bf 11/24/1998 14:09",
+		"peekLine" : "bf 11/13/1998 13:04",
+		"printOn:" : "bf 11/24/1998 13:39",
+		"setStream:delimiter:" : "bf 11/24/1998 14:30",
+		"skipThisLine" : "bf 11/24/1998 16:53",
+		"upToEnd" : "nice 12/26/2009 10:24",
+		"updatePosition" : "bf 11/24/1998 14:37" } }
