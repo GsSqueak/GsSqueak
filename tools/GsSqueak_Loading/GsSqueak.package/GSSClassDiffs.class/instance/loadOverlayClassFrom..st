@@ -1,5 +1,5 @@
-reading
-loadClassDefinitionFrom: aFileDirectory
+loading
+loadOverlayClassFrom: aFileDirectory
 
 	| classDefinition |
 	classDefinition := GSSClassDefinition loadFrom: aFileDirectory.

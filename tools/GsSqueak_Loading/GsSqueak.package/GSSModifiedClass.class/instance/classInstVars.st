@@ -1,4 +1,4 @@
 accessing
 classInstVars
 
-	^ classInstVars ifNil: [self realClass classInstVarNames]
+	^ classInstVars ifNil: [self realClass theMetaClass instVarNames]

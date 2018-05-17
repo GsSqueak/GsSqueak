@@ -2,8 +2,8 @@
 	"class" : {
 		"directoryExtensions" : "sl 5/15/2018 13:11" },
 	"instance" : {
-		"category" : "sl 5/15/2018 16:32",
-		"classInstVars" : "sl 5/15/2018 14:24",
+		"category" : "sl 5/15/2018 15:08",
+		"classInstVars" : "sl 5/16/2018 10:48",
 		"classMethods" : "sl 5/15/2018 16:27",
 		"classVars" : "sl 5/15/2018 14:24",
 		"comment" : "sl 5/15/2018 15:06",
@@ -14,4 +14,4 @@
 		"pools" : "sl 5/15/2018 14:28",
 		"realClass" : "sl 5/15/2018 14:31",
 		"setRealClass:" : "sl 5/15/2018 16:36",
-		"superclass" : "sl 5/15/2018 15:10" } }
+		"superclass" : "sl 5/16/2018 10:44" } }
