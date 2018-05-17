@@ -274,7 +274,7 @@ EOF
   loadPackage -S '`System-FileRegistry`'
   loadPackage -S '`System-Applications`'
   
-  loadPackage -SD '`System-Support`'
+  loadPackage -S '`System-Support`'
   loadPackage -S SUnit
   loadPackage -S '`SqCompiler`'
 
@@ -295,7 +295,7 @@ if [ $FROM_STAGE -le 5 ]; then
     todeRestore $name stage-4.dbf
   fi
 
-  loadPackage -SD '`Kernel-Processes`'
+  loadPackage -S '`Kernel-Processes`'
   loadPackage -S '`Kernel-Numbers`'
   
   #loadPackage -S '`MockClasses`'
