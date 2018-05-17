@@ -3,3 +3,4 @@ initialize
 
 	semaphore := Semaphore forMutualExclusion.
 	self initializeCaches
+
