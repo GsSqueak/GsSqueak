@@ -6,5 +6,5 @@ newFromFile: aDirectoryEntry
 	lines := contents lines.
 	^ self new
 		category: lines first;
-		selector: lines second findSelector;
-		source: (contents allButFirst: lines first size + 1).
+		selector: (Object parserClass new parseSelector: lines second);
+		source: (contents allButFirst: lines first size + 1) withSqueakLineEndings.

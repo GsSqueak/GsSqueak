@@ -1,8 +1,9 @@
-loading
-loadCategoriesToLoadFrom: aFileDirectoryEntry
+loading - specifications
+loadCategoriesToLoadFrom: aFileDirectory
 
-	| categoriesToLoad |
-	categoriesToLoad := aFileDirectoryEntry readStream contents lines.
+	| categoriesToLoad categoryFile |
+	categoryFile := aFileDirectory entryAt: 'categoriesToLoad' ifAbsent: [^ Array new].
+	categoriesToLoad := categoryFile readStream contents lines.
 	^ SystemOrganization categories select: [:category |
 		categoriesToLoad anySatisfy: [:categoryToLoad |
 			category = categoryToLoad

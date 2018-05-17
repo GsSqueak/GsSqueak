@@ -1,0 +1,4 @@
+missing properties
+gemstoneNameMissing
+
+	^ nil
