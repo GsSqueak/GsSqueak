@@ -1,4 +1,4 @@
 accessing
 name
 
-	^ name
+	^ name ifNotNil: [name asSymbol]

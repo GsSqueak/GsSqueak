@@ -1,4 +1,4 @@
 accessing
 category
 
-	^ category ifNil: [self originalCategory]
+	^ category ifNil: [self realClass category]

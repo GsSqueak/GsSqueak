@@ -2,5 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
+		"deserialize:" : "sl 5/16/2018 23:17",
+		"deserializeClass:forEnvironment:" : "sl 5/16/2018 13:31",
+		"deserializeCollection:eachElementDo:" : "sl 5/16/2018 20:18",
+		"deserializeComposite:" : "sl 5/16/2018 23:49",
+		"deserializeFalse:" : "sl 5/16/2018 22:28",
+		"deserializeNil:" : "sl 5/16/2018 22:17",
+		"deserializeNumber:" : "sl 5/16/2018 23:28",
+		"deserializePrimitive:" : "sl 5/16/2018 22:29",
+		"deserializeString:" : "sl 5/16/2018 23:17",
+		"deserializeSymbol:" : "sl 5/16/2018 23:48",
+		"deserializeTrue:" : "sl 5/16/2018 22:27",
 		"executeString:" : "sl 5/14/2018 21:13",
-		"fetch:serialization:deserialization:" : "sl 5/14/2018 21:39" } }
+		"fetch:serialization:deserialization:" : "sl 5/16/2018 13:47",
+		"fetchArrayOfSymbols:" : "sl 5/16/2018 20:16",
+		"fetchClass:forEnvironment:" : "sl 5/16/2018 19:30",
+		"serializeClass:" : "sl 5/16/2018 13:29",
+		"serializeCollection:elementTransformation:" : "sl 5/16/2018 20:16" } }
