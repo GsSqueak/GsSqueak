@@ -28,7 +28,7 @@ instSpec
 		self isLongs ifTrue: [^ 9].
 		self isWords ifTrue: [^ 10].
 		self isBytes ifTrue: [^ 16].
-		self isPointers ifTrue: [
+		self _env0 isPointers ifTrue: [
 			(self instSize > 0) ifTrue: [^3].
 			^2
 		].
