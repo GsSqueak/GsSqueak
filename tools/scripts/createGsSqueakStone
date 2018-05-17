@@ -298,7 +298,7 @@ if [ $FROM_STAGE -le 5 ]; then
   loadPackage -SD '`Kernel-Processes`'
   loadPackage -S '`Kernel-Numbers`'
   
-  loadPackage -S '`MockClasses`'
+  #loadPackage -S '`MockClasses`'
   loadPackage -S '`Chronology-Core`'
   
   loadPackage -S '`Multilingual-TextConversion`'
