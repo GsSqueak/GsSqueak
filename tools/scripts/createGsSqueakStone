@@ -274,7 +274,45 @@ if [ $FROM_STAGE -le 4 ]; then
 startTopaz $name -l << EOF
 login
 run
-SqueakEnvironment at: #TextConstants put: SymbolDictionary new
+| dict varAndValue |
+dict := SymbolDictionary new.
+
+dict at: #DefaultTab put: nil.
+
+varAndValue := #(
+		CtrlDigits 			(159 144 143 128 127 129 131 180 149 135)
+		CtrlOpenBrackets	(201 7 218 249 219 15)
+			"lparen gottn by ctrl-:= = 201; should be 213 but can't type that on Mac"
+
+			"values for alignment"
+		LeftFlush	0
+		RightFlush	1
+		Centered	2
+		Justified	3
+
+			"subscripts for a marginTabsArray tuple"
+		LeftMarginTab	1
+		RightMarginTab	2
+
+			"font faces"
+		Basal	0
+		Bold	1
+		Italic	2
+
+			"in case font doesn't have a width for space character"
+			"some plausible numbers-- are they the right ones?"
+		DefaultSpace			4
+		DefaultTab				24
+		DefaultLineGrid			16
+		DefaultBaseline			12
+		DefaultFontFamilySize	3	"basal, bold, italic"
+	).
+
+	varAndValue size odd ifTrue: [self error: 'unpaired text constant'].
+	(2 to: varAndValue size by: 2) do:
+		[:i | dict at: (varAndValue at: i - 1) put: nil].
+
+SqueakEnvironment at: #TextConstants put: dict
 %
 commit
 logout
@@ -317,7 +355,7 @@ if [ $FROM_STAGE -le 5 ]; then
   loadPackage -S '`Kernel-Processes`'
   loadPackage -S '`Kernel-Numbers`'
 
-  #loadPackage -S '`MockClasses`'
+  loadPackage -S '`MockClasses`'
   loadPackage -S '`Chronology-Core`'
 
   loadPackage -S '`Multilingual-TextConversion`'
@@ -326,7 +364,7 @@ if [ $FROM_STAGE -le 5 ]; then
   loadPackage -S '`Balloon`'
 
   echo -e "[ ${GREEN}OK${NC} ] STAGE 5"
-  todeBackup $name stage-5.dbf
+  todeBackup $name stage-5.dbf >/dev/null 2>&1
 
   if [ $TILL_STAGE = 5 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
@@ -363,6 +401,7 @@ if [ $FROM_STAGE -le 7 ]; then
   fi
   
   loadPackage -S '`System-Object Storage`'
+  loadPackage -S '`Collections-Streams`'
   loadPackage -SD Files
   loadPackage -SD Tools-FileList
   loadPackage -SD Morphic
