@@ -16,8 +16,8 @@ NC='\033[0m' # No Color
 # 0 - Import from scratch by creating a stone
 # 1 -
 # 2 -
-# 3 - 
-# 4 - 
+# 3 -
+# 4 -
 # 5 -
 # 6 -
 FROM_STAGE=0
@@ -77,9 +77,13 @@ if [ $FROM_STAGE -le 1 ]; then
     fi
   # load backup created by tode in order to skip stone creation
   elif [ $FROM_STAGE = 1 ]; then
+<<<<<<< HEAD
     echo -en "[ ${YELLOW}PENDING${NC} ] Restore stone named $name from tODE backup"
     todeRestore $name tode.dbf >/dev/null 2>&1
     echo -e "\e[0K\r [ ${GREEN}OK${NC} ] Restore stone named $name from tODE backup"
+=======
+    todeRestore $name tode.dbf
+>>>>>>> 8f0ffab4b498876b02cccae0a8419807bafef204
   fi
 
 startTopaz $name -l >/dev/null 2>&1 << EOF
@@ -253,13 +257,8 @@ if [ $FROM_STAGE -le 3 ]; then
   loadPackage -S '`Collections-Sequenceable`'
   loadPackage -S '`Collections-Heap`'
   loadPackage -S '`Collections-Arrayed`'
-  loadPackage -S CompiledMethod
-  loadPackage -S SqWeak
-  loadPackage -S '`System-Object Events`'
-  loadPackage -S '`System-Change Notification`'
-  loadPackage -S '`System-Support`'
-  loadPackage -S SUnit
-  loadPackage -S SqCompiler
+  loadPackage -S '`Graphics-Primitives`'
+  loadPackage -S '`Graphics-converting`'
 
   todeBackup $name stage-3.dbf >/dev/null 2>&1
 
@@ -276,22 +275,33 @@ if [ $FROM_STAGE -le 4 ]; then
     todeRestore $name stage-3.dbf >/dev/null 2>&1
   fi
 
-loadPackage -S CompiledMethod
-loadPackage -S SqWeak
-loadPackage -S '`System-Object Events`'
-loadPackage -S '`System-Change Notification`'
-loadPackage -S '`Kernel-Models`'
-loadPackage -S '`System-FileRegistry`'
-loadPackage -S '`System-Applications`'
-loadPackage -SD '`System-Support`'
-loadPackage -S SUnit
-loadPackage -S SqCompiler
+startTopaz $name -l << EOF
+login
+run
+SqueakEnvironment at: #TextConstants put: SymbolDictionary new
+%
+commit
+logout
+exit
+EOF
 
-loadPackage -S '`System-Preferences`'
-loadPackage -S '`Kernel-Pools`'
+  loadPackage -S '`Collections-Text`'
 
-loadPackage -SD '`Kernel-Processes`'
-loadPackage -S '`Kernel-Numbers`'
+  loadPackage -S '`CompiledMethod`'
+  loadPackage -S '`SqWeak`'
+  loadPackage -S '`System-Object Events`'
+  loadPackage -S '`System-Change Notification`'
+  loadPackage -S '`Kernel-Models`'
+  loadPackage -S '`System-FileRegistry`'
+  loadPackage -S '`System-Applications`'
+
+  loadPackage -S '`System-Support`'
+  loadPackage -S SUnit
+  loadPackage -S '`SqCompiler`'
+
+  loadPackage -S '`System-Preferences`'
+  loadPackage -S '`Kernel-Pools`'
+
 
   todeBackup $name stage-4.dbf >/dev/null 2>&1
 
@@ -308,12 +318,19 @@ if [ $FROM_STAGE -le 5 ]; then
     todeRestore $name stage-4.dbf >/dev/null 2>&1
   fi
 
+  loadPackage -S '`Kernel-Processes`'
+  loadPackage -S '`Kernel-Numbers`'
+
+  #loadPackage -S '`MockClasses`'
+  loadPackage -S '`Chronology-Core`'
+
+  loadPackage -S '`Multilingual-TextConversion`'
+  loadPackage -S '`Multilingual-Encodings`'
+
   loadPackage -S '`Balloon`'
-  loadPackage -S '`Kernel-Models`'
-  loadPackage -S '`System-FileRegistry`'
-  todeBackup $name stage-5.dbf >/dev/null 2>&1
 
   echo -e "[ ${GREEN}OK${NC} ] STAGE 5"
+  todeBackup $name stage-5.dbf
 
   if [ $TILL_STAGE = 5 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
@@ -326,8 +343,6 @@ if [ $FROM_STAGE -le 6 ]; then
     todeRestore $name stage-5.dbf >/dev/null 2>&1
   fi
 
-  loadPackage -S '`Graphics-converting`'
-  loadPackage -S '`Graphics-Primitives`'
   loadPackage -S '`GraphicsLibrary`'
   loadPackage -S '`VMMaker`'
   loadPackage -S '`Graphics-Display Objects`'
@@ -356,3 +371,4 @@ EOF
   fi
 fi
 
+spd-say 'My job here is done.'
