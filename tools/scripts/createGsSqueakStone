@@ -10,8 +10,8 @@ restoreFast=false
 # 0 - Import from scratch by creating a stone
 # 1 -
 # 2 -
-# 3 - 
-# 4 - 
+# 3 -
+# 4 -
 # 5 -
 # 6 -
 FROM_STAGE=0
@@ -68,7 +68,7 @@ if [ $FROM_STAGE -le 1 ]; then
     fi
   # load backup created by tode in order to skip stone creation
   elif [ $FROM_STAGE = 1 ]; then
-    todeRestore $name tode.dbf 
+    todeRestore $name tode.dbf
   fi
 
 startTopaz $name -l << EOF
@@ -240,9 +240,9 @@ if [ $FROM_STAGE -le 3 ]; then
   loadPackage -S '`Collections-Arrayed`'
   loadPackage -S '`Graphics-Primitives`'
   loadPackage -S '`Graphics-converting`'
-  
+
   todeBackup $name stage-3.dbf
-  
+
   if [ $TILL_STAGE = 3 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
     exit 0
@@ -263,9 +263,9 @@ commit
 logout
 exit
 EOF
-  
+
   loadPackage -S '`Collections-Text`'
-  
+
   loadPackage -S '`CompiledMethod`'
   loadPackage -S '`SqWeak`'
   loadPackage -S '`System-Object Events`'
@@ -273,7 +273,7 @@ EOF
   loadPackage -S '`Kernel-Models`'
   loadPackage -S '`System-FileRegistry`'
   loadPackage -S '`System-Applications`'
-  
+
   loadPackage -S '`System-Support`'
   loadPackage -S SUnit
   loadPackage -S '`SqCompiler`'
@@ -297,10 +297,10 @@ if [ $FROM_STAGE -le 5 ]; then
 
   loadPackage -S '`Kernel-Processes`'
   loadPackage -S '`Kernel-Numbers`'
-  
+
   #loadPackage -S '`MockClasses`'
   loadPackage -S '`Chronology-Core`'
-  
+
   loadPackage -S '`Multilingual-TextConversion`'
   loadPackage -S '`Multilingual-Encodings`'
 
@@ -345,3 +345,4 @@ EOF
   fi
 fi
 
+spd-say 'My job here is done.'
