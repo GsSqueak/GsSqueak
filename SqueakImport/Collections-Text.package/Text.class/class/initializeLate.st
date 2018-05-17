@@ -11,12 +11,3 @@ initializeLate
     TextConstants at: #DefaultRule	put: Form over
 	TextConstants at: #DefaultMask	put: Color black.
 
-	width := Display width max: 720.
-	tempArray := Array new: width // DefaultTab.
-	1 to: tempArray size do:
-		[:i | tempArray at: i put: DefaultTab * i].
-	TextConstants at: #DefaultTabsArray put: tempArray.
-	tempArray := Array new: (width // DefaultTab) // 2.
-	1 to: tempArray size do:
-		[:i | tempArray at: i put: (Array with: (DefaultTab*i) with: (DefaultTab*i))].
-	TextConstants at: #DefaultMarginTabsArray put: tempArray.

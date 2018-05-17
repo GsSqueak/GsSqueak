@@ -64,5 +64,14 @@ initTextConstants
 	(2 to: varAndValue size by: 2) do:
 		[:i | TextConstants at: (varAndValue at: i - 1) put: (varAndValue at: i)].
 
+	width := 720.
+	tempArray := Array new: width // DefaultTab.
+	1 to: tempArray size do:
+		[:i | tempArray at: i put: DefaultTab * i].
+	TextConstants at: #DefaultTabsArray put: tempArray.
+	tempArray := Array new: (width // DefaultTab) // 2.
+	1 to: tempArray size do:
+		[:i | tempArray at: i put: (Array with: (DefaultTab*i) with: (DefaultTab*i))].
+	TextConstants at: #DefaultMarginTabsArray put: tempArray.
 
 "Text initTextConstants "
