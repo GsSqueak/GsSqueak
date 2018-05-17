@@ -77,13 +77,9 @@ if [ $FROM_STAGE -le 1 ]; then
     fi
   # load backup created by tode in order to skip stone creation
   elif [ $FROM_STAGE = 1 ]; then
-<<<<<<< HEAD
     echo -en "[ ${YELLOW}PENDING${NC} ] Restore stone named $name from tODE backup"
     todeRestore $name tode.dbf >/dev/null 2>&1
     echo -e "\e[0K\r [ ${GREEN}OK${NC} ] Restore stone named $name from tODE backup"
-=======
-    todeRestore $name tode.dbf
->>>>>>> 8f0ffab4b498876b02cccae0a8419807bafef204
   fi
 
 startTopaz $name -l >/dev/null 2>&1 << EOF
@@ -366,6 +362,7 @@ if [ $FROM_STAGE -le 7 ]; then
     todeRestore $name stage-6.dbf
   fi
   
+  loadPackage -S '`System-Object Storage`'
   loadPackage -SD Files
   loadPackage -SD Tools-FileList
   loadPackage -SD Morphic

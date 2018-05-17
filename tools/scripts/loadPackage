@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -o pipefail
+set -e
 
 debug=""
 squeakImport=false
