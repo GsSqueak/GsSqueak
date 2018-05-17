@@ -1,4 +1,4 @@
 accessing
 reset
 
-	current := nil
+	Current := nil

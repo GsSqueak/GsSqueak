@@ -1,4 +1,7 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+*SqClasses-snapshot and quit
 isMorphic
-       
-	^ Project current isMorphic
+
+    Project current ifNil: [
+        ^ false ]
+    ifNotNil: [
+        ^ Project current isMorphic ]

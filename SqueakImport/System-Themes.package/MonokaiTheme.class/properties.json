@@ -1,15 +1,14 @@
 {
-	"category" : "SqueakEnvironments",
+	"category" : "System-Themes",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"globals",
-		"specialObjectsArray" ],
-	"name" : "SmalltalkImage",
+		 ],
+	"name" : "MonokaiTheme",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "UserInterfaceTheme",
 	"type" : "normal" }

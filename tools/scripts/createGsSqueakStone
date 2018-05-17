@@ -117,6 +117,7 @@ loadPackage SqueakEnvironments "tools/SqueakEnvironments"
 loadPackage -S SqContext
 loadPackage -S SqClassCreation
 loadPackage Workspace "tools"
+loadPackage -S Env0Extensions
 loadPackage -S BPGsTests
 
 # create backup for that stage
@@ -258,16 +259,22 @@ if [ $FROM_STAGE -le 4 ]; then
     todeRestore $name stage-3.dbf
   fi
 
-  loadPackage -S '`Kernel-Processes-Variables`'
-  loadPackage -S '`Kernel-Numbers`'
-  loadPackage -S '`Kernel-Pools`'
+loadPackage -S CompiledMethod
+loadPackage -S SqWeak
+loadPackage -S '`System-Object Events`'
+loadPackage -S '`System-Change Notification`'
+loadPackage -S '`Kernel-Models`'
+loadPackage -S '`System-FileRegistry`'
+loadPackage -S '`System-Applications`'
+loadPackage -SD '`System-Support`'
+loadPackage -S SUnit
+loadPackage -S SqCompiler
 
-  loadPackage -S '`MockClasses`'
-  loadPackage -S '`Chronology-Core`'
-  # loadPackage -S '`Kernel-Processes`'
+loadPackage -S '`System-Preferences`'
+loadPackage -S '`Kernel-Pools`'
 
-  loadPackage -S '`Multilingual-TextConversion`'
-  loadPackage -S '`Multilingual-Encodings`'
+loadPackage -SD '`Kernel-Processes`'
+loadPackage -S '`Kernel-Numbers`'
 
   todeBackup $name stage-4.dbf
 

@@ -2,4 +2,4 @@
 initSignals
 	"Consume any excess signals the receiver may have accumulated."
 
-	self shouldNotImplement
+    self _env0 semaphore _env0 initSignals

@@ -1,0 +1,14 @@
+{
+	"category" : "System-Themes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 7/26/2016 16:22",
+	"instvars" : [
+		 ],
+	"name" : "CommunityTheme",
+	"pools" : [
+		 ],
+	"super" : "UserInterfaceTheme",
+	"type" : "normal" }

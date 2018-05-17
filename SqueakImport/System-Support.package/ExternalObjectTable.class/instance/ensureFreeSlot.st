@@ -6,6 +6,7 @@ ensureFreeSlot
 	freeSlotIndexes isEmpty ifFalse: [ ^self ].
 	oldSize := externalObjectsArray size.
 	newSize := oldSize + 20. "Linear growth is not really a problem, because we never shrink the array."
+	
 	newExternalObjectsArray := externalObjectsArray species new: newSize.
 	newExternalObjectsArray
 		replaceFrom: 1
