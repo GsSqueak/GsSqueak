@@ -1,0 +1,4 @@
+html
+shouldFormBlocks
+
+	^ true

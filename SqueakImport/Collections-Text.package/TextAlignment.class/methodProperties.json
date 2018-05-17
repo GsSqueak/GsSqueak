@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"alignmentSymbol:" : "KR 12/5/2005 00:53",
+		"centered" : "nice 3/6/2008 22:33",
+		"justified" : "nice 3/6/2008 22:33",
+		"leftFlush" : "nice 3/6/2008 22:33",
+		"rightFlush" : "nice 3/6/2008 22:33",
+		"scanCharacter" : "dtl 1/2/2014 10:23",
+		"scanFrom:" : "dtl 1/2/2014 13:56" },
+	"instance" : {
+		"=" : "ar 12/15/2001 23:33",
+		"alignment" : "ar 12/15/2001 23:33",
+		"alignment:" : "ar 12/15/2001 23:33",
+		"closeHtmlOn:" : "topa 2/10/2017 16:43",
+		"dominates:" : "ar 12/16/2001 00:20",
+		"emphasizeScanner:" : "ar 12/15/2001 23:34",
+		"hash" : "ar 9/9/2003 22:03",
+		"openHtmlOn:" : "topa 2/10/2017 16:41",
+		"shouldFormBlocks" : "topa 2/10/2017 16:14",
+		"writeScanOn:" : "dtl 1/2/2014 10:29" } }

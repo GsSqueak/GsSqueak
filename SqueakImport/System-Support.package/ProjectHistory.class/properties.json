@@ -1,0 +1,15 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ChangeCounter",
+		"CurrentHistory" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mostRecent" ],
+	"name" : "ProjectHistory",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

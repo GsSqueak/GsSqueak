@@ -1,0 +1,16 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "fbs 6/15/2013 16:20",
+	"instvars" : [
+		"contents",
+		"recent",
+		"interpreter" ],
+	"name" : "Clipboard",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

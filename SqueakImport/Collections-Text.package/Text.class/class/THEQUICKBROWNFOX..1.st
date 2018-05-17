@@ -1,0 +1,4 @@
+filler text
+THEQUICKBROWNFOX
+
+	^ self fromString: 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.'

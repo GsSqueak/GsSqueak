@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 5/7/2016 10:22",
+	"instvars" : [
+		"stream" ],
+	"name" : "TextReadWriter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

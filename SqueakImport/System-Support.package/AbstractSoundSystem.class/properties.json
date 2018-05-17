@@ -1,0 +1,14 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "gk 2/24/2004 08:34",
+	"instvars" : [
+		 ],
+	"name" : "AbstractSoundSystem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

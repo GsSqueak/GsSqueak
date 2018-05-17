@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"alignment" ],
+	"name" : "TextAlignment",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "TextAttribute",
+	"type" : "normal" }

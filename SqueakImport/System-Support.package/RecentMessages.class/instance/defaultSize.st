@@ -1,0 +1,3 @@
+private
+defaultSize
+	^ 30

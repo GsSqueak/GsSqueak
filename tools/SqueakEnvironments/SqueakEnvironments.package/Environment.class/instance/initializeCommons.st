@@ -17,7 +17,7 @@ initializeCommons
   self at: #'BlockClosure' put: ExecBlock.
   self at: #'UndefinedObject' put: UndefinedObject.
   self at: #'ByteString' put: String.
-  self at: #'Context' put: Context.  
+  self at: #'Context' put: Context.
   self at: #'DoubleByteString' put: DoubleByteString.
   self at: #'QuadByteString' put: QuadByteString.
   self at: #'ByteSymbol' put: Symbol.
@@ -34,4 +34,9 @@ initializeCommons
   self at: #'Environment' put: Environment.
   self at: #'SymbolAssociation' put: SymbolAssociation.
   self at: #'Semaphore' put: TransientSemaphore.
-  self at: #'TransientSemaphore' put: TransientSemaphore
+  self at: #'TransientSemaphore' put: TransientSemaphore.
+  self at: #'ProcessorScheduler' put: ProcessorScheduler.
+  self at: #'Processor' put: Processor.
+  self at: #'Process' put: GsProcess.
+  self at: #'GsProcess' put: GsProcess.
+  self at: #'Pragma' put: Pragma

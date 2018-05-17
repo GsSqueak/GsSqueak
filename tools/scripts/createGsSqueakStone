@@ -5,30 +5,71 @@ set -o pipefail
 
 restore=false
 restoreFast=false
-while getopts "r f" opt; do
+
+# Available stages are
+# 0 - Import from scratch by creating a stone
+# 1 -
+# 2 -
+# 3 - 
+# 4 - 
+# 5 -
+# 6 -
+FROM_STAGE=0
+TILL_STAGE=6 # equals numeber of current stages
+
+while getopts f:t: opt; do
 	case $opt in
-		r) restore=true
-		;;
-		f) restoreFast=true
-		;;
+    f)
+      echo "Starting from stage $OPTARG"
+      FROM_STAGE=$OPTARG
+      ;;
+    t)
+      echo "Importing till stage $OPTARG"
+      TILL_STAGE=$OPTARG
+      ;;
+    /?)
+      echo "Invalid option: -$OPTARG" >&2
+      exit 1
+      ;;
 	esac
 done
 
+
+# basic error handling of stages
+if [ \( $FROM_STAGE -gt 6 \) -o \( $FROM_STAGE -lt 0 \) ]; then
+  echo "Invalid FROM stage ${FROM_STAGE}. Please select a stage between 0 and 6"
+  exit 1
+fi
+
+if [ \( $TILL_STAGE -gt 6 \) -o \( $TILL_STAGE -lt 0 \) ]; then
+  echo "Invalid TILL stage ${TILL_STAGE}. Please select a stage between 0 and 6"
+  exit 1
+fi
+
+if [ $FROM_STAGE -gt $TILL_STAGE ]; then
+  echo "Invalid configuration. You have to specify a FROM stage greater than your TILL stage."
+  exit 1
+fi
+
+
+# Get name of the stone
 shift $((OPTIND-1))
 name=$1;
-
 export name
 
-if $restoreFast
-then
-    todeRestore $name fast.dbf
-else
-if $restore
-then
-    todeRestore $name tode.dbf
-else
-    createStone -f $name 3.5.0
-fi
+if [ $FROM_STAGE -le 1 ]; then
+  # start import from scratch by creating a stone
+  if [ $FROM_STAGE = 0 ]; then
+    createStone -f $name 3.5.0 # creates a backup called tode.bdf
+
+    if [ $TILL_STAGE = 0 ]; then
+      echo "Exit script after stage 0 because of configuration"
+      exit 0
+    fi
+  # load backup created by tode in order to skip stone creation
+  elif [ $FROM_STAGE = 1 ]; then
+    todeRestore $name tode.dbf 
+  fi
 
 startTopaz $name -l << EOF
 set u SystemUser p swordfish
@@ -76,10 +117,23 @@ loadPackage SqueakEnvironments "tools/SqueakEnvironments"
 loadPackage -S SqContext
 loadPackage -S SqClassCreation
 loadPackage Workspace "tools"
+loadPackage -S Env0Extensions
 loadPackage -S BPGsTests
 
-todeBackup $name fast.dbf
+# create backup for that stage
+todeBackup $name stage-1.dbf
+
+  if [ $TILL_STAGE = 1 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
 fi
+
+
+if [ $FROM_STAGE -le 2 ]; then
+  if [ $FROM_STAGE = 2 ]; then
+    todeRestore $name stage-1.dbf
+  fi
 
 startTopaz $name -l << EOF
 login
@@ -163,49 +217,103 @@ logout
 exit
 EOF
 
-todeBackup $name preCollections
-loadPackage -S '`Collections-Abstract`'
-loadPackage -S '`Collections-Support`'
-loadPackage -S SqCollectionLiterals
-loadPackage -S SqCollections
-loadPackage -S '`Collections-Sequenceable`'
-loadPackage -S '`Collections-Heap`'
-loadPackage -S '`Collections-Arrayed`'
+todeBackup $name stage-2.dbf
+
+  if [ $TILL_STAGE = 2 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+
+fi
+
+if [ $FROM_STAGE -le 3 ]; then
+  if [ $FROM_STAGE = 3 ]; then
+    todeRestore $name stage-2.dbf
+  fi
+
+  loadPackage -S '`Collections-Abstract`'
+  loadPackage -S '`Collections-Support`'
+  loadPackage -S SqCollectionLiterals
+  loadPackage -S SqCollections
+  loadPackage -S '`Collections-Sequenceable`'
+  loadPackage -S '`Collections-Heap`'
+  loadPackage -S '`Collections-Arrayed`'
+  loadPackage -S CompiledMethod
+  loadPackage -S SqWeak
+  loadPackage -S '`System-Object Events`'
+  loadPackage -S '`System-Change Notification`'
+  loadPackage -S '`System-Support`'
+  loadPackage -S SUnit
+  loadPackage -S SqCompiler
+
+  todeBackup $name stage-3.dbf
+
+  if [ $TILL_STAGE = 3 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
+
+if [ $FROM_STAGE -le 4 ]; then
+  if [ $FROM_STAGE = 4 ]; then
+    todeRestore $name stage-3.dbf
+  fi
+
 loadPackage -S CompiledMethod
 loadPackage -S SqWeak
 loadPackage -S '`System-Object Events`'
 loadPackage -S '`System-Change Notification`'
-loadPackage -S '`System-Support`'
+loadPackage -S '`Kernel-Models`'
+loadPackage -S '`System-FileRegistry`'
+loadPackage -S '`System-Applications`'
+loadPackage -SD '`System-Support`'
 loadPackage -S SUnit
 loadPackage -S SqCompiler
 
-todeBackup $name flag1
-loadPackage -S '`Kernel-Processes-Variables`'
-loadPackage -S '`Kernel-Numbers`'
+loadPackage -S '`System-Preferences`'
 loadPackage -S '`Kernel-Pools`'
 
-loadPackage -S '`MockClasses`'
-loadPackage -S '`Chronology-Core`'
-# loadPackage -S '`Kernel-Processes`'
+loadPackage -SD '`Kernel-Processes`'
+loadPackage -S '`Kernel-Numbers`'
 
-loadPackage -S '`Multilingual-TextConversion`'
-loadPackage -S '`Multilingual-Encodings`'
+  todeBackup $name stage-4.dbf
 
-todeBackup $name flag2
-loadPackage -S '`Balloon`'
-loadPackage -S '`Kernel-Models`'
-loadPackage -S '`System-FileRegistry`'
+  if [ $TILL_STAGE = 4 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
 
-todeBackup $name flag3
-loadPackage -S '`Graphics-converting`'
-loadPackage -S '`Graphics-Primitives`'
-loadPackage -S '`GraphicsLibrary`'
-loadPackage -S '`VMMaker`'
-loadPackage -S '`Graphics-Display Objects`'
+if [ $FROM_STAGE -le 5 ]; then
+  if [ $FROM_STAGE = 5 ]; then
+    todeRestore $name stage-4.dbf
+  fi
 
-loadPackage -S SqKernelTestsNumbers
-loadPackage -S '`KernelTests-Objects`'
-loadPackage -S '`CollectionsTests-Text`'
+  loadPackage -S '`Balloon`'
+  loadPackage -S '`Kernel-Models`'
+  loadPackage -S '`System-FileRegistry`'
+  todeBackup $name stage-5.dbf
+
+  if [ $TILL_STAGE = 5 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
+
+if [ $FROM_STAGE -le 6 ]; then
+  if [ $FROM_STAGE = 6 ]; then
+    todeRestore $name stage-5.dbf
+  fi
+
+  loadPackage -S '`Graphics-converting`'
+  loadPackage -S '`Graphics-Primitives`'
+  loadPackage -S '`GraphicsLibrary`'
+  loadPackage -S '`VMMaker`'
+  loadPackage -S '`Graphics-Display Objects`'
+
+  loadPackage -S SqKernelTestsNumbers
+  loadPackage -S '`KernelTests-Objects`'
+  loadPackage -S '`CollectionsTests-Text`'
 
 startTopaz $name -l << EOF
 login
@@ -216,3 +324,12 @@ commit
 logout
 exit
 EOF
+
+  todeBackup $name full.dbf
+
+  if [ $TILL_STAGE = 6 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
+

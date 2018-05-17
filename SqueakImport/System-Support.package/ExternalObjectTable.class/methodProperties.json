@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"cleanUp:" : "ul 10/27/2014 15:53",
+		"current" : "ul 10/27/2014 15:53",
+		"reset" : "ul 10/27/2014 15:53" },
+	"instance" : {
+		"clearExternalObjects" : "ul 10/27/2014 15:53",
+		"ensureFreeSlot" : "ul 10/27/2014 16:30",
+		"externalObjects" : "ul 10/27/2014 15:53",
+		"externalObjectsArray:" : "ul 10/27/2014 16:30",
+		"initialize" : "ul 10/27/2014 15:53",
+		"initializeCaches" : "ul 10/27/2014 15:53",
+		"newExternalSemaphore" : "ul 10/27/2014 15:53",
+		"newExternalSemaphoreDo:" : "ul 10/27/2014 15:53",
+		"newExternalSemaphores:" : "ul 10/27/2014 15:53",
+		"registerExternalObject:" : "ul 10/27/2014 15:53",
+		"safelyRegisterExternalObject:" : "ul 10/27/2014 15:53",
+		"safelyRegisterNewExternalObject:" : "ul 10/27/2014 15:53",
+		"safelyUnregisterExternalObject:" : "ul 10/27/2014 15:53",
+		"synchronizeExternalObjectsArrayAndForceUpdate:" : "ul 10/27/2014 15:53",
+		"unregisterExternalObject:" : "ul 10/27/2014 15:53",
+		"unregisterExternalObjects:" : "ul 10/27/2014 15:53" } }

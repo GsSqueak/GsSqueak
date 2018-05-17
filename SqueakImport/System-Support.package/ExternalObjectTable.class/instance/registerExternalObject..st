@@ -1,0 +1,9 @@
+accessing
+registerExternalObject: anObject
+	"Register the given object in the external objects array and return its index. If it is already there, just return its index."
+
+	anObject ifNil: [ ^nil ].
+	^semaphore critical: [
+		self 
+			synchronizeExternalObjectsArrayAndForceUpdate: false;
+			safelyRegisterExternalObject: anObject ]

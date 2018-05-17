@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"evalString" ],
+	"name" : "TextDoIt",
+	"pools" : [
+		 ],
+	"super" : "TextAction",
+	"type" : "normal" }

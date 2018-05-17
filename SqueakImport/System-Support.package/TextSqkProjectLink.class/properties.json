@@ -1,0 +1,14 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TextSqkProjectLink",
+	"pools" : [
+		 ],
+	"super" : "TextURL",
+	"type" : "normal" }

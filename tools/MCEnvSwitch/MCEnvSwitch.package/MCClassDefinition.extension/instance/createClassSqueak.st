@@ -8,19 +8,23 @@ createClassSqueak
   cvArray := (self classVariablesString findTokens: ' ') asArray.
   civArray := (self classInstanceVariablesString findTokens: ' ') asArray.
   poolArray := aClass
-    ifNotNil: [ 
+    ifNotNil: [
       (self sharedPoolsString findTokens: ' ') asArray
-        collect: [ :each | ((Smalltalk at: #SqueakEnvironment) at: each asSymbol) _classVars ] ]
+        collect: [ :each | | global |
+          global := ((Smalltalk at: #SqueakEnvironment) at: each asSymbol).
+          (global isKindOf: Class) ifTrue: [
+            global := global _classVars ].
+          global ] ]
     ifNil: [ #() ].
   newClass := nil.
   opts := #().
   (ty := self type) _isArray
-    ifTrue: [ 
+    ifTrue: [
       opts := ty at: 2.
       ty := ty at: 1 ].
   dict := SymbolDictionary new.
   ty == #'normal'
-    ifTrue: [ 
+    ifTrue: [
       (newClass := aClass
         subclass: name
         instVarNames: ivArray
@@ -31,9 +35,9 @@ createClassSqueak
         newVersionOf: nil
         description: nil
         options: opts) category: category ]
-    ifFalse: [ 
+    ifFalse: [
       ty == #'variable'
-        ifTrue: [ 
+        ifTrue: [
           (newClass := aClass
             indexableSubclass: name
             instVarNames: ivArray
@@ -44,9 +48,9 @@ createClassSqueak
             newVersionOf: nil
             description: nil
             options: opts) category: category ]
-        ifFalse: [ 
+        ifFalse: [
           ty == #'bytes'
-            ifTrue: [ 
+            ifTrue: [
               (newClass := aClass
                 byteSubclass: name
                 classVars: cvArray
@@ -56,9 +60,9 @@ createClassSqueak
                 description: nil
                 inDictionary: dict
                 options: opts) category: category ]
-            ifFalse: [ 
+            ifFalse: [
               ty == #'words'
-                ifTrue: [ 
+                ifTrue: [
                   (newClass := aClass
                     byteSubclass: name
                     classVars: cvArray

@@ -1,0 +1,14 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"RegisteredClients" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ExternalSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

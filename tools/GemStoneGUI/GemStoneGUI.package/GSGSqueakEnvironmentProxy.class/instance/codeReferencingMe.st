@@ -1,4 +1,4 @@
 accessing
 codeReferencingMe
 
-	^ 'SqueakEnvironment'
+	^ '(Smalltalk at: #''SqueakEnvironment'')'
