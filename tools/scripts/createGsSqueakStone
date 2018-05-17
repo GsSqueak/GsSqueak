@@ -15,7 +15,7 @@ restoreFast=false
 # 5 -
 # 6 -
 FROM_STAGE=0
-TILL_STAGE=6 # equals numeber of current stages
+TILL_STAGE=7 # equals numeber of current stages
 
 while getopts f:t: opt; do
 	case $opt in
@@ -36,13 +36,13 @@ done
 
 
 # basic error handling of stages
-if [ \( $FROM_STAGE -gt 6 \) -o \( $FROM_STAGE -lt 0 \) ]; then
-  echo "Invalid FROM stage ${FROM_STAGE}. Please select a stage between 0 and 6"
+if [ \( $FROM_STAGE -gt 7 \) -o \( $FROM_STAGE -lt 0 \) ]; then
+  echo "Invalid FROM stage ${FROM_STAGE}. Please select a stage between 0 and 7"
   exit 1
 fi
 
-if [ \( $TILL_STAGE -gt 6 \) -o \( $TILL_STAGE -lt 0 \) ]; then
-  echo "Invalid TILL stage ${TILL_STAGE}. Please select a stage between 0 and 6"
+if [ \( $TILL_STAGE -gt 7 \) -o \( $TILL_STAGE -lt 0 \) ]; then
+  echo "Invalid TILL stage ${TILL_STAGE}. Please select a stage between 0 and 7"
   exit 1
 fi
 
@@ -326,6 +326,25 @@ if [ $FROM_STAGE -le 6 ]; then
   loadPackage -S SqKernelTestsNumbers
   loadPackage -S '`KernelTests-Objects`'
   loadPackage -S '`CollectionsTests-Text`'
+  
+  loadPackage -S System-Recovery
+  
+  todeBackup $name stage-6.dbf
+
+  if [ $TILL_STAGE = 6 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
+
+if [ $FROM_STAGE -le 7 ]; then
+  if [ $FROM_STAGE = 7 ]; then
+    todeRestore $name stage-6.dbf
+  fi
+  
+  loadPackage -SD Files
+  loadPackage -SD Tools-FileList
+  loadPackage -SD Morphic
 
 startTopaz $name -l << EOF
 login
@@ -339,7 +358,7 @@ EOF
 
   todeBackup $name full.dbf
 
-  if [ $TILL_STAGE = 6 ]; then
+  if [ $TILL_STAGE = 7 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
     exit 0
   fi
