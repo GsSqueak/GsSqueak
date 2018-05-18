@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"filterSelector" ],
+	"name" : "NullEncoder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

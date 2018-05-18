@@ -1,0 +1,1 @@
+An MorphicProject is a project with a Morphic user interface. Its world is a PasteUpMorph, and its UI manager is a MorphicUIManager. It uses a MorphicToolBuilder to create the views for various tools. It has a single uiProcess for its world, and Morph updates and user interaction occur in the context of that UI process.

@@ -1,0 +1,19 @@
+{
+	"category" : "Morphic-Sound",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SoundPlaying" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"trackIndex",
+		"indexInTrack",
+		"hitLoc",
+		"editMode",
+		"selected",
+		"notePlaying" ],
+	"name" : "PianoRollNoteMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

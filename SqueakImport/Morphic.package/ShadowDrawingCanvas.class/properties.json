@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"shadowColor" ],
+	"name" : "ShadowDrawingCanvas",
+	"pools" : [
+		 ],
+	"super" : "ColorMappingCanvas",
+	"type" : "normal" }

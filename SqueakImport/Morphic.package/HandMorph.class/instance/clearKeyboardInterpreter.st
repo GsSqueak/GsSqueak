@@ -1,0 +1,4 @@
+multilingual
+clearKeyboardInterpreter
+
+	keyboardInterpreter := nil.

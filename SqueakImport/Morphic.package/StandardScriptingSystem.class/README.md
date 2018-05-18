@@ -1,0 +1,1 @@
+An instance of this is installed as the value of the global variable "ScriptingSystem".  Client subclasses are invited, such as one used internally by squeak team for ongoing internal work.

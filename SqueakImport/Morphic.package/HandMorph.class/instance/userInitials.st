@@ -1,0 +1,4 @@
+accessing
+userInitials
+
+	^ userInitials

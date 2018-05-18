@@ -1,0 +1,19 @@
+{
+	"category" : "Files-Directories",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"directory",
+		"name",
+		"creationTime",
+		"modificationTime",
+		"fileSize",
+		"attributes" ],
+	"name" : "DirectoryEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Graphics-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 10/6/2013 22:39",
+	"instvars" : [
+		 ],
+	"name" : "SegmentScanner",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "CompositionScanner",
+	"type" : "normal" }

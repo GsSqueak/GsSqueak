@@ -1,0 +1,3 @@
+private
+sortingBySize
+	^ sortMode == #size

@@ -1,0 +1,37 @@
+{
+	"category" : "Morphic-Pluggable Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ClearFilterAutomatically",
+		"FilterableLists",
+		"HighlightHoveredRow",
+		"MenuRequestUpdatesSelection" ],
+	"commentStamp" : "cmm 8/21/2011 23:37",
+	"instvars" : [
+		"list",
+		"getListSelector",
+		"getListSizeSelector",
+		"getListElementSelector",
+		"getIndexSelector",
+		"setIndexSelector",
+		"keystrokeActionSelector",
+		"autoDeselect",
+		"lastKeystrokeTime",
+		"lastKeystrokes",
+		"lastClickTime",
+		"doubleClickSelector",
+		"handlesBasicKeys",
+		"potentialDropRow",
+		"hoverRow",
+		"listMorph",
+		"hScrollRangeCache",
+		"keystrokePreviewSelector",
+		"priorSelection",
+		"getIconSelector",
+		"getHelpSelector" ],
+	"name" : "PluggableListMorph",
+	"pools" : [
+		 ],
+	"super" : "ScrollPane",
+	"type" : "normal" }

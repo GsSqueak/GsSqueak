@@ -1,0 +1,14 @@
+{
+	"category" : "Files-Directories",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LegalCharMap" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AcornFileDirectory",
+	"pools" : [
+		 ],
+	"super" : "FileDirectory",
+	"type" : "normal" }

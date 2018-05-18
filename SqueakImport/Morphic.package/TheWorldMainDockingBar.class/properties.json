@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Instance",
+		"ShowSecondsInClock",
+		"TS",
+		"TwentyFourHourClock" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TheWorldMainDockingBar",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

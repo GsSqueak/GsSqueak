@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filterBlock" ],
+	"name" : "PluggableEventFilter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

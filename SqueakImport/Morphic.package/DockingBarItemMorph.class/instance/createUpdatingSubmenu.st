@@ -1,0 +1,4 @@
+private
+createUpdatingSubmenu
+
+	^DockingBarUpdatingMenuMorph new

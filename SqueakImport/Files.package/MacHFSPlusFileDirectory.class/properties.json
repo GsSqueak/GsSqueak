@@ -1,0 +1,14 @@
+{
+	"category" : "Files-Directories",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MacHFSPlusFileDirectory",
+	"pools" : [
+		 ],
+	"super" : "MacFileDirectory",
+	"type" : "normal" }

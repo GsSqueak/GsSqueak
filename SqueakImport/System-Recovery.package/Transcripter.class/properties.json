@@ -1,0 +1,15 @@
+{
+	"category" : "System-Recovery",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"frame",
+		"para" ],
+	"name" : "Transcripter",
+	"pools" : [
+		 ],
+	"super" : "ReadWriteStream",
+	"type" : "normal" }

@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"currentTextAttVersion" : "tk 12/12/97 11:46",
+		"initialize" : "tk 12/11/97 10:35",
+		"newFileNumber:position:" : "",
+		"newString:onFileNumber:" : "",
+		"newString:onFileNumber:toFile:" : "",
+		"structureAt:" : "tk 12/13/97 13:36" },
+	"instance" : {
+		"checkSum:" : "jcg 9/1/2009 00:28",
+		"fileNumber:position:" : "stephaneducasse 2/4/2006 20:32",
+		"fileStream" : "ajh 1/18/2002 01:04",
+		"last" : "ul 12/12/2009 14:07",
+		"makeNewTextAttVersion" : "nice 12/27/2009 03:10",
+		"position" : "",
+		"setSourcePointer:" : "hmm 4/26/2000 21:28",
+		"sourceFileNumber" : "",
+		"sourcePointer" : "hmm 4/26/2000 20:47",
+		"string" : "di 1/13/98 16:57",
+		"string:onFileNumber:" : "tfel 8/30/2016 10:42",
+		"string:onFileNumber:toFile:" : "tk 12/12/97 10:41",
+		"text" : "ul 10/10/2017 00:15" } }

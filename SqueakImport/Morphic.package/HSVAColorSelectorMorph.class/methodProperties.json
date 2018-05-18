@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"aMorph" : "cmm 12/3/2010 13:43",
+		"aMorph:" : "cmm 12/3/2010 13:43",
+		"alphaSelected:" : "gvc 9/22/2006 09:58",
+		"colorSelected:" : "gvc 9/22/2006 09:58",
+		"defaultColor" : "gvc 9/21/2006 13:44",
+		"hsvMorph" : "gvc 9/20/2006 14:05",
+		"hsvMorph:" : "gvc 9/20/2006 14:05",
+		"initialize" : "gvc 9/21/2006 16:47",
+		"newAColorMorph" : "mt 4/17/2015 14:08",
+		"newHSVColorMorph" : "gvc 9/21/2006 14:00",
+		"selectedColor" : "gvc 9/21/2006 14:18",
+		"selectedColor:" : "gvc 9/22/2006 11:12",
+		"triggerSelectedColor" : "cmm 12/3/2010 14:24" } }

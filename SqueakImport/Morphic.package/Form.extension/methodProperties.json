@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"exampleColorSees" : "tpr 11/13/2015 15:36",
+		"exampleTouchTest" : "tpr 11/13/2015 15:36",
+		"exampleTouchingColor" : "tpr 11/13/2015 15:37" },
+	"instance" : {
+		"asMorph" : "ar 11/7/1999 20:29",
+		"iconOrThumbnailOfSize:" : "ar 7/8/2006 21:01",
+		"scaledIntoFormOfSize:" : "mt 8/25/2015 10:43",
+		"scaledIntoFormOfSize:smoothing:" : "mt 12/10/2015 09:43",
+		"stencil" : "LB 8/26/2002 18:08" } }

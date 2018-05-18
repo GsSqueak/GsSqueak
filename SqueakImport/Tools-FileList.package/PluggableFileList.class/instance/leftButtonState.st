@@ -1,0 +1,4 @@
+accepting/cancelling
+leftButtonState
+
+	^true
