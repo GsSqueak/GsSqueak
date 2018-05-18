@@ -402,11 +402,12 @@ if [ $FROM_STAGE -le 7 ]; then
 
   loadPackage -S '`System-Object Storage`'
   loadPackage -S '`Collections-Streams`'
-  loadPackage -S Files
-  loadPackage -S Tools-FileList
-  loadPackage -SD Graphics-Text
-  loadPackage -SD Graphics-Files
-  loadPackage -SD Graphics-Fonts
+  loadPackage -S '`Files`'
+  loadPackage -S '`Tools-FileList`'
+  loadPackage -S '`Graphics-Text`'
+  loadPackage -S '`Graphics-SegmentScanner`'
+  loadPackage -S '`Graphics-Files`'
+  loadPackage -SD '`Graphics-Fonts`'
   
 startTopaz $name -l >/dev/null 2>&1 << EOF
 login
