@@ -1,2 +1,0 @@
-file stream compatibility
-readOnly
