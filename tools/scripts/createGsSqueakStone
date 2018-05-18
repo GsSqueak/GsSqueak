@@ -248,7 +248,7 @@ if [ $FROM_STAGE -le 3 ]; then
 
   loadPackage -S '`Collections-Abstract`'
   loadPackage -S '`Collections-Support`'
-  loadPackage -SD SqCollectionLiterals
+  loadPackage -S SqCollectionLiterals
   loadPackage -S SqCollections
   loadPackage -S '`Collections-Sequenceable`'
   loadPackage -S '`Collections-Heap`'
@@ -402,8 +402,23 @@ if [ $FROM_STAGE -le 7 ]; then
 
   loadPackage -S '`System-Object Storage`'
   loadPackage -S '`Collections-Streams`'
-  loadPackage -SD Files
-  loadPackage -SD Tools-FileList
+  loadPackage -S Files
+  loadPackage -S Tools-FileList
+  loadPackage -SD Graphics-Text
+  loadPackage -SD Graphics-Files
+  loadPackage -SD Graphics-Fonts
+  
+startTopaz $name -l >/dev/null 2>&1 << EOF
+login
+run
+Workspace evaluate: 'Preferences setSystemFontTo: (StrikeFont createDejaVu: 14)'
+%
+commit
+logout
+exit
+EOF
+  
+  loadPackage -SD Tools-Menus
   loadPackage -SD Morphic
 
 startTopaz $name -l >/dev/null 2>&1 << EOF
