@@ -1,4 +1,4 @@
 accessing
 comment
 
-	^ comment ifNil: ['']
+	^ self loadedComment ifNil: [self defaultComment]

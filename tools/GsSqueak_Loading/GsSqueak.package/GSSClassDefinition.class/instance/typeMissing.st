@@ -1,4 +1,0 @@
-missing properties
-typeMissing
-
-	^ nil

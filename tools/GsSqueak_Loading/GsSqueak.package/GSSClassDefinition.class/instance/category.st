@@ -1,4 +1,4 @@
 accessing
 category
 	
-	^ category
+	^ self loadedCategory ifNil: [self defaultCategory]

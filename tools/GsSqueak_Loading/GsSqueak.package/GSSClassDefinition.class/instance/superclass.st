@@ -1,4 +1,4 @@
 accessing
 superclass
 	
-	^ superclass
+	^ self loadedSuperclass ifNil: [self defaultSuperclass]

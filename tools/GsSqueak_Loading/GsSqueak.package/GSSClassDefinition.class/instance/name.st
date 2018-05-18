@@ -1,4 +1,4 @@
 accessing
 name
 
-	^ name ifNotNil: [name asSymbol]
+	^ self loadedName ifNil: [self defaultName]

@@ -1,4 +1,4 @@
 accessing
 instVars
 	
-	^ instVars ifNil: [Array new]
+	^ self loadedInstVars ifNil: [self defaultInstVars]

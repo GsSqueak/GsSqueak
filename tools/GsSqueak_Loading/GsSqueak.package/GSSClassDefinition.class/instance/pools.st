@@ -1,4 +1,4 @@
 accessing
 pools
-	
-	^ pools
+
+	^ self loadedPools ifNil: [self defaultPools]

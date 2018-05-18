@@ -1,5 +1,8 @@
 utility
 fileout
 
+	self trimProperties.
 	self trimMethods.
-	super fileout
+	self isUnnecessary
+		ifTrue: [self deleteFolder]
+		ifFalse: [super fileout]

@@ -1,4 +1,4 @@
 accessing
 classVars
 	
-	^ classVars
+	^ self loadedClassVars ifNil: [self defaultClassVars]

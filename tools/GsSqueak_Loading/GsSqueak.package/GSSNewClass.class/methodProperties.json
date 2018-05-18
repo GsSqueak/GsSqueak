@@ -2,12 +2,4 @@
 	"class" : {
 		"directoryExtensions" : "sl 5/15/2018 13:13" },
 	"instance" : {
-		"categoryMissing" : "sl 5/15/2018 12:39",
-		"classInstVars" : "sl 5/15/2018 12:47",
-		"classVars" : "sl 5/15/2018 12:47",
-		"comment" : "sl 5/15/2018 12:49",
-		"commentStamp" : "sl 5/15/2018 12:49",
-		"instVars" : "sl 5/15/2018 12:47",
-		"pools" : "sl 5/15/2018 12:49",
-		"superclassMissing" : "sl 5/15/2018 12:40",
-		"type" : "sl 5/15/2018 12:49" } }
+		"verifyProperties" : "sl 5/18/2018 10:39" } }

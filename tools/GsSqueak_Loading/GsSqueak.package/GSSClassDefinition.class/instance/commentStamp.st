@@ -1,4 +1,4 @@
 accessing
 commentStamp
 	
-	^ commentStamp ifNil: ['']
+	^ self loadedCommentStamp ifNil: [self defaultCommentStamp]

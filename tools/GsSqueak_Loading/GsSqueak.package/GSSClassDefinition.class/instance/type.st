@@ -1,4 +1,4 @@
 accessing
 type
 	
-	^ type
+	^ self loadedType ifNil: [self defaultType]

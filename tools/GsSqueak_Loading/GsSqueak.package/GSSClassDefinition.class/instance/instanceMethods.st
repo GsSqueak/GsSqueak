@@ -1,4 +1,4 @@
 accessing
 instanceMethods
-	
-	^ instanceMethods ifNil: [instanceMethods := OrderedCollection new]
+
+	^ self loadedInstanceMethods ifNil: [self defaultInstanceMethods]

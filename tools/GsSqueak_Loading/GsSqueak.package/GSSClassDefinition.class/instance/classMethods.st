@@ -1,4 +1,4 @@
 accessing
 classMethods
-	
-	^ classMethods ifNil: [classMethods := OrderedCollection new]
+
+	^ self loadedClassMethods ifNil: [self defaultClassMethods]

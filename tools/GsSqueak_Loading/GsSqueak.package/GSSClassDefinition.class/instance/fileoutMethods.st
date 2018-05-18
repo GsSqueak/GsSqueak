@@ -1,5 +1,5 @@
 fileout
 fileoutMethods
 
-	self fileoutMethods: instanceMethods to: 'instance'.
-	self fileoutMethods: classMethods to: 'class'
+	self fileoutMethods: self loadedInstanceMethods to: 'instance'.
+	self fileoutMethods: self loadedClassMethods to: 'class'

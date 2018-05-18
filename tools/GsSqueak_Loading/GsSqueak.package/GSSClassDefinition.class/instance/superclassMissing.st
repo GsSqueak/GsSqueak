@@ -1,4 +1,0 @@
-missing properties
-superclassMissing
-
-	^ nil
