@@ -1,6 +1,6 @@
 {
 	"category" : "MockClasses",
-	"commentStamp" : "ul 2/20/2015 09:44",
 	"instvars" : [
 		 ],
-	"name" : "MIDIFileReader" }
+	"name" : "MIDIFileReader",
+	"super" : "Object" }
