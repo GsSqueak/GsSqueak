@@ -34,8 +34,8 @@ load_package() {
   done
   shift $((OPTIND-1))
 
-  PACKAGE_NAME=$1
-  PACKAGE_PATH=$2
+  PACKAGE_NAME="$1"
+  PACKAGE_PATH="$2"
 
   # if package is marked to be debugged by auto debug, set debug option for this package to true
   if [[ $DEBUG_PACKAGE = $PACKAGE_NAME ]]; then
@@ -48,7 +48,7 @@ load_package() {
     echo -en "[ ${YELLOW}PENDING${NC} ] Load $PACKAGE_NAME " 
   fi
 
-  loadPackage $SQUEAK_IMPORT $DEBUG $PACKAGE_NAME $PACKAGE_PATH
+  loadPackage $SQUEAK_IMPORT $DEBUG "$PACKAGE_NAME" "$PACKAGE_PATH"
 
   if [[ $AUTO_DEBUG = false && $DEBUG_PACKAGE = ${PACKAGE_NAME} ]]; then
     echo -e "[ ${GREEN}OK${NC} ] Exit after debugging package"
@@ -427,7 +427,7 @@ EOF
 
   load_package -S '`CompiledMethod`'
   load_package -S '`SqWeak`'
-  load_package -S '`System-Object Events`'
+  load_package -SD '`System-Object Events`'
   load_package -S '`System-Change Notification`'
   load_package -S '`Kernel-Models`'
   load_package -S '`System-FileRegistry`'
@@ -485,7 +485,7 @@ if [ $FROM_STAGE -le 6 ]; then
 
   load_package -S '`GraphicsLibrary`'
   load_package -S '`VMMaker`'
-  load_package -S '`Graphics-Display Objects`'
+  load_package -SD '`Graphics-Display Objects`'
 
   load_package -S SqKernelTestsNumbers
   load_package -S '`KernelTests-Objects`'
