@@ -50,6 +50,11 @@ load_package() {
 
   loadPackage $SQUEAK_IMPORT $DEBUG $PACKAGE_NAME $PACKAGE_PATH
 
+  if [[ $AUTO_DEBUG = false && $DEBUG_PACKAGE = ${PACKAGE_NAME} ]]; then
+    echo -e "[ ${GREEN}OK${NC} ] Exit after debugging package"
+    exit 0
+  fi
+
   if [ $? = 0 ]; then
     echo -e "\r[ ${GREEN}OK${NC} ] Load $PACKAGE_NAME"
   else 
@@ -69,6 +74,7 @@ load_package() {
 }
 
 run_topaz() {
+  NAME=$1
   echo -en "[ ${YELLOW}PENDING${NC} ] Run topaz code"
 startTopaz $NAME -l >/dev/null 2>&1 << EOF
 `cat`
@@ -544,5 +550,4 @@ fi
 
 
 echo "self error: 'the author is confused'"
-
 
