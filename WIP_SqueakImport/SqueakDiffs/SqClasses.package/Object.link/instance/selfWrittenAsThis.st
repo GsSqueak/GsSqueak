@@ -1,0 +1,1 @@
+*SqClasses-scriptingselfWrittenAsThis	^self

@@ -1,0 +1,1 @@
+*SqClasses-testingisText	^ false

@@ -1,0 +1,4 @@
+{
+	"gemstoneName" : "ExecBlock",
+	"name" : "BlockClosure",
+	"super" : "Object" }

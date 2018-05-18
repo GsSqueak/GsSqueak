@@ -1,0 +1,1 @@
+*SqNumbers-comparinghash	^self

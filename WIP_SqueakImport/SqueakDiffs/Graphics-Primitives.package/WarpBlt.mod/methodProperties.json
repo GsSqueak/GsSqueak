@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"current" : "tpr 3/15/2013 18:44",
+		"rotate:degrees:center:scaleBy:smoothing:" : "tpr 6/7/2016 14:59",
+		"test1" : "fbs 7/12/2013 20:51",
+		"test12" : "fbs 7/12/2013 20:51",
+		"test3" : "nice 12/27/2009 05:17",
+		"test4" : "",
+		"test5" : "fbs 7/12/2013 20:51",
+		"toForm:" : "" },
+	"instance" : {
+		"cellSize" : "",
+		"cellSize:" : "nice 2/1/2011 02:38",
+		"copyQuad:toRect:" : "",
+		"deltaFrom:to:nSteps:" : "",
+		"mixPix:sourceMap:destMap:" : "di 6/24/97 00:09",
+		"rgbMap:from:to:" : "ul 11/2/2010 03:04",
+		"sourceForm:destRect:" : "jm 5/2/1999 07:09",
+		"sourceQuad:destRect:" : "",
+		"startFrom:to:offset:" : "",
+		"warpBits" : "nk 11/3/2004 09:26",
+		"warpBitsSmoothing:sourceMap:" : "eem 5/25/2017 15:21" } }

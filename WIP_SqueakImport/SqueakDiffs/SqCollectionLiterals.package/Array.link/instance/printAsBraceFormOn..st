@@ -1,0 +1,1 @@
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-printingprintAsBraceFormOn: aStream	aStream nextPut: ${.	self do: [:el | el printOn: aStream] separatedBy: [ aStream nextPutAll: ' . '].	aStream nextPut: $}

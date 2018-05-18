@@ -1,0 +1,3 @@
+{
+	"name" : "DoubleByteString",
+	"super" : "WideString" }

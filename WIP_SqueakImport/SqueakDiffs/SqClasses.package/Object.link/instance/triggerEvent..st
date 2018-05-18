@@ -1,0 +1,1 @@
+*System-Object Events-accessing-triggeringtriggerEvent: anEventSelectorwithArguments: anArgumentList    ^(self actionForEvent: anEventSelector)        valueWithArguments: anArgumentListh: anObject)		ifNotHandled: anExceptionBlockvent: anEventSelector		ifAbsent: [^anExceptionBlock value]) value

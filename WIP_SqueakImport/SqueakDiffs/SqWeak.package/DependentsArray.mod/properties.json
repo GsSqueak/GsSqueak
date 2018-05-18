@@ -1,0 +1,5 @@
+{
+	"category" : "SqWeak-Kernel-Models",
+	"name" : "DependentsArray",
+	"super" : "Array",
+	"type" : "normal" }
