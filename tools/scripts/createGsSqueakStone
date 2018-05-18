@@ -95,7 +95,7 @@ restore_backup() {
   todeRestore $STONE_NAME $FILE_NAME >/dev/null 2>&1
 
   if [[ $? = 0 ]]; then
-    echo -e "[ ${GREEN}OK${NC} ] Restore backup $FILE_NAME"
+    echo -e "\r[ ${GREEN}OK${NC} ] Restore backup $FILE_NAME"
   else
     echo -e "\r[ ${RED}ERRORED${NC} ] Restore backup $FILE_NAME"
     exit 1
