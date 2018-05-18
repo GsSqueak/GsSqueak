@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"LexLevel" ],
 	"commentStamp" : "eem 5/4/2017 17:26",
 	"instvars" : [
 		"gsBlock",
