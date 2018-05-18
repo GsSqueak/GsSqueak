@@ -2,6 +2,9 @@ class initialization
 initialize
 	"FastInflateStream initialize"
 	| low high |
+	
+	"Ensure InflateStream is initialized first"
+	InflateStream initialize.
 
 	"Init literal/length map"
 	low := #(3 4 5 6 7 8 9 10 11 13 15 17 19 23 27 31 35 43 51 59 67 83 99 115 131 163 195 227 258 ).
