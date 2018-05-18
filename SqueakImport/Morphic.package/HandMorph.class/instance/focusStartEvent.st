@@ -1,0 +1,3 @@
+genie-stubs
+focusStartEvent
+	^nil

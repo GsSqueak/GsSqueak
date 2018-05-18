@@ -1,0 +1,14 @@
+{
+	"category" : "Compression-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CRCError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

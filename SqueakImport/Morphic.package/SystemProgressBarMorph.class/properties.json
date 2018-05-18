@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "laza 4/9/2004 11:47",
+	"instvars" : [
+		"barSize",
+		"barColor" ],
+	"name" : "SystemProgressBarMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

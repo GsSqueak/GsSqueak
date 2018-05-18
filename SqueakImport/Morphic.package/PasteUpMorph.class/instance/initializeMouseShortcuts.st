@@ -1,0 +1,4 @@
+initialization
+initializeMouseShortcuts
+	
+	self addMouseShortcuts.

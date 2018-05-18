@@ -1,0 +1,16 @@
+{
+	"category" : "Graphics-Fonts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"IsoToSqueakMap" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fullWidth",
+		"kernPairs",
+		"ranges" ],
+	"name" : "HostFont",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "StrikeFont",
+	"type" : "normal" }

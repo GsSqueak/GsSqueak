@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mouseOverMorphs",
+		"enteredMorphs",
+		"overMorphs",
+		"leftMorphs" ],
+	"name" : "MouseOverHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,25 @@
+{
+	"category" : "Graphics-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultPaperSize",
+		"DefaultTextPrinter" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"form",
+		"para",
+		"paperSize",
+		"landscape",
+		"resolution",
+		"depth",
+		"offset",
+		"columns",
+		"docTitle",
+		"noHeader",
+		"noFooter" ],
+	"name" : "TextPrinter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

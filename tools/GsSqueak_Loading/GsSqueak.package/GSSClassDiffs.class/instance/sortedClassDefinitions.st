@@ -1,4 +1,6 @@
 dependency sorting
 sortedClassDefinitions
 
-	^ MCDependencySorter sortItems: self classDefinitions values
+	| sorter |
+	sorter :=MCDependencySorter sortItems: self classDefinitions values.
+	^ sorter

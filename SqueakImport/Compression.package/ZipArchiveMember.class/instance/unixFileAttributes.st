@@ -1,0 +1,3 @@
+accessing
+unixFileAttributes
+	^self mapPermissionsToUnix: externalFileAttributes.

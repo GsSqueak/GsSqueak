@@ -1,0 +1,3 @@
+enumeration
+directoryTreeDo: oneArgBlock
+	self asFileDirectory directoryTreeDo: oneArgBlock

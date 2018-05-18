@@ -1,0 +1,14 @@
+{
+	"category" : "Files-System",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 12/22/2009 23:09",
+	"instvars" : [
+		"files" ],
+	"name" : "ExpandedSourceFileArray",
+	"pools" : [
+		 ],
+	"super" : "SourceFileArray",
+	"type" : "normal" }

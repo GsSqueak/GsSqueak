@@ -1,0 +1,4 @@
+properties-setting
+setFileTypeToObject
+
+	"ignore"

@@ -505,6 +505,21 @@ if [ $FROM_STAGE -le 7 ]; then
   load_package -S '`Collections-Streams`'
   load_package -SD Files
   load_package -SD Tools-FileList
+  load_package -S '`Graphics-Text`'
+  load_package -S '`Graphics-SegmentScanner`'
+  load_package -S '`Graphics-Files`'
+  load_package -SD '`Graphics-Fonts`'
+
+startTopaz $name -l >/dev/null 2>&1 << EOF
+login
+run
+Workspace evaluate: 'Preferences setSystemFontTo: (StrikeFont createDejaVu: 14)'
+%
+commit
+logout
+exit
+EOF
+  
   load_package -SD Morphic
 
 run_topaz $name << EOF

@@ -1,9 +1,10 @@
 loading
 loadOriginalClassesFrom: aFileDirectory
 
-	| categoriesToLoad categoryFile |
-	categoryFile := aFileDirectory entryAt: 'categoriesToLoad' ifAbsent: [^ self].
-	categoriesToLoad := self loadCategoriesToLoadFrom: categoryFile.
-	categoriesToLoad do: [:category |
-		(SystemOrganization listAtCategoryNamed: category) do: [:className |
-			self loadOriginalClassNamed: className]]
+	| categoriesToLoad classesToLoad |
+	categoriesToLoad := self loadCategoriesToLoadFrom: aFileDirectory.
+	classesToLoad := (categoriesToLoad gather: [:category |
+		(SystemOrganization listAtCategoryNamed: category)]) asSet.
+	classesToLoad addAll: (self loadClassesToLoadFrom: aFileDirectory).
+	classesToLoad removeAll: (self loadClassesNotToLoadFrom: aFileDirectory).
+	classesToLoad do: [:className | self loadOriginalClassNamed: className]

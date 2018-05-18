@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"compare:with:min:" : "ar 12/29/1999 20:24",
+		"deflateBlock" : "nice 3/31/2017 23:08",
+		"deflateBlock:chainLength:goodMatch:" : "ar 12/29/1999 18:05",
+		"encodeLiteral:" : "ar 12/29/1999 18:04",
+		"encodeMatch:distance:" : "ar 12/29/1999 18:04",
+		"findMatch:lastLength:lastMatch:chainLength:goodMatch:" : "ar 12/29/1999 17:45",
+		"flush" : "ar 12/29/1999 17:30",
+		"flushBlock" : "ar 12/28/1999 17:37",
+		"goodMatchLength" : "ar 12/29/1999 20:00",
+		"hashChainLength" : "ar 12/29/1999 20:00",
+		"initialize" : "ar 12/31/1999 18:00",
+		"initializeHashTables" : "ar 12/29/1999 17:32",
+		"insertStringAt:" : "ar 12/29/1999 17:46",
+		"moveContentsToFront" : "ar 12/29/1999 17:50",
+		"next:putAll:startingAt:" : "ul 8/14/2016 20:38",
+		"nextPutAll:" : "nice 12/7/2009 09:44",
+		"on:" : "ar 12/29/1999 17:33",
+		"on:from:to:" : "ar 12/28/1999 17:34",
+		"pastEndPut:" : "ar 12/28/1999 17:35",
+		"updateHash:" : "ar 12/29/1999 17:48",
+		"updateHashAt:" : "ar 12/29/1999 17:47",
+		"updateHashTable:delta:" : "ar 2/2/2001 15:47",
+		"validateMatchAt:from:to:" : "ar 12/28/1999 17:43" } }

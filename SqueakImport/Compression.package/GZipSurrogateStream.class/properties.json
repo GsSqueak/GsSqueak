@@ -1,0 +1,17 @@
+{
+	"category" : "Compression-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 3/24/2010 07:36",
+	"instvars" : [
+		"gZipStream",
+		"zippedFileStream",
+		"bufferStream",
+		"positionThusFar" ],
+	"name" : "GZipSurrogateStream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

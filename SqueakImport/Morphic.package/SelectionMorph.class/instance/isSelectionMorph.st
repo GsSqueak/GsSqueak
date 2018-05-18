@@ -1,0 +1,3 @@
+testing
+isSelectionMorph
+	^true

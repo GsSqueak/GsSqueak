@@ -1,0 +1,14 @@
+{
+	"category" : "Graphics-Fonts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IdentityGlyphMap",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

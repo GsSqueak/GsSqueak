@@ -1,0 +1,3 @@
+private
+beginningOfText
+	^1

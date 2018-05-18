@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Text Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jmv 8/8/2009 15:10",
+	"instvars" : [
+		"styler" ],
+	"name" : "SmalltalkEditor",
+	"pools" : [
+		 ],
+	"super" : "TextEditor",
+	"type" : "normal" }

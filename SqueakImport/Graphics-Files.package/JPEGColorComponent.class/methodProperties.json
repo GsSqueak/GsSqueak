@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"acTableIndex" : "tao 10/23/97 12:21",
+		"acTableIndex:" : "tao 10/23/97 12:20",
+		"dcTableIndex" : "tao 10/23/97 12:21",
+		"dcTableIndex:" : "tao 10/23/97 12:20",
+		"heightInBlocks" : "tao 10/23/97 12:11",
+		"heightInBlocks:" : "tao 10/23/97 12:10",
+		"id" : "tao 10/23/97 12:09",
+		"id:" : "tao 10/23/97 12:09",
+		"initializeSampleStreamBlocks:" : "tao 10/23/97 12:24",
+		"mcuWidth:mcuHeight:dctSize:" : "ar 3/4/2001 01:19",
+		"nextSample" : "ar 3/4/2001 22:16",
+		"priorDCValue:" : "tao 10/23/97 12:15",
+		"qTableIndex" : "tao 10/23/97 12:43",
+		"qTableIndex:" : "tao 10/23/97 12:11",
+		"resetSampleStream" : "tao 10/23/97 12:24",
+		"totalMcuBlocks" : "tao 10/23/97 12:18",
+		"updateDCValue:" : "tao 10/23/97 12:16",
+		"widthInBlocks" : "tao 10/23/97 12:11",
+		"widthInBlocks:" : "tao 10/23/97 12:10" } }

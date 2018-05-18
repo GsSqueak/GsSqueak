@@ -1,0 +1,14 @@
+{
+	"category" : "Files-Directories",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DirectoryEntryFile",
+	"pools" : [
+		 ],
+	"super" : "DirectoryEntry",
+	"type" : "normal" }

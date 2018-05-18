@@ -12,5 +12,4 @@ newMethodFromSqueakString: aString inEnv: env classified: aProtocol
   methDict at: gsMethod selector put: gsMethod.
   self nonProtectedPersistentMethodDictForEnv: env put: methDict.
   self _codeChangedForEnv: env.
-  self classify: gsMethod selector under: aProtocol environmentId: env.
-  System commit
+  self classify: gsMethod selector under: aProtocol environmentId: env

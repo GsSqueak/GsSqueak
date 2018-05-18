@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"compressFile:" : "sw 11/30/2002 00:11",
+		"fileReaderServicesForFile:suffix:" : "st 9/18/2004 23:44",
+		"initialize" : "ar 9/5/2010 08:39",
+		"serviceCompressFile" : "KR 3/22/2008 16:28",
+		"services" : "nk 11/26/2002 13:10",
+		"unload" : "ar 9/5/2010 08:39" },
+	"instance" : {
+		"writeFooter" : "nk 2/19/2004 08:31",
+		"writeHeader" : "ar 12/30/1999 11:41" } }

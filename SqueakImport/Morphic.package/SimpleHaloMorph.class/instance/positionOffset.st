@@ -1,0 +1,4 @@
+accessing
+positionOffset
+
+	^ positionOffset

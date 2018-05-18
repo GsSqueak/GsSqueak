@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"timeStamp",
+		"source" ],
+	"name" : "MorphicEvent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

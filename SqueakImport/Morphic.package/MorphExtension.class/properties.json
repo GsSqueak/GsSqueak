@@ -1,0 +1,24 @@
+{
+	"category" : "Morphic-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"locked",
+		"visible",
+		"sticky",
+		"balloonText",
+		"balloonTextSelector",
+		"externalName",
+		"isPartsDonor",
+		"actorState",
+		"player",
+		"eventHandler",
+		"otherProperties" ],
+	"name" : "MorphExtension",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

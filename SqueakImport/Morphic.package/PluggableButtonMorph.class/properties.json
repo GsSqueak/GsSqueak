@@ -1,0 +1,38 @@
+{
+	"category" : "Morphic-Pluggable Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GradientButton",
+		"RoundedButtonCorners" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"model",
+		"label",
+		"font",
+		"getStateSelector",
+		"actionSelector",
+		"getLabelSelector",
+		"getMenuSelector",
+		"shortcutCharacter",
+		"askBeforeChanging",
+		"triggerOnMouseDown",
+		"offColor",
+		"onColor",
+		"feedbackColor",
+		"showSelectionFeedback",
+		"allButtons",
+		"arguments",
+		"argumentsProvider",
+		"argumentsSelector",
+		"style",
+		"hoverColor",
+		"borderColor",
+		"textColor",
+		"labelOffset",
+		"wantsGradient" ],
+	"name" : "PluggableButtonMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

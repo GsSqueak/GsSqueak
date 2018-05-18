@@ -2,4 +2,8 @@
 	"class" : {
 		"directoryExtensions" : "sl 5/15/2018 13:12" },
 	"instance" : {
-		"requirements" : "sl 5/16/2018 10:21" } }
+		"gemstoneName" : "sl 5/17/2018 10:34",
+		"gemstoneNameMissing" : "sl 5/17/2018 10:33",
+		"installInto:" : "sl 5/17/2018 14:24",
+		"loadPropertiesFrom:" : "sl 5/17/2018 10:33",
+		"requirements" : "sl 5/17/2018 10:58" } }

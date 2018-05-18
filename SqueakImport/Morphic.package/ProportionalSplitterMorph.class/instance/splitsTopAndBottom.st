@@ -1,0 +1,4 @@
+direction
+splitsTopAndBottom
+
+	^ splitsTopAndBottom

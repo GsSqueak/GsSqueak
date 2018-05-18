@@ -1,0 +1,20 @@
+{
+	"category" : "Tools-FileList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 3/30/2017 17:30",
+	"instvars" : [
+		"accepted",
+		"fileFilterBlock",
+		"canAcceptBlock",
+		"validateBlock",
+		"newFiles",
+		"prompt",
+		"resultBlock" ],
+	"name" : "PluggableFileList",
+	"pools" : [
+		 ],
+	"super" : "FileList",
+	"type" : "normal" }

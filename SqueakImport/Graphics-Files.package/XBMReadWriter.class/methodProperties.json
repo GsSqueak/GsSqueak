@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"initialize" : "nice 12/26/2009 22:30",
+		"typicalFileExtensions" : "nk 7/16/2003 17:57" },
+	"instance" : {
+		"nextImage" : "wdc 2/1/1999 07:15",
+		"parseByteValue" : "nice 2/23/2013 19:06",
+		"readHeader" : "ul 11/15/2010 10:03",
+		"skipCComments" : "nk 7/16/2003 18:15",
+		"understandsImageFormat" : "nk 7/16/2003 18:18" } }

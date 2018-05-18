@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Basic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mk 8/16/2005 11:58",
+	"instvars" : [
+		 ],
+	"name" : "TransformationMorph",
+	"pools" : [
+		 ],
+	"super" : "TransformMorph",
+	"type" : "normal" }

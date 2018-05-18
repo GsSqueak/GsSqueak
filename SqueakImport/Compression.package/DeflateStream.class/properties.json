@@ -1,0 +1,18 @@
+{
+	"category" : "Compression-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hashHead",
+		"hashTail",
+		"hashValue",
+		"blockPosition",
+		"blockStart" ],
+	"name" : "DeflateStream",
+	"pools" : [
+		"ZipConstants" ],
+	"super" : "WriteStream",
+	"type" : "normal" }

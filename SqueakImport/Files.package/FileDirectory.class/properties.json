@@ -1,0 +1,16 @@
+{
+	"category" : "Files-Directories",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultDirectory",
+		"DirectoryClass",
+		"StandardMIMEMappings" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"pathName" ],
+	"name" : "FileDirectory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+constants
+defaultFixedFont
+
+	^ DefaultFixedTextStyle defaultFont
