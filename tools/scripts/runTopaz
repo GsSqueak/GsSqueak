@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Define colors
+YELLOW='\033[1;33m'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
+NAME=$1
+
+echo -en "[ ${YELLOW}PENDING${NC} ] Run topaz code"
+startTopaz $NAME -l >/dev/null 2>&1 << EOF
+`cat`
+EOF
+echo -e "\r[ ${GREEN}OK${NC} ] Run topaz code"
