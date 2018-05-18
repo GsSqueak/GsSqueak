@@ -248,7 +248,7 @@ if [ $FROM_STAGE -le 3 ]; then
 
   loadPackage -S '`Collections-Abstract`'
   loadPackage -S '`Collections-Support`'
-  loadPackage -S SqCollectionLiterals
+  loadPackage -SD SqCollectionLiterals
   loadPackage -S SqCollections
   loadPackage -S '`Collections-Sequenceable`'
   loadPackage -S '`Collections-Heap`'
@@ -384,9 +384,9 @@ if [ $FROM_STAGE -le 6 ]; then
   loadPackage -S SqKernelTestsNumbers
   loadPackage -S '`KernelTests-Objects`'
   loadPackage -S '`CollectionsTests-Text`'
-  
+
   loadPackage -S System-Recovery
-  
+
   todeBackup $name stage-6.dbf >/dev/null 2>&1
 
   if [ $TILL_STAGE = 6 ]; then
@@ -399,7 +399,7 @@ if [ $FROM_STAGE -le 7 ]; then
   if [ $FROM_STAGE = 7 ]; then
     todeRestore $name stage-6.dbf >/dev/null 2>&1
   fi
-  
+
   loadPackage -S '`System-Object Storage`'
   loadPackage -S '`Collections-Streams`'
   loadPackage -SD Files

@@ -8,11 +8,11 @@ digitDiv: arg neg: ng
 	l <= 0 ifTrue: [^ Array with: 0 with: self].
 	"shortcut against #highBit"
 	d := 8 - arg lastDigit highBitOfByte.
-	div := arg digitLshift: d.
+	div := arg bitShift: d.
 	divDigitLength := div digitLength + 1.
 	div := div growto: divDigitLength.
 	"shifts so high order word is >=128"
-	rem := self digitLshift: d.
+	rem := self bitShift: d.
 	rem digitLength = self digitLength ifTrue: [rem := rem growto: self digitLength + 1].
 	remDigitLength := rem digitLength.
 	"makes a copy and shifts"
