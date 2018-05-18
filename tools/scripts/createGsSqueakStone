@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -e
 set -o pipefail
 
 restore=false
@@ -12,6 +11,91 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
+
+# functions
+load_package() {
+  load_package_usage() { echo "load_package [-S] [-D] <package_name>"; exit; }
+
+  local OPTIND package_name opt
+
+  while getopts "SD" opt; do
+    case "${opt}" in
+      S)
+        SQUEAK_IMPORT=-S
+        ;;
+      D)
+        DEBUG=-D
+        ;;
+      *)
+        load_package_usage
+        exit 1
+        ;;
+    esac
+  done
+  shift $((OPTIND-1))
+
+  PACKAGE_NAME=$1
+  PACKAGE_PATH=$2
+
+  # if package is marked to be debugged by auto debug, set debug option for this package to true
+  if [[ $DEBUG_PACKAGE = $PACKAGE_NAME ]]; then
+    DEBUG=-D
+  fi
+
+  if [[ $DEBUG = -D ]]; then
+    echo -en "[ ${YELLOW}DEBUG${NC} ] Load $PACKAGE_NAME"
+  else
+    echo -en "[ ${YELLOW}PENDING${NC} ] Load $PACKAGE_NAME " 
+  fi
+
+  loadPackage $SQUEAK_IMPORT $DEBUG $PACKAGE_NAME $PACKAGE_PATH
+
+  if [ $? = 0 ]; then
+    echo -e "\r[ ${GREEN}OK${NC} ] Load $PACKAGE_NAME"
+  else 
+    echo -e "\r[ ${RED}ERRORED${NC} ] Load $PACKAGE_NAME"
+
+    if [ $AUTO_DEBUG = true ]; then
+      echo -e "[ ${GREEN}OK${NC} ] Restart from STAGE $CURRENT_STAGE and load package $PACKAGE_NAME in debug mode"
+      AUTO_DEBUG=false DEBUG_PACKAGE="${PACKAGE_NAME}" createGsSqueakStone -f $CURRENT_STAGE -A $name
+      
+      exit $?
+    else
+      echo -e "\r[ ${RED}ERRORED${NC} ] Abort because auto-debug is disabled" 
+      exit 1
+    fi
+  fi
+  
+}
+
+run_topaz() {
+  echo -en "[ ${YELLOW}PENDING${NC} ] Run topaz code"
+startTopaz $NAME -l >/dev/null 2>&1 << EOF
+`cat`
+EOF
+  echo -e "\r[ ${GREEN}OK${NC} ] Run topaz code"
+}
+
+restore_backup() {
+  restore_backup_usage() { echo "restore_backup <stone_name> <file_name>"; exit; }
+
+  : "${1:?Need to set STONE_NAME non-empty}"
+  : "${2:?Need to set FILE_NAME non-empty}"
+
+  STONE_NAME=$1
+  FILE_NAME=$2
+
+  echo -en "[ ${YELLOW}PENDING${NC} ] Restore backup $FILE_NAME"
+  todeRestore $STONE_NAME $FILE_NAME >/dev/null 2>&1
+
+  if [[ $? = 0 ]]; then
+    echo -e "[ ${GREEN}OK${NC} ] Restore backup $FILE_NAME"
+  else
+    echo -e "\r[ ${RED}ERRORED${NC} ] Restore backup $FILE_NAME"
+    exit 1
+  fi
+}
+
 # Available stages are
 # 0 - Import from scratch by creating a stone
 # 1 -
@@ -22,8 +106,10 @@ NC='\033[0m' # No Color
 # 6 -
 FROM_STAGE=0
 TILL_STAGE=7 # equals numeber of current stages
+CURRENT_STAGE=0
+AUTO_DEBUG=true
 
-while getopts f:t: opt; do
+while getopts f:t:A opt; do
 	case $opt in
     f)
       echo "Starting from stage $OPTARG"
@@ -32,6 +118,10 @@ while getopts f:t: opt; do
     t)
       echo "Importing till stage $OPTARG"
       TILL_STAGE=$OPTARG
+      ;;
+    A)
+      # disable auto debug
+      AUTO_DEBUG=false
       ;;
     /?)
       echo "Invalid option: -$OPTARG" >&2
@@ -66,9 +156,15 @@ export name
 if [ $FROM_STAGE -le 1 ]; then
   # start import from scratch by creating a stone
   if [ $FROM_STAGE = 0 ]; then
-    echo -en "[ ${YELLOW}PENDING${NC} ] Create new stone named $name"
+    echo -en "[ ${YELLOW}PENDING${NC} ] Create stone $name"
     createStone -f $name 3.5.0 >/dev/null 2>&1 # creates a backup called tode.bdf
-    echo -e "\r[ ${GREEN}OK${NC} ] Create new stone named $name"
+
+    if [[ $? = 0 ]]; then
+      echo -e "\r[ ${GREEN}OK${NC} ] Create stone $name"
+    else
+      echo -e "\r[ ${RED}ERRORED${NC} ] Create stone $name"
+      exit 1
+    fi
     echo -e "[ ${GREEN}OK${NC} ] STAGE 0"
 
     if [ $TILL_STAGE = 0 ]; then
@@ -77,12 +173,11 @@ if [ $FROM_STAGE -le 1 ]; then
     fi
   # load backup created by tode in order to skip stone creation
   elif [ $FROM_STAGE = 1 ]; then
-    echo -en "[ ${YELLOW}PENDING${NC} ] Restore stone named $name from tODE backup"
-    todeRestore $name tode.dbf >/dev/null 2>&1
-    echo -e "\e[0K\r [ ${GREEN}OK${NC} ] Restore stone named $name from tODE backup"
+    CURRENT_STAGE=1
+    restore_backup $name tode.dbf 
   fi
 
-startTopaz $name -l >/dev/null 2>&1 << EOF
+run_topaz $name << EOF
 set u SystemUser p swordfish
 login
 run
@@ -120,16 +215,16 @@ logout
 exit
 EOF
 
-loadPackage BPBugFixes "tools/bugfixes"
-loadPackage MCEnvSwitch "tools/MCEnvSwitch"
-loadPackage SqueakParser "parser"
-loadPackage SqSuperclasses "tools/superclasses"
-loadPackage SqueakEnvironments "tools/SqueakEnvironments"
-loadPackage -S SqContext
-loadPackage -S SqClassCreation
-loadPackage Workspace "tools"
-loadPackage -S Env0Extensions
-loadPackage -S BPGsTests
+load_package BPBugFixes "tools/bugfixes"
+load_package MCEnvSwitch "tools/MCEnvSwitch"
+load_package SqueakParser "parser"
+load_package SqSuperclasses "tools/superclasses"
+load_package SqueakEnvironments "tools/SqueakEnvironments"
+load_package -S SqContext
+load_package -S SqClassCreation
+load_package Workspace "tools"
+load_package -S Env0Extensions
+load_package -S BPGsTests
 
 # create backup for that stage
 todeBackup $name stage-1.dbf >/dev/null 2>&1
@@ -144,11 +239,12 @@ fi
 
 
 if [ $FROM_STAGE -le 2 ]; then
+  CURRENT_STAGE=2
   if [ $FROM_STAGE = 2 ]; then
-    todeRestore $name stage-1.dbf >/dev/null 2>&1
+    restore_backup $name stage-1.dbf 
   fi
 
-startTopaz $name -l >/dev/null 2>&1 << EOF
+run_topaz $name << EOF
 login
 run
 MCEnv set: 7.
@@ -161,11 +257,11 @@ logout
 exit
 EOF
 
-loadPackage EnvironmentsEnv7 "tools/SqueakEnvironments"
-loadPackage -S SqContext7
-loadPackage -S SqBooleans
-loadPackage -S SqClasses
-startTopaz $name -l >/dev/null 2>&1 << EOF
+load_package EnvironmentsEnv7 "tools/SqueakEnvironments"
+load_package -S SqContext7
+load_package -S SqBooleans
+load_package -S SqClasses
+run_topaz $name << EOF
 login
 run
 (SqueakEnvironment at: #ProtoObject) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
@@ -175,9 +271,9 @@ logout
 exit
 EOF
 
-loadPackage -S SqExceptions
-loadPackage -S SqNumbers
-startTopaz $name -l >/dev/null 2>&1 << EOF
+load_package -S SqExceptions
+load_package -S SqNumbers
+run_topaz $name << EOF
 login
 run
 (SqueakEnvironment at: #Magnitude) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
@@ -192,10 +288,10 @@ logout
 exit
 EOF
 
-loadPackage -S SqBlock
-loadPackage -S SqBlock
+load_package -S SqBlock
+load_package -S SqBlock
 
-startTopaz $name -l >/dev/null 2>&1 << EOF
+run_topaz $name << EOF
 login
 run
 MCEnv useSqueakParser.
@@ -205,10 +301,10 @@ logout
 exit
 EOF
 
-loadPackage -S SqKernel
-loadPackage -S SqCharacter
+load_package -S SqKernel
+load_package -S SqCharacter
 
-startTopaz $name -l >/dev/null 2>&1 << EOF
+run_topaz $name << EOF
 login
 run
 SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: anObject' inEnv: 7.
@@ -242,19 +338,20 @@ todeBackup $name stage-2.dbf >/dev/null 2>&1
 fi
 
 if [ $FROM_STAGE -le 3 ]; then
+  CURRENT_STAGE=3
   if [ $FROM_STAGE = 3 ]; then
-    todeRestore $name stage-2.dbf >/dev/null 2>&1
+    restore_backup $name stage-2.dbf 
   fi
 
-  loadPackage -S '`Collections-Abstract`'
-  loadPackage -S '`Collections-Support`'
-  loadPackage -S SqCollectionLiterals
-  loadPackage -S SqCollections
-  loadPackage -S '`Collections-Sequenceable`'
-  loadPackage -S '`Collections-Heap`'
-  loadPackage -S '`Collections-Arrayed`'
-  loadPackage -S '`Graphics-Primitives`'
-  loadPackage -S '`Graphics-converting`'
+  load_package -S '`Collections-Abstract`'
+  load_package -S '`Collections-Support`'
+  load_package -S SqCollectionLiterals
+  load_package -S SqCollections
+  load_package -S '`Collections-Sequenceable`'
+  load_package -S '`Collections-Heap`'
+  load_package -S '`Collections-Arrayed`'
+  load_package -S '`Graphics-Primitives`'
+  load_package -S '`Graphics-converting`'
 
   todeBackup $name stage-3.dbf >/dev/null 2>&1
 
@@ -267,11 +364,12 @@ if [ $FROM_STAGE -le 3 ]; then
 fi
 
 if [ $FROM_STAGE -le 4 ]; then
+  CURRENT_STAGE=4
   if [ $FROM_STAGE = 4 ]; then
-    todeRestore $name stage-3.dbf >/dev/null 2>&1
+    restore_backup $name stage-3.dbf 
   fi
 
-startTopaz $name -l << EOF
+run_topaz $name -l << EOF
 login
 run
 | dict varAndValue |
@@ -319,22 +417,22 @@ logout
 exit
 EOF
 
-  loadPackage -S '`Collections-Text`'
+  load_package -S '`Collections-Text`'
 
-  loadPackage -S '`CompiledMethod`'
-  loadPackage -S '`SqWeak`'
-  loadPackage -S '`System-Object Events`'
-  loadPackage -S '`System-Change Notification`'
-  loadPackage -S '`Kernel-Models`'
-  loadPackage -S '`System-FileRegistry`'
-  loadPackage -S '`System-Applications`'
+  load_package -S '`CompiledMethod`'
+  load_package -S '`SqWeak`'
+  load_package -S '`System-Object Events`'
+  load_package -S '`System-Change Notification`'
+  load_package -S '`Kernel-Models`'
+  load_package -S '`System-FileRegistry`'
+  load_package -S '`System-Applications`'
 
-  loadPackage -S '`System-Support`'
-  loadPackage -S SUnit
-  loadPackage -S '`SqCompiler`'
+  load_package -S '`System-Support`'
+  load_package -S SUnit
+  load_package -S '`SqCompiler`'
 
-  loadPackage -S '`System-Preferences`'
-  loadPackage -S '`Kernel-Pools`'
+  load_package -S '`System-Preferences`'
+  load_package -S '`Kernel-Pools`'
 
 
   todeBackup $name stage-4.dbf >/dev/null 2>&1
@@ -348,20 +446,21 @@ EOF
 fi
 
 if [ $FROM_STAGE -le 5 ]; then
+  CURRENT_STAGE=5
   if [ $FROM_STAGE = 5 ]; then
-    todeRestore $name stage-4.dbf >/dev/null 2>&1
+    restore_backup $name stage-4.dbf 
   fi
 
-  loadPackage -S '`Kernel-Processes`'
-  loadPackage -S '`Kernel-Numbers`'
+  load_package -S '`Kernel-Processes`'
+  load_package -S '`Kernel-Numbers`'
 
-  loadPackage -S '`MockClasses`'
-  loadPackage -S '`Chronology-Core`'
+  load_package -S '`MockClasses`'
+  load_package -S '`Chronology-Core`'
 
-  loadPackage -S '`Multilingual-TextConversion`'
-  loadPackage -S '`Multilingual-Encodings`'
+  load_package -S '`Multilingual-TextConversion`'
+  load_package -S '`Multilingual-Encodings`'
 
-  loadPackage -S '`Balloon`'
+  load_package -S '`Balloon`'
 
   echo -e "[ ${GREEN}OK${NC} ] STAGE 5"
   todeBackup $name stage-5.dbf >/dev/null 2>&1
@@ -373,20 +472,21 @@ if [ $FROM_STAGE -le 5 ]; then
 fi
 
 if [ $FROM_STAGE -le 6 ]; then
+  CURRENT_STAGE=6
   if [ $FROM_STAGE = 6 ]; then
-    todeRestore $name stage-5.dbf >/dev/null 2>&1
+    restore_backup $name stage-5.dbf 
   fi
 
-  loadPackage -S '`GraphicsLibrary`'
-  loadPackage -S '`VMMaker`'
-  loadPackage -S '`Graphics-Display Objects`'
+  load_package -S '`GraphicsLibrary`'
+  load_package -S '`VMMaker`'
+  load_package -S '`Graphics-Display Objects`'
 
-  loadPackage -S SqKernelTestsNumbers
-  loadPackage -S '`KernelTests-Objects`'
-  loadPackage -S '`CollectionsTests-Text`'
-
-  loadPackage -S System-Recovery
-
+  load_package -S SqKernelTestsNumbers
+  load_package -S '`KernelTests-Objects`'
+  load_package -S '`CollectionsTests-Text`'
+  
+  load_package -S System-Recovery
+  
   todeBackup $name stage-6.dbf >/dev/null 2>&1
 
   if [ $TILL_STAGE = 6 ]; then
@@ -396,19 +496,20 @@ if [ $FROM_STAGE -le 6 ]; then
 fi
 
 if [ $FROM_STAGE -le 7 ]; then
+  CURRENT_STAGE=7
   if [ $FROM_STAGE = 7 ]; then
-    todeRestore $name stage-6.dbf >/dev/null 2>&1
+    restore_backup $name stage-6.dbf 
   fi
-
-  loadPackage -S '`System-Object Storage`'
-  loadPackage -S '`Collections-Streams`'
-  loadPackage -S '`Files`'
-  loadPackage -S '`Tools-FileList`'
-  loadPackage -S '`Graphics-Text`'
-  loadPackage -S '`Graphics-SegmentScanner`'
-  loadPackage -S '`Graphics-Files`'
-  loadPackage -SD '`Graphics-Fonts`'
   
+  load_package -S '`System-Object Storage`'
+  load_package -S '`Collections-Streams`'
+  load_package -SD Files
+  load_package -SD Tools-FileList
+  load_package -S '`Graphics-Text`'
+  load_package -S '`Graphics-SegmentScanner`'
+  load_package -S '`Graphics-Files`'
+  load_package -SD '`Graphics-Fonts`'
+
 startTopaz $name -l >/dev/null 2>&1 << EOF
 login
 run
@@ -419,10 +520,9 @@ logout
 exit
 EOF
   
-  loadPackage -SD Tools-Menus
-  loadPackage -SD Morphic
+  load_package -SD Morphic
 
-startTopaz $name -l >/dev/null 2>&1 << EOF
+run_topaz $name << EOF
 login
 run
 (SqueakEnvironment at: #SystemOrganization put: ((SqueakEnvironment at: #SystemOrganizer) @env7: defaultList: SqueakEnvironment allClasses))
@@ -442,4 +542,7 @@ EOF
   fi
 fi
 
-spd-say 'My job here is done.'
+
+echo "self error: 'the author is confused'"
+
+

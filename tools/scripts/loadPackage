@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -o pipefail
-set -e
 
 debug=""
 squeakImport=false
@@ -31,13 +30,9 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
-echo -en "[ ${YELLOW}PENDING${NC} ] Load $packageName" 
 
 todeIt ${debug} $name mc load "${packageName}" "filetree://$GS_HOME/shared/repos/BP2017RH1/${packagePath}" 2>&1 | parseTodeitOutput > /dev/null
 
-if [ $? = 7 ]; then
-  echo -e "\r[ ${RED}ERRORED${NC} ] Load $packageName"
-  exit 1
-fi
+# pass exit code of previos command
+exit $?
 
-echo -e "\r[ ${GREEN}OK${NC} ] Load $packageName"

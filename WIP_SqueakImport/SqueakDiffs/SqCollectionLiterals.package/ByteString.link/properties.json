@@ -1,0 +1,4 @@
+{
+	"gemstoneName" : "String",
+	"name" : "ByteString",
+	"super" : "String" }

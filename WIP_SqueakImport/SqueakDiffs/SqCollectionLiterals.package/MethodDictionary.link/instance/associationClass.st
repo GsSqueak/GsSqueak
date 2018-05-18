@@ -1,0 +1,1 @@
+*SqCollections-accessingassociationClass	^Association

@@ -1,0 +1,1 @@
+*SqCollectionLiterals-*SqCollectionLiterals-accessingapplyLanguageInformation: languageEnvironment

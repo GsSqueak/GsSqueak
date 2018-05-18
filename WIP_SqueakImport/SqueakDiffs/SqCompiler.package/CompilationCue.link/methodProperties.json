@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"class:" : "nice 9/20/2013 02:04",
+		"source:" : "nice 9/20/2013 00:50",
+		"source:class:environment:requestor:" : "nice 9/20/2013 02:03",
+		"source:class:requestor:" : "nice 9/20/2013 02:04",
+		"source:context:class:environment:requestor:" : "jr 10/24/2016 00:02",
+		"source:context:class:requestor:" : "nice 9/20/2013 02:04",
+		"source:context:receiver:class:environment:requestor:" : "nice 9/20/2013 02:03",
+		"source:environment:" : "nice 9/20/2013 02:05",
+		"source:environment:requestor:" : "jr 10/22/2016 13:45" },
+	"instance" : {
+		"bindingOf:" : "cwp 6/20/2012 09:39",
+		"context" : "cwp 12/26/2012 23:19",
+		"environment" : "cwp 6/19/2012 11:15",
+		"getClass" : "cwp 6/19/2012 11:16",
+		"initializeWithSource:context:receiver:class:environment:requestor:" : "nice 9/20/2013 02:03",
+		"receiver" : "cwp 6/19/2012 11:15",
+		"requestor" : "cwp 6/19/2012 11:16",
+		"sourceStream" : "nice 9/17/2013 23:04",
+		"stringToLog" : "nice 9/17/2013 23:04" } }

@@ -1,0 +1,1 @@
+*SqClasses-testingisPromise	^false

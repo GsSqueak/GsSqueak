@@ -1,0 +1,21 @@
+{
+        "instance": {
+                "^equals.st": "",
+                "^less.equals.st": "",
+                "^less.st": "",
+                "^more.equals.st": "",
+                "^more.st": "",
+                "^slash.slash.st": "",
+                "^slash.st": "",
+                "^tilde.equals.st": "",
+                "deepCopy.st": "",
+                "hash.st": "",
+                "isLarge.st": "",
+                "printOn.base..st": "",
+                "printOn.base.length.padded..st": "",
+                "shallowCopy.st": "",
+                "veryDeepCopyWith..st": "",
+                "numberOfDigitsInBase..st": "",
+                "decimalDigitLength.st": ""
+        }
+}
