@@ -13,7 +13,6 @@ updateAdler32: adler from: start to: stop in: aCollection
         return (s2 << 16) + s1;
 "
 	| s1 s2 |
-	self notYetImplemented.
 	s1 := adler bitAnd: 16rFFFF.
 	s2 := (adler bitShift: -16) bitAnd: 16rFFFF.
 	start to: stop do: [ :n | | b |

@@ -7,7 +7,6 @@ nextBytePut: anObject
 	of the right type for the collection. Optional. See Object documentation
 	whatIsAPrimitive."
 
-	self notYetImplemented.
 	position >= writeLimit
 		ifTrue: [^ self pastEndPut: anObject]
 		ifFalse: 

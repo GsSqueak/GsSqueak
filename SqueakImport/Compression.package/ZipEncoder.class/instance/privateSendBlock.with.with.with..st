@@ -2,7 +2,6 @@ private
 privateSendBlock: literalStream with: distanceStream with: litTree with: distTree
 	"Send the current block using the encodings from the given literal/length and distance tree"
 	| lit dist code extra sum |
-	self notYetImplemented.
 	sum := 0.
 	[lit := literalStream next.
 	dist := distanceStream next.
