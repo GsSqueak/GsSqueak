@@ -506,6 +506,18 @@ if [ $FROM_STAGE -le 7 ]; then
   if [ $FROM_STAGE = 7 ]; then
     restore_backup $name stage-6.dbf 
   fi
+
+  load_package -S '`System-Object Storage`'
+  load_package -S '`Collections-Streams`'
+  load_package -S '`Collections-Unordered`'
+  load_package -S '`Files`'
+  load_package -S '`Tools-FileList`'
+  load_package -S '`Compression`'
+  
+  load_package -S '`Graphics-Text`'
+  load_package -S '`Graphics-SegmentScanner`'
+  load_package -S '`Graphics-Files`'
+  load_package -SD '`Graphics-Fonts`'
   
   load_package -S '`System-Object Storage`'
   load_package -S '`Collections-Streams`'
@@ -526,7 +538,8 @@ logout
 exit
 EOF
   
-  load_package -SD Morphic
+  load_package -SD '`Tools-Menus`'
+  load_package -SD '`Morphic`'
 
 run_topaz $name << EOF
 login

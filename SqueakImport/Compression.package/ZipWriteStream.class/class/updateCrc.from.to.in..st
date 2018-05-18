@@ -1,7 +1,6 @@
 crc
 updateCrc: oldCrc from: start to: stop in: aCollection
 	| newCrc |
-	self notYetImplemented.
 	newCrc := oldCrc.
 	start to: stop do:[:i|
 		newCrc := (CrcTable at: ((newCrc bitXor: (aCollection byteAt: i)) 
