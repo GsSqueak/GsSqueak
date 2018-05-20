@@ -1,0 +1,4 @@
+interface
+systemCategories
+
+	self subclassResponsibility

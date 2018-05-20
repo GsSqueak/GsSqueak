@@ -1,10 +1,7 @@
 querying
 fetchClass: queryCode forEnvironment: anEnvironment
 
-	^ self
-		fetch: queryCode
-		serialization: [:code | self serializeClass: code]
-		deserialization: [:output |
-			output = 'nil'
-				ifTrue: [nil]
-				ifFalse: [self deserializeClass: output forEnvironment: anEnvironment]]
+	| class |
+	class := self fetch: anEnvironment classProxyClass name asSymbol query: queryCode.
+	class ifNotNil: [class environment: anEnvironment].
+	^ class

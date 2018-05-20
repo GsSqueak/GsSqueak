@@ -1,12 +1,12 @@
 class list
-flattenHierarchyTree: classHierarchy on: col indent: indent by: indentChars
-	"Recursively add to col the names in classHierarchy indenting to show the hierarchical relationship. Use indentChars to do the indenting: spaces, tabs, etc."
+flattenHierarchyTree: hierarchy on: col indent: indent by: indentChars
+	"Recursively add to col the elements in hierarchy indenting to show the hierarchical relationship. Use indentChars to do the indenting: spaces, tabs, etc."
 	| plusIndent |
 	plusIndent := indentChars.
-	classHierarchy do: [:assoc |
-		| class childs |
-		class := assoc key.
-		col add: indent , class name.
+	hierarchy do: [:assoc |
+		| element childs |
+		element := assoc key.
+		col add: indent , element.
 		childs := assoc value.
 		self
 			flattenHierarchyTree: childs

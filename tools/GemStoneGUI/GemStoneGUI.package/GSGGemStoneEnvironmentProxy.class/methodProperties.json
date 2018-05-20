@@ -2,13 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"classNamed:" : "sl 4/13/2018 14:21",
-		"classNames" : "sl 4/12/2018 16:48",
-		"classNamesInSystemCategory:" : "sl 4/12/2018 16:47",
+		"classNamed:" : "sl 5/20/2018 18:56",
+		"classNames" : "sl 5/20/2018 18:57",
+		"classNamesInSystemCategory:" : "sl 5/20/2018 20:11",
 		"classProxyClass" : "sl 4/13/2018 14:56",
-		"codeForClassOrganizerInEnv:" : "sl 4/13/2018 14:55",
+		"codeForClassOrganizerInEnv:" : "sl 5/20/2018 22:57",
 		"codeReferencingClass:" : "sl 4/13/2018 14:20",
-		"codeReferencingClassNamed:" : "sl 4/13/2018 14:19",
-		"hierarchyTreeOfClassNames:environmentId:" : "sl 4/5/2018 15:18",
-		"systemCategories" : "sl 4/12/2018 16:46",
-		"templateForSubclassOf:category:" : "sl 4/6/2018 21:17" } }
+		"codeReferencingClassNamed:" : "sl 5/20/2018 22:54",
+		"codeReferencingMe" : "sl 5/20/2018 19:47",
+		"codeReferencingSymbolList" : "sl 5/20/2018 19:45",
+		"fetchClass:" : "sl 5/20/2018 18:53",
+		"hierarchyTreeOfClassNames:environmentId:" : "sl 5/20/2018 20:13",
+		"systemCategories" : "sl 5/20/2018 19:46",
+		"templateForSubclassOf:category:" : "sl 5/20/2018 20:02" } }

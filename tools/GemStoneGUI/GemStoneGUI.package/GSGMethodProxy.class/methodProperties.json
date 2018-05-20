@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"CompositeTransformation" : "sl 5/20/2018 11:58",
+		"compositeStructureForSpec:" : "sl 5/20/2018 14:21" },
 	"instance" : {
 		"actualClass" : "sl 3/27/2018 12:02",
 		"asString" : "sl 3/27/2018 13:50",

@@ -1,5 +1,8 @@
 {
 	"class" : {
+		"CompositeTransformation" : "sl 5/20/2018 11:56",
+		"compositeStructureForSpec:" : "sl 5/20/2018 14:21",
+		"deserializeFrom:" : "sl 5/20/2018 15:24",
 		"interface:named:inEnvironment:" : "sl 3/16/2018 22:48",
 		"interface:named:meta:inEnvironment:" : "sl 4/12/2018 12:31" },
 	"instance" : {
@@ -16,6 +19,7 @@
 		"environment" : "sl 3/16/2018 21:55",
 		"environment:" : "sl 3/16/2018 21:55",
 		"firstPrecodeCommentFor:env:" : "sl 3/18/2018 14:15",
+		"interface" : "sl 5/20/2018 20:20",
 		"isMeta" : "sl 4/12/2018 12:22",
 		"isMeta:" : "sl 4/12/2018 12:23",
 		"messageCategoryDictForEnv:" : "sl 4/5/2018 15:22",
@@ -28,6 +32,7 @@
 		"removeCategory:environmentId:" : "sl 4/10/2018 13:20",
 		"removeSelector:environmentId:" : "sl 4/10/2018 17:19",
 		"renameCategory:to:environmentId:" : "sl 4/10/2018 14:33",
+		"repository" : "sl 5/20/2018 20:20",
 		"sourceCodeAt:env:ifAbsent:" : "sl 3/18/2018 14:00",
 		"superclass" : "sl 3/16/2018 22:45",
 		"superclassForEnv:" : "sl 3/19/2018 13:33",

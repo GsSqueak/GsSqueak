@@ -6,6 +6,7 @@ Environment >> classNames
 Environment >> classNamesInSystemCategory:
 Environment >> hierarchyTreeOfClassNames:environmentId:
 Environment >> templateForSubclassOf:category:
+Environment >> createClass:type:superclass:instVars:classVars:classInstVars:poolDictionaries:category:
 Class >> messageCategoryDictForEnv:
 Class >> addCategory:environmentId:
 Class >> removeCategory:environmentId:

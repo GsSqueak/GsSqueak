@@ -1,7 +1,13 @@
 {
 	"class" : {
-		 },
+		"newOn:" : "sl 5/20/2018 18:43" },
 	"instance" : {
-		"classProxyNamed:" : "sl 4/12/2018 13:09",
-		"codeForHierarchicallySortingClassListCreatedBy:environmentId:" : "sl 4/12/2018 13:09",
-		"convertToHierarchyTree:environment:" : "sl 4/12/2018 13:10" } }
+		"classNamed:" : "sl 5/20/2018 22:20",
+		"classNames" : "sl 5/20/2018 22:21",
+		"classNamesInSystemCategory:" : "sl 5/20/2018 22:21",
+		"createClass:type:superclass:instVars:classVars:classInstVars:poolDictionaries:category:" : "sl 5/20/2018 22:52",
+		"hierarchyTreeOfClassNames:environmentId:" : "sl 5/20/2018 22:21",
+		"repository:" : "sl 5/20/2018 18:41",
+		"respository" : "sl 5/20/2018 18:41",
+		"systemCategories" : "sl 5/20/2018 22:20",
+		"templateForSubclassOf:category:" : "sl 5/20/2018 22:22" } }

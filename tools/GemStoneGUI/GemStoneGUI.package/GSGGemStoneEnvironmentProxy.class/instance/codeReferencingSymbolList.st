@@ -1,0 +1,4 @@
+query assembly
+codeReferencingSymbolList
+
+	self subclassResponsibility

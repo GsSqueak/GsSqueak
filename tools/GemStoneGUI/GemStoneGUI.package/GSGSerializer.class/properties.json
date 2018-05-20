@@ -1,0 +1,16 @@
+{
+	"category" : "GemStoneGUI-Serialization",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"transformations",
+		"composites",
+		"rules" ],
+	"name" : "GSGSerializer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
