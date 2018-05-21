@@ -1,4 +1,0 @@
-constants
-evaluatorClass
-
-	^ GSGEvaluator

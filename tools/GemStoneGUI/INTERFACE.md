@@ -1,12 +1,15 @@
 Repository >> executeString:
 
-Environment >> systemCategories
+
 Environment >> classNamed:
 Environment >> classNames
 Environment >> classNamesInSystemCategory:
+~~ Environment >> createClass:type:superclass:instVars:classVars:classInstVars:poolDictionaries:category:
+Environment >> evaluate:inContext:environmentId:
 Environment >> hierarchyTreeOfClassNames:environmentId:
+Environment >> systemCategories
 Environment >> templateForSubclassOf:category:
-Environment >> createClass:type:superclass:instVars:classVars:classInstVars:poolDictionaries:category:
+
 
 Class >> addMessageCategory:environmentId:
 Class >> category

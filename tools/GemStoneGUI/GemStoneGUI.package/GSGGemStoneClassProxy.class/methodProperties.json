@@ -16,7 +16,7 @@
 		"fetchMethod:" : "sl 5/21/2018 13:17",
 		"messageCategoryDictForEnv:" : "sl 5/21/2018 12:16",
 		"methodAt:environmentId:ifAbsent:" : "sl 5/21/2018 13:22",
-		"methodProxyClass" : "sl 5/21/2018 12:30",
+		"methodProxyClass" : "sl 5/21/2018 19:49",
 		"printHierarchyForEnvironmentId:" : "sl 5/21/2018 13:37",
 		"removeMessageCategory:environmentId:" : "sl 5/21/2018 13:39",
 		"removeSelector:environmentId:" : "sl 5/21/2018 13:41",

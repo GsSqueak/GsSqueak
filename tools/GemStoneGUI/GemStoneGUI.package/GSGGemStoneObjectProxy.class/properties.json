@@ -1,14 +1,14 @@
 {
-	"category" : "GemStoneGUI-Tools",
+	"category" : "GemStoneGUI-Proxies",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"environmentId" ],
-	"name" : "GSGWorkspace",
+		"oop" ],
+	"name" : "GSGGemStoneObjectProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGCodeTool",
+	"super" : "GSGObjectProxy",
 	"type" : "normal" }

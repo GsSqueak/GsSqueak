@@ -1,4 +1,4 @@
 querying
 methodProxyClass
 
-	^ GSGGemStoneMethodProxy
+	^ self environment methodProxyClass
