@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"newOn:" : "sl 5/20/2018 18:43" },
+		"forRepository:" : "sl 5/21/2018 13:10" },
 	"instance" : {
 		"classNamed:" : "sl 5/20/2018 22:20",
 		"classNames" : "sl 5/20/2018 22:21",
 		"classNamesInSystemCategory:" : "sl 5/20/2018 22:21",
 		"createClass:type:superclass:instVars:classVars:classInstVars:poolDictionaries:category:" : "sl 5/20/2018 22:52",
 		"hierarchyTreeOfClassNames:environmentId:" : "sl 5/20/2018 22:21",
-		"repository:" : "sl 5/20/2018 18:41",
-		"respository" : "sl 5/20/2018 18:41",
+		"repository" : "sl 5/21/2018 13:12",
+		"repository:" : "sl 5/21/2018 13:13",
 		"systemCategories" : "sl 5/20/2018 22:20",
 		"templateForSubclassOf:category:" : "sl 5/20/2018 22:22" } }

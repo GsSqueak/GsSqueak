@@ -1,0 +1,4 @@
+querying
+methodProxyClass
+
+	^ GSGGemStoneMethodProxy

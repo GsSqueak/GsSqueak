@@ -1,4 +1,6 @@
 querying
 fetchClass: queryCode
 
-	^ self repository fetchClass: queryCode forEnvironment: self
+	| class |
+	class := self repository fetch: self classProxyClass name query: queryCode.
+	^ class ifNotNil: [class environment: self]

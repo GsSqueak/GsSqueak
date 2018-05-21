@@ -3,4 +3,4 @@ loadSqueakFrom: aFileDirectory
 
 	| loader |
 	loader := GSSClassDiffs fromDirectory: aFileDirectory.
-	loader installInto: (GSGGsSqueakEnvironmentProxy forSession: self session)
+	loader installInto: (GSGGsSqueakEnvironmentProxy forRepository: self session)

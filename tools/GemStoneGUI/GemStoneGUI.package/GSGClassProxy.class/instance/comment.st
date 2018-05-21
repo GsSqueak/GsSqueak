@@ -1,4 +1,4 @@
 interface
 comment
 
-	^ (self interface classCommentFor: self) ifNil: ['']
+	self subclassResponsibility

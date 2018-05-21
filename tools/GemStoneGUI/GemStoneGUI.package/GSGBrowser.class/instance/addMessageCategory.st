@@ -8,7 +8,7 @@ addMessageCategory
 	newName ifEmpty: [^ self].
 	newName := newName asSymbol.
 	self selectedClassOrMetaClass
-		addCategory: newName
+		addMessageCategory: newName
 		environmentId: self environmentId.
 	self invalidateMessageCategoryDict.
 	self selectMessageCategoryNamed: newName

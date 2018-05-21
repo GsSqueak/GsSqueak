@@ -1,4 +1,4 @@
-private
+accessing
 isMeta: aBoolean
 
 	isMeta := aBoolean

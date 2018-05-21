@@ -1,4 +1,4 @@
-general interface
+accessing
 name
 	
 	^ self isMeta

@@ -1,4 +1,4 @@
 interface
-category: aString
+category: aSymbol
 
-	^ self interface class: self setSystemCategory: aString
+	self subclassResponsibility

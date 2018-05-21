@@ -1,4 +1,4 @@
-general interface
+metaclasses
 theNonMetaClass
 
 	^ self isMeta

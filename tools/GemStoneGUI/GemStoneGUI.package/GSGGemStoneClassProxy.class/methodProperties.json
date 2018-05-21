@@ -1,5 +1,24 @@
 {
 	"class" : {
-		 },
+		"CompositeTransformation" : "sl 5/21/2018 13:30",
+		"compositeStructureForSpec:" : "sl 5/21/2018 13:29",
+		"deserializeFrom:" : "sl 5/21/2018 13:30" },
 	"instance" : {
-		 } }
+		"addMessageCategory:environmentId:" : "sl 5/21/2018 10:04",
+		"category" : "sl 5/21/2018 10:18",
+		"category:" : "sl 5/21/2018 13:37",
+		"codeReferencingInstanceSide" : "sl 5/21/2018 10:12",
+		"codeReferencingMe" : "sl 5/21/2018 10:12",
+		"comment" : "sl 5/21/2018 10:17",
+		"comment:" : "sl 5/21/2018 13:37",
+		"compileMethod:category:environmentId:" : "sl 5/21/2018 10:27",
+		"definition" : "sl 5/21/2018 10:29",
+		"fetchMethod:" : "sl 5/21/2018 13:17",
+		"messageCategoryDictForEnv:" : "sl 5/21/2018 12:16",
+		"methodAt:environmentId:ifAbsent:" : "sl 5/21/2018 13:22",
+		"methodProxyClass" : "sl 5/21/2018 12:30",
+		"printHierarchyForEnvironmentId:" : "sl 5/21/2018 13:37",
+		"removeMessageCategory:environmentId:" : "sl 5/21/2018 13:39",
+		"removeSelector:environmentId:" : "sl 5/21/2018 13:41",
+		"renameMessageCategory:to:environmentId:" : "sl 5/21/2018 13:43",
+		"repository" : "sl 5/21/2018 09:57" } }

@@ -12,6 +12,7 @@ Serializer
 		(rules at: type ifAbsent: [nil])
 			ifNotNil: [:rule | serializer value: target value: rule]
 			ifNil: [
+				target ifNil: [type := #Literal].
 				(composites associationsDetect: [:assoc | 
 					assoc key first = type and: [assoc key second = spec]] ifNone: [nil])
 						ifNotNil: [:composite |

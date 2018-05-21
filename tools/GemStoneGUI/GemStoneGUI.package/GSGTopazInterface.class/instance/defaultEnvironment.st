@@ -1,4 +1,4 @@
 new api - environments
 defaultEnvironment
 
-	^ GSGSessionEnvironmentProxy forSession: self
+	^ GSGSessionEnvironmentProxy forRepository: self

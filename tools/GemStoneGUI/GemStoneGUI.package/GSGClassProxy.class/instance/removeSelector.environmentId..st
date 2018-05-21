@@ -1,4 +1,4 @@
-interface - messages
-removeSelector: aSymbol environmentId: envId
+interface
+removeSelector: aSymbol environmentId: anInteger
 
-	self interface class: self removeSelector: aSymbol environmentId: envId
+	self subclassResponsibility

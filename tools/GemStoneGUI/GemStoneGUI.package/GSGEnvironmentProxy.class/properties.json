@@ -10,5 +10,5 @@
 	"name" : "GSGEnvironmentProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGProxy",
+	"super" : "Object",
 	"type" : "normal" }

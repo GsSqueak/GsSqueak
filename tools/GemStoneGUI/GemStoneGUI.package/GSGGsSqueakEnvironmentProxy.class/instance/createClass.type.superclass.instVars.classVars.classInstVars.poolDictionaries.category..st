@@ -34,4 +34,4 @@ createClass: className type: typeSymbol superclass: superclassName instVars: ins
 		(self optionsForType: typeSymbol). "9. options"
 		categorySymbol asSymbol printString "10. system category"
 		}.
-	^ self repository fetchClass: query forEnvironment: self
+	^ self fetchClass: query

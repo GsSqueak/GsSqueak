@@ -3,11 +3,10 @@ CompositeTransformation
 
 	| transformations serializer |
 	^ [:target :spec :composite |
-		| transformedTarget serializedArray |
-		target
+		| serializedArray |
+		((transformations at: composite key first) cull: target cull: spec)
 			ifNil: [serializer cull: target cull: #Nil]
-			ifNotNil: [
-				transformedTarget := (transformations at: composite key first) cull: target cull: spec.
+			ifNotNil: [:transformedTarget |
 				transformedTarget isCollection ifFalse: [^ self error: 'Failed Serialization: Faulty composite structure'].
 				serializedArray := serializer cull: transformedTarget cull: (#Array -> composite value).
 				String new

@@ -1,4 +1,0 @@
-proxy classes
-classProxyClass
-
-	^ GSGClassProxy
