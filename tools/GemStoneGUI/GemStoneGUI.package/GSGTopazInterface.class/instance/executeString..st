@@ -1,4 +1,4 @@
-__ latest api
+interface
 executeString: sourceString
 	
 	| output |

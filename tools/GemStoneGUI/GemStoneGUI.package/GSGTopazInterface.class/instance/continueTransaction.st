@@ -1,4 +1,4 @@
-new api - transactions
+old api - transactions
 continueTransaction
 
 	| topazOutput |
