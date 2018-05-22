@@ -50,13 +50,13 @@ load_package() {
 
   loadPackage $SQUEAK_IMPORT $DEBUG "$PACKAGE_NAME" "$PACKAGE_PATH"
 
-  if [[ $AUTO_DEBUG = false && $DEBUG_PACKAGE = ${PACKAGE_NAME} ]]; then
-    echo -e "[ ${GREEN}OK${NC} ] Exit after debugging package"
-    exit 0
-  fi
-
   if [ $? = 0 ]; then
     echo -e "\r[ ${GREEN}OK${NC} ] Load $PACKAGE_NAME"
+
+    if [[ $AUTO_DEBUG = false && $DEBUG_PACKAGE = ${PACKAGE_NAME} ]]; then
+      echo -e "[ ${GREEN}OK${NC} ] Exit after debugging package"
+      exit 0
+    fi
   else 
     echo -e "\r[ ${RED}ERRORED${NC} ] Load $PACKAGE_NAME"
 
