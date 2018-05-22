@@ -1,0 +1,6 @@
+{
+	"category" : "MockClasses",
+	"instvars" : [
+		 ],
+	"name" : "MIDIFileReader",
+	"super" : "Object" }

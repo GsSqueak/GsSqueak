@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Windows",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"opaqueBackgroundColor" ],
+	"name" : "TranslucentProgessMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

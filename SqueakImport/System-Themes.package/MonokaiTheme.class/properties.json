@@ -1,0 +1,14 @@
+{
+	"category" : "System-Themes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MonokaiTheme",
+	"pools" : [
+		 ],
+	"super" : "UserInterfaceTheme",
+	"type" : "normal" }

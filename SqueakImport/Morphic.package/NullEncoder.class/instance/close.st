@@ -1,0 +1,4 @@
+accessing
+close
+
+	^target close.

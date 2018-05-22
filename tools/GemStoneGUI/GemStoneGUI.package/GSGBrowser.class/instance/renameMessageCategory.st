@@ -14,7 +14,7 @@ renameMessageCategory
 	newName := newName asSymbol.
 	newName = oldName ifTrue: [^ self].
 	self selectedClassOrMetaClass
-		renameCategory: oldName
+		renameMessageCategory: oldName
 		to: newName
 		environmentId: self environmentId.
 	selector := self selectedMessageName.

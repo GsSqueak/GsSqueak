@@ -1,0 +1,36 @@
+write and read
+readMethod
+	"PRIVATE -- Read the contents of an arbitrary instance.
+	 ASSUMES: readDataFrom:size: sends me beginReference: after it
+	   instantiates the new object but before reading nested objects.
+	 NOTE: We must restore the current reference position after
+	   recursive calls to next.
+	Let the instance, not the class read the data.  "
+	| instSize refPosn newClass className xxHeader nLits byteCodeSizePlusTrailer newMethod lits |
+
+	instSize := (byteStream nextNumber: 4) - 1.
+	refPosn := self getCurrentReference.
+	className := self next.
+	newClass := Smalltalk at: className asSymbol.
+
+	xxHeader := self next.
+		"nArgs := (xxHeader >> 24) bitAnd: 16rF."
+		"nTemps := (xxHeader >> 18) bitAnd: 16r3F."
+		"largeBit := (xxHeader >> 17) bitAnd: 1."
+	nLits := xxHeader bitAnd: 16r7FFF.
+	byteCodeSizePlusTrailer := instSize - (newClass instSize "0") - (nLits + 1 * Smalltalk wordSize).
+
+	newMethod := newClass 
+						newMethod: byteCodeSizePlusTrailer
+						header: xxHeader.
+
+	self setCurrentReference: refPosn.  "before readDataFrom:size:"
+	self beginReference: newMethod.
+	lits := newMethod numLiterals + 1.	"counting header"
+	2 to: lits do:
+		[:ii | newMethod objectAt: ii put: self next].
+	lits*Smalltalk wordSize+1 to: newMethod basicSize do:
+		[:ii | newMethod basicAt: ii put: byteStream next].
+			"Get raw bytes directly from the file"
+	self setCurrentReference: refPosn.  "before returning to next"
+	^newMethod

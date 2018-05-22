@@ -1,0 +1,1 @@
+I am used to execute a once-only command. My first use was in loading/saving the current project. In such cases it is necessary to be in another project to do the actual work. So an instance of me is added to a new world/project and that project is entered. I do my stuff (save/load followed by a re-enter of the previous project) and everyone is happy.

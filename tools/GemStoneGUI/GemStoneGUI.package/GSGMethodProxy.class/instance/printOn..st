@@ -2,4 +2,8 @@ printing
 printOn: aStream
 
 	super printOn: aStream.
-	aStream nextPutAll: ' ', self actualClass name , ' >> ', self methodSymbol printString
+	aStream
+		nextPut: $(;
+		nextPutAll: self inClass name;
+		nextPutAll: ' >> ';
+		nextPutAll: self selector

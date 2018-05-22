@@ -1,0 +1,1 @@
+*SqKernel-testingisClosure	^true

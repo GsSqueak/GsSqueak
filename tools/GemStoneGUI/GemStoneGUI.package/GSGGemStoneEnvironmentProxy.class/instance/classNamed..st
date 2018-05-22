@@ -1,4 +1,4 @@
 interface
 classNamed: aSymbol
 
-	^ self fetchClass: (self codeReferencingClassNamed: aSymbol) forEnvironment: self
+	^ self fetchClass: (self codeReferencingClassNamed: aSymbol)

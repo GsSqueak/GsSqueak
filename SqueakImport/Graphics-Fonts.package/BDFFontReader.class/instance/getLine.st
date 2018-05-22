@@ -1,0 +1,3 @@
+reading
+getLine
+	^file nextLine

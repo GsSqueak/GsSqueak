@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"blueButtonChanged" : "ar 9/15/2000 19:58",
+		"nClicks" : "eem 6/1/2017 11:10",
+		"nClicks:" : "eem 6/1/2017 11:10",
+		"printOn:" : "mt 6/7/2016 10:36",
+		"redButtonChanged" : "ar 9/15/2000 19:58",
+		"sentTo:" : "ar 9/16/2000 13:05",
+		"setType:position:which:buttons:hand:stamp:" : "ar 10/5/2000 23:55",
+		"setType:position:which:buttons:nClicks:hand:stamp:" : "eem 6/1/2017 11:10",
+		"storeOn:" : "ar 10/24/2000 16:29",
+		"type:readFrom:" : "ar 10/24/2000 16:29",
+		"whichButton" : "nk 3/11/2004 17:44",
+		"whichButtonString" : "mt 6/7/2016 10:36",
+		"yellowButtonChanged" : "ar 9/15/2000 19:59" } }

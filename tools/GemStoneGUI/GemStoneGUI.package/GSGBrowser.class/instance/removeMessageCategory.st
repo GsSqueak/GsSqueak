@@ -12,6 +12,6 @@ removeMessageCategory
 remove this method category 
 and all its methods?']) ifFalse: [^ self].
 	self selectedClassOrMetaClass 
-			removeCategory: messageCategoryName
+			removeMessageCategory: messageCategoryName
 			environmentId: self environmentId.
 	self invalidateMessageCategoryDict

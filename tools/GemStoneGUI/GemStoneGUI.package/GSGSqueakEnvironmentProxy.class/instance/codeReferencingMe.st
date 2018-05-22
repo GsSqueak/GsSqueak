@@ -1,4 +1,0 @@
-accessing
-codeReferencingMe
-
-	^ 'SqueakEnvironment'

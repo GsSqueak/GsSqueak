@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"url" ],
+	"name" : "TextURL",
+	"pools" : [
+		 ],
+	"super" : "TextAction",
+	"type" : "normal" }

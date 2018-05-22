@@ -4,11 +4,11 @@ compileMethod: aString notifying: aController
 	| category newSelector class |
 	category := self messageCategoryOfNewMethod.
 	class := self selectedClassOrMetaClass.
+	self flag: #gsg. "Ignores the controller for now"
 	newSelector := class
-						compile: aString
-						classified: category
-						env: self envId
-						notifying: aController.
+						compileMethod: aString
+						category: category
+						environmentId: self envId.
 	newSelector ifNil: [^ false].
 	newSelector = self selectedMessageName
 		ifTrue: [self invalidateContents]

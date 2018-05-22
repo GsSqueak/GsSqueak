@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"chooseRecentClipping" : "ar 1/15/2001 18:45",
+		"clearInterpreters" : "yo 8/11/2003 22:43",
+		"clipboardText" : "ar 1/15/2001 18:35",
+		"clipboardText:" : "ar 1/15/2001 18:35",
+		"default" : "ar 1/15/2001 18:33",
+		"default:" : "ar 1/15/2001 18:48",
+		"localeChanged" : "fbs 7/15/2013 23:07",
+		"startUp" : "yo 12/29/2003 01:03" },
+	"instance" : {
+		"chooseRecentClipping" : "ar 8/6/2009 18:47",
+		"clearInterpreter" : "yo 8/11/2003 19:07",
+		"clipboardText" : "edc 5/8/2007 17:04",
+		"clipboardText:" : "ul 8/16/2012 15:24",
+		"clipboardText:notifyWith:" : "ul 8/16/2012 15:23",
+		"initialize" : "ar 1/15/2001 18:34",
+		"interpreter" : "yo 8/11/2003 18:23",
+		"noteRecentClipping:" : "ar 1/15/2001 18:34",
+		"primitiveClipboardText" : "ar 1/15/2001 18:28",
+		"primitiveClipboardText:" : "ar 1/15/2001 18:30",
+		"setInterpreter" : "mir 7/20/2004 15:44" } }

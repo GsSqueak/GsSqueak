@@ -1,4 +1,4 @@
 interface
 definition
 
-	^ self interface definitionFor: self
+	self subclassResponsibility

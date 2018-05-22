@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"fromArray:" : "ul 11/15/2010 12:03",
+		"labelList:" : "sma 5/28/2000 16:04",
+		"labelList:lines:" : "mha 1/18/2010 10:13",
+		"labelList:lines:selections:" : "sma 5/28/2000 16:04",
+		"labelList:selections:" : "sma 5/28/2000 16:04",
+		"labels:lines:" : "yo 8/30/2002 17:00",
+		"labels:lines:selections:" : "yo 8/30/2002 17:02",
+		"labels:selections:" : "sma 5/28/2000 16:10",
+		"selections:" : "sma 5/28/2000 16:10",
+		"selections:lines:" : "sma 5/28/2000 16:10" },
+	"instance" : {
+		"invokeOn:" : "sma 5/28/2000 15:28",
+		"invokeOn:orSendTo:" : "sw 11/18/2002 16:24",
+		"selections" : "sma 5/28/2000 11:38",
+		"selections:" : "sma 5/28/2000 11:38",
+		"startUpWithCaption:at:allowKeyboard:" : "jmv 3/2/2010 11:23" } }

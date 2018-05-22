@@ -1,4 +1,0 @@
-accessing
-methodSymbol
-
-	^ self selector

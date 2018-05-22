@@ -1,0 +1,1 @@
+*SqBooleans-printingisLiteral 	^ true

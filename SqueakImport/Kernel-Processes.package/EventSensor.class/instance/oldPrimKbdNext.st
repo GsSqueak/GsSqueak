@@ -1,4 +1,5 @@
 primitives-fallback
 oldPrimKbdNext
-	<primitive: 108>
-	^ nil
+	"Not supported in GsSqueak"
+    self shouldNotImplement
+

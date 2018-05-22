@@ -1,0 +1,23 @@
+{
+	"category" : "Graphics-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"left",
+		"right",
+		"top",
+		"bottom",
+		"firstIndex",
+		"lastIndex",
+		"internalSpaces",
+		"paddingWidth",
+		"baseline",
+		"leftMargin" ],
+	"name" : "TextLine",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "Object",
+	"type" : "normal" }

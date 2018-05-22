@@ -1,0 +1,18 @@
+{
+	"category" : "Collections-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "topa 7/10/2016 20:57",
+	"instvars" : [
+		"dataStream",
+		"stringStream",
+		"number85",
+		"tupleSize",
+		"binary" ],
+	"name" : "Ascii85Converter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,4 +1,0 @@
-do-its
-doItReceiver
-
-	^ self

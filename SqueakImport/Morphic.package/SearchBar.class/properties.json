@@ -1,0 +1,20 @@
+{
+	"category" : "Morphic-Menus-DockingBar",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UseScratchPad",
+		"UseSmartSearch" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"originatingWidget",
+		"searchTerm",
+		"selection",
+		"resultsWidget",
+		"workspace",
+		"scratchPad" ],
+	"name" : "SearchBar",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

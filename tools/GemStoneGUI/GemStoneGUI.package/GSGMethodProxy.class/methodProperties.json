@@ -2,26 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"actualClass" : "sl 3/27/2018 12:02",
-		"asString" : "sl 3/27/2018 13:50",
-		"asStringOrText" : "sl 3/27/2018 13:50",
 		"category" : "maf 4/18/2018 11:25",
 		"category:" : "sl 3/26/2018 14:58",
-		"classIsMeta" : "sl 3/27/2018 13:32",
-		"classSymbol" : "sl 3/27/2018 13:31",
 		"envId" : "sl 3/26/2018 14:58",
 		"envId:" : "sl 3/26/2018 14:58",
 		"environment" : "sl 3/26/2018 15:01",
 		"inClass" : "sl 3/26/2018 14:58",
 		"inClass:" : "sl 3/26/2018 14:58",
-		"interface" : "sl 3/26/2018 15:00",
-		"isMethodReference" : "sl 3/27/2018 12:01",
-		"methodSymbol" : "sl 3/27/2018 12:04",
-		"printOn:" : "sl 3/27/2018 13:49",
+		"printOn:" : "sl 5/21/2018 14:09",
 		"selector" : "sl 3/26/2018 14:58",
 		"selector:" : "sl 3/26/2018 14:58",
-		"setClassAndSelectorIn:" : "sl 3/27/2018 12:33",
-		"source" : "maf 4/18/2018 10:40",
-		"sourceText" : "sl 4/6/2018 21:22",
-		"stringVersionDefault" : "sl 3/27/2018 13:52",
-		"timeStamp" : "sl 3/27/2018 13:14" } }
+		"sourceString" : "sl 5/21/2018 14:10" } }

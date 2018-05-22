@@ -1,14 +1,14 @@
 {
-	"category" : "GemStoneGUI-Interfaces",
+	"category" : "GemStoneGUI-Proxies",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "maf 4/12/2018 13:34",
 	"instvars" : [
-		 ],
+		"repository" ],
 	"name" : "GSGEnvironmentProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGProxy",
+	"super" : "Object",
 	"type" : "normal" }

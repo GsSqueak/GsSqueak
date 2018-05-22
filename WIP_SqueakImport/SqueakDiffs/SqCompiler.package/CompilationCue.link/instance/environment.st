@@ -1,0 +1,1 @@
+*SqCompiler-accessingenvironment	^ environment

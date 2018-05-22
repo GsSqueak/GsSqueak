@@ -1,4 +1,4 @@
-private
+accessing
 environment: anObject
 
 	environment := anObject

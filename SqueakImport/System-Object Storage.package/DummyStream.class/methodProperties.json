@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"on:" : "jm 12/3/97 20:25" },
+	"instance" : {
+		"binary" : "",
+		"close" : "tk 10/31/97 11:43",
+		"next:putAll:startingAt:" : "ul 4/25/2016 02:31",
+		"nextInt32Put:" : "",
+		"nextNumber:put:" : "",
+		"nextPut:" : "nice 3/19/2010 19:03",
+		"nextPutAll:" : "nice 3/17/2010 20:31",
+		"nextStringPut:" : "nice 7/19/2014 00:17",
+		"originalContents" : "tk 3/6/2000 11:10",
+		"position" : "",
+		"position:" : "tk 7/12/1998 12:51",
+		"skip:" : "6/10/97 17:14 tk",
+		"subclassResponsibility" : "" } }

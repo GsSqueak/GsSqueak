@@ -1,0 +1,1 @@
+A dark theme designed by members the Squeak community such as Karl Ramberg, Chris Muller, and Marcel Taeumel.

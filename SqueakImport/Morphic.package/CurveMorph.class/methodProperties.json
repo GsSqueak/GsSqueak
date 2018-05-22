@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"arrowPrototype" : "tk 11/14/2001 17:47",
+		"descriptionForPartsBin" : "nk 8/23/2004 18:11" },
+	"instance" : {
+		"initialize" : "di 9/10/2000 14:28",
+		"initializeToStandAlone" : "sw 6/28/2001 11:32",
+		"isCurvier" : "wiz 1/7/2005 20:02" } }

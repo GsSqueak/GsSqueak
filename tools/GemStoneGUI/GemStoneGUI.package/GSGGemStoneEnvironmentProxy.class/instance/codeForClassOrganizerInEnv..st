@@ -3,5 +3,8 @@ codeForClassOrganizerInEnv: envId
 
 	^ '(ClassOrganizer 
 		_newWithRoot: Object
-		symbolList: ' , self codeReferencingSymbolList , '
-		env: ' , envId , ')'
+		symbolList: {1}
+		env: {2})'
+			format: {
+				self codeReferencingSymbolList.
+				envId}

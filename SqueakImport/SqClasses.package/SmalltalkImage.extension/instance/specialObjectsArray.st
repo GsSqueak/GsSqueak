@@ -1,5 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-special objects
-specialObjectsArray  "Smalltalk specialObjectsArray at: 1"
+*SqClasses-special objects
+specialObjectsArray
 
-	self flag: #goodEnoughForNow.
-	^ #()
+	^ specialObjectsArray

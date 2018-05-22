@@ -1,0 +1,14 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 8/14/2016 10:08",
+	"instvars" : [
+		"parameters" ],
+	"name" : "AbstractLauncher",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

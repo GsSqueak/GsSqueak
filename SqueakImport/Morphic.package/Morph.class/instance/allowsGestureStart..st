@@ -1,0 +1,3 @@
+geniestubs
+allowsGestureStart: evt
+	^false

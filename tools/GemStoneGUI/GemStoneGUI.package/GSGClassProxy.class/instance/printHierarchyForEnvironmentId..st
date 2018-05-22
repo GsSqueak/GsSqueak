@@ -1,4 +1,4 @@
 interface
-printHierarchyForEnvironmentId: envId
+printHierarchyForEnvironmentId: anInteger
 
-	^ self interface class: self printHierarchyForEnv: envId
+	self subclassResponsibility

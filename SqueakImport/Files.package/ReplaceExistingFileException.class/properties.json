@@ -1,0 +1,14 @@
+{
+	"category" : "Files-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fileClass" ],
+	"name" : "ReplaceExistingFileException",
+	"pools" : [
+		 ],
+	"super" : "FileStreamException",
+	"type" : "normal" }

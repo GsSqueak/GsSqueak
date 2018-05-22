@@ -1,0 +1,4 @@
+accessing
+intervalAfter
+
+	^ intervalAfter

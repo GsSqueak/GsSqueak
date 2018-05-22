@@ -1,0 +1,29 @@
+{
+	"category" : "Compression-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BlockProceedBit",
+		"BlockTypes",
+		"FixedDistCodes",
+		"FixedLitCodes",
+		"MaxBits",
+		"StateNewBlock",
+		"StateNoMoreData" ],
+	"commentStamp" : "nice 3/24/2010 07:37",
+	"instvars" : [
+		"state",
+		"bitBuf",
+		"bitPos",
+		"source",
+		"sourcePos",
+		"sourceLimit",
+		"litTable",
+		"distTable",
+		"sourceStream",
+		"crc" ],
+	"name" : "InflateStream",
+	"pools" : [
+		 ],
+	"super" : "ReadStream",
+	"type" : "normal" }

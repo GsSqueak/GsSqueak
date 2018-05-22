@@ -1,0 +1,18 @@
+{
+	"category" : "GsSqueak-Loading",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fileDirectory",
+		"properties",
+		"comment",
+		"instanceMethods",
+		"classMethods" ],
+	"name" : "GSSClassDefinition",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

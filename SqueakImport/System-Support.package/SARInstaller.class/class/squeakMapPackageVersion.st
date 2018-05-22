@@ -1,0 +1,3 @@
+SqueakMap
+squeakMapPackageVersion
+	^'16'

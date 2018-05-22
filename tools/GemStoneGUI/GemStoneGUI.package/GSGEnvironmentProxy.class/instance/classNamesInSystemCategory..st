@@ -1,0 +1,4 @@
+interface
+classNamesInSystemCategory: aSymbol
+
+	self subclassResponsibility

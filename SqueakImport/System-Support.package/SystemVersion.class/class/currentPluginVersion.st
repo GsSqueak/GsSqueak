@@ -1,0 +1,3 @@
+updating
+currentPluginVersion
+	^Smalltalk vmVersion

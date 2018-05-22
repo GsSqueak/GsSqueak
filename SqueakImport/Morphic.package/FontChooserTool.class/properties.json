@@ -1,0 +1,24 @@
+{
+	"category" : "Morphic-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "ar 8/30/2009 14:28",
+	"instvars" : [
+		"title",
+		"selectedFontIndex",
+		"fontList",
+		"target",
+		"getSelector",
+		"setSelector",
+		"pointSize",
+		"emphasis",
+		"window",
+		"result",
+		"offerStyleList" ],
+	"name" : "FontChooserTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

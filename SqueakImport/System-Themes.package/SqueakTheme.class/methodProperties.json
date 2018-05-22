@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"addButtons:" : "mt 8/14/2016 17:40",
+		"addClassicSyntaxHighlighting:" : "mt 7/25/2016 16:52",
+		"addDialogs:" : "mt 12/21/2017 09:09",
+		"addDullerButtons:" : "mt 8/14/2016 17:40",
+		"addDullerDialogs:" : "mt 8/14/2016 17:43",
+		"addDullerMenusAndDockingBars:" : "mt 8/14/2016 17:39",
+		"addDullerScrollables:" : "mt 8/14/2016 17:27",
+		"addDullerToolColors:" : "mt 8/16/2016 12:14",
+		"addDullerWindowColors:" : "mt 7/26/2016 15:47",
+		"addFonts:" : "mt 8/19/2016 16:19",
+		"addMVC:" : "mt 8/24/2016 13:38",
+		"addMenusAndDockingBars:" : "mt 8/11/2016 19:27",
+		"addScrollables:" : "mt 8/19/2016 15:17",
+		"addSyntaxHighlighting:" : "mt 8/14/2016 17:34",
+		"addToolColors:" : "mt 8/24/2016 08:53",
+		"addWindowColors:" : "mt 8/16/2016 10:51",
+		"create" : "mt 8/24/2016 11:41",
+		"createClassic" : "mt 7/25/2016 16:56",
+		"createDuller" : "mt 8/16/2016 12:14",
+		"linenblue" : "mt 8/5/2016 11:01" },
+	"instance" : {
+		 } }

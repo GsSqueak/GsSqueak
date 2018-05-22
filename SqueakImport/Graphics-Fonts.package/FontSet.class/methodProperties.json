@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"acceptsLoggingOfCompilation" : "sma 12/29/1999 11:48",
+		"compileFont:" : "di 1/24/2005 12:40",
+		"convertFontsNamed:" : "di 9/15/97 12:01",
+		"convertFontsNamed:inDirectoryNamed:" : "sma 12/29/1999 21:18",
+		"convertTextStyleNamed:" : "sma 12/29/1999 12:27",
+		"fileOut" : "sma 12/29/1999 11:49",
+		"fontCategory" : "nice 9/4/2013 21:19",
+		"fontName" : "RAA 6/20/2000 13:29",
+		"fontNamed:fromLiteral:" : "di 1/24/2005 12:48",
+		"fontNamed:fromMimeLiteral:" : "di 1/24/2005 11:13",
+		"fontSetClass:" : "sma 12/29/1999 12:58",
+		"installAsDefault" : "ar 8/6/2009 18:22",
+		"installAsTextStyle" : "ul 3/13/2017 00:18",
+		"size:fromLiteral:" : "nk 8/31/2004 09:23" },
+	"instance" : {
+		 } }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"execute:" : "sl 5/21/2018 10:01",
+		"executeString:" : "sl 5/14/2018 21:13",
+		"fetch:query:" : "sl 5/20/2018 15:51",
+		"fetchArrayOfStrings:" : "sl 5/20/2018 20:10",
+		"fetchArrayOfSymbols:" : "sl 5/20/2018 15:52",
+		"fetchBoolean:" : "sl 5/21/2018 14:46",
+		"fetchHierarchyTree:withElementsOfType:" : "sl 5/20/2018 19:08",
+		"fetchNumber:" : "sl 5/21/2018 14:47",
+		"fetchString:" : "sl 5/20/2018 18:59",
+		"fetchSymbol:" : "sl 5/21/2018 10:05" } }

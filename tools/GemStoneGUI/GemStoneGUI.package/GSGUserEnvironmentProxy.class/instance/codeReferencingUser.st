@@ -1,4 +1,4 @@
 query assembly
 codeReferencingUser
 
-	^ '(AllUsers userWithId: ' , self username printString , ' ifAbsent: [nil])'
+	^ '(AllUsers userWithId: ' , self username storeString , ' ifAbsent: [nil])'

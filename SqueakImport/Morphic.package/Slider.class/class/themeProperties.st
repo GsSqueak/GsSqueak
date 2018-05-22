@@ -1,0 +1,14 @@
+preferences
+themeProperties
+
+	^ super themeProperties, {
+		{ #borderColor. 'Colors'. 'Color of the slider''s border.' }.
+		{ #borderWidth. 'Borders'. 'Width of the slider''s border.' }.
+		{ #color. 'Colors'. 'Background color of the slider.' }.
+
+		{ #thumbBorderColor. 'Colors'. 'Color of the slider thumb''s border.' }.
+		{ #thumbBorderWidth. 'Borders'. 'Width of the slider thumb''s border.' }.
+		{ #thumbColor. 'Colors'. 'Background color of the slider thumb.' }.
+		
+		{ #thumbShadowModifier. 'Colors'. 'How to modify the thumb color to get the shadow color.' }.
+	}

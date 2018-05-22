@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"interface" ],
+		"environmentId" ],
 	"name" : "GSGWorkspace",
 	"pools" : [
 		 ],
-	"super" : "Workspace",
+	"super" : "GSGCodeTool",
 	"type" : "normal" }

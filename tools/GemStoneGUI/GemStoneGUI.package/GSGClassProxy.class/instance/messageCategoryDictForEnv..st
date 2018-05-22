@@ -1,4 +1,4 @@
-interface - messages
-messageCategoryDictForEnv: envId
+interface
+messageCategoryDictForEnv: anInteger
 
-	^ self interface messageCategoryDictFor: self env: envId
+	self subclassResponsibility

@@ -12,5 +12,5 @@
 	"name" : "GSGTopazInterface",
 	"pools" : [
 		 ],
-	"super" : "GSGGemStoneInterface",
+	"super" : "GSGGemStoneRepository",
 	"type" : "normal" }

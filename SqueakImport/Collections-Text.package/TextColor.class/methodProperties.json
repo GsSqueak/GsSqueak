@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"black" : "",
+		"blue" : "",
+		"color:" : "",
+		"cyan" : "",
+		"gray" : "ajh 9/10/2002 02:26",
+		"green" : "",
+		"magenta" : "",
+		"red" : "",
+		"scanCharacter" : "dtl 1/2/2014 11:55",
+		"scanFrom:" : "sma 3/24/2000 10:49",
+		"white" : "sma 3/24/2000 10:50",
+		"yellow" : "" },
+	"instance" : {
+		"=" : "di 10/31/97 11:19",
+		"closeHtmlOn:" : "dgd 9/2/2005 12:39",
+		"color" : "",
+		"color:" : "",
+		"dominatedByCmd0" : "bf 12/6/2012 19:10",
+		"dominates:" : "di 10/31/97 11:20",
+		"emphasizeScanner:" : "",
+		"hash" : "sma 3/24/2000 10:51",
+		"openHtmlOn:" : "dgd 9/2/2005 12:38",
+		"printOn:" : "sma 3/24/2000 10:51",
+		"writeScanOn:" : "dtl 1/2/2014 11:55" } }

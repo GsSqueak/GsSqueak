@@ -1,5 +1,6 @@
 query assembly
 codeReferencingClassNamed: aSymbol
 
-	^ '(' , self codeReferencingSymbolList , 
-		' objectNamed: ' , aSymbol asSymbol printString , ')'
+	^ '({1} objectNamed: {2})' format: {
+			self codeReferencingMe.
+			aSymbol storeString}

@@ -1,0 +1,1 @@
+A SystemWindow with a single extra button in its title bar.

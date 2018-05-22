@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"initialize" : "dgd 4/5/2004 19:10",
+		"unload" : "dgd 4/5/2004 19:09" },
+	"instance" : {
+		"chooseServiceFrom:" : "mt 7/22/2016 11:45",
+		"handle:in:dropEvent:" : "spfa 9/22/2010 09:44",
+		"servicesForFileNamed:" : "fbs 8/9/2013 17:30",
+		"unwantedSelectors" : "dgd 4/5/2004 19:23" } }

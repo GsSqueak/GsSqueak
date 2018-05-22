@@ -1,0 +1,20 @@
+{
+	"category" : "Morphic-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"selectedItems",
+		"slippage",
+		"dupLoc",
+		"dupDelta",
+		"itemsAlreadySelected",
+		"otherSelection",
+		"undoProperties" ],
+	"name" : "SelectionMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

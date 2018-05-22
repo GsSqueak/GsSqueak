@@ -1,0 +1,28 @@
+{
+	"category" : "Morphic-Explorer",
+	"classinstvars" : [
+		"expandedForm",
+		"notExpandedForm" ],
+	"classvars" : [
+		"WrappedNavigation" ],
+	"commentStamp" : "ls 3/1/2004 12:15",
+	"instvars" : [
+		"selectedMorph",
+		"hoveredMorph",
+		"getListSelector",
+		"keystrokeActionSelector",
+		"autoDeselect",
+		"columns",
+		"columnsCache",
+		"sortingSelector",
+		"getSelectionSelector",
+		"setSelectionSelector",
+		"potentialDropMorph",
+		"lineColor",
+		"font",
+		"textColor" ],
+	"name" : "SimpleHierarchicalListMorph",
+	"pools" : [
+		 ],
+	"super" : "ScrollPane",
+	"type" : "normal" }

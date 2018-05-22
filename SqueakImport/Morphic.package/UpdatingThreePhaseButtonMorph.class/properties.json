@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"getSelector",
+		"getArgument" ],
+	"name" : "UpdatingThreePhaseButtonMorph",
+	"pools" : [
+		 ],
+	"super" : "ThreePhaseButtonMorph",
+	"type" : "normal" }

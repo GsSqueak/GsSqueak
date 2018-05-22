@@ -1,0 +1,17 @@
+{
+	"category" : "Collections-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AccessSema",
+		"CharacterLimit",
+		"ForceUpdate",
+		"RedirectToStdOut" ],
+	"commentStamp" : "fbs 12/30/2013 09:53",
+	"instvars" : [
+		"lastChar" ],
+	"name" : "TranscriptStream",
+	"pools" : [
+		 ],
+	"super" : "WriteStream",
+	"type" : "normal" }

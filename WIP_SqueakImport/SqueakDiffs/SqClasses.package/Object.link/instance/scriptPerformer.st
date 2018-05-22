@@ -1,0 +1,1 @@
+*SqClasses-macpalscriptPerformer	^ self

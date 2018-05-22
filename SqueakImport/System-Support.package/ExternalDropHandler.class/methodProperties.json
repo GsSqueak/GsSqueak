@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"chooseServiceFrom:" : "mt 7/22/2016 11:45",
+		"cleanUp" : "mt 7/13/2016 11:31",
+		"defaultGZipHandler" : "fbs 6/27/2013 17:34",
+		"defaultHandler" : "mir 1/10/2002 17:17",
+		"defaultHandler:" : "mir 1/10/2002 16:54",
+		"defaultImageHandler" : "dtl 11/11/2017 15:48",
+		"defaultProjectHandler" : "tak 9/5/2006 11:44",
+		"initialize" : "mt 7/13/2016 11:33",
+		"lookupExternalDropHandler:" : "mir 8/24/2004 15:37",
+		"lookupServiceBasedHandler:" : "fbs 8/9/2013 17:34",
+		"registerHandler:" : "mir 1/10/2002 17:19",
+		"registeredHandlers" : "mir 1/10/2002 15:57",
+		"resetRegisteredHandlers" : "mir 1/10/2002 15:57",
+		"type:extension:action:" : "mir 1/10/2002 17:16",
+		"unwantedSelectors" : "mir 8/24/2004 15:28" },
+	"instance" : {
+		"extension" : "mir 1/10/2002 15:54",
+		"handle:in:dropEvent:" : "ul 11/15/2010 11:39",
+		"matchesExtension:" : "spfa 5/25/2004 13:38",
+		"matchesTypes:" : "mir 1/10/2002 16:35",
+		"type" : "mir 1/10/2002 15:54",
+		"type:extension:action:" : "mir 1/10/2002 17:17" } }

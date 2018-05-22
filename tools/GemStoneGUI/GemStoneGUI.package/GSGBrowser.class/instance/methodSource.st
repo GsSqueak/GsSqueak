@@ -2,5 +2,5 @@ contents
 methodSource
 
 	^ self hasMessageSelected 
-		ifTrue: [	self currentMethod source]
+		ifTrue: [	self currentMethod sourceString]
 		ifFalse: ['']

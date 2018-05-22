@@ -1,0 +1,2 @@
+stubs
+positionStandardPlayer

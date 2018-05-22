@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"canvas:clipRect:" : "ls 3/20/2000 20:45" },
+	"instance" : {
+		"apply:" : "ls 3/20/2000 20:44",
+		"canvas:clipRect:" : "ls 3/20/2000 20:44",
+		"clipRect" : "ls 3/25/2000 22:56",
+		"contentsOfArea:into:" : "ls 3/26/2000 14:22",
+		"form" : "ls 3/20/2000 21:17",
+		"isBalloonCanvas" : "ls 3/20/2000 21:17",
+		"isShadowDrawing" : "ls 3/20/2000 21:18",
+		"shadowColor" : "ls 3/20/2000 21:15" } }
