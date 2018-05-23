@@ -1,0 +1,4 @@
+accessing
+nconst
+	
+	^ nconst

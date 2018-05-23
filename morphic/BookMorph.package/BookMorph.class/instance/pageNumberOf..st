@@ -6,4 +6,4 @@ pageNumberOf: aMorph
 	resolve to an object already in this image. This is an unlikely case, and
 	callers just have to tolerate it.)"
 
-  ^ self pages indexOfIdentical: aMorph
+  ^ self pages identityIndexOf: aMorph
