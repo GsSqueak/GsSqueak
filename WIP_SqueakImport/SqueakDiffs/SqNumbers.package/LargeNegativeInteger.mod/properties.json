@@ -1,5 +1,4 @@
 {
-	"category" : "SqNumbers",
 	"name" : "LargeNegativeInteger",
 	"super" : "LargeInteger",
 	"type" : "words" }
