@@ -50,18 +50,18 @@ load_package() {
 
   loadPackage $SQUEAK_IMPORT $DEBUG "$PACKAGE_NAME" "$PACKAGE_PATH"
 
-  if [[ $AUTO_DEBUG = false && $DEBUG_PACKAGE = ${PACKAGE_NAME} ]]; then
-    echo -e "[ ${GREEN}OK${NC} ] Exit after debugging package"
-    exit 0
-  fi
-
   if [ $? = 0 ]; then
-    echo -e "\r[ ${GREEN}OK${NC} ] Load $PACKAGE_NAME"
+    echo -e "\r[ ${GREEN}SUCCESS${NC} ] Load $PACKAGE_NAME"
+
+    if [[ $AUTO_DEBUG = false && $DEBUG_PACKAGE = ${PACKAGE_NAME} ]]; then
+      echo -e "[ ${GREEN}SUCCESS${NC} ] Exit after debugging package"
+      exit 0
+    fi
   else 
     echo -e "\r[ ${RED}ERRORED${NC} ] Load $PACKAGE_NAME"
 
     if [ $AUTO_DEBUG = true ]; then
-      echo -e "[ ${GREEN}OK${NC} ] Restart from STAGE $CURRENT_STAGE and load package $PACKAGE_NAME in debug mode"
+      echo -e "[ ${GREEN}SUCCESS${NC} ] Restart from STAGE $CURRENT_STAGE and load package $PACKAGE_NAME in debug mode"
       AUTO_DEBUG=false DEBUG_PACKAGE="${PACKAGE_NAME}" createGsSqueakStone -f $CURRENT_STAGE -A $name
       
       exit $?
@@ -79,7 +79,13 @@ run_topaz() {
 startTopaz $NAME -l >/dev/null 2>&1 << EOF
 `cat`
 EOF
-  echo -e "\r[ ${GREEN}OK${NC} ] Run topaz code"
+
+  if ! [[ $? = 0 ]]; then
+    echo -e "\r[ ${RED}ERRORED${NC} ] Run topaz code"
+    exit 1
+  fi
+
+  echo -e "\r[ ${GREEN}SUCCESS${NC} ] Run topaz code"
 }
 
 restore_backup() {
@@ -95,7 +101,7 @@ restore_backup() {
   todeRestore $STONE_NAME $FILE_NAME >/dev/null 2>&1
 
   if [[ $? = 0 ]]; then
-    echo -e "\r[ ${GREEN}OK${NC} ] Restore backup $FILE_NAME"
+    echo -e "\r[ ${GREEN}SUCCESS${NC} ] Restore backup $FILE_NAME"
   else
     echo -e "\r[ ${RED}ERRORED${NC} ] Restore backup $FILE_NAME"
     exit 1
@@ -166,12 +172,12 @@ if [ $FROM_STAGE -le 1 ]; then
     createStone -f $name 3.5.0 >/dev/null 2>&1 # creates a backup called tode.bdf
 
     if [[ $? = 0 ]]; then
-      echo -e "\r[ ${GREEN}OK${NC} ] Create stone $name"
+      echo -e "\r[ ${GREEN}SUCCESS${NC} ] Create stone $name"
     else
       echo -e "\r[ ${RED}ERRORED${NC} ] Create stone $name"
       exit 1
     fi
-    echo -e "[ ${GREEN}OK${NC} ] STAGE 0"
+    echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 0"
 
     if [ $TILL_STAGE = 0 ]; then
       echo "Exit script after stage 0 because of configuration"
@@ -235,7 +241,7 @@ load_package -S BPGsTests
 # create backup for that stage
 todeBackup $name stage-1.dbf >/dev/null 2>&1
 
-  echo -e "[ ${GREEN}OK${NC} ] STAGE 1"
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 1"
 
   if [ $TILL_STAGE = 1 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
@@ -334,7 +340,7 @@ EOF
 
 todeBackup $name stage-2.dbf >/dev/null 2>&1
 
-  echo -e "[ ${GREEN}OK${NC} ] STAGE 2"
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 2"
 
   if [ $TILL_STAGE = 2 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
@@ -361,7 +367,7 @@ if [ $FROM_STAGE -le 3 ]; then
 
   todeBackup $name stage-3.dbf >/dev/null 2>&1
 
-  echo -e "[ ${GREEN}OK${NC} ] STAGE 3"
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 3"
 
   if [ $TILL_STAGE = 3 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
@@ -443,7 +449,7 @@ EOF
 
   todeBackup $name stage-4.dbf >/dev/null 2>&1
 
-  echo -e "[ ${GREEN}OK${NC} ] STAGE 4"
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 4"
 
   if [ $TILL_STAGE = 4 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
@@ -468,7 +474,7 @@ if [ $FROM_STAGE -le 5 ]; then
 
   load_package -S '`Balloon`'
 
-  echo -e "[ ${GREEN}OK${NC} ] STAGE 5"
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 5"
   todeBackup $name stage-5.dbf >/dev/null 2>&1
 
   if [ $TILL_STAGE = 5 ]; then
@@ -553,7 +559,7 @@ EOF
 
   todeBackup $name full.dbf >/dev/null 2>&1
 
-  echo -e "[ ${GREEN}OK${NC} ] STAGE 6"
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 6"
 
   if [ $TILL_STAGE = 7 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"

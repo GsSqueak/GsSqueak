@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -e 
 set -o pipefail
 
 debug=""
@@ -32,7 +33,4 @@ NC='\033[0m' # No Color
 
 
 todeIt ${debug} $name mc load "${packageName}" "filetree://$GS_HOME/shared/repos/BP2017RH1/${packagePath}" 2>&1 | parseTodeitOutput > /dev/null
-
-# pass exit code of previos command
-exit $?
 
