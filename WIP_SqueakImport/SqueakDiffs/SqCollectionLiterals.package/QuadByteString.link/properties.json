@@ -1,3 +1,4 @@
 {
+	"category" : "Collections-Strings",
 	"name" : "QuadByteString",
 	"super" : "WideString" }

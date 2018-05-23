@@ -1,3 +1,4 @@
 {
+	"category" : "Kernel-Classes",
 	"name" : "Class",
 	"super" : "ClassDescription" }

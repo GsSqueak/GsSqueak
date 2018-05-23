@@ -1,15 +1,4 @@
 {
-	"category" : "SqNumbers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "nice 9/7/2011 19:09",
-	"instvars" : [
-		"fraction",
-		"scale" ],
+	"category" : "Kernel-Numbers",
 	"name" : "ScaledDecimal",
-	"pools" : [
-		 ],
-	"super" : "Number",
-	"type" : "normal" }
+	"super" : "Number" }
