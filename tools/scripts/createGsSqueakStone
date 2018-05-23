@@ -16,7 +16,7 @@ NC='\033[0m' # No Color
 load_package() {
   load_package_usage() { echo "load_package [-S] [-D] <package_name>"; exit; }
 
-  local OPTIND package_name opt
+  local OPTIND package_name opt SQUEAK_IMPORT DEBUG
 
   while getopts "SD" opt; do
     case "${opt}" in
