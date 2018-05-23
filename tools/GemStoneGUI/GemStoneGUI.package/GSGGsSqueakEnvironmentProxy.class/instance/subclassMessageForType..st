@@ -2,7 +2,7 @@ class creation
 subclassMessageForType: aSymbol
 
 	aSymbol == #normal ifTrue: [^ 'subclass:'].
-	aSymbol == #indexable ifTrue: [^ 'indexableSubclass:'].
+	aSymbol == #variable ifTrue: [^ 'indexableSubclass:'].
 	(self byteTypes includes: aSymbol)
 		ifTrue: [^ 'byteSubclass:'].
 	aSymbol == #weak ifTrue: [^ 'indexableSubclass:'].
