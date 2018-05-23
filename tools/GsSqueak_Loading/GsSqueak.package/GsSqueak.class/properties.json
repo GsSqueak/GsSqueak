@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"classDefinitions" ],
-	"name" : "GSSClassDiffs",
+		"fileDirectory",
+		"classDefinitions",
+		"configuration" ],
+	"name" : "GsSqueak",
 	"pools" : [
 		 ],
 	"super" : "Object",

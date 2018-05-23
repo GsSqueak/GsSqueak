@@ -1,4 +1,4 @@
 accessing
 classDefinitions: anObject
 	
-	classDefinitions := anObject.
+	classDefinitions := anObject

@@ -1,0 +1,4 @@
+accessing
+defaultGemstoneName
+
+	^ self name
