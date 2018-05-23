@@ -1,0 +1,10 @@
+| myGsExternalSession |
+  myGsExternalSession := GsExternalSession new.
+  myGsExternalSession
+    stoneNRS: GsNetworkResourceString defaultStoneNRSFromCurrent;
+    gemNRS:
+        (GsNetworkResourceString gemNRSForNetLDI: '45465' onHost: 'localhost');
+    username: 'DataCurator';
+    password: 'swordfish'.
+  myGsExternalSession login.
+  myGsExternalSession forkString: 'Object new' 
