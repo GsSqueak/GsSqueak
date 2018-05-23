@@ -1,14 +1,14 @@
 {
-	"category" : "GemStoneGUI-GemStone",
+	"category" : "GemStoneGUI-Squeak",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"oop" ],
-	"name" : "GSGGemStoneObjectProxy",
+		 ],
+	"name" : "GSGSqueakRepository",
 	"pools" : [
 		 ],
-	"super" : "GSGObjectProxy",
+	"super" : "GSGLiveRepository",
 	"type" : "normal" }

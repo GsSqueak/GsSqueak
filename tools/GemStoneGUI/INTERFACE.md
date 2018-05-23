@@ -1,4 +1,5 @@
 Repository >> executeString:
+?? Repository >> id
 
 
 Environment >> classNamed:
@@ -31,5 +32,6 @@ Class >> renameMessageCategory:to:environmentId:
 (P) Class >> theNonMetaClass
 
 
+(P) Method >> category
 (P) Method >> selector
 Method >> sourceString
