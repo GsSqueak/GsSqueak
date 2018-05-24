@@ -1,5 +1,5 @@
-accessing - real class
-originalClassMethods
+accessing
+classMethods
 
 	| modifiedMethods originalMethods |
 	modifiedMethods := self loadedClassMethods ifNil: [Array new].
