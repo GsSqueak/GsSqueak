@@ -57,7 +57,7 @@ load_package() {
   if [ $? = 0 ]; then
     echo -e "\r[ ${GREEN}SUCCESS${NC} ] Load $PACKAGE_NAME"
 
-    if [[ $AUTO_DEBUG = false && $DEBUG_PACKAGE = ${PACKAGE_NAME} ]]; then
+    if [[ $DEBUG = -D ]]; then
       echo -e "[ ${GREEN}SUCCESS${NC} ] Exit after debugging package"
       exit 0
     fi
