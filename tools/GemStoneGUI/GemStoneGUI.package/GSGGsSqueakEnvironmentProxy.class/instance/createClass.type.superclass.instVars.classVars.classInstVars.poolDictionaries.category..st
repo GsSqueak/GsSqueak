@@ -18,7 +18,7 @@ createClass: className type: typeSymbol superclass: superclassName instVars: ins
 		classInstVars: {7}
 		poolDictionaries: poolArray
 		inDictionary: SymbolDictionary new
-		newVersionOf: (environment classNamed: {4})
+		newVersionOf: nil
 		description: nil
 		options: {9}.
 	environment at: newClass name put: newClass.
