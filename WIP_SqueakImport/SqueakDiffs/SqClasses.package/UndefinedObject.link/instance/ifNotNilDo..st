@@ -1,1 +1,5 @@
-*SqClasses-testingifNotNilDo: aBlock	"Override to do nothing."	^ self
+*SqClasses-testing
+ifNotNilDo: aBlock
+	"Override to do nothing."
+
+	^ self

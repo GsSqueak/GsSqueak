@@ -1,1 +1,4 @@
-*SqClasses-accessingclassPoolFrom: aClass	"share the classPool with aClass."	self shouldNotImplement
+*SqClasses-accessing
+classPoolFrom: aClass
+	"share the classPool with aClass."
+	self shouldNotImplement

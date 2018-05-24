@@ -1,1 +1,3 @@
-*SqClasses-testingisMethodReference	^false
+*SqClasses-testing
+isMethodReference
+	^false

@@ -1,1 +1,4 @@
-*SqClasses-testingisCharacter	^ false.
+*SqClasses-testing
+isCharacter
+
+	^ false.

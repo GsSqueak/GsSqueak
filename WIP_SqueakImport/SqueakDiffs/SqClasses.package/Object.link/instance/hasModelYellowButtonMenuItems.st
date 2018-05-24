@@ -1,1 +1,3 @@
-*SqClasses-graph modelhasModelYellowButtonMenuItems	^Preferences cmdGesturesEnabled
+*SqClasses-graph model
+hasModelYellowButtonMenuItems
+	^Preferences cmdGesturesEnabled

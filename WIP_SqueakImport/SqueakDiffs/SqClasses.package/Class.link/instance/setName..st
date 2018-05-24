@@ -1,1 +1,4 @@
-*SqClasses-privatesetName: aSymbol	"Private - set the name of the class"	name := aSymbol.
+*SqClasses-private
+setName: aSymbol
+	"Private - set the name of the class"
+	name := aSymbol.

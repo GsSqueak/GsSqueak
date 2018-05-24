@@ -1,1 +1,5 @@
-*SqClasses-comparingidentityHashPrintString	"'fred' identityHashPrintString"	^ '(', self identityHash printString, ')'
+*SqClasses-comparing
+identityHashPrintString
+	"'fred' identityHashPrintString"
+
+	^ '(', self identityHash printString, ')'

@@ -1,1 +1,3 @@
-*SqClasses-class hierarchyaddSubclass: aClass	"Ignored -- necessary to support disjoint class hierarchies"
+*SqClasses-class hierarchy
+addSubclass: aClass
+	"Ignored -- necessary to support disjoint class hierarchies"

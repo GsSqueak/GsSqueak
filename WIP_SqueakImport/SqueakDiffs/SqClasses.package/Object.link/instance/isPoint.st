@@ -1,1 +1,5 @@
-*SqClasses-testingisPoint	"Overridden to return true in Point."	^ false
+*SqClasses-testing
+isPoint
+	"Overridden to return true in Point."
+
+	^ false

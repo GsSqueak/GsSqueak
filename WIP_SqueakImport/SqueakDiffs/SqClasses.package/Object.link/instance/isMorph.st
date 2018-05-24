@@ -1,1 +1,4 @@
-*SqClasses-testingisMorph	^ false
+*SqClasses-testing
+isMorph
+
+	^ false

@@ -1,1 +1,3 @@
-*SqClasses-3ds parser supportfrom3DS: aDictionary	^aDictionary
+*SqClasses-3ds parser support
+from3DS: aDictionary
+	^aDictionary

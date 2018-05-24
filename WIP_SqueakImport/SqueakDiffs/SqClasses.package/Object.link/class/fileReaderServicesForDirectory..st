@@ -1,1 +1,4 @@
-*SqClasses-file list servicesfileReaderServicesForDirectory: aFileDirectory	"Backstop"	^#()
+*SqClasses-file list services
+fileReaderServicesForDirectory: aFileDirectory
+	"Backstop"
+	^#()

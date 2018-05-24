@@ -1,1 +1,5 @@
-*SqClasses-debugging-haltOncehaltOnceEnabled	^ Smalltalk		at: #HaltOnce		ifAbsent: [false]
+*SqClasses-debugging-haltOnce
+haltOnceEnabled
+	^ Smalltalk
+		at: #HaltOnce
+		ifAbsent: [false]

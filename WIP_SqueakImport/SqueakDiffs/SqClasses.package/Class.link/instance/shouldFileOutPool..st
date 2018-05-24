@@ -1,1 +1,4 @@
-*SqClasses-fileIn/OutshouldFileOutPool: aPoolName	"respond with true if the user wants to file out aPoolName"	^self confirm: ('FileOut the sharedPool ', aPoolName, '?')
+*SqClasses-fileIn/Out
+shouldFileOutPool: aPoolName
+	"respond with true if the user wants to file out aPoolName"
+	^self confirm: ('FileOut the sharedPool ', aPoolName, '?')

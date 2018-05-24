@@ -1,1 +1,3 @@
-*SqClasses-testingisArray	^false
+*SqClasses-testing
+isArray
+	^false

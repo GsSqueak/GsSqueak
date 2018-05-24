@@ -1,1 +1,5 @@
-*SqClasses-testinghasLiteralSuchThat: testBlock	"This is the end of the imbedded structure path so return false."	^ false
+*SqClasses-testing
+hasLiteralSuchThat: testBlock
+	"This is the end of the imbedded structure path so return false."
+
+	^ false

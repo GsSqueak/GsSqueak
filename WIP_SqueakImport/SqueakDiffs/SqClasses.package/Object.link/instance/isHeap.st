@@ -1,1 +1,4 @@
-*SqClasses-testingisHeap	^ false
+*SqClasses-testing
+isHeap
+
+	^ false

@@ -1,1 +1,4 @@
-*SqClasses-testingisBlock	^ false
+*SqClasses-testing
+isBlock
+
+	^ false

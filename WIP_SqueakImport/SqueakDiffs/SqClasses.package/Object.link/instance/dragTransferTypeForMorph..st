@@ -1,1 +1,3 @@
-*SqClasses-drag and dropdragTransferTypeForMorph: dragSource 	^nil
+*SqClasses-drag and drop
+dragTransferTypeForMorph: dragSource 
+	^nil

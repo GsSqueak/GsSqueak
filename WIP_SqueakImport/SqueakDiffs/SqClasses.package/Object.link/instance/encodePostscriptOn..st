@@ -1,1 +1,3 @@
-*SqClasses-filter streamingencodePostscriptOn:aStream	self byteEncode:aStream.
+*SqClasses-filter streaming
+encodePostscriptOn:aStream
+	self byteEncode:aStream.

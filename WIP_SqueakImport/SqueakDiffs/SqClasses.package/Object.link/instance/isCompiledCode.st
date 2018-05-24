@@ -1,1 +1,3 @@
-*SqClasses-testingisCompiledCode	^false
+*SqClasses-testing
+isCompiledCode
+	^false

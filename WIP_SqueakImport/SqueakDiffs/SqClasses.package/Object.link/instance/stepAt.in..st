@@ -1,1 +1,4 @@
-*SqClasses-testingstepAt: millisecondClockValue in: aWindow	^ self stepIn: aWindow
+*SqClasses-testing
+stepAt: millisecondClockValue in: aWindow
+
+	^ self stepIn: aWindow

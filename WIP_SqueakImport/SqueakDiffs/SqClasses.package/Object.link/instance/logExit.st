@@ -1,1 +1,4 @@
-*SqClasses-flagginglogExit	Transcript show:  'Exited ', thisContext sender printString; cr.
+*SqClasses-flagging
+logExit
+
+	Transcript show:  'Exited ', thisContext sender printString; cr.

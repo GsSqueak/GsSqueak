@@ -1,1 +1,4 @@
-*SqClasses-organizationenvironment	^ Smalltalk globals
+*SqClasses-organization
+environment
+
+	^ Smalltalk globals

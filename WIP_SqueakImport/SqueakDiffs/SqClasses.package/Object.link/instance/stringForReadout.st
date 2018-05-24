@@ -1,1 +1,3 @@
-*SqClasses-printingstringForReadout	^ self stringRepresentation
+*SqClasses-printing
+stringForReadout
+	^ self stringRepresentation

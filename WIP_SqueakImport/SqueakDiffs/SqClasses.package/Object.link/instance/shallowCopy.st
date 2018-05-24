@@ -1,1 +1,20 @@
-*SqClasses-copyingshallowCopy	"Answer a copy of the receiver which shares the receiver's instance variables."	<primitive: 885> "Gemstone primitive"	| class newObject |	ec == #'insufficient object memory' ifFalse:		[^self primitiveFailed].	"If the primitive fails due to insufficient memory, instantiate via basicNew: to invoke	 the garbage collector before retrying, and use copyFrom: to copy state."	newObject := (class := self class) isVariable					ifTrue: 						[class isCompiledMethodClass							ifTrue:								[class newMethod: self basicSize - self initialPC + 1 header: self header]							ifFalse:								[class basicNew: self basicSize]]					ifFalse:						[class basicNew].	^newObject copyFrom: self
+*SqClasses-copying
+shallowCopy
+	"Answer a copy of the receiver which shares the receiver's instance variables."
+
+	<primitive: 885> "Gemstone primitive"
+	| class newObject |
+	ec == #'insufficient object memory' ifFalse:
+		[^self primitiveFailed].
+	"If the primitive fails due to insufficient memory, instantiate via basicNew: to invoke
+	 the garbage collector before retrying, and use copyFrom: to copy state."
+	newObject := (class := self class) isVariable
+					ifTrue: 
+						[class isCompiledMethodClass
+							ifTrue:
+								[class newMethod: self basicSize - self initialPC + 1 header: self header]
+							ifFalse:
+								[class basicNew: self basicSize]]
+					ifFalse:
+						[class basicNew].
+	^newObject copyFrom: self

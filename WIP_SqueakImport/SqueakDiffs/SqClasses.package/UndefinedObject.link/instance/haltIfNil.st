@@ -1,1 +1,3 @@
-*SqClasses-testinghaltIfNil	self halt
+*SqClasses-testing
+haltIfNil
+	self halt

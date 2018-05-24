@@ -1,1 +1,3 @@
-*SqClasses-testingisPromise	^false
+*SqClasses-testing
+isPromise
+	^false

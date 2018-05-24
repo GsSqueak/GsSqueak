@@ -1,1 +1,3 @@
-*SqClasses-testingisLiteral	^ true
+*SqClasses-testing
+isLiteral
+	^ true

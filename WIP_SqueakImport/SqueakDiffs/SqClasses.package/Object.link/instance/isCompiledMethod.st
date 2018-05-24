@@ -1,1 +1,4 @@
-*SqClasses-testingisCompiledMethod	^ false
+*SqClasses-testing
+isCompiledMethod
+
+	^ false

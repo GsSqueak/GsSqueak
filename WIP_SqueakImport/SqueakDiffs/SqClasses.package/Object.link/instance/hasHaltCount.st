@@ -1,1 +1,4 @@
-*SqClasses-debugging-haltOncehasHaltCount	^self class environment				includesKey: #HaltCount
+*SqClasses-debugging-haltOnce
+hasHaltCount
+	^self class environment
+				includesKey: #HaltCount

@@ -1,1 +1,3 @@
-*SqClasses-testingisScriptEditorMorph	^false
+*SqClasses-testing
+isScriptEditorMorph
+	^false

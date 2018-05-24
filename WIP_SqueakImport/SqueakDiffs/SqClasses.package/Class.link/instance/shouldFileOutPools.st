@@ -1,1 +1,4 @@
-*SqClasses-fileIn/OutshouldFileOutPools	"respond with true if the user wants to file out the shared pools"	^self confirm: 'FileOut selected sharedPools?'
+*SqClasses-fileIn/Out
+shouldFileOutPools
+	"respond with true if the user wants to file out the shared pools"
+	^self confirm: 'FileOut selected sharedPools?'

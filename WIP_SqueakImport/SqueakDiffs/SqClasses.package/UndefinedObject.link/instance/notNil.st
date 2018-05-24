@@ -1,1 +1,5 @@
-*SqClasses-testingnotNil 	"Refer to the comment in Object|notNil."	^false
+*SqClasses-testing
+notNil 
+	"Refer to the comment in Object|notNil."
+
+	^false

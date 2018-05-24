@@ -1,1 +1,5 @@
-*SqClasses-dependents accessbreakDependents	"Remove all of the receiver's dependents."	self myDependents: nil
+*SqClasses-dependents access
+breakDependents
+	"Remove all of the receiver's dependents."
+
+	self myDependents: nil

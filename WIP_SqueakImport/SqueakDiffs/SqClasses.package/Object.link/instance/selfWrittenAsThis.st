@@ -1,1 +1,4 @@
-*SqClasses-scriptingselfWrittenAsThis	^self
+*SqClasses-scripting
+selfWrittenAsThis
+
+	^self

@@ -1,1 +1,3 @@
-*SqClasses-fileIn/OutfileOutInitializerOn: aStream	^self class fileOutInitializerOn: aStream
+*SqClasses-fileIn/Out
+fileOutInitializerOn: aStream
+	^self class fileOutInitializerOn: aStream

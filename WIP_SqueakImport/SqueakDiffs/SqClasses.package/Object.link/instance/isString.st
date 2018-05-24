@@ -1,1 +1,4 @@
-*SqClasses-testingisString	"Overridden to return true in String, natch"	^ false
+*SqClasses-testing
+isString
+	"Overridden to return true in String, natch"
+	^ false

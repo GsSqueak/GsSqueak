@@ -1,1 +1,3 @@
-*SqClasses-updatingnoteSelectionIndex: anInteger for: aSymbol	"backstop"
+*SqClasses-updating
+noteSelectionIndex: anInteger for: aSymbol
+	"backstop"

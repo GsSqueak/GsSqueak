@@ -1,1 +1,4 @@
-*SqClasses-testingstepIn: aWindow	^ self step
+*SqClasses-testing
+stepIn: aWindow
+
+	^ self step

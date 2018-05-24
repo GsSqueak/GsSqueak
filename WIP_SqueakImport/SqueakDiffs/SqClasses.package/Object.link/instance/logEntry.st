@@ -1,1 +1,4 @@
-*SqClasses-flagginglogEntry	Transcript show: 'Entered ', thisContext sender printString; cr.
+*SqClasses-flagging
+logEntry
+
+	Transcript show: 'Entered ', thisContext sender printString; cr.

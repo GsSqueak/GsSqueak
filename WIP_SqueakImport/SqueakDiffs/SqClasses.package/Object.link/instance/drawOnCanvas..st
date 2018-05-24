@@ -1,1 +1,3 @@
-*SqClasses-filter streamingdrawOnCanvas:aStream	self flattenOnStream:aStream.
+*SqClasses-filter streaming
+drawOnCanvas:aStream
+	self flattenOnStream:aStream.

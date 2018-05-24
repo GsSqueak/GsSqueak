@@ -1,1 +1,5 @@
-*SqClasses-testingisVariableBinding	"Return true if I represent a literal variable binding"	^false	
+*SqClasses-testing
+isVariableBinding
+	"Return true if I represent a literal variable binding"
+	^false
+	

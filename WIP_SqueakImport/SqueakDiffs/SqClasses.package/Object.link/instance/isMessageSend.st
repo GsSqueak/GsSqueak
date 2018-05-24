@@ -1,1 +1,3 @@
-*SqClasses-testingisMessageSend	^false
+*SqClasses-testing
+isMessageSend
+	^false

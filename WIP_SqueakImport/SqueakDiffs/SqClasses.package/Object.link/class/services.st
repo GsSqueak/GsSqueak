@@ -1,1 +1,4 @@
-*SqClasses-file list servicesservices	"Backstop"	^#()
+*SqClasses-file list services
+services
+	"Backstop"
+	^#()

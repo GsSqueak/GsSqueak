@@ -1,1 +1,3 @@
-*SqClasses-filter streamingflattenOnStream:aStream	self writeOnFilterStream:aStream.
+*SqClasses-filter streaming
+flattenOnStream:aStream
+	self writeOnFilterStream:aStream.

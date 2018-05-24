@@ -1,1 +1,3 @@
-*SqClasses-accessingclassPool: aDictionary	self shouldNotImplement
+*SqClasses-accessing
+classPool: aDictionary
+	self shouldNotImplement

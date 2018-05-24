@@ -1,1 +1,3 @@
-*SqClasses-testingisSymbol	^ false 
+*SqClasses-testing
+isSymbol
+	^ false 

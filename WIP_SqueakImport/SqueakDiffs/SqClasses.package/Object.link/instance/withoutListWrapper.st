@@ -1,1 +1,4 @@
-*SqClasses-convertingwithoutListWrapper	^self
+*SqClasses-converting
+withoutListWrapper
+
+	^self

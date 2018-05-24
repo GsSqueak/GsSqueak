@@ -1,1 +1,4 @@
-*SqClasses-user interfacenotYetImplemented	NotYetImplemented signal	
+*SqClasses-user interface
+notYetImplemented
+	NotYetImplemented signal
+	

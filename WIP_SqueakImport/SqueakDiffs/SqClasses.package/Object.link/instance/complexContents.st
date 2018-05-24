@@ -1,1 +1,4 @@
-*SqClasses-convertingcomplexContents	^self
+*SqClasses-converting
+complexContents
+
+	^self
