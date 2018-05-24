@@ -1,7 +1,9 @@
 {
 	"class" : {
+		"createIndex" : "",
 		"file" : "jb 5/22/2018 11:12",
 		"findByBirthyear:" : "jb 5/22/2018 12:54",
+		"findIndexedByBirthyear:" : "",
 		"fromTsv" : "",
 		"lacyCommit" : "",
 		"names" : "jb 5/22/2018 12:51",

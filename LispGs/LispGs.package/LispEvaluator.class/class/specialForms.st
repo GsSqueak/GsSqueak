@@ -1,3 +1,0 @@
-private
-specialForms
-	^ SpecialForms

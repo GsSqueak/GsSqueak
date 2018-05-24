@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-GemStone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sl 5/23/2018 23:10",
+	"instvars" : [
+		 ],
+	"name" : "GSGWeakParser",
+	"pools" : [
+		 ],
+	"super" : "SHParserST80",
+	"type" : "normal" }

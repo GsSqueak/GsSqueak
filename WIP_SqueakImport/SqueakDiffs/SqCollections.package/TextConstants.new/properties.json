@@ -1,0 +1,15 @@
+{
+	"category" : "Collections-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultTab"
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TextConstants",
+	"pools" : [
+		 ],
+	"super" : "SharedPool",
+	"type" : "normal" }

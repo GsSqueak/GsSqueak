@@ -1,0 +1,14 @@
+{
+	"categoriesToLoad" : [
+		"Collections",
+		"Kernel"
+		],
+	"classesNotToLoad" : [
+		"True",
+		"False",
+		"BoxedFloat64",
+		"SmallFloat64",
+		"FullBlockClosure",
+		"CompiledCode",
+		"CompiledBlock"
+		]}

@@ -1,5 +1,4 @@
 {
-	"category" : "SqWeak-Collections-Support",
 	"name" : "WeakValueAssociation",
 	"super" : "Association",
 	"type" : "normal" }

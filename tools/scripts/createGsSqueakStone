@@ -11,6 +11,10 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
+createGsSqueakStone_usage() { 
+  echo "$0 [-f <from_stage_number>] [-t <till_stage_number>] <stone_name>"
+  echo "Press ctrl-c to debug a package"
+}
 
 # functions
 load_package() {
@@ -53,7 +57,7 @@ load_package() {
   if [ $? = 0 ]; then
     echo -e "\r[ ${GREEN}SUCCESS${NC} ] Load $PACKAGE_NAME"
 
-    if [[ $AUTO_DEBUG = false && $DEBUG_PACKAGE = ${PACKAGE_NAME} ]]; then
+    if [[ $DEBUG = -D ]]; then
       echo -e "[ ${GREEN}SUCCESS${NC} ] Exit after debugging package"
       exit 0
     fi
@@ -185,9 +189,10 @@ if [ $FROM_STAGE -le 1 ]; then
     fi
   # load backup created by tode in order to skip stone creation
   elif [ $FROM_STAGE = 1 ]; then
-    CURRENT_STAGE=1
     restore_backup $name tode.dbf 
   fi
+  
+  CURRENT_STAGE=1
 
 run_topaz $name << EOF
 set u SystemUser p swordfish

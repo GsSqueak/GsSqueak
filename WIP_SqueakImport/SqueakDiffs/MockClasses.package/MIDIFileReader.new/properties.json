@@ -1,5 +1,5 @@
 {
-	"category" : "MockClasses",
+	"category" : "Sound-Scores",
 	"instvars" : [
 		 ],
 	"name" : "MIDIFileReader",

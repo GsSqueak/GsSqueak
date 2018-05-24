@@ -1,3 +1,4 @@
 {
+	"category" : "Collections-Arrayed",
 	"name" : "ByteArray",
 	"super" : "ArrayedCollection" }

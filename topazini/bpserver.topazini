@@ -1,4 +1,4 @@
-set gemstone !@172.18.13.84#netldi:45358!powerStone1
+set gemstone !@127.0.0.1#netldi:45358!gs1
 set username DataCurator
 set password swordfish
 set hostusername datacurator
