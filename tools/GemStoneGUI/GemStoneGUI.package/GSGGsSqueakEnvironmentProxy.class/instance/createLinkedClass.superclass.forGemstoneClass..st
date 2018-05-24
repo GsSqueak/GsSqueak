@@ -6,17 +6,25 @@ createLinkedClass: linkedClassName superclass: superclassName forGemstoneClass: 
 	superclassSetter := superclassName 
 							ifNil: ['']
 							ifNotNil: [
-								'{1} superclassForEnv: {2} put: ({3}).
-								{1} class superclassForEnv: {2} put: ({3}) class.
+								'| environment |
+								environment := {1}.
+								{2} superclassForEnv: {3} put: (environment classNamed: {4}).
+								{2} class superclassForEnv: {3} put: (environment classNamed: {4}) class.
 								Behavior _clearLookupCaches: 0.
-								Behavior _clearLookupCaches: {2}'
-									format: {aGsClass . envId . superclassName}].
+								Behavior _clearLookupCaches: {3}'
+									format: {
+										self codeReferencingMe.
+										aGsClass.
+										envId.
+										superclassName storeString}].
 	query := '
 	{1} at: {2} put: ({3}).
-	{4}
+	[{4}] value.
+	{3}
 	' format: {
 		self codeReferencingMe.
-		linkedClassName asSymbol printString.
-		aGsClass asString.
+		linkedClassName asSymbol storeString.
+		aGsClass.
 		superclassSetter
 	}.
+	^ self fetchClass: query.

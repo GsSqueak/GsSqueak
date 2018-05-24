@@ -2,5 +2,5 @@ button actions
 loadSqueakFrom: aFileDirectory
 
 	| loader |
-	loader := GSSClassDiffs fromDirectory: aFileDirectory.
+	loader := GsSqueak fromDirectory: aFileDirectory.
 	loader installInto: (GSGGsSqueakEnvironmentProxy forRepository: self session)

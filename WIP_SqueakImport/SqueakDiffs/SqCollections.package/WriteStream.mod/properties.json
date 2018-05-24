@@ -1,15 +1,2 @@
 {
-	"category" : "SqCollections-Streams",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		"writeLimit",
-		"initialPositionOrNil" ],
-	"name" : "WriteStream",
-	"pools" : [
-		 ],
-	"super" : "PositionableStream",
-	"type" : "normal" }
+	"name" : "WriteStream" }

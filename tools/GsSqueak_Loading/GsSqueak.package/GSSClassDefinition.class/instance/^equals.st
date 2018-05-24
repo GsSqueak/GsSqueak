@@ -1,6 +1,7 @@
 comparing
 = anObject
 
+	self == anObject ifTrue: [^ true].
 	self species = anObject species ifFalse: [^ false].
 	self name = anObject name ifFalse: [^ false].
 	self superclass = anObject superclass ifFalse: [^ false].

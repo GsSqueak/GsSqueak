@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initializeInstanceVariables" : "sl 5/23/2018 23:02",
+		"parseBinary" : "sl 5/23/2018 22:59",
+		"parseKeyword" : "sl 5/23/2018 22:57",
+		"parseUnary" : "sl 5/23/2018 22:59",
+		"resolve:" : "sl 5/23/2018 23:04" } }

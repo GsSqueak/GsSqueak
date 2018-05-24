@@ -1,3 +1,3 @@
 emulating
 keyAtIdentityValue: anObject 
-	^ declarations keyAtIdentityValue: anObject
+	^ declarations keyAtValue: anObject

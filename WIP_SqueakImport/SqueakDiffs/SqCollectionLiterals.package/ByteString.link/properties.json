@@ -1,4 +1,5 @@
 {
+	"category" : "Collections-Strings",
 	"gemstoneName" : "String",
 	"name" : "ByteString",
 	"super" : "String" }

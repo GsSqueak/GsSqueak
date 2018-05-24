@@ -20,7 +20,7 @@ createGsSqueakStone_usage() {
 load_package() {
   load_package_usage() { echo "load_package [-S] [-D] <package_name>"; exit; }
 
-  local OPTIND package_name opt
+  local OPTIND package_name opt SQUEAK_IMPORT DEBUG
 
   while getopts "SD" opt; do
     case "${opt}" in
@@ -528,17 +528,8 @@ if [ $FROM_STAGE -le 7 ]; then
   load_package -S '`Graphics-Text`'
   load_package -S '`Graphics-SegmentScanner`'
   load_package -S '`Graphics-Files`'
-  load_package -SD '`Graphics-Fonts`'
+  load_package -S '`Graphics-Fonts`'
   
-  load_package -S '`System-Object Storage`'
-  load_package -S '`Collections-Streams`'
-  load_package -SD Files
-  load_package -SD Tools-FileList
-  load_package -S '`Graphics-Text`'
-  load_package -S '`Graphics-SegmentScanner`'
-  load_package -S '`Graphics-Files`'
-  load_package -SD '`Graphics-Fonts`'
-
 startTopaz $name -l >/dev/null 2>&1 << EOF
 login
 run

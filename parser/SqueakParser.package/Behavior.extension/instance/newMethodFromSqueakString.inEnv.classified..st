@@ -5,11 +5,12 @@ newMethodFromSqueakString: aString inEnv: env classified: aProtocol
   ast := parser parse: aString class: self.
   gsAst := ast asGemstoneNodeInEnvironment: env.
   (gsMethod := GsNMethod generateFromIR: gsAst) _isArray
-    ifTrue: [ gsMethod := gsMethod first ].
+    ifTrue: [ gsMethod := gsMethod first ifNil: [ self error: gsMethod second first fourth ] ].
   self removeSelector: gsMethod selector environmentId: env ifAbsent: [  ].
   methDict := self persistentMethodDictForEnv: env.
   methDict ifNil: [ methDict := GsMethodDictionary new ].
   methDict at: gsMethod selector put: gsMethod.
   self nonProtectedPersistentMethodDictForEnv: env put: methDict.
   self _codeChangedForEnv: env.
-  self classify: gsMethod selector under: aProtocol environmentId: env
+  self classify: gsMethod selector under: aProtocol environmentId: env.
+  ^ gsMethod selector

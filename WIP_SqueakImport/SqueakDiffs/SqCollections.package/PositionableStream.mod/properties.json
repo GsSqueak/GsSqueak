@@ -1,16 +1,2 @@
 {
-	"category" : "SqCollections",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		"collection",
-		"position",
-		"readLimit" ],
-	"name" : "PositionableStream",
-	"pools" : [
-		 ],
-	"super" : "Stream",
-	"type" : "normal" }
+	"name" : "PositionableStream" }

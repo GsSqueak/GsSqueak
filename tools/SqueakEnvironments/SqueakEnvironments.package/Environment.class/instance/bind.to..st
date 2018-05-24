@@ -7,7 +7,7 @@ bind: aSymbol to: anObject
     ifNotNil: [ 
       _gsSqueakTemp_binding class == _gsSqueakTemp_newBinding class
         ifTrue: [ _gsSqueakTemp_binding value: anObject ]
-        ifFalse: [ _gsSqueakTemp_binding becomeForward: _gsSqueakTemp_newBinding ].
+        ifFalse: [ _gsSqueakTemp_binding become: _gsSqueakTemp_newBinding ].
       ^ anObject ].
   _gsSqueakTemp_binding := undeclared associationAt: aSymbol ifAbsent: [  ].
   _gsSqueakTemp_binding

@@ -1,4 +1,4 @@
 class creation
 byteTypes
 
-	^ #(byte doubleByte quadByte octByte)
+	^ #(bytes shorts words longs)
