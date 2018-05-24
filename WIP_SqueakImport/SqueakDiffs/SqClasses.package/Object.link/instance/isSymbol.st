@@ -1,0 +1,1 @@
+*SqClasses-testingisSymbol	^ false 

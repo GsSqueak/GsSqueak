@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"activate" : "mir 8/6/1999 18:14",
+		"autoStarter" : "mir 8/4/1999 13:57",
+		"deactivate" : "" },
+	"instance" : {
+		"commandLine:" : "jm 8/20/1999 15:33",
+		"determineParameterNameFrom:" : "mir 9/23/1999 13:18",
+		"includesParameter:" : "mir 1/11/2000 16:35",
+		"parameterAt:" : "mir 8/4/1999 14:19",
+		"parameterAt:ifAbsent:" : "ul 8/2/2011 19:51",
+		"parameters" : "cmm 10/12/2013 16:22",
+		"parameters:" : "mir 7/29/1999 10:21",
+		"startUp" : "tk 10/24/2001 06:40" } }

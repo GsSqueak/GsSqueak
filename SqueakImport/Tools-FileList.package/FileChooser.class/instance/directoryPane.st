@@ -1,0 +1,3 @@
+accessing
+directoryPane
+	^directoryPane

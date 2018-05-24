@@ -1,0 +1,4 @@
+interface
+sourceString
+
+	self subclassResponsibility

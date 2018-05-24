@@ -1,0 +1,4 @@
+private
+createSubmenu
+
+	^MenuMorph new

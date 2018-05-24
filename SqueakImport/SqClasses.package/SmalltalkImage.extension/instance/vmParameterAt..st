@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm parameters
+*SqClasses-vm parameters
 vmParameterAt: parameterIndex
 	"parameterIndex is a positive integer corresponding to one of the VM's internal parameter/metric registers.
 	 Answer with the current value of that register.  Fail if parameterIndex has no corresponding register.
@@ -81,5 +81,7 @@ vmParameterAt: parameterIndex
 		70	the value of VM_PROXY_MAJOR (the interpreterProxy major version number)
 		71	the value of VM_PROXY_MINOR (the interpreterProxy minor version number)"
 
-	
-	self primitiveFailed
+	parameterIndex caseOf: {
+	    [ 42 ] -> [ ^ nil ] }.
+
+	self self notYetImplemented

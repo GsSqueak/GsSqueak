@@ -1,0 +1,4 @@
+testing
+mayActOnClick
+
+	^ true

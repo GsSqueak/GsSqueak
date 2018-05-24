@@ -1,0 +1,4 @@
+{
+	"name" : "LargePositiveInteger",
+	"super" : "LargeInteger",
+	"type" : "words" }

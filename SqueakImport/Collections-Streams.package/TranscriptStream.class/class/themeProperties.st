@@ -1,0 +1,4 @@
+preferences
+themeProperties
+	
+	^ Model themeProperties

@@ -22,10 +22,19 @@ instSpec
 	 has format 18 in 32-bits, since its size is one 32-bit slot - 2 bytes ((18 bitAnd: 3) = 2), and
 	 22 in 64 bits, since its size is one 64-bit slot - 6 bytes ((22 bitAnd: 7) = 6)."
 	
-	self _env0 isPointers ifTrue: [^ 2].
-	self _env0 isSpecial ifTrue: [^ 7].
-	self isWords ifTrue: [^ 10].
-	self isBytes ifTrue: [^ 16].
+
+	self isVariable ifTrue: [
+		
+		self isLongs ifTrue: [^ 9].
+		self isWords ifTrue: [^ 10].
+		self isBytes ifTrue: [^ 16].
+		self _env0 isPointers ifTrue: [
+			(self instSize > 0) ifTrue: [^3].
+			^2
+		].
+	].
+	
 	self instSize = 0 ifTrue: [^ 0].
+	self _env0 isSpecial ifTrue: [^ 7].
 	self _env0 isIndexable ifFalse: [^ 1].
 	^ self shouldBeImplemented

@@ -1,0 +1,1 @@
+*SqCollections-testingisDictionary	^true

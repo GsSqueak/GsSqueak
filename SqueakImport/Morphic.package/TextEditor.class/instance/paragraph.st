@@ -1,0 +1,4 @@
+accessing
+paragraph
+
+	^paragraph

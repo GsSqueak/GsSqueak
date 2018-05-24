@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"createIndex" : "",
+		"file" : "jb 5/22/2018 11:12",
+		"findByBirthyear:" : "jb 5/22/2018 12:54",
+		"findIndexedByBirthyear:" : "",
+		"fromTsv" : "",
+		"lacyCommit" : "",
+		"names" : "jb 5/22/2018 12:51",
+		"newWithNconst:primaryName:birthYear:deathYear:primaryProfession:knownForTitles:" : "jb 5/22/2018 11:22" },
+	"instance" : {
+		"birthYear" : "jb 5/22/2018 11:19",
+		"birthYear:" : "jb 5/22/2018 11:19",
+		"deathYear" : "jb 5/22/2018 11:19",
+		"deathYear:" : "jb 5/22/2018 11:19",
+		"knownForTitles" : "jb 5/22/2018 11:19",
+		"knownForTitles:" : "jb 5/22/2018 11:19",
+		"nconst" : "jb 5/22/2018 11:19",
+		"nconst:" : "jb 5/22/2018 11:19",
+		"primaryName" : "jb 5/22/2018 11:19",
+		"primaryName:" : "jb 5/22/2018 11:19",
+		"primaryProfession" : "jb 5/22/2018 11:19",
+		"primaryProfession:" : "jb 5/22/2018 11:19" } }

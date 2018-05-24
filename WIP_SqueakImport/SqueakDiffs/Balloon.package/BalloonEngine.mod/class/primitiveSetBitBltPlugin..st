@@ -1,0 +1,1 @@
+privateprimitiveSetBitBltPlugin: pluginName		^nil

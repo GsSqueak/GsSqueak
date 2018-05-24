@@ -1,0 +1,4 @@
+interface
+templateForSubclassOf: classSymbol category: categorySymbol
+
+	self subclassResponsibility

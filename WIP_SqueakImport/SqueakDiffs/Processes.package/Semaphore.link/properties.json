@@ -1,0 +1,4 @@
+{
+	"category" : "Kernel-Processes",
+	"gemstoneName" : "TransientSemaphore",
+	"name" : "Semaphore" }

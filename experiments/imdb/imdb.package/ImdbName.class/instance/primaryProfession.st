@@ -1,0 +1,4 @@
+accessing
+primaryProfession
+	
+	^ primaryProfession

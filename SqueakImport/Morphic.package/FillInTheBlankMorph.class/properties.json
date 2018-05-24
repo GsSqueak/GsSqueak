@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Windows",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"response",
+		"done",
+		"textPane",
+		"responseUponCancel" ],
+	"name" : "FillInTheBlankMorph",
+	"pools" : [
+		 ],
+	"super" : "DialogWindow",
+	"type" : "normal" }

@@ -8,6 +8,6 @@ basicNew
 	 before the method is activated.  Check that space was low and retry
 	 via handleFailingBasicNew if so."
 
-	<primitive: 50>
+	<primitive: 50> "GemStone Primitive"
 	self isVariable ifTrue: [^self basicNew: 0].
 	self primitiveFailed

@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"defaultFont" : "ar 5/17/2000 17:39",
+		"new" : "nice 10/12/2013 03:36" },
+	"instance" : {
+		"cr" : "nice 10/8/2013 23:35",
+		"crossedX" : "nice 10/8/2013 23:37",
+		"defaultTextColor" : "nice 10/11/2013 23:46",
+		"defaultTextColor:" : "nice 10/11/2013 23:46",
+		"displayEmbeddedForm:" : "nice 10/19/2013 13:13",
+		"displayLine:offset:leftInRun:" : "nice 10/22/2013 20:51",
+		"displayString:from:to:at:" : "nice 10/12/2013 01:05",
+		"endOfRun" : "nice 10/10/2013 00:13",
+		"fillTextBackground" : "nice 10/12/2013 00:53",
+		"initialize" : "nice 10/12/2013 03:39",
+		"paddedSpace" : "nice 10/8/2013 23:36",
+		"placeEmbeddedObject:" : "nice 10/19/2013 16:21",
+		"setFont" : "nice 10/11/2013 23:47",
+		"setStopConditions" : "nice 10/9/2013 23:39",
+		"tab" : "nice 10/13/2013 22:10",
+		"text:textStyle:foreground:background:fillBlt:ignoreColorChanges:" : "nice 10/12/2013 01:33",
+		"textColor:" : "ar 1/8/2000 14:51" } }

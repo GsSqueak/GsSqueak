@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"decodeEmbeddedSourceZip" : "Igor.Stasenko 12/13/2009 16:33",
+		"decodeTempsNamesZip" : "Igor.Stasenko 12/13/2009 16:33",
+		"decodeZip" : "ul 12/22/2009 20:10",
+		"encodeEmbeddedSourceZip" : "Igor.Stasenko 12/13/2009 14:29",
+		"encodeTempsNamesZip" : "Igor.Stasenko 12/13/2009 15:56",
+		"encodeUsingZip" : "Igor.Stasenko 12/20/2009 21:32" } }

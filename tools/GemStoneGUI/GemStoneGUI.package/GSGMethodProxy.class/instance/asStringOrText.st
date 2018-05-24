@@ -1,4 +1,0 @@
-printing
-asStringOrText
-
-	^ self stringVersionDefault

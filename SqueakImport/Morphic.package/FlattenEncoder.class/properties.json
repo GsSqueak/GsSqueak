@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "FlattenEncoder",
+	"pools" : [
+		 ],
+	"super" : "NullEncoder",
+	"type" : "normal" }

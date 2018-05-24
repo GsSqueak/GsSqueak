@@ -1,0 +1,19 @@
+{
+	"category" : "Collections-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pre 8/29/2017 16:14",
+	"instvars" : [
+		"count",
+		"offset",
+		"runStack",
+		"runArray",
+		"string",
+		"breakLines" ],
+	"name" : "HtmlReadWriter",
+	"pools" : [
+		 ],
+	"super" : "TextReadWriter",
+	"type" : "normal" }

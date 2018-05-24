@@ -1,0 +1,4 @@
+private
+lastLine
+
+	^lines last

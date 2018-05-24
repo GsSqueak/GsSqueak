@@ -1,0 +1,1 @@
+Subclasses of me provide means to create instances of Text from various document formats such as HTML (Hyper Text Markup Language), DOCX (Microsoft Word Document), ODF (Open Document Format), and RTF (Rich Text Format). They should also be able to write such formats.

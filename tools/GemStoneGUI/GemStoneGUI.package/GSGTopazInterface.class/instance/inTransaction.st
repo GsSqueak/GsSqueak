@@ -1,6 +1,4 @@
-new api - transactions
+old api - transactions
 inTransaction
 
-	| topazOutput |
-	topazOutput := self run: 'System inTransaction'.
-	^ self convertToBoolean: (topazOutput at: 1)
+	^ self fetchBoolean: 'System inTransaction'

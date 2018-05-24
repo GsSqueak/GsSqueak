@@ -1,0 +1,1 @@
+This class is a much simpler implementation of Transcript protocol that supports multiple views and very simple conversion to morphic.  Because it inherits from Stream, it is automatically compatible with code that is designed to write to streams.

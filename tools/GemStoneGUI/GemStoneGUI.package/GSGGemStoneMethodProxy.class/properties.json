@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-GemStone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSGGemStoneMethodProxy",
+	"pools" : [
+		 ],
+	"super" : "GSGMethodProxy",
+	"type" : "normal" }

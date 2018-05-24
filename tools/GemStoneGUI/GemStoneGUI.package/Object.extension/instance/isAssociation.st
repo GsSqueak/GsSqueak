@@ -1,0 +1,4 @@
+*GemStoneGUI
+isAssociation
+
+	^ false

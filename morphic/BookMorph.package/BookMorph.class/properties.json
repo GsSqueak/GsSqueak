@@ -1,0 +1,17 @@
+{
+	"category" : "BookMorph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"MethodHolders",
+		"VersionNames",
+		"VersionTimes" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"pages",
+		"currentPage" ],
+	"name" : "BookMorph",
+	"pools" : [
+		 ],
+	"super" : "BooklikeMorph",
+	"type" : "normal" }

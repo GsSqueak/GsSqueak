@@ -1,0 +1,1 @@
+*SqCharacter-testingisLiteral	^true

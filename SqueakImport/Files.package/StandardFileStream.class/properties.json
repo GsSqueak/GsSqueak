@@ -1,0 +1,17 @@
+{
+	"category" : "Files-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Registry" ],
+	"commentStamp" : "ul 12/6/2009 05:13",
+	"instvars" : [
+		"name",
+		"fileID",
+		"buffer1",
+		"lastWritten" ],
+	"name" : "StandardFileStream",
+	"pools" : [
+		 ],
+	"super" : "FileStream",
+	"type" : "normal" }

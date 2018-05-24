@@ -1,0 +1,5 @@
+{
+	"category" : "Kernel-Methods",
+	"gemstoneName" : "ExecBlock",
+	"name" : "BlockClosure",
+	"super" : "Object" }

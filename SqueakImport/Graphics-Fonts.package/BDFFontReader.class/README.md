@@ -1,0 +1,3 @@
+I am a conversion utility for reading X11 Bitmap Distribution Format fonts.  My code is derived from the multilingual Squeak changeset written by OHSHIMA Yoshiki (ohshima@is.titech.ac.jp), although all support for fonts with more than 256 glyphs has been ripped out.  See http://www.is.titech.ac.jp/~ohshima/squeak/squeak-multilingual-e.html .
+
+My class methods contain tools for fetching BDF source files from a well-known archive site, batch conversion to Squeak's .sf2 format, and installation of these fonts as TextStyles.  Also, the legal notices for the standard 75dpi fonts I process this way are included as "x11FontLegalNotices'.

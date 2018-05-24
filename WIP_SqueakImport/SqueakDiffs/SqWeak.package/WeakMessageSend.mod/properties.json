@@ -1,0 +1,7 @@
+{
+	"commentStamp" : "DF 5/25/2006 19:54",
+	"instvars" : [
+		 ],
+	"name" : "WeakMessageSend",
+	"super" : "MessageSend",
+	"type" : "normal" }

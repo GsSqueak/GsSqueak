@@ -1,0 +1,4 @@
+{
+	"category" : "Collections-Strings",
+	"name" : "DoubleByteString",
+	"super" : "WideString" }

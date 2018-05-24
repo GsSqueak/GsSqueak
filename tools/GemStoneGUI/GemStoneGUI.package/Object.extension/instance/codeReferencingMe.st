@@ -1,4 +1,4 @@
-*GemStoneGUI-TopazInterface
+*GemStoneGUI
 codeReferencingMe
 
 	^self printString

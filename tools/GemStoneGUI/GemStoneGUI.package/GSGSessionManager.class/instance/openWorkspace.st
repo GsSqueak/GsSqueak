@@ -1,4 +1,4 @@
 button actions
 openWorkspace
 
-	self browseEnvironment: (GSGSqueakEnvironmentProxy forSession: self session)
+	self browseEnvironment: (GSGGsSqueakEnvironmentProxy forRepository: self session)

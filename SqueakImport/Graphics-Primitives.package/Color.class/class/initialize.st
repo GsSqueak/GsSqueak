@@ -28,8 +28,6 @@ initialize
 	PureCyan	 := self r: 0 g: 1 b: 1.
 	PureMagenta := self r: 1 g: 0 b: 1.
 
-	RandomStream := Random new.
-
 	self initializeIndexedColors.
 	self initializeGrayToIndexMap.
 	self initializeNames.

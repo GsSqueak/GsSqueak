@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"descriptionForPartsBin" : "tak 7/25/2007 00:10",
+		"diagonalPrototype" : "tk 11/14/2001 20:09",
+		"gradientPrototype" : "tk 11/14/2001 20:09",
+		"roundRectPrototype" : "sw 9/14/2006 10:38" },
+	"instance" : {
+		"canHaveFillStyles" : "ar 6/25/1999 11:13",
+		"defaultColor" : "dgd 2/14/2003 22:30",
+		"wantsToBeCachedByHand" : "ar 6/23/2001 16:06" } }

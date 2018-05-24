@@ -1,0 +1,20 @@
+{
+	"category" : "imdb",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"commitCtr",
+		"Names" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nconst",
+		"primaryName",
+		"birthYear",
+		"deathYear",
+		"primaryProfession",
+		"knownForTitles" ],
+	"name" : "ImdbName",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

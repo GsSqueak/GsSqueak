@@ -1,0 +1,1 @@
+Instances of this morph get used by SystemProgressMoprh to quickly display a progress bar.

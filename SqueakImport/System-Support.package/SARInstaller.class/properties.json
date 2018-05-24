@@ -1,0 +1,17 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nk 7/5/2003 21:12",
+	"instvars" : [
+		"zip",
+		"directory",
+		"fileName",
+		"installed" ],
+	"name" : "SARInstaller",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

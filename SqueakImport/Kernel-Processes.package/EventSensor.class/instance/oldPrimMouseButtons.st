@@ -1,4 +1,5 @@
 primitives-fallback
 oldPrimMouseButtons
-	<primitive: 107>
-	^ 0
+	"Not supported in GsSqueak"
+    self shouldNotImplement
+

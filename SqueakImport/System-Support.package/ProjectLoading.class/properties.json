@@ -1,0 +1,14 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ProjectLoading",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

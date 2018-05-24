@@ -4,8 +4,10 @@ name
 	self == ByteString ifTrue: [^ #'ByteString'].
 	self == Metaclass ifTrue: [^ #'Metaclass'].
 	self == ByteSymbol ifTrue: [^ #'ByteSymbol'].
-	self == GsMethodDictionary ifTrue: [^ #'MethodDictionary'].
-	self == GsNMethod ifTrue: [^ #'CompiledMethod'].
+	self == MethodDictionary ifTrue: [^ #'MethodDictionary'].
+	self == CompiledMethod ifTrue: [^ #'CompiledMethod'].
+	self == Mutex ifTrue: [ ^'Mutex'].
+	self == Semaphore ifTrue: [^ #'Semaphore'].
 	name == nil
 		ifTrue: [^super name]
 		ifFalse: [^name]

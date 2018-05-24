@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MorphHierarchyListMorph",
+	"pools" : [
+		 ],
+	"super" : "SimpleHierarchicalListMorph",
+	"type" : "normal" }

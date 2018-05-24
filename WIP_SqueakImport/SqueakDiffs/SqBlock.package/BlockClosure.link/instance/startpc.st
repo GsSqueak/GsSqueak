@@ -1,0 +1,1 @@
+*SqKernel-accessingstartpc	^startpc

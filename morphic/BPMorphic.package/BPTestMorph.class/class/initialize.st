@@ -21,4 +21,6 @@ initialize
   WorldState initialize.
   Cursor initialize.
   Cursor initNormal.
-  HandMorph initializeCursorForm
+  HandMorph initializeCursorForm.
+  BookMorph initialize.
+  BooklikeMorph initialize

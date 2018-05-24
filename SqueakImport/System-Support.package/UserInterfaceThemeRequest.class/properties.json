@@ -1,0 +1,15 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 9/23/2017 10:37",
+	"instvars" : [
+		"target",
+		"theme" ],
+	"name" : "UserInterfaceThemeRequest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,6 @@
+{
+	"category" : "Sound-Scores",
+	"instvars" : [
+		 ],
+	"name" : "MIDIFileReader",
+	"super" : "Object" }

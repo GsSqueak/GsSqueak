@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"default" : "nk 7/12/2003 10:38",
+		"default:" : "nk 7/12/2003 10:36" },
+	"instance" : {
+		"images" : "sd 5/11/2003 20:36",
+		"importImage:named:" : "nk 6/12/2004 12:49",
+		"importImageDirectory:" : "ul 12/12/2009 14:10",
+		"importImageDirectoryWithSubdirectories:" : "nk 6/12/2004 12:44",
+		"importImageFromFileNamed:" : "nk 6/12/2004 12:25",
+		"imports" : "yo 7/17/2003 00:17",
+		"initialize" : "sd 5/11/2003 18:17",
+		"namesAndImagesDo:" : "sd 5/11/2003 22:26",
+		"viewImages" : "dtl 2/10/2010 13:22" } }

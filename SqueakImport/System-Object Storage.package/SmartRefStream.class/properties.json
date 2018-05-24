@@ -1,0 +1,22 @@
+{
+	"category" : "System-Object Storage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ScannedObject" ],
+	"commentStamp" : "hjh 10/14/2017 16:30",
+	"instvars" : [
+		"structures",
+		"steady",
+		"reshaped",
+		"renamed",
+		"renamedConv",
+		"superclasses",
+		"progressBar",
+		"objCount",
+		"classInstVars" ],
+	"name" : "SmartRefStream",
+	"pools" : [
+		 ],
+	"super" : "ReferenceStream",
+	"type" : "normal" }

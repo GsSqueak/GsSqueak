@@ -1,0 +1,4 @@
+{
+	"category" : "Collections-Arrayed",
+	"name" : "Array",
+	"super" : "ArrayedCollection" }

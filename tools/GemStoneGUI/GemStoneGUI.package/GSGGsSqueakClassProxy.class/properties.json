@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-GemStone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSGGsSqueakClassProxy",
+	"pools" : [
+		 ],
+	"super" : "GSGGemStoneClassProxy",
+	"type" : "normal" }

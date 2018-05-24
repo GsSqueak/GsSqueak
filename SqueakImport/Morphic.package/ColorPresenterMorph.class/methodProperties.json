@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"hatchForm" : "gvc 9/18/2006 16:05",
+		"newHatchForm" : "gvc 9/18/2006 16:24",
+		"on:color:" : "StephaneDucasse 3/3/2010 16:12" },
+	"instance" : {
+		"contentMorph" : "cmm 12/3/2010 10:46",
+		"contentMorph:" : "cmm 12/3/2010 10:47",
+		"getColorSelector" : "cmm 12/3/2010 10:32",
+		"getColorSelector:" : "cmm 12/3/2010 10:33",
+		"initialize" : "gvc 9/22/2006 09:34",
+		"labelMorph" : "cmm 12/3/2010 11:26",
+		"labelMorph:" : "cmm 12/3/2010 11:27",
+		"newContentMorph" : "gvc 9/22/2006 09:23",
+		"newHatchMorph" : "cmm 12/3/2010 14:39",
+		"newLabelMorph" : "gvc 9/18/2006 16:20",
+		"on:color:" : "gvc 9/22/2006 09:45",
+		"setColor:" : "gvc 6/3/2009 18:14",
+		"solidLabelMorph" : "gvc 9/18/2006 16:17",
+		"solidLabelMorph:" : "gvc 9/18/2006 16:17",
+		"update:" : "gvc 9/22/2006 09:34",
+		"updateColor" : "gvc 7/30/2009 18:36" } }

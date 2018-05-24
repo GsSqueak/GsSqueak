@@ -1,0 +1,15 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BrowserSupportsAPI",
+		"RunningInBrowser" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HTTPClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

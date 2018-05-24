@@ -1,0 +1,5 @@
+{
+	"category" : "Kernel-Classes",
+	"gemstoneName" : "Metaclass3",
+	"name" : "Metaclass",
+	"super" : "ClassDescription" }

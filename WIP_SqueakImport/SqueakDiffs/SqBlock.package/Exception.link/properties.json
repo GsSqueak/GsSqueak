@@ -1,0 +1,4 @@
+{
+	"category" : "Kernel-Exceptions-Kernel",
+	"gemstoneName" : "AbstractException",
+	"name" : "Exception" }

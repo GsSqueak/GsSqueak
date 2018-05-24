@@ -1,4 +1,4 @@
-general interface
+testing
 isMeta
 
 	^ isMeta

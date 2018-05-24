@@ -1,0 +1,4 @@
+{
+	"name" : "WeakValueAssociation",
+	"super" : "Association",
+	"type" : "normal" }

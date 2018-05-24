@@ -1,4 +1,4 @@
-proxy classes
+querying
 classProxyClass
 
 	^ GSGGemStoneClassProxy

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"authoringPrototype" : "sw 10/30/2000 11:14" },
+	"instance" : {
+		"delete" : "sw 10/26/2000 14:39",
+		"getMyText" : "mjg 12/3/1999 11:57",
+		"initialize" : "dgd 2/14/2003 18:25",
+		"newTextContents:" : "ar 1/3/2010 19:52",
+		"setMyText:" : "mjg 12/3/1999 11:59" } }

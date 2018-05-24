@@ -1,0 +1,4 @@
+testing
+isMorphic
+	"Duh."
+	^true

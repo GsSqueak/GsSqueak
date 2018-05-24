@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"evaluatorClass" : "SL 3/15/2018 10:04" },
+		 },
 	"instance" : {
-		"buildCodePaneWith:" : "SL 3/15/2018 09:58",
-		"buildWith:" : "SL 3/15/2018 09:59",
-		"doItContext" : "SL 3/15/2018 10:07",
-		"doItReceiver" : "SL 3/15/2018 10:06",
-		"interface" : "SL 3/15/2018 09:55",
-		"setInterface:" : "SL 3/15/2018 09:55" } }
+		"environment" : "sl 5/21/2018 20:25",
+		"environmentId" : "sl 5/21/2018 20:23",
+		"evaluateExpression:" : "sl 5/21/2018 20:23",
+		"initialExtent" : "sl 5/21/2018 20:14",
+		"wantsAnnotationPane" : "sl 5/21/2018 20:00",
+		"wantsOptionalButtons" : "sl 5/21/2018 20:01" } }

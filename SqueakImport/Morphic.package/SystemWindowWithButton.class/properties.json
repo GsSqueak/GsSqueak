@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Windows",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"buttonInTitle" ],
+	"name" : "SystemWindowWithButton",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

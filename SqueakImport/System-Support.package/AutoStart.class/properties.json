@@ -1,0 +1,15 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Active",
+		"InstalledLaunchers" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parameters" ],
+	"name" : "AutoStart",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

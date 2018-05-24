@@ -1,0 +1,14 @@
+{
+	"category" : "MockClasses",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ul 2/20/2015 09:44",
+	"instvars" : [
+		 ],
+	"name" : "MIDIFileReader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

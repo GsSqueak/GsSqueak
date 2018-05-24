@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"copy:toClipBoardAs:ascent:" : "ar 1/15/2001 18:38",
+		"example" : "" },
+	"instance" : {
+		"combinationRule" : "mt 8/11/2016 10:08",
+		"combinationRule:" : "mt 8/11/2016 10:08",
+		"displayString:on:from:to:at:kern:" : "mt 8/11/2016 10:09",
+		"fromFormArray:asciiStart:ascent:" : "ar 5/23/2000 12:49",
+		"initialize" : "mt 8/11/2016 10:16",
+		"makeTintable" : "mt 8/11/2016 10:13",
+		"preserveColors" : "mt 8/11/2016 10:12",
+		"preserveColorsWithAlpha" : "mt 8/11/2016 10:14",
+		"reset" : "",
+		"tintable" : "mt 8/11/2016 10:08",
+		"tintable:" : "mt 8/11/2016 10:08" } }

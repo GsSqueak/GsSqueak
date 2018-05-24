@@ -1,36 +1,195 @@
 #!/bin/bash
 
-set -ex
 set -o pipefail
 
 restore=false
 restoreFast=false
-while getopts "r f" opt; do
+
+# Set colors
+YELLOW='\033[1;33m'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
+
+# functions
+load_package() {
+  load_package_usage() { echo "load_package [-S] [-D] <package_name>"; exit; }
+
+  local OPTIND package_name opt SQUEAK_IMPORT DEBUG
+
+  while getopts "SD" opt; do
+    case "${opt}" in
+      S)
+        SQUEAK_IMPORT=-S
+        ;;
+      D)
+        DEBUG=-D
+        ;;
+      *)
+        load_package_usage
+        exit 1
+        ;;
+    esac
+  done
+  shift $((OPTIND-1))
+
+  PACKAGE_NAME="$1"
+  PACKAGE_PATH="$2"
+
+  # if package is marked to be debugged by auto debug, set debug option for this package to true
+  if [[ $DEBUG_PACKAGE = $PACKAGE_NAME ]]; then
+    DEBUG=-D
+  fi
+
+  if [[ $DEBUG = -D ]]; then
+    echo -en "[ ${YELLOW}DEBUG${NC} ] Load $PACKAGE_NAME"
+  else
+    echo -en "[ ${YELLOW}PENDING${NC} ] Load $PACKAGE_NAME " 
+  fi
+
+  loadPackage $SQUEAK_IMPORT $DEBUG "$PACKAGE_NAME" "$PACKAGE_PATH"
+
+  if [ $? = 0 ]; then
+    echo -e "\r[ ${GREEN}SUCCESS${NC} ] Load $PACKAGE_NAME"
+
+    if [[ $AUTO_DEBUG = false && $DEBUG_PACKAGE = ${PACKAGE_NAME} ]]; then
+      echo -e "[ ${GREEN}SUCCESS${NC} ] Exit after debugging package"
+      exit 0
+    fi
+  else 
+    echo -e "\r[ ${RED}ERRORED${NC} ] Load $PACKAGE_NAME"
+
+    if [ $AUTO_DEBUG = true ]; then
+      echo -e "[ ${GREEN}SUCCESS${NC} ] Restart from STAGE $CURRENT_STAGE and load package $PACKAGE_NAME in debug mode"
+      AUTO_DEBUG=false DEBUG_PACKAGE="${PACKAGE_NAME}" createGsSqueakStone -f $CURRENT_STAGE -A $name
+      
+      exit $?
+    else
+      echo -e "\r[ ${RED}ERRORED${NC} ] Abort because auto-debug is disabled" 
+      exit 1
+    fi
+  fi
+  
+}
+
+run_topaz() {
+  NAME=$1
+  echo -en "[ ${YELLOW}PENDING${NC} ] Run topaz code"
+startTopaz $NAME -l >/dev/null 2>&1 << EOF
+`cat`
+EOF
+
+  if ! [[ $? = 0 ]]; then
+    echo -e "\r[ ${RED}ERRORED${NC} ] Run topaz code"
+    exit 1
+  fi
+
+  echo -e "\r[ ${GREEN}SUCCESS${NC} ] Run topaz code"
+}
+
+restore_backup() {
+  restore_backup_usage() { echo "restore_backup <stone_name> <file_name>"; exit; }
+
+  : "${1:?Need to set STONE_NAME non-empty}"
+  : "${2:?Need to set FILE_NAME non-empty}"
+
+  STONE_NAME=$1
+  FILE_NAME=$2
+
+  echo -en "[ ${YELLOW}PENDING${NC} ] Restore backup $FILE_NAME"
+  todeRestore $STONE_NAME $FILE_NAME >/dev/null 2>&1
+
+  if [[ $? = 0 ]]; then
+    echo -e "\r[ ${GREEN}SUCCESS${NC} ] Restore backup $FILE_NAME"
+  else
+    echo -e "\r[ ${RED}ERRORED${NC} ] Restore backup $FILE_NAME"
+    exit 1
+  fi
+}
+
+# Available stages are
+# 0 - Import from scratch by creating a stone
+# 1 -
+# 2 -
+# 3 -
+# 4 -
+# 5 -
+# 6 -
+FROM_STAGE=0
+TILL_STAGE=7 # equals numeber of current stages
+CURRENT_STAGE=0
+AUTO_DEBUG=true
+
+while getopts f:t:A opt; do
 	case $opt in
-		r) restore=true
-		;;
-		f) restoreFast=true
-		;;
+    f)
+      echo "Starting from stage $OPTARG"
+      FROM_STAGE=$OPTARG
+      ;;
+    t)
+      echo "Importing till stage $OPTARG"
+      TILL_STAGE=$OPTARG
+      ;;
+    A)
+      # disable auto debug
+      AUTO_DEBUG=false
+      ;;
+    /?)
+      echo "Invalid option: -$OPTARG" >&2
+      exit 1
+      ;;
 	esac
 done
 
-shift $((OPTIND-1))
-name=$1;
 
-export name
-
-if $restoreFast
-then
-    todeRestore $name fast.dbf
-else
-if $restore
-then
-    todeRestore $name tode.dbf
-else
-    createStone -f $name 3.5.0
+# basic error handling of stages
+if [ \( $FROM_STAGE -gt 7 \) -o \( $FROM_STAGE -lt 0 \) ]; then
+  echo "Invalid FROM stage ${FROM_STAGE}. Please select a stage between 0 and 7"
+  exit 1
 fi
 
-startTopaz $name -l << EOF
+if [ \( $TILL_STAGE -gt 7 \) -o \( $TILL_STAGE -lt 0 \) ]; then
+  echo "Invalid TILL stage ${TILL_STAGE}. Please select a stage between 0 and 7"
+  exit 1
+fi
+
+if [ $FROM_STAGE -gt $TILL_STAGE ]; then
+  echo "Invalid configuration. You have to specify a FROM stage greater than your TILL stage."
+  exit 1
+fi
+
+
+# Get name of the stone
+shift $((OPTIND-1))
+name=$1;
+export name
+
+if [ $FROM_STAGE -le 1 ]; then
+  # start import from scratch by creating a stone
+  if [ $FROM_STAGE = 0 ]; then
+    echo -en "[ ${YELLOW}PENDING${NC} ] Create stone $name"
+    createStone -f $name 3.5.0 >/dev/null 2>&1 # creates a backup called tode.bdf
+
+    if [[ $? = 0 ]]; then
+      echo -e "\r[ ${GREEN}SUCCESS${NC} ] Create stone $name"
+    else
+      echo -e "\r[ ${RED}ERRORED${NC} ] Create stone $name"
+      exit 1
+    fi
+    echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 0"
+
+    if [ $TILL_STAGE = 0 ]; then
+      echo "Exit script after stage 0 because of configuration"
+      exit 0
+    fi
+  # load backup created by tode in order to skip stone creation
+  elif [ $FROM_STAGE = 1 ]; then
+    CURRENT_STAGE=1
+    restore_backup $name tode.dbf 
+  fi
+
+run_topaz $name << EOF
 set u SystemUser p swordfish
 login
 run
@@ -68,20 +227,36 @@ logout
 exit
 EOF
 
-loadPackage BPBugFixes "tools/bugfixes"
-loadPackage MCEnvSwitch "tools/MCEnvSwitch"
-loadPackage SqueakParser "parser"
-loadPackage SqSuperclasses "tools/superclasses"
-loadPackage SqueakEnvironments "tools/SqueakEnvironments"
-loadPackage -S SqContext
-loadPackage -S SqClassCreation
-loadPackage Workspace "tools"
-loadPackage -S BPGsTests
+load_package BPBugFixes "tools/bugfixes"
+load_package MCEnvSwitch "tools/MCEnvSwitch"
+load_package SqueakParser "parser"
+load_package SqSuperclasses "tools/superclasses"
+load_package SqueakEnvironments "tools/SqueakEnvironments"
+load_package -S SqContext
+load_package -S SqClassCreation
+load_package Workspace "tools"
+load_package -S Env0Extensions
+load_package -S BPGsTests
 
-todeBackup $name fast.dbf
+# create backup for that stage
+todeBackup $name stage-1.dbf >/dev/null 2>&1
+
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 1"
+
+  if [ $TILL_STAGE = 1 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
 fi
 
-startTopaz $name -l << EOF
+
+if [ $FROM_STAGE -le 2 ]; then
+  CURRENT_STAGE=2
+  if [ $FROM_STAGE = 2 ]; then
+    restore_backup $name stage-1.dbf 
+  fi
+
+run_topaz $name << EOF
 login
 run
 MCEnv set: 7.
@@ -94,11 +269,11 @@ logout
 exit
 EOF
 
-loadPackage EnvironmentsEnv7 "tools/SqueakEnvironments"
-loadPackage -S SqContext7
-loadPackage -S SqBooleans
-loadPackage -S SqClasses
-startTopaz $name -l << EOF
+load_package EnvironmentsEnv7 "tools/SqueakEnvironments"
+load_package -S SqContext7
+load_package -S SqBooleans
+load_package -S SqClasses
+run_topaz $name << EOF
 login
 run
 (SqueakEnvironment at: #ProtoObject) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
@@ -108,9 +283,9 @@ logout
 exit
 EOF
 
-loadPackage -S SqExceptions
-loadPackage -S SqNumbers
-startTopaz $name -l << EOF
+load_package -S SqExceptions
+load_package -S SqNumbers
+run_topaz $name << EOF
 login
 run
 (SqueakEnvironment at: #Magnitude) _setSelfCanBeSpecial recompileAllMethodsUsingSqueakParserInEnv: 7.
@@ -125,10 +300,10 @@ logout
 exit
 EOF
 
-loadPackage -S SqBlock
-loadPackage -S SqBlock
+load_package -S SqBlock
+load_package -S SqBlock
 
-startTopaz $name -l << EOF
+run_topaz $name << EOF
 login
 run
 MCEnv useSqueakParser.
@@ -138,10 +313,10 @@ logout
 exit
 EOF
 
-loadPackage -S SqKernel
-loadPackage -S SqCharacter
+load_package -S SqKernel
+load_package -S SqCharacter
 
-startTopaz $name -l << EOF
+run_topaz $name << EOF
 login
 run
 SmalltalkImage newMethodFromSqueakString: 'addToStartUpList: anObject' inEnv: 7.
@@ -163,48 +338,207 @@ logout
 exit
 EOF
 
-todeBackup $name preCollections
-loadPackage -S '`Collections-Abstract`'
-loadPackage -S '`Collections-Support`'
-loadPackage -S SqCollectionLiterals
-loadPackage -S SqCollections
-loadPackage -S '`Collections-Sequenceable`'
-loadPackage -S '`Collections-Heap`'
-loadPackage -S '`Collections-Arrayed`'
-loadPackage -S CompiledMethod
-loadPackage -S SqWeak
-loadPackage -S '`System-Object Events`'
-loadPackage -S '`System-Change Notification`'
-loadPackage -S '`System-Support`'
-loadPackage -S SUnit
-loadPackage -S SqCompiler
+todeBackup $name stage-2.dbf >/dev/null 2>&1
 
-todeBackup $name flag1
-loadPackage -S '`Kernel-Processes-Variables`'
-loadPackage -S '`Kernel-Numbers`'
-loadPackage -S '`Kernel-Pools`'
-loadPackage -S '`Kernel-Processes`'
-loadPackage -S '`Multilingual-TextConversion`'
-loadPackage -S '`Multilingual-Encodings`'
-loadPackage -S '`Collections-Arrayed`'
-# loadPackage -S '`MockClasses`'
-loadPackage -S '`Chronology-Core`'
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 2"
 
-todeBackup $name flag2
-loadPackage -S '`Balloon`'
-loadPackage -S '`VMMaker`'
-loadPackage -S '`Kernel-Models`'
-loadPackage -S '`System-FileRegistry`'
+  if [ $TILL_STAGE = 2 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
 
-todeBackup $name flag3
-loadPackage -S '`GraphicsLibrary`'
-loadPackage -S '`Graphics-converting`'
-loadPackage -S '`Graphics-Primitives`'
-loadPackage -S '`Graphics-Display Objects`'
-loadPackage -S SqKernelTestsNumbers
-loadPackage -S '`KernelTests-Objects`'
+fi
 
-startTopaz $name -l << EOF
+if [ $FROM_STAGE -le 3 ]; then
+  CURRENT_STAGE=3
+  if [ $FROM_STAGE = 3 ]; then
+    restore_backup $name stage-2.dbf 
+  fi
+
+  load_package -S '`Collections-Abstract`'
+  load_package -S '`Collections-Support`'
+  load_package -S SqCollectionLiterals
+  load_package -S SqCollections
+  load_package -S '`Collections-Sequenceable`'
+  load_package -S '`Collections-Heap`'
+  load_package -S '`Collections-Arrayed`'
+  load_package -S '`Graphics-Primitives`'
+  load_package -S '`Graphics-converting`'
+
+  todeBackup $name stage-3.dbf >/dev/null 2>&1
+
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 3"
+
+  if [ $TILL_STAGE = 3 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
+
+if [ $FROM_STAGE -le 4 ]; then
+  CURRENT_STAGE=4
+  if [ $FROM_STAGE = 4 ]; then
+    restore_backup $name stage-3.dbf 
+  fi
+
+run_topaz $name -l << EOF
+login
+run
+| dict varAndValue |
+dict := SymbolDictionary new.
+
+dict at: #DefaultTab put: nil.
+
+varAndValue := #(
+		CtrlDigits 			(159 144 143 128 127 129 131 180 149 135)
+		CtrlOpenBrackets	(201 7 218 249 219 15)
+			"lparen gottn by ctrl-:= = 201; should be 213 but can't type that on Mac"
+
+			"values for alignment"
+		LeftFlush	0
+		RightFlush	1
+		Centered	2
+		Justified	3
+
+			"subscripts for a marginTabsArray tuple"
+		LeftMarginTab	1
+		RightMarginTab	2
+
+			"font faces"
+		Basal	0
+		Bold	1
+		Italic	2
+
+			"in case font doesn't have a width for space character"
+			"some plausible numbers-- are they the right ones?"
+		DefaultSpace			4
+		DefaultTab				24
+		DefaultLineGrid			16
+		DefaultBaseline			12
+		DefaultFontFamilySize	3	"basal, bold, italic"
+	).
+
+	varAndValue size odd ifTrue: [self error: 'unpaired text constant'].
+	(2 to: varAndValue size by: 2) do:
+		[:i | dict at: (varAndValue at: i - 1) put: nil].
+
+SqueakEnvironment at: #TextConstants put: dict
+%
+commit
+logout
+exit
+EOF
+
+  load_package -S '`Collections-Text`'
+
+  load_package -S '`CompiledMethod`'
+  load_package -S '`SqWeak`'
+  load_package -S '`System-Object Events`'
+  load_package -S '`System-Change Notification`'
+  load_package -S '`Kernel-Models`'
+  load_package -S '`System-FileRegistry`'
+  load_package -S '`System-Applications`'
+
+  load_package -S '`System-Support`'
+  load_package -S SUnit
+  load_package -S '`SqCompiler`'
+
+  load_package -S '`System-Preferences`'
+  load_package -S '`Kernel-Pools`'
+
+
+  todeBackup $name stage-4.dbf >/dev/null 2>&1
+
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 4"
+
+  if [ $TILL_STAGE = 4 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
+
+if [ $FROM_STAGE -le 5 ]; then
+  CURRENT_STAGE=5
+  if [ $FROM_STAGE = 5 ]; then
+    restore_backup $name stage-4.dbf 
+  fi
+
+  load_package -S '`Kernel-Processes`'
+  load_package -S '`Kernel-Numbers`'
+
+  load_package -S '`MockClasses`'
+  load_package -S '`Chronology-Core`'
+
+  load_package -S '`Multilingual-TextConversion`'
+  load_package -S '`Multilingual-Encodings`'
+
+  load_package -S '`Balloon`'
+
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 5"
+  todeBackup $name stage-5.dbf >/dev/null 2>&1
+
+  if [ $TILL_STAGE = 5 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
+
+if [ $FROM_STAGE -le 6 ]; then
+  CURRENT_STAGE=6
+  if [ $FROM_STAGE = 6 ]; then
+    restore_backup $name stage-5.dbf 
+  fi
+
+  load_package -S '`GraphicsLibrary`'
+  load_package -S '`VMMaker`'
+  load_package -S '`Graphics-Display Objects`'
+
+  load_package -S SqKernelTestsNumbers
+  load_package -S '`KernelTests-Objects`'
+  load_package -S '`CollectionsTests-Text`'
+  
+  load_package -S System-Recovery
+  
+  todeBackup $name stage-6.dbf >/dev/null 2>&1
+
+  if [ $TILL_STAGE = 6 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
+
+if [ $FROM_STAGE -le 7 ]; then
+  CURRENT_STAGE=7
+  if [ $FROM_STAGE = 7 ]; then
+    restore_backup $name stage-6.dbf 
+  fi
+
+  load_package -S '`System-Object Storage`'
+  load_package -S '`Collections-Streams`'
+  load_package -S '`Collections-Unordered`'
+  load_package -S '`Files`'
+  load_package -S '`Tools-FileList`'
+  load_package -S '`Compression`'
+  
+  load_package -S '`Graphics-Text`'
+  load_package -S '`Graphics-SegmentScanner`'
+  load_package -S '`Graphics-Files`'
+  load_package -S '`Graphics-Fonts`'
+  
+startTopaz $name -l >/dev/null 2>&1 << EOF
+login
+run
+Workspace evaluate: 'Preferences setSystemFontTo: (StrikeFont createDejaVu: 14)'
+%
+commit
+logout
+exit
+EOF
+  
+  load_package -SD '`Tools-Menus`'
+  load_package -SD '`Morphic`'
+
+run_topaz $name << EOF
 login
 run
 (SqueakEnvironment at: #SystemOrganization put: ((SqueakEnvironment at: #SystemOrganizer) @env7: defaultList: SqueakEnvironment allClasses))
@@ -213,3 +547,17 @@ commit
 logout
 exit
 EOF
+
+  todeBackup $name full.dbf >/dev/null 2>&1
+
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 6"
+
+  if [ $TILL_STAGE = 7 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
+
+
+echo "self error: 'the author is confused'"
+

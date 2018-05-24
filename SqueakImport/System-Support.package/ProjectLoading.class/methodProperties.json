@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"bestAccessToFileName:andDirectory:" : "gk 10/21/2005 11:18",
+		"installRemoteNamed:from:named:in:" : "RAA 2/20/2001 20:25",
+		"openFromDirectory:andFileName:" : "nice 12/26/2009 20:35",
+		"openFromFile:fromDirectory:withProjectView:" : "RAA 2/19/2001 08:22",
+		"openName:stream:fromDirectory:withProjectView:" : "tfel 8/10/2016 14:04",
+		"openName:stream:fromDirectory:withProjectView:clearOriginFlag:" : "nice 6/10/2017 17:35",
+		"openOn:" : "tfel 8/29/2016 15:53",
+		"projectStreamFromArchive:" : "tfel 8/10/2016 13:54",
+		"thumbnailFromUrl:" : "nice 12/26/2009 20:36",
+		"useTempChangeSet" : "ar 9/27/2005 20:10" },
+	"instance" : {
+		 } }

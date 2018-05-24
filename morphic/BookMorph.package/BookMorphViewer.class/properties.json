@@ -1,0 +1,14 @@
+{
+	"category" : "BookMorph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"for" ],
+	"name" : "BookMorphViewer",
+	"pools" : [
+		 ],
+	"super" : "BookMorph",
+	"type" : "normal" }

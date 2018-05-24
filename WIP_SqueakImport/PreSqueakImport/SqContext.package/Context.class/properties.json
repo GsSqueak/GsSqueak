@@ -1,0 +1,15 @@
+{
+	"category" : "SqContext",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"closureOrNil"
+		 ],
+	"name" : "Context",
+	"pools" : [
+		 ],
+	"super" : "TDThisContext",
+	"type" : "normal" }

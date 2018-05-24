@@ -1,0 +1,1 @@
+A variant of its superclass that allows multiple items to be selected simultaneously.  There is still a distinguished element which is selected, but each other element in the list may be flagged on or off.

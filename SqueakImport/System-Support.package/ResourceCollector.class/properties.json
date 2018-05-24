@@ -1,0 +1,20 @@
+{
+	"category" : "System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"stubMap",
+		"originalMap",
+		"locatorMap",
+		"localDirectory",
+		"baseUrl",
+		"resourceDirectory",
+		"internalStubs" ],
+	"name" : "ResourceCollector",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

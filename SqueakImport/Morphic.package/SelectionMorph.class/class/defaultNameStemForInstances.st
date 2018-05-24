@@ -1,0 +1,3 @@
+scripting
+defaultNameStemForInstances
+	^ 'Selection' translatedNoop

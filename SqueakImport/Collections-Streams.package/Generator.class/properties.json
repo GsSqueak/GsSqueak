@@ -1,0 +1,17 @@
+{
+	"category" : "Collections-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 3/30/2017 17:31",
+	"instvars" : [
+		"block",
+		"next",
+		"continue",
+		"home" ],
+	"name" : "Generator",
+	"pools" : [
+		 ],
+	"super" : "Stream",
+	"type" : "normal" }

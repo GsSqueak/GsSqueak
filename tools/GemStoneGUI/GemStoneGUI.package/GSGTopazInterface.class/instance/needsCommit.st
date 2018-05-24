@@ -1,6 +1,4 @@
-new api - transactions
+old api - transactions
 needsCommit
 
-	| topazOutput |
-	topazOutput := self run: 'System needsCommit'.
-	^ self convertToBoolean: (topazOutput at: 1)
+	^ self fetchBoolean: 'System needsCommit'

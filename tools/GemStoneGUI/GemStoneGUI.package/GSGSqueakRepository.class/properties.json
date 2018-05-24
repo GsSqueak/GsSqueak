@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSGSqueakRepository",
+	"pools" : [
+		 ],
+	"super" : "GSGLiveRepository",
+	"type" : "normal" }

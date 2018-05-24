@@ -1,0 +1,4 @@
+resize/collapse
+allowReframeHandles
+
+	^ allowReframeHandles

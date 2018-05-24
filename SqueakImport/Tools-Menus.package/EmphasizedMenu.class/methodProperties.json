@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"example1" : "fc 2/19/2004 22:06",
+		"example2" : "sw 9/11/97 16:14",
+		"example3" : "fc 2/19/2004 22:08",
+		"selectionAndEmphasisPairs:" : "sw 12/23/96",
+		"selections:emphases:" : "sma 5/28/2000 16:14" },
+	"instance" : {
+		"emphases:" : "",
+		"onlyBoldItem:" : "fc 2/19/2004 22:07",
+		"setEmphasis" : "fc 2/20/2004 11:01",
+		"startUpWithCaption:" : "" } }

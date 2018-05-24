@@ -1,0 +1,20 @@
+{
+	"category" : "Morphic-Basic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"playMode",
+		"msecsPerFrame",
+		"rotationDegrees",
+		"scalePoint",
+		"frameList",
+		"currentFrameIndex",
+		"dwellCount" ],
+	"name" : "MovieMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

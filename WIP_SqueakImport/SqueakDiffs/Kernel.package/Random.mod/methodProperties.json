@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"bucketTest:" : "ul 2/17/2015 23:20",
+		"gatherEntropyInto:" : "ul 2/25/2018 00:33",
+		"initialize" : "ul 2/26/2015 21:23",
+		"seed:" : "ul 2/19/2015 18:40" },
+	"instance" : {
+		"check:" : "sma 5/12/2000 13:42",
+		"check:against:" : "sma 5/12/2000 13:47",
+		"check:against:difficulty:" : "sma 5/12/2000 13:46",
+		"check:difficulty:" : "nice 12/27/2009 05:08",
+		"diceToken:" : "sma 5/12/2000 13:48",
+		"generateStates" : "ul 2/26/2015 21:02",
+		"hashSeed:" : "ul 2/17/2015 22:56",
+		"initialize" : "ul 2/20/2015 09:41",
+		"initializeStatesWith:" : "ul 2/20/2015 09:39",
+		"next" : "ul 2/20/2015 09:36",
+		"next:" : "sma 5/12/2000 12:45",
+		"next:into:" : "sma 5/12/2000 12:46",
+		"nextBytes:into:startingAt:" : "ul 10/20/2015 07:33",
+		"nextInt:" : "ul 2/20/2015 09:35",
+		"nextLargeInt:" : "ul 4/2/2016 21:19",
+		"nextValue" : "ul 2/20/2015 09:36",
+		"roll:" : "nice 12/27/2009 05:08",
+		"seed:" : "ul 2/25/2018 00:53",
+		"seedWithRandomBytes" : "ul 2/25/2018 00:52" } }
