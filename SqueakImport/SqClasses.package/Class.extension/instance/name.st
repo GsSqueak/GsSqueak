@@ -6,8 +6,9 @@ name
 	self == ByteSymbol ifTrue: [^ #'ByteSymbol'].
 	self == MethodDictionary ifTrue: [^ #'MethodDictionary'].
 	self == CompiledMethod ifTrue: [^ #'CompiledMethod'].
-	self == Mutex ifTrue: [ ^'Mutex'].
+	self == Mutex ifTrue: [ ^ #'Mutex'].
 	self == Semaphore ifTrue: [^ #'Semaphore'].
+	self == Exception ifTrue: [^ #'Exception'].
 	name == nil
 		ifTrue: [^super name]
 		ifFalse: [^name]
