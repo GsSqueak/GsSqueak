@@ -1,3 +1,0 @@
-rewriting
-sugarKeys
-  ^ #(#',' #',@' $' #'`' #'#`')

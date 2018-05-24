@@ -1,1 +1,0 @@
-a LispKernel primitive
