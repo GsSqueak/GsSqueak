@@ -1,4 +1,0 @@
-*LispGs
-valueForLisp: aLisp 
-
-	^ self
