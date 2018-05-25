@@ -1,3 +1,3 @@
 error handling
 notify: string at: location
-  ^ self fail
+  ^ self error: string , ' (', location asString , ')'

@@ -7,5 +7,5 @@ parse: sourceStreamOrString class: behavior
     noPattern: false
     notifying: nil
     ifFail: [ self error: 'Could not parse source' ].
-  methodNode class: behavior.
+  methodNode originalClass: behavior.
   ^ methodNode
