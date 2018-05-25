@@ -2,6 +2,7 @@
 	"class" : {
 		"directoryExtensions" : "sl 5/15/2018 13:11" },
 	"instance" : {
+		"adoptOriginalMethodCategoryNames" : "MS 5/25/2018 12:29",
 		"classMethods" : "MS 5/24/2018 16:46",
 		"defaultCategory" : "MS 5/18/2018 10:10",
 		"defaultClassInstVars" : "MS 5/18/2018 10:10",
@@ -13,7 +14,7 @@
 		"defaultSuperclass" : "MS 5/18/2018 10:11",
 		"defaultType" : "MS 5/18/2018 10:11",
 		"deleteFolder" : "sl 5/18/2018 12:10",
-		"fileout" : "sl 5/18/2018 12:02",
+		"fileout" : "MS 5/25/2018 12:26",
 		"instanceMethods" : "MS 5/24/2018 16:45",
 		"isUnnecessary" : "sl 5/18/2018 12:09",
 		"methodDefinitionsForClass:" : "sl 5/18/2018 16:58",
@@ -27,7 +28,7 @@
 		"originalPools" : "sl 5/18/2018 11:12",
 		"originalSuperclass" : "MS 5/18/2018 09:25",
 		"originalType" : "MS 5/18/2018 09:30",
-		"overlayMethods:with:" : "sl 5/15/2018 16:49",
+		"overlayMethods:with:" : "MS 5/25/2018 10:16",
 		"realClass" : "sl 5/18/2018 11:19",
 		"removeIdenticalMethods:meta:" : "sl 5/18/2018 15:03",
 		"setRealClass:" : "sl 5/15/2018 16:36",

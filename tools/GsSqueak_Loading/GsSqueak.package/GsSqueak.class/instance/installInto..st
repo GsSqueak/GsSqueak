@@ -8,5 +8,8 @@ installInto: anEnvironment
 		to: classDefinitions size
 		during: [:classBar |
 			classDefinitions withIndexDo: [:classDefinition :classIndex |
-				classDefinition installInto: anEnvironment.
+				| class |
+				class := classDefinition installInto: anEnvironment.
+				classDefinition installBaseMethodsInto: class.
+				classDefinition installExtensionMethodsInto: class categories: self categoriesToLoad.
 				classBar value: classIndex]]
