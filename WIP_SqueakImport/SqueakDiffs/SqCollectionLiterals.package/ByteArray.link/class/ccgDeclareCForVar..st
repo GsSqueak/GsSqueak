@@ -1,1 +1,4 @@
-*VMMaker-plugin generationccgDeclareCForVar: aSymbolOrString	^'char *', aSymbolOrString
+*VMMaker-plugin generation
+ccgDeclareCForVar: aSymbolOrString
+
+	^'char *', aSymbolOrString

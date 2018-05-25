@@ -1,1 +1,4 @@
-primitiveswarpBitsSmoothing: n sourceMap: sourceMap	self notYetImplemented
+primitives
+warpBitsSmoothing: n sourceMap: sourceMap
+
+	self notYetImplemented

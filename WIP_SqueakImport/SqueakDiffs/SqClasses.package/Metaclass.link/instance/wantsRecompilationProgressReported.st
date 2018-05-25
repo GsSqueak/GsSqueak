@@ -1,1 +1,5 @@
-*SqClasses-compilingwantsRecompilationProgressReported	"The metaclass follows the rule of the class itself."	^ destClass wantsRecompilationProgressReported
+*SqClasses-compiling
+wantsRecompilationProgressReported
+	"The metaclass follows the rule of the class itself."
+
+	^ destClass wantsRecompilationProgressReported

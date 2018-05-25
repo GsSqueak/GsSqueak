@@ -1,1 +1,4 @@
-*SqNumbers-constantsone		^1.0
+*SqNumbers-constants
+one
+	
+	^1.0

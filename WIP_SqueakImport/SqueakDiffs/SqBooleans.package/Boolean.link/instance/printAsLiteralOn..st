@@ -1,1 +1,3 @@
-*SqBooleans-printingprintAsLiteralOn: aStream	^self printOn: aStream
+*SqBooleans-printing
+printAsLiteralOn: aStream
+	^self printOn: aStream

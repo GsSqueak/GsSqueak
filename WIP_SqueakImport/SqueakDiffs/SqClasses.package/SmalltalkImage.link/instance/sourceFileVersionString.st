@@ -1,1 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-image, changes namessourceFileVersionString	^ SourceFileVersionString
+*SqClasses-*SqClasses-*SqClasses-image, changes names
+sourceFileVersionString
+
+	^ SourceFileVersionString

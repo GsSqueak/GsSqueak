@@ -1,1 +1,3 @@
-*SqClasses-class hierarchyaddSubclass: aClass	"Do nothing."
+*SqClasses-class hierarchy
+addSubclass: aClass
+	"Do nothing."

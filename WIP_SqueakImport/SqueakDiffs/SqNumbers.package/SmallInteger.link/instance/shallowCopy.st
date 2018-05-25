@@ -1,1 +1,2 @@
-*SqNumbers-copyingshallowCopy
+*SqNumbers-copying
+shallowCopy

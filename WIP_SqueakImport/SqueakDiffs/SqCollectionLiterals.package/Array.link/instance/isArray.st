@@ -1,1 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-testingisArray	^true
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-testing
+isArray
+	^true

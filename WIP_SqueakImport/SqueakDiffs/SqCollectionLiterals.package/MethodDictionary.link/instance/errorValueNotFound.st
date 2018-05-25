@@ -1,1 +1,4 @@
-*SqCollections-privateerrorValueNotFound	self error: 'value not found'
+*SqCollections-private
+errorValueNotFound
+
+	self error: 'value not found'

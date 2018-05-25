@@ -1,1 +1,4 @@
-*SqKernel-comparinghash	^(self method hash + startpc hash) hashMultiply
+*SqKernel-comparing
+hash
+	^(self method hash + startpc hash) hashMultiply
+

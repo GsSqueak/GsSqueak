@@ -1,1 +1,4 @@
-*SqKernel-accessinghome	^outerContext home
+*SqKernel-accessing
+home
+	^outerContext home
+

@@ -1,1 +1,3 @@
-*SqCharacter-convertingasString	^ String with: self
+*SqCharacter-converting
+asString
+	^ String with: self

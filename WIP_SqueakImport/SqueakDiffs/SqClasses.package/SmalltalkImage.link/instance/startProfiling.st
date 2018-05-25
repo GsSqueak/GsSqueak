@@ -1,1 +1,5 @@
-*SqClasses-*SqClasses-*SqClasses-vm profilingstartProfiling	"Start profiling the virtual machine."	
+*SqClasses-*SqClasses-*SqClasses-vm profiling
+startProfiling
+	"Start profiling the virtual machine."
+
+	

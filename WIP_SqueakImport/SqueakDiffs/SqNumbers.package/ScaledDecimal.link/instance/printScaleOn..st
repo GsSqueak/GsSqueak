@@ -1,1 +1,5 @@
-*SqNumbers-printingprintScaleOn: stream	stream nextPut: $s.	scale printOn: stream
+*SqNumbers-printing
+printScaleOn: stream
+
+	stream nextPut: $s.
+	scale printOn: stream

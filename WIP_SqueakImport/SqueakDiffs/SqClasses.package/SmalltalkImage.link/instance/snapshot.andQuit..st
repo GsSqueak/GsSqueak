@@ -1,1 +1,3 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quitsnapshot: save andQuit: quit	^self snapshot: save andQuit: quit embedded: false
+*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+snapshot: save andQuit: quit
+	^self snapshot: save andQuit: quit embedded: false

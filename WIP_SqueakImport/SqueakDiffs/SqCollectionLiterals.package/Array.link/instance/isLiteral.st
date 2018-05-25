@@ -1,1 +1,5 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-testingisLiteral		^self class == Array and: [		self isLiteralIfContainedBy: IdentitySet new ]
+*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-testing
+isLiteral
+	
+	^self class == Array and: [
+		self isLiteralIfContainedBy: IdentitySet new ]

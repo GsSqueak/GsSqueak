@@ -1,1 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm statisticstextMarkerForShortReport	^  'Since last view	'
+*SqClasses-*SqClasses-*SqClasses-vm statistics
+textMarkerForShortReport
+
+	^  'Since last view	'

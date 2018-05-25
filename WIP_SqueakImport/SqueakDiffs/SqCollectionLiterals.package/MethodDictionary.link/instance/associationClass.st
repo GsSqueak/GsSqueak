@@ -1,1 +1,4 @@
-*SqCollections-accessingassociationClass	^Association
+*SqCollections-accessing
+associationClass
+
+	^Association

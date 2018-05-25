@@ -1,1 +1,5 @@
-*SqClasses-*SqClasses-*SqClasses-accessingenvironment	"For conversion from Smalltalk to SystemDictionary"	^globals
+*SqClasses-*SqClasses-*SqClasses-accessing
+environment
+	"For conversion from Smalltalk to SystemDictionary"
+
+	^globals

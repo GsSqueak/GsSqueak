@@ -1,1 +1,3 @@
-*CompiledMethod-initializationsetMethod: aCompiledMethod	method := aCompiledMethod
+*CompiledMethod-initialization
+setMethod: aCompiledMethod
+	method := aCompiledMethod

@@ -1,1 +1,4 @@
-*SqExceptions-priv handlingprivHandlerContext: aContextTag	self shouldNotImplement
+*SqExceptions-priv handling
+privHandlerContext: aContextTag
+
+	self shouldNotImplement

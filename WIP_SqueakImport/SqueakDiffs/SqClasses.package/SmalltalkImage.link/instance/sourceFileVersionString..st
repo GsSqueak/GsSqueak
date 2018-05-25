@@ -1,1 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-image, changes namessourceFileVersionString: aString	SourceFileVersionString := aString
+*SqClasses-*SqClasses-*SqClasses-image, changes names
+sourceFileVersionString: aString
+
+	SourceFileVersionString := aString

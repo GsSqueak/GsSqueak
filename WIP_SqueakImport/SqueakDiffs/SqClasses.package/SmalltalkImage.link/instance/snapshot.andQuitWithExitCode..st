@@ -1,1 +1,8 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quitsnapshot: save andQuitWithExitCode: exitCode	^self		snapshot: save		andQuit: true		withExitCode: exitCode		embedded: false
+*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+snapshot: save andQuitWithExitCode: exitCode
+
+	^self
+		snapshot: save
+		andQuit: true
+		withExitCode: exitCode
+		embedded: false

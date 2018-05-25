@@ -1,1 +1,3 @@
-*SqCollections-accessingassociationAt: key 	^ self associationAt: key ifAbsent: [self errorKeyNotFound: key]
+*SqCollections-accessing
+associationAt: key 
+	^ self associationAt: key ifAbsent: [self errorKeyNotFound: key]

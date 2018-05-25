@@ -1,1 +1,5 @@
-*Kernel-Processes-process state changeterminateActive	"Terminate the process that is currently running."	self activeProcess terminate
+*Kernel-Processes-process state change
+terminateActive
+	"Terminate the process that is currently running."
+
+	self activeProcess terminate

@@ -1,1 +1,4 @@
-*SqKernel-printingdecompile	^Decompiler new decompileBlock: self
+*SqKernel-printing
+decompile
+	^Decompiler new decompileBlock: self
+

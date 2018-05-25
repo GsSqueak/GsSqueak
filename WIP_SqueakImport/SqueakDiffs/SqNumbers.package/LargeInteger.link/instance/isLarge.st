@@ -1,1 +1,3 @@
-*SqNumbers-testingisLarge	^true
+*SqNumbers-testing
+isLarge
+	^true

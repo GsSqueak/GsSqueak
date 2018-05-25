@@ -1,1 +1,3 @@
-*Env0ExtensionsinitSignals	signalCount := 0
+*Env0Extensions
+initSignals
+	signalCount := 0

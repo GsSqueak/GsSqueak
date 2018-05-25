@@ -1,1 +1,4 @@
-*SqKernel-schedulingnewProcess		^ self _env0 newProcess
+*SqKernel-scheduling
+newProcess
+	
+	^ self _env0 newProcess

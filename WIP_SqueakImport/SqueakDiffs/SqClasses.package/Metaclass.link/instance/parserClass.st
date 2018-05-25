@@ -1,1 +1,4 @@
-*SqClasses-compilingparserClass		^ self theNonMetaClass metaParserClass
+*SqClasses-compiling
+parserClass
+	
+	^ self theNonMetaClass metaParserClass

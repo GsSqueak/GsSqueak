@@ -1,1 +1,2 @@
-*SqNumbers-copyingdeepCopy
+*SqNumbers-copying
+deepCopy

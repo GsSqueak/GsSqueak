@@ -1,1 +1,4 @@
-*SqClasses-special objectsspecialObjectsArray	^ specialObjectsArray
+*SqClasses-special objects
+specialObjectsArray
+
+	^ specialObjectsArray

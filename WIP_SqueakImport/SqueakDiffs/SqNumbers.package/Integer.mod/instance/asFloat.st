@@ -1,1 +1,3 @@
-convertingasFloat^ self _env0 asFloat.
+converting
+asFloat
+^ self _env0 asFloat.

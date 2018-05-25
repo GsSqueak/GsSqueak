@@ -1,1 +1,5 @@
-*SqClasses-compilingdefaultMethodTrailerIfLogSource: logSourceself flag: #'hack'.	^ nil
+*SqClasses-compiling
+defaultMethodTrailerIfLogSource: logSource
+
+self flag: #'hack'.
+	^ nil

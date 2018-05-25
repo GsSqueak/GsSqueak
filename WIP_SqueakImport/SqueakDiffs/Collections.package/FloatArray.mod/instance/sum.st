@@ -1,1 +1,5 @@
-primitives-pluginsum		^ super sum
+primitives-plugin
+sum
+
+	
+	^ super sum

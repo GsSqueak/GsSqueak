@@ -1,1 +1,4 @@
-*VMMaker-plugin generationccgDeclareCForVar: aSymbolOrString	^'double ', aSymbolOrString
+*VMMaker-plugin generation
+ccgDeclareCForVar: aSymbolOrString
+
+	^'double ', aSymbolOrString

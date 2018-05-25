@@ -1,1 +1,3 @@
-*SqCharacter-testingisTraditionalDomestic	self deprecated: 'not implemented for GsSqueak'
+*SqCharacter-testing
+isTraditionalDomestic
+	self deprecated: 'not implemented for GsSqueak'

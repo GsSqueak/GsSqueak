@@ -1,1 +1,4 @@
-*SqExceptions-printingreceiver	self shouldBeImplemented	"^ self signalerContext receiver"
+*SqExceptions-printing
+receiver
+	self shouldBeImplemented
+	"^ self signalerContext receiver"

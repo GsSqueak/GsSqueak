@@ -1,1 +1,3 @@
-*SqClasses-compilingbinding	^ nil -> self
+*SqClasses-compiling
+binding
+	^ nil -> self

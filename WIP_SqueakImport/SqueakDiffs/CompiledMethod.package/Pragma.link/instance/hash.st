@@ -1,1 +1,3 @@
-*CompiledMethod-comparinghash	^keyword hash + arguments hash
+*CompiledMethod-comparing
+hash
+	^keyword hash + arguments hash

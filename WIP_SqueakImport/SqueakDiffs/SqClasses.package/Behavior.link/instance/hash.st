@@ -1,1 +1,3 @@
-*SqClasses-comparinghash	^ self name hash
+*SqClasses-comparing
+hash
+	^ self name hash

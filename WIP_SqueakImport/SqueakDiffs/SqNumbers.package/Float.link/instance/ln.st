@@ -1,1 +1,4 @@
-*SqNumbers-mathematical functionsln		^ self _env0 ln
+*SqNumbers-mathematical functions
+ln
+	
+	^ self _env0 ln

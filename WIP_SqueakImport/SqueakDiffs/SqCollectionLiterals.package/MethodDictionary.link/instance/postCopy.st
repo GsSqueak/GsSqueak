@@ -1,1 +1,4 @@
-*SqCollections-copyingpostCopy	^ self _env0 postCopy
+*SqCollections-copying
+postCopy
+
+	^ self _env0 postCopy

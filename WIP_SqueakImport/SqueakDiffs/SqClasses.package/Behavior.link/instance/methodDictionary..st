@@ -1,1 +1,3 @@
-*SqClasses-accessing method dictionarymethodDictionary: aDictionary	self methodDict: aDictionary
+*SqClasses-accessing method dictionary
+methodDictionary: aDictionary
+	self methodDict: aDictionary

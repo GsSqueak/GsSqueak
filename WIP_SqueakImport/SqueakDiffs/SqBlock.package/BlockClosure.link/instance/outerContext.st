@@ -1,1 +1,4 @@
-*SqKernel-accessingouterContext	^outerContext
+*SqKernel-accessing
+outerContext
+	^outerContext
+

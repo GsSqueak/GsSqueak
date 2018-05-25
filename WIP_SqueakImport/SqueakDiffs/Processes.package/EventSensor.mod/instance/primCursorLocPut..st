@@ -1,1 +1,3 @@
-primitives-cursorprimCursorLocPut: aPoint	self notYetImplemented
+primitives-cursor
+primCursorLocPut: aPoint
+	self notYetImplemented

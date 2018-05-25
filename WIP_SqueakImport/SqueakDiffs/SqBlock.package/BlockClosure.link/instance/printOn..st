@@ -1,1 +1,5 @@
-*SqKernel-printingprintOn: aStream	aStream nextPutAll: '[closure] in '.	outerContext printOn: aStream
+*SqKernel-printing
+printOn: aStream
+	aStream nextPutAll: '[closure] in '.
+	outerContext printOn: aStream
+

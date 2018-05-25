@@ -1,1 +1,3 @@
-*SqClasses-*SqClasses-*SqClasses-vminterpreterClass	^self getSystemAttribute: 1007
+*SqClasses-*SqClasses-*SqClasses-vm
+interpreterClass
+	^self getSystemAttribute: 1007

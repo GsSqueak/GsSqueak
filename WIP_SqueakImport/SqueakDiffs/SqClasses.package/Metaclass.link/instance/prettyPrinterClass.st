@@ -1,1 +1,4 @@
-*SqClasses-printingprettyPrinterClass		^ self theNonMetaClass metaPrettyPrinterClass
+*SqClasses-printing
+prettyPrinterClass
+	
+	^ self theNonMetaClass metaPrettyPrinterClass

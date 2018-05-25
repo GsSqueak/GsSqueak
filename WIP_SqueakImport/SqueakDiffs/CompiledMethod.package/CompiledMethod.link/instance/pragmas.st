@@ -1,1 +1,3 @@
-*CompiledMethodpragmas    ^ self _env0 pragmas
+*CompiledMethod
+pragmas
+    ^ self _env0 pragmas

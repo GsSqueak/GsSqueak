@@ -1,1 +1,3 @@
-*SqKernel-evaluatingvalueNoContextSwitch: anArg	^ self value: anArg
+*SqKernel-evaluating
+valueNoContextSwitch: anArg
+	^ self value: anArg

@@ -1,1 +1,5 @@
-*Kernel-Processes-changing suspended statestepToSendOrReturn	"Not supported in GsSqueak"    self shouldNotImplement
+*Kernel-Processes-changing suspended state
+stepToSendOrReturn
+	"Not supported in GsSqueak"
+    self shouldNotImplement
+

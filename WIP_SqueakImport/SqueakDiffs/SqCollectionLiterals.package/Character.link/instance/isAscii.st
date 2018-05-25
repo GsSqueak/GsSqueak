@@ -1,1 +1,4 @@
-*SqCharacter-testingisAscii	^self asInteger < 128
+*SqCharacter-testing
+isAscii
+
+	^self asInteger < 128

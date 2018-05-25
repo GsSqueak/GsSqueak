@@ -1,1 +1,3 @@
-*SqClasses-accessing method dictionarymethodDict: aDictionary	self notYetImplemented
+*SqClasses-accessing method dictionary
+methodDict: aDictionary
+	self notYetImplemented

@@ -1,1 +1,3 @@
-*SqCharacter-convertingsqueakToIso	^self "no longer needed"
+*SqCharacter-converting
+squeakToIso
+	^self "no longer needed"

@@ -1,7 +1,11 @@
 {
 	"categoriesToLoad" : [
 		"Collections",
-		"Kernel"
+		"Kernel",
+		"Graphics",
+		"System",
+		"SUnit",
+		"Chronology"
 		],
 	"classesNotToLoad" : [
 		"True",

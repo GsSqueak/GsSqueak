@@ -1,1 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quitshutDown	^ self closeSourceFiles
+*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+shutDown
+
+	^ self closeSourceFiles

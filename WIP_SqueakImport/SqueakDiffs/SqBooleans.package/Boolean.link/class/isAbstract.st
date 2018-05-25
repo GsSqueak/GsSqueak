@@ -1,1 +1,3 @@
-*SqBooleans-testingisAbstract	^self = Boolean
+*SqBooleans-testing
+isAbstract
+	^self = Boolean

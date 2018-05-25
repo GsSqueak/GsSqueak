@@ -1,1 +1,4 @@
-instance creationfromISO2022JPString: string 	self shouldNotImplement
+instance creation
+fromISO2022JPString: string 
+
+	self shouldNotImplement

@@ -1,1 +1,5 @@
-*Kernel-Processes-changing suspended staterestartTop	"Not supported in GsSqueak"    self shouldNotImplement
+*Kernel-Processes-changing suspended state
+restartTop
+	"Not supported in GsSqueak"
+    self shouldNotImplement
+

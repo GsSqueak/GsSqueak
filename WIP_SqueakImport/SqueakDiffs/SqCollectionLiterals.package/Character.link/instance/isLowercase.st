@@ -1,1 +1,4 @@
-*SqCharacter-testingisLowercase	^ self _env0 isLowercase
+*SqCharacter-testing
+isLowercase
+
+	^ self _env0 isLowercase

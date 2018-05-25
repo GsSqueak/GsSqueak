@@ -1,1 +1,5 @@
-*SqClasses-accessingsoleInstance	"The receiver has only one instance. Answer it."	^destClass
+*SqClasses-accessing
+soleInstance
+	"The receiver has only one instance. Answer it."
+
+	^destClass

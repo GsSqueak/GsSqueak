@@ -1,1 +1,3 @@
-*Kernel-Processes-private-primitivesprimitiveExitCriticalSection	self shouldNotImplement
+*Kernel-Processes-private-primitives
+primitiveExitCriticalSection
+	self shouldNotImplement

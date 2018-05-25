@@ -1,1 +1,3 @@
-*SqExceptions-initializationinitialize	^ self _env0 initialize
+*SqExceptions-initialization
+initialize
+	^ self _env0 initialize

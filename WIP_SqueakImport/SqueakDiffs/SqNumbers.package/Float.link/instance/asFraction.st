@@ -1,1 +1,3 @@
-*SqNumbers-convertingasFraction	^ self asTrueFraction 
+*SqNumbers-converting
+asFraction
+	^ self asTrueFraction 

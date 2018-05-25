@@ -1,1 +1,5 @@
-*SqClasses-*SqClasses-*SqClasses-dictionary accessassociationOrUndeclaredAt: aKey	"DO NOT DEPRECATE - used by binary storage"	^globals associationOrUndeclaredAt: aKey
+*SqClasses-*SqClasses-*SqClasses-dictionary access
+associationOrUndeclaredAt: aKey
+	"DO NOT DEPRECATE - used by binary storage"
+
+	^globals associationOrUndeclaredAt: aKey

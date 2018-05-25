@@ -1,1 +1,3 @@
-primitivesbeCursor	self shouldBeImplemented
+primitives
+beCursor
+	self shouldBeImplemented

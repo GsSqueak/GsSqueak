@@ -1,1 +1,4 @@
-*SqCollections-enumeratingdo: aBlock	self valuesDo: aBlock
+*SqCollections-enumerating
+do: aBlock
+
+	self valuesDo: aBlock

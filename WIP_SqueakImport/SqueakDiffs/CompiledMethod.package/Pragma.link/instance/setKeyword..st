@@ -1,1 +1,3 @@
-*CompiledMethod-initializationsetKeyword: aSymbol	keyword := aSymbol
+*CompiledMethod-initialization
+setKeyword: aSymbol
+	keyword := aSymbol

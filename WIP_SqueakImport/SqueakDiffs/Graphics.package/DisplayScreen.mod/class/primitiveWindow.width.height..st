@@ -1,1 +1,4 @@
-primitives - host window accessprimitiveWindow: id width: width height: height	self notYetImplemented
+primitives - host window access
+primitiveWindow: id width: width height: height
+
+	self notYetImplemented

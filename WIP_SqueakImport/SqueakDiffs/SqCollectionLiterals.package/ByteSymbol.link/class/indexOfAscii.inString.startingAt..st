@@ -1,1 +1,3 @@
-*SqCollectionLiterals-primitivesindexOfAscii: anInteger inString: aString startingAt: start	^ByteString indexOfAscii: anInteger inString: aString startingAt: start
+*SqCollectionLiterals-primitives
+indexOfAscii: anInteger inString: aString startingAt: start
+	^ByteString indexOfAscii: anInteger inString: aString startingAt: start

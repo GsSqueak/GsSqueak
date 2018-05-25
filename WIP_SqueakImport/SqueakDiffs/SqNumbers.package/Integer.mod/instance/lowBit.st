@@ -1,1 +1,3 @@
-bit manipulaionlowBit^ self _env0 lowBit
+bit manipulation
+lowBit
+^ self _env0 lowBit

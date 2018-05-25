@@ -1,1 +1,4 @@
-*SqNumbers-comparinghash	^self
+*SqNumbers-comparing
+hash
+
+	^self

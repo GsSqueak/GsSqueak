@@ -1,1 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quitrecordStartupStamp		StartupStamp := '----STARTUP----', Time dateAndTimeNow printString, ' as ', self imageName.
+*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+recordStartupStamp
+	
+	StartupStamp := '----STARTUP----', Time dateAndTimeNow printString, ' as ', self imageName.

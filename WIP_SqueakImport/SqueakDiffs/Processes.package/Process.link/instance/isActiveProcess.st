@@ -1,1 +1,4 @@
-*Kernel-Processes-testingisActiveProcess	^ self == Processor activeProcess
+*Kernel-Processes-testing
+isActiveProcess
+
+	^ self == Processor activeProcess

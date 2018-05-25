@@ -1,1 +1,3 @@
-*Kernel-Processes-accessingwaitingProcessesAt: aPriority	self notYetImplemented
+*Kernel-Processes-accessing
+waitingProcessesAt: aPriority
+	self notYetImplemented

@@ -1,1 +1,4 @@
-*SqCharacter-testingshouldBePrintedAsLiteralVisiting: aSet	^self shouldBePrintedAsLiteral
+*SqCharacter-testing
+shouldBePrintedAsLiteralVisiting: aSet
+
+	^self shouldBePrintedAsLiteral

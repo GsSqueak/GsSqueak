@@ -1,1 +1,5 @@
-*SqClasses-pool variablesclassPool	"Answer the dictionary of class variables."	^destClass classPool
+*SqClasses-pool variables
+classPool
+	"Answer the dictionary of class variables."
+
+	^destClass classPool

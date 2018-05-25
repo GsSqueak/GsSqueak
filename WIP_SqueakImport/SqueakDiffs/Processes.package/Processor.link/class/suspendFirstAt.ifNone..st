@@ -1,1 +1,4 @@
-*Kernel-Processes-process state changesuspendFirstAt: aPriority ifNone: noneBlock 		self notYetImplemented
+*Kernel-Processes-process state change
+suspendFirstAt: aPriority ifNone: noneBlock 
+	
+	self notYetImplemented

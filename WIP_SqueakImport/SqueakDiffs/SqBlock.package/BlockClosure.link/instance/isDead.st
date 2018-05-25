@@ -1,1 +1,5 @@
-*SqKernel-testingisDead	"Has self finished"	^false
+*SqKernel-testing
+isDead
+	"Has self finished"
+	^false
+

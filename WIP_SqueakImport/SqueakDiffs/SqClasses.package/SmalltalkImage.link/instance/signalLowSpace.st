@@ -1,1 +1,5 @@
-*SqClasses-*SqClasses-*SqClasses-memory spacesignalLowSpace	"Signal the low-space semaphore to alert the user that space is running low."	LowSpaceSemaphore signal.
+*SqClasses-*SqClasses-*SqClasses-memory space
+signalLowSpace
+	"Signal the low-space semaphore to alert the user that space is running low."
+
+	LowSpaceSemaphore signal.

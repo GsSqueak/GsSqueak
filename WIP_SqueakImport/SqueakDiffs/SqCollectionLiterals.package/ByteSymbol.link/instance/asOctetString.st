@@ -1,1 +1,3 @@
-*SqCollectionLiterals-convertingasOctetString	^ self
+*SqCollectionLiterals-converting
+asOctetString
+	^ self

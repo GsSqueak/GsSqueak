@@ -3,8 +3,15 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"DefaultTab"
-		 ],
+		"DefaultTab",
+		"LeftFlush",
+		"Centered",
+		"RightFlush",
+		"Justified",
+		"DefaultTabsArray",
+		"DefaultMarginTabsArray",
+		"Space",
+		"Tab" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

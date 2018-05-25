@@ -1,1 +1,4 @@
-*SqClasses-class initializationflushObsoleteSubclasses	"Behavior flushObsoleteSubclasses"	ObsoleteSubclasses finalizeValues.
+*SqClasses-class initialization
+flushObsoleteSubclasses
+	"Behavior flushObsoleteSubclasses"
+	ObsoleteSubclasses finalizeValues.

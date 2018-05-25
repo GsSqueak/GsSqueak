@@ -1,1 +1,3 @@
-*SqCharacter-testingcanBeIdentifierInitial	^ self == $_ or: [self isLetter]
+*SqCharacter-testing
+canBeIdentifierInitial
+	^ self == $_ or: [self isLetter]

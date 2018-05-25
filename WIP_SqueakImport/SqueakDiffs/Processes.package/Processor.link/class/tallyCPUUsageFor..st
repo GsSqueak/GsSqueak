@@ -1,1 +1,4 @@
-*Kernel-Processes-CPU usage tallytallyCPUUsageFor: seconds	"Not supported in GsSqueak"	self shouldNotImplement
+*Kernel-Processes-CPU usage tally
+tallyCPUUsageFor: seconds
+	"Not supported in GsSqueak"
+	self shouldNotImplement

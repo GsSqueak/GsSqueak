@@ -1,1 +1,4 @@
-*SqClasses-compilingbindingOf: varName	^destClass classBindingOf: varName
+*SqClasses-compiling
+bindingOf: varName
+
+	^destClass classBindingOf: varName

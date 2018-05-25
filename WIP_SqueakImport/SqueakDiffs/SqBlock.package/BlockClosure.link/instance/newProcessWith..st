@@ -1,1 +1,4 @@
-*SqKernel-schedulingnewProcessWith: anArray		^ self _env0 newProcessWith: anArray
+*SqKernel-scheduling
+newProcessWith: anArray
+	
+	^ self _env0 newProcessWith: anArray

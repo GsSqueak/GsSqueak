@@ -1,1 +1,4 @@
-*SqClasses-compilingpossibleVariablesFor: misspelled continuedFrom: oldResults	^ destClass possibleVariablesFor: misspelled continuedFrom: oldResults
+*SqClasses-compiling
+possibleVariablesFor: misspelled continuedFrom: oldResults
+
+	^ destClass possibleVariablesFor: misspelled continuedFrom: oldResults

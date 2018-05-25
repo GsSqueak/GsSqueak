@@ -1,1 +1,4 @@
-*SqClasses-accessing method dictionaryrootStubInImageSegment: imageSegment 	self shouldNotImplement
+*SqClasses-accessing method dictionary
+rootStubInImageSegment: imageSegment 
+
+	self shouldNotImplement

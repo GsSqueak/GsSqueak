@@ -1,1 +1,3 @@
-*SqClasses-testing method dictionarybindingOf: varName environment: anEnvironment	^ self superclass bindingOf: varName environment: anEnvironment
+*SqClasses-testing method dictionary
+bindingOf: varName environment: anEnvironment
+	^ self superclass bindingOf: varName environment: anEnvironment

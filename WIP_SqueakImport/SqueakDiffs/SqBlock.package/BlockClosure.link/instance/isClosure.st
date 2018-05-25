@@ -1,1 +1,4 @@
-*SqKernel-testingisClosure	^true
+*SqKernel-testing
+isClosure
+	^true
+

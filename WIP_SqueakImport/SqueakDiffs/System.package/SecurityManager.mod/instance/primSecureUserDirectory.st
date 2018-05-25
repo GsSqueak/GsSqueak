@@ -1,1 +1,4 @@
-accessingprimSecureUserDirectory	self notYetImplemented.	^ nil
+accessing
+primSecureUserDirectory
+	self notYetImplemented.
+	^ nil

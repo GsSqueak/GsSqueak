@@ -1,1 +1,3 @@
-*Kernel-Processes-comparinghash	^ self identityHash
+*Kernel-Processes-comparing
+hash
+	^ self identityHash

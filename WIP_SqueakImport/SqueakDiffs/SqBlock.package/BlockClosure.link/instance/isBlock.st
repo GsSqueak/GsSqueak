@@ -1,1 +1,5 @@
-*SqKernel-accessingisBlock	^ true
+*SqKernel-accessing
+isBlock
+
+	^ true
+

@@ -1,1 +1,3 @@
-*SqCharacter-accessing untypeable characterspageUp	^ self value: 11
+*SqCharacter-accessing untypeable characters
+pageUp
+	^ self value: 11

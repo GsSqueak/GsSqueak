@@ -1,1 +1,3 @@
-*SqNumbers-printingprintAsLiteralOn: aStream	^self printOn: aStream
+*SqNumbers-printing
+printAsLiteralOn: aStream
+	^self printOn: aStream

@@ -1,1 +1,4 @@
-*SqCharacter-testingisLiteral	^true
+*SqCharacter-testing
+isLiteral
+
+	^true

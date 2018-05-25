@@ -1,1 +1,5 @@
-*SqKernel-evaluatingvalueSuppressingAllMessages	^ self valueSuppressingMessages: #('*')
+*SqKernel-evaluating
+valueSuppressingAllMessages
+
+	^ self valueSuppressingMessages: #('*')
+

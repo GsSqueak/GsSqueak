@@ -1,1 +1,4 @@
-*SqClasses-testingisVariable^ self _env0 isVariable
+*SqClasses-testing
+isVariable
+
+^ self _env0 isVariable

@@ -1,1 +1,3 @@
-*SqCharacter-accessing untypeable characterspageDown	^ self value: 12
+*SqCharacter-accessing untypeable characters
+pageDown
+	^ self value: 12

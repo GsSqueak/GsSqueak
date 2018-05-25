@@ -1,1 +1,6 @@
-*SqCharacter-accessingcodePoint	"Return the encoding value of the receiver."	#Fundmntl.	^self asInteger
+*SqCharacter-accessing
+codePoint
+	"Return the encoding value of the receiver."
+	#Fundmntl.
+
+	^self asInteger

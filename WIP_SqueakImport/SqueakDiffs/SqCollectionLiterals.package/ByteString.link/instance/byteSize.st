@@ -1,1 +1,3 @@
-*SqCollectionLiterals-*SqCollectionLiterals-accessingbyteSize	^self size
+*SqCollectionLiterals-*SqCollectionLiterals-accessing
+byteSize
+	^self size

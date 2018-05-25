@@ -1,1 +1,4 @@
-*SqNumbers-constantsthreePi	^ self pi * 3
+*SqNumbers-constants
+threePi
+
+	^ self pi * 3
