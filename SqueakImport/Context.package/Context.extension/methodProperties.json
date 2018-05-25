@@ -2,6 +2,7 @@
 	"class" : {},
 	"instance" : {
 		"closureOrNil" : "",
+		"method" : "",
 		"contextTag" : "",
 		"findNextHandlerContextStarting" : "",
 		"frameContents" : "",

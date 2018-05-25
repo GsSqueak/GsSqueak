@@ -11,7 +11,7 @@ asGemstoneNodeInEnvironment: anEnvironment
   gsMethodNode
     selector: self selector;
     source: self sourceText;
-    class: self class.
+    class: self originalClass.
   self arguments do: [ :arg | gsMethodNode appendArg: arg asGemstoneLeaf ].
   self temporaries
     do: [ :tempVar | gsMethodNode appendTemp: tempVar asGemstoneLeaf ].
