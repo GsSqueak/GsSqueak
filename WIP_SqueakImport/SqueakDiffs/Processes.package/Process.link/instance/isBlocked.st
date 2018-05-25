@@ -1,4 +1,4 @@
-*Kernel-Processes-testing
+testing
 isBlocked
 	"A process is blocked if it is waiting on some list (i.e. a Semaphore), other than the runnable process lists."
 	| myPriority |

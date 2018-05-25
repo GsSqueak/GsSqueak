@@ -1,4 +1,4 @@
-*Kernel-Processes-accessing
+accessing
 calleeOf: aContext
 	"Return the context whose sender is aContext.  Return nil if aContext is on top.  Raise error if aContext is not in process chain."
 

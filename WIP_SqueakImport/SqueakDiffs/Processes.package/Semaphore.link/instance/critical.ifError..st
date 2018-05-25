@@ -1,4 +1,4 @@
-*Kernel-Processes-mutual exclusion
+mutual exclusion
 critical: mutuallyExcludedBlock ifError: errorBlock
 	"Evaluate mutuallyExcludedBlock only if the receiver is not currently in 
 	the process of running the critical: message. If the receiver is, evaluate 

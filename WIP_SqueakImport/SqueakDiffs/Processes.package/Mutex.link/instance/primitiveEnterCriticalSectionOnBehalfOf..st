@@ -1,4 +1,4 @@
-*Kernel-Processes-system simulation
+system simulation
 primitiveEnterCriticalSectionOnBehalfOf: effectiveProcess
 	"Primitive. Simulate primitiveEnterCriticalSection.  The receiver
 	 must be unowned or owned by the effectiveProcess to proceed.

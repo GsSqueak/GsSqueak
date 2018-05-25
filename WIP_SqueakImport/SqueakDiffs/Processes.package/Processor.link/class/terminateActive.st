@@ -1,4 +1,4 @@
-*Kernel-Processes-process state change
+process state change
 terminateActive
 	"Terminate the process that is currently running."
 

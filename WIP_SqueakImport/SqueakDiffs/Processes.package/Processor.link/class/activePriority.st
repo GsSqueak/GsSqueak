@@ -1,4 +1,4 @@
-*Kernel-Processes-accessing
+accessing
 activePriority
 	"Answer the priority level of the currently running Process."
 

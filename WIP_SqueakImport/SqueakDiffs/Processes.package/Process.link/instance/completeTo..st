@@ -1,4 +1,4 @@
-*Kernel-Processes-changing suspended state
+changing suspended state
 completeTo: aContext 
 	"Resume self until aContext is on top"
 

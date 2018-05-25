@@ -1,4 +1,4 @@
-*Kernel-Processes-changing suspended state
+changing suspended state
 stepToHome: aContext 
 	"Not supported in GsSqueak"
     self shouldNotImplement

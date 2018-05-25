@@ -1,3 +1,3 @@
-*Kernel-Processes-process specific
+process specific
 environmentKeyNotFound 
 	self error: 'Environment key not found'

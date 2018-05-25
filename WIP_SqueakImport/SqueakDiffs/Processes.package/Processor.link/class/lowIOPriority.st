@@ -1,4 +1,4 @@
-*Kernel-Processes-priority names
+priority names
 lowIOPriority
 	"Answer the priority at which most input/output processes should run. 
 	Examples are the process handling input from the user (keyboard, 

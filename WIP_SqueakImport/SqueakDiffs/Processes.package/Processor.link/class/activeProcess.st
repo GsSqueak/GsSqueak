@@ -1,4 +1,4 @@
-*Kernel-Processes-accessing
+accessing
 activeProcess
 	"Answer the currently running Process."
 

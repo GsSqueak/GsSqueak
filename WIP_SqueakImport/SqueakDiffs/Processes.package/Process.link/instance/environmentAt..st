@@ -1,3 +1,3 @@
-*Kernel-Processes-process specific
+process specific
 environmentAt: key 
 	^ self environmentAt: key ifAbsent: [self environmentKeyNotFound]

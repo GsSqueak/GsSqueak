@@ -1,4 +1,4 @@
-*Kernel-Processes-printing
+printing
 printOn: aStream
 
 	super printOn: aStream.

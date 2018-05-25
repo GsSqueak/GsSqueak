@@ -1,4 +1,4 @@
-*Kernel-Processes-objects from disk
+objects from disk
 objectForDataStream: refStrm
 	"I am not allowed to be written on an object file."
 

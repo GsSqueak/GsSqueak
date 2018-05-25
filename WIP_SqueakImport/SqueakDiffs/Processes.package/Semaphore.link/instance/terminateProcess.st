@@ -1,4 +1,4 @@
-*Kernel-Processes-initialize-release
+initialize-release
 terminateProcess
 	"Terminate the process waiting on this semaphore, if any."
 

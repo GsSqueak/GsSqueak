@@ -1,4 +1,4 @@
-*Kernel-Processes-changing suspended state
+changing suspended state
 install: aContext 
 	"Replace the suspendedContext with aContext."
     self notYetImplemented

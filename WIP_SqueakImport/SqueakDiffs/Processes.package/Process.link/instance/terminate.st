@@ -1,4 +1,4 @@
-*Kernel-Processes-changing process state
+changing process state
 terminate
     <messageSendsInEnv: 0>
     

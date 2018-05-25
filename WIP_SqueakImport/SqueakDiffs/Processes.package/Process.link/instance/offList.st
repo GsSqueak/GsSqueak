@@ -1,4 +1,4 @@
-*Kernel-Processes-accessing
+accessing
 offList
 	"Not supported in GsSqueak."
 	self shouldNotImplement

@@ -1,4 +1,4 @@
-*Kernel-Processes-debugging
+debugging
 debug: context title: title
 	"Open debugger on self with context shown on top"
 

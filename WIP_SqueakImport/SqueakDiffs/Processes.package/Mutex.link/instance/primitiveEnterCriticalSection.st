@@ -1,3 +1,3 @@
-*Kernel-Processes-private-primitives
+private-primitives
 primitiveEnterCriticalSection
 	self shouldNotImplement

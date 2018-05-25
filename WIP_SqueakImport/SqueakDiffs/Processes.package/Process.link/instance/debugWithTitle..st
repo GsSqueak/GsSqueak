@@ -1,4 +1,4 @@
-*Kernel-Processes-debugging
+debugging
 debugWithTitle: title
 	"Open debugger on self"
 

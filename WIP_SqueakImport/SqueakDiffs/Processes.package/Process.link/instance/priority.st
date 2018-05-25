@@ -1,4 +1,4 @@
-*Kernel-Processes-accessing
+accessing
 priority
 	"Answer the priority of the receiver."
 

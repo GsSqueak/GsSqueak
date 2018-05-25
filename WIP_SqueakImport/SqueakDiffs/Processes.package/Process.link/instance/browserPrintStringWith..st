@@ -1,4 +1,4 @@
-*Kernel-Processes-printing
+printing
 browserPrintStringWith: anObject 
 	| stream |
 	stream := WriteStream

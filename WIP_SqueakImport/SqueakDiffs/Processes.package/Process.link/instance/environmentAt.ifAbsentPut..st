@@ -1,4 +1,4 @@
-*Kernel-Processes-process specific
+process specific
 environmentAt: key ifAbsentPut: aBlock
 	"GsSqueak does not support having more than one Environment"
 	

@@ -1,4 +1,4 @@
-*Kernel-Processes-accessing
+accessing
 copyStack
 
 	"Not supported in GsSqueak"

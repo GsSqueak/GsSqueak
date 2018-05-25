@@ -1,4 +1,4 @@
-*Kernel-Processes-changing process state
+changing process state
 run
 	"Suspend current process and execute self instead"
 

@@ -1,3 +1,3 @@
-*Kernel-Processes-accessing
+accessing
 suspendingList
 	self notYetImplemented

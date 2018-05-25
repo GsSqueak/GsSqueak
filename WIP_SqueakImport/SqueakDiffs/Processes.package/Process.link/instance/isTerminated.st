@@ -1,3 +1,3 @@
-*Kernel-Processes-testing
+testing
 isTerminated
 	^ self _env0 isTerminated

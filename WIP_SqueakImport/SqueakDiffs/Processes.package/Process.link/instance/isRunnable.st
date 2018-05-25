@@ -1,4 +1,4 @@
-*Kernel-Processes-testing
+testing
 isRunnable
 	"A process is runnable if it is the active process or is on one of the runnable process lists."
 	| myPriority |

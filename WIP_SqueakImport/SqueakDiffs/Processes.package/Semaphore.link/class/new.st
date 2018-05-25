@@ -1,4 +1,4 @@
-*Kernel-Processes-instance creation
+instance creation
 new
 	"Answer a new instance of Semaphore that contains no signals."
 

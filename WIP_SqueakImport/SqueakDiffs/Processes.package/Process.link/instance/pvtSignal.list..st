@@ -1,4 +1,4 @@
-*Kernel-Processes-signaling
+signaling
 pvtSignal: anException list: aList
 	"Not supported in GsSqueak"
     self shouldNotImplement

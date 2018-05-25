@@ -1,4 +1,4 @@
-*Kernel-Processes-printing
+printing
 longPrintOn: stream
 
 	| ctxt |

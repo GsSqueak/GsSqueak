@@ -1,4 +1,4 @@
-*Kernel-Processes-system simulation
+system simulation
 primitiveTestAndSetOwnershipOfCriticalSectionOnBehalfOf: effectiveProcess
 	"Primitive. Simulate primitiveEnterCriticalSection.  Attempt to set the ownership
 	 of the receiver.  If the receiver is unowned set its owningProcess to the

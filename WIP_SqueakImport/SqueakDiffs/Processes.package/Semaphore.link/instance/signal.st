@@ -1,4 +1,4 @@
-*Kernel-Processes-communication
+communication
 signal
 	"Primitive. Send a signal through the receiver. If one or more processes 
 	have been suspended trying to receive a signal, allow the first one to 

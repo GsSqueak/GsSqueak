@@ -1,4 +1,4 @@
-*SqNumbers
+instance creation
 _new: length
   "Returns a instance of LargeInteger with specified size and value = 0"
 

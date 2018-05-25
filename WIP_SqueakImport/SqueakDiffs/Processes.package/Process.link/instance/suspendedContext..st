@@ -1,4 +1,4 @@
-*Kernel-Processes-private
+private
 suspendedContext: aContext
 	"Not supported in GsSqueak"
     self shouldNotImplement
