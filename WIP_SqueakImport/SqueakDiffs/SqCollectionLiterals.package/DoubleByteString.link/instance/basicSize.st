@@ -1,3 +1,3 @@
-*SqCollectionLiterals
+accessing
 basicSize
     ^ self primNormalBasicSize // 2

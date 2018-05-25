@@ -1,3 +1,3 @@
-*SqCollectionLiterals
+accessing
 classPool
     ^ self.
