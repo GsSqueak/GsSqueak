@@ -1,0 +1,12 @@
+{
+	"class" : {
+		
+		"asSqParseNode" : "" ,
+		"createContext" : ""},
+	"instance" : {
+		"_frameContents:" : "",
+		"_sender:" : "",
+		"_closureOrNil:" : "",
+		"sender" : "", 
+		"receiver": ""}
+ }

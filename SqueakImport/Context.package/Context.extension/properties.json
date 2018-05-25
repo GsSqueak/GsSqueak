@@ -1,0 +1,14 @@
+{
+	"category" : "Context",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Context",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Context0",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sender",
+		"frameContents",
+		"closureOrNil" ],
+	"name" : "Context",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
