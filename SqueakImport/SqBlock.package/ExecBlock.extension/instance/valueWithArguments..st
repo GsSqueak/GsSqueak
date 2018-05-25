@@ -7,7 +7,4 @@ valueWithArguments: argList
   "compiler emits special bytecode"
 
   <primitive: 2003>
-  self halt.
-  self numArgs ~= argList size ifTrue:
-	[self numArgsError: argList size].
   ^ self _primitiveFailed: #'valueWithArguments:' args: {argList}
