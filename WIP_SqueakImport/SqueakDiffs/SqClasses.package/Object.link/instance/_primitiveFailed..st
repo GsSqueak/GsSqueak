@@ -5,8 +5,3 @@ _primitiveFailed: aSelector
  normal error such as bad argument kind, argument out of range, etc."
 
   ^ self _primitiveFailed: aSelector args: {}
-gs add: primArgs.
-  ^ ArgumentError new
-    _number: 2258;
-    args: args;
-    signal	"#rtErrPrimFailed"
