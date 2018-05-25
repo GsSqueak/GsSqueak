@@ -1,4 +1,4 @@
-*SqClasses-debugging-haltOnce
+debugging-haltOnce
 decrementHaltCount
 	| counter |
 	counter := Smalltalk

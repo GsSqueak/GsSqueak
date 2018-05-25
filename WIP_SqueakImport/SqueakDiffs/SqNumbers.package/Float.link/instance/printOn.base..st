@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 printOn: aStream base: base
 	"Print the receiver with the minimal number of digits that describes it unambiguously.
 	This way, every two different Float will have a different printed representation.

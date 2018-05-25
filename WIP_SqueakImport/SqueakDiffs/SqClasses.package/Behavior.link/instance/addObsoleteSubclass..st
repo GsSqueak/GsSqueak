@@ -1,4 +1,4 @@
-*SqClasses-obsolete subclasses
+obsolete subclasses
 addObsoleteSubclass: aClass
 	"Weakly remember that aClass was a subclass of the receiver and is now obsolete"
 	| obs |

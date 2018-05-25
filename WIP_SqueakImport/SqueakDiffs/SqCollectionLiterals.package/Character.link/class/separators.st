@@ -1,4 +1,4 @@
-*SqCharacter-instance creation
+instance creation
 separators
 	"Answer a collection of the standard ASCII separator characters."
 

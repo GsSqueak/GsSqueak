@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 recompileChanges
 	"Compile all the methods that are in the changes file.
 	This validates sourceCode and variable references and forces

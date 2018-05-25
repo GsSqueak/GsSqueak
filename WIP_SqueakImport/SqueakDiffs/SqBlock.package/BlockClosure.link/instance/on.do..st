@@ -1,4 +1,4 @@
-*SqBlock-evaluating
+evaluating
 on: exceptionSelector do: handlerBlock
   "Try to evaluate the receiver, which should be a zero-argument block.
   If an exception occurs and the expression

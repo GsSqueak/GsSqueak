@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-testing
+testing
 shouldBePrintedAsLiteralVisiting: aSet
 	self class == Array ifFalse:
 		[^false].

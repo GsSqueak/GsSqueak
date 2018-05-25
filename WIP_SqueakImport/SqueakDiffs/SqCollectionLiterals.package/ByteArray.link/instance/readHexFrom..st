@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-initialize
+initialize
 readHexFrom: aStream
 	"Initialize the receiver from a hexadecimal string representation"
 	| map v ch value |

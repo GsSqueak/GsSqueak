@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+snapshot and quit
 processShutDownList: quitting
 	"Send #shutDown to each class that needs to wrap up before a snapshot.
 	 Also void the endianness chace;  this can't safely be done on start-up because

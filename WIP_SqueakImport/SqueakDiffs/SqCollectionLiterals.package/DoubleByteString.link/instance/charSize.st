@@ -1,4 +1,4 @@
-*SqCollectionLiterals-accessing
+accessing
 charSize
 
 	^ 2 "bytes"

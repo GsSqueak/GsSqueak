@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 absPrintOn: aStream base: base digitCount: digitCount 
 	"Print me in the given base, using digitCount significant figures."
 

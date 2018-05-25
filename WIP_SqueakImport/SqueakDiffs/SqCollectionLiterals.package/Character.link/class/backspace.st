@@ -1,4 +1,4 @@
-*SqCharacter-accessing untypeable characters
+accessing untypeable characters
 backspace
 	"Answer the Character representing a backspace."
 

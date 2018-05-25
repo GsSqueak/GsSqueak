@@ -1,4 +1,4 @@
-*SqClasses-initialize-release
+initialize-release
 uses: aTraitCompositionOrArray instanceVariableNames: instVarString 
 	| newComposition newMetaClass copyOfOldMetaClass |
 	

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 primSignalAtBytesLeft: numBytes
 	"Tell the interpreter the low-space threshold in bytes. When the free
 	space falls below this threshold, the interpreter will signal the low-space

@@ -1,4 +1,4 @@
-*SqClasses-testing
+testing
 isEphemeronClass
 	"Answer whether the receiver has ephemeral instance variables.  The garbage collector will
 	 fire (queue for finalization) any ephemeron whose first instance variable is not referenced

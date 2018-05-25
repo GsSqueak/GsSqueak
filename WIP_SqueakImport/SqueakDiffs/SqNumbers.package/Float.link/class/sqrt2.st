@@ -1,4 +1,4 @@
-*SqNumbers-constants
+constants
 sqrt2
 
 	^ 1.41421356237309504880168872420969808

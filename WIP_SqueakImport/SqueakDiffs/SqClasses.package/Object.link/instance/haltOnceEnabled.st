@@ -1,4 +1,4 @@
-*SqClasses-debugging-haltOnce
+debugging-haltOnce
 haltOnceEnabled
 	^ Smalltalk
 		at: #HaltOnce

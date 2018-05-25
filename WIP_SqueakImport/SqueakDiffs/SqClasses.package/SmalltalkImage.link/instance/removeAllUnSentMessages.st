@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-shrinking
+shrinking
 removeAllUnSentMessages
 	"Smalltalk removeAllUnSentMessages"
 	"[Smalltalk unusedClasses do: [:c | (Smalltalk at: c) removeFromSystem]. 

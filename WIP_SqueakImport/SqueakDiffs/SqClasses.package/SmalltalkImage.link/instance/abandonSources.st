@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-shrinking
+shrinking
 abandonSources
 	"Smalltalk abandonSources"
 	"Replaces every method by a copy with the 4-byte source pointer 

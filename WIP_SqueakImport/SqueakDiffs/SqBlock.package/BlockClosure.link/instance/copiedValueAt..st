@@ -1,4 +1,4 @@
-*SqKernel-accessing
+accessing
 copiedValueAt: i
 	^self basicAt: i
 

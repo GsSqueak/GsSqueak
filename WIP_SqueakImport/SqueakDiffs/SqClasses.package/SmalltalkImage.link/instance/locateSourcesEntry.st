@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-image, changes names
+image, changes names
 locateSourcesEntry
 	| sourcesFilename |
 	sourcesFilename := SourceFileVersionString , FileDirectory dot , 'sources'.

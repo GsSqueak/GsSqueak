@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-private
+private
 defaultElement
 
 	^0

@@ -1,4 +1,4 @@
-*SqClasses-tracing
+tracing
 outboundPointersDo: aBlock
 "do aBlock for every object I point to, exactly how the garbage collector would. Adapted from PointerFinder >> #followObject:"
 

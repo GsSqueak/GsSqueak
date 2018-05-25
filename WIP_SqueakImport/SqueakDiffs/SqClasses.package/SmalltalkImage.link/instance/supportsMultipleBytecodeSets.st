@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-system attributes
+system attributes
 supportsMultipleBytecodeSets
 	"Answer whether the VM supports multiple bytecodeSets."
 	"SmalltalkImage current supportsMultipleBytecodeSets"

@@ -1,4 +1,4 @@
-*SqClasses-accessing
+accessing
 yourself
 	"Answer self."
 	^self

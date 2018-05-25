@@ -1,3 +1,3 @@
-*SqClasses-printing
+printing
 printAsLiteralOn: aStream
 	^self printOn: aStream

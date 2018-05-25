@@ -1,4 +1,4 @@
-*SqNumbers-converting
+converting
 adaptToFraction: receiver andSend: arithmeticOpSelector 
 	"Convert a Fraction to aScaledDecimal and do the arithmetic. 
 	receiver arithmeticOpSelector self."

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-special objects
+special objects
 specialSelectorAt: anInteger 
 	"Answer the special message selector from the interleaved specialSelectors array."
 

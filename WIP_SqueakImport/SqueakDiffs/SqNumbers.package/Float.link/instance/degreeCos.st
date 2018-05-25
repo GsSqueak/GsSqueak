@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 degreeCos
 	"Take care of exceptional values"
 	

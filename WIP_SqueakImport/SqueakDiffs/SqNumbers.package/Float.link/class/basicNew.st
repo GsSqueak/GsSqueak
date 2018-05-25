@@ -1,3 +1,3 @@
-*SqNumbers-instance creation
+instance creation
 basicNew
 	^BoxedFloat64 basicNew: 2

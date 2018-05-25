@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 primBytesLeft
 	"Primitive. Answer the number of free bytes available in old space.
 	 Not accurate unless preceded by

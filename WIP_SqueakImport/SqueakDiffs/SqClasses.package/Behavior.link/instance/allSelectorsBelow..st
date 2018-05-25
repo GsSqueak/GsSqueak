@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 allSelectorsBelow: topClass 
 	| coll |
 	coll := IdentitySet new.

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 growMemoryByAtLeast: numBytes
 	"Grow memory by at least the requested number of bytes.
 	 Primitive.  Fail if no memory is available.  Essential.

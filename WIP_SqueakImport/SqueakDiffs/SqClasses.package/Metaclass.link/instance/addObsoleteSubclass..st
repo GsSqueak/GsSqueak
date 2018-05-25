@@ -1,3 +1,3 @@
-*SqClasses-class hierarchy
+class hierarchy
 addObsoleteSubclass: aClass
 	"Do nothing."

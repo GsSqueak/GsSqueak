@@ -1,4 +1,4 @@
-*CompiledMethod-printing
+printing
 printOn: aStream
 	aStream
 		nextPut: $<;

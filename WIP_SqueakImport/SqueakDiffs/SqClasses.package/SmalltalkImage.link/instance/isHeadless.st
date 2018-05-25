@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm parameters
+vm parameters
 isHeadless
 	"Answer whether the command-line specified to launch the VM headless."
 	self optionsDo:

@@ -1,4 +1,4 @@
-*SqClasses-class hierarchy
+class hierarchy
 subclassesDo: aBlock
 	"Evaluate aBlock for each of the receiver's immediate subclasses."
 	destClass subclassesDo:[:aSubclass|

@@ -1,4 +1,4 @@
-*SqNumbers-converting
+converting
 adaptToInteger: receiver andSend: arithmeticOpSelector 
 	"Convert receiver to a ScaledDecimal and do the arithmetic. 
 	receiver arithmeticOpSelector self."

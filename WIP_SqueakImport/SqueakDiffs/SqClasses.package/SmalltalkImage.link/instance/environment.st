@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-accessing
+accessing
 environment
 	"For conversion from Smalltalk to SystemDictionary"
 

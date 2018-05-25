@@ -1,4 +1,4 @@
-*SqKernel-controlling
+controlling
 whileTrue
 	"Ordinarily compiled in-line, and therefore not overridable.
 	This is in case the message is sent to other than a literal block.

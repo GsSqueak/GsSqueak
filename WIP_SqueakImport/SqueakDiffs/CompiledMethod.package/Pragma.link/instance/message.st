@@ -1,4 +1,4 @@
-*CompiledMethod-accessing-pragma
+accessing-pragma
 message
 	"Answer the message of the receiving pragma."
 	

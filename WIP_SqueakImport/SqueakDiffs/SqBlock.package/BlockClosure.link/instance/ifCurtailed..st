@@ -1,4 +1,4 @@
-*SqKernel-exceptions
+exceptions
 ifCurtailed: aBlock
 	"Evaluate the receiver with an abnormal termination action.
 	 Evaluate aBlock only if execution is unwound during execution

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-housekeeping
+housekeeping
 cleanUp: aggressive
 	"Clean up. When aggressive is true, this will destroy projects, change sets, etc."
 	"Smalltalk cleanUp: false"

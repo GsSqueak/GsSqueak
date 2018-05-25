@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-external objects
+external objects
 newExternalSemaphores: count 
 	"Create and register multiple Semaphores, and return an array containing the semaphores and their indexes in separate arrays."
 

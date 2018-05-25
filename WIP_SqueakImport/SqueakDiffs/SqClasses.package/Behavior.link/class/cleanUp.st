@@ -1,4 +1,4 @@
-*SqClasses-class initialization
+class initialization
 cleanUp
 	"Flush the obsolete subclasses."
 

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 event: anEvent
 	"Hook for SystemChangeNotifier"
 

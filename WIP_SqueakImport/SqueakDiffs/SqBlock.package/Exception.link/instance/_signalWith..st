@@ -1,4 +1,4 @@
-*SqBlock-signaling
+signaling
 _signalWith: inCextensionArg
   <primitive: 2022>
 

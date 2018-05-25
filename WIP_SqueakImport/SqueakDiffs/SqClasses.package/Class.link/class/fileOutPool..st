@@ -1,4 +1,4 @@
-*SqClasses-fileIn/Out
+fileIn/Out
 fileOutPool: aString
 	"file out the global pool named aString"
 	

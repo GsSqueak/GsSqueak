@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 bytesLeftString
 	"Answer a string describing the amount of memory available."
 	"Smalltalk bytesLeftString"

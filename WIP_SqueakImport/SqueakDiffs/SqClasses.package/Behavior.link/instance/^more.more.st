@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 >> selector 
 	"Answer the compiled method associated with the argument, selector (a 
 	Symbol), a message selector in the receiver's method dictionary. If the 

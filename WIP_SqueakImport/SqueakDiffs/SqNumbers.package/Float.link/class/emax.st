@@ -1,4 +1,4 @@
-*SqNumbers-constants
+constants
 emax
 	"Answer exponent of maximal representable value"
 	

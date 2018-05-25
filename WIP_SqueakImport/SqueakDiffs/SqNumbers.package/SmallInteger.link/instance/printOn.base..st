@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 printOn: stream base: base 
 	"Append a representation of this number in base b on aStream."
 

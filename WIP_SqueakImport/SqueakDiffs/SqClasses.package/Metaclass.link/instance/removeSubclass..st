@@ -1,3 +1,3 @@
-*SqClasses-class hierarchy
+class hierarchy
 removeSubclass: aClass
 	"Do nothing."

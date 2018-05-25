@@ -1,4 +1,4 @@
-*SqKernel-testing
+testing
 isClean
 	"Answer if the receiver does not close-over any variables other than globals, and does
 	 not ^-return (does not close over the home context).  Clean blocks are amenable to

@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 arcCos
 	"Answer the angle in radians."
 

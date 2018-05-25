@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 decompile: selector 
 	"Find the compiled code associated with the argument, selector, as a 
 	message selector in the receiver's method dictionary and decompile it. 

@@ -1,4 +1,4 @@
-*SqClasses-printing
+printing
 formatterClass
 	
 	^ self theNonMetaClass metaFormatterClass

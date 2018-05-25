@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 datedVersion
 	"Answer the version of this release."
 

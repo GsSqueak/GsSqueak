@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-private
+private
 getSystemAttribute: attributeID 
 	"Optional. Answer the string for the system attribute with the given 
 	integer ID. Answer nil if the given attribute is not defined on this 

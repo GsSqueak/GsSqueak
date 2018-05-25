@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-system attributes
+system attributes
 processPreemptionYields: aBoolean
 	"The Cog VM can be instructed not to yield on process preemption,
 	 i.e. not to put a preempted process at the back of its run queue.  By

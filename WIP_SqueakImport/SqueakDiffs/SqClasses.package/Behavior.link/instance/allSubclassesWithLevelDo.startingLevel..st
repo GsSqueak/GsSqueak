@@ -1,4 +1,4 @@
-*SqClasses-accessing class hierarchy
+accessing class hierarchy
 allSubclassesWithLevelDo: classAndLevelBlock startingLevel: level 
 	"Walk the tree of subclasses, giving the class and its level"
 

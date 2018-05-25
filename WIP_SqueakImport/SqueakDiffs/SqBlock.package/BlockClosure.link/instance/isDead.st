@@ -1,4 +1,4 @@
-*SqKernel-testing
+testing
 isDead
 	"Has self finished"
 	^false

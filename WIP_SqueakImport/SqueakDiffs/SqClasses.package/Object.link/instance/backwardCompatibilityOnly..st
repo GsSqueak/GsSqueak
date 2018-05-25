@@ -1,4 +1,4 @@
-*SqClasses-error handling
+error handling
 backwardCompatibilityOnly: explanationString
 	"Warn that the sending method has been deprecated. Methods that are tagt with #backwardCompatibility:
 	 are kept for compatibility."

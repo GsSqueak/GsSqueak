@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-command line
+command line
 arguments
 	"Answer an array with all the command line arguments.
 	This does not include imagePath, documentPath nor any option."

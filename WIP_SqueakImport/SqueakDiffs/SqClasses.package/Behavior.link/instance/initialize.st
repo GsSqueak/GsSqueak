@@ -1,4 +1,4 @@
-*SqClasses-initialize-release
+initialize-release
 initialize
 	"moved here from the class side's #new"
 	self methodDictionary: self emptyMethodDictionary.

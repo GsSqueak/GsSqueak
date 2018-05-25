@@ -1,4 +1,4 @@
-*SqBooleans-controlling
+controlling
 and: block1 and: block2
 	"Nonevaluating conjunction without deep nesting.
 	The receiver is evaluated, followed by the blocks in order.

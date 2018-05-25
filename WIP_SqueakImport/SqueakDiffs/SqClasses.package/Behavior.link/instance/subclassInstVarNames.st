@@ -1,4 +1,4 @@
-*SqClasses-accessing instances and variables
+accessing instances and variables
 subclassInstVarNames
 	"Answer a Set of the names of the receiver's subclasses' instance 
 	variables."

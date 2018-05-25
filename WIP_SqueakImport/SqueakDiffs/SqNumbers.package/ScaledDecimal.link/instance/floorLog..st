@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 floorLog: radix
 	"Unlike super, this version is exact when radix is integer"
 	

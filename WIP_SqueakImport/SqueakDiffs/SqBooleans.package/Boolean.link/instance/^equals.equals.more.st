@@ -1,4 +1,4 @@
-*SqBooleans-logical operations
+logical operations
 ==> aBlock
 	"this is material implication, a ==> b, also known as:
 			b if a 

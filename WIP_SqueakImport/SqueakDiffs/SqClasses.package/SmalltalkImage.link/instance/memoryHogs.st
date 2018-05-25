@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 memoryHogs
 	"Answer the list of objects to notify with #freeSomeSpace if memory gets full."
 

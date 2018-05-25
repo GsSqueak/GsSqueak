@@ -1,4 +1,4 @@
-*SqNumbers-converting
+converting
 asFraction
 	"Implementation - Number 'converting' method."
 	^ mantissa

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 saveChangesInFileNamed: aString
 	| fullChangesName |
 	fullChangesName := (FileDirectory default fullNameFor: aString).

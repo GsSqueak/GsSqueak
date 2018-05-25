@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 ultimateSourceCodeAt: selector ifAbsent: aBlock
 	"Return the source code at selector, deferring to superclass if necessary"
 	^ self sourceCodeAt: selector ifAbsent:

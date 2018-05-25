@@ -1,4 +1,4 @@
-*SqClasses-user interface
+user interface
 withAllSubAndSuperclassesDo: aBlock
 
 	self withAllSubclassesDo: aBlock.

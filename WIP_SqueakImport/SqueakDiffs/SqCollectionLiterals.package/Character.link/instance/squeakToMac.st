@@ -1,4 +1,4 @@
-*SqCharacter-converting
+converting
 squeakToMac
 	"Convert the receiver from Squeak to MacRoman encoding."
 	self asInteger < 128 ifTrue: [^ self].

@@ -1,4 +1,4 @@
-*SqKernel-evaluating
+evaluating
 valueWithExit 
 	  self value: [ ^nil ]
 

@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 printPaddedWith: aCharacter to: aNumber 
 	"Answer the string containing the ASCII representation of the receiver 
 	padded on the left with aCharacter to be at least on aNumber 

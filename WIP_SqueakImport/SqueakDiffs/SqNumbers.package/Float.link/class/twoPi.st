@@ -1,4 +1,4 @@
-*SqNumbers-constants
+constants
 twoPi
 
 	^ self pi * 2

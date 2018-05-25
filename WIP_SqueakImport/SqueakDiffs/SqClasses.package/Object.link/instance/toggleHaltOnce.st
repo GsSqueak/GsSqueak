@@ -1,4 +1,4 @@
-*SqClasses-debugging-haltOnce
+debugging-haltOnce
 toggleHaltOnce
 	self haltOnceEnabled
 		ifTrue: [self clearHaltOnce]

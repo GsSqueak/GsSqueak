@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-classes and traits
+classes and traits
 renameClass: aClass from: oldName
 	"Rename the class, aClass, to have the title newName."
 

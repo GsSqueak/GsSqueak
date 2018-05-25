@@ -1,4 +1,4 @@
-*SqKernel-evaluating
+evaluating
 once
 	"Evaluate the receiver exactly once, so that repeated evaluations
 	 answer exactly the same object as the first evaluation.  This

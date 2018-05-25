@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-shrinking
+shrinking
 abandonTempNames
 	"Replaces every method by a copy with no source pointer or
 	encoded temp names."

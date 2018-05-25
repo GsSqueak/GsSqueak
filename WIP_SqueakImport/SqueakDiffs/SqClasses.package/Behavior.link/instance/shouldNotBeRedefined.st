@@ -1,4 +1,4 @@
-*SqClasses-testing
+testing
 shouldNotBeRedefined
 	"Answer if the receiver should not be redefined.
 	 The assumption is that classes in Smalltalk specialObjects and 

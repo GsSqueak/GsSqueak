@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 supermostPrecodeCommentFor: selector 
 	"Answer a string representing the precode comment in the most distant 
 	superclass's implementation of the selector. Return nil if none found."

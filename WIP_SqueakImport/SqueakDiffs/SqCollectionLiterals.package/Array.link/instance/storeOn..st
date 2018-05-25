@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-printing
+printing
 storeOn: aStream
 	"Use the literal form if possible."
 	self shouldBePrintedAsLiteral

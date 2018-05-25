@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 raisedToFraction: aFraction
 	| result |
 	result := self asFraction raisedToFraction: aFraction.

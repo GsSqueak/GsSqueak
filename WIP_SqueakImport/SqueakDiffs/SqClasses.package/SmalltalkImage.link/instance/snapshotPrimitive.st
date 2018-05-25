@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+snapshot and quit
 snapshotPrimitive
 	"Primitive. Write the current state of the object memory on a file in the
 	same format as the Smalltalk-80 release. The file can later be resumed,

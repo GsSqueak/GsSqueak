@@ -1,4 +1,4 @@
-*SqClasses-class variables
+class variables
 ensureClassPool
 
 	self shouldNotImplement

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-image
+image
 imageFormatVersionFromFileAsIs
 	"Answer an integer identifying the type of image on file. The image version number may
 	identify the format of the image (e.g. 32 or 64-bit word size) or specific requirements

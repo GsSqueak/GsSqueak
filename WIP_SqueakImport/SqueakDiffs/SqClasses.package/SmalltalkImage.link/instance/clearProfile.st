@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm profiling
+vm profiling
 clearProfile
 	"Clear the profile database."
 

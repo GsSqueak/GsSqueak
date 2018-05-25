@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-streaming
+streaming
 putOn: aStream
 
 	aStream nextPutAll: self

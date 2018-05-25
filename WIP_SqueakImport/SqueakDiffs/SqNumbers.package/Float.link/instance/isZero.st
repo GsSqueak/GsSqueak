@@ -1,3 +1,3 @@
-*SqNumbers-testing
+testing
 isZero
 	^self = 0.0

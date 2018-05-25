@@ -1,4 +1,4 @@
-*SqCharacter-accessing untypeable characters
+accessing untypeable characters
 space
 	"Answer the Character representing a space."
 

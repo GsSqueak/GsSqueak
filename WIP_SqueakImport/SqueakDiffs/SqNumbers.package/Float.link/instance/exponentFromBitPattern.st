@@ -1,4 +1,4 @@
-*SqNumbers-truncation and round off
+truncation and round off
 exponentFromBitPattern
 	"Extract the exponent from the bit pattern.
 	This is used only when primitive fails"

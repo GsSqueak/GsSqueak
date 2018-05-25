@@ -1,4 +1,4 @@
-*SqClasses-fileIn/Out
+fileIn/Out
 storeDataOn: aDataStream
 	"I don't get stored.  Use a DiskProxy"
 

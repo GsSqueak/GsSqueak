@@ -1,4 +1,4 @@
-*SqClasses-accessing instances and variables
+accessing instances and variables
 elementSize
 	"Answer the size in bytes of an element in the receiver.  The formats are
 			0	= 0 sized objects (UndefinedObject True False et al)

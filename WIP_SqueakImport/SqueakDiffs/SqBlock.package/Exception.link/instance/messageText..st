@@ -1,4 +1,4 @@
-*SqExceptions-signaling
+signaling
 messageText: signalerText
 	"Set an exception's message text."
 

@@ -1,4 +1,4 @@
-*SqClasses-testing method dictionary
+testing method dictionary
 whichMethodsStoreInto: instVarName 
 	"Answer a collection of CompiledMethod whose methods access the argument, instVarName, as a named instance variable."
 	

@@ -1,4 +1,4 @@
-*SqKernel-private
+private
 copyForSaving
 	"Answer a copy of the receiver suitable for serialization.
 	 Notionally, if the receiver's outerContext has been returned from then nothing

@@ -1,3 +1,3 @@
-*SqClasses-printing
+printing
 formatterClass
 	 ^self compilerClass

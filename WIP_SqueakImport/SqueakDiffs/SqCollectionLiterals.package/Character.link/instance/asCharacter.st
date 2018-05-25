@@ -1,4 +1,4 @@
-*SqCharacter-converting
+converting
 asCharacter
 	"Answer the receiver itself."
 

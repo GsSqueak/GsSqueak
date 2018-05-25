@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 reciprocalFloorLog: radix 
 	"Quick computation of (self log: radix) floor, when self < 1.0.
 	Avoids infinite recursion problems with denormalized numbers"

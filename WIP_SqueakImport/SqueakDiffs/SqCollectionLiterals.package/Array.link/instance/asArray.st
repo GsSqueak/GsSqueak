@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-converting
+converting
 asArray
 	"Answer with the receiver itself."
 

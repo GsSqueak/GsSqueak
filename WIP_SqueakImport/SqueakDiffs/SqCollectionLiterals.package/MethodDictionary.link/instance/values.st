@@ -1,4 +1,4 @@
-*SqCollections-accessing
+accessing
 values
 	"Answer a Collection containing the receiver's values."
 

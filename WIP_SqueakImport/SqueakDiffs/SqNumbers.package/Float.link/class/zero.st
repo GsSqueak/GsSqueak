@@ -1,3 +1,3 @@
-*SqNumbers-constants
+constants
 zero
 	^ 0.0.

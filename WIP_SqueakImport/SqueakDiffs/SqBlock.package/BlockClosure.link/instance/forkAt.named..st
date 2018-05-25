@@ -1,4 +1,4 @@
-*SqKernel-scheduling
+scheduling
 forkAt: priority named: name
 
 	"Create and schedule a Process running the code in the receiver at the

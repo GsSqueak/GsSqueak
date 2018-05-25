@@ -1,4 +1,4 @@
-*SqNumbers-comparing
+comparing
 identityHash
 
 	^ self _env0 identityHash

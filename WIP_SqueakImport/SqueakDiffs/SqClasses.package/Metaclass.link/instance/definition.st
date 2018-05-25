@@ -1,4 +1,4 @@
-*SqClasses-fileIn/Out
+fileIn/Out
 definition
 	"Refer to the comment in ClassDescription|definition."
 

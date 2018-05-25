@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm
+vm
 platformSourceVersion
 	"Answer a string corresponding to the version of the external platform source
 	code, typically written in C and managed separately for each platform. This

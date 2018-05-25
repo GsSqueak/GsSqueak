@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+snapshot and quit
 snapshot: save andQuitWithExitCode: exitCode
 
 	^self

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-dictionary access
+dictionary access
 associationDeclareAt: aKey
 	"DO NOT DEPRECATE - used by ImageSegments"
 	self flag: #environments.

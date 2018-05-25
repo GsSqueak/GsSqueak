@@ -1,4 +1,4 @@
-*SqClasses-updating
+updating
 update: anAspect with: anObject
 	"Receive a change notice from an object of whom the receiver is a 
 	dependent. The default behavior is to call update:,

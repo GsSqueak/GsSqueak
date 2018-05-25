@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 setGCSemaphore: semaIndex
 	"Primitive. Indicate the GC semaphore index to be signaled on GC occurance."
 	

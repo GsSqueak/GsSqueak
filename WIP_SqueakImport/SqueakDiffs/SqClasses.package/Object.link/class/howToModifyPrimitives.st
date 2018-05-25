@@ -1,4 +1,4 @@
-*SqClasses-documentation
+documentation
 howToModifyPrimitives
 	"You are allowed to write methods which specify primitives, but please use 
 	caution.  If you make a subclass of a class which contains a primitive method, 

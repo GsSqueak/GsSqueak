@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 lowSpaceThreshold 
 	"Answer the low space threshold. When the amount of free memory (after garbage collection)
 	 falls below this limit, the system is in serious danger of completely exhausting memory and

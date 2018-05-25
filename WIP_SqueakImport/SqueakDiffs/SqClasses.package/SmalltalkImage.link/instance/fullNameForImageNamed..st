@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-image, changes names
+image, changes names
 fullNameForImageNamed: aName
 	| imgDir |
 	imgDir := FileDirectory on: self imagePath.

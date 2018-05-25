@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm statistics
+vm statistics
 vmStatisticsShortString
 	"Convenience item for access to recent statistics only"
 	"StringHolderView open: (StringHolder new contents: Smalltalk vmStatisticsShortString)

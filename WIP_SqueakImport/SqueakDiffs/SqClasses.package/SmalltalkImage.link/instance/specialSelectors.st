@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-special objects
+special objects
 specialSelectors
 	"Return an array with flattened special selector - argument count pairs. VMMaker relies on this."
 	

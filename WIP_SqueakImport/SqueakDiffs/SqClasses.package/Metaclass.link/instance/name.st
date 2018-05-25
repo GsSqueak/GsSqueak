@@ -1,4 +1,4 @@
-*SqClasses-accessing
+accessing
 name
 	"Answer a String that is the name of the receiver, either 'Metaclass' or 
 	the name of the receiver's class followed by ' class'."

@@ -1,4 +1,4 @@
-*SqClasses-copying
+copying
 veryDeepCopyWith: deepCopier
 	"Copy me and the entire tree of objects I point to.  An object in the tree twice is copied once, and both references point to him.  deepCopier holds a dictionary of objects we have seen.  Some classes refuse to be copied.  Some classes are picky about which fields get deep copied."
 	| class index sub subAss new uc sup has mine |

@@ -1,4 +1,4 @@
-*SqExceptions-handling
+handling
 resignalAs: replacementException
 	"Signal an alternative exception in place of the receiver."
 

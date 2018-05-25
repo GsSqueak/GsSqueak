@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-accessing
+accessing
 globals
 	"Answer the global SystemDictionary"
 

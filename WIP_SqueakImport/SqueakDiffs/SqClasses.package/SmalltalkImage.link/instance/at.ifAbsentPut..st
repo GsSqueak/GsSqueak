@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-accessing
+accessing
 at: aKey ifAbsentPut: aBlock 
 	"Return the global at the given key. 
 	If key is not included in the receiver store the result 

@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 compile: code notifying: requestor 
 	"Compile the argument, code, as source code in the context of the 
 	receiver and insEtall the result in the receiver's method dictionary. The 

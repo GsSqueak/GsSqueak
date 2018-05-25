@@ -1,4 +1,4 @@
-*SqClasses-initialize-release
+initialize-release
 nonObsoleteClass
 	"Attempt to find and return the current version of this obsolete class"
 

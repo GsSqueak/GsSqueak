@@ -1,4 +1,4 @@
-*SqClasses-system primitives
+system primitives
 instVarAt: index
 	"Primitive. Answer a fixed variable in an object. The numbering of the variables
 	 corresponds to the named instance variables, followed by the indexed instance

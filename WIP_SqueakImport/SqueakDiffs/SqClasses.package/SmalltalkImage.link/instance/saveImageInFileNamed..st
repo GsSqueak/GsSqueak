@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 saveImageInFileNamed: aString
 	| fullImageName |
 	fullImageName := (FileDirectory default fullNameFor: aString).

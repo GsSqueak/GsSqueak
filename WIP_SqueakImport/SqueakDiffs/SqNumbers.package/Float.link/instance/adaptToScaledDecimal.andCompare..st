@@ -1,4 +1,4 @@
-*SqNumbers-converting
+converting
 adaptToScaledDecimal: rcvr andCompare: selector 
 	"If I am involved in comparison with a scaled Decimal, convert myself to a
 	Fraction. This way, no bit is lost and comparison is exact."

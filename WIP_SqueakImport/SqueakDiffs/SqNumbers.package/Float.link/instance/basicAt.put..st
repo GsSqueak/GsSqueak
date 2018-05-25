@@ -1,4 +1,4 @@
-*SqNumbers-accessing
+accessing
 basicAt: index put: value
 	"Primitive. Assumes receiver is indexable. Store the second argument 
 	value in the indexable element of the receiver indicated by index. Fail 

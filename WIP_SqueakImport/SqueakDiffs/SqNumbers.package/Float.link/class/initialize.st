@@ -1,4 +1,4 @@
-*SqNumbers-class initialization
+class initialization
 initialize
 	"Float initialize"
 	"Constants from Computer Approximations, pp. 182-183:

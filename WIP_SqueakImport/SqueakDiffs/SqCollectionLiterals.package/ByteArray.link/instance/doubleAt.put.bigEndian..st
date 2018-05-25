@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-platform independent access
+platform independent access
 doubleAt: index put: value bigEndian: bool 
 	"Store a 64 bit float starting from the given byte index"
 	| w1 w2 |

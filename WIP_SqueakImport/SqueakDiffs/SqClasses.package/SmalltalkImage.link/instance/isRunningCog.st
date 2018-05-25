@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-system attributes
+system attributes
 isRunningCog
 	"Answers if we're running on a Cog VM (JIT or StackInterpreter)"
 

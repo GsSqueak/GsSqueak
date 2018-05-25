@@ -1,4 +1,4 @@
-*SqKernel-error handing
+error handing
 numArgsError: numArgsForInvocation
 
 	| printNArgs |

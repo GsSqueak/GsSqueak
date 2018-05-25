@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-housekeeping
+housekeeping
 moveChanges
 	"Move the current version of every method in .changes to my .sources file."
 	self appendChangesTo:

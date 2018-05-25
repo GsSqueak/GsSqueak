@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+snapshot and quit
 setPlatformPreferences
 	"Set some platform specific preferences on system startup"
 	| platform specs |

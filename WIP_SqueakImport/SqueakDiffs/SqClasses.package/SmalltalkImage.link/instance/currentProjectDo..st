@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-miscellaneous
+miscellaneous
 currentProjectDo: aBlock 
 	"So that code can work after removal of Projects"
 	self

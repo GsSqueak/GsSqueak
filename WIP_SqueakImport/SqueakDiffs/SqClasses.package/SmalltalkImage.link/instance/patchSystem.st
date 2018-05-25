@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-command line
+command line
 patchSystem
 	'patch.st' asDirectoryEntry ifNotNil:
 		[ : patchEntry | patchEntry modificationTime > Smalltalk imageName asDirectoryEntry modificationTime

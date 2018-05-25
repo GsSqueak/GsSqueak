@@ -1,4 +1,4 @@
-*SqClasses-obsolete subclasses
+obsolete subclasses
 removeObsoleteSubclass: aClass
 	"Remove aClass from the weakly remembered obsolete subclasses"
 	| obs |

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-accessing
+accessing
 organization
 	"Return the organizer for the receiver"
 

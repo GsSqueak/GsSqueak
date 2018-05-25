@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 tanh
 	"Answer hyperbolic tangent of receiver.
 	Trivial implementation is:

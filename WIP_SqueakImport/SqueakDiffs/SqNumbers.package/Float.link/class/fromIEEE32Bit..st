@@ -1,4 +1,4 @@
-*SqNumbers-instance creation
+instance creation
 fromIEEE32Bit: word
 	"Convert the given 32 bit word (which is supposed to be a positive 32-bit value) from
 	 a 32 bit IEEE floating point representation into an actual Squeak float object (being

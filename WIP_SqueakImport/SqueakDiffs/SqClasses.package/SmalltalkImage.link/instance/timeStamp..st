@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 timeStamp: aStream 
 	"Writes system version and current time on stream aStream."
 

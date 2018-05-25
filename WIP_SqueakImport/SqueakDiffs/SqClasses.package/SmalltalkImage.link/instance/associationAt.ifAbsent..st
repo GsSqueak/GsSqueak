@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-dictionary access
+dictionary access
 associationAt: key ifAbsent: aBlock
 	"Obsoleted."
 

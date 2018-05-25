@@ -1,4 +1,4 @@
-*SqCollections-private
+private
 rehash 
 	
 	^ self shouldNotBeImplemented

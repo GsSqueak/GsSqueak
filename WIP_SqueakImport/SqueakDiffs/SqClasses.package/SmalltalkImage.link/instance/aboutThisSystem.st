@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-miscellaneous
+miscellaneous
 aboutThisSystem 
 	"Identify software version"
 

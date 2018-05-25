@@ -1,4 +1,4 @@
-*SqClasses-debugging
+debugging
 haltIf: condition
 	"This is the typical message to use for inserting breakpoints during 
 	debugging.  Param can be a block or expression, halt if true.

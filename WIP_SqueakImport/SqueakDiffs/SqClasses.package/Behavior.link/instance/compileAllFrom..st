@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 compileAllFrom: oldClass
 	"Compile all the methods in the receiver's method dictionary.
 	 This validates sourceCode and variable references and forces

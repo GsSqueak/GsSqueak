@@ -1,4 +1,4 @@
-*SqClasses-private
+private
 spaceUsed
 	"Answer a rough estimate of number of bytes used by this class and its metaclass. Does not include space used by class variables."
 

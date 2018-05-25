@@ -1,4 +1,4 @@
-*SqClasses-error handling
+error handling
 shouldBeImplemented
 	"Announce that this message should be implemented"
 

@@ -1,4 +1,4 @@
-*SqNumbers-constants
+constants
 fmin
 	"Answer minimum positive representable value."
 	

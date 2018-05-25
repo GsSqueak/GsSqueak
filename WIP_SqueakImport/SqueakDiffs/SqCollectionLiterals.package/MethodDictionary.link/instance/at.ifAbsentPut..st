@@ -1,4 +1,4 @@
-*SqCollections-accessing
+accessing
 at: key ifAbsentPut: aBlock 
 	"Return the value at the given key. 
 	If key is not included in the receiver store the result 

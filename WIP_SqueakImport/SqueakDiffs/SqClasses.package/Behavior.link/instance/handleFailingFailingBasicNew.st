@@ -1,4 +1,4 @@
-*SqClasses-private
+private
 handleFailingFailingBasicNew
 	"This basicNew gets sent after handleFailingBasicNew: has done a full
 	 garbage collection and possibly grown memory.  If this basicNew fails

@@ -1,4 +1,4 @@
-*SqClasses-anti-corruption
+anti-corruption
 isScarySelector: newbieSelector
 
 	"Return true if newbieSelector is already a part of Metaclass protocol."

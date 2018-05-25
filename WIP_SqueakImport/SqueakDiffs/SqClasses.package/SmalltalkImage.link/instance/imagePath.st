@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-image, changes names
+image, changes names
 imagePath
 	"Answer the path for the directory containing the image file."
 	"Smalltalk imagePath"

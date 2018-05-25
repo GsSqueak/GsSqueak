@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-system attributes
+system attributes
 isRunningCogit
 	"Answers if we're running on the Cog JIT"
 

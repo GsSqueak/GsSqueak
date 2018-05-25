@@ -1,4 +1,4 @@
-*SqCharacter-accessing
+accessing
 digitValue
   "Returns a SmallInteger representing the value of the receiver,
  a digit, or returns nil if the receiver is not a digit."

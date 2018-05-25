@@ -1,4 +1,4 @@
-*SqClasses-copying
+copying
 copySameFrom: otherObject
 	"Copy to myself all instance variables named the same in otherObject.
 	This ignores otherObject's control over its own inst vars."

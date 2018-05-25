@@ -1,4 +1,4 @@
-*SqClasses-initialize-release
+initialize-release
 forgetDoIts
 	"get rid of old DoIt methods"
 	self 

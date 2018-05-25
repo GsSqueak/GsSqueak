@@ -1,4 +1,4 @@
-*SqBlock-signaling
+signaling
 signal
 
   "The current stack is searched for an 'exception handler' which matches

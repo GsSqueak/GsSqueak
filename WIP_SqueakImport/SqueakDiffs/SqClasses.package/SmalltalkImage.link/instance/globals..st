@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-accessing
+accessing
 globals: aSystemDictionary
 	"Sets the system-wide globals"
 

@@ -1,1 +1,3 @@
-*SqCompiler-accessingcontext	^ context
+accessing
+context
+	^ context

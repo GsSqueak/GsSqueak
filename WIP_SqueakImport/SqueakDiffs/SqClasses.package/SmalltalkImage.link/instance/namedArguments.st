@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-command line
+command line
 namedArguments
 	"Assume arguments passed to the image are key->value pairs, answer a Dictionary of the argument names and their values."
 	| argName value index paramNameValueDictionary |

@@ -1,4 +1,4 @@
-*SqNumbers-comparing
+comparing
 literalEqual: other
 	"Testing equality is not enough.
 	It is also necessary to test number of decimal places (scale).

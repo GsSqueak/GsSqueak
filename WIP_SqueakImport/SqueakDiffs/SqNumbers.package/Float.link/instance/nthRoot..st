@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 nthRoot: aPositiveInteger
 	"Answer the nth root of the receiver."
 	aPositiveInteger = 2 ifTrue: [

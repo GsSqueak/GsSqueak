@@ -1,3 +1,3 @@
-*SqClasses-compiling
+compiling
 binding
 	^ nil -> self

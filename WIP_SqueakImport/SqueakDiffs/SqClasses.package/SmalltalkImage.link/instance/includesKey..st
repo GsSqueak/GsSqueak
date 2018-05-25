@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-dictionary access
+dictionary access
 includesKey: key
 	"Answer whether the receiver has a key equal to the argument, key."
 

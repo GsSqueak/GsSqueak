@@ -1,4 +1,4 @@
-*SqKernel-evaluating
+evaluating
 valueSupplyingAnswer: anObject
 
 	^ (anObject isCollection and: [anObject isString not])

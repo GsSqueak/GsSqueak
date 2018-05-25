@@ -1,3 +1,3 @@
-*SqCharacter-printing
+printing
 hex
 	^self asInteger printStringBase: 16

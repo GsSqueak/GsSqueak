@@ -1,4 +1,4 @@
-*SqClasses-accessing instances and variables
+accessing instances and variables
 someInstance
 	"Primitive. Answer the first instance in the enumeration of all instances 
 	of the receiver. Fails if there are none. Essential. See Object 

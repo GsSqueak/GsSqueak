@@ -1,4 +1,4 @@
-*SqCharacter-instance creation
+instance creation
 new
 	"Creating new characters is not allowed."
 

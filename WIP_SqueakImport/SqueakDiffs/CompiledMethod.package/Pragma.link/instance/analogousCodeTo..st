@@ -1,4 +1,4 @@
-*CompiledMethod-comparing
+comparing
 analogousCodeTo: anObject 
 	^self class == anObject class
 	  and: [keyword == anObject keyword

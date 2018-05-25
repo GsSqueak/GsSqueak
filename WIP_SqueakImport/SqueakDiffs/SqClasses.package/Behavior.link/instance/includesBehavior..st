@@ -1,3 +1,3 @@
-*SqClasses-testing class hierarchy
+testing class hierarchy
 includesBehavior: aClass
 	^self == aClass or:[self inheritsFrom: aClass]

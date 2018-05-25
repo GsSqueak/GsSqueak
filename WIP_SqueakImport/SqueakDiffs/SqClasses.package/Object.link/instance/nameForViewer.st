@@ -1,4 +1,4 @@
-*SqClasses-testing
+testing
 nameForViewer
 	"Answer a name to be shown in a Viewer that is viewing the receiver"
 

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 isYoung: oop
 	"Primitive. Answer whether the object currently resides in youngSpace."
 	

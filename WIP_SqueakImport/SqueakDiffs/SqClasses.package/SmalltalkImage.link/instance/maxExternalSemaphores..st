@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm parameters
+vm parameters
 maxExternalSemaphores: aSize
 	"Changes the size of table where external semaphores are registered. 
 	The size can only grow, and will always be the next power of two larger than the parameter.

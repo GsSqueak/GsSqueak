@@ -1,4 +1,4 @@
-*SqClasses-objects from disk
+objects from disk
 createFrom: aSmartRefStream size: varsOnDisk version: instVarList
 	"Create an instance of me so objects on the disk can be read in.  Tricky part is computing the size if variable.  Inst vars will be filled in later.  "
 

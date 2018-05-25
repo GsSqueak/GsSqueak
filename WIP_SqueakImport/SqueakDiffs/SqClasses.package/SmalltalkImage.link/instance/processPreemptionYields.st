@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-system attributes
+system attributes
 processPreemptionYields
 	"Answer whether the VM causes a process to yield on process preemption,
 	 i.e. to put a preempted process at the back of its run queue.  If the parameter

@@ -1,4 +1,4 @@
-*SqClasses-objects from disk
+objects from disk
 readDataFrom: aDataStream size: varsOnDisk
 	"Fill in the fields of self based on the contents of aDataStream.  Return self.
 	 Read in the instance-variables written by Object>>storeDataOn:.

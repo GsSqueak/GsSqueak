@@ -1,4 +1,4 @@
-*SqCollections-accessing
+accessing
 associations
 	"Answer a Collection containing the receiver's associations."
 	

@@ -1,4 +1,4 @@
-*SqCharacter-converting
+converting
 asUnicode
   | val |
   val := self asciiValue.

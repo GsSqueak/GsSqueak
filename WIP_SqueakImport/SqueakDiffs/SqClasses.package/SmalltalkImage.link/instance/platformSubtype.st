@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-os
+os
 platformSubtype
 	"Return the subType of the platform we're running on."
 

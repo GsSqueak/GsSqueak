@@ -1,4 +1,4 @@
-*SqKernel-controlling
+controlling
 doWhileTrue: conditionBlock
 	"Evaluate the receiver once, then again as long the value of conditionBlock is true."
  

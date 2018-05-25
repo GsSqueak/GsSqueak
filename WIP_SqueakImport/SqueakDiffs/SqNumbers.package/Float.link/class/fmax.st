@@ -1,4 +1,4 @@
-*SqNumbers-constants
+constants
 fmax
 	"Answer the maximum finite floating point value representable."
 	

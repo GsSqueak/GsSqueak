@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-dictionary access
+dictionary access
 associationAt: aKey
 	"DO NOT DEPRECATE - used by ImageSegments"
 

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-classes and traits
+classes and traits
 allClasses  
 	"Return all the class defined in the system"
 

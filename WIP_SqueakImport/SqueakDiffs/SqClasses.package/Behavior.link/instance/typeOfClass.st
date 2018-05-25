@@ -1,4 +1,4 @@
-*SqClasses-accessing
+accessing
 typeOfClass
 	"Answer a symbol uniquely describing the type of the receiver. c.f. kindOfSubclass, instSpec"
 	^(#(normal

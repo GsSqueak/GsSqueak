@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm statistics
+vm statistics
 vmStatisticsReportString
 	"(Workspace new contents: Smalltalk vmStatisticsReportString)
 		openLabel: 'VM Statistics'"

@@ -1,3 +1,3 @@
-*SqCharacter-accessing untypeable characters
+accessing untypeable characters
 end
 	^ self value: 4

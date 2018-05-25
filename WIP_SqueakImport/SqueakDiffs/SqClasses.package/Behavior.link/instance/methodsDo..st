@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 methodsDo: aBlock
 	"Evaluate aBlock for all the compiled methods in my method dictionary."
 

@@ -1,4 +1,4 @@
-*SqKernel-printing
+printing
 fullPrintOn: aStream 
 	aStream
 		 print: self ;

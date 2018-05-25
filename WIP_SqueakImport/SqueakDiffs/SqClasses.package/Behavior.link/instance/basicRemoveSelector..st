@@ -1,4 +1,4 @@
-*SqClasses-adding/removing methods
+adding/removing methods
 basicRemoveSelector: selector 
 	"Assuming that the argument, selector (a Symbol), is a message selector 
 	in my method dictionary, remove it and its method. Returns the old method

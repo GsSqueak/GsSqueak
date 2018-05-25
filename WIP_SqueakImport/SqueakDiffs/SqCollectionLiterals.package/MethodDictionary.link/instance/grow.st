@@ -1,4 +1,4 @@
-*SqCollections-private
+private
 grow
 	^ self shouldNotBeImplemented
 	"| newSelf |

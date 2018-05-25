@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 sinh
 	"Answer receivers hyperbolic sine"
 	

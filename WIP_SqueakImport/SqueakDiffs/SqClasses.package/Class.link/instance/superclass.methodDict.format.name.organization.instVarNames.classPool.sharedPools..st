@@ -1,4 +1,4 @@
-*SqClasses-initialize-release
+initialize-release
 superclass: sup methodDict: md format: ft name: nm organization: org instVarNames: nilOrArray classPool: pool sharedPools: poolSet 
 	"Answer an instance of me, a new class, using the arguments of the 
 	message as the needed information.

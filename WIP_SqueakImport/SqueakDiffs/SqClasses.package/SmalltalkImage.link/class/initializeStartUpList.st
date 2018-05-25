@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-class initialization
+class initialization
 initializeStartUpList
 	"SmalltalkImage initialize"
 	

@@ -1,4 +1,4 @@
-*SqNumbers-truncation and round off
+truncation and round off
 significandAsInteger
 	"Answer the mantissa of a Float shifted so as to have the ulp equal to 1.
 	For exceptional values, infinity and nan, just answer the bit pattern."

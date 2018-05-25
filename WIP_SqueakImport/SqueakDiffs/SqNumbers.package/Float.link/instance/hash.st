@@ -1,4 +1,4 @@
-*SqNumbers-comparing
+comparing
 hash
 	"Hash is reimplemented because = is implemented. Both words of the float are used. (The bitShift:'s ensure that the intermediate results do not become a large integer.) Care is taken to answer same hash as an equal Integer."
 

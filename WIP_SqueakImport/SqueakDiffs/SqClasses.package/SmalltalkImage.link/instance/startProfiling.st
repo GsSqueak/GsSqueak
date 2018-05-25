@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm profiling
+vm profiling
 startProfiling
 	"Start profiling the virtual machine."
 

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 rootTableAt: index
 	"Primitive. Answer the nth element of the VMs root table"
 	

@@ -1,4 +1,4 @@
-*SqCharacter-accessing untypeable characters
+accessing untypeable characters
 escape
 	"Answer the ASCII ESC character"
 

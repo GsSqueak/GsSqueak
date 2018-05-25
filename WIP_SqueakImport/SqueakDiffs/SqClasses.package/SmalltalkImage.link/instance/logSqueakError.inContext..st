@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-miscellaneous
+miscellaneous
 logSqueakError: errMsg inContext: aContext 
 	"Log the error message and a stack trace to the usual file."
 

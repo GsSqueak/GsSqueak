@@ -1,4 +1,4 @@
-*SqExceptions-exceptionDescription
+exceptionDescription
 tag
 	"Return an exception's tag value."
 

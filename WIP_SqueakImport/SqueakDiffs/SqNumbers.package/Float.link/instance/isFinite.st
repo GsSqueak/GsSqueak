@@ -1,4 +1,4 @@
-*SqNumbers-testing
+testing
 isFinite
 	"simple, byte-order independent test for rejecting Not-a-Number and (Negative)Infinity"
 

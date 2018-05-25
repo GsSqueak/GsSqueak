@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-miscellaneous
+miscellaneous
 storeDataOn: aDataStream
 	"I don't get stored.  Use a DiskProxy"
 

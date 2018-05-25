@@ -1,4 +1,4 @@
-*SqNumbers-instance creation
+instance creation
 readFrom: aStream ifFail: aBlock
 	"Answer a new Float as described on the stream, aStream."
 

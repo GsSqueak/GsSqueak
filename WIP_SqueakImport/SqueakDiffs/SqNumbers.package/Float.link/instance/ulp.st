@@ -1,4 +1,4 @@
-*SqNumbers-truncation and round off
+truncation and round off
 ulp
 	"Answer the unit of least precision of self (the power of two corresponding to last bit of mantissa)"
 	

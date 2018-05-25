@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 lookupSelector: selector
 	"Look up the given selector in my methodDictionary.
 	Return the corresponding method if found.

@@ -1,4 +1,4 @@
-*SqNumbers-copying
+copying
 deepCopy
 
 	^self copy

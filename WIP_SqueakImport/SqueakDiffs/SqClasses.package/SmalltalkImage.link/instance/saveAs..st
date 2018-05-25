@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 saveAs: newName
 	"Save the image  under that new name."
 	newName ifNil:[^ self].

@@ -1,4 +1,4 @@
-*CompiledMethod-private
+private
 keyword: aSymbol arguments: anArray
 	^ self new
 		setKeyword: aSymbol;

@@ -1,4 +1,4 @@
-*SqKernel-scanning
+scanning
 abstractBytecodeMessagesDo: aBlock
 	"Evaluate aBlock with the sequence of abstract bytecodes in the receiver."
 	self method

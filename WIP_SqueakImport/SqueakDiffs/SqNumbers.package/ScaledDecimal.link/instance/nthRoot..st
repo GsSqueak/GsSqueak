@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 nthRoot: anInteger
 	"Answer the nth root of the receiver.
 	Preserve receiver class and scale if answer is exact.

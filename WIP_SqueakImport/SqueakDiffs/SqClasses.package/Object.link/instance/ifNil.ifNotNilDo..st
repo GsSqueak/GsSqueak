@@ -1,4 +1,4 @@
-*SqClasses-accessing
+accessing
 ifNil: nilBlock ifNotNilDo: aBlock 
 	"Evaluate aBlock with the receiver as its argument."
 

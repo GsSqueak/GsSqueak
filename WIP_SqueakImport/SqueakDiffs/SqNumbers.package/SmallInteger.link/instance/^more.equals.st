@@ -1,4 +1,4 @@
-*SqNumbers-comparing
+comparing
 >= aNumber 
 	"Primitive. Compare the receiver with the argument and answer true if
 	the receiver is greater than or equal to the argument. Otherwise answer

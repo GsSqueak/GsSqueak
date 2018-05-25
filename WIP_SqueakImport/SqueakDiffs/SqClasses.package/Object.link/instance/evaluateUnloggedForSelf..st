@@ -1,4 +1,4 @@
-*SqClasses-scripting
+scripting
 evaluateUnloggedForSelf: aCodeString
 
 	^Compiler evaluate:

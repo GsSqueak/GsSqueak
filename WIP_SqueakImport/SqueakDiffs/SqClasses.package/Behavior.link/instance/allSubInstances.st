@@ -1,4 +1,4 @@
-*SqClasses-accessing instances and variables
+accessing instances and variables
 allSubInstances 
 	"Answer a list of all current instances of the receiver and all of its subclasses."
 	| aCollection |

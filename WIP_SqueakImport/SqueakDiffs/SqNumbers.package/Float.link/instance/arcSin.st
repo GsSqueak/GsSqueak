@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 arcSin
 	"Answer the angle in radians."
 

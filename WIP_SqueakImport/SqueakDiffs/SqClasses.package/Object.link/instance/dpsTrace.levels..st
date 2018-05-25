@@ -1,4 +1,4 @@
-*SqClasses-error handling
+error handling
 dpsTrace: reportObject levels: anInt
 	self dpsTrace: reportObject levels: anInt withContext: thisContext
 

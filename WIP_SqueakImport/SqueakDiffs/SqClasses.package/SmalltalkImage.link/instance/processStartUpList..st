@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+snapshot and quit
 processStartUpList: resuming
 	"Send #startUp to each class that needs to run initialization after a snapshot."
 

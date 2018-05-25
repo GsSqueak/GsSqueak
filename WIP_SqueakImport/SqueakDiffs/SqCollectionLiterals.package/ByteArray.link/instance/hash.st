@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-comparing
+comparing
 hash
 	"#hash is implemented, because #= is implemented"
 

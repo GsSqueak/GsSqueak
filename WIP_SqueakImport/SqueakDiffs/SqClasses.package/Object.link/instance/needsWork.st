@@ -1,2 +1,2 @@
-*SqClasses-debugging
+debugging
 needsWork

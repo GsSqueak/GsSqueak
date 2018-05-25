@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-image, changes names
+image, changes names
 changeImageNameTo: aString
 	
 	self imageName: aString asSqueakPathName.

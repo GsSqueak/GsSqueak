@@ -1,4 +1,4 @@
-*SqNumbers-converting
+converting
 adaptToScaledDecimal: receiverScaledDecimal andSend: arithmeticOpSelector 
 	"Convert receiverScaledDecimal to a Float and do the arithmetic. 
 	receiverScaledDecimal arithmeticOpSelector self."

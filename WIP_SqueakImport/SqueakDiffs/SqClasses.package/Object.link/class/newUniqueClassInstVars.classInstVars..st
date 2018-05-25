@@ -1,4 +1,4 @@
-*SqClasses-instance creation
+instance creation
 newUniqueClassInstVars: instVarString classInstVars: classInstVarString
 	"Create a unique class for the receiver"
 

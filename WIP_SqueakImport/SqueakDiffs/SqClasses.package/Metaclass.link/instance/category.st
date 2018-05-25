@@ -1,3 +1,3 @@
-*SqClasses-organization
+organization
 category
 	^ destClass category

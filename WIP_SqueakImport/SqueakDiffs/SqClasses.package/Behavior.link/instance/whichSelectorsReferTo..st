@@ -1,4 +1,4 @@
-*SqClasses-testing method dictionary
+testing method dictionary
 whichSelectorsReferTo: literal 
 	"Answer a Set of selectors whose methods access the argument as a literal."
 

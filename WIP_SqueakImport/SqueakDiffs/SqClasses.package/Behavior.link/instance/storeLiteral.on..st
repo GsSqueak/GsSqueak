@@ -1,4 +1,4 @@
-*SqClasses-printing
+printing
 storeLiteral: aCodeLiteral on: aStream
 	"Store aCodeLiteral on aStream, changing an Association to ##GlobalName
 	 or ###MetaclassSoleInstanceName format if appropriate"

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-command line
+command line
 run: aBlock snapshotAs: imageName andQuit: shouldQuit 
 	self run: aBlock.
 	imageName

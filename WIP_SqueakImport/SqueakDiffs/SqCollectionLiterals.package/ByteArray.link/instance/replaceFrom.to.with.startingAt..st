@@ -1,4 +1,4 @@
-*SqCollectionLiterals-private
+private
 replaceFrom: startIndex to: stopIndex with: aSeqCollection startingAt: repIndex
 
 "Replaces the elements of the receiver between the indexes startIndex and

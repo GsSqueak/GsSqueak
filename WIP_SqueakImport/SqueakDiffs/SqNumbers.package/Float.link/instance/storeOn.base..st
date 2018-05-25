@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 storeOn: aStream base: base 
 	"Print the Number exactly so it can be interpreted back unchanged"
 	self isFinite

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 convertFromSystemString
 
 	| readStream writeStream converter |

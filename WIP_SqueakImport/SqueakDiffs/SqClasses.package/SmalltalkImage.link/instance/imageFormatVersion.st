@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-image
+image
 imageFormatVersion
 	"Answer an integer identifying the type of image in memory. The image version number may
 	identify the format of the image (e.g. 32 or 64-bit word size) or specific requirements

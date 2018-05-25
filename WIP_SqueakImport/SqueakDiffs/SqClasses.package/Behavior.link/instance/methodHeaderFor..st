@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 methodHeaderFor: selector 
 	"Answer the string corresponding to the method header for the given selector"
 

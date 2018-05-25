@@ -1,4 +1,4 @@
-*SqCharacter-printing
+printing
 storeBinaryOn: aStream
 	"Store the receiver on a binary (file) stream"
 	

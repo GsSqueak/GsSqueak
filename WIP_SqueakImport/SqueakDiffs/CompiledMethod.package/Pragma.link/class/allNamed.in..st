@@ -1,4 +1,4 @@
-*CompiledMethod-finding
+finding
 allNamed: aSymbol in: aClass
 	"Answer a collection of all pragmas found in methods of aClass whose keyword is aSymbol."
 	

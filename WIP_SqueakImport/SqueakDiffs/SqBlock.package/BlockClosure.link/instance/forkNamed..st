@@ -1,4 +1,4 @@
-*SqKernel-scheduling
+scheduling
 forkNamed: aString
 
 	"Create and schedule a Process running the code in the receiver and

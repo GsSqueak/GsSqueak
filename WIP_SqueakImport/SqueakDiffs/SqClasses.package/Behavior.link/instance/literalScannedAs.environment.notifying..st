@@ -1,4 +1,4 @@
-*SqClasses-printing
+printing
 literalScannedAs: scannedLiteral environment: anEnvironment notifying: requestor
 	"Postprocesses a literal scanned by Scanner scanToken (esp. xLitQuote).
 	If scannedLiteral is not an association, answer it.

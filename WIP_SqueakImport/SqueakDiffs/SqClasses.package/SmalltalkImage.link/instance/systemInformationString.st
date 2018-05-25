@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 systemInformationString
 	"Identify software version"
 	^ SystemVersion current version, String cr, self lastUpdateString, String cr, self currentChangeSetString

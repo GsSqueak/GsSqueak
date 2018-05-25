@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 hex  "If ya really want to know..."
 	^ String streamContents:
 		[:strm |

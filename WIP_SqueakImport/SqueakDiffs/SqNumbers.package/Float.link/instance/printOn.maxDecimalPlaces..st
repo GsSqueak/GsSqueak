@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 printOn: aStream maxDecimalPlaces: placesDesired
 	"Refine super implementation in order to avoid any rounding error caused by rounded or roundTo:"
 	

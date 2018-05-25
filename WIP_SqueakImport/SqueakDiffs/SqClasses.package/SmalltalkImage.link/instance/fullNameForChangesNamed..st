@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-image, changes names
+image, changes names
 fullNameForChangesNamed: aName
 	| imgName |
 	imgName := self fullNameForImageNamed: aName.

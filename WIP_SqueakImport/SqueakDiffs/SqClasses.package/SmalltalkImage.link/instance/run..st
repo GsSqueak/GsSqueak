@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-command line
+command line
 run: aBlock
 	[ [ self patchSystem.
 	(aBlock numArgs = 1 and: [ self arguments size > 1 ])

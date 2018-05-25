@@ -1,4 +1,4 @@
-*SqClasses-error handling
+error handling
 dpsTrace: reportObject levels: anInt withContext: currentContext
 	| reportString context displayCount |
 	reportString := (reportObject respondsTo: #asString) 

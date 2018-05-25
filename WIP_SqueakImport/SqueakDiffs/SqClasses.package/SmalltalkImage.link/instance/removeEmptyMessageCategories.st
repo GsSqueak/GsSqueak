@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-housekeeping
+housekeeping
 removeEmptyMessageCategories
 	"Smalltalk removeEmptyMessageCategories"
 	self garbageCollect.

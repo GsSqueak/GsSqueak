@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 precodeCommentOrInheritedCommentFor: selector 
 	"Answer a string representing the first comment in the method associated 
 	with selector, considering however only comments that occur before the 

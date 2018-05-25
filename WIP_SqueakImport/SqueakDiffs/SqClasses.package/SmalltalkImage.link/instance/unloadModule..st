@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-modules
+modules
 unloadModule: aString
 	"Primitive. Unload the given module.
 	This primitive is intended for development only since some

@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 compressedSourceCodeAt: selector
 	"(Paragraph compressedSourceCodeAt: #displayLines:affectedRectangle:) size 721 1921
 	Paragraph selectors inject: 0 into: [:tot :sel | tot + (Paragraph compressedSourceCodeAt: sel) size] 13606 31450"

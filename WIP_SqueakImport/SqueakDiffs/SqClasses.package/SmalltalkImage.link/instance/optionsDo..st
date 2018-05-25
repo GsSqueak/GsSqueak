@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-command line
+command line
 optionsDo: aBlock 
 	"Enumerate the command-line arguments passed to the vm only.  This does not include arguments passed to the image."
 	1

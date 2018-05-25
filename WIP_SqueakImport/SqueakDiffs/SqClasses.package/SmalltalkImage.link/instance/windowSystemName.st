@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-os
+os
 windowSystemName			
 	"Return the name of the window system currently being used for display."
 	

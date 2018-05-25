@@ -1,3 +1,3 @@
-*SqClasses-*SqClasses-*SqClasses-system attributes
+system attributes
 endianness
 	^EndianCache ifNil: [EndianCache := self calcEndianness]

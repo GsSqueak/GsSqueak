@@ -1,4 +1,4 @@
-*SqBlock-signaling
+signaling
 return
   "When sent within an ANSI handler's handlerBlock,
  resume execution by returning nil from the #on:do: send

@@ -1,4 +1,4 @@
-*SqKernel-testing
+testing
 isFullBlock
 	^false
 

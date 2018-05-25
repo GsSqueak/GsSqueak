@@ -1,3 +1,3 @@
-*SqClasses-class initialization
+class initialization
 initializeObsoleteSubclasses
 	ObsoleteSubclasses := WeakKeyToCollectionDictionary new.

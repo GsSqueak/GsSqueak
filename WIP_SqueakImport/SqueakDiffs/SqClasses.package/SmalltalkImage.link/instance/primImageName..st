@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-image, changes names
+image, changes names
 primImageName: newName
 	"Set the the full path name for the current image.  All further snapshots will use this."
 

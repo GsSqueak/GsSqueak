@@ -1,4 +1,4 @@
-*SqExceptions-handling
+handling
 signalerContext
 	"Find the first sender of signal(:)"
 	self shouldBeImplemented

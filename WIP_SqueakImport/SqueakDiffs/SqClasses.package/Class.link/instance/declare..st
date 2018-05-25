@@ -1,3 +1,3 @@
-*SqClasses-initialize-release
+initialize-release
 declare: varString 
 	self shouldBeImplemented

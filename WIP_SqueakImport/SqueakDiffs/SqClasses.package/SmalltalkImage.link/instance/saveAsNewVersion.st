@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 saveAsNewVersion
 	"Save the image/changes using the next available version number."
 	"Smalltalk saveAsNewVersion"

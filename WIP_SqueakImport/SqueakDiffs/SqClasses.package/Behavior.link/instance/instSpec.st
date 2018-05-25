@@ -1,4 +1,4 @@
-*SqClasses-testing
+testing
 instSpec
 	"Answer the instance specification part of the format that defines what kind of object
 	 an instance of the receiver is.  The formats are

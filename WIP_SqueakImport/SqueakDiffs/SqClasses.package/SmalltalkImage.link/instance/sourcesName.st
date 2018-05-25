@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-image, changes names
+image, changes names
 sourcesName
 	"Answer the full path to the version-stable source code if it exists, otherwise the desired location"
 	^ self locateSourcesEntry

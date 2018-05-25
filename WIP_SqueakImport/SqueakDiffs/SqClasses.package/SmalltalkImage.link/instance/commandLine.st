@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-command line
+command line
 commandLine
 	"Answer the object to query about command line."
 	

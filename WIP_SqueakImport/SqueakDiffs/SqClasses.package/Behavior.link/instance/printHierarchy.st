@@ -1,4 +1,4 @@
-*SqClasses-printing
+printing
 printHierarchy
 	"Answer a description containing the names and instance variable names 
 	of all of the subclasses and superclasses of the receiver."

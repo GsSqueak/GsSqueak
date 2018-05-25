@@ -1,4 +1,4 @@
-*SqClasses-accessing instances and variables
+accessing instances and variables
 byteSizeOfInstance
 	"Answer the total memory size of an instance of the receiver."
 

@@ -1,4 +1,4 @@
-*SqBooleans-controlling
+controlling
 ifFalse: falseAlternativeBlock ifTrue: trueAlternativeBlock 
 	"Same as ifTrue:ifFalse:."
 

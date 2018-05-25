@@ -1,4 +1,4 @@
-*SqClasses-testing method dictionary
+testing method dictionary
 whichSelectorsReferTo: aLiteral thorough: thorough
 	"Answer a set of selectors whose methods access the argument as a literal.
 	 If thorough is true, then dives into the compact literal notation, and pragmas,

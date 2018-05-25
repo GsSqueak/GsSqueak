@@ -1,4 +1,4 @@
-*SqCharacter-testing
+testing
 tokenish
 	"Answer whether the receiver is a valid token-character--letter, digit, or colon."
 

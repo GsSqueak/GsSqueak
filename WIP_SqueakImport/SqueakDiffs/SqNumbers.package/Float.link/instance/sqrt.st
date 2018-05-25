@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 sqrt
 	self <= 0.0
 		ifTrue: [self = 0.0

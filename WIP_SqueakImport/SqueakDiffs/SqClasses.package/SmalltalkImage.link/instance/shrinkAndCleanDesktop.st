@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-shrinking
+shrinking
 shrinkAndCleanDesktop
 	| world |
 	world := Project current world.

@@ -1,3 +1,3 @@
-*SqClasses-*SqClasses-*SqClasses-vm
+vm
 cogitClass
 	^self getSystemAttribute: 1008

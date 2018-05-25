@@ -1,4 +1,4 @@
-*SqNumbers-arithmetic
+arithmetic
 reciprocal
 
 	"Returns the reciprocal.

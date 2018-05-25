@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-accessing
+accessing
 atAllPut: value
 	
 	^ self _env0 atAllPut: value

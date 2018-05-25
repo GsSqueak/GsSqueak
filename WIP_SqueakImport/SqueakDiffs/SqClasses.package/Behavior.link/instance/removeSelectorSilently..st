@@ -1,4 +1,4 @@
-*SqClasses-adding/removing methods
+adding/removing methods
 removeSelectorSilently: selector 
 	"Remove selector without sending system change notifications"
 

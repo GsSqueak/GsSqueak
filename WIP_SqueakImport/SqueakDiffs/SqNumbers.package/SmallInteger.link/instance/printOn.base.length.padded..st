@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 printOn: stream base: base length: minimumLength padded: padWithZeroes
 
 	| n numberOfDigits totalLength divisor |

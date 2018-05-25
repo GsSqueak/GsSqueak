@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-miscellaneous
+miscellaneous
 printOn: aStream
 	self == Smalltalk
 		ifTrue: [aStream nextPutAll: #Smalltalk]

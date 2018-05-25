@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-shrinking
+shrinking
 zapMVCprojects
 	"Smalltalk zapMVCprojects"
 

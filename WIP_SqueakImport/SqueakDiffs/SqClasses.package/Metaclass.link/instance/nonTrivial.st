@@ -1,4 +1,4 @@
-*SqClasses-fileIn/Out
+fileIn/Out
 nonTrivial 
 	"Answer whether the receiver has any methods or instance variables."
 

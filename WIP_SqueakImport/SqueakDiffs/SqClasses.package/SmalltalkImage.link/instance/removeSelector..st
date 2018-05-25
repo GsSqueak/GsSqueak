@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-shrinking
+shrinking
 removeSelector: descriptor 
 	"Safely remove a selector from a class (or metaclass). If the
 	class or the method doesn't exist anymore, never mind and

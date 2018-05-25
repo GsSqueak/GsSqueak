@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+snapshot and quit
 snapshot: save andQuit: quit withExitCode: exitCode embedded: embeddedFlag
 	"Mark the changes file and close all files as part of #processShutdownList.
 	If save is true, save the current state of this Smalltalk in the image file.

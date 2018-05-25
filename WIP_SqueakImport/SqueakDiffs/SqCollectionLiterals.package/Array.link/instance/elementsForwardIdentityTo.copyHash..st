@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-converting
+converting
 elementsForwardIdentityTo: otherArray copyHash: copyHash
 	"This primitive performs a bulk mutation, causing all pointers to the elements of the
 	 receiver to be replaced by pointers to the corresponding elements of otherArray.

@@ -1,4 +1,4 @@
-*SqKernel-evaluating
+evaluating
 cull: firstArg cull: secondArg
 	"Activate the receiver, with two or less arguments."
 	

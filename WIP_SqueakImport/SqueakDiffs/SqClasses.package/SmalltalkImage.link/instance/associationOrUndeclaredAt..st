@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-dictionary access
+dictionary access
 associationOrUndeclaredAt: aKey
 	"DO NOT DEPRECATE - used by binary storage"
 

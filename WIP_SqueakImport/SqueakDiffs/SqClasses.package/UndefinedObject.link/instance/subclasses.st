@@ -1,4 +1,4 @@
-*SqClasses-class hierarchy
+class hierarchy
 subclasses
 	"Return all the subclasses of nil"
 	| classList |

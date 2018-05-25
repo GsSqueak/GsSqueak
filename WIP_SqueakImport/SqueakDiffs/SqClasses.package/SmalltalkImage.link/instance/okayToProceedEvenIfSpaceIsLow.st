@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 okayToProceedEvenIfSpaceIsLow
 	"Return true if either there is enough memory to do so safely or if the user gives permission after being given fair warning."
 

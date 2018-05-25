@@ -1,4 +1,4 @@
-*SqClasses-casing
+casing
 caseOf: aBlockAssociationCollection otherwise: aBlock
 	"The elements of aBlockAssociationCollection are associations between blocks.
 	 Answer the evaluated value of the first association in aBlockAssociationCollection

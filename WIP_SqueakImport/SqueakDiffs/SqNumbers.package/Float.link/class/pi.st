@@ -1,4 +1,4 @@
-*SqNumbers-constants
+constants
 pi
 	"Answer the constant, Pi."
 

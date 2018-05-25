@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 appendChangesTo: sourcesName
 
 	"Condense changes to the end of the given sources file.

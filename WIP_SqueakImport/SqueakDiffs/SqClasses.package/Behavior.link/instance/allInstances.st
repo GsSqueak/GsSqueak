@@ -1,4 +1,4 @@
-*SqClasses-accessing instances and variables
+accessing instances and variables
 allInstances
 	"Answer all instances of the receiver."
 	(self isKindOf: Class)

@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 nextQuotePosIn: sourceString startingFrom: commentStart
 	| pos nextQuotePos |
 	pos := commentStart + 1.

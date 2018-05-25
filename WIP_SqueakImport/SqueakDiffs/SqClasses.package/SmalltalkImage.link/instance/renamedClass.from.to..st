@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-classes and traits
+classes and traits
 renamedClass: aClass from: oldName to: newName
 	"Inform Smalltalk that aClass has been renamed"
 	(Array with: StartUpList with: ShutDownList) do:[:list | | index |  

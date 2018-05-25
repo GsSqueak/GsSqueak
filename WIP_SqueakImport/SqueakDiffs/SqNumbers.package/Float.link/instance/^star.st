@@ -1,4 +1,4 @@
-*SqNumbers-arithmetic
+arithmetic
 * aNumber
 
 	^ self _env0 * aNumber

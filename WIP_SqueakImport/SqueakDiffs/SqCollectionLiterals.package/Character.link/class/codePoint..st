@@ -1,4 +1,4 @@
-*SqCharacter-instance creation
+instance creation
 codePoint: integer 
 	"Return a character whose encoding value is integer.
 	For ansi compability."

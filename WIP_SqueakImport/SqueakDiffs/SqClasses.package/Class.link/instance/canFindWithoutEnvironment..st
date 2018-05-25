@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 canFindWithoutEnvironment: varName
 	"This method is used for analysis of system structure -- see senders."
 	"Look up varName, in the context of the receiver. Return true if it can be found without using the declared environment."

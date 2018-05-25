@@ -1,4 +1,4 @@
-*SqClasses-system primitives
+system primitives
 rootStubInImageSegment: imageSegment
 
 	^ ImageSegmentRootStub new

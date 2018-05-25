@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 absPrintExactlyOn: aStream base: base
 	"Print my value on a stream in the given base.  Assumes that my value is strictly
 	positive; negative numbers, zero, and NaNs have already been handled elsewhere.

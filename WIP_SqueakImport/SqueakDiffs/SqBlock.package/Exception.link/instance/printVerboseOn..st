@@ -1,4 +1,4 @@
-*SqExceptions-printing
+printing
 printVerboseOn: aStream 
 	aStream
 		nextPutAll: 'vvvvvvvvvvvvvvvvvv ' , self description , ' vvvvvvvvvvvvvvvvvv' ;

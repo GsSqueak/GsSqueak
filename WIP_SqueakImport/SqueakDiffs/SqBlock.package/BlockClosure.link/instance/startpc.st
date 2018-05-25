@@ -1,4 +1,4 @@
-*SqKernel-accessing
+accessing
 startpc
 	^startpc
 

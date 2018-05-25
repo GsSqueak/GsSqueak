@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-accessing
+accessing
 atWrap: index 
 	"Optimized to go through the primitive if possible"
 	

@@ -1,4 +1,4 @@
-*CompiledMethod-comparing
+comparing
 = anObject 
 	^self class == anObject class
 	  and: [keyword == anObject keyword

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 convertFromCompoundText
 
 	| readStream writeStream converter |

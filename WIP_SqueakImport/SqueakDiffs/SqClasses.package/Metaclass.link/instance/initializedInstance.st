@@ -1,4 +1,4 @@
-*SqClasses-instance creation
+instance creation
 initializedInstance
 	destClass class == self ifFalse: [^self new].
 	^destClass

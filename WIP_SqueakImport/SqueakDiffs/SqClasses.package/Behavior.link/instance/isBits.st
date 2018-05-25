@@ -1,4 +1,4 @@
-*SqClasses-testing
+testing
 isBits
 	"Answer whether the receiver contains just bits (not pointers).
 	 Above Cog Spur the class format is

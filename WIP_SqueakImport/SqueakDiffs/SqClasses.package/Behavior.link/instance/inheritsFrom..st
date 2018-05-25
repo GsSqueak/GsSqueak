@@ -1,4 +1,4 @@
-*SqClasses-testing class hierarchy
+testing class hierarchy
 inheritsFrom: aClass 
 	"Answer whether the argument, aClass, is on the receiver's superclass 
 	chain."

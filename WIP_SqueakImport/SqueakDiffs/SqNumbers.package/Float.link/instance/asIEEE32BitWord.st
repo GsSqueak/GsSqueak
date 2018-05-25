@@ -1,4 +1,4 @@
-*SqNumbers-converting
+converting
 asIEEE32BitWord
 	"Convert the receiver into a 32 bit Integer value representing the same number in IEEE 32 bit format.
 	Used for conversion in FloatArrays only."

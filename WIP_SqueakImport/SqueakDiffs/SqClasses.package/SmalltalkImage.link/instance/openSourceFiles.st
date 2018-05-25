@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 openSourceFiles
 
 	self imageName = LastImageName ifFalse:

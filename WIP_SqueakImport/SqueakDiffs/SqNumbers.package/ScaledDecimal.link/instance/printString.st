@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 printString
 	"Reimplementation - Number 'printing' method."
 	| tempStream |

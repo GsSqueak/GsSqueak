@@ -1,3 +1,3 @@
-*SqCharacter-printing
+printing
 printAsLiteralOn: aStream
 	aStream nextPut: $$; nextPut: self

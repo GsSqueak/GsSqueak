@@ -1,4 +1,4 @@
-*SqCollectionLiterals-private
+private
 pvtAt: index put: aCharacter
 	"Primitive. Store the Character in the field of the receiver indicated by
 	the index. Fail if the index is not an Integer or is out of bounds, or if

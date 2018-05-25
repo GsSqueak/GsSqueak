@@ -1,4 +1,4 @@
-*SqClasses-printing
+printing
 nominallyUnsent: aSelectorSymbol
 	"From within the body of a method which is not formally sent within the system, but which you intend to have remain in the system (for potential manual invocation, or for documentation, or perhaps because it's sent by commented-out-code that you anticipate uncommenting out someday, send this message, with the selector itself as the argument.
 

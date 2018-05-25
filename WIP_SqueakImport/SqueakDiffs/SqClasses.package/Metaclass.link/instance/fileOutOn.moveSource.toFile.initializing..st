@@ -1,4 +1,4 @@
-*SqClasses-fileIn/Out
+fileIn/Out
 fileOutOn: aFileStream moveSource: moveSource toFile: fileIndex initializing: aBool
 	super fileOutOn: aFileStream moveSource: moveSource toFile: fileIndex.
 	(aBool

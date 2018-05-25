@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-instance creation
+instance creation
 new
 
 	self error: 'Use Smalltalk'.

@@ -1,4 +1,4 @@
-*SqClasses-enumerating
+enumerating
 allSubclassesDoGently: aBlock 
 	"Evaluate the argument, aBlock, for each of the receiver's subclasses."
 

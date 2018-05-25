@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 useUpMemoryWithTinyObjects 
 	"For testing the low space handler..."
 	"Smalltalk installLowSpaceWatcher; useUpMemoryWithTinyObjects"

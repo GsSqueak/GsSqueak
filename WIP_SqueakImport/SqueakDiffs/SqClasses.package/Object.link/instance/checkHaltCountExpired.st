@@ -1,4 +1,4 @@
-*SqClasses-debugging-haltOnce
+debugging-haltOnce
 checkHaltCountExpired
 	| counter |
 	counter := Smalltalk at: #HaltCount ifAbsent: [0].

@@ -1,4 +1,4 @@
-*SqClasses-obsolete subclasses
+obsolete subclasses
 obsoleteSubclasses
 	"Return all the weakly remembered obsolete subclasses of the receiver"
 	| obs |

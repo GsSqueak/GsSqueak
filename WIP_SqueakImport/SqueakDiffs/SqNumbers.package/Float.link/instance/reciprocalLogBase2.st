@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 reciprocalLogBase2
 	"optimized for self = 10, for use in conversion for printing"
 

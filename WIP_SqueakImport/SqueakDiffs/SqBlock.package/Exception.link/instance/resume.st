@@ -1,4 +1,4 @@
-*SqExceptions-handling
+handling
 resume
 	"Return from the message that signaled the receiver."
 

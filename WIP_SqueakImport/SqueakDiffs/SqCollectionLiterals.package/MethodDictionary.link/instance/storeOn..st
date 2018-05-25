@@ -1,4 +1,4 @@
-*SqCollections-printing
+printing
 storeOn: aStream
 	| noneYet |
 	aStream nextPutAll: '(('.

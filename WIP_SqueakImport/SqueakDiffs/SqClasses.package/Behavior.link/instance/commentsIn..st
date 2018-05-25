@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 commentsIn: sourceString
 	"Return the comments as a collection of strings in sourceString. This method along with #nextQuotePosIn:startingFrom: is wrong, because it assumes that all double quote characters are comment delimiters, but even this method has a double quote which is not part of any method comment. Also this method has nothing to do with the Behavior itself. Probably CompiledMethod is the best place for this."
 	

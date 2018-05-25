@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-converting
+converting
 hex
 	"Answer a hexa decimal representation of the receiver"
 	| string v index map |

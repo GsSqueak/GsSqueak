@@ -1,4 +1,4 @@
-*SqKernel-evaluating
+evaluating
 benchFor: aDuration
 	"See how many times I can value within the given duration.  I'll answer a meaningful description."
 

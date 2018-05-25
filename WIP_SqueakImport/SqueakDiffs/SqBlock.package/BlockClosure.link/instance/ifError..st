@@ -1,4 +1,4 @@
-*SqKernel-evaluating
+evaluating
 ifError: errorHandlerBlock
 	"Evaluate the block represented by the receiver, and normally return it's value.  If an error occurs, the errorHandlerBlock is evaluated, and it's value is instead returned.  The errorHandlerBlock must accept zero, one, or two parameters (the error message and the receiver)."
 	"Examples:

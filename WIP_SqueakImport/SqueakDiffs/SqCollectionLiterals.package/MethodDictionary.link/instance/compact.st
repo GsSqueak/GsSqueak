@@ -1,4 +1,4 @@
-*SqCollections-private
+private
 compact
 	"Make sure that I have the highest possible load factor (between 37.5% and 75%)."
 	^ self

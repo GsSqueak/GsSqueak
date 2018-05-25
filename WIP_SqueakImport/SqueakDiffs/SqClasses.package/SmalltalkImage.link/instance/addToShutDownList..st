@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-startup list
+startup list
 addToShutDownList: aClass
 	"This will add a ref to this class at the BEGINNING of the shutDown list."
 	"No-op if already in the list."

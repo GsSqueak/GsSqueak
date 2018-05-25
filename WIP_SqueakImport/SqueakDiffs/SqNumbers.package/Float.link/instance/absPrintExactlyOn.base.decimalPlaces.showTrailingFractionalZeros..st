@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 absPrintExactlyOn: aStream base: base decimalPlaces: placesDesired showTrailingFractionalZeros: showtrailingZeros
 	"Print my value on a stream in the given base with fixed number of digits after floating point.
 	When placesDesired are beyond Float precision, zeroes are appended.

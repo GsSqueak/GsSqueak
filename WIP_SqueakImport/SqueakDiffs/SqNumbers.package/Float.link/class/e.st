@@ -1,4 +1,4 @@
-*SqNumbers-constants
+constants
 e
 	"Answer the constant, E."
 

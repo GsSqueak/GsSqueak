@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-startup list
+startup list
 add: aClass toList: startUpOrShutDownList after: predecessor
 	"Add the name of aClass to the startUp or shutDown list.
 	Add it after the name of predecessor"

@@ -1,4 +1,4 @@
-*CompiledMethod-instance creation
+instance creation
 for: aMethod selector: aSelector arguments: anArray
 	^self new
 		setMethod: aMethod;

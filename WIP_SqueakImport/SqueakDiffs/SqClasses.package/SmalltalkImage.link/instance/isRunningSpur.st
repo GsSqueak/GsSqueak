@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-system attributes
+system attributes
 isRunningSpur
 	"Answers if we're running on the Spur memory manager.  Spur has immediate characters.
 	 (vmParameterAt: 41 is the image format version for the VM)"

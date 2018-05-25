@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-license
+license
 license
 	"This method contains the text of the license agreement for Squeak."
 

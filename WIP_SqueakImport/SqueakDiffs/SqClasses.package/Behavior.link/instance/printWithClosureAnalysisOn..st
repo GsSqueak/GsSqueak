@@ -1,4 +1,4 @@
-*SqClasses-printing
+printing
 printWithClosureAnalysisOn: aStream 
 	"Refer to the comment in Object|printOn:." 
 

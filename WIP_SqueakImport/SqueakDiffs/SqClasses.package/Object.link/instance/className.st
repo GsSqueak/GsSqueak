@@ -1,4 +1,4 @@
-*SqClasses-system primitives
+system primitives
 className
 	"Answer a string characterizing the receiver's class, for use in list views for example"
 

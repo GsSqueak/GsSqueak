@@ -1,4 +1,4 @@
-*SqClasses-fileIn/Out
+fileIn/Out
 fileOutSharedPoolsOn: aFileStream
 	"file out the shared pools of this class after prompting the user about each pool"
 	| poolsToFileOut |

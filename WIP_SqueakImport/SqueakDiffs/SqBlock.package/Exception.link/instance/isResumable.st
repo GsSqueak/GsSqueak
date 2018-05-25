@@ -1,4 +1,4 @@
-*SqExceptions-priv handling
+priv handling
 isResumable
 	"Determine whether an exception is resumable."
 

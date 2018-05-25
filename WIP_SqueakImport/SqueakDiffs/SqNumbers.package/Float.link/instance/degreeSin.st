@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 degreeSin
 	"Take care of exceptional values"
 	

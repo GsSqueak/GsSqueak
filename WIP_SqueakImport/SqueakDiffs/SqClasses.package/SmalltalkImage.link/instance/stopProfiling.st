@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm profiling
+vm profiling
 stopProfiling
 	"Stop profiling the virtual machine."
 

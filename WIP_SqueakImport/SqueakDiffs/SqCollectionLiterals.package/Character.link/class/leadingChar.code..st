@@ -1,4 +1,4 @@
-*SqCharacter-instance creation
+instance creation
 leadingChar: leadChar code: code
 
 	code >= 16r400000 ifTrue: [

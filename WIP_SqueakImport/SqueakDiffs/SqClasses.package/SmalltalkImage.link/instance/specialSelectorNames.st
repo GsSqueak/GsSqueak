@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-special objects
+special objects
 specialSelectorNames
 	"Return a collection with the names of the special selectors."
 	

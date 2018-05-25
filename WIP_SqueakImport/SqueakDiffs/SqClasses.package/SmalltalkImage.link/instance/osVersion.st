@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-os
+os
 osVersion
 	"Return the version number string of the platform we're running on"
 	

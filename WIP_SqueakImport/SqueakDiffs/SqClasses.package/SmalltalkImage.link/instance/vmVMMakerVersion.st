@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-system attributes
+system attributes
 vmVMMakerVersion	
 	"Answer the version number of the VMMaker package from which the main VM was compiled."
 	"Smalltalk vmVMMakerVersion"

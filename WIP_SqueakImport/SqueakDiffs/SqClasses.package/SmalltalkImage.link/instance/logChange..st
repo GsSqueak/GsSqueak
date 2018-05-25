@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 logChange: aStringOrText 
 	"Write the argument, aString, onto the changes file."
 	| aString changesFile |

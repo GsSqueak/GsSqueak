@@ -1,4 +1,4 @@
-*SqClasses-debugging-haltOnce
+debugging-haltOnce
 doExpiredHaltCount
 	self clearHaltOnce.
 	self removeHaltCount.

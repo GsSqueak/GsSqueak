@@ -1,4 +1,4 @@
-*SqClasses-queries
+queries
 whichSuperclassSatisfies: aBlock 
 	(aBlock value: self) ifTrue: [^self].
 	^ self superclass isNil 

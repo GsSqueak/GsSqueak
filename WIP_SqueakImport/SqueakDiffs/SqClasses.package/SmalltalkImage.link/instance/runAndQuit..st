@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-command line
+command line
 runAndQuit: aBlock 
 	self
 		run: aBlock

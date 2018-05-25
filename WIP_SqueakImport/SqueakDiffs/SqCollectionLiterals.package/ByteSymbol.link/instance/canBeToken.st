@@ -1,4 +1,4 @@
-*SqCollectionLiterals-testing
+testing
 canBeToken
 	"Optimized version for the common case."
 	

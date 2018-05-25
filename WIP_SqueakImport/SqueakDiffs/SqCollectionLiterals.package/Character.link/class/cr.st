@@ -1,4 +1,4 @@
-*SqCharacter-accessing untypeable characters
+accessing untypeable characters
 cr
 	"Answer the Character representing a carriage return."
 

@@ -1,4 +1,4 @@
-*SqClasses-error handling
+error handling
 error: aString 
 	"Throw a generic Error exception."
 

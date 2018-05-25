@@ -1,4 +1,4 @@
-*SqNumbers-constants
+constants
 epsilon
 	"Answer difference between 1.0 and previous representable value"
 	

@@ -1,4 +1,4 @@
-*SqCharacter-converting
+converting
 macToSqueak
 	"Convert the receiver from MacRoman to Squeak encoding"
 	| asciiValue |

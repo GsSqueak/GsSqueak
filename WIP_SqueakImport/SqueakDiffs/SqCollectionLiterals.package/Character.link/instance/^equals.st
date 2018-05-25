@@ -1,4 +1,4 @@
-*SqCharacter-comparing
+comparing
 = aCharacter 
 	"Primitive. Answer if the receiver and the argument are the
 	 same object (have the same object pointer). Optional. See

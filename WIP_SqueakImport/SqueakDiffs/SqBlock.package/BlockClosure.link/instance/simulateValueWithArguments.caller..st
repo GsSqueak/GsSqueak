@@ -1,4 +1,4 @@
-*SqKernel-system simulation
+system simulation
 simulateValueWithArguments: anArray caller: aContext
 	"Simulate the valueWithArguments: primitive. Fail if anArray is not an array of the right arity."
 	| newContext sz |

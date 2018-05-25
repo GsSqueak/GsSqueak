@@ -1,4 +1,4 @@
-*SqClasses-copying
+copying
 copyFrom: anotherObject
 	"Copy to myself all instance variables I have in common with anotherObject.  This is dangerous because it ignores an object's control over its own inst vars.  "
 

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-miscellaneous
+miscellaneous
 logError: errMsg inContext: aContext to: aFilename
 	"Log the error message and a stack trace to the given file."
 

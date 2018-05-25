@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-printing
+printing
 printOn: aStream
 	self shouldBePrintedAsLiteral ifFalse:
 		[super printOn: aStream.

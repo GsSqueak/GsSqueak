@@ -1,4 +1,4 @@
-*SqClasses-dependents access
+dependents access
 canDiscardEdits
 	"Answer true if none of the views on this model has unaccepted edits that matter."
 

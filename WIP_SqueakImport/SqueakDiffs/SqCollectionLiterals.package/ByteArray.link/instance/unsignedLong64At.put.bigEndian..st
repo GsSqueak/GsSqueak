@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-platform independent access
+platform independent access
 unsignedLong64At: index put: value bigEndian: bigEndian
 	"Store a 64-bit unsigned integer quantity starting from the given byte index"
 	

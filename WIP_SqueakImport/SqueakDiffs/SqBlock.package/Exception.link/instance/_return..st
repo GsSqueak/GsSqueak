@@ -1,4 +1,4 @@
-*SqBlock-handling
+handling
 _return: returnValue
  "When sent within an ANSI handler's handlerBlock,
   resume execution by returning returnValue from the #on:do: send 

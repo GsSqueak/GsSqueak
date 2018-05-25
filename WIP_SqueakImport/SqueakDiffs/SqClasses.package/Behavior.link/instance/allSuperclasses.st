@@ -1,4 +1,4 @@
-*SqClasses-accessing class hierarchy
+accessing class hierarchy
 allSuperclasses
 	"Answer an OrderedCollection of the receiver's and the receiver's  
 	ancestor's superclasses. The first element is the receiver's immediate  

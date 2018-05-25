@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 installLowSpaceWatcher
 	"Start a process to watch for low-space conditions."
 	"Smalltalk installLowSpaceWatcher"

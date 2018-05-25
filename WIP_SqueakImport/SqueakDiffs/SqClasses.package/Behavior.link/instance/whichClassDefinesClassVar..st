@@ -1,4 +1,4 @@
-*SqClasses-queries
+queries
 whichClassDefinesClassVar: aString 
 	Symbol hasInterned: aString ifTrue: [ :aSymbol |
 		^self whichSuperclassSatisfies: 

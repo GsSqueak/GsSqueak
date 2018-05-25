@@ -1,4 +1,4 @@
-*SqClasses-tracing
+tracing
 inboundPointersExcluding: objectsToExclude
 	"Answer a list of all objects in the system that hold a reference to me, excluding those in the collection of objectsToExclude."
 

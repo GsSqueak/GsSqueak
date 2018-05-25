@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 standardMethodHeaderFor: aSelector
 	| args |
 	args := (1 to: aSelector numArgs)	collect:[:i| 'arg', i printString].

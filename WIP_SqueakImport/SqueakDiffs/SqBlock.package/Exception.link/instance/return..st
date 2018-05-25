@@ -1,4 +1,4 @@
-*SqBlock-handling
+handling
 return: returnValue
 
 "When sent within an ANSI handler's handlerBlock,

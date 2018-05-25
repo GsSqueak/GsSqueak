@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-housekeeping
+housekeeping
 cleanUp: aggressive except: exclusions 
 	"Clean up. When aggressive is true, this will destroy projects, change sets, etc.
 	Leave out any classes specifically listed in exclusions."

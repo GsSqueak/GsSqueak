@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 tan
 	"Answer the tangent of the receiver taken as an angle in radians."
 

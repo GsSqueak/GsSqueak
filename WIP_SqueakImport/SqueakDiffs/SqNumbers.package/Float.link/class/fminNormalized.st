@@ -1,4 +1,4 @@
-*SqNumbers-constants
+constants
 fminNormalized
 	"Answer the minimum normalized value representable."
 	

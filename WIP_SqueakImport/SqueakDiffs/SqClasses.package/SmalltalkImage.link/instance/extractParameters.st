@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-command line
+command line
 extractParameters
 self deprecated: 'Use #namedArguments'.
 	^ self namedArguments

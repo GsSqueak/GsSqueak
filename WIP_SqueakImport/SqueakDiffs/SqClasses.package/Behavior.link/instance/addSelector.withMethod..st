@@ -1,3 +1,3 @@
-*SqClasses-adding/removing methods
+adding/removing methods
 addSelector: selector withMethod: compiledMethod 
 	^ self addSelector: selector withMethod: compiledMethod notifying: nil

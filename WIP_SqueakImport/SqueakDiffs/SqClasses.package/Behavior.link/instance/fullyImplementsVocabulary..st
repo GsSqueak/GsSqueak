@@ -1,4 +1,4 @@
-*SqClasses-testing method dictionary
+testing method dictionary
 fullyImplementsVocabulary: aVocabulary
 	"Answer whether instances of the receiver respond to all the messages in aVocabulary"
 

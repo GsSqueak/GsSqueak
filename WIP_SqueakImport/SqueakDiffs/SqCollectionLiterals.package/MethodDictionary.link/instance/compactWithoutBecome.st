@@ -1,4 +1,4 @@
-*SqCollections-private
+private
 compactWithoutBecome
 	"Return a copy of self which has the highest possible load factor (between 37.5% and 75%)."
 	^ self shouldNotBeImplemented

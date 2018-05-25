@@ -1,4 +1,4 @@
-*SqKernel-evaluating
+evaluating
 valueWithPossibleArgs: anArray 
 
 	^self numArgs = 0

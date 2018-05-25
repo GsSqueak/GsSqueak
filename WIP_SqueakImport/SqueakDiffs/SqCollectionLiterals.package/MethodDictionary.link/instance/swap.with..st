@@ -1,4 +1,4 @@
-*SqCollections-private
+private
 swap: oneIndex with: otherIndex
 	^ self shouldNotBeImplemented
 	"| element |

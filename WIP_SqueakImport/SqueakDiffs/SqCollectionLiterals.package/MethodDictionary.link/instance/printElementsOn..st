@@ -1,4 +1,4 @@
-*SqCollections-printing
+printing
 printElementsOn: aStream 
 	aStream nextPut: $(.
 	self size > 100

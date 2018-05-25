@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-comparing
+comparing
 literalEqual: other
 
 	self class == other class ifFalse: [^ false].

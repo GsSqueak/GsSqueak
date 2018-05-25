@@ -1,4 +1,4 @@
-*SqCollections-removing
+removing
 removeKey: key ifAbsent: errorBlock 
 	"The interpreter might be using this MethodDict while
 	this method is running!  Therefore we perform the removal

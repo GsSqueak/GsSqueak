@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-classes and traits
+classes and traits
 forgetClass: aClass logged: aBool 
 	"Delete the class, aClass, from the system."
 

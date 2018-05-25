@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 timesTwoPower: anInteger 
 	"Answer with the receiver multiplied by 2.0 raised
 	to the power of the argument"

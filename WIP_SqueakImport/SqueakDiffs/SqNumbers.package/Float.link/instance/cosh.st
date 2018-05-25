@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 cosh
 	"Answer receivers hyperbolic cosine."
 	

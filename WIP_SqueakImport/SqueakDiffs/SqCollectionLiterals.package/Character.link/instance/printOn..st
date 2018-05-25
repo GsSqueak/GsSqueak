@@ -1,4 +1,4 @@
-*SqCharacter-printing
+printing
 printOn: aStream
 	| integerValue |
 	((integerValue := self asInteger) > 32 and: [integerValue ~= 127]) ifTrue:

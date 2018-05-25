@@ -1,4 +1,4 @@
-*SqNumbers-constants
+constants
 emin
 	"Answer exponent of minimal normalized representable value"
 	

@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-special objects
+special objects
 primitiveErrorTable
 	"Smalltalk primitiveErrorTable"
 	^self specialObjectsArray at: 52

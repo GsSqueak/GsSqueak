@@ -1,4 +1,4 @@
-*SqClasses-accessing instances and variables
+accessing instances and variables
 sharedPools
 	"Answer a Set of the names of the pools (Dictionaries) that the receiver 
 	shares.

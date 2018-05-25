@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm parameters
+vm parameters
 vmParameterAt: parameterIndex put: newValue
 	"parameterIndex is a positive integer corresponding to one of the VM's internal
 	parameter/metric registers.  Store newValue (a positive integer) into that

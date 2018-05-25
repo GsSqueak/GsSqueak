@@ -1,4 +1,4 @@
-*SqCharacter-accessing untypeable characters
+accessing untypeable characters
 lf
 	"Answer the Character representing a linefeed."
 

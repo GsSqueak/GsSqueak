@@ -1,4 +1,4 @@
-*SqNumbers-comparing
+comparing
 = comparand 
 	"Implementation of Number 'comparing' method."
 	comparand isNumber ifFalse: [^ false].

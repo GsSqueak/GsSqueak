@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 squared
 	"Reimplementation - Number 'mathematical functions' method."
 	"not used ->"

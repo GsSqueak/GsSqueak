@@ -1,3 +1,3 @@
-*SqBooleans-printing
+printing
 isLiteral 
 	^ true

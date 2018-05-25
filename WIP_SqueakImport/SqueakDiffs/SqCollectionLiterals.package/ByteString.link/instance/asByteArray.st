@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-converting
+converting
 asByteArray
 	| ba sz |
 	sz := self byteSize.

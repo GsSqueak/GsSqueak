@@ -1,4 +1,4 @@
-*SqCharacter-object fileIn
+object fileIn
 storeDataOn: aDataStream
 	" Store characters in reference-like way, with value like instvar.
 	This is compatible with various Squeak Memory Systems"

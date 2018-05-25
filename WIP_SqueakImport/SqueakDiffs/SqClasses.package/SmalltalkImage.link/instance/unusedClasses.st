@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-shrinking
+shrinking
 unusedClasses
 	"Enumerates all classes in the system and returns a list of those that are 
 	apparently unused. A class is considered in use if it (a) has subclasses 

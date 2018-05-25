@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-housekeeping
+housekeeping
 compressSources	
 	"Copy all the source file to a compressed file. Usually preceded by Smalltalk condenseSources."
 	"The new file will be created in the default directory, and the code in openSources

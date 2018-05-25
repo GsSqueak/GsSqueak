@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-modules
+modules
 listBuiltinModules
 	"Smalltalk listBuiltinModules"
 	"Return a list of all builtin modules (e.g., plugins). Builtin plugins are those that are 	compiled with the VM directly, as opposed to plugins residing in an external shared library. 	The list will include all builtin plugins regardless of whether they are currently loaded 

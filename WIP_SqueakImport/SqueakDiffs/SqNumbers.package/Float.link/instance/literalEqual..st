@@ -1,4 +1,4 @@
-*SqNumbers-comparing
+comparing
 literalEqual: aFloat
 	"Two float literals can be replaced by a single one only if their representation have the same bits.
 	For example, zero and negativeZero are equal, but not literally equal."

@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-arithmetic
+arithmetic
 preMultiplyByMatrix: m
 	"Answer m+*self where m is a Matrix."
 	m columnCount = self size ifFalse: [self error: 'dimensions do not conform'].

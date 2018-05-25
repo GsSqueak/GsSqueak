@@ -1,3 +1,3 @@
-*SqClasses-filter streaming
+filter streaming
 fullDrawPostscriptOn:aStream
 	^aStream fullDraw:self.

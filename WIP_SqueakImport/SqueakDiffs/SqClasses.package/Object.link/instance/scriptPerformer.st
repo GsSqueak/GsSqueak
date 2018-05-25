@@ -1,4 +1,4 @@
-*SqClasses-macpal
+macpal
 scriptPerformer
 
 	^ self

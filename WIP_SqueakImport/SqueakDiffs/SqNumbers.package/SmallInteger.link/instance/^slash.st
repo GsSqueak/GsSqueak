@@ -1,4 +1,4 @@
-*SqNumbers-arithmetic
+arithmetic
 / anInteger
 
 <primitive: 10>

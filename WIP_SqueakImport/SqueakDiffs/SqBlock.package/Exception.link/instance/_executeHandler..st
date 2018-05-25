@@ -1,4 +1,4 @@
-*SqBlock-signaling
+signaling
 _executeHandler: aBlock
 
   "Execute aBlock , which was the second arg of an #on:do: ,

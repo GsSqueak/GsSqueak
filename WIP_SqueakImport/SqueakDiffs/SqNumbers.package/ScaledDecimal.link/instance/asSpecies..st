@@ -1,4 +1,4 @@
-*SqNumbers-converting
+converting
 asSpecies: number 
 	"Convert number to a ScaledDecimal."
 	#Numeric.

@@ -1,4 +1,4 @@
-*SqClasses-accessing
+accessing
 at: index put: value 
 	"Primitive. Assumes receiver is indexable. Store the argument value in 
 	the indexable element of the receiver indicated by index. Fail if the 

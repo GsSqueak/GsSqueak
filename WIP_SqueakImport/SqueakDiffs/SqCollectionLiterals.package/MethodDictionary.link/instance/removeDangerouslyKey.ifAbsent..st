@@ -1,4 +1,4 @@
-*SqCollections-private
+private
 removeDangerouslyKey: key ifAbsent: aBlock
 	"This is not really dangerous.  But if normal removal
 	were done WHILE a MethodDict were being used, the

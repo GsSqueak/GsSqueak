@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 setGCBiasToGrowGCLimit: aNumber
 	"Primitive. Indicate that the bias to grow logic should do a GC after aNumber Bytes"
 	

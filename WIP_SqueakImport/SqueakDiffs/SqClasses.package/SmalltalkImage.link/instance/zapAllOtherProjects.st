@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-shrinking
+shrinking
 zapAllOtherProjects 
 	"Smalltalk zapAllOtherProjects"
 

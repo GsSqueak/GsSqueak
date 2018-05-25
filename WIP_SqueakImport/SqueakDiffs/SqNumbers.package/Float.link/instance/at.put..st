@@ -1,4 +1,4 @@
-*SqNumbers-accessing
+accessing
 at: index put: value 
 	"Avoid primitive in Object>>at:put:"
 

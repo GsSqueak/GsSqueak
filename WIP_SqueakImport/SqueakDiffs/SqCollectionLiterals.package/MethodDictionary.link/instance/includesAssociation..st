@@ -1,4 +1,4 @@
-*SqCollections-testing
+testing
 includesAssociation: anAssociation
   ^ (self   
       associationAt: anAssociation key

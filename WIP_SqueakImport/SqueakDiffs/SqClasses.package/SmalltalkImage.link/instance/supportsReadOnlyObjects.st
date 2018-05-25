@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-system attributes
+system attributes
 supportsReadOnlyObjects
 	"Answer whether the VM observes the per-object read-only flag and consequently aborts
 	 writes to inst vars of, and fails primitives that attempt to modify, read-only objects."

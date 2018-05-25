@@ -1,4 +1,4 @@
-*SqClasses-initialize-release
+initialize-release
 instanceVariableNames: instVarString 
 	"Declare additional named variables for my instance."
 	^(ClassBuilder new)

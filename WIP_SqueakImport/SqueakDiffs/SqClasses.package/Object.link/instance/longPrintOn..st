@@ -1,4 +1,4 @@
-*SqClasses-printing
+printing
 longPrintOn: aStream
 	"Append to the argument, aStream, the names and values of all 
 	of the receiver's instance variables."

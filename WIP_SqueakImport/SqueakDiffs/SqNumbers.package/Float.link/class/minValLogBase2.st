@@ -1,3 +1,3 @@
-*SqNumbers-constants
+constants
 minValLogBase2
 	^ -1074

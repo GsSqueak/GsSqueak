@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-classes and traits
+classes and traits
 classOrTraitNamed: aString
 	"Answer the global with the given name"
 

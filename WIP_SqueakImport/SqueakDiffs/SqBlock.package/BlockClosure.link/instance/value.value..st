@@ -1,4 +1,4 @@
-*SqKernel-evaluating
+evaluating
 value: firstObject value: secondObject
   "Return the value of the receiver evaluated with the two objects as its
  arguments.  If the block expects a different number of arguments, an error is

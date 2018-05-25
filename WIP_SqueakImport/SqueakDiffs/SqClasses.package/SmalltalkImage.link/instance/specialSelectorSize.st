@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-special objects
+special objects
 specialSelectorSize
 	"Answer the number of special selectors in the system."
 

@@ -1,4 +1,4 @@
-*SqClasses-testing
+testing
 isObsolete
 	"Return true if the receiver is obsolete"
 	^destClass == nil "Either no destClass"

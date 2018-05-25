@@ -1,4 +1,4 @@
-*SqClasses-accessing class hierarchy
+accessing class hierarchy
 superclass: aClass 
 	"Change the receiver's superclass to be aClass."
 	"Note: Do not use 'aClass isKindOf: Behavior' here

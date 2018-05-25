@@ -1,4 +1,4 @@
-*SqNumbers-comparing
+comparing
 closeTo: num
  	"are these two numbers close?"
 	num isNumber ifFalse: [^[self = num] ifError: [false]].

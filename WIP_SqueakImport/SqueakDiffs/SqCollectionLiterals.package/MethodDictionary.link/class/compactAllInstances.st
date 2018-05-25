@@ -1,4 +1,4 @@
-*SqCollections-initialize-release
+initialize-release
 compactAllInstances
 	^ self shouldNotBeImplemented
 	"| instancesToExchange newInstances |

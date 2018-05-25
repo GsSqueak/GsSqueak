@@ -1,4 +1,4 @@
-*SqClasses-class hierarchy
+class hierarchy
 subclass: nameOfClass  
 	instanceVariableNames: instVarNames
 	classVariableNames: classVarNames

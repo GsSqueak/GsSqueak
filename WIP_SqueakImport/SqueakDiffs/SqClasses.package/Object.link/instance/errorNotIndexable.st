@@ -1,4 +1,4 @@
-*SqClasses-private
+private
 errorNotIndexable
 	"Create an error notification that the receiver is not indexable."
 

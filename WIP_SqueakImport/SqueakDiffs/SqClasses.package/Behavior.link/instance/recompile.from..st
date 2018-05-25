@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 recompile: selector from: oldClass
 	"Compile the method associated with selector in the receiver's method dictionary."
 	"ar 7/10/1999: Use oldClass compiledMethodAt: not self compiledMethodAt:"

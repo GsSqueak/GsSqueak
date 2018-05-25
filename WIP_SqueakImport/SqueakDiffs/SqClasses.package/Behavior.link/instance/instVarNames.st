@@ -1,4 +1,4 @@
-*SqClasses-accessing instances and variables
+accessing instances and variables
 instVarNames
 	"Answer an Array of the instance variable names. Behaviors must make 
 	up fake local instance variable names because Behaviors have instance 

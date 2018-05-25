@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-classes and traits
+classes and traits
 hasClassNamed: aString
 	"Answer whether there is a class of the given name"
 

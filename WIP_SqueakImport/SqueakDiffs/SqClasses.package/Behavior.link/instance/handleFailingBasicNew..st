@@ -1,4 +1,4 @@
-*SqClasses-private
+private
 handleFailingBasicNew: sizeRequested
 	"handleFailingBasicNew: gets sent after basicNew: has failed and allowed
 	 a scavenging garbage collection to occur.  The scavenging collection

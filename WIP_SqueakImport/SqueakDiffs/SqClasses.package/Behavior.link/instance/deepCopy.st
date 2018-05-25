@@ -1,4 +1,4 @@
-*SqClasses-copying
+copying
 deepCopy
 	"Behavior are shared rather than copied."
 

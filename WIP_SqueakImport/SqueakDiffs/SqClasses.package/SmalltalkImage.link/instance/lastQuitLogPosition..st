@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 lastQuitLogPosition: aNumber
 	"should be only use to ensure the transition from SystemDictionary to SmalltalkImage, then  	be removed"
 		

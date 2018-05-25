@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 saveAsEmbeddedImage
 	"Save the current state of the system as an embedded image"
 

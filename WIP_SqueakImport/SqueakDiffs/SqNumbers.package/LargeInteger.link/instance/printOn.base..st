@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 printOn: aStream base: b
 	"Append a representation of this number in base b on aStream.
 	In order to reduce cost of LargePositiveInteger ops, split the number in approximately two equal parts in number of digits."

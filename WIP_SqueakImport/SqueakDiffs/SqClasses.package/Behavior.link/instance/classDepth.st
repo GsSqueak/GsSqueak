@@ -1,4 +1,4 @@
-*SqClasses-accessing
+accessing
 classDepth
 
 	self superclass ifNil: [^ 1].

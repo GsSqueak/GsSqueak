@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 recompileNonResidentMethod: method atSelector: selector from: oldClass
 	"Recompile the method supplied in the context of this class."
 

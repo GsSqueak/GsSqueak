@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 lowSpaceWatcher
 	"Wait until the low space semaphore is signalled, then take appropriate actions."
 

@@ -1,4 +1,4 @@
-*SqKernel-initialize-release
+initialize-release
 outerContext: aContext startpc: aStartpc numArgs: argCount copiedValues: anArrayOrNil
 	outerContext := aContext.
 	startpc := aStartpc.

@@ -1,4 +1,4 @@
-*SqClasses-accessing class hierarchy
+accessing class hierarchy
 withAllSuperclasses
 	"Answer an OrderedCollection of the receiver and the receiver's 
 	superclasses. The first element is the receiver, 

@@ -1,4 +1,4 @@
-*SqBlock-evaluating
+evaluating
 onException: anException do: handlerBlock
   "An optimized form of on:do: .  anException may not be any
   object which responds to  handles: 

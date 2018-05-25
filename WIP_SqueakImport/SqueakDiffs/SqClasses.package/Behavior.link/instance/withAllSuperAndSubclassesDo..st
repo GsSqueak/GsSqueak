@@ -1,4 +1,4 @@
-*SqClasses-enumerating
+enumerating
 withAllSuperAndSubclassesDo: aBlock
 	self allSuperclassesDo: aBlock.
 	aBlock value: self.

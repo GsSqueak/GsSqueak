@@ -1,4 +1,4 @@
-*SqCharacter-object fileIn
+object fileIn
 objectForDataStream: refStrm
 	"I am being collected for inclusion in a segment.  Do not include Characters!  Let them be in outPointers."
 

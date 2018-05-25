@@ -1,4 +1,4 @@
-*SqKernel-comparing
+comparing
 = aClosure
 	self == aClosure ifTrue: [^true].
 	aClosure class = self class ifFalse: [^false].

@@ -1,4 +1,4 @@
-*SqKernel-private
+private
 asContextWithSender: aContext
 	"Inner private support method for evaluation.  Do not use unless you know what you're doing."
 

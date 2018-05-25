@@ -1,4 +1,4 @@
-*SqClasses-instance creation
+instance creation
 basicNew
 	"Primitive. Answer an instance of the receiver (which is a class) with no 
 	 indexable variables. Fail if the class is indexable. Essential. See Object 

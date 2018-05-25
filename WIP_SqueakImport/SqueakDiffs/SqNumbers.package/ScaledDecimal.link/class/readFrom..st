@@ -1,4 +1,4 @@
-*SqNumbers-instance creation
+instance creation
 readFrom: stringOrStream 
 	"Answer a decimal number as described on stringOrStream.
 	The number may not include a leading radix specification, as in 16rFADE,

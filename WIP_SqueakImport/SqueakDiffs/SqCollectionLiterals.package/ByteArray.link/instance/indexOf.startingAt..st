@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqByteArray-accessing
+accessing
 indexOf: anInteger startingAt: start
 
 	anInteger isInteger ifFalse: [ ^0 ].

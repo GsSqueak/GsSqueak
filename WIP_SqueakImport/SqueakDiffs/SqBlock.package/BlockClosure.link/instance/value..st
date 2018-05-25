@@ -1,4 +1,4 @@
-*SqKernel-evaluating
+evaluating
 value: anObject
   "Return the value of the receiver evaluated with anObject as its argument.  If
  the block expects a different number of arguments, an error is generated.

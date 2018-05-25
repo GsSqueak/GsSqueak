@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-housekeeping
+housekeeping
 condenseSources
 	"Move all the changes onto a compacted sources file."
 	"Smalltalk condenseSources"

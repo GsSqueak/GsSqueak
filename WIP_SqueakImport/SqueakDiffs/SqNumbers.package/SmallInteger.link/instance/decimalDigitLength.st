@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 decimalDigitLength
 	"Answer the number of digits printed out in base 10.
 	 Note that this only works for positive SmallIntegers up to 63-bits."

@@ -1,4 +1,4 @@
-*SqClasses-class initialization
+class initialization
 initialize
 	"Behavior initialize"
 	"Never called for real"

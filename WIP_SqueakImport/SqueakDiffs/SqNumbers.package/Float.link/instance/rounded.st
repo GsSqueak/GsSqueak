@@ -1,4 +1,4 @@
-*SqNumbers-truncation and round off
+truncation and round off
 rounded
 	"Answer the integer nearest the receiver.
 	Implementation note: super would not handle tricky inexact arithmetic"

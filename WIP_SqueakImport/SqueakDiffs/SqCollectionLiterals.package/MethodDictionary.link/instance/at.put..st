@@ -1,4 +1,4 @@
-*SqCollections-accessing
+accessing
 at: key put: value
 	"Set the value at key to be value."
 	

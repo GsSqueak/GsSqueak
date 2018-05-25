@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-converting
+converting
 evalStrings
 	   "Allows you to construct literal arrays.
     #(true false nil '5@6' 'Set new' '''text string''') evalStrings

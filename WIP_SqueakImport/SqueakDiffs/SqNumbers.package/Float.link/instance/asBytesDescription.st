@@ -1,3 +1,3 @@
-*SqNumbers-printing
+printing
 asBytesDescription
 	^ self asInteger asBytesDescription

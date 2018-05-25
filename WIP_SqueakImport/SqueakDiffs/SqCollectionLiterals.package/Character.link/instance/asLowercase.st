@@ -1,3 +1,3 @@
-*SqCharacter-converting
+converting
 asLowercase
 	^ self _env0 asLowercase

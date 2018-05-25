@@ -1,4 +1,4 @@
-*SqKernel-scanning
+scanning
 blockCreationPC
 	"Answer the pc for the bytecode that created the receuver."
 	| method |

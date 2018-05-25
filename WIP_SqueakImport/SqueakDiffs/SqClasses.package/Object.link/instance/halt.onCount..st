@@ -1,4 +1,4 @@
-*SqClasses-debugging-haltOnce
+debugging-haltOnce
 halt: aString onCount: int 
 	self haltOnceEnabled
 		ifTrue: [self hasHaltCount

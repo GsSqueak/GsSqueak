@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-image
+image
 version
 	"Answer the version of this release."
 

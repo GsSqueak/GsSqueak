@@ -1,4 +1,4 @@
-*SqClasses-accessing class hierarchy
+accessing class hierarchy
 subclasses
 	"slow implementation since Behavior does not keep trace of subclasses"
 	

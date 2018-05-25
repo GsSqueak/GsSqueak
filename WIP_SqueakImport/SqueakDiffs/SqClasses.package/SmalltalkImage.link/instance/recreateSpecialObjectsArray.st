@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-special objects
+special objects
 recreateSpecialObjectsArray
 	"Smalltalk recreateSpecialObjectsArray"
 	

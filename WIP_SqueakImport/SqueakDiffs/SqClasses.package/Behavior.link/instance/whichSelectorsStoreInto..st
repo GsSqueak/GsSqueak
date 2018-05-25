@@ -1,4 +1,4 @@
-*SqClasses-testing method dictionary
+testing method dictionary
 whichSelectorsStoreInto: instVarName 
 	"Answer a collection of selectors whose methods access the argument, instVarName, as a named instance variable."
 	

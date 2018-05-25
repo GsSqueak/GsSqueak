@@ -1,4 +1,4 @@
-*SqCharacter-constants
+constants
 alphabet
 	"($a to: $z) as: String"
 

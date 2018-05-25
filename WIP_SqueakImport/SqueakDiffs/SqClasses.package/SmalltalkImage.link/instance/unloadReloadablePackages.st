@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-shrinking
+shrinking
 unloadReloadablePackages
 	"Unload packages which can be reloaded."
 

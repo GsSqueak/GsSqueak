@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 variablesAndOffsetsDo: aBinaryBlock
 	"This is the interface between the compiler and a class's instance or field names.  The
 	 class should enumerate aBinaryBlock with the field definitions (with nil offsets) followed

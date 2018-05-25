@@ -1,3 +1,3 @@
-*SqClasses-compiling
+compiling
 defaultMethodTrailer
 	^ CompiledMethodTrailer empty

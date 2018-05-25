@@ -1,4 +1,4 @@
-*SqBooleans-controlling
+controlling
 ifTrue: trueAlternativeBlock ifFalse: falseAlternativeBlock
 	"If the receiver is true (i.e., the condition is true), then answer the value 
 	of the argument trueAlternativeBlock. If the receiver is false, answer the 

@@ -1,4 +1,4 @@
-*SqClasses-accessing
+accessing
 name
 	"Answer the name of the receiver."
 	self == ByteString ifTrue: [^ #'ByteString'].

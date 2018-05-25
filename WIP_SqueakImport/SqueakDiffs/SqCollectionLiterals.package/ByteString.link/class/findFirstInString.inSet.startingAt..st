@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-primitives
+primitives
 findFirstInString: aString  inSet: inclusionMap  startingAt: start
 
 	| i stringSize |

@@ -1,4 +1,4 @@
-*SqCharacter-accessing untypeable characters
+accessing untypeable characters
 tab
 	"Answer the Character representing a tab."
 

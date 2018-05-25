@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 allowUnderscoreAssignments
 	"Return true if the receiver and its subclasses should be allowed to use underscore as assignment operator. Returning nil here means that the compiler should use the system-wide default preference. Also see #allowUnderscoreSelectors.
 

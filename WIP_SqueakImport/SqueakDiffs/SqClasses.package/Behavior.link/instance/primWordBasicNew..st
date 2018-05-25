@@ -1,4 +1,4 @@
-*SqClasses-private
+private
 primWordBasicNew: anInteger
 	"Primitive. Answer an instance of this class with the number of indexable
 	 variables specified by the argument, sizeRequested.  Fail if this class is not

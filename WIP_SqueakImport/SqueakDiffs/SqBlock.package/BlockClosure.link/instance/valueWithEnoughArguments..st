@@ -1,4 +1,4 @@
-*SqKernel-evaluating
+evaluating
 valueWithEnoughArguments: anArray
 	"call me with enough arguments from anArray"
 	| args |

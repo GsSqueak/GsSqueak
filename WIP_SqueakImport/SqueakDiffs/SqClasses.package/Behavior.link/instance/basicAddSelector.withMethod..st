@@ -1,4 +1,4 @@
-*SqClasses-adding/removing methods
+adding/removing methods
 basicAddSelector: selector withMethod: compiledMethod 
 	"Add the message selector with the corresponding compiled method to the 
 	receiver's method dictionary.

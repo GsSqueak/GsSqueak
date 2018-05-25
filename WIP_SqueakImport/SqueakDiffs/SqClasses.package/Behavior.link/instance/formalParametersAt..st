@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 formalParametersAt: aSelector
 	"Return the names of the arguments used in this method."
 

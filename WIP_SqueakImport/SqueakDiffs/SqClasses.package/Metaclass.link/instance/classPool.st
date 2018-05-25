@@ -1,4 +1,4 @@
-*SqClasses-pool variables
+pool variables
 classPool
 	"Answer the dictionary of class variables."
 

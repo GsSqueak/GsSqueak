@@ -1,4 +1,4 @@
-*SqClasses-error handling
+error handling
 deprecated
 	"Warn that the sending method has been deprecated."
 

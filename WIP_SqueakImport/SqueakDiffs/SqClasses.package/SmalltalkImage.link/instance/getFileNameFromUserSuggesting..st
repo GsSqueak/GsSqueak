@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+snapshot and quit
 getFileNameFromUserSuggesting: aName
 	"Ask the user for a new image name"
 	| newName |

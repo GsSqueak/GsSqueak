@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm profiling
+vm profiling
 profile: aBlock
 	"Make a virtual machine profile of the given block."
 	"Note: Profiling support is provided so that VM implementors

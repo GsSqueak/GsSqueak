@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-vm
+vm
 versionLabel
 	"Answer a string corresponding to the version of virtual machine. This
 	represents the version level of the Smalltalk source code (interpreter

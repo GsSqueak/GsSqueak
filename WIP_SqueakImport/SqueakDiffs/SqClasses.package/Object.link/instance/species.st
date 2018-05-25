@@ -1,4 +1,4 @@
-*SqClasses-private
+private
 species
 	"Answer the preferred class for reconstructing the receiver.  For example, 
 	collections create new collections whenever enumeration messages such as 

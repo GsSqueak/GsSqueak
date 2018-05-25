@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 arcTan: denominator
 	"Answer the angle in radians, taking care of 4 quadrants.
 	Implementation note: use signBit and sign: in order to catch cases of negativeZero"

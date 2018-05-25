@@ -1,4 +1,4 @@
-*SqBlock-exceptions
+exceptions
 ensure: aBlock
   "Evaluate the receiver.  
  Evaluate aBlock after evaluating the receiver,

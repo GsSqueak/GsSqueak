@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-shrinking
+shrinking
 unloadFonts	"Smalltalk unloadFonts"
 
 	"Unloads all fonts except the style specified initially."

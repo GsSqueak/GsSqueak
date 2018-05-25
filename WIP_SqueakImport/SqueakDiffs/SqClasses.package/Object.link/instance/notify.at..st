@@ -1,4 +1,4 @@
-*SqClasses-error handling
+error handling
 notify: aString at: location
 	"Create and schedule a Notifier with the argument as the message in 
 	order to request confirmation before a process can proceed. Subclasses can

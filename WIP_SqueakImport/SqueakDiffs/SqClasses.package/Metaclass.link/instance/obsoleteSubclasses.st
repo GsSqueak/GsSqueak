@@ -1,4 +1,4 @@
-*SqClasses-class hierarchy
+class hierarchy
 obsoleteSubclasses
 	"Answer the receiver's subclasses."
 	destClass == nil ifTrue:[^#()].

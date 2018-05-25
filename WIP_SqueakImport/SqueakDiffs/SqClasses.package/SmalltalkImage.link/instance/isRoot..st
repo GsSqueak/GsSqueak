@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-memory space
+memory space
 isRoot: oop
 	"Primitive. Answer whether the object is currently a root for youngSpace."
 	

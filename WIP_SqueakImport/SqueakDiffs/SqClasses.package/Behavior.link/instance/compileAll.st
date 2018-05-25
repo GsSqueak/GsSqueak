@@ -1,3 +1,3 @@
-*SqClasses-compiling
+compiling
 compileAll
 	^ self compileAllFrom: self

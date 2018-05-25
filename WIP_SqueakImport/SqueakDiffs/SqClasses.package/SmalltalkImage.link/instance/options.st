@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-command line
+command line
 options
 	"Answer an array with all the command line options."
 	"Smalltalk commandLine options"

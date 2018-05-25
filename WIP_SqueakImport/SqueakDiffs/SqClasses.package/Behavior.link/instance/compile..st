@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 compile: code 
 	"Compile the argument, code, as source code in the context of the 
 	receiver. Create an error notification if the code can not be compiled. 

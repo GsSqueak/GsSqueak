@@ -1,4 +1,4 @@
-*SqClasses-testing
+testing
 whichSelectorsStoreInto: varName 
 	"Answer a collection of selectors whose methods access the argument, varName, as a named class variable. Or let super try with a named instance variable."
 	| ref |

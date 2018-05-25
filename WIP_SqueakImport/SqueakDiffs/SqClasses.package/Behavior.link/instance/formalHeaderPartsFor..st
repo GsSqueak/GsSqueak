@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 "popeye" formalHeaderPartsFor: "olive oil" aSelector
 	"RELAX!  The warning you may have just seen about possibly having a bad source file does not apply here, because this method *intends* to have its source code start with a comment.
 	This method returns a collection giving the parts in the formal declaration for aSelector.  This parse is in support of schemes in which adjutant properties of a method can be declared via special comments secreted in the formal header

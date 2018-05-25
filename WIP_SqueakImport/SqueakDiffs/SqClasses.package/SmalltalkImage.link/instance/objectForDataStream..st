@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-miscellaneous
+miscellaneous
 objectForDataStream: refStrm
 	| dp |
 	"I am about to be written on an object file.  Write a reference to Smalltalk instead."

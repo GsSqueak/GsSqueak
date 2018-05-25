@@ -1,4 +1,4 @@
-*SqNumbers-arithmetic
+arithmetic
 / operand 
 	"Implementation of Number 'arithmetic' method."
 	#ScalDec.

@@ -1,4 +1,4 @@
-*SqKernel-scheduling
+scheduling
 forkAndWait
 	"Suspend current process and execute self in new process, when it completes resume current process"
 

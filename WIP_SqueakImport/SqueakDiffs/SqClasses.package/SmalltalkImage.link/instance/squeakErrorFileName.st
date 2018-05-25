@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-miscellaneous
+miscellaneous
 squeakErrorFileName
 	"Answer the file name used to dump error reports"
 

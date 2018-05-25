@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-shrinking
+shrinking
 shrink
 	"Clean up everything we know how to clean up that can be restored."
 	"Prepare unloading"

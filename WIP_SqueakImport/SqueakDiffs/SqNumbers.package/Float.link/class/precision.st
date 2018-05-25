@@ -1,4 +1,4 @@
-*SqNumbers-constants
+constants
 precision
 	"Answer the apparent precision of the floating point representation.
 	That is the maximum number of radix-based digits (bits if radix=2) representable in floating point without round off error.

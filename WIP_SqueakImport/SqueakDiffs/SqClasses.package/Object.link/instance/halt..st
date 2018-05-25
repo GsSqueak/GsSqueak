@@ -1,4 +1,4 @@
-*SqClasses-error handling
+error handling
 halt: aString 
 	"This is the typical message to use for inserting breakpoints during 
 	debugging. It creates and schedules a Notifier with the argument, 

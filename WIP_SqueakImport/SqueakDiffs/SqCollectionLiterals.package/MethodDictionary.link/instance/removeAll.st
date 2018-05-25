@@ -1,4 +1,4 @@
-*SqCollections-removing
+removing
 removeAll
 	"Remove all elements from this collection. Preserve the capacity"
 	

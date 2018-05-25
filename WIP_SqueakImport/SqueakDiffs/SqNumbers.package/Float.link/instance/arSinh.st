@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 arSinh
 	"Answer receiver's area hyperbolic sine.
 	That is the inverse function of sinh."

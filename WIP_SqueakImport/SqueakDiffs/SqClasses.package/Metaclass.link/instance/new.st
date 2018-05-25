@@ -1,4 +1,4 @@
-*SqClasses-instance creation
+instance creation
 new
 	"The receiver can only have one instance. Create it or complain that
 	one already exists."

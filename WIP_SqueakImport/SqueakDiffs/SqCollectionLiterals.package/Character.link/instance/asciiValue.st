@@ -1,4 +1,4 @@
-*SqCharacter-accessing
+accessing
 asciiValue
 	"Answer the receiver's character code.
 	 This will be ascii for characters with value <= 127,

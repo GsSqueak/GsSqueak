@@ -1,4 +1,4 @@
-*SqKernel-evaluating
+evaluating
 valueSuppressingMessages: aListOfStrings
 
 	^ self

@@ -1,4 +1,4 @@
-*SqBooleans-controlling
+controlling
 or: block1 or: block2 or: block3
 	"Nonevaluating alternation without deep nesting.
 	The receiver is evaluated, followed by the blocks in order.

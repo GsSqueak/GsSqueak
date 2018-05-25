@@ -1,4 +1,4 @@
-*SqNumbers-copying
+copying
 veryDeepCopyWith: deepCopier
 	"Return self.  Do not record me."
 

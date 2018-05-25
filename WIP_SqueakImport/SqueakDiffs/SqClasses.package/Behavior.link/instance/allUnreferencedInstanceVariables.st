@@ -1,4 +1,4 @@
-*SqClasses-user interface
+user interface
 allUnreferencedInstanceVariables
 	"Return a list of the instance variables known to the receiver which are not referenced in the receiver or any of its subclasses OR superclasses"
 

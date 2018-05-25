@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 writeRecentCharacters: nCharacters toFileNamed: aFilename
 	"Schedule an editable text view on the last n characters of changes."
 	| changes |

@@ -1,4 +1,4 @@
-*CompiledMethod-accessing-pragma
+accessing-pragma
 argumentAt: anInteger
 	"Answer one of the arguments of the pragma."
 	

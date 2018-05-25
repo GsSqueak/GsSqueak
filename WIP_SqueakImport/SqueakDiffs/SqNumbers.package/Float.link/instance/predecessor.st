@@ -1,4 +1,4 @@
-*SqNumbers-truncation and round off
+truncation and round off
 predecessor
 	| ulp |
 	self isFinite ifFalse: [

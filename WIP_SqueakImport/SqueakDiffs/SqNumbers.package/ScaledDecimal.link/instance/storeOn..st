@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 storeOn: aStream 
 	"SxaledDecimal sometimes have more digits than they print (potentially an infinity).
 	In this case, do not use printOn: because it would loose some extra digits"

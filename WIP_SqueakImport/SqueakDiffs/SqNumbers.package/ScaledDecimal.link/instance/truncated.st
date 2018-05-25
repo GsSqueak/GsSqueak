@@ -1,4 +1,4 @@
-*SqNumbers-truncation and round off
+truncation and round off
 truncated
 	"Reimplementation of Number 'truncation and round off' method."
 	^ mantissa truncated

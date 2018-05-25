@@ -1,4 +1,4 @@
-*SqClasses-macpal
+macpal
 codeStrippedOut: messageString
 	"When a method is stripped out for external release, it is replaced by a method that calls this"
 

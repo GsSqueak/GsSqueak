@@ -1,4 +1,4 @@
-*SqClasses-error handling
+error handling
 halt
 	"This is the typical message to use for inserting breakpoints during 
 	debugging. It behaves like halt:, but does not call on halt: in order to 

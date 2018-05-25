@@ -1,4 +1,4 @@
-*SqCharacter-testing
+testing
 canBeGlobalVarInitial
   "Compatibility with Squeak, we always run in UTF8"
 

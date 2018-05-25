@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-system attributes
+system attributes
 flagInterpretedMethods: aBoolean
 	"The Cog VM can be instructed to set the flag bit of CompiledMethods that
 	 it executes but will only interpret.  This can be used e.g. to profile startup.

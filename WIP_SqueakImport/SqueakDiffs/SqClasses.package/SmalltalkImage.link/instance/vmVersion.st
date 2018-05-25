@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-system attributes
+system attributes
 vmVersion	
 	"Return a string identifying the interpreter version"
 	"Smalltalk vmVersion"

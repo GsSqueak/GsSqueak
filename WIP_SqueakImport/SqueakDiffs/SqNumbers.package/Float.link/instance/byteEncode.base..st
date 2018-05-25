@@ -1,4 +1,4 @@
-*SqNumbers-printing
+printing
 byteEncode: aStream base: base
 	"Handle sign, zero, and NaNs; all other values passed to absPrintOn:base:" 
 

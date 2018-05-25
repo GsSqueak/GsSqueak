@@ -1,4 +1,4 @@
-*SqClasses-snapshot and quit
+snapshot and quit
 isMorphic
 
     Project current ifNil: [

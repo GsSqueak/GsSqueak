@@ -1,4 +1,4 @@
-*SqNumbers-instance creation
+instance creation
 newFromNumber: aNumber scale: scaleIn 
 	"Answer a new instance of me."
 	| temp |

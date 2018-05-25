@@ -1,4 +1,4 @@
-*SqClasses-accessing class hierarchy
+accessing class hierarchy
 allSubclasses
 	"Answer a Collection of the receiver's and the receiver's descendent's subclasses. "
 

@@ -1,4 +1,4 @@
-*SqCollections-enumeration
+enumeration
 keysAndValuesDo: aBlock 
 	"Enumerate the receiver with all the keys and values passed to the block"
 	

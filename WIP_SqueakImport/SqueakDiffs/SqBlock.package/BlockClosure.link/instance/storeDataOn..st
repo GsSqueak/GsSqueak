@@ -1,4 +1,4 @@
-*SqKernel-objects from disk
+objects from disk
 storeDataOn: aDataStream
 	"Blocks are allowed go to out in DataStreams, but only without home senders."
 

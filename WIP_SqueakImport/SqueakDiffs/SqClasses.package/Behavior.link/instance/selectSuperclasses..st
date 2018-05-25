@@ -1,4 +1,4 @@
-*SqClasses-enumerating
+enumerating
 selectSuperclasses: aBlock 
 	"Evaluate the argument, aBlock, with the receiver's superclasses as the 
 	argument. Collect into an OrderedCollection only those superclasses for 

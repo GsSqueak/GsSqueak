@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quit
+snapshot and quit
 setGCParameters
 	"Adjust the VM's default GC parameters to avoid too much tenuring.
 	 Maybe this should be left to the VM?"

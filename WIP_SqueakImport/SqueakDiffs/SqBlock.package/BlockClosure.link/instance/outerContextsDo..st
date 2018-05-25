@@ -1,4 +1,4 @@
-*SqKernel-private
+private
 outerContextsDo: aBlock
 	"Evaluate aBlock with all the outer contexts along the receiver's static chain."
 	| outer |

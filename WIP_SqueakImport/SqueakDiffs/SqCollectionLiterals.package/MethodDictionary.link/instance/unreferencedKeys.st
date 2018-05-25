@@ -1,4 +1,4 @@
-*SqCollections-removing
+removing
 unreferencedKeys
 	"| uk | (Time millisecondsToRun: [uk := TextConstants unreferencedKeys]) -> uk"
 

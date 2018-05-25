@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-system attributes
+system attributes
 supportsQueueingFinalization
 	"Answer whether the VM queues individual weak arrays for finalization, instead
 	 of signalling the finalization semaphore once for all arrays and having the

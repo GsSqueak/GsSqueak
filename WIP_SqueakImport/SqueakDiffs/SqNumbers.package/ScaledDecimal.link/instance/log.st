@@ -1,4 +1,4 @@
-*SqNumbers-mathematical functions
+mathematical functions
 log
 	"Unlike super, avoid FLoat overflow/underflow"
 	

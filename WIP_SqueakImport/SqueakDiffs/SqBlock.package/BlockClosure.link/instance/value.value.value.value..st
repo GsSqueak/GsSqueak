@@ -1,4 +1,4 @@
-*SqKernel-evaluating
+evaluating
 value: first value: second value: third value: fourth
   "Return the value of the receiver evaluated with the four objects as
  its arguments.  If the block expects a different number of arguments,

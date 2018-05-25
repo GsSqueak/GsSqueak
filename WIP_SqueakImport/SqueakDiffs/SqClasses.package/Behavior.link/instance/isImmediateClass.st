@@ -1,4 +1,4 @@
-*SqClasses-testing
+testing
 isImmediateClass
 	"Answer whether the receiver has immediate instances.  Immediate instances
 	 store their value in their object pointer, not in an object body.  Hence immediates

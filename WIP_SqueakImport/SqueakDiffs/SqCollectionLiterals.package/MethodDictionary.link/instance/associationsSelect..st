@@ -1,4 +1,4 @@
-*SqCollections-enumerating
+enumerating
 associationsSelect: aBlock 
 	"Evaluate aBlock with each of my associations as the argument. Collect
 	into a new dictionary, only those associations for which aBlock evaluates

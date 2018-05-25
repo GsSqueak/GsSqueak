@@ -1,3 +1,3 @@
-*SqBooleans-instance creation
+instance creation
 initializedInstance
 	^ nil

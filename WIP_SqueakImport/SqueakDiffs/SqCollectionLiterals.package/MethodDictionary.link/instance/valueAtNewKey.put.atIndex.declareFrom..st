@@ -1,4 +1,4 @@
-*SqCollections-private
+private
 valueAtNewKey: aKey put: anObject atIndex: index declareFrom: aDictionary 
 	"Support for coordinating class variable and global declarations
 	with variables that have been put in Undeclared so as to

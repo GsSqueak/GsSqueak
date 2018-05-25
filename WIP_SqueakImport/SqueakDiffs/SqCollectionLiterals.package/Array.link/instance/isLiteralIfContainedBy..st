@@ -1,4 +1,4 @@
-*SqCollectionLiterals-*SqCollectionLiterals-*SqCollectionLiterals-*SqArray-testing
+testing
 isLiteralIfContainedBy: parents
 	" Answer whether the receiver has a literal text form recognized by the compiler. Precondition: the receiver is an instance of Array. "
 

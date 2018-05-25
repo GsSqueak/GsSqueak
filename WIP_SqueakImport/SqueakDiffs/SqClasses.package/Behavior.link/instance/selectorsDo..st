@@ -1,4 +1,4 @@
-*SqClasses-accessing method dictionary
+accessing method dictionary
 selectorsDo: selectorBlock
 	"Evaluate selectorBlock for all the message selectors in my method dictionary."
 

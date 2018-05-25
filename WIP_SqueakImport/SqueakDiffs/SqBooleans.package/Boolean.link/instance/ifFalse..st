@@ -1,4 +1,4 @@
-*SqBooleans-controlling
+controlling
 ifFalse: alternativeBlock 
 	"If the receiver is true (i.e., the condition is true), then the value is the 
 	true alternative, which is nil. Otherwise answer the result of evaluating 

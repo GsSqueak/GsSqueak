@@ -1,4 +1,4 @@
-*SqNumbers-testing
+testing
 isLiteral
 	"Answer if this number could be a well behaved literal.
 	Well, it would only if evaluating back to self.

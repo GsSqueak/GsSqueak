@@ -1,4 +1,4 @@
-*SqClasses-fileIn/Out
+fileIn/Out
 fileOutPool: aPool onFileStream: aFileStream 
 	| aPoolName |
 	(aPool  isKindOf: SharedPool class) ifTrue:[^self notify: 'we do not fileout SharedPool type shared pools for now'].

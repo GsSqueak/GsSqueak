@@ -1,3 +1,3 @@
-*SqCharacter-converting
+converting
 asUppercase
 	^ self _env0 asUppercase

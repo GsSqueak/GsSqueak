@@ -1,4 +1,4 @@
-*SqNumbers-converting
+converting
 asFloat
 	"Answer the receiver itself."
 

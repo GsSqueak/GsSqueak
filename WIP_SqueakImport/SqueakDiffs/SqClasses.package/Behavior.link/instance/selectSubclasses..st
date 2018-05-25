@@ -1,4 +1,4 @@
-*SqClasses-enumerating
+enumerating
 selectSubclasses: aBlock 
 	"Evaluate the argument, aBlock, with each of the receiver's (next level) 
 	subclasses as its argument. Collect into a Set only those subclasses for 

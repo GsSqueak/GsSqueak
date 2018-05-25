@@ -1,4 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes log
+sources, changes log
 assureStartupStampLogged
 	"If there is a startup stamp not yet actually logged to disk, do it now."
 	| changesFile |
