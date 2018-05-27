@@ -2,6 +2,6 @@ toolbuilder - layouting
 classContentSwitchesFrame: bottomFraction
 
 	^ self 
-		classContentSwitchesFrame: bottomFraction 
+		switchesFrame: bottomFraction 
 		fromLeft: 0.25
 		width: 0.25

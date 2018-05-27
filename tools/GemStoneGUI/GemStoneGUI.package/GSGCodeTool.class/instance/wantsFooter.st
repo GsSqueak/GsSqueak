@@ -1,0 +1,4 @@
+accessing
+wantsFooter
+
+	^ true

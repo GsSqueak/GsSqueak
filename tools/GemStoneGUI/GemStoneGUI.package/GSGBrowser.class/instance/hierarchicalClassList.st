@@ -6,9 +6,7 @@ hierarchicalClassList
 	classesToSort ifEmpty: [^ #()].
 	classesToSort size > 30 ifTrue: [^ classesToSort].
 	
-	hierarchyTree := self environment
-						hierarchyTreeOfClassNames: classesToSort
-						environmentId: self envId.
+	hierarchyTree := self environment	hierarchyTreeOfClassNames: classesToSort.
 	^ self
 		flattenHierarchyTree: hierarchyTree
 		on: OrderedCollection new

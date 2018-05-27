@@ -1,4 +1,4 @@
-accessing
+standard categories
 nullCategory
 
 	^ #'no messages'

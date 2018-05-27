@@ -12,5 +12,5 @@ removeMessage
 						confirmRemovalOf: messageName
 						on: classOrMetaClass.
 	confirmation ifFalse: [^ self].
-	classOrMetaClass removeSelector: messageName environmentId: self environmentId.
+	classOrMetaClass removeSelector: messageName.
 	self invalidateMessageCategoryDict.

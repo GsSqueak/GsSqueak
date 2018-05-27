@@ -1,0 +1,4 @@
+accessing
+devkitPath
+
+	^ devkitPath ifNil: ['']

@@ -1,4 +1,0 @@
-interface
-hierarchyTreeOfClassNames: collectionOfSymbols environmentId: anInteger
-
-	self subclassResponsibility

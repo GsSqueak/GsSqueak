@@ -1,0 +1,4 @@
+toolbuilder
+wantsFooter
+
+	^ false

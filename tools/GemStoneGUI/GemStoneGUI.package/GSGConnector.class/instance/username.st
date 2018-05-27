@@ -1,4 +1,0 @@
-username
-username
-
-	^ username ifNil: ['']

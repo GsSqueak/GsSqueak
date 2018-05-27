@@ -5,5 +5,6 @@ aboutToStyle: aStyler
 		ifTrue: [
 			aStyler
 				classOrMetaClass: self selectedClassOrMetaClass;
-				parseAMethod: true].
-	^ true
+				parseAMethod: true.
+			^ true].
+	^ false

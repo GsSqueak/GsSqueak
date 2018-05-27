@@ -1,4 +1,0 @@
-toolbuilder
-aboutToStyle: styler
-
-	^ false

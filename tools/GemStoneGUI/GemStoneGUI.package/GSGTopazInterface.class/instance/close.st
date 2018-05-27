@@ -1,0 +1,4 @@
+interface
+close
+
+	self terminate

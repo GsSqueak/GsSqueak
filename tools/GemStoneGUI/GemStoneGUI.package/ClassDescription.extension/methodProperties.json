@@ -2,12 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMessageCategory:environmentId:" : "sl 5/23/2018 20:55",
+		"addMessageCategory:" : "sl 5/26/2018 20:27",
 		"category:" : "sl 5/23/2018 20:57",
-		"compileMethod:category:environmentId:" : "sl 5/23/2018 20:59",
-		"messageCategoryDictForEnv:" : "sl 5/23/2018 21:04",
-		"methodAt:environmentId:ifAbsent:" : "sl 5/23/2018 21:16",
-		"printHierarchyForEnvironmentId:" : "sl 5/23/2018 21:06",
-		"removeMessageCategory:environmentId:" : "sl 5/23/2018 21:07",
-		"removeSelector:environmentId:" : "sl 5/23/2018 21:08",
-		"renameMessageCategory:to:environmentId:" : "sl 5/23/2018 21:09" } }
+		"compileMethod:category:" : "sl 5/26/2018 20:30",
+		"messageCategoryDict" : "sl 5/26/2018 20:31",
+		"methodAt:ifAbsent:" : "sl 5/26/2018 20:33",
+		"removeMessageCategory:" : "sl 5/26/2018 20:36",
+		"renameMessageCategory:to:" : "sl 5/26/2018 20:39" } }

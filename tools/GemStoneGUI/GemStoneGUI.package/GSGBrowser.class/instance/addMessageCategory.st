@@ -7,8 +7,6 @@ addMessageCategory
 	newName := UIManager default request: 'Add Category'.
 	newName ifEmpty: [^ self].
 	newName := newName asSymbol.
-	self selectedClassOrMetaClass
-		addMessageCategory: newName
-		environmentId: self environmentId.
+	self selectedClassOrMetaClass addMessageCategory: newName.
 	self invalidateMessageCategoryDict.
 	self selectMessageCategoryNamed: newName

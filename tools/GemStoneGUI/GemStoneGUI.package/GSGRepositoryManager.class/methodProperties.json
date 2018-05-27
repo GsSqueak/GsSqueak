@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"open" : "sl 5/27/2018 17:52" },
+	"instance" : {
+		"browseEnvironment:" : "sl 5/27/2018 17:58",
+		"buildAbortButtonWith:" : "sl 5/27/2018 18:01",
+		"buildBrowserButtonWith:" : "sl 5/27/2018 18:01",
+		"buildCommitButtonWith:" : "sl 5/27/2018 18:01",
+		"buildContinueButtonWith:" : "sl 5/27/2018 18:01",
+		"buildLoadButtonWith:" : "sl 5/27/2018 18:01",
+		"buildLogoutButtonWith:" : "sl 5/27/2018 18:01",
+		"buildWith:" : "sl 5/27/2018 18:03",
+		"buildWorkspaceButtonWith:" : "sl 5/27/2018 18:02",
+		"closeSession" : "sl 5/27/2018 17:53",
+		"labelString" : "sl 5/27/2018 18:04",
+		"loadSqueak" : "sl 5/27/2018 18:05",
+		"loadSqueakFrom:" : "sl 5/27/2018 17:55",
+		"logoutButtonHit" : "sl 4/9/2018 14:14",
+		"okToClose" : "sl 5/27/2018 17:55",
+		"openBrowser" : "sl 5/27/2018 18:06",
+		"openWorkspace" : "sl 5/27/2018 18:05",
+		"sessionClosed" : "maf 4/10/2018 13:46",
+		"windowIsClosing" : "sl 4/9/2018 14:13" } }

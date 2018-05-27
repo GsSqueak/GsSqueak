@@ -13,10 +13,7 @@ renameMessageCategory
 	newName ifEmpty: [^ self].
 	newName := newName asSymbol.
 	newName = oldName ifTrue: [^ self].
-	self selectedClassOrMetaClass
-		renameMessageCategory: oldName
-		to: newName
-		environmentId: self environmentId.
+	self selectedClassOrMetaClass renameMessageCategory: oldName to: newName.
 	selector := self selectedMessageName.
 	self invalidateMessageCategoryDict.
 	self selectMessageCategoryNamed: newName
