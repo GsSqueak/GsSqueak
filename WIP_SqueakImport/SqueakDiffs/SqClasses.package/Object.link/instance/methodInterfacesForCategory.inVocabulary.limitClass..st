@@ -1,4 +1,4 @@
-*SqClasses-scripting
+scripting
 methodInterfacesForCategory: aCategorySymbol inVocabulary: aVocabulary limitClass: aLimitClass
 	"Return a list of methodInterfaces for the receiver in the given category, given a vocabulary.  aCategorySymbol is the inherent category symbol, not necessarily the wording as expressed in the vocabulary."
 

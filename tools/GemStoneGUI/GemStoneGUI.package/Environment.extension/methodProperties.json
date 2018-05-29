@@ -1,8 +1,9 @@
 {
 	"class" : {
-		 },
+		"forRepository:" : "sl 5/26/2018 19:32" },
 	"instance" : {
 		"classNamesInSystemCategory:" : "sl 5/23/2018 20:16",
-		"hierarchyTreeOfClassNames:environmentId:" : "sl 5/23/2018 20:19",
+		"hierarchyTreeOfClassNames:" : "sl 5/26/2018 20:23",
+		"repository" : "sl 5/26/2018 19:33",
 		"systemCategories" : "sl 5/23/2018 20:20",
 		"templateForSubclassOf:category:" : "sl 5/23/2018 20:21" } }

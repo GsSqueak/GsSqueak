@@ -5,8 +5,8 @@ contentsFrame
 	topOffset := self wantsOptionalButtons
 		ifTrue: [self buttonHeight]
 		ifFalse: [0].
-	bottomOffset := self wantsAnnotationPane
-		ifTrue: [self annotationPaneHeight negated]
+	bottomOffset := self wantsFooter
+		ifTrue: [self footerHeight negated]
 		ifFalse: [0].
 	^ LayoutFrame new
 		leftFraction: 0 offset: 0;

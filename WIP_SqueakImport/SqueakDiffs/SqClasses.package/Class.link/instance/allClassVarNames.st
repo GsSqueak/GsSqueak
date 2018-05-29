@@ -1,4 +1,4 @@
-*SqClasses-class variables
+class variables
 allClassVarNames
 	"Answer a Set of the names of the receiver's class variables, including those defined in the superclasses of the receiver."
 	| aSet |

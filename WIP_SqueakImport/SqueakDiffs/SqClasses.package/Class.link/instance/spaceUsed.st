@@ -1,4 +1,4 @@
-*SqClasses-private
+private
 spaceUsed
 
 	"Object spaceUsed"

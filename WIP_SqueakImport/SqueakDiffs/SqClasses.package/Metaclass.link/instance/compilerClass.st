@@ -1,1 +1,4 @@
-*SqClasses-compilingcompilerClass		^ self theNonMetaClass metaCompilerClass
+compiling
+compilerClass
+	
+	^ self theNonMetaClass metaCompilerClass

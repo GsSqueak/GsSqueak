@@ -1,8 +1,7 @@
 interface 2
 createLinkedClass: linkedClassName superclass: superclassName forGemstoneClass: aGsClass
 	
-	| query superclassSetter envId |
-	envId := 7.
+	| query superclassSetter |
 	superclassSetter := superclassName 
 							ifNil: ['']
 							ifNotNil: [
@@ -15,7 +14,7 @@ createLinkedClass: linkedClassName superclass: superclassName forGemstoneClass: 
 									format: {
 										self codeReferencingMe.
 										aGsClass.
-										envId.
+										self environmentId.
 										superclassName storeString}].
 	query := '
 	{1} at: {2} put: ({3}).

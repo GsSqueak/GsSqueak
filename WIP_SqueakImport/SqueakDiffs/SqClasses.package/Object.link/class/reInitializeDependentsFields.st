@@ -1,4 +1,4 @@
-*SqClasses-class initialization
+class initialization
 reInitializeDependentsFields
 	"Object reInitializeDependentsFields"
 	| oldFields |

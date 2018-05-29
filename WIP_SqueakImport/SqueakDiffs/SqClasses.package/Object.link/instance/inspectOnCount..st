@@ -1,4 +1,4 @@
-*SqClasses-debugging-haltOnce
+debugging-haltOnce
 inspectOnCount: int 
 	self haltOnceEnabled
 		ifTrue: [self hasHaltCount

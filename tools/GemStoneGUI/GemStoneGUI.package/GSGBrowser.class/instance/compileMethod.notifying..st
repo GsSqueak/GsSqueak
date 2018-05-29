@@ -7,8 +7,7 @@ compileMethod: aString notifying: aController
 	self flag: #gsg. "Ignores the controller for now"
 	newSelector := class
 						compileMethod: aString
-						category: category
-						environmentId: self envId.
+						category: category.
 	newSelector ifNil: [^ false].
 	newSelector = self selectedMessageName
 		ifTrue: [self invalidateContents]

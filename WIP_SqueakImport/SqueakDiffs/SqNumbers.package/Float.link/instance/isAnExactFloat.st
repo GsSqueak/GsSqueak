@@ -1,1 +1,3 @@
-*SqNumbers-testingisAnExactFloat	^true
+testing
+isAnExactFloat
+	^true

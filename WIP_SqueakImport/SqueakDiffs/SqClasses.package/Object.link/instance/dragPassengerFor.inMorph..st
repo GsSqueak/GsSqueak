@@ -1,3 +1,3 @@
-*SqClasses-drag and drop
+drag and drop
 dragPassengerFor: item inMorph: dragSource 
 	^item

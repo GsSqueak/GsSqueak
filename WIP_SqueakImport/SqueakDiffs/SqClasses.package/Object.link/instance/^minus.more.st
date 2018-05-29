@@ -1,4 +1,4 @@
-*SqClasses-associating
+associating
 -> anObject
 	"Answer an Association between self and anObject"
 

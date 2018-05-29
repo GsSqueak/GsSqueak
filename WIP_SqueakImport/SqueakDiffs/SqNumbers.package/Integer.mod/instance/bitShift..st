@@ -1,1 +1,3 @@
-bit manipulaionbitShift: n ^ self _env0 bitShift: n
+bit manipulation
+bitShift: n 
+^ self _env0 bitShift: n

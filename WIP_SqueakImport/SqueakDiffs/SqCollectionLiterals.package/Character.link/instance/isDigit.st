@@ -1,1 +1,4 @@
-*SqCharacter-testingisDigit	^ self _env0 isDigit
+testing
+isDigit
+
+	^ self _env0 isDigit

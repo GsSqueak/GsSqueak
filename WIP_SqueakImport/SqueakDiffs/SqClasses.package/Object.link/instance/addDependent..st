@@ -1,4 +1,4 @@
-*SqClasses-dependents access
+dependents access
 addDependent: anObject
 	"Make the given object one of the receiver's dependents."
 

@@ -1,1 +1,4 @@
-*SqCharacter-copyingshallowCopy	"Answer the receiver, because Characters are unique."	^self
+copying
+shallowCopy
+	"Answer the receiver, because Characters are unique."
+	^self

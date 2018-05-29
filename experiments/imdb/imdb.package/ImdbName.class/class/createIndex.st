@@ -3,10 +3,8 @@ createIndex
   "  ImdbName names indexSpec removeIndexesFrom: ImdbName names."
 
   IndexManager autoCommit: true.
-  IndexManager sessionAutoCommit: true.
-  IndexManager current dirtyObjectCommitThreshold: 1000.
-  IndexManager removeAllIndexesOn: Names.
+  IndexManager current removeAllIndexesOn: Names.
+  IndexManager current dirtyObjectCommitThreshold: 100000.
   GsIndexSpec new
-    identityIndex: 'each.birthYear';
-    identityIndex: 'each.deathYear';
+    equalityIndex: 'each.birthYear' lastElementClass: SmallInteger;
     createIndexesOn: self names

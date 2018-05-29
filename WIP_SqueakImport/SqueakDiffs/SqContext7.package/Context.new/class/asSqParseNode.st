@@ -1,1 +1,3 @@
-*SqContext7-translatingasSqParseNode  ^ self _env0 asSqParseNode
+*SqContext7-translating
+asSqParseNode
+  ^ self _env0 asSqParseNode

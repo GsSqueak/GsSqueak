@@ -1,4 +1,4 @@
-*SqClasses-macpal
+macpal
 instanceVariableValues
 	"Answer a collection whose elements are the values of those instance variables of the receiver which were added by the receiver's class"
 	| c |

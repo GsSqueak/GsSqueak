@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 binding
 	"Answer a binding for the receiver, sharing if possible"
 	| binding |

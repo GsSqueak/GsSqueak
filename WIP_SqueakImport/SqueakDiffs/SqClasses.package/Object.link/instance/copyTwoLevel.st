@@ -1,4 +1,4 @@
-*SqClasses-copying
+copying
 copyTwoLevel
 	"one more level than a shallowCopy"
 

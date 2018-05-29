@@ -1,4 +1,4 @@
-*SqClasses-scripting
+scripting
 selfWrittenAsIll
 
 	^self

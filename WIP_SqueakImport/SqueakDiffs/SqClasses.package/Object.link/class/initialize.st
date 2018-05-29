@@ -1,4 +1,4 @@
-*SqClasses-class initialization
+class initialization
 initialize
 	"Object initialize"
 	DependentsFields ifNil:[self initializeDependentsFields].

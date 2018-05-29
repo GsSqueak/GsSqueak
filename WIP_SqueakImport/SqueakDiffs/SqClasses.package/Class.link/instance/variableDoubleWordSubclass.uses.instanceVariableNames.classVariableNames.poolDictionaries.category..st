@@ -1,4 +1,4 @@
-*SqClasses-subclass creation
+subclass creation
 variableDoubleWordSubclass: t uses: aTraitCompositionOrArray instanceVariableNames: f 
 	classVariableNames: d poolDictionaries: s category: cat
 	"This is the standard initialization message for creating a new class as a 

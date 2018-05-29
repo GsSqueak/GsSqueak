@@ -1,1 +1,6 @@
-*SqNumbers-printingprintOn: stream	self		printFractionAsDecimalOn: stream;		printScaleOn: stream
+printing
+printOn: stream
+
+	self
+		printFractionAsDecimalOn: stream;
+		printScaleOn: stream

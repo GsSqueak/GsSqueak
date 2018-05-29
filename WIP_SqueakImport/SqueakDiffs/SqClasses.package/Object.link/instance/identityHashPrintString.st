@@ -1,4 +1,4 @@
-*SqClasses-comparing
+comparing
 identityHashPrintString
 	"'fred' identityHashPrintString"
 

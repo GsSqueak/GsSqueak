@@ -1,1 +1,4 @@
-*SqNumbers-testingisScaledDecimal	"Reimplementation - Number 'testing' method."	^ true
+testing
+isScaledDecimal
+	"Reimplementation - Number 'testing' method."
+	^ true

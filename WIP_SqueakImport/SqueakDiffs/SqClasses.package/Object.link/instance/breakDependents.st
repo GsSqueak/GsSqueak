@@ -1,4 +1,4 @@
-*SqClasses-dependents access
+dependents access
 breakDependents
 	"Remove all of the receiver's dependents."
 

@@ -1,1 +1,5 @@
-*Kernel-Processes-accessingcopyStack	"Not supported in GsSqueak"    self shouldNotImplement
+accessing
+copyStack
+
+	"Not supported in GsSqueak"
+    self shouldNotImplement

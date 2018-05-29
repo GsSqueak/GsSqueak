@@ -1,1 +1,3 @@
-*SqNumbers-copyingveryDeepCopyWith: deepCopier	"Return self.  I can't be copied.  Do not record me."
+copying
+veryDeepCopyWith: deepCopier
+	"Return self.  I can't be copied.  Do not record me."

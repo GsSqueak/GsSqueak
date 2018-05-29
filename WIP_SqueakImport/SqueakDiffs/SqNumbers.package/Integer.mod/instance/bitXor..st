@@ -1,1 +1,3 @@
-bit manipulaionbitXor: n ^ self _env0 bitXor: n
+bit manipulation
+bitXor: n 
+^ self _env0 bitXor: n

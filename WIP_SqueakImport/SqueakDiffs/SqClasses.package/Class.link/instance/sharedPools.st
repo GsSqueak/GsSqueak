@@ -1,4 +1,4 @@
-*SqClasses-pool variables
+pool variables
 sharedPools
 	"Answer a Set of the pool dictionaries declared in the receiver."
 

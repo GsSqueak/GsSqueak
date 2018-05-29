@@ -1,4 +1,4 @@
-*SqClasses-class name
+class name
 rename: aString 
 	"The new name of the receiver is the argument, aString."
 

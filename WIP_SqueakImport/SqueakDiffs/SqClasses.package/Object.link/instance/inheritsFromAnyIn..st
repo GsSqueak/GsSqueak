@@ -1,4 +1,4 @@
-*SqClasses-class membership
+class membership
 inheritsFromAnyIn: aList
 	"Answer whether the receiver inherits from any class represented by any element in the list.  The elements of the list can be classes, class name symbols, or strings representing possible class names.  This allows speculative membership tests to be made even when some of the classes may not be known to the current image, and even when their names are not interned symbols."
 

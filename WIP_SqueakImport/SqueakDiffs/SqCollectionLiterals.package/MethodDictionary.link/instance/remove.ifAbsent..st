@@ -1,1 +1,4 @@
-*SqCollections-removingremove: anObject ifAbsent: exceptionBlock	self shouldNotImplement
+removing
+remove: anObject ifAbsent: exceptionBlock
+
+	self shouldNotImplement

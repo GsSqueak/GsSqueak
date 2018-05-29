@@ -1,4 +1,4 @@
-*SqClasses-documentation
+documentation
 whatIsAPrimitive
 	"Some messages in the system are responded to primitively. A primitive   
 	response is performed directly by the interpreter rather than by evaluating   

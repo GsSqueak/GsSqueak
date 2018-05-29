@@ -1,4 +1,4 @@
-*SqClasses-class hierarchy
+class hierarchy
 subclassesDo: aBlock
 	"Evaluate aBlock with all subclasses of nil."
 	^Class subclassesDo:[:cl| 

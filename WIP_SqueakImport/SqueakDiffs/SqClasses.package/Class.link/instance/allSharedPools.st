@@ -1,4 +1,4 @@
-*SqClasses-pool variables
+pool variables
 allSharedPools
 	"Answer a Set of the pools the receiver shares, including those defined  
 	in the superclasses of the receiver."

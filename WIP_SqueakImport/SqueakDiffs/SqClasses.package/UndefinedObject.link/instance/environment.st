@@ -1,4 +1,4 @@
-*SqClasses-class hierarchy
+class hierarchy
 environment
 	"Necessary to support disjoint class hierarchies."
 

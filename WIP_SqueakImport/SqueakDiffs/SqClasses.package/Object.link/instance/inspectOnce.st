@@ -1,4 +1,4 @@
-*SqClasses-debugging-haltOnce
+debugging-haltOnce
 inspectOnce
 	"Inspect unless we have already done it once."
 	self haltOnceEnabled

@@ -1,1 +1,3 @@
-*SqNumbers-convertingasExactFloat	^mantissa asExactFloat
+converting
+asExactFloat
+	^mantissa asExactFloat

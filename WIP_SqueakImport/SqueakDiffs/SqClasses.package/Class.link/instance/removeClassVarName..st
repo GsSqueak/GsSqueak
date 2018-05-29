@@ -1,4 +1,4 @@
-*SqClasses-class variables
+class variables
 removeClassVarName: aString 
 	"Remove the class variable whose name is the argument, aString, from 
 	the names defined in the receiver, a class. Create an error notification if 

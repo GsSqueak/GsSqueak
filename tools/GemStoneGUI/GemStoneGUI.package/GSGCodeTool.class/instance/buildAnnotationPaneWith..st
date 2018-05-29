@@ -1,9 +1,7 @@
 toolbuilder
 buildAnnotationPaneWith: builder
 	
-	| annoSpec |
-	annoSpec := builder pluggableInputFieldSpec new.
-	annoSpec
+	^ builder pluggableInputFieldSpec new
 		model: self;
-		getText: #annotation.
-	^ annoSpec
+		getText: #annotation;
+		yourself

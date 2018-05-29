@@ -1,3 +1,3 @@
-*SqClasses-macpal
+macpal
 flash
 	"Do nothing."

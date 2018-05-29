@@ -1,1 +1,4 @@
-primitives-cursorprimCursorLocPutAgain: aPoint	self shouldNotImplement
+primitives-cursor
+primCursorLocPutAgain: aPoint
+	self shouldNotImplement
+

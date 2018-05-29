@@ -1,1 +1,4 @@
-*SqCharacter-testingisCharacter	^ true.
+testing
+isCharacter
+
+	^ true.

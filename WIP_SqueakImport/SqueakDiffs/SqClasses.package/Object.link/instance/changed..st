@@ -1,4 +1,4 @@
-*SqClasses-updating
+updating
 changed: aParameter 
 	"Receiver changed. The change is denoted by the argument aParameter. 
 	Usually the argument is a Symbol that is part of the dependent's change 

@@ -1,1 +1,4 @@
-*SqClasses-copyingpostCopy	super postCopy.	self methodDict: self methodDict copy
+copying
+postCopy
+	super postCopy.
+	self methodDict: self methodDict copy

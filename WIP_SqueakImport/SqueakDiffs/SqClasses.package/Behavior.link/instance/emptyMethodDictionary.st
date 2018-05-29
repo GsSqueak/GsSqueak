@@ -1,1 +1,4 @@
-*SqClasses-initialize-releaseemptyMethodDictionary	^ MethodDictionary new
+initialize-release
+emptyMethodDictionary
+
+	^ MethodDictionary new

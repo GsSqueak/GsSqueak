@@ -1,4 +1,4 @@
-*SqClasses-testing
+testing
 isAbstract
 	"Answer true if I am to be considered an abstract class.
 	An abstract class shall better not be instantiated.

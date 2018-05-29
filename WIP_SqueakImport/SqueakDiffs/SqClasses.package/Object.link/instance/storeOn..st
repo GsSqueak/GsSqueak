@@ -1,4 +1,4 @@
-*SqClasses-printing
+printing
 storeOn: aStream 
 	"Append to the argument aStream a sequence of characters that is an 
 	expression whose evaluation creates an object similar to the receiver."

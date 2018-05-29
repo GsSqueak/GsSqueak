@@ -1,4 +1,4 @@
-*SqClasses-class hierarchy
+class hierarchy
 subclassesDoGently: aBlock
 	"Evaluate aBlock with all subclasses of nil.  Others are not direct subclasses of Class."
 

@@ -1,4 +1,4 @@
-*SqClasses-subclass creation
+subclass creation
 newSubclass
 
 	^ self newUniqueClassInstVars: '' classInstVars: ''

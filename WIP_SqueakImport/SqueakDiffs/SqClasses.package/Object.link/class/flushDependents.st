@@ -1,4 +1,4 @@
-*SqClasses-class initialization
+class initialization
 flushDependents
 	DependentsFields keysAndValuesDo:[:key :dep|
 		key ifNotNil:[key removeDependent: nil].

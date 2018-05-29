@@ -1,4 +1,4 @@
-*SqClasses-message handling
+message handling
 perform: selector withArguments: argArray 
 	"Send the selector, aSymbol, to the receiver with arguments in argArray.
 	Fail if the number of arguments expected by the selector 

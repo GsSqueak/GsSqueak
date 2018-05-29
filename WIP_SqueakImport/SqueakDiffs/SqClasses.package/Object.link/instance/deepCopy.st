@@ -1,4 +1,4 @@
-*SqClasses-copying
+copying
 deepCopy
 	"Answer a copy of the receiver with its own copy of each instance variable.
 	WARNING: deepCopy does not preserve object identities in cycles in the object graph. Consider using #veryDeepCopy instead."

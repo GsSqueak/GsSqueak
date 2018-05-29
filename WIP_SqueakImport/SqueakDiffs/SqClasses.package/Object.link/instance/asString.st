@@ -1,4 +1,4 @@
-*SqClasses-converting
+converting
 asString
 	"Answer a string that represents the receiver."
 

@@ -1,1 +1,3 @@
-*CompiledMethodnumArgs	^ self _env0 numArgs
+accessing
+numArgs
+	^ self _env0 numArgs

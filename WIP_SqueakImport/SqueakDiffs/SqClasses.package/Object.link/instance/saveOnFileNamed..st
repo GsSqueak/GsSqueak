@@ -1,4 +1,4 @@
-*SqClasses-objects from disk
+objects from disk
 saveOnFileNamed: filenameString
 	"Save myself on a SmartReferenceStream file.  Writes out the version and class structure.  The file is fileIn-able.  UniClasses will be filed out."
 	| fileStream |

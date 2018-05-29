@@ -1,4 +1,4 @@
-*SqClasses-drag and drop
+drag and drop
 acceptDroppingMorph: transferMorph event: evt inMorph: dstListMorph 
 	
 	^false.

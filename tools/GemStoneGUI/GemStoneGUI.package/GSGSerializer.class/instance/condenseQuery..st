@@ -1,6 +1,8 @@
 query construction
 condenseQuery: query
 
-	| method |
-	method := (Compiler new compile: query in: Object notifying: nil ifFail: []) generate.
-	^ method decompile decompileString
+	| parseTree |
+	parseTree := [Parser new parse: query class: Object]
+					on: Error
+					do: [^ query].
+	^ parseTree generate decompile decompileString

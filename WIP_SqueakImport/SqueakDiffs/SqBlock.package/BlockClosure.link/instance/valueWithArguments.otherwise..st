@@ -1,1 +1,5 @@
-*SqKernel-evaluatingvalueWithArguments: anArray otherwise: aBlock	^ self valueWithArguments: anArray
+evaluating
+valueWithArguments: anArray otherwise: aBlock
+
+	^ self valueWithArguments: anArray
+

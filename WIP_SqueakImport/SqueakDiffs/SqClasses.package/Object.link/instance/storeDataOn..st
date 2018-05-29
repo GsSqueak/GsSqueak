@@ -1,4 +1,4 @@
-*SqClasses-objects from disk
+objects from disk
 storeDataOn: aDataStream
 	"Store myself on a DataStream.  Answer self.  This is a low-level DataStream/ReferenceStream method. See also objectToStoreOnDataStream.  NOTE: This method must send 'aDataStream beginInstance:size:' and then (nextPut:/nextPutWeak:) its subobjects.  readDataFrom:size: reads back what we write here."
 	| cntInstVars cntIndexedVars |

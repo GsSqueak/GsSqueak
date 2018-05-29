@@ -1,4 +1,4 @@
-*SqClasses-debugging-haltOnce
+debugging-haltOnce
 doExpiredHaltCount: aString
 	self clearHaltOnce.
 	self removeHaltCount.

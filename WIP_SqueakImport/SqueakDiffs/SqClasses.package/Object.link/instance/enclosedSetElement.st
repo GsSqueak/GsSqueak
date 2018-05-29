@@ -1,4 +1,4 @@
-*SqClasses-accessing
+accessing
 enclosedSetElement
 	"The receiver is included into a set as an element. 
 	Since some objects require wrappers (see SetElement) to be able to be included into a Set,

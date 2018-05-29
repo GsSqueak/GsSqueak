@@ -1,4 +1,4 @@
-*SqClasses-message handling
+message handling
 withArgs: argArray executeMethod: compiledMethod
 	"Execute compiledMethod against the receiver and args in argArray"
 

@@ -1,1 +1,4 @@
-*SqNumbers-mathematical functionsexp		^ self _env0 exp
+mathematical functions
+exp
+	
+	^ self _env0 exp

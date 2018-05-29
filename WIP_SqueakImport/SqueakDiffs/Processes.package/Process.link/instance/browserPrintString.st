@@ -1,1 +1,3 @@
-*Kernel-Processes-printingbrowserPrintString	^self browserPrintStringWith: self suspendedContext
+printing
+browserPrintString
+	^self browserPrintStringWith: self suspendedContext

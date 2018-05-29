@@ -1,4 +1,4 @@
-*SqClasses-dependents access
+dependents access
 release
 	"Remove references to objects that may refer to the receiver. This message 
 	should be overridden by subclasses with any cycles, in which case the 

@@ -1,4 +1,4 @@
-*SqClasses-error handling
+error handling
 doesNotUnderstand: aMessage 
 	 "Handle the fact that there was an attempt to send the given
 	  message to the receiver but the receiver does not understand

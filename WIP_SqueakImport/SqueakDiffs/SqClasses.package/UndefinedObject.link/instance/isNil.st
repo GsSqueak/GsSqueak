@@ -1,4 +1,4 @@
-*SqClasses-testing
+testing
 isNil 
 	"Refer to the comment in Object|isNil."
 

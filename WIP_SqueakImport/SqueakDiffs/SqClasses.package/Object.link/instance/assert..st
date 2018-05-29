@@ -1,4 +1,4 @@
-*SqClasses-error handling
+error handling
 assert: aBlock
 	"Throw an assertion error if aBlock does not evaluates to true."
 

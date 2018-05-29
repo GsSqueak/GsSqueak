@@ -1,1 +1,4 @@
-*SqCharacter-testingisOctetCharacter	^ self asInteger < 256.
+testing
+isOctetCharacter
+
+	^ self asInteger < 256.

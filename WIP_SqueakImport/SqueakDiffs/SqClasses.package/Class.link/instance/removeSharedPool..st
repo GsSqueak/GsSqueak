@@ -1,4 +1,4 @@
-*SqClasses-pool variables
+pool variables
 removeSharedPool: aDictionary 
 	"Remove the pool dictionary, aDictionary, as one of the receiver's pool 
 	dictionaries. Create an error notification if the dictionary is not one of 

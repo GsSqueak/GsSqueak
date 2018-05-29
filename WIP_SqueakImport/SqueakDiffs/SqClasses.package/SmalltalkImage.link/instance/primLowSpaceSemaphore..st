@@ -1,1 +1,8 @@
-*SqClasses-*SqClasses-*SqClasses-memory spaceprimLowSpaceSemaphore: aSemaphore	"Primitive. Register the given Semaphore to be signalled when the	number of free bytes drops below some threshold. Disable low-space	interrupts if the argument is nil."		self primitiveFailed
+memory space
+primLowSpaceSemaphore: aSemaphore
+	"Primitive. Register the given Semaphore to be signalled when the
+	number of free bytes drops below some threshold. Disable low-space
+	interrupts if the argument is nil."
+
+	
+	self primitiveFailed

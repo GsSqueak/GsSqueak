@@ -1,4 +1,4 @@
-*SqClasses-testing
+testing
 shouldBePrintedAsLiteralVisiting: aSet
 
 	^self isLiteral

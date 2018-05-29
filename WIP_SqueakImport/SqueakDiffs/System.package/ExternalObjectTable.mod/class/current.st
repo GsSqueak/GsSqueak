@@ -1,1 +1,5 @@
-accessingcurrent	^Current ifNil: [		Current := self new ]
+accessing
+current
+
+	^Current ifNil: [
+		Current := self new ]

@@ -1,1 +1,4 @@
-primitives-tabletprimReadJoystick: index	"Not supported in GsSqueak"    self shouldNotImplement
+primitives-tablet
+primReadJoystick: index
+	"Not supported in GsSqueak"
+    self shouldNotImplement

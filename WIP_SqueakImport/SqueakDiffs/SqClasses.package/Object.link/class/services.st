@@ -1,4 +1,4 @@
-*SqClasses-file list services
+file list services
 services
 	"Backstop"
 	^#()

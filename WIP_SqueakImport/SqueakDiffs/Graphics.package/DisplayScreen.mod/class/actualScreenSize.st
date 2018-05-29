@@ -1,1 +1,4 @@
-snapshotsactualScreenSize	^ GraFFIcsLibrary inst screenSize
+snapshots
+actualScreenSize
+
+	^ GraFFIcsLibrary inst screenSize

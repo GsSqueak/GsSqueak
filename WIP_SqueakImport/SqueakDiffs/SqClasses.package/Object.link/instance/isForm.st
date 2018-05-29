@@ -1,3 +1,3 @@
-*SqClasses-testing
+testing
 isForm
 	^false

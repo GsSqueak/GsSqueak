@@ -1,1 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-startup listaddToShutDownList: aClass before: predecessor	self add: aClass toList: ShutDownList before: predecessor
+startup list
+addToShutDownList: aClass before: predecessor
+
+	self add: aClass toList: ShutDownList before: predecessor

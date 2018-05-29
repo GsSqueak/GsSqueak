@@ -1,4 +1,4 @@
-*SqClasses-instance creation
+instance creation
 chooseUniqueClassName
 	| i className |
 	i := 1.

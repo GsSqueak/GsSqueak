@@ -1,1 +1,5 @@
-*SqCharacter-convertingasCharacter	"Answer the receiver itself."	^self
+converting
+asCharacter
+	"Answer the receiver itself."
+
+	^self

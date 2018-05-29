@@ -1,1 +1,3 @@
-*SqCharacter-accessing untypeable charactersarrowDown	^ self value: 31
+accessing untypeable characters
+arrowDown
+	^ self value: 31

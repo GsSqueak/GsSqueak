@@ -1,4 +1,4 @@
-*SqClasses-dependents access
+dependents access
 myDependents: aCollectionOrNil
 	"Private. Set (or remove) the receiver's dependents list."
 

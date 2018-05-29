@@ -1,7 +1,8 @@
 {
 	"class" : {
-		 },
+		"isAbstract" : "sl 5/26/2018 10:54" },
 	"instance" : {
+		"availableEnvironmentTypes" : "sl 5/26/2018 19:30",
 		"execute:" : "sl 5/21/2018 10:01",
 		"executeString:" : "sl 5/14/2018 21:13",
 		"fetch:query:" : "sl 5/20/2018 15:51",

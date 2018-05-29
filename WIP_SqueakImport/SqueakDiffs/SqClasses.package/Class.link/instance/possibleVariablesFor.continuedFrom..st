@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 possibleVariablesFor: misspelled continuedFrom: oldResults
 
 	| results |

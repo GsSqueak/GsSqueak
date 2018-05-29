@@ -1,1 +1,4 @@
-*SqCharacter-testingisLetter	^ self _env0 isLetter
+testing
+isLetter
+
+	^ self _env0 isLetter

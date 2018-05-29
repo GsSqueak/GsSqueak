@@ -1,1 +1,6 @@
-*SqClasses-initialize-releaseforgetDoIts	"get rid of old DoIt methods"	self 		basicRemoveSelector: #DoIt;		basicRemoveSelector: #DoItIn:
+initialize-release
+forgetDoIts
+	"get rid of old DoIt methods"
+	self 
+		basicRemoveSelector: #DoIt;
+		basicRemoveSelector: #DoItIn:

@@ -1,1 +1,3 @@
-*SqClasses-testing method dictionaryincludesLocalSelector: aSymbol	^self includesSelector: aSymbol
+testing method dictionary
+includesLocalSelector: aSymbol
+	^self includesSelector: aSymbol

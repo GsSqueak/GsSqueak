@@ -1,1 +1,3 @@
-*SqClasses-class hierarchyremoveObsoleteSubclass: aClass	"Do nothing."
+class hierarchy
+removeObsoleteSubclass: aClass
+	"Do nothing."

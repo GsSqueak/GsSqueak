@@ -1,1 +1,4 @@
-*SqClasses-compilingevaluatorClass		^ self theNonMetaClass metaEvaluatorClass
+compiling
+evaluatorClass
+	
+	^ self theNonMetaClass metaEvaluatorClass

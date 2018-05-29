@@ -1,4 +1,4 @@
-*SqClasses-dependents access
+dependents access
 evaluate: actionBlock wheneverChangeIn: aspectBlock
 	| viewerThenObject objectThenViewer |
 	objectThenViewer := self.

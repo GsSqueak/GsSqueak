@@ -1,4 +1,4 @@
-*SqClasses-printing
+printing
 storeString
 	"Answer a String representation of the receiver from which the receiver 
 	can be reconstructed."

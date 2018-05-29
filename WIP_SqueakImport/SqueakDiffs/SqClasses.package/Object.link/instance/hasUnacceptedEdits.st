@@ -1,4 +1,4 @@
-*SqClasses-dependents access
+dependents access
 hasUnacceptedEdits
 	"Answer true if any of the views on this object has unaccepted edits."
 

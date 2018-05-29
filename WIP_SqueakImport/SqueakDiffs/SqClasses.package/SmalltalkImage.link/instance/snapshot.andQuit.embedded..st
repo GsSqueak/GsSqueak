@@ -1,1 +1,8 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quitsnapshot: save andQuit: quit embedded: embeddedFlag	^self			snapshot: save		andQuit: quit		withExitCode: nil		embedded: embeddedFlag
+snapshot and quit
+snapshot: save andQuit: quit embedded: embeddedFlag
+
+	^self	
+		snapshot: save
+		andQuit: quit
+		withExitCode: nil
+		embedded: embeddedFlag

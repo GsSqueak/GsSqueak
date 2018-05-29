@@ -1,0 +1,4 @@
+interface
+messageCategoryDict
+
+	self subclassResponsibility

@@ -1,4 +1,4 @@
-*SqClasses-error handling
+error handling
 caseError
 	"Report an error from an in-line or explicit case statement."
 

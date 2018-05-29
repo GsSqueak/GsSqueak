@@ -1,1 +1,3 @@
-*SqClasses-printingprettyPrinterClass	^self compilerClass
+printing
+prettyPrinterClass
+	^self compilerClass

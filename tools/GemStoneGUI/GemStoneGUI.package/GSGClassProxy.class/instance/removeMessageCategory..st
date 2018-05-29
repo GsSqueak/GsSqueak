@@ -1,0 +1,4 @@
+interface
+removeMessageCategory: aSymbol
+
+	self subclassResponsibility

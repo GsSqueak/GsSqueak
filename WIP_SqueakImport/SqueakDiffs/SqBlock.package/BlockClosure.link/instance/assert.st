@@ -1,1 +1,4 @@
-*SqKernel-exceptionsassert	self assert: self
+exceptions
+assert
+	self assert: self
+

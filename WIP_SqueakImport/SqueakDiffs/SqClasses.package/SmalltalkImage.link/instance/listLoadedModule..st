@@ -1,1 +1,6 @@
-*SqClasses-*SqClasses-*SqClasses-moduleslistLoadedModule: index	"Return the name of the n-th loaded module.	This list is not sorted!"		^self primitiveFailed
+modules
+listLoadedModule: index
+	"Return the name of the n-th loaded module.
+	This list is not sorted!"
+	
+	^self primitiveFailed

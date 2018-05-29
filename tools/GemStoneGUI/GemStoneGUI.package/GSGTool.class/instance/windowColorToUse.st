@@ -1,4 +1,4 @@
-accessing
+coloring
 windowColorToUse
 
-	^ self windowColor
+	^ self colorForId: self repository id

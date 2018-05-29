@@ -1,1 +1,4 @@
-*SqCollectionLiterals-accessingat: aSymbol ifAbsent: aBlock	^ self _env0 at: aSymbol ifAbsent: aBlock
+accessing
+at: aSymbol ifAbsent: aBlock
+
+	^ self _env0 at: aSymbol ifAbsent: aBlock

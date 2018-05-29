@@ -1,1 +1,4 @@
-*SqKernel-printingsourceString	^ String streamContents: [ : stream | self printSourceOn: stream ]
+printing
+sourceString
+	^ String streamContents: [ : stream | self printSourceOn: stream ]
+

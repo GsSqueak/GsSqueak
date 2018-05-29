@@ -1,1 +1,3 @@
-*SqCharacter-accessing untypeable charactersinsert	^ self value: 5
+accessing untypeable characters
+insert
+	^ self value: 5

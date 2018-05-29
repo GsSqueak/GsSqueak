@@ -1,4 +1,4 @@
-*SqClasses-system primitives
+system primitives
 asOop
 	"This method is for compatibility only.
 	In Smalltalk, this used to return an integer unique to each object.

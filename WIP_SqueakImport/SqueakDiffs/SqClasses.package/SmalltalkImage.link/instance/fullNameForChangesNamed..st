@@ -1,1 +1,5 @@
-*SqClasses-*SqClasses-*SqClasses-image, changes namesfullNameForChangesNamed: aName	| imgName |	imgName := self fullNameForImageNamed: aName.	^FileDirectory fileName: (FileDirectory baseNameFor: imgName) extension: FileDirectory changeSuffix.
+image, changes names
+fullNameForChangesNamed: aName
+	| imgName |
+	imgName := self fullNameForImageNamed: aName.
+	^FileDirectory fileName: (FileDirectory baseNameFor: imgName) extension: FileDirectory changeSuffix.

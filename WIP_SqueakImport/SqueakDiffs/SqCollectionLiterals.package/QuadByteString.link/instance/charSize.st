@@ -1,1 +1,4 @@
-*SqCollectionLiterals-accessingcharSize	^ 4 "bytes"
+accessing
+charSize
+
+	^ 4 "bytes"

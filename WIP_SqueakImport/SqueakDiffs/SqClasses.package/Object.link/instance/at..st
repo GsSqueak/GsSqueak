@@ -1,4 +1,4 @@
-*SqClasses-accessing
+accessing
 at: index 
 	"Primitive. Assumes receiver is indexable. Answer the value of an 
 	indexable element in the receiver. Fail if the argument index is not an 

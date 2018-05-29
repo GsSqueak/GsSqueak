@@ -1,1 +1,5 @@
-*SqNumbers-convertingasFloat	"Answer the receiver itself."	^self
+converting
+asFloat
+	"Answer the receiver itself."
+
+	^self

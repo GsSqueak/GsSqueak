@@ -1,1 +1,4 @@
-*VMMaker-plugin generationccgDeclareCForVar: aSymbolOrString	^'sqInt *', aSymbolOrString
+*VMMaker-plugin generation
+ccgDeclareCForVar: aSymbolOrString
+
+	^'sqInt *', aSymbolOrString

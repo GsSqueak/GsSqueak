@@ -1,4 +1,4 @@
-*SqClasses-private
+private
 errorNonIntegerIndex
 	"Create an error notification that an improper object was used as an index."
 

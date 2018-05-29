@@ -1,1 +1,3 @@
-convertingasCharacter^ self _env0 asCharacter.
+converting
+asCharacter
+^ self _env0 asCharacter.

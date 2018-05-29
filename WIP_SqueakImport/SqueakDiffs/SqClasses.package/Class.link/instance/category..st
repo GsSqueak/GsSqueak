@@ -1,4 +1,4 @@
-*SqClasses-organization
+organization
 category: aString 
 	"Categorize the receiver under the system category, aString, removing it from 
 	any previous categorization."

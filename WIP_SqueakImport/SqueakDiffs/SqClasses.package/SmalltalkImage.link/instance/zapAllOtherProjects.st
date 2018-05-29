@@ -1,1 +1,5 @@
-*SqClasses-*SqClasses-*SqClasses-shrinkingzapAllOtherProjects 	"Smalltalk zapAllOtherProjects"	Project current removeAllOtherProjects
+shrinking
+zapAllOtherProjects 
+	"Smalltalk zapAllOtherProjects"
+
+	Project current removeAllOtherProjects

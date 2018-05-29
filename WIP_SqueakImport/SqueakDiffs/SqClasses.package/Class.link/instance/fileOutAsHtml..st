@@ -1,4 +1,4 @@
-*SqClasses-fileIn/Out
+fileIn/Out
 fileOutAsHtml: useHtml
 	"File a description of the receiver onto a new file whose base name is the name of the receiver."
 

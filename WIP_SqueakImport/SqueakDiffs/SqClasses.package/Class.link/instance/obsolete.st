@@ -1,4 +1,4 @@
-*SqClasses-initialize-release
+initialize-release
 obsolete
 	"Change the receiver and all of its subclasses to an obsolete class."
 	self == Object 

@@ -1,1 +1,4 @@
-*SqClasses-accessing method dictionarymethodDictionary	"Convenience"	^self methodDict
+accessing method dictionary
+methodDictionary
+	"Convenience"
+	^self methodDict

@@ -1,4 +1,4 @@
-*SqClasses-printing
+printing
 longPrintOn: aStream limitedTo: sizeLimit indent: indent
 	"Append to the argument, aStream, the names and values of all of the receiver's instance variables.  Limit is the length limit for each inst var."
 

@@ -1,1 +1,4 @@
-*SqNumbers-copyingshallowCopy	^self
+copying
+shallowCopy
+
+	^self

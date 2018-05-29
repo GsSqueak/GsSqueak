@@ -2,9 +2,13 @@
 	"class" : {
 		"directoryExtensions" : "sl 5/15/2018 13:12" },
 	"instance" : {
+		"baseCategoryFor:" : "MS 5/25/2018 14:31",
 		"defaultGemstoneName" : "sl 5/23/2018 14:39",
+		"extensionCategoryFor:" : "MS 5/25/2018 15:15",
 		"gemstoneName" : "sl 5/23/2018 14:39",
-		"installInto:" : "sl 5/17/2018 14:24",
+		"installInto:" : "MS 5/25/2018 12:20",
 		"keyForGemstoneName" : "sl 5/23/2018 14:39",
 		"loadedGemstoneName" : "sl 5/23/2018 14:39",
+		"removeExtensionsFromMethodCategories" : "MS 5/25/2018 13:45",
+		"removeExtensionsFromMethodCategories:" : "MS 5/25/2018 15:17",
 		"requirements" : "sl 5/23/2018 14:42" } }

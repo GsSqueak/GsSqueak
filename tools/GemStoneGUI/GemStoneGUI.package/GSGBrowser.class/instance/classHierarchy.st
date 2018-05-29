@@ -2,5 +2,5 @@ class content
 classHierarchy
 
 	^ self hasClassSelected
-		ifTrue: [self selectedClass printHierarchyForEnvironmentId: self envId]
+		ifTrue: [self selectedClass printHierarchy]
 		ifFalse: ['']

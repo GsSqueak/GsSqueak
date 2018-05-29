@@ -1,4 +1,4 @@
-*SqClasses-dependents access
+dependents access
 addDependent: ignored 
 	"Refer to the comment in Object|dependents."
 

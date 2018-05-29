@@ -1,4 +1,4 @@
-*SqClasses-class variables
+class variables
 addClassVarName: aString 
 	"Add the argument, aString, as a class variable of the receiver.
 	Signal an error if the first character of aString is not capitalized,

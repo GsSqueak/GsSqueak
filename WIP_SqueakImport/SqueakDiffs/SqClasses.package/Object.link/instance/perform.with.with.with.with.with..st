@@ -1,4 +1,4 @@
-*SqClasses-message handling
+message handling
 perform: aSymbol with: firstObject with: secondObject with: thirdObject with: fourthObject with: fifthObject
 	"Send the selector, aSymbol, to the receiver with the given arguments.
 	Fail if the number of arguments expected by the selector is not five.

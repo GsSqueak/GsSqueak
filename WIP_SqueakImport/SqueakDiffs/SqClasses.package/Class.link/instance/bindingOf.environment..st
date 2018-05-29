@@ -1,4 +1,4 @@
-*SqClasses-compiling
+compiling
 bindingOf: varName environment: anEnvironment
 	"Answer the binding of some variable resolved in the scope of the receiver"
 	| aSymbol binding |

@@ -1,4 +1,4 @@
-*SqClasses-printing
+printing
 storeOn: aStream 
 	"Refer to the comment in Object|storeOn:." 
 

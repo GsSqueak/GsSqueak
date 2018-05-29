@@ -1,4 +1,4 @@
-*SqClasses-pool variables
+pool variables
 addSharedPool: aSharedPool 
 	"Add the argument, aSharedPool, as one of the receiver's shared pools. 
 	Create an error if the shared pool is already one of the pools.
