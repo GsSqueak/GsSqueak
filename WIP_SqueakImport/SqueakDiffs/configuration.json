@@ -22,10 +22,11 @@
 		],
 	"classesToInitializeFirst" : [
 		"SmalltalkImage",
-		
+
 		"Random",
 		"Color",
 		"Preferences",
+		"Scanner",
 
 		"ExternalSettings",
 		"SecurityManager",
@@ -41,7 +42,16 @@
 	"classesNotToInitialize" : [
 		"Delay",
 		"ChangeSet",
-
+		"ObjectTracer",
+		
+		"UserInterfaceTheme",
+		"TextStyle",
+		"Text",
+		"StrikeFont",
+		"CharacterScanner",
+		"EventSensor",
+		"DateAndTime",
 		"PNGReadWriter",
+		"NaturalLanguageTranslator",
 		"Cursor"
 	]}
