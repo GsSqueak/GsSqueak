@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"openOn:" : "dtl 12/21/2017 22:36",
+		"openOn:initialFilename:" : "dtl 12/21/2017 22:41",
+		"openOn:initialFilename:label:" : "dtl 12/21/2017 22:41",
+		"openOnInitialFilename:" : "dtl 12/21/2017 22:40",
+		"openOnInitialFilename:label:" : "dtl 12/21/2017 22:39" },
+	"instance" : {
+		"acceptFileName" : "tpr 11/9/2017 16:08",
+		"buildWith:" : "mt 1/18/2018 07:59",
+		"initialFilename:" : "tpr 11/22/2017 16:39",
+		"inputText" : "tpr 11/21/2017 15:10",
+		"inputText:" : "tpr 11/21/2017 15:33",
+		"userMessage" : "tpr 11/9/2017 21:12",
+		"windowTitle" : "tpr 10/28/2017 13:08" } }

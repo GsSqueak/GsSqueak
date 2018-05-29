@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-SUnit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"roots" ],
+	"name" : "TreeStub",
+	"pools" : [
+		 ],
+	"super" : "WidgetStub",
+	"type" : "normal" }

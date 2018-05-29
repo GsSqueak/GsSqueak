@@ -1,0 +1,1 @@
+A pluggable text morph with support for color.

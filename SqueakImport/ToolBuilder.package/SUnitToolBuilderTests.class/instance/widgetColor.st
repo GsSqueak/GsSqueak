@@ -1,0 +1,3 @@
+support
+widgetColor
+	^ widget color

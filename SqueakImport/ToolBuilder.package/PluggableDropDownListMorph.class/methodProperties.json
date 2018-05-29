@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"basicPanel" : "rww 9/11/2010 14:22",
+		"currentSelection" : "rww 9/11/2010 13:34",
+		"currentSelection:" : "rww 9/11/2010 13:34",
+		"horizontalPanel" : "rww 9/11/2010 14:22",
+		"installDropDownList" : "topa 7/12/2016 00:18",
+		"list" : "rww 9/11/2010 13:33",
+		"listSelector" : "rww 9/11/2010 13:32",
+		"listSelector:" : "rww 9/11/2010 13:32",
+		"model" : "rww 9/11/2010 13:33",
+		"model:" : "rww 9/11/2010 13:32",
+		"selectionSelector" : "rww 9/11/2010 13:32",
+		"selectionSelector:" : "rww 9/11/2010 13:32",
+		"selectionSetter" : "rww 9/11/2010 13:32",
+		"selectionSetter:" : "rww 9/11/2010 13:32" } }

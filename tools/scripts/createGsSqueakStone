@@ -169,6 +169,13 @@ shift $((OPTIND-1))
 name=$1;
 export name
 
+
+pushd "${GS_HOME}/server/stones/${name}" > /dev/null
+find . -name '*.conf' | xargs sed -i 's/GEM_TEMPOBJ_CACHE_SIZE = 50000;/GEM_TEMPOBJ_CACHE_SIZE = 500000;/g'
+find . -name '*.conf' | xargs sed -i 's/SHR_PAGE_CACHE_SIZE_KB = 500000;/SHR_PAGE_CACHE_SIZE_KB = 5000000;/g'
+popd > /dev/null
+
+
 if [ $FROM_STAGE -le 1 ]; then
   # start import from scratch by creating a stone
   if [ $FROM_STAGE = 0 ]; then
@@ -604,6 +611,7 @@ if [ $FROM_STAGE -le 9 ]; then
   load_package -S '`Tools-Late`'
   load_package -S '`System-Changes`'
   load_package -S '`Multilingual-Languages`'
+  load_package -S '`ToolBuilder`'
 
   echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 9"
   todeBackup $name stage-9.dbf >/dev/null 2>&1
@@ -637,7 +645,7 @@ EOF
   if [ $TILL_STAGE = 10 ]; then
   
   
-    todeIt -D graphics7 gs halt --almostOutOfMemory=65 \; eval "\`     Workspace evaluate: '       Display := DisplayScreen new.       Display setExtent: 800 @ 600 depth: 32.        Display beDisplay.   EventSensor startUp.     MorphicProject new enter  . RectangleMorph new openInWorld. Workspace open.  [true] whileTrue: [Processor yield]'   \`"
+    todeIt -D graphics7 gs halt --almostOutOfMemory=65 \; eval "\`     Workspace evaluate: '       Display := DisplayScreen new.       Display setExtent: 800 @ 600 depth: 32.        Display beDisplay.   EventSensor startUp.     MorphicProject new enter  . RectangleMorph new openInWorld.  StringMorph new openInWorld.  [true] whileTrue: [Processor yield]'   \`"
   
     echo "Exit script after stage $TILL_STAGE because of configuration"
     exit 0

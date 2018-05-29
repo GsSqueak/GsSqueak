@@ -1,0 +1,15 @@
+{
+	"category" : "ToolBuilder-SUnit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"spec",
+		"state" ],
+	"name" : "WidgetStub",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"fromSpec:item:" : "cwp 4/23/2005 00:15" },
+	"instance" : {
+		"children" : "cwp 4/23/2005 00:50",
+		"item" : "cwp 4/23/2005 00:49",
+		"label" : "cwp 4/23/2005 00:57",
+		"matches:" : "cwp 4/23/2005 00:56",
+		"openPath:" : "stephaneducasse 2/3/2006 22:32",
+		"printOn:" : "cwp 4/23/2005 00:54",
+		"select" : "cwp 4/23/2005 00:23",
+		"selectPath:" : "stephaneducasse 2/3/2006 22:32",
+		"setSpec:item:" : "stephaneducasse 2/3/2006 22:32" } }
