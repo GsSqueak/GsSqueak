@@ -1,4 +1,4 @@
 accessing
 birthYear: anObject
-	
-	birthYear := anObject.
+  anObject ifNil: [ ^ birthYear := -1 ].
+  birthYear := anObject
