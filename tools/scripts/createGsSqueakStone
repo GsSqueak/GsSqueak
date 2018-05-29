@@ -121,7 +121,7 @@ restore_backup() {
 # 5 -
 # 6 -
 FROM_STAGE=0
-TILL_STAGE=7 # equals numeber of current stages
+TILL_STAGE=10 # equals numeber of current stages
 CURRENT_STAGE=0
 AUTO_DEBUG=true
 
@@ -148,13 +148,13 @@ done
 
 
 # basic error handling of stages
-if [ \( $FROM_STAGE -gt 7 \) -o \( $FROM_STAGE -lt 0 \) ]; then
-  echo "Invalid FROM stage ${FROM_STAGE}. Please select a stage between 0 and 7"
+if [ \( $FROM_STAGE -gt 10 \) -o \( $FROM_STAGE -lt 0 \) ]; then
+  echo "Invalid FROM stage ${FROM_STAGE}. Please select a stage between 0 and 10"
   exit 1
 fi
 
-if [ \( $TILL_STAGE -gt 7 \) -o \( $TILL_STAGE -lt 0 \) ]; then
-  echo "Invalid TILL stage ${TILL_STAGE}. Please select a stage between 0 and 7"
+if [ \( $TILL_STAGE -gt 10 \) -o \( $TILL_STAGE -lt 0 \) ]; then
+  echo "Invalid TILL stage ${TILL_STAGE}. Please select a stage between 0 and 10"
   exit 1
 fi
 
@@ -362,8 +362,8 @@ if [ $FROM_STAGE -le 3 ]; then
 
   load_package -S '`Collections-Abstract`'
   load_package -S '`Collections-Support`'
-  load_package -S SqCollectionLiterals
-  load_package -S SqCollections
+  load_package -S '`SqCollectionLiterals`'
+  load_package -S '`SqCollections`'
   load_package -S '`Collections-Sequenceable`'
   load_package -S '`Collections-Heap`'
   load_package -S '`Collections-Arrayed`'
@@ -427,6 +427,10 @@ varAndValue := #(
 	(2 to: varAndValue size by: 2) do:
 		[:i | dict at: (varAndValue at: i - 1) put: nil].
 
+dict at: #DefaultTextStyle put: nil.
+dict at: #DefaultTabsArray put: #(24 48 72 96 120 144 168 192 216 240 264 288 312 336 360 384 408 432 456 480 504 528 552 576 600 624 648 672 696 720).
+dict at: #DefaultMarginTabsArray put: #(#(24 24) #(48 48) #(72 72) #(96 96) #(120 120) #(144 144) #(168 168) #(192 192) #(216 216) #(240 240) #(264 264) #(288 288) #(312 312) #(336 336) #(360 360)).
+
 SqueakEnvironment at: #TextConstants put: dict
 %
 commit
@@ -445,7 +449,7 @@ EOF
   load_package -S '`System-Applications`'
 
   load_package -S '`System-Support`'
-  load_package -S SUnit
+  load_package -S '`SUnit`'
   load_package -S '`SqCompiler`'
 
   load_package -S '`System-Preferences`'
@@ -498,12 +502,13 @@ if [ $FROM_STAGE -le 6 ]; then
   load_package -S '`VMMaker`'
   load_package -S '`Graphics-Display Objects`'
 
-  load_package -S SqKernelTestsNumbers
+  load_package -S '`SqKernelTestsNumbers`'
   load_package -S '`KernelTests-Objects`'
   load_package -S '`CollectionsTests-Text`'
 
-  load_package -S System-Recovery
+  load_package -S '`System-Recovery`'
 
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 6"
   todeBackup $name stage-6.dbf >/dev/null 2>&1
 
   if [ $TILL_STAGE = 6 ]; then
@@ -530,18 +535,88 @@ if [ $FROM_STAGE -le 7 ]; then
   load_package -S '`Graphics-Files`'
   load_package -S '`Graphics-Fonts`'
 
-startTopaz $name -l >/dev/null 2>&1 << EOF
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 7"
+  todeBackup $name stage-7.dbf >/dev/null 2>&1
+
+  if [ $TILL_STAGE = 7 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
+
+if [ $FROM_STAGE -le 8 ]; then
+  CURRENT_STAGE=8
+  if [ $FROM_STAGE = 8 ]; then
+    restore_backup $name stage-7.dbf
+  fi
+
+  load_package -S '`ST80-Paths`'
+  load_package -S '`STON`'
+
+echo "
 login
 run
-Workspace evaluate: 'Preferences setSystemFontTo: (StrikeFont createDejaVu: 14)'
+Workspace evaluate: '
+    | textStyle |
+    textStyle := TextStyle new.
+    textStyle newFontArray: { StrikeFont createDejaVu: 14 }.
+    TextConstants at: #DefaultTextStyle put: textStyle
+'
 %
 commit
 logout
 exit
-EOF
+" | startTopaz $name -l > /dev/null
 
-  load_package -SD '`Tools-Menus`'
-  load_package -SD '`Morphic`'
+  load_package -S '`System-Localization`'
+  load_package -S '`Tools-Base`'
+  load_package -S '`Tools-Menus`'
+  load_package -S '`Tools-Inspector`'
+  load_package -S '`Tools-Debugger`'
+  load_package -S '`TrueType`'
+
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 8"
+  todeBackup $name stage-8.dbf >/dev/null 2>&1
+
+  if [ $TILL_STAGE = 8 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
+
+if [ $FROM_STAGE -le 9 ]; then
+  CURRENT_STAGE=9
+  if [ $FROM_STAGE = 9 ]; then
+    restore_backup $name stage-8.dbf
+  fi
+
+  load_package -S '`Tools-yellow button menu`'
+  load_package -S '`System-Themes`'
+  load_package -S '`Collections-Cache`'
+  load_package -S '`Sound`'
+  load_package -S '`Network`'
+  load_package -S '`System-Download`'
+  load_package -S '`Graphics-Transformations`'
+
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 9"
+  todeBackup $name stage-9.dbf >/dev/null 2>&1
+
+  if [ $TILL_STAGE = 9 ]; then
+    echo "Exit script after stage $TILL_STAGE because of configuration"
+    exit 0
+  fi
+fi
+
+if [ $FROM_STAGE -le 10 ]; then
+  CURRENT_STAGE=10
+  if [ $FROM_STAGE = 10 ]; then
+    restore_backup $name stage-9.dbf
+  fi
+
+  load_package -S '`TheWorldMenu`'
+  load_package -S '`Tools-Browser`'
+  load_package -S '`Morphic`'
+  load_package -S '`Tools-Late`'
 
 run_topaz $name << EOF
 login
@@ -555,9 +630,9 @@ EOF
 
   todeBackup $name full.dbf >/dev/null 2>&1
 
-  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 6"
+  echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 10"
 
-  if [ $TILL_STAGE = 7 ]; then
+  if [ $TILL_STAGE = 10 ]; then
     echo "Exit script after stage $TILL_STAGE because of configuration"
     exit 0
   fi
