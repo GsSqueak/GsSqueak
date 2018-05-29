@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"coeffs" : "zz 3/2/2004 08:13",
+		"coeffs:" : "di 10/31/1998 12:23",
+		"convolveAndDec:dataLen:filter:out:" : "di 10/31/1998 09:20",
+		"convolveAndInt:dataLen:filter:sumOutput:into:" : "ls 10/10/1999 13:13",
+		"doWaveDemo" : "di 10/31/1998 12:25",
+		"dotpData:endIndex:filter:start:stop:inc:" : "di 10/31/1998 12:55",
+		"meanSquareError:" : "di 10/30/1998 15:58",
+		"nSamples:nLevels:" : "di 10/31/1998 12:23",
+		"samples" : "di 10/31/1998 12:26",
+		"samples:" : "di 10/31/1998 12:25",
+		"setAlpha:beta:" : "di 10/30/1998 10:59",
+		"transformForward:" : "di 10/30/1998 15:53",
+		"viewPhiAndPsi" : "nice 12/25/2013 22:08" } }

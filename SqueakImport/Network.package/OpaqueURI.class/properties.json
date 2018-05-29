@@ -1,0 +1,14 @@
+{
+	"category" : "Network-URI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OpaqueURI",
+	"pools" : [
+		 ],
+	"super" : "URI",
+	"type" : "normal" }

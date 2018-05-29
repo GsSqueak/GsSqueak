@@ -1,0 +1,3 @@
+accessing
+defaultBaseURL
+	^DefaultBaseURL ifNil: ['']

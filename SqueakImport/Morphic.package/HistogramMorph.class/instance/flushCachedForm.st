@@ -1,0 +1,4 @@
+initialization
+flushCachedForm
+
+	cachedForm := nil.

@@ -1,0 +1,14 @@
+{
+	"category" : "TrueType-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"points" ],
+	"name" : "TTContourConstruction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

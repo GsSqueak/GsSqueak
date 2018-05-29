@@ -1,0 +1,29 @@
+{
+	"category" : "Morphic-MorphicExtras-SoundInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sound",
+		"soundName",
+		"envelope",
+		"hScale",
+		"vScale",
+		"graphArea",
+		"pixPerTick",
+		"limits",
+		"limitXs",
+		"limitHandles",
+		"line",
+		"prevMouseDown",
+		"sampleDuration",
+		"showAllEnvelopes",
+		"denominator",
+		"keyboard" ],
+	"name" : "EnvelopeEditorMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

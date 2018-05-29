@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"includeInNewMorphMenu" : "di 1/16/2000 10:39" },
+	"instance" : {
+		"continue" : "djp 10/31/1999 19:36",
+		"initialize" : "dgd 3/7/2003 14:36",
+		"pause" : "djp 10/31/1999 21:58",
+		"reset" : "djp 10/23/1999 21:46",
+		"resume" : "djp 10/31/1999 19:02",
+		"start" : "djp 10/23/1999 21:35",
+		"step" : "djp 10/24/1999 01:12",
+		"stepTime" : "djp 10/23/1999 21:27",
+		"stop" : "djp 10/31/1999 21:44",
+		"updateTime" : "djp 10/24/1999 01:12" } }

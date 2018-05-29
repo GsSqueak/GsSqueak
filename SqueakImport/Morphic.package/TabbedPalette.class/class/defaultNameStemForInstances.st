@@ -1,0 +1,3 @@
+printing
+defaultNameStemForInstances
+	^ 'tabbedPalette' translatedNoop

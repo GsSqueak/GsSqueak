@@ -1,0 +1,15 @@
+{
+	"category" : "Network-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"cache",
+		"sequence" ],
+	"name" : "Password",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,22 @@
+{
+	"category" : "Morphic-MorphicExtras-SoundInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"whiteKeyColor",
+		"blackKeyColor",
+		"playingKeyColor",
+		"nOctaves",
+		"target",
+		"noteOnSelector",
+		"noteOffSelector",
+		"soundPrototype",
+		"soundPlaying" ],
+	"name" : "PianoKeyboardMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

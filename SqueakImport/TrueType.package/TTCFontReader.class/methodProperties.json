@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"encodingTag:" : "yo 2/15/2004 18:45" },
+	"instance" : {
+		"getTableDirEntry:from:offset:" : "yo 11/8/2002 15:12",
+		"parseTTCHeaderFrom:" : "yo 11/8/2002 15:47",
+		"processCharMap:" : "vv 8/29/2015 00:52",
+		"readFrom:" : "topa 3/19/2015 02:33",
+		"readFrom:fromOffset:at:" : "ul 4/24/2017 01:53",
+		"readTTFFrom:" : "yo 2/15/2004 18:43" } }

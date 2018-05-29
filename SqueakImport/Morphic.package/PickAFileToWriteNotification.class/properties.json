@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PickAFileToWriteNotification",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

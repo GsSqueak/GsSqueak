@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addMorphsTo:pianoRoll:eventTime:betweenTime:and:" : "RAA 12/7/2000 12:36",
+		"defaultColor" : "dgd 2/14/2003 22:31",
+		"encounteredAtTime:inScorePlayer:atIndex:inEventTrack:secsPerTick:" : "RAA 12/7/2000 12:29",
+		"initialize" : "dgd 2/14/2003 21:39",
+		"justDroppedIntoPianoRoll:event:" : "RAA 12/9/2000 18:48",
+		"releaseCachedState" : "tak 4/23/2007 20:45",
+		"sound:" : "nice 12/25/2013 21:56" } }

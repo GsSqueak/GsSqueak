@@ -11,5 +11,5 @@ atomicUpdatePreferences: aBlock
 			ifNotNil: [ :dictionary | dictionary copy ].
 		aBlock value: copyOfPreferences.
 		originalPreferences == preferencesDictionary ifTrue: [
-	 		preferencesDictionary := copyOfPreferences.
+	 		self preferencesDictionary: copyOfPreferences.
 			^self ] ] repeat

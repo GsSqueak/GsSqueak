@@ -1,0 +1,3 @@
+initialize
+lineGlyph: ignore
+	^self

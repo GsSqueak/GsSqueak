@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"descriptionForPartsBin" : "tak 7/25/2007 00:10" },
+	"instance" : {
+		"buildKeyboard" : "nice 12/29/2010 14:56",
+		"defaultColor" : "dgd 2/14/2003 22:29",
+		"initialize" : "tfel 8/9/2016 14:56",
+		"mouseDownEvent:noteMorph:pitch:" : "ar 3/18/2001 17:27",
+		"mouseDownPitch:event:noteMorph:" : "ar 3/17/2001 14:27",
+		"mouseMoveEvent:noteMorph:pitch:" : "ar 3/18/2001 17:27",
+		"mouseMovePitch:event:noteMorph:" : "ar 3/17/2001 14:28",
+		"mouseUpEvent:noteMorph:pitch:" : "ar 3/18/2001 17:28",
+		"mouseUpPitch:event:noteMorph:" : "ar 3/17/2001 14:29",
+		"soundPrototype:" : "di 9/4/1998 12:57" } }

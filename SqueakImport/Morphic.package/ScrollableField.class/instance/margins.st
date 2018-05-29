@@ -1,0 +1,3 @@
+accessing
+margins
+	^ textMorph margins

@@ -1,0 +1,24 @@
+{
+	"category" : "Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"goal",
+		"parents",
+		"toDo",
+		"toDoNext",
+		"hasGemStone",
+		"pointerList",
+		"objectList",
+		"parentsSize",
+		"todoSize",
+		"depth",
+		"pointerListIndex" ],
+	"name" : "PointerFinder",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

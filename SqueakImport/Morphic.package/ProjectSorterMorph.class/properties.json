@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-Navigators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sizeOfEachMorph" ],
+	"name" : "ProjectSorterMorph",
+	"pools" : [
+		 ],
+	"super" : "BookPageSorterMorph",
+	"type" : "normal" }

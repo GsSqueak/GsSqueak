@@ -1,0 +1,16 @@
+{
+	"category" : "ST80-Paths",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"quadrant",
+		"radius",
+		"center" ],
+	"name" : "Arc",
+	"pools" : [
+		 ],
+	"super" : "Path",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Tools-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodClass",
+		"methodSelector" ],
+	"name" : "MethodHolder",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

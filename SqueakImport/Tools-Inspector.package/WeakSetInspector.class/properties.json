@@ -1,0 +1,14 @@
+{
+	"category" : "Tools-Inspector",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"flagObject" ],
+	"name" : "WeakSetInspector",
+	"pools" : [
+		 ],
+	"super" : "SetInspector",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+When an instance of GrabPatchMorph is dropped by the user, it signals a desire to do a screen-grab of a rectangular area.

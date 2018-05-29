@@ -1,0 +1,14 @@
+{
+	"category" : "System-Download",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cachedName" ],
+	"name" : "CachedHTTPDownloadRequest",
+	"pools" : [
+		 ],
+	"super" : "HTTPDownloadRequest",
+	"type" : "normal" }

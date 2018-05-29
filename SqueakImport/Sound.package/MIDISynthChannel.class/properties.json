@@ -1,0 +1,21 @@
+{
+	"category" : "Sound-Scores",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"channel",
+		"instrument",
+		"muted",
+		"masterVolume",
+		"channelVolume",
+		"pan",
+		"pitchBend",
+		"activeSounds" ],
+	"name" : "MIDISynthChannel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

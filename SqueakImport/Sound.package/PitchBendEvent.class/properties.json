@@ -1,0 +1,15 @@
+{
+	"category" : "Sound-Scores",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bend",
+		"channel" ],
+	"name" : "PitchBendEvent",
+	"pools" : [
+		 ],
+	"super" : "AbstractScoreEvent",
+	"type" : "normal" }

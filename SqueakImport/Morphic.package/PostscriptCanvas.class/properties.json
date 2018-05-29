@@ -1,0 +1,29 @@
+{
+	"category" : "Morphic-MorphicExtras-Postscript Canvases",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"FontMap" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"origin",
+		"clipRect",
+		"currentColor",
+		"shadowColor",
+		"currentFont",
+		"morphLevel",
+		"gstateStack",
+		"fontMap",
+		"usedFonts",
+		"psBounds",
+		"topLevelMorph",
+		"initialScale",
+		"savedMorphExtent",
+		"currentTransformation",
+		"printSpecs",
+		"pages" ],
+	"name" : "PostscriptCanvas",
+	"pools" : [
+		 ],
+	"super" : "Canvas",
+	"type" : "normal" }

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"initialize" : "asm 4/11/2003 10:03",
+		"registerInFlapsRegistry" : "KR 8/12/2007 10:56",
+		"supplementaryPartsDescriptions" : "sw 9/10/2007 01:24",
+		"unload" : "asm 4/11/2003 12:38" },
+	"instance" : {
+		"drawPostscriptOn:" : "ar 11/26/2001 23:15",
+		"scale:" : "nk 9/4/2004 11:57" } }

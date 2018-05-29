@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-MorphicExtras-SqueakPage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GlobalPolicy",
+		"PageCache" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SqueakPageCache",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

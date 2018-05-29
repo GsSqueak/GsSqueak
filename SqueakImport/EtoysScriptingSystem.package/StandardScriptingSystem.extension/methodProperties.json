@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCustomEventFor:named:help:targetMorphClass:" : "nk 11/1/2004 07:47",
+		"addUserCustomEventNamed:help:" : "nk 9/26/2003 23:23",
+		"customEventNamesAndHelpStringsFor:" : "ul 3/13/2017 03:19",
+		"customEventStati" : "nk 9/26/2003 23:31",
+		"customEventsRegistry" : "ar 3/5/2010 21:13",
+		"globalCustomEventNames" : "nk 9/26/2003 23:30",
+		"globalCustomEventNamesFor:" : "ul 3/13/2017 03:19",
+		"removeCustomEventNamed:for:" : "nk 7/20/2003 12:37",
+		"removeUserCustomEventNamed:" : "nk 9/26/2003 23:26",
+		"standardEventStati" : "KR 3/18/2008 00:06",
+		"statusHelpStringFor:" : "cmm 9/9/2015 17:41",
+		"userCustomEventNames" : "nk 9/26/2003 23:22" } }

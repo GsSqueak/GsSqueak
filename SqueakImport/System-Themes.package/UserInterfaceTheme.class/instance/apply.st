@@ -11,10 +11,13 @@ apply
 		self class clientClassesToReapply in: [:cc |
 			cc do: [:eachClass | eachClass applyUserInterfaceTheme].
 			Cursor wait showWhile: [
-				SystemNavigation default allObjectsDo: [:o |
+			
+			    "allObjectsDo is not yet supported in GsSqueak"
+			    
+				"SystemNavigation default allObjectsDo: [:o |
 					((cc includes: o class)
 						and: [o canApplyUserInterfaceTheme])
-							ifTrue: [o applyUserInterfaceTheme]]]].
+							ifTrue: [o applyUserInterfaceTheme]] " ]].
 	]. "fix fonts"
 			
-	Project current restoreDisplay.
+	"Project current restoreDisplay."

@@ -1,0 +1,4 @@
+configuring
+clearCharacterMappings
+
+	MacToPSCharacterMappings := nil.

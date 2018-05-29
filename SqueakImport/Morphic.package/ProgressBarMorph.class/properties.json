@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-MorphicExtras-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value",
+		"progressColor",
+		"lastValue" ],
+	"name" : "ProgressBarMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

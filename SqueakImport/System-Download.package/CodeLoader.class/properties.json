@@ -1,0 +1,18 @@
+{
+	"category" : "System-Download",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultBaseURL",
+		"DefaultKey" ],
+	"commentStamp" : "hjh 4/22/2010 12:58",
+	"instvars" : [
+		"baseURL",
+		"sourceFiles",
+		"segments",
+		"publicKey" ],
+	"name" : "CodeLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

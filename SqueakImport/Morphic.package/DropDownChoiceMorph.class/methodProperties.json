@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"initialize" : "bolot 11/2/1999 12:19" },
+	"instance" : {
+		"border" : "bolot 11/2/1999 12:20",
+		"border:" : "bolot 11/2/1999 12:20",
+		"drawOn:" : "ar 12/31/2001 02:35",
+		"getCurrentSelectionIndex" : "bolot 11/2/1999 12:21",
+		"items" : "bolot 11/2/1999 12:20",
+		"items:" : "bolot 11/2/1999 12:20",
+		"maxExtent:" : "nice 12/27/2009 03:10",
+		"mouseDown:" : "ar 8/6/2009 20:07",
+		"selection:" : "bolot 11/2/1999 12:21",
+		"veryDeepInner:" : "bolot 11/2/1999 12:17" } }

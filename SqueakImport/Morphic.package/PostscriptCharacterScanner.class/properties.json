@@ -1,0 +1,20 @@
+{
+	"category" : "Morphic-MorphicExtras-Postscript Canvases",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"canvas",
+		"paragraph",
+		"bounds",
+		"curPos",
+		"font",
+		"foregroundColor",
+		"emphasis" ],
+	"name" : "PostscriptCharacterScanner",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "Object",
+	"type" : "normal" }

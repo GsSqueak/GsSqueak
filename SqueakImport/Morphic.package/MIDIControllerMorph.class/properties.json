@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-MorphicExtras-SoundInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"channel",
+		"controller",
+		"midiPort",
+		"lastValue" ],
+	"name" : "MIDIControllerMorph",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }

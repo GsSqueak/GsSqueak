@@ -1,0 +1,4 @@
+accessing
+translationSuffix
+
+	^'translation'

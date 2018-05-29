@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-Postscript Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ByteEncoder",
+	"pools" : [
+		 ],
+	"super" : "FlattenEncoder",
+	"type" : "normal" }

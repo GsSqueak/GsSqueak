@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"openBrowser" : "tpr 10/17/2017 16:37" },
+	"instance" : {
+		"buildAndOpenBrowserLabel:" : "tpr 10/18/2017 15:12",
+		"buildClassBrowserEditString:" : "tpr 10/10/2017 10:07",
+		"buildDefaultBrowserWith:" : "tpr 10/18/2017 15:45",
+		"classList" : "tpr 10/13/2017 16:33",
+		"classListIndex:" : "jr 10/25/2016 16:09",
+		"copyClass" : "mt 3/16/2016 13:54",
+		"defaultBrowserTitle" : "cmm 4/26/2015 17:17",
+		"defineClass:notifying:" : "mt 3/16/2016 13:54",
+		"defineTrait:notifying:" : "mt 3/16/2016 13:53",
+		"initHierarchyForClass:" : "jr 10/22/2016 14:39",
+		"isHierarchy" : "tpr 10/15/2017 17:15",
+		"postAcceptBrowseFor:" : "cmm 5/12/2011 18:03",
+		"removeSystemCategory" : "tk 4/3/98 11:22",
+		"renameClass" : "mt 3/16/2016 13:52",
+		"representsSameBrowseeAs:" : "fbs 3/9/2011 11:43",
+		"selectClassNamed:" : "fbs 3/16/2011 10:51",
+		"selectedClassName" : "fbs 3/5/2011 22:31",
+		"setClass:" : "mt 1/22/2016 13:38",
+		"setupIfNotInitialisedYet" : "tpr 10/18/2017 16:39",
+		"systemCatSingletonKey:from:" : "tpr 10/15/2017 17:13",
+		"systemCatSingletonMenu:" : "tpr 10/15/2017 17:13",
+		"systemCategorySingleton" : "di 4/26/2000 20:20",
+		"updateAfterClassChange" : "rhi 12/2/2001 21:32" } }

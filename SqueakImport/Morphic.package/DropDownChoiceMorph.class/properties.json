@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-MorphicExtras-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SubMenuMarker" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"items",
+		"border" ],
+	"name" : "DropDownChoiceMorph",
+	"pools" : [
+		 ],
+	"super" : "PopUpChoiceMorph",
+	"type" : "normal" }

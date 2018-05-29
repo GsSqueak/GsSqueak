@@ -1,0 +1,3 @@
+menu
+changeTabGraphic
+	submorphs first chooseNewGraphicCoexisting: true

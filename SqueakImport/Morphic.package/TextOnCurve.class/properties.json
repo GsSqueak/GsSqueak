@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-MorphicExtras-Text Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CachedWarpColor",
+		"CachedWarpDepth",
+		"CachedWarpMap" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"lastCharacterIndex",
+		"curve" ],
+	"name" : "TextOnCurve",
+	"pools" : [
+		 ],
+	"super" : "NewParagraph",
+	"type" : "normal" }

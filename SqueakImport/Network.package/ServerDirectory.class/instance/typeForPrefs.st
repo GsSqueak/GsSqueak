@@ -1,0 +1,4 @@
+accessing
+typeForPrefs
+
+	^self typeWithDefault

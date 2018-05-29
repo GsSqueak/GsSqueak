@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"browseClassesSatisfying:title:" : "tpr 10/12/2017 14:39",
+		"example1" : "ul 8/14/2015 18:01",
+		"example2" : "tpr 10/12/2017 14:43",
+		"example3" : "sw 7/27/2002 16:03",
+		"example4" : "sw 7/27/2002 16:04",
+		"example5" : "sw 7/27/2002 14:32",
+		"example6" : "sw 7/27/2002 14:33",
+		"newOnAllClasses" : "tpr 10/18/2017 15:47",
+		"newOnClassesNamed:label:" : "tpr 10/17/2017 16:33" },
+	"instance" : {
+		"defaultBrowserTitle" : "tpr 10/17/2017 17:16",
+		"defaultTitle:" : "sw 7/18/2002 22:42",
+		"initAlphabeticListing" : "fbs 3/9/2011 11:42",
+		"initForClassesNamed:" : "tpr 10/12/2017 14:32",
+		"labelString" : "sw 7/18/2002 22:43",
+		"setupIfNotInitialisedYet" : "tpr 10/18/2017 16:40" } }

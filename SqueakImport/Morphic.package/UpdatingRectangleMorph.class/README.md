@@ -1,0 +1,1 @@
+Intended for use as a color swatch coupled to a color obtained from the target, but made just slightly more general than that.

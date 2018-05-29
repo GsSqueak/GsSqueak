@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addGraphic" : "dtl 11/12/2017 10:39",
+		"appendSample:" : "jdl 3/28/2003 09:38",
+		"conePosition" : "jm 4/21/1999 10:18",
+		"conePosition:" : "jm 4/22/1999 16:46",
+		"defaultColor" : "dgd 3/7/2003 14:51",
+		"flushBuffer" : "jm 4/22/1999 13:29",
+		"initialize" : "dgd 3/7/2003 14:51",
+		"speakerGraphic" : "jm 4/22/1999 22:58",
+		"stopSound" : "jm 4/22/1999 15:33" } }

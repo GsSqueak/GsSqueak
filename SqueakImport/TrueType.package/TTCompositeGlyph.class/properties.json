@@ -1,0 +1,14 @@
+{
+	"category" : "TrueType-Fonts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"glyphs" ],
+	"name" : "TTCompositeGlyph",
+	"pools" : [
+		 ],
+	"super" : "TTGlyph",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+editing
+chooseStyle
+	textMorph chooseStyle

@@ -1,0 +1,1 @@
+I am an ImageMorph that can hold more than one image. Each image has its own delay time.

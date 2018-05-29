@@ -1,0 +1,4 @@
+private testing
+wantsStarttls
+
+	^ false

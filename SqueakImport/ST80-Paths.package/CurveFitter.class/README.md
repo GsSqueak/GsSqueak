@@ -1,0 +1,1 @@
+I represent a conic section determined by three points p1, p2 and p3. I interpolate p1 and p3 and am tangent to line p1, p2 at p1 and line p3, p2 at p3.

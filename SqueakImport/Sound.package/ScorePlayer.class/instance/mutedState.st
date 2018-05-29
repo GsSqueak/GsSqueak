@@ -1,0 +1,4 @@
+accessing
+mutedState
+
+	^ muted

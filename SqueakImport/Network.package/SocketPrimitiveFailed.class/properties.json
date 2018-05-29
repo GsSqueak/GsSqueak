@@ -1,0 +1,14 @@
+{
+	"category" : "Network-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SocketPrimitiveFailed",
+	"pools" : [
+		 ],
+	"super" : "NetworkError",
+	"type" : "normal" }

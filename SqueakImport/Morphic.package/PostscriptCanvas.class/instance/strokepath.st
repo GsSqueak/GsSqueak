@@ -1,0 +1,6 @@
+private
+strokepath
+	^target strokepath.
+
+
+              

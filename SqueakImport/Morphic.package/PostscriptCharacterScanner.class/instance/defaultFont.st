@@ -1,0 +1,3 @@
+accessing
+defaultFont
+	^ TextStyle defaultFont

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"initialize" : "mt 4/6/2016 12:51",
+		"unload" : "topa 4/2/2015 10:37" },
+	"instance" : {
+		"beep" : "mt 4/6/2016 09:59",
+		"playSampledSound:rate:" : "mt 4/6/2016 09:58",
+		"playSound:" : "mt 4/6/2016 09:58",
+		"playSoundNamed:" : "mt 4/6/2016 09:58",
+		"playSoundNamed:ifAbsentReadFrom:" : "mt 4/6/2016 09:58",
+		"playSoundNamedOrBeep:" : "mt 4/6/2016 09:58",
+		"randomBitsFromSoundInput:" : "stephaneducasse 2/4/2006 20:40",
+		"sampledSoundChoices" : "ads 7/30/2003 22:18",
+		"shutDown" : "mt 4/6/2016 17:32",
+		"soundNamed:" : "ads 7/30/2003 23:17" } }

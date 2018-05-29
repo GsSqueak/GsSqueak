@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-MorphicExtras-SoundInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"graphic",
+		"sound" ],
+	"name" : "InterimSoundMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

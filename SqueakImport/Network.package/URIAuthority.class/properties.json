@@ -1,0 +1,16 @@
+{
+	"category" : "Network-URI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"host",
+		"port",
+		"userInfo" ],
+	"name" : "URIAuthority",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

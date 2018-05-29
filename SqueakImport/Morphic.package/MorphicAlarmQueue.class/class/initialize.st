@@ -1,3 +1,5 @@
 class initialization
 initialize
-	self convertAllAlarms.
+    "on GsSqueak bootstrap, there should be no instaces.
+    avoid converting them because we don't support allInstances"
+	"self convertAllAlarms."

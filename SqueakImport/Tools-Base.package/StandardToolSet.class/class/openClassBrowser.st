@@ -1,0 +1,3 @@
+menu
+openClassBrowser
+	SystemBrowser default open

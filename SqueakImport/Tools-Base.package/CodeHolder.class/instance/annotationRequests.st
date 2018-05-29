@@ -1,0 +1,3 @@
+annotation
+annotationRequests
+	^ Preferences defaultAnnotationRequests

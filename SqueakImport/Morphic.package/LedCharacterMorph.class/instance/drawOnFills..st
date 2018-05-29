@@ -1,0 +1,4 @@
+drawing
+drawOnFills: aRectangle
+
+	^ true

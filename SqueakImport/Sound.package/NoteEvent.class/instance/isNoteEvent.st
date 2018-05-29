@@ -1,0 +1,4 @@
+classification
+isNoteEvent
+
+	^ true

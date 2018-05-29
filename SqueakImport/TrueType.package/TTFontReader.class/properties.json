@@ -1,0 +1,19 @@
+{
+	"category" : "TrueType-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"charMap",
+		"glyphs",
+		"nGlyphs",
+		"kernPairs",
+		"infoBar",
+		"fontDescription" ],
+	"name" : "TTFontReader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"includeInNewMorphMenu" : "RAA 2/22/2001 09:08" },
+	"instance" : {
+		"buttonColor" : "RAA 9/18/2000 10:50",
+		"buttonNamed:action:color:help:" : "dgd 4/3/2006 13:18",
+		"cancelButton" : "mt 8/24/2016 10:46",
+		"defaultBorderColor" : "dgd 2/14/2003 22:34",
+		"defaultBorderWidth" : "dgd 2/14/2003 22:38",
+		"defaultColor" : "dgd 2/14/2003 22:27",
+		"doCancel" : "RAA 9/18/2000 11:24",
+		"doPreview" : "RAA 9/18/2000 11:42",
+		"doPrint" : "RAA 9/18/2000 11:42",
+		"getChoice:" : "RAA 2/22/2001 07:36",
+		"initialize" : "dgd 2/14/2003 19:52",
+		"previewButton" : "RAA 9/18/2000 10:51",
+		"printButton" : "RAA 9/18/2000 10:49",
+		"printSpecs:printBlock:" : "RAA 9/18/2000 11:26",
+		"rebuild" : "RAA 2/22/2001 07:51",
+		"toggleChoice:" : "RAA 2/22/2001 07:50" } }
