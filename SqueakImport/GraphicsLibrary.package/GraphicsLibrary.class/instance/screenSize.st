@@ -2,7 +2,7 @@ as yet unclassified
 screenSize
   | cArray cArrayClass |
   cArrayClass := GemstoneSmalltalk _env0 classNamed: #CByteArray.
-  cArray := cArrayClass gcMalloc: 8.
+  cArray := cArrayClass _env0 gcMalloc: 8.
   getSizeCo
     _env0 callWith:
       {(self defaultWindow).

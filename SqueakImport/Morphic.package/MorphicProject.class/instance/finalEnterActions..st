@@ -7,15 +7,17 @@ finalEnterActions: leavingProject
 	Smalltalk globals at: #World
 		ifPresent: [ :w | Smalltalk globals at: #World put: world ].
 	world install.
-	world transferRemoteServerFrom: leavingProject world.
+	leavingProject ifNotNil: [
+  	world transferRemoteServerFrom: leavingProject world].
 	"(revertFlag | saveForRevert | forceRevert) ifFalse: [
 		(Preferences valueOfFlag: #projectsSentToDisk) ifTrue: [
 			self storeSomeSegment]]."
 	
 	"Transfer event recorder to me."
-	leavingProject isMorphic ifTrue: [
-		leavingProject world pauseEventRecorder ifNotNil: [:rec |
-			rec resumeIn: world]].
+	leavinProject ifNotNil: [
+    leavingProject isMorphic ifTrue: [
+	    leavingProject world pauseEventRecorder ifNotNil: [:rec |
+		    rec resumeIn: world]]].
 
 	world triggerOpeningScripts.
 

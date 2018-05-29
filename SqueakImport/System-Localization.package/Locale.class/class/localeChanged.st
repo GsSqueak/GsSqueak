@@ -1,4 +1,3 @@
 notification
 localeChanged
-	SystemNavigation default allBehaviorsDo: [:b |
-		b == self ifFalse: [b localeChanged]].
+	"does nothing in GsSqueak"
