@@ -3,8 +3,19 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"EndianCache",
+		"LastImageName",
+		"LastQuitLogPosition",
+		"LastStats",
+		"LowSpaceProcess",
+		"LowSpaceSemaphore",
+		"MemoryHogs",
+		"ShutDownList",
+		"SourceFileVersionString",
+		"StartUpList",
+		"StartupStamp",
+		"WordSize" ],
+	"commentStamp" : "dtl 3/6/2010 14:00",
 	"instvars" : [
 		"globals",
 		"specialObjectsArray" ],

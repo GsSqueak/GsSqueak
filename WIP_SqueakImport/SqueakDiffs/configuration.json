@@ -7,6 +7,10 @@
 		"SUnit",
 		"Chronology"
 		],
+	"classesToLoad" : [
+		"Environment",
+		"Scanner"
+	],
 	"classesNotToLoad" : [
 		"True",
 		"False",
@@ -15,4 +19,29 @@
 		"FullBlockClosure",
 		"CompiledCode",
 		"CompiledBlock"
-		]}
+		],
+	"classesToInitializeFirst" : [
+		"SmalltalkImage",
+		
+		"Random",
+		"Color",
+		"Preferences",
+
+		"ExternalSettings",
+		"SecurityManager",
+		"LanguageEnvironment",
+		"FileStream",
+		"AutoStart",
+
+		"String",
+		"WideString",
+		"Symbol",
+		"WideSymbol"
+		],
+	"classesNotToInitialize" : [
+		"Delay",
+		"ChangeSet",
+
+		"PNGReadWriter",
+		"Cursor"
+	]}
