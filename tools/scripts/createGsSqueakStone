@@ -598,6 +598,13 @@ if [ $FROM_STAGE -le 9 ]; then
   load_package -S '`System-Download`'
   load_package -S '`Graphics-Transformations`'
 
+  load_package -S '`TheWorldMenu`'
+  load_package -S '`Tools-Browser`'
+  load_package -S '`Morphic`'
+  load_package -S '`Tools-Late`'
+  load_package -S '`System-Changes`'
+  load_package -S '`Multilingual-Languages`'
+
   echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 9"
   todeBackup $name stage-9.dbf >/dev/null 2>&1
 
@@ -612,11 +619,6 @@ if [ $FROM_STAGE -le 10 ]; then
   if [ $FROM_STAGE = 10 ]; then
     restore_backup $name stage-9.dbf
   fi
-
-  load_package -S '`TheWorldMenu`'
-  load_package -S '`Tools-Browser`'
-  load_package -S '`Morphic`'
-  load_package -S '`Tools-Late`'
 
 run_topaz $name << EOF
 login
@@ -633,10 +635,13 @@ EOF
   echo -e "[ ${GREEN}SUCCESS${NC} ] STAGE 10"
 
   if [ $TILL_STAGE = 10 ]; then
+  
+  
+    todeIt -D graphics7 gs halt --almostOutOfMemory=65 \; eval "\`     Workspace evaluate: '       Display := DisplayScreen new.       Display setExtent: 800 @ 600 depth: 32.        Display beDisplay.   EventSensor startUp.     MorphicProject new enter  . RectangleMorph new openInWorld. Workspace open.  [true] whileTrue: [Processor yield]'   \`"
+  
     echo "Exit script after stage $TILL_STAGE because of configuration"
     exit 0
   fi
 fi
-
 
 echo "self error: 'the author is confused'"
