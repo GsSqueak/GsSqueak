@@ -1,1 +1,3 @@
-*SqClasses-*SqClasses-*SqClasses-system attributesisLittleEndian	^self endianness == #little
+system attributes
+isLittleEndian
+	^self endianness == #little

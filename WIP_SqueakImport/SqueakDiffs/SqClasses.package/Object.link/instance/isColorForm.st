@@ -1,1 +1,3 @@
-*SqClasses-testingisColorForm	^false
+testing
+isColorForm
+	^false

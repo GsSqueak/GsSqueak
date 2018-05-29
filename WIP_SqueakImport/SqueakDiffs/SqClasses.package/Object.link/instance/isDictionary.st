@@ -1,1 +1,3 @@
-*SqClasses-testingisDictionary	^false
+testing
+isDictionary
+	^false

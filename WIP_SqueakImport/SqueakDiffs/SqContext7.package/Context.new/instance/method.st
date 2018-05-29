@@ -1,1 +1,3 @@
-*SqContext7method	^ self _env0 method
+*SqContext7
+method
+	^ self _env0 method

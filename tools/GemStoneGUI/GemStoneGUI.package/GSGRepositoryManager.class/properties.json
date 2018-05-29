@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSGRepositoryManager",
+	"pools" : [
+		 ],
+	"super" : "GSGTool",
+	"type" : "normal" }

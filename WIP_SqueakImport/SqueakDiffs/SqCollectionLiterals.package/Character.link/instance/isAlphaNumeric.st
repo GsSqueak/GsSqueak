@@ -1,1 +1,3 @@
-*SqCharacter-testingisAlphaNumeric	^ self _env0 isAlphaNumeric
+testing
+isAlphaNumeric
+	^ self _env0 isAlphaNumeric

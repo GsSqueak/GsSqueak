@@ -3,8 +3,7 @@
 		 },
 	"instance" : {
 		"environment" : "sl 5/21/2018 20:25",
-		"environmentId" : "sl 5/21/2018 20:23",
-		"evaluateExpression:" : "sl 5/21/2018 20:23",
+		"evaluateExpression:" : "sl 5/26/2018 20:20",
 		"initialExtent" : "sl 5/21/2018 20:14",
-		"wantsAnnotationPane" : "sl 5/21/2018 20:00",
+		"wantsFooter" : "sl 5/27/2018 17:37",
 		"wantsOptionalButtons" : "sl 5/21/2018 20:01" } }

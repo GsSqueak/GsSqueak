@@ -1,1 +1,4 @@
-*SqClasses-comparingliteralEqual: other	^ self class == other class and: [self = other]
+comparing
+literalEqual: other
+
+	^ self class == other class and: [self = other]

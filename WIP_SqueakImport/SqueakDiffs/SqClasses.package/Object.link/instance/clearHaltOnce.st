@@ -1,1 +1,4 @@
-*SqClasses-debugging-haltOnceclearHaltOnce	"Turn on the halt once flag."	Smalltalk at: #HaltOnce put: false
+debugging-haltOnce
+clearHaltOnce
+	"Turn on the halt once flag."
+	Smalltalk at: #HaltOnce put: false

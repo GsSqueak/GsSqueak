@@ -1,5 +1,17 @@
 {
 	"class" : {
-		 },
+		"availableRepositoryTypes" : "sl 5/26/2018 10:52",
+		"chooseOrOpenRepository" : "sl 5/26/2018 22:05",
+		"chooseRepositoryType" : "sl 5/26/2018 16:22",
+		"description" : "sl 5/26/2018 16:15",
+		"instances" : "sl 5/26/2018 21:48",
+		"isAbstract" : "sl 5/26/2018 10:53",
+		"label" : "sl 5/26/2018 21:57",
+		"open" : "sl 5/26/2018 16:24",
+		"openRepositories" : "sl 5/26/2018 21:48",
+		"openRepository" : "sl 5/26/2018 16:21" },
 	"instance" : {
-		 } }
+		"availableEnvironmentTypes" : "sl 5/26/2018 19:28",
+		"chooseEnvironment" : "sl 5/26/2018 19:27",
+		"chooseEnvironmentType" : "sl 5/26/2018 19:35",
+		"label" : "sl 5/26/2018 21:54" } }

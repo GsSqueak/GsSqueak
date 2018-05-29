@@ -1,12 +1,12 @@
 {
-	"category" : "GemStoneGUI-Proxies",
+	"category" : "GemStoneGUI-GemStone",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"environmentId" ],
 	"name" : "GSGGemStoneEnvironmentProxy",
 	"pools" : [
 		 ],

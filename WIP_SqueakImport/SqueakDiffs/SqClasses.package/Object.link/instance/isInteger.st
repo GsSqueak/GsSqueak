@@ -1,1 +1,5 @@
-*SqClasses-testingisInteger	"Overridden to return true in Integer."	^ false
+testing
+isInteger
+	"Overridden to return true in Integer."
+
+	^ false

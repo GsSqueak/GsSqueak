@@ -1,1 +1,3 @@
-*SqClasses-filter streamingputOn:aStream	^aStream nextPut:self.
+filter streaming
+putOn:aStream
+	^aStream nextPut:self.

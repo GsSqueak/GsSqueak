@@ -1,1 +1,4 @@
-*SqClasses-*SqClasses-*SqClasses-snapshot and quitaddToStartUpList: aClass after: predecessor	self add: aClass toList: StartUpList after: predecessor
+snapshot and quit
+addToStartUpList: aClass after: predecessor
+
+	self add: aClass toList: StartUpList after: predecessor

@@ -1,1 +1,3 @@
-*SqClasses-filter streamingbyteEncode:aStream	self flattenOnStream:aStream.
+filter streaming
+byteEncode:aStream
+	self flattenOnStream:aStream.

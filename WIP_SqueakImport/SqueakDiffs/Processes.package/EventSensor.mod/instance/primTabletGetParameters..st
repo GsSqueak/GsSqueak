@@ -1,1 +1,5 @@
-primitives-tabletprimTabletGetParameters: cursorIndex	"Not supported in GsSqueak"    self shouldNotImplement
+primitives-tablet
+primTabletGetParameters: cursorIndex
+	"Not supported in GsSqueak"
+    self shouldNotImplement
+

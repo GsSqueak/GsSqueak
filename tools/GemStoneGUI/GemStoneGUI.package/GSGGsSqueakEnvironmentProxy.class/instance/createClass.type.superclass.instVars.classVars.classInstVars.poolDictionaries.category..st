@@ -4,9 +4,10 @@ createClass: className type: typeSymbol superclass: superclassName instVars: ins
 	| query isBytes |
 	isBytes := self byteTypes includes: typeSymbol.
 	query := '
-	| superclass newClass environment superclassName |
+	| superclass poolArray newClass environment superclassName |
 	superclassName := {1}.
 	environment := {2}.
+      poolArray := {8} collect: [ :each | (environment at: each asSymbol) _classVars ].
 	superclass := superclassName = #nil
 					ifTrue: [nil]
 					ifFalse: [(environment classNamed: superclassName) ifNil: [^ self error]].
@@ -15,9 +16,9 @@ createClass: className type: typeSymbol superclass: superclassName instVars: ins
 		', (isBytes ifTrue: [''] ifFalse: ['instVarNames: {5}']) ,
 		'classVars: {6}
 		classInstVars: {7}
-		poolDictionaries: {8}
+		poolDictionaries: poolArray
 		inDictionary: SymbolDictionary new
-		newVersionOf: (environment classNamed: {4})
+		newVersionOf: nil
 		description: nil
 		options: {9}.
 	environment at: newClass name put: newClass.

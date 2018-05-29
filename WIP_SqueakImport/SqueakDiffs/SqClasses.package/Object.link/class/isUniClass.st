@@ -1,1 +1,3 @@
-*SqClasses-instance creationisUniClass	^ false
+instance creation
+isUniClass
+	^ false

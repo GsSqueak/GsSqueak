@@ -1,1 +1,3 @@
-*SqClasses-testingisTransparent	^ false
+testing
+isTransparent
+	^ false

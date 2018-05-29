@@ -1,1 +1,3 @@
-*SqCharacter-accessing untypeable charactersdelete	^ self value: 127
+accessing untypeable characters
+delete
+	^ self value: 127

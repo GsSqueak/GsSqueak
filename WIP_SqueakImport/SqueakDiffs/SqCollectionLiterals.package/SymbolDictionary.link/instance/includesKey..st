@@ -1,1 +1,4 @@
-*SqCollectionLiterals-testingincludesKey: aSymbol	^ self _env0 includesKey: aSymbol
+testing
+includesKey: aSymbol
+
+	^ self _env0 includesKey: aSymbol

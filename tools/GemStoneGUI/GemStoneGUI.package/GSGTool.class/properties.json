@@ -3,10 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"ColorWheel" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"session" ],
+		"session",
+		"repository" ],
 	"name" : "GSGTool",
 	"pools" : [
 		 ],

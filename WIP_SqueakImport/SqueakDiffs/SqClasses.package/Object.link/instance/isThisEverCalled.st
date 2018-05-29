@@ -1,1 +1,3 @@
-*SqClasses-flaggingisThisEverCalled	^ self isThisEverCalled: thisContext sender printString
+flagging
+isThisEverCalled
+	^ self isThisEverCalled: thisContext sender printString

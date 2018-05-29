@@ -1,1 +1,4 @@
-*SqClasses-testingwantsStepsIn: aSystemWindow		^ self wantsSteps
+testing
+wantsStepsIn: aSystemWindow
+	
+	^ self wantsSteps

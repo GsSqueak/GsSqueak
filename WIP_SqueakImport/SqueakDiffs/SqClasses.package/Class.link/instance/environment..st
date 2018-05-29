@@ -1,1 +1,4 @@
-*SqClasses-organizationenvironment: anEnvironment	environment := anEnvironment
+organization
+environment: anEnvironment
+
+	environment := anEnvironment

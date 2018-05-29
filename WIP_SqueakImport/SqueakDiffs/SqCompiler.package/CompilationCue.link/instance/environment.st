@@ -1,1 +1,3 @@
-*SqCompiler-accessingenvironment	^ environment
+accessing
+environment
+	^ environment

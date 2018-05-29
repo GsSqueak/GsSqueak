@@ -1,1 +1,3 @@
-*SqClasses-testingisMorphicEvent	^false
+testing
+isMorphicEvent
+	^false

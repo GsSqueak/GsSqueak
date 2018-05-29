@@ -1,1 +1,5 @@
-*SqClasses-privatespaceUsed	"Object spaceUsed"	^ super spaceUsed + self class spaceUsed
+private
+spaceUsed
+
+	"Object spaceUsed"
+	^ super spaceUsed + self class spaceUsed

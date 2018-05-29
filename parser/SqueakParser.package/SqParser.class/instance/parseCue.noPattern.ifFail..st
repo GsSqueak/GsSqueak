@@ -23,21 +23,7 @@ parseCue: aCue noPattern: noPattern ifFail: aBlock
     and: [ cue requestor selectionInterval = (p + 1 to: p + s size) ].
   doitFlag := noPattern.
   failBlock := aBlock.
-  [ methNode := self method: noPattern context: cue context ]
-    on: false
-    do: [ :ex | 
-      repeatNeeded := true.
-      properties := nil.	"Avoid accumulating pragmas and primitives Number"
-      myStream := ex newSource
-        ifNil: [ 
-          subSelection
-            ifTrue: [ 
-              ReadStream
-                on: cue requestor text string
-                from: cue requestor selectionInterval first
-                to: cue requestor selectionInterval last ]
-            ifFalse: [ ReadStream on: cue requestor text string ] ]
-        ifNotNil: [ :src | myStream := src readStream ] ].
+  methNode := self method: noPattern context: cue context.
   repeatNeeded ]
     whileTrue: [ encoder := self encoder class new ].
   methNode sourceText: s.

@@ -1,1 +1,4 @@
-*SqClasses-testingshouldBePrintedAsLiteral	^self isLiteral
+testing
+shouldBePrintedAsLiteral
+
+	^self isLiteral

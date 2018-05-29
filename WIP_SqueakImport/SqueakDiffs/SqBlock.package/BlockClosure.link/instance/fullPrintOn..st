@@ -1,1 +1,7 @@
-*SqKernel-printingfullPrintOn: aStream 	aStream		 print: self ;		 cr.	self printSourceOn: aStream
+printing
+fullPrintOn: aStream 
+	aStream
+		 print: self ;
+		 cr.
+	self printSourceOn: aStream
+

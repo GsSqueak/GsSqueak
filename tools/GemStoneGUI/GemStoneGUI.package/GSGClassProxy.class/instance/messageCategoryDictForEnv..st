@@ -1,4 +1,0 @@
-interface
-messageCategoryDictForEnv: anInteger
-
-	self subclassResponsibility

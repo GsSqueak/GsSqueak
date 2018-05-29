@@ -1,1 +1,5 @@
-*SqCharacter-privateconstantNameFor: aCharacter	^ self constantNames		detect: [ :each | (self perform: each) = aCharacter ]		ifNone: [ nil ].
+private
+constantNameFor: aCharacter
+	^ self constantNames
+		detect: [ :each | (self perform: each) = aCharacter ]
+		ifNone: [ nil ].

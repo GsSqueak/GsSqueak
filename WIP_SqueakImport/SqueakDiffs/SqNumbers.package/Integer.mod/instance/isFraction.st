@@ -1,1 +1,4 @@
-testingisFraction	^ true
+testing
+isFraction
+
+	^ true

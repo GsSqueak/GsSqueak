@@ -1,1 +1,3 @@
-*SqClasses-filter streamingelementSeparator	^nil.
+filter streaming
+elementSeparator
+	^nil.

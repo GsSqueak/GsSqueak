@@ -1,1 +1,4 @@
-*SqNumbers-mathematical functionssin		^ self _env0 sin
+mathematical functions
+sin
+	
+	^ self _env0 sin

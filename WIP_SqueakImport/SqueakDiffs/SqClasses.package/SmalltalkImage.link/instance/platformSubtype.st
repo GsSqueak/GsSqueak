@@ -1,1 +1,7 @@
-*SqClasses-*SqClasses-*SqClasses-osplatformSubtype	"Return the subType of the platform we're running on."	"Smalltalk os platformSubtype"		^self getSystemAttribute: 1003
+os
+platformSubtype
+	"Return the subType of the platform we're running on."
+
+	"Smalltalk os platformSubtype"
+	
+	^self getSystemAttribute: 1003

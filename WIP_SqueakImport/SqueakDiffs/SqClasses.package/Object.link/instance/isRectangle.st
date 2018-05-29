@@ -1,1 +1,3 @@
-*SqClasses-testingisRectangle	^false
+testing
+isRectangle
+	^false

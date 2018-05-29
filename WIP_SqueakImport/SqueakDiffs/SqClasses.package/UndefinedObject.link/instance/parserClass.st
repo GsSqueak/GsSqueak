@@ -1,1 +1,4 @@
-*SqClasses-compilingparserClass	^ Compiler parserClass
+compiling
+parserClass
+
+	^ Compiler parserClass

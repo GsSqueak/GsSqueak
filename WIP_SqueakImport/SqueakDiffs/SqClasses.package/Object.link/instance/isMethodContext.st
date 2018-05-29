@@ -1,1 +1,3 @@
-*SqClasses-testingisMethodContext	^ false
+testing
+isMethodContext
+	^ false

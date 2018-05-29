@@ -1,1 +1,5 @@
-primitives-fallbackoldPrimMouseButtons	"Not supported in GsSqueak"    self shouldNotImplement
+primitives-fallback
+oldPrimMouseButtons
+	"Not supported in GsSqueak"
+    self shouldNotImplement
+

@@ -1,5 +1,5 @@
 loading
-categoriesMatching: aString
+categoriesMatching: prefix
 
 	^ SystemOrganization categories select: [:category |
-			self category: aString matches: category]
+			self category: category matches: prefix]

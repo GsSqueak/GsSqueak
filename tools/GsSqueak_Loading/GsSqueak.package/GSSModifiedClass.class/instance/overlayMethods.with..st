@@ -2,7 +2,7 @@ accessing - real class
 overlayMethods: originalMethods with: modifiedMethods
 
 	| methods |
-	methods := PluggableSet newFrom: modifiedMethods.
-	methods equalBlock: [:m1 :m2 | m1 selector == m2 selector].
-	methods addAll: originalMethods.
-	^ methods asArray
+	methods := Dictionary new.
+	originalMethods do: [:method | methods at: method selector put: method].
+	modifiedMethods do: [:method | methods at: method selector put: method].
+	^ methods values asArray

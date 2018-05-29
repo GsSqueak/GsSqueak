@@ -1,1 +1,4 @@
-snapshotsactualScreenDepth	"Always 32bit in GsSqueak"	^ 32
+snapshots
+actualScreenDepth
+	"Always 32bit in GsSqueak"
+	^ 32

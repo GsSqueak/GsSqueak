@@ -1,1 +1,4 @@
-*SqClasses-testingisNumber	"Overridden to return true in Number, natch"	^ false
+testing
+isNumber
+	"Overridden to return true in Number, natch"
+	^ false

@@ -1,1 +1,3 @@
-*Kernel-Processes-private-primitivesprimitiveTestAndSetOwnershipOfCriticalSection	self shouldNotImplement
+private-primitives
+primitiveTestAndSetOwnershipOfCriticalSection
+	self shouldNotImplement

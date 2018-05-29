@@ -1,1 +1,4 @@
-*SqNumbers-testingnegative	^mantissa negative
+testing
+negative
+
+	^mantissa negative

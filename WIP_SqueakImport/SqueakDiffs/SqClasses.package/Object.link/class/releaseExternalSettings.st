@@ -1,1 +1,3 @@
-*SqClasses-privatereleaseExternalSettings	"Do nothing as a default"
+private
+releaseExternalSettings
+	"Do nothing as a default"

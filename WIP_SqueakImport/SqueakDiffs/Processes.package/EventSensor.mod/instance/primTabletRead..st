@@ -1,1 +1,3 @@
-primitives-tabletprimTabletRead: cursorIndex	self shouldNotImplement
+primitives-tablet
+primTabletRead: cursorIndex
+	self shouldNotImplement

@@ -1,1 +1,5 @@
-*SqClasses-testingisColor	"Answer true if receiver is a Color. False by default."	^ false
+testing
+isColor
+	"Answer true if receiver is a Color. False by default."
+
+	^ false

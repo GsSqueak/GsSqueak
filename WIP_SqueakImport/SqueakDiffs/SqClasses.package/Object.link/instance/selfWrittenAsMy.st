@@ -1,1 +1,4 @@
-*SqClasses-scriptingselfWrittenAsMy	^self
+scripting
+selfWrittenAsMy
+
+	^self

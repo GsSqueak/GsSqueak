@@ -1,1 +1,4 @@
-*Kernel-Processes-changing suspended statepopTo: aContext value: aValue	"Not supported in GsSqueak"    self shouldNotImplement
+changing suspended state
+popTo: aContext value: aValue
+	"Not supported in GsSqueak"
+    self shouldNotImplement

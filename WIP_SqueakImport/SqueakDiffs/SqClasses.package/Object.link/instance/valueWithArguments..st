@@ -1,1 +1,4 @@
-*SqClasses-evaluatingvalueWithArguments: aSequenceOfArguments	^self
+evaluating
+valueWithArguments: aSequenceOfArguments
+
+	^self

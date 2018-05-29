@@ -1,5 +1,18 @@
 {
 	"categoriesToLoad" : [
 		"Collections",
-		"Kernel"
+		"Kernel",
+		"Graphics",
+		"System",
+		"SUnit",
+		"Chronology"
+		],
+	"classesNotToLoad" : [
+		"True",
+		"False",
+		"BoxedFloat64",
+		"SmallFloat64",
+		"FullBlockClosure",
+		"CompiledCode",
+		"CompiledBlock"
 		]}

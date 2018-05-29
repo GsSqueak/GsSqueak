@@ -1,1 +1,3 @@
-*SqClasses-*SqClasses-*SqClasses-sources, changes loglastQuitLogPosition	^ LastQuitLogPosition
+sources, changes log
+lastQuitLogPosition
+	^ LastQuitLogPosition

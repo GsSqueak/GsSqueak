@@ -1,1 +1,4 @@
-*SqNumbers-truncation and round offsignificand	^ self timesTwoPower: (self exponent negated)
+truncation and round off
+significand
+
+	^ self timesTwoPower: (self exponent negated)

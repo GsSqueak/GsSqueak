@@ -1,1 +1,3 @@
-*SqClasses-testingisMethodProperties	^false
+testing
+isMethodProperties
+	^false

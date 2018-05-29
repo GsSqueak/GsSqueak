@@ -1,1 +1,4 @@
-*SqBooleans-printingprintOn: aStream 	aStream nextPutAll: (self ifTrue: ['true' ] ifFalse: ['false'])
+printing
+printOn: aStream 
+
+	aStream nextPutAll: (self ifTrue: ['true' ] ifFalse: ['false'])

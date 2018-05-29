@@ -1,1 +1,4 @@
-*SqClasses-testingisFloat	"Overridden to return true in Float, natch"	^ false
+testing
+isFloat
+	"Overridden to return true in Float, natch"
+	^ false

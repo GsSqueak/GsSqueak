@@ -1,1 +1,6 @@
-*SqClasses-scriptingevaluateUnloggedForSelf: aCodeString	^Compiler evaluate:		aCodeString		for: self
+scripting
+evaluateUnloggedForSelf: aCodeString
+
+	^Compiler evaluate:
+		aCodeString
+		for: self

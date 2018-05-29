@@ -1,4 +1,4 @@
-accessing
+standard categories
 allCategory
 
 	^ #'-- all --'

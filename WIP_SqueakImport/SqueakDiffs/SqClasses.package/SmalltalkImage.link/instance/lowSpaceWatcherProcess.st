@@ -1,1 +1,3 @@
-*SqClasses-*SqClasses-*SqClasses-memory spacelowSpaceWatcherProcess	^LowSpaceProcess
+memory space
+lowSpaceWatcherProcess
+	^LowSpaceProcess

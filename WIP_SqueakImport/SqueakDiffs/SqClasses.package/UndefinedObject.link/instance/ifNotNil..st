@@ -1,1 +1,5 @@
-*SqClasses-testingifNotNil: aBlock	"A convenient test, in conjunction with Object ifNotNil:"	^ self
+testing
+ifNotNil: aBlock
+	"A convenient test, in conjunction with Object ifNotNil:"
+
+	^ self

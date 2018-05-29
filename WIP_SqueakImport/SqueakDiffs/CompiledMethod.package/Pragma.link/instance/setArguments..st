@@ -1,1 +1,3 @@
-*CompiledMethod-initializationsetArguments: anArray	arguments := anArray
+initialization
+setArguments: anArray
+	arguments := anArray

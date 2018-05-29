@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"_compileMethodFromAST:classified:inEnv:" : "",
 		"classify:under:environmentId:" : "",
+		"compileMethodFromAST:classified:inEnv:" : "",
 		"newMethodFromSqueakString:inEnv:" : "",
 		"newMethodFromSqueakString:inEnv:classified:" : "",
 		"nonProtectedPersistentMethodDictForEnv:put:" : "" } }

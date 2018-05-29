@@ -1,4 +1,4 @@
-session management
+repository management
 sessionClosed
 
 	self changed: #close

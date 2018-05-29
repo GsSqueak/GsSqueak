@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addMessageCategory:" : "sl 5/26/2018 20:27",
+		"category:" : "sl 5/23/2018 20:57",
+		"compileMethod:category:" : "sl 5/26/2018 20:30",
+		"messageCategoryDict" : "sl 5/26/2018 20:31",
+		"methodAt:ifAbsent:" : "sl 5/26/2018 20:33",
+		"removeMessageCategory:" : "sl 5/26/2018 20:36",
+		"renameMessageCategory:to:" : "sl 5/26/2018 20:39" } }

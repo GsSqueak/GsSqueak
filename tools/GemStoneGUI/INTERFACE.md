@@ -1,35 +1,37 @@
 Repository >> executeString:
+Repository >> id
 
 
 Environment >> classNamed:
 Environment >> classNames
 Environment >> classNamesInSystemCategory:
 ~~ Environment >> createClass:type:superclass:instVars:classVars:classInstVars:poolDictionaries:category:
-Environment >> evaluate:inContext:environmentId:
-Environment >> hierarchyTreeOfClassNames:environmentId:
+Environment >> evaluate:inContext:
+Environment >> hierarchyTreeOfClassNames:
 Environment >> systemCategories
 Environment >> templateForSubclassOf:category:
 
 
-Class >> addMessageCategory:environmentId:
+Class >> addMessageCategory:
 Class >> category
 Class >> category:
 Class >> comment
 Class >> comment:
-Class >> compileMethod:category:environmentId:
+Class >> compileMethod:category:
 Class >> definition
 (P) Class >> environment
 (P) Class >> isMeta
-Class >> messageCategoryDictForEnv:
-Class >> methodAt:environmentId:ifAbsent:
+Class >> messageCategoryDict
+Class >> methodAt:ifAbsent:
 (P) Class >> name
-Class >> printHierarchyForEnvironmentId:
-Class >> removeMessageCategory:environmentId:
-Class >> removeSelector:environmentId:
-Class >> renameMessageCategory:to:environmentId:
+Class >> printHierarchy
+Class >> removeMessageCategory:
+Class >> removeSelector:
+Class >> renameMessageCategory:to:
 (P) Class >> theMetaClass
 (P) Class >> theNonMetaClass
 
 
+(P) Method >> category
 (P) Method >> selector
 Method >> sourceString

@@ -1,1 +1,3 @@
-*SqClasses-macpalcontentsChanged	self changed: #contents
+macpal
+contentsChanged
+	self changed: #contents

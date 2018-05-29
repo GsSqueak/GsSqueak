@@ -1,4 +1,0 @@
-button actions
-continueTransaction
-
-	self session continueTransaction

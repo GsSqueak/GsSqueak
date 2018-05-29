@@ -1,1 +1,4 @@
-accessingat: index		^Float fromIEEE32Bit: (self basicAt: index)
+accessing
+at: index
+	
+	^Float fromIEEE32Bit: (self basicAt: index)

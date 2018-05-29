@@ -1,1 +1,3 @@
-*SqClasses-drag and dropwantsDroppedMorph: aMorph event: anEvent inMorph: destinationLM 	^false
+drag and drop
+wantsDroppedMorph: aMorph event: anEvent inMorph: destinationLM 
+	^false

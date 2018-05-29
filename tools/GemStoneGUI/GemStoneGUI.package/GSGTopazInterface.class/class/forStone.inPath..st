@@ -1,8 +1,10 @@
 instance creation
 forStone: stoneName inPath: devkitPath
 
-	| topazProcess |
+	| topazProcess repository |
 	topazProcess := TopazProcess forStone: stoneName inPath: devkitPath.
-	^ self new
-		stoneName: stoneName;
-		topazProcess: topazProcess
+	repository := self new
+					stoneName: stoneName;
+					topazProcess: topazProcess.
+	self addInstance: repository.
+	^ repository

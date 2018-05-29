@@ -1,1 +1,3 @@
-*SqClasses-debugging-haltOncesetHaltCountTo: int	Smalltalk at: #HaltCount put: int
+debugging-haltOnce
+setHaltCountTo: int
+	Smalltalk at: #HaltCount put: int

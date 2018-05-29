@@ -1,0 +1,4 @@
+interface
+printHierarchy
+
+	self subclassResponsibility

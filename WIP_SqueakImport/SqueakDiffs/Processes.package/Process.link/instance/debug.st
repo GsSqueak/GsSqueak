@@ -1,1 +1,3 @@
-*Kernel-Processes-debuggingdebug	self debugWithTitle: 'Debug'.
+debugging
+debug
+	self debugWithTitle: 'Debug'.

@@ -1,1 +1,3 @@
-*SqClasses-bindingbindingOf: aString	^nil
+binding
+bindingOf: aString
+	^nil

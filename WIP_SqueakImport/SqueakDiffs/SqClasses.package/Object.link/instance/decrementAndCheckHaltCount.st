@@ -1,1 +1,4 @@
-*SqClasses-debugging-haltOncedecrementAndCheckHaltCount	self decrementHaltCount.	^self checkHaltCountExpired
+debugging-haltOnce
+decrementAndCheckHaltCount
+	self decrementHaltCount.
+	^self checkHaltCountExpired

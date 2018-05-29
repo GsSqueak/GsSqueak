@@ -1,1 +1,4 @@
-*SqNumbers-convertingasFloat	"Reimplementation - Number 'converting' method."	^ mantissa asFloat
+converting
+asFloat
+	"Reimplementation - Number 'converting' method."
+	^ mantissa asFloat

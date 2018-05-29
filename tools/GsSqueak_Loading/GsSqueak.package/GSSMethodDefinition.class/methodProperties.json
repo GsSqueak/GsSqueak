@@ -1,13 +1,17 @@
 {
 	"class" : {
-		"newFromFile:" : "sl 5/18/2018 12:15",
+		"newFromFile:" : "MS 5/24/2018 16:11",
 		"newFromMethodReference:" : "sl 5/15/2018 14:58" },
 	"instance" : {
 		"=" : "sl 5/23/2018 14:19",
 		"category" : "MS 5/14/2018 17:29",
 		"category:" : "MS 5/14/2018 17:29",
+		"category:matches:" : "MS 5/25/2018 15:40",
+		"extensionCategoryMatchesAnyOf:" : "MS 5/25/2018 15:50",
 		"fileDescriptor" : "MS 5/17/2018 16:15",
 		"hash" : "sl 5/23/2018 14:20",
+		"installInto:" : "MS 5/25/2018 15:29",
+		"isExtension" : "MS 5/25/2018 16:00",
 		"printOn:" : "MS 5/17/2018 16:31",
 		"selector" : "sl 5/15/2018 14:42",
 		"selector:" : "sl 5/15/2018 14:42",

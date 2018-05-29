@@ -1,1 +1,3 @@
-*SqClasses-accessingenvironment	^destClass environment
+accessing
+environment
+	^destClass environment

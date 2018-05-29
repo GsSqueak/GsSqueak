@@ -1,1 +1,3 @@
-bit manipulaionhighBit^ self _env0 highBit
+bit manipulation
+highBit
+^ self _env0 highBit

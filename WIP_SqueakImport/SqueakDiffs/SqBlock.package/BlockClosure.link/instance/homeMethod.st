@@ -1,1 +1,4 @@
-*SqKernel-accessinghomeMethod	^outerContext method
+accessing
+homeMethod
+	^outerContext method
+

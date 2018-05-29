@@ -1,1 +1,4 @@
-*SqCollectionLiterals-accessingbindingOf: varName	^ self _env0 associationAt: varName ifAbsent: nil
+accessing
+bindingOf: varName
+
+	^ self _env0 associationAt: varName ifAbsent: nil

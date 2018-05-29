@@ -1,1 +1,4 @@
-*SqClasses-testingisSystemWindow"answer whatever the receiver is a SystemWindow"	^ false
+testing
+isSystemWindow
+"answer whatever the receiver is a SystemWindow"
+	^ false

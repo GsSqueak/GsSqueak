@@ -1,1 +1,3 @@
-*SqCharacter-accessing untypeable charactershome	^ self value: 1
+accessing untypeable characters
+home
+	^ self value: 1

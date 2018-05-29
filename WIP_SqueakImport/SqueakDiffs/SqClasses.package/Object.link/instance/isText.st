@@ -1,1 +1,3 @@
-*SqClasses-testingisText	^ false
+testing
+isText
+	^ false

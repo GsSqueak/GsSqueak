@@ -1,1 +1,3 @@
-*SqClasses-pool variablessharedPools: aCollection	self notYetImplemented
+pool variables
+sharedPools: aCollection
+	self notYetImplemented

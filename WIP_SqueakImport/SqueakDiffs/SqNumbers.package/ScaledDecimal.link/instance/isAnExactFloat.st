@@ -1,1 +1,3 @@
-*SqNumbers-testingisAnExactFloat	^mantissa isAnExactFloat
+testing
+isAnExactFloat
+	^mantissa isAnExactFloat

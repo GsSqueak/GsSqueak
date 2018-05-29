@@ -1,1 +1,3 @@
-*SqClasses-testingisClosure	^false
+testing
+isClosure
+	^false

@@ -1,1 +1,3 @@
-*SqNumbers-testingisFloat	^ true
+testing
+isFloat
+	^ true

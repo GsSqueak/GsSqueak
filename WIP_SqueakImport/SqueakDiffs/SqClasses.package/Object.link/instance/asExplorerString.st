@@ -1,1 +1,3 @@
-*SqClasses-user interfaceasExplorerString	^ self printString
+user interface
+asExplorerString
+	^ self printString

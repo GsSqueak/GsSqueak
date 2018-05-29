@@ -1,4 +1,0 @@
-interface
-printHierarchyForEnvironmentId: anInteger
-
-	self subclassResponsibility

@@ -11,6 +11,10 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
+createGsSqueakStone_usage() {
+  echo "$0 [-f <from_stage_number>] [-t <till_stage_number>] <stone_name>"
+  echo "Press ctrl-c to debug a package"
+}
 
 # functions
 load_package() {
@@ -45,7 +49,7 @@ load_package() {
   if [[ $DEBUG = -D ]]; then
     echo -en "[ ${YELLOW}DEBUG${NC} ] Load $PACKAGE_NAME"
   else
-    echo -en "[ ${YELLOW}PENDING${NC} ] Load $PACKAGE_NAME " 
+    echo -en "[ ${YELLOW}PENDING${NC} ] Load $PACKAGE_NAME "
   fi
 
   loadPackage $SQUEAK_IMPORT $DEBUG "$PACKAGE_NAME" "$PACKAGE_PATH"
@@ -53,24 +57,24 @@ load_package() {
   if [ $? = 0 ]; then
     echo -e "\r[ ${GREEN}SUCCESS${NC} ] Load $PACKAGE_NAME"
 
-    if [[ $AUTO_DEBUG = false && $DEBUG_PACKAGE = ${PACKAGE_NAME} ]]; then
+    if [[ $DEBUG = -D ]]; then
       echo -e "[ ${GREEN}SUCCESS${NC} ] Exit after debugging package"
       exit 0
     fi
-  else 
+  else
     echo -e "\r[ ${RED}ERRORED${NC} ] Load $PACKAGE_NAME"
 
     if [ $AUTO_DEBUG = true ]; then
       echo -e "[ ${GREEN}SUCCESS${NC} ] Restart from STAGE $CURRENT_STAGE and load package $PACKAGE_NAME in debug mode"
       AUTO_DEBUG=false DEBUG_PACKAGE="${PACKAGE_NAME}" createGsSqueakStone -f $CURRENT_STAGE -A $name
-      
+
       exit $?
     else
-      echo -e "\r[ ${RED}ERRORED${NC} ] Abort because auto-debug is disabled" 
+      echo -e "\r[ ${RED}ERRORED${NC} ] Abort because auto-debug is disabled"
       exit 1
     fi
   fi
-  
+
 }
 
 run_topaz() {
@@ -185,9 +189,10 @@ if [ $FROM_STAGE -le 1 ]; then
     fi
   # load backup created by tode in order to skip stone creation
   elif [ $FROM_STAGE = 1 ]; then
-    CURRENT_STAGE=1
-    restore_backup $name tode.dbf 
+    restore_backup $name tode.dbf
   fi
+
+  CURRENT_STAGE=1
 
 run_topaz $name << EOF
 set u SystemUser p swordfish
@@ -232,7 +237,7 @@ load_package MCEnvSwitch "tools/MCEnvSwitch"
 load_package SqueakParser "parser"
 load_package SqSuperclasses "tools/superclasses"
 load_package SqueakEnvironments "tools/SqueakEnvironments"
-load_package -S SqContext
+load_package -S Context0
 load_package -S SqClassCreation
 load_package Workspace "tools"
 load_package -S Env0Extensions
@@ -253,7 +258,7 @@ fi
 if [ $FROM_STAGE -le 2 ]; then
   CURRENT_STAGE=2
   if [ $FROM_STAGE = 2 ]; then
-    restore_backup $name stage-1.dbf 
+    restore_backup $name stage-1.dbf
   fi
 
 run_topaz $name << EOF
@@ -270,7 +275,7 @@ exit
 EOF
 
 load_package EnvironmentsEnv7 "tools/SqueakEnvironments"
-load_package -S SqContext7
+load_package -S Context
 load_package -S SqBooleans
 load_package -S SqClasses
 run_topaz $name << EOF
@@ -352,7 +357,7 @@ fi
 if [ $FROM_STAGE -le 3 ]; then
   CURRENT_STAGE=3
   if [ $FROM_STAGE = 3 ]; then
-    restore_backup $name stage-2.dbf 
+    restore_backup $name stage-2.dbf
   fi
 
   load_package -S '`Collections-Abstract`'
@@ -378,7 +383,7 @@ fi
 if [ $FROM_STAGE -le 4 ]; then
   CURRENT_STAGE=4
   if [ $FROM_STAGE = 4 ]; then
-    restore_backup $name stage-3.dbf 
+    restore_backup $name stage-3.dbf
   fi
 
 run_topaz $name -l << EOF
@@ -460,7 +465,7 @@ fi
 if [ $FROM_STAGE -le 5 ]; then
   CURRENT_STAGE=5
   if [ $FROM_STAGE = 5 ]; then
-    restore_backup $name stage-4.dbf 
+    restore_backup $name stage-4.dbf
   fi
 
   load_package -S '`Kernel-Processes`'
@@ -486,7 +491,7 @@ fi
 if [ $FROM_STAGE -le 6 ]; then
   CURRENT_STAGE=6
   if [ $FROM_STAGE = 6 ]; then
-    restore_backup $name stage-5.dbf 
+    restore_backup $name stage-5.dbf
   fi
 
   load_package -S '`GraphicsLibrary`'
@@ -496,9 +501,9 @@ if [ $FROM_STAGE -le 6 ]; then
   load_package -S SqKernelTestsNumbers
   load_package -S '`KernelTests-Objects`'
   load_package -S '`CollectionsTests-Text`'
-  
+
   load_package -S System-Recovery
-  
+
   todeBackup $name stage-6.dbf >/dev/null 2>&1
 
   if [ $TILL_STAGE = 6 ]; then
@@ -510,7 +515,7 @@ fi
 if [ $FROM_STAGE -le 7 ]; then
   CURRENT_STAGE=7
   if [ $FROM_STAGE = 7 ]; then
-    restore_backup $name stage-6.dbf 
+    restore_backup $name stage-6.dbf
   fi
 
   load_package -S '`System-Object Storage`'
@@ -519,12 +524,12 @@ if [ $FROM_STAGE -le 7 ]; then
   load_package -S '`Files`'
   load_package -S '`Tools-FileList`'
   load_package -S '`Compression`'
-  
+
   load_package -S '`Graphics-Text`'
   load_package -S '`Graphics-SegmentScanner`'
   load_package -S '`Graphics-Files`'
   load_package -S '`Graphics-Fonts`'
-  
+
 startTopaz $name -l >/dev/null 2>&1 << EOF
 login
 run
@@ -534,7 +539,7 @@ commit
 logout
 exit
 EOF
-  
+
   load_package -SD '`Tools-Menus`'
   load_package -SD '`Morphic`'
 
@@ -560,4 +565,3 @@ fi
 
 
 echo "self error: 'the author is confused'"
-

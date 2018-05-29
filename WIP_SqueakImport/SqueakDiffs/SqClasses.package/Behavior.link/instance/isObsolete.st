@@ -1,1 +1,4 @@
-*SqClasses-testingisObsolete	"Return true if the receiver is obsolete."	^self instanceCount = 0
+testing
+isObsolete
+	"Return true if the receiver is obsolete."
+	^self instanceCount = 0

@@ -1,1 +1,3 @@
-*SqCollectionLiterals-accessingbyteAt: index	^(self at: index) asciiValue
+accessing
+byteAt: index
+	^(self at: index) asciiValue

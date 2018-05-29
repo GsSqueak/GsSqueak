@@ -1,1 +1,4 @@
-*SqExceptions-printingprintOn: stream	stream nextPutAll: self description
+printing
+printOn: stream
+
+	stream nextPutAll: self description

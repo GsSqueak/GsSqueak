@@ -1,1 +1,3 @@
-*Kernel-Processes-comparing= anObject	^ self == anObject
+comparing
+= anObject
+	^ self == anObject

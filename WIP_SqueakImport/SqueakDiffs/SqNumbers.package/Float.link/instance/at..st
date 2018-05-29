@@ -1,1 +1,5 @@
-*SqNumbers-accessingat: index 	"Avoid primitive in Object>>at:"	^self basicAt: index
+accessing
+at: index 
+	"Avoid primitive in Object>>at:"
+
+	^self basicAt: index

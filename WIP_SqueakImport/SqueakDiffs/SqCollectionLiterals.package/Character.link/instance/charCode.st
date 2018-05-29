@@ -1,1 +1,4 @@
-*SqCharacter-accessingcharCode	^ (self asInteger bitAnd: 16r3FFFFF).
+accessing
+charCode
+
+	^ (self asInteger bitAnd: 16r3FFFFF).

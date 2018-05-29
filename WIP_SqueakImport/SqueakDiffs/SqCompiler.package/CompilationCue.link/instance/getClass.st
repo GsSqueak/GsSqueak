@@ -1,1 +1,3 @@
-*SqCompiler-accessinggetClass	^ class
+accessing
+getClass
+	^ class

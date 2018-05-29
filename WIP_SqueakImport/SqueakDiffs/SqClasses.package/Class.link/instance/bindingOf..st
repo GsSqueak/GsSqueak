@@ -1,1 +1,3 @@
-*SqClasses-compilingbindingOf: varName	^ self bindingOf: varName environment: self environment
+compiling
+bindingOf: varName
+	^ self bindingOf: varName environment: self environment

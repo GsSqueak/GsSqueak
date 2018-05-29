@@ -1,1 +1,3 @@
-private-I/OprimGetNextEvent: array	GraphicsLibrary instance getEventsInto: array
+private-I/O
+primGetNextEvent: array
+	GraphicsLibrary instance getEventsInto: array

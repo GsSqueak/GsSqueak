@@ -1,0 +1,15 @@
+{
+	"class" : {},
+	"instance" : {
+		"closureOrNil" : "",
+		"method" : "",
+		"contextTag" : "",
+		"findNextHandlerContextStarting" : "",
+		"frameContents" : "",
+		"home" : "",
+		"isHandlerContext" : "",
+		"nextHandlerContext" : "",
+		"outerContext" : "",
+		"receiver" : "",
+		"sender" : "" } 
+}

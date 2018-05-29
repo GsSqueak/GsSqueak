@@ -1,1 +1,4 @@
-*SqKernel-accessingreceiver	^outerContext receiver
+accessing
+receiver
+	^outerContext receiver
+

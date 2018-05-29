@@ -1,1 +1,4 @@
-*SqClasses-testingisInterval	^ false
+testing
+isInterval
+
+	^ false

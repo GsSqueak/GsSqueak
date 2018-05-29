@@ -1,1 +1,3 @@
-*SqCompiler-accessingreceiver	^ receiver
+accessing
+receiver
+	^ receiver

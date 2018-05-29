@@ -1,1 +1,3 @@
-*SqCollections-filter streamingflattenOnStream:aStream	^aStream writeDictionary:self.
+filter streaming
+flattenOnStream:aStream
+	^aStream writeDictionary:self.

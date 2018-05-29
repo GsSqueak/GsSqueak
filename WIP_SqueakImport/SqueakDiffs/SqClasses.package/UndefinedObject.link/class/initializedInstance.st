@@ -1,1 +1,3 @@
-*SqClasses-instance creationinitializedInstance	^ nil
+instance creation
+initializedInstance
+	^ nil

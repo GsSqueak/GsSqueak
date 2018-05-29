@@ -1,1 +1,5 @@
-*SqClasses-testingisFraction	"Answer true if the receiver is a Fraction."	^ false
+testing
+isFraction
+	"Answer true if the receiver is a Fraction."
+
+	^ false

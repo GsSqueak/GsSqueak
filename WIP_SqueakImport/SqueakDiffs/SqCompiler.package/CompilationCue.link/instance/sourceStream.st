@@ -1,1 +1,3 @@
-*SqCompiler-accessingsourceStream	^source
+accessing
+sourceStream
+	^source
