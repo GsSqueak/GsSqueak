@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-GeeMail",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"jumpLabel" ],
+	"name" : "TextPlusJumpStart",
+	"pools" : [
+		 ],
+	"super" : "TextAction",
+	"type" : "normal" }

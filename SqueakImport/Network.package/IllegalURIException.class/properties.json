@@ -1,0 +1,14 @@
+{
+	"category" : "Network-URI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"uriString" ],
+	"name" : "IllegalURIException",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

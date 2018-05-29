@@ -1,0 +1,3 @@
+caching
+releaseCachedState
+	textSegments := nil.

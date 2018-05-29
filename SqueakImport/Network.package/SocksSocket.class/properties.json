@@ -1,0 +1,20 @@
+{
+	"category" : "Network-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultSocksVersion" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"vers",
+		"method",
+		"socksIP",
+		"socksPort",
+		"dstPort",
+		"dstIP",
+		"dstName" ],
+	"name" : "SocksSocket",
+	"pools" : [
+		 ],
+	"super" : "Socket",
+	"type" : "normal" }

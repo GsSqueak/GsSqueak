@@ -1,0 +1,1 @@
+I represent the line segment specified by two points.

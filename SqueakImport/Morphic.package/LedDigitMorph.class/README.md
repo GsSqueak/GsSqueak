@@ -1,0 +1,1 @@
+I am a 7-segment LED that can display a decimal digit

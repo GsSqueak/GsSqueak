@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"carMotorSound" : "jm 1/29/1999 10:01",
+		"carMotorSound:" : "jm 1/29/1999 09:32",
+		"initializeCarMotor" : "jm 11/16/97 11:29",
+		"repeat:count:" : "jm 9/12/97 16:14",
+		"repeatForever:" : "jm 9/12/97 16:13" },
+	"instance" : {
+		"copySound" : "jm 12/15/97 22:34",
+		"doControl" : "jm 11/25/97 13:40",
+		"iterationCount" : "jm 11/17/97 18:48",
+		"iterationCount:" : "jm 11/17/97 18:48",
+		"mixSampleCount:into:startingAt:leftVol:rightVol:" : "jm 11/24/97 16:05",
+		"postCopy" : "nice 1/12/2010 20:11",
+		"reset" : "jm 6/30/1998 18:28",
+		"samplesRemaining" : "jm 1/18/1999 10:31",
+		"setPitch:dur:loudness:" : "jm 9/12/97 15:54",
+		"setSound:iterations:" : "jm 9/12/97 16:39",
+		"sound" : "jm 11/17/97 18:48",
+		"sound:" : "jm 12/15/97 22:39" } }

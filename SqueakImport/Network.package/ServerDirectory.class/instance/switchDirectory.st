@@ -1,0 +1,3 @@
+initialize
+switchDirectory
+	client changeDirectoryTo: directory

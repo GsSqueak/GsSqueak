@@ -1,0 +1,17 @@
+{
+	"category" : "System-Download",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SplashMorph" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"showSplash",
+		"splashURL",
+		"whichFlaps",
+		"eToyAuthentificationServer" ],
+	"name" : "ProjectLauncher",
+	"pools" : [
+		 ],
+	"super" : "AbstractLauncher",
+	"type" : "normal" }

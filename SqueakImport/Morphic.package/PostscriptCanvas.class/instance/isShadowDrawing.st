@@ -1,0 +1,3 @@
+accessing
+isShadowDrawing
+	^shadowColor notNil

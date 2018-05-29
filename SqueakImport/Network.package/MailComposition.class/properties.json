@@ -1,0 +1,14 @@
+{
+	"category" : "Network-MailSending",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pre 5/16/2017 20:00",
+	"instvars" : [
+		"mailMessage" ],
+	"name" : "MailComposition",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

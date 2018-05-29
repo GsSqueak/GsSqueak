@@ -1,0 +1,20 @@
+{
+	"category" : "Network-Protocols",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"HTTPBlabEmail",
+		"HTTPPort",
+		"HTTPProxyCredentials",
+		"HTTPProxyExceptions",
+		"HTTPProxyPort",
+		"HTTPProxyServer",
+		"HTTPRequestHandler" ],
+	"commentStamp" : "ar 7/10/2010 14:05",
+	"instvars" : [
+		 ],
+	"name" : "HTTPSocket",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

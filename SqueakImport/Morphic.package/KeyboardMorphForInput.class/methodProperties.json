@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addRecordingControls" : "yo 2/11/2005 10:39",
+		"articulation:onOff:" : "di 6/19/1999 23:37",
+		"backspaceNote" : "di 6/20/1999 00:20",
+		"buildChord:" : "di 6/18/1999 15:50",
+		"deleteNotes" : "di 6/20/1999 00:20",
+		"durMod:onOff:" : "di 6/20/1999 12:55",
+		"duration:onOff:" : "di 6/20/1999 18:31",
+		"emitRest" : "di 6/20/1999 00:01",
+		"fullDuration" : "di 6/20/1999 13:03",
+		"initialize" : "dgd 2/14/2003 20:55",
+		"mouseDownPitch:event:noteMorph:" : "ar 3/17/2001 14:27",
+		"mouseUpPitch:event:noteMorph:" : "ar 3/17/2001 14:28",
+		"noteDuration" : "di 6/20/1999 00:27",
+		"pianoRoll:" : "di 6/18/1999 15:52",
+		"soundForEvent:inTrack:" : "di 6/20/1999 15:53",
+		"velocity" : "di 6/19/1999 23:13" } }

@@ -1,0 +1,31 @@
+{
+	"category" : "Network-RemoteDirectory",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LocalEToyBaseFolderSpecs",
+		"LocalEToyUserListUrls",
+		"LocalProjectDirectories",
+		"Servers" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"server",
+		"directory",
+		"type",
+		"user",
+		"passwordHolder",
+		"group",
+		"moniker",
+		"altURL",
+		"urlObject",
+		"client",
+		"loaderUrl",
+		"eToyUserListUrl",
+		"eToyUserList",
+		"keepAlive",
+		"encodingName" ],
+	"name" : "ServerDirectory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

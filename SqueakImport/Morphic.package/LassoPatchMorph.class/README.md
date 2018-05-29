@@ -1,0 +1,1 @@
+When dropped by the user, a cursor is presented, allowing the user to grab a rectangular patch from the screen.

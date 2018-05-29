@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"on:" : "eem 6/30/2010 13:46" },
+	"instance" : {
+		"addNewWindow" : "ul 4/24/2017 01:52",
+		"addWindow:" : "eem 6/30/2010 19:01",
+		"copyWindow" : "eem 6/30/2010 17:10",
+		"currentModelIndex" : "eem 6/30/2010 15:01",
+		"editState" : "eem 6/30/2010 14:57",
+		"emptyEditState" : "eem 6/30/2010 21:07",
+		"initialize" : "eem 6/30/2010 15:12",
+		"models" : "eem 6/30/2010 19:03",
+		"okToClose" : "eem 6/30/2010 22:11",
+		"on:" : "ul 4/24/2017 01:53",
+		"prototype" : "eem 7/1/2010 10:40",
+		"removeCurrentWindow" : "eem 6/30/2010 21:15",
+		"restoreEditState:" : "eem 6/30/2010 14:57",
+		"selectWindowIndex:" : "eem 6/30/2010 21:09",
+		"selectWindowsMenu" : "eem 8/11/2010 13:27" } }

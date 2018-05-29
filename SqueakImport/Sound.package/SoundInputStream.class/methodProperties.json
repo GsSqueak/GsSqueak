@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allocateBuffer" : "jm 9/8/1999 15:24",
+		"bufferCount" : "nice 12/26/2009 21:51",
+		"bufferSize" : "jm 9/6/1999 10:36",
+		"bufferSize:" : "jm 9/8/1999 15:26",
+		"emitBuffer:" : "jm 9/8/1999 15:24",
+		"initialize" : "jm 9/8/1999 15:22",
+		"isRecording" : "jm 9/8/1999 15:23",
+		"nextBufferOrNil" : "nice 12/26/2009 21:51",
+		"startRecording" : "jm 9/8/1999 15:23",
+		"stopRecording" : "jm 9/8/1999 15:23" } }

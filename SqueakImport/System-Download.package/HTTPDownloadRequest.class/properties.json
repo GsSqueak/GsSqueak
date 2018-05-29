@@ -1,0 +1,18 @@
+{
+	"category" : "System-Download",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"semaphore",
+		"url",
+		"content",
+		"loader",
+		"process" ],
+	"name" : "HTTPDownloadRequest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

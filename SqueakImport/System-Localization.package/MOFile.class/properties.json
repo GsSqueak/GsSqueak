@@ -1,0 +1,28 @@
+{
+	"category" : "System-Localization",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Cr",
+		"Lf" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"localeID",
+		"fileName",
+		"isLittleEndian",
+		"magic",
+		"revision",
+		"nStrings",
+		"originalTableOffset",
+		"translatedTableOffset",
+		"hashTableSize",
+		"hashTableOffset",
+		"hashTable",
+		"originalStrings",
+		"translatedStrings",
+		"translations" ],
+	"name" : "MOFile",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

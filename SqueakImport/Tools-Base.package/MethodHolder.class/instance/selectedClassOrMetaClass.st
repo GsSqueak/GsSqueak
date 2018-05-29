@@ -1,0 +1,3 @@
+selection
+selectedClassOrMetaClass
+	^ methodClass

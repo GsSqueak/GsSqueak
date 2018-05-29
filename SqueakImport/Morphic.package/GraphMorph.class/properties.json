@@ -1,0 +1,23 @@
+{
+	"category" : "Morphic-MorphicExtras-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"data",
+		"dataColor",
+		"cursor",
+		"cursorColor",
+		"cursorColorAtZeroCrossings",
+		"startIndex",
+		"minVal",
+		"maxVal",
+		"cachedForm",
+		"hasChanged" ],
+	"name" : "GraphMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

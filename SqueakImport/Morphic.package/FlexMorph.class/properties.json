@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-MorphicExtras-AdditionalMorphs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"originalMorph",
+		"borderWidth",
+		"borderColor" ],
+	"name" : "FlexMorph",
+	"pools" : [
+		 ],
+	"super" : "SketchMorph",
+	"type" : "normal" }

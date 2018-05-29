@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-MorphicExtras-AdditionalWidgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"PreserveTrash",
+		"SlideDismissalsToTrash",
+		"TrashPic",
+		"TrashPicOn" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TrashCanMorph",
+	"pools" : [
+		 ],
+	"super" : "ThreePhaseButtonMorph",
+	"type" : "normal" }

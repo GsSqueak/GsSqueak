@@ -1,0 +1,3 @@
+A MessageTrace is a MessageSet allowing efficient sender/implementor message following.  With implementors indented below, and senders outdended above, message flow is succinctly expressed, hierarchically.
+
+My autoSelectStrings and messageSelections are Arrays of Booleans, parallel to my messageList.  Each boolean indicates whether that message is selected.  Each autoSelectStrings indicates which string should be highlighted in the code for each method in my messageList.

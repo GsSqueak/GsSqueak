@@ -9,5 +9,9 @@ initialize
 		initializeHelpStrings.
 
 	self registerInFlapsRegistry.
+	
+	"on GsSqueak bootstrap, there is no FormDictionary"
+	FormDictionary ifNil: [
+    	FormDictionary := IdentityDictionary new ]
 
 "StandardScriptingSystem initialize"

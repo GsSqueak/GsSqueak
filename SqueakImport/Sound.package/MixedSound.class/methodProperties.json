@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"+" : "nice 4/17/2010 02:00",
+		"add:" : "nice 3/20/2010 08:00",
+		"add:pan:" : "jm 1/5/98 13:47",
+		"add:pan:volume:" : "jm 1/5/98 17:33",
+		"copySounds" : "jm 12/15/97 22:33",
+		"doControl" : "jm 11/25/97 13:40",
+		"duration" : "jm 8/17/1998 14:05",
+		"initialize" : "jm 2/4/98 09:57",
+		"isStereo" : "jm 12/16/2001 20:23",
+		"mixSampleCount:into:startingAt:leftVol:rightVol:" : "jm 1/5/98 13:42",
+		"postCopy" : "nice 1/12/2010 20:10",
+		"reset" : "jm 12/8/97 17:07",
+		"samplesRemaining" : "jm 12/8/97 17:08",
+		"sounds" : "jm 2/4/98 13:37",
+		"stopGracefully" : "jm 1/10/1999 08:45" } }

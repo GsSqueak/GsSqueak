@@ -1,0 +1,3 @@
+*Morphic-MorphicExtras
+rotationAndScaleHandlesInPaintBox
+	^ true

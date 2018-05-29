@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"fromOldByteAddress:" : "dtl 6/4/2012 20:55",
+		"loopback4" : "ikp 6/9/2007 10:04",
+		"loopback6" : "ikp 6/9/2007 10:04",
+		"loopbacks" : "ikp 6/9/2007 10:02",
+		"loopbacks4" : "ikp 6/11/2007 10:35",
+		"loopbacks6" : "ikp 6/9/2007 10:02",
+		"wildcard4" : "ikp 6/9/2007 10:04",
+		"wildcard6" : "ikp 6/9/2007 10:04",
+		"wildcards" : "ikp 6/9/2007 10:03",
+		"wildcards4" : "ikp 6/11/2007 10:40",
+		"wildcards6" : "ikp 6/9/2007 10:03" },
+	"instance" : {
+		"asByteArray" : "dtl 6/3/2012 13:19",
+		"asSocketAddress" : "mir 6/17/2007 23:13",
+		"hostName" : "ikp 6/8/2007 18:41",
+		"hostNumber" : "ikp 6/8/2007 18:41",
+		"port" : "ikp 6/9/2007 08:21",
+		"port:" : "ikp 6/9/2007 08:21",
+		"printOn:" : "dtl 11/7/2015 15:50",
+		"serviceName" : "ikp 6/8/2007 18:41",
+		"serviceNumber" : "ikp 6/8/2007 18:41" } }

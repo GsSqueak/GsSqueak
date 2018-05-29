@@ -1,0 +1,1 @@
+A tab in a palette.  The contents is the name to be shown.  If it represents a book, that book is pointed to in my morphToInstall.

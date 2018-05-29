@@ -1,0 +1,35 @@
+{
+	"category" : "Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ContextStackKeystrokes",
+		"ErrorRecursion",
+		"ErrorRecursionGuard",
+		"ErrorReportServer",
+		"InterruptUIProcessIfBlockedOnErrorInBackgroundProcess",
+		"WantsAnnotationPane" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"interruptedProcess",
+		"interruptedController",
+		"contextStack",
+		"contextStackIndex",
+		"contextStackList",
+		"receiverInspector",
+		"contextVariablesInspector",
+		"externalInterrupt",
+		"proceedValue",
+		"selectingPC",
+		"savedCursor",
+		"isolationHead",
+		"failedProject",
+		"errorWasInUIProcess",
+		"labelString",
+		"message",
+		"untilExpression" ],
+	"name" : "Debugger",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

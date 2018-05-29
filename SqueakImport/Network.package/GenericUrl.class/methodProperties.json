@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"absoluteFromText:" : "ls 7/26/1998 21:24",
+		"schemeName:locator:" : "ls 6/20/1998 19:46" },
+	"instance" : {
+		"locator" : "ls 6/20/1998 19:46",
+		"printOn:" : "fbs 2/2/2005 13:06",
+		"privateInitializeFromText:" : "ls 8/4/1998 01:28",
+		"privateInitializeFromText:relativeTo:" : "ls 8/4/1998 01:28",
+		"scheme" : "FBS 11/20/2003 13:39",
+		"schemeName" : "ls 6/20/1998 19:46",
+		"schemeName:locator:" : "ls 6/20/1998 19:46" } }

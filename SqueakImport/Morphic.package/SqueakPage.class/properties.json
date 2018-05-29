@@ -1,0 +1,26 @@
+{
+	"category" : "Morphic-MorphicExtras-SqueakPage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"MaxThumbnailWidthOrHeight",
+		"RecentMaxNum",
+		"RecentStem" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"url",
+		"title",
+		"comment",
+		"thumbnail",
+		"contentsMorph",
+		"creationTime",
+		"creationAuthor",
+		"lastChangeTime",
+		"lastChangeAuthor",
+		"policy",
+		"dirty" ],
+	"name" : "SqueakPage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"scannerWithCanvas:paragraph:bounds:" : "" },
+	"instance" : {
+		"addEmphasis:" : "RAA 5/8/2001 10:01",
+		"addKern:" : "",
+		"bounds:" : "",
+		"canvas" : "",
+		"canvas:" : "",
+		"defaultFont" : "sw 12/6/1999 13:10",
+		"displayLine:offset:leftInRun:" : "nice 12/28/2009 14:12",
+		"font" : "",
+		"indentationLevel:" : "",
+		"paragraph" : "",
+		"paragraph:" : "",
+		"setActualFont:" : "",
+		"setAlignment:" : "nk 6/10/2004 13:32",
+		"setDestForm:" : "mpw 8/4/1930 09:09",
+		"setFont:" : "",
+		"setTextStylesForOffset:" : "sw 12/7/1999 12:28",
+		"textColor:" : "",
+		"textStyle" : "" } }

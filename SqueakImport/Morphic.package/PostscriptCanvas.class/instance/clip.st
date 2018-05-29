@@ -1,0 +1,3 @@
+private
+clip	
+	^target clip.

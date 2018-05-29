@@ -1,0 +1,15 @@
+{
+	"category" : "System-Localization",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AllKnownPhrases",
+		"CachedTranslations" ],
+	"commentStamp" : "tak 10/19/2007 11:12",
+	"instvars" : [
+		"generics" ],
+	"name" : "InternalTranslator",
+	"pools" : [
+		 ],
+	"super" : "NaturalLanguageTranslator",
+	"type" : "normal" }

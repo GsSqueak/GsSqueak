@@ -1,0 +1,3 @@
+testing
+acceptsUploads
+	^acceptsUploads == true

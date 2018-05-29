@@ -5,9 +5,9 @@ basicAddSelector: selector withMethod: compiledMethod
 	Do this without sending system change notifications"
 
 	self methodDict at: selector put: compiledMethod.
-	compiledMethod
-		methodClass: self;
-		selector: selector.
+	(compiledMethod methodClass == self and: [compiledMethod selector == selector]) ifFalse: [
+	    "We currently don't support method selector/class rewriting in GsSqueak"
+	    self notYetImplemented].
 
 	"Now flush Squeak's method cache for this selector"
 	selector flushCache

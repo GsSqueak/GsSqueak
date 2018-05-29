@@ -1,3 +1,3 @@
 accessing
 selector
-	^ self node selector
+	^ self node _env0 selector

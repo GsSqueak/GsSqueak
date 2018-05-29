@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-MorphicExtras-Navigators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"getSelector",
+		"setSelector" ],
+	"name" : "SquishedNameMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

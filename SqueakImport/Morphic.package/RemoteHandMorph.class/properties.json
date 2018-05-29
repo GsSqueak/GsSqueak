@@ -1,0 +1,21 @@
+{
+	"category" : "Morphic-MorphicExtras-AdditionalSupport",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"remoteWorldExtent",
+		"remoteAddress",
+		"sendSocket",
+		"sendBuffer",
+		"sendState",
+		"socket",
+		"waitingForConnection",
+		"receiveBuffer" ],
+	"name" : "RemoteHandMorph",
+	"pools" : [
+		 ],
+	"super" : "HandMorph",
+	"type" : "normal" }

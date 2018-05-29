@@ -1,0 +1,16 @@
+{
+	"category" : "TrueType-Fonts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"emphasis",
+		"lineGlyph",
+		"contourWidth" ],
+	"name" : "LinedTTCFont",
+	"pools" : [
+		 ],
+	"super" : "TTCFont",
+	"type" : "normal" }

@@ -1,0 +1,32 @@
+{
+	"category" : "Morphic-MorphicExtras-Sound",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"NotePasteBuffer" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"scorePlayer",
+		"score",
+		"colorForTrack",
+		"lowestNote",
+		"leftEdgeTime",
+		"timeScale",
+		"indexInTrack",
+		"lastUpdateTick",
+		"lastMutedState",
+		"cursor",
+		"selection",
+		"timeSignature",
+		"beatsPerMeasure",
+		"notePerBeat",
+		"showMeasureLines",
+		"showBeatLines",
+		"soundsPlaying",
+		"soundsPlayingMorph",
+		"movieClipPlayer" ],
+	"name" : "PianoRollScoreMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

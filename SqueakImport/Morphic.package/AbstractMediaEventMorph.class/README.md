@@ -1,0 +1,1 @@
+An abstract representation of media events to be placed in a PianoRollScoreMorph (or others as they are developed)

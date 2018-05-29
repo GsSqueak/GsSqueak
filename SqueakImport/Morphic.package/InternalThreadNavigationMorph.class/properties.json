@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-MorphicExtras-Navigators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CachedThumbnails",
+		"KnownThreads" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"threadName",
+		"preferredIndex" ],
+	"name" : "InternalThreadNavigationMorph",
+	"pools" : [
+		 ],
+	"super" : "ThreadNavigationMorph",
+	"type" : "normal" }

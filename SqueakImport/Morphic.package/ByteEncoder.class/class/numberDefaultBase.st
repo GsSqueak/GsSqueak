@@ -1,0 +1,3 @@
+configuring
+numberDefaultBase
+	^10.

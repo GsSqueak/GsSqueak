@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildWith:" : "mt 4/12/2016 17:27",
+		"fieldList" : "di 4/16/1998 15:51",
+		"initialize" : "apb 7/26/2004 17:34",
+		"inspect:" : "apb 7/26/2004 17:34",
+		"msgAccept:from:" : "di 11/13/1998 15:27",
+		"msgList" : "ul 3/13/2017 15:18",
+		"msgListIndex" : "di 4/16/1998 14:18",
+		"msgListIndex:" : "di 4/16/1998 14:32",
+		"msgListMenu:" : "apb 7/14/2004 13:57",
+		"msgPaneMenu:shifted:" : "mt 11/13/2015 09:40",
+		"msgText" : "di 4/16/1998 14:38",
+		"step" : "ul 2/27/2017 00:26",
+		"wantsSteps" : "di 1/14/1999 09:01" } }

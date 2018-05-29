@@ -4,4 +4,4 @@ initializeDictionaryOfPreferences
 
 	"Preferences initializeDictionaryOfPreferences"
 
-	preferencesDictionary := IdentityDictionary new
+	preferencesDictionary := IdentityDictionary new.

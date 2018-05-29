@@ -1,0 +1,3 @@
+private
+psSize
+	^ target size

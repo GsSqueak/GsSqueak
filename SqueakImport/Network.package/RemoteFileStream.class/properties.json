@@ -1,0 +1,15 @@
+{
+	"category" : "Network-RemoteDirectory",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"remoteFile",
+		"localDataValid" ],
+	"name" : "RemoteFileStream",
+	"pools" : [
+		 ],
+	"super" : "RWBinaryOrTextStream",
+	"type" : "normal" }

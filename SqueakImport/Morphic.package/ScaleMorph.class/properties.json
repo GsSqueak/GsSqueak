@@ -1,0 +1,23 @@
+{
+	"category" : "Morphic-MorphicExtras-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"caption",
+		"start",
+		"stop",
+		"minorTick",
+		"minorTickLength",
+		"majorTick",
+		"majorTickLength",
+		"tickPrintBlock",
+		"labelsAbove",
+		"captionAbove" ],
+	"name" : "ScaleMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

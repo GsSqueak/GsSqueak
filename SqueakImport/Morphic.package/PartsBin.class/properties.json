@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-PartsBin",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Thumbnails" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PartsBin",
+	"pools" : [
+		 ],
+	"super" : "PasteUpMorph",
+	"type" : "normal" }

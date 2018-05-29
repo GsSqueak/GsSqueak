@@ -1,0 +1,5 @@
+accessing
+canvas
+	^canvas.
+
+	

@@ -1,0 +1,3 @@
+This tool was created to aid in the preparation of LoopedSampledSound objects. It includes support for finding good loop points with a little help from the user.  Namely, the user must identify a good ending point for the loop (typically just before the decay phase begins) and identify one cycle of the waveform. After that, the  "choose loop point" menu command can be invoked to search backwards to find and rank all possible loop starting points. Some experimentation is usually required to find a loop that "breaths" in a natural way.
+
+This tool can also be used as a general viewer of numerical sequences of any kind, such as time-varying functions, FFT data, etc.

@@ -1,0 +1,3 @@
+testing
+hasRemoteContents
+	self halt

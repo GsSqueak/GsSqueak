@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"adjustTimeBy:" : "di 6/17/1999 14:28",
+		"endTime" : "jm 8/27/1998 16:38",
+		"isControlChange" : "jm 9/10/1998 09:43",
+		"isNoteEvent" : "jm 12/31/97 11:46",
+		"isPitchBend" : "jm 9/10/1998 09:43",
+		"isProgramChange" : "jm 9/10/1998 09:43",
+		"isTempoEvent" : "jm 12/31/97 11:46",
+		"outputOnMidiPort:" : "jm 9/10/1998 18:31",
+		"time" : "jm 12/31/97 11:43",
+		"time:" : "jm 12/31/97 11:43" } }

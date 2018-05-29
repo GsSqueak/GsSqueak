@@ -2,6 +2,12 @@ class initialization
 initialize
 	"ThreePhaseButtonMorph initialize"
 	| extent inset |
+	
+	
+	"ensure correct initialize order during GsSqueak bootstrap"
+	StandardScriptingSystem initialize.
+	
+	
 	extent := 12@12.
 	inset := 3.
 

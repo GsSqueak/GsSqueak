@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-MorphicExtras-Books",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"book",
+		"pageHolder" ],
+	"name" : "BookPageSorterMorph",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }

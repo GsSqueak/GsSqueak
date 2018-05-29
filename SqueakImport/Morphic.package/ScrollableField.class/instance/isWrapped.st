@@ -1,0 +1,3 @@
+accessing
+isWrapped
+	^ textMorph isWrapped

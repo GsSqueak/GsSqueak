@@ -1,0 +1,1 @@
+ScreeningMorph uses its first submorph as a screen, and its second submorph as a source.  It also wants you to choose (when showing only the screen) the passing color in the screen.  It then makes up a 1-bit mask which clips the source, and displays transparently outside it.

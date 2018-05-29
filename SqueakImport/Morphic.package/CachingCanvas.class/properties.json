@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-MorphicExtras-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"cacheCanvas",
+		"mainCanvas" ],
+	"name" : "CachingCanvas",
+	"pools" : [
+		 ],
+	"super" : "PluggableCanvas",
+	"type" : "normal" }

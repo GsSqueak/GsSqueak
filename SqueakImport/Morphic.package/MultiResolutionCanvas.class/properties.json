@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"deferredMorphs" ],
+	"name" : "MultiResolutionCanvas",
+	"pools" : [
+		 ],
+	"super" : "FormCanvas",
+	"type" : "normal" }

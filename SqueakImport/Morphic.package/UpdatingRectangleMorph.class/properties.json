@@ -1,0 +1,18 @@
+{
+	"category" : "Morphic-MorphicExtras-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"target",
+		"lastValue",
+		"getSelector",
+		"putSelector",
+		"contents" ],
+	"name" : "UpdatingRectangleMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

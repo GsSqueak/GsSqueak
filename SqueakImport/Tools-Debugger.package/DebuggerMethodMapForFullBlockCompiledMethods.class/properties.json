@@ -1,0 +1,14 @@
+{
+	"category" : "Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 1/10/2018 16:28",
+	"instvars" : [
+		"sortedSourceMaps" ],
+	"name" : "DebuggerMethodMapForFullBlockCompiledMethods",
+	"pools" : [
+		 ],
+	"super" : "DebuggerMethodMapForClosureCompiledMethods",
+	"type" : "normal" }

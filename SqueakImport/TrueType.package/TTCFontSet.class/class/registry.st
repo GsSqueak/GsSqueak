@@ -1,0 +1,4 @@
+registry
+registry
+
+	^ TTCFont registry.

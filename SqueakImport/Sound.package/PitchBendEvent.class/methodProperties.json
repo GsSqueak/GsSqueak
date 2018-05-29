@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bend" : "jm 9/10/1998 07:49",
+		"bend:" : "jm 9/10/1998 07:48",
+		"bend:channel:" : "jm 9/10/1998 07:48",
+		"channel" : "jm 9/10/1998 07:47",
+		"channel:" : "jm 9/10/1998 07:47",
+		"isPitchBend" : "jm 9/10/1998 09:45",
+		"outputOnMidiPort:" : "jm 9/10/1998 18:31",
+		"printOn:" : "jm 9/10/1998 09:42" } }

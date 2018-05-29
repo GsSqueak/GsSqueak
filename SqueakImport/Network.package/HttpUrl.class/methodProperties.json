@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"shutDown" : "tk 9/22/1998 23:13" },
+	"instance" : {
+		"askNamePassword" : "tfel 9/16/2009 00:58",
+		"checkAuthorization:retry:" : "nk 8/30/2004 07:50",
+		"hasRemoteContents" : "ar 2/27/2001 22:08",
+		"loadRemoteObjects" : "mir 10/13/1999 19:41",
+		"normalizeContents:" : "fbs 2/2/2005 13:24",
+		"postFormArgs:" : "fbs 2/2/2005 13:24",
+		"postMultipartFormArgs:" : "fbs 2/2/2005 13:24",
+		"privateInitializeFromText:relativeTo:" : "tk 9/22/1998 19:49",
+		"realm" : "tk 9/22/1998 19:47",
+		"retrieveContents" : "tk 9/22/1998 20:21",
+		"retrieveContentsAccept:" : "",
+		"retrieveContentsArgs:" : "EW 4/30/2006 12:00",
+		"retrieveContentsArgs:accept:" : "fbs 2/2/2005 13:24" } }

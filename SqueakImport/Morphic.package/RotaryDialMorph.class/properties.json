@@ -1,0 +1,21 @@
+{
+	"category" : "Morphic-MorphicExtras-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tpr 4/13/2017 16:58",
+	"instvars" : [
+		"startAngle",
+		"stopAngle",
+		"startValue",
+		"stopValue",
+		"needleMorph",
+		"needleRotationCenter",
+		"dialCenter",
+		"currentValue" ],
+	"name" : "RotaryDialMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

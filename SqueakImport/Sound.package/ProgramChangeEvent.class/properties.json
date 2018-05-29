@@ -1,0 +1,15 @@
+{
+	"category" : "Sound-Scores",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"program",
+		"channel" ],
+	"name" : "ProgramChangeEvent",
+	"pools" : [
+		 ],
+	"super" : "AbstractScoreEvent",
+	"type" : "normal" }

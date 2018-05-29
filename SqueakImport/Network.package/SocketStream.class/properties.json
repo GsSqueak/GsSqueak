@@ -1,0 +1,25 @@
+{
+	"category" : "Network-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "md 7/14/2006 16:32",
+	"instvars" : [
+		"recentlyRead",
+		"socket",
+		"inBuffer",
+		"outBuffer",
+		"inNextToWrite",
+		"outNextToWrite",
+		"lastRead",
+		"timeout",
+		"autoFlush",
+		"bufferSize",
+		"binary",
+		"shouldSignal" ],
+	"name" : "SocketStream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
