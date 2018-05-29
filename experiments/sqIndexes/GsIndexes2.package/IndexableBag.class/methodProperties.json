@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"_canCreateQueryOnInstances" : "",
+		"new" : "",
+		"new:" : "" },
+	"instance" : {
+		"_asIdentityBag" : "",
+		"_at:" : "",
+		"_canCreateQueryOnInstances" : "",
+		"_checkIndexPathExpression:" : "",
+		"_doUpdateIndexesForAdditionOf:iList:logging:" : "",
+		"_findIndexesWithPath:" : "",
+		"_getIndexList" : "",
+		"_hasIncompleteIndexes" : "",
+		"_indexedPaths" : "",
+		"_indexedPaths:" : "",
+		"_putInWriteSet" : "",
+		"_updateIndexesForAdditionOf:logging:" : "",
+		"add:" : "",
+		"add:withOccurrences:" : "",
+		"at:" : "",
+		"size" : "" } }

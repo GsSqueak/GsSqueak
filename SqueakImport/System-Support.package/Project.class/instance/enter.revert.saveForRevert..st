@@ -14,55 +14,58 @@ enter: returningFlag revert: revertFlag saveForRevert: saveForRevert
 	
 	EmergencyRecoveryRequested := false. "normal project entry clears recursion guard"
 	forceRevert := false.
-	CurrentProject rawParameters 
-		ifNil: [revertFlag ifTrue: [^ self inform: 'nothing to revert to' translated]]
-		ifNotNil: [saveForRevert ifFalse: [
-				forceRevert := CurrentProject projectParameters 
-								at: #revertWithoutAsking ifAbsent: [false]]].
-	forceRevert not & revertFlag ifTrue: [
-		response := (UIManager default chooseFrom: {
-			'Revert to saved version' translated.
-			'Cancel' translated.
-		} title: 'Are you sure you want to destroy this Project\ and revert to an older version?\\(From the parent project, click on this project''s thumbnail.)' translated withCRs) = 1.
-		response ifFalse: [^ self]].
+	CurrentProject ifNotNil: [
+	    CurrentProject rawParameters 
+		    ifNil: [revertFlag ifTrue: [^ self inform: 'nothing to revert to' translated]]
+		    ifNotNil: [saveForRevert ifFalse: [
+				    forceRevert := CurrentProject projectParameters 
+								    at: #revertWithoutAsking ifAbsent: [false]]].
+	  forceRevert not & revertFlag ifTrue: [
+		  response := (UIManager default chooseFrom: {
+			  'Revert to saved version' translated.
+			  'Cancel' translated.
+		  } title: 'Are you sure you want to destroy this Project\ and revert to an older version?\\(From the parent project, click on this project''s thumbnail.)' translated withCRs) = 1.
+		  response ifFalse: [^ self]].
 
-	revertFlag | forceRevert 
-		ifTrue: [seg := CurrentProject projectParameters at: #revertToMe ifAbsent: [
-					^ self inform: 'nothing to revert to' translated]]
-		ifFalse: [
-			CurrentProject makeThumbnail.
-			returningFlag == #specialReturn
-				ifTrue:
-					[ProjectHistory forget: CurrentProject.		"this guy is irrelevant"
-					Project forget: CurrentProject]
-				ifFalse:
-					[ProjectHistory remember: CurrentProject]].
+	  revertFlag | forceRevert 
+		  ifTrue: [seg := CurrentProject projectParameters at: #revertToMe ifAbsent: [
+					  ^ self inform: 'nothing to revert to' translated]]
+		  ifFalse: [
+			  CurrentProject makeThumbnail.
+			  returningFlag == #specialReturn
+				  ifTrue:
+					  [ProjectHistory forget: CurrentProject.		"this guy is irrelevant"
+					  Project forget: CurrentProject]
+				  ifFalse:
+					  [ProjectHistory remember: CurrentProject]].
 
-	(revertFlag | saveForRevert | forceRevert) ifFalse: [
-		(Preferences valueOfFlag: #projectsSentToDisk)
-			ifTrue: [
-				self inform: 'Project serialization via image segments\does not work at the moment. Disabling the\preference #projectsSentToDisk now...' withCRs.
-				Preferences disable: #projectsSentToDisk.
-				"self storeToMakeRoom"]].
+	  (revertFlag | saveForRevert | forceRevert) ifFalse: [
+		  (Preferences valueOfFlag: #projectsSentToDisk)
+			  ifTrue: [
+				  self inform: 'Project serialization via image segments\does not work at the moment. Disabling the\preference #projectsSentToDisk now...' withCRs.
+				  Preferences disable: #projectsSentToDisk.
+				  "self storeToMakeRoom"]].
 
-	"Update display depth for leaving and entring project."
-	CurrentProject displayDepth: Display depth.
+	  "Update display depth for leaving and entring project."
+	  CurrentProject displayDepth: Display depth].
+
 	displayDepth == nil ifTrue: [displayDepth := Display depth].
 	self installNewDisplay: Display extent depth: displayDepth.
 
-	returningFlag == #specialReturn ifTrue: [
-		CurrentProject removeChangeSetIfPossible.	"keep this stuff from accumulating"
-		nextProject := nil
-	] ifFalse: [
-		returningFlag
-			ifTrue: [nextProject := CurrentProject]
-			ifFalse: [previousProject := CurrentProject].
-	].
+  CurrentProject ifNotNil: [
+	  returningFlag == #specialReturn ifTrue: [
+		  CurrentProject removeChangeSetIfPossible.	"keep this stuff from accumulating"
+		  nextProject := nil
+	  ] ifFalse: [
+		  returningFlag
+			  ifTrue: [nextProject := CurrentProject]
+			  ifFalse: [previousProject := CurrentProject].
+	  ].
 
-	CurrentProject world triggerEvent: #aboutToLeaveWorld.
-	CurrentProject abortResourceLoading.
-	CurrentProject finalExitActions: self.
-	CurrentProject saveState.
+	  CurrentProject world triggerEvent: #aboutToLeaveWorld.
+	  CurrentProject abortResourceLoading.
+	  CurrentProject finalExitActions: self.
+	  CurrentProject saveState].
 	
 	"********** SWITCHING CURRENT PROJECT **********"
 	leavingProject := CurrentProject.
@@ -90,10 +93,11 @@ enter: returningFlag revert: revertFlag saveForRevert: saveForRevert
 	self removeParameter: #exportState.
 	
 	"Now that everything is set up, we can show zoom animation."
-	self showZoom
+	(self showZoom and: [leavingProject isNotNil])
 		ifTrue: [self displayZoom: leavingProject parent ~~ self "Entering?"]
 		ifFalse: [self restore].
 	
 	"Update processes at last."
 	self scheduleProcessForEnter.
-	leavingProject terminateProcessForLeave.
+	leavingProject ifNotNil: [
+	  leavingProject terminateProcessForLeave ]

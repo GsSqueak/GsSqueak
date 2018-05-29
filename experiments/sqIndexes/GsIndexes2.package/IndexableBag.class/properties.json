@@ -1,0 +1,14 @@
+{
+	"category" : "GsIndexes2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"_indexedPaths" ],
+	"name" : "IndexableBag",
+	"pools" : [
+		 ],
+	"super" : "Bag",
+	"type" : "normal" }

@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"backChunk" : "ul 3/22/2010 08:16",
+		"basicNextChunk" : "yo 8/7/2003 13:04",
+		"checkForPreamble:" : "sd 5/23/2003 14:40",
+		"command:" : "",
+		"copyMethodChunkFrom:" : "di 2/3/98 14:44",
+		"copyMethodChunkFrom:at:" : "yo 10/15/2003 19:02",
+		"copyPreamble:from:at:" : "SergeStinckwich 7/31/2009 15:25",
+		"decodeString:andRuns:" : "nice 2/26/2013 00:17",
+		"decodeStyle:version:" : "tk 12/13/97 13:36",
+		"fileIn" : "mir 7/26/2000 13:28",
+		"fileInAnnouncing:" : "cmm 3/26/2015 15:32",
+		"fileInFor:announcing:" : "fbs 7/25/2013 07:15",
+		"fileInSilentlyAnnouncing:" : "fbs 7/25/2013 07:15",
+		"header" : "",
+		"nextChunk" : "yo 8/13/2003 11:59",
+		"nextChunkText" : "nice 2/25/2013 23:25",
+		"parseLangTagFor:" : "sumim 11/20/2003 18:11",
+		"skipSeparatorsAndPeekNext" : "di 1/13/98 16:08",
+		"skipStyleChunk" : "tk 12/29/97 12:37",
+		"trailer" : "",
+		"unCommand" : "",
+		"verbatim:" : "" } }

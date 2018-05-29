@@ -3,6 +3,9 @@ setWorldBackground: force
 
 	((world hasProperty: #hasCustomBackground) and: [force not])
 		ifTrue: [^ self].
+	
+	Project current ifNil: [
+	    ^ self ].
 
 	"If the user has a custom background, propagate it into the new project."
 	((Project current ~~ self and: [Project current isMorphic]) and: [Project current world hasProperty: #hasCustomBackground])
