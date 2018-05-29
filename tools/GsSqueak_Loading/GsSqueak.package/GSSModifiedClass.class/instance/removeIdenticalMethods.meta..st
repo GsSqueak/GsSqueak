@@ -10,7 +10,7 @@ removeIdenticalMethods: aCollection meta: aBoolean
 								sourceCodeAt: method selector
 								ifAbsent: [nil].
 		originalSource
-			ifNil: [true]
+			ifNil: [false]
 			ifNotNil: [
 				method source withBlanksCondensed
 				= originalSource asString withBlanksCondensed]]) ifEmpty: [nil]
