@@ -1,0 +1,169 @@
+move./System/Localization/Locale.mod
+move./Morphic/Morphic/MenuMorph.mod
+move./Morphic/Morphic/StandardScriptingSystem.mod
+move./Graphics/Form.mod
+move./Files/FileStream.mod
+move./Morphic/Morphic/RectangleMorph.mod
+move./ExtensionClasses/SmartRefStream.mod
+move./Morphic/Morphic/Canvas.mod
+move./System/Download/HTTPDownloadRequest.mod
+move./ExtensionClasses/SolidFillStyle.mod
+move./ExtensionClasses/OrderedCollection.mod
+move./ExtensionClasses/BitmapFillStyle.mod
+move./ExtensionClasses/Rectangle.mod
+move./Tools/Browser/PackagePaneBrowser.mod
+move./Morphic/Morphic/ThreePhaseButtonMorph.mod
+move./ExtensionClasses/GradientFillStyle.mod
+move./Collections/Text/Text.mod
+move./Network/MIMEDocument.mod
+move./Collections/Unordered/Dictionary.mod
+move./ExtensionClasses/OrderedDictionary.mod
+move./TrueType/TTFontDescription.mod
+move./Tools/Browser/SelectorBrowser.mod
+move./Network/RemoteFileStream.mod
+move./Morphic/Morphic/BorderedMorph.mod
+move./ExtensionClasses/Project.mod
+move./Morphic/Morphic/MorphicModel.mod
+move./Morphic/Morphic/TextMorph.mod
+move./Morphic/Morphic/AlignmentMorph.mod
+move./ExtensionClasses/OrientedFillStyle.mod
+move./Morphic/Morphic/EllipseMorph.mod
+move./Tools/Browser/MessageNames.mod
+move./Morphic/Morphic/BalloonMorph.mod
+move./Morphic/Morphic/WorldState.mod
+move./Morphic/Morphic/ProjectViewMorph.mod
+move./Collections/Literals/Symbol.mod
+move./Morphic/Morphic/EventHandler.mod
+move./Tools/Debugger/SyntaxError.mod
+move./ExtensionClasses/ColorForm.mod
+move./Network/ServerDirectory.mod
+move./Sound/LoopedSampledSound.mod
+move./Collections/Literals/String.mod
+move./Sound/SampledSound.mod
+move./Morphic/Morphic/SimpleButtonMorph.mod
+move./Morphic/Morphic/UpdatingStringMorph.mod
+move./Tools/FileList/PluggableFileList.mod
+move./Morphic/Morphic/PolygonMorph.mod
+move./Morphic/Morphic/SketchMorph.mod
+move./Morphic/Morphic/TransformMorph.mod
+move./Graphics/DisplayScreen.mod
+move./Graphics/BitBlt.mod
+move./ExtensionClasses/HTTPClient.mod
+move./Tools/Menus/PopUpMenu.mod
+move./Sound/MIDIFileReader.mod
+move./Morphic/Morphic/Morph.mod
+move./Graphics/Color.mod
+move./System/Recovery/Transcripter.mod
+move./Morphic/Morphic/MenuIcons.mod
+move./Tools/Base/Workspace.mod
+move./Morphic/Morphic/MorphExtension.mod
+move./Collections/Abstract/SequenceableCollection.mod
+move./System/Preferences.mod
+move./Graphics/Text/TextStyle.mod
+move./Morphic/Kernel/TheWorldMenu.mod
+move./Morphic/Morphic/CurveMorph.mod
+move./ExtensionClasses/TextURL.mod
+move./Morphic/Morphic/ImageMorph.mod
+move./ExtensionClasses/Set.mod
+move./Morphic/Morphic/StringMorph.mod
+move./Kernel/Numbers/Integer.mod
+move./Morphic/Morphic/UpdatingMenuItemMorph.mod
+move./Sound/AIFFFileReader.mod
+move./Sound/AbstractSound.mod
+move./Morphic/Morphic/PasteUpMorph.mod
+move./Tools/Menus/CustomMenu.mod
+move./Files/FileDirectory.mod
+move./Morphic/Morphic/IconicButton.mod
+move./Tools/Debugger/Debugger.mod
+move./Morphic/Morphic/NewBalloonMorph.mod
+move./Morphic/Morphic/HandMorph.mod
+move./Graphics/Transformations/MatrixTransform2x3.mod
+move./Files/AcornFileDirectory.mod
+move./Files/FileStream.mod
+move./Collections/Text/Text.mod
+move./ExtensionClasses/DateAndTime.mod
+move./Collections/Literals/String.mod
+move./Files/MacFileDirectory.mod
+move./Files/FileDirectory.mod
+move./Files/DosFileDirectory.mod
+move./ExtensionClasses/OrderedCollection.mod
+move./Collections/Unordered/Dictionary.mod
+move./Collections/Arrayed/FloatArray.mod
+move./ExtensionClasses/WeakSet.mod
+move./ExtensionClasses/Set.mod
+move./Files/StandardFileStream.mod
+move./Files/FileDirectory.mod
+move./System/SystemNavigation.mod
+move./ExtensionClasses/StringHolder.mod
+move./ExtensionClasses/Model.mod
+move./ExtensionClasses/Message.mod
+move./Collections/Literals/Symbol.mod
+move./Collections/Literals/String.mod
+move./ExtensionClasses/Collection.mod
+move./Collections/Abstract/SequenceableCollection.mod
+move./ExtensionClasses/Set.mod
+move./Kernel/Numbers/Integer.mod
+move./Collections/Abstract/HashedCollection.mod
+move./Kernel/Numbers/Number.mod
+move./Collections/Abstract/ArrayedCollection.mod
+move./Collections/Literals/WideSymbol.mod
+move./Collections/Literals/WideString.mod
+move./Morphic/Morphic/MenuMorph.mod
+move./Morphic/Morphic/SystemWindow.mod
+move./Collections/Text/Text.mod
+move./Collections/Literals/String.mod
+move./Morphic/Morphic/Morph.mod
+move./Morphic/Morphic/DialogWindow.mod
+move./Files/FileStream.mod
+move./Collections/Literals/String.mod
+move./ExtensionClasses/ReadWriteStream.mod
+move./ExtensionClasses/CompiledMethodTrailer.mod
+move./ExtensionClasses/PositionableStream.mod
+move./Files/StandardFileStream.mod
+move./Collections/Literals/String.mod
+move./Kernel/Numbers/Integer.mod
+move./ExtensionClasses/Project.mod
+move./Collections/Literals/String.mod
+move./Collections/Literals/String.mod
+move./Graphics/Text/TextStyle.mod
+move./ExtensionClasses/PositionableStream.mod
+move./Graphics/Fonts/HostFont.mod
+move./Graphics/Text/TextStyle.mod
+array(18) {
+  [0]=>
+  string(42) "./Morphic/Morphic/CompiledMethod.extension"
+  [1]=>
+  string(34) "./Morphic/Morphic/Object.extension"
+  [2]=>
+  string(33) "./Morphic/Morphic/Float.extension"
+  [3]=>
+  string(29) "./Network/ByteArray.extension"
+  [4]=>
+  string(42) "./Tools/Inspector/CompiledMethod.extension"
+  [5]=>
+  string(34) "./Tools/Browser/Behavior.extension"
+  [6]=>
+  string(32) "./Tools/Browser/Object.extension"
+  [7]=>
+  string(32) "./Tools/Debugger/Class.extension"
+  [8]=>
+  string(34) "./Tools/Debugger/Boolean.extension"
+  [9]=>
+  string(41) "./Tools/Debugger/CompiledMethod.extension"
+  [10]=>
+  string(33) "./Tools/Debugger/Object.extension"
+  [11]=>
+  string(36) "./Graphics/Text/ByteSymbol.extension"
+  [12]=>
+  string(36) "./Graphics/Text/ByteString.extension"
+  [13]=>
+  string(30) "./ToolBuilder/Object.extension"
+  [14]=>
+  string(33) "./Compression/ByteArray.extension"
+  [15]=>
+  string(38) "./System/Localization/Object.extension"
+  [16]=>
+  string(34) "./System/Recovery/Object.extension"
+  [17]=>
+  string(35) "./System/Changes/Behavior.extension"
+}
