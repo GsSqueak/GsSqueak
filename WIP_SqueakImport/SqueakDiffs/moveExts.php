@@ -33,14 +33,14 @@ foreach($extensionFolders as $extension){
         
         exec("mkdir " . $classes[0] . "/instance/");
         foreach($instMethods as $instMethod){
-            exec("mv -f " . $instMethod . " " . $classes[0] . "/instance/");
+            exec("cp " . $instMethod . " " . $classes[0] . "/instance/");
         }
         
         $classMethods = array();
         exec("find " . $extension . "/class/ -name *.st",$classMethods); 
         exec("mkdir " . $classes[0] . "/class/");
         foreach($classMethods as $classMethod){
-            exec("mv -f " . $classMethod . " " . $classes[0] . "/class/");
+            exec("cp " . $classMethod . " " . $classes[0] . "/class/");
         }
         
          
