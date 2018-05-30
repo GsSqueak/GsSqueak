@@ -1,0 +1,3 @@
+support
+returnTrue
+	^true

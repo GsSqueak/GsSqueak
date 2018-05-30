@@ -4,7 +4,7 @@ hierarchicalClassList
 	| hierarchyTree classesToSort |
 	classesToSort := self defaultClassList.
 	classesToSort ifEmpty: [^ #()].
-	classesToSort size > 30 ifTrue: [^ classesToSort].
+	classesToSort size > 50 ifTrue: [^ classesToSort].
 	
 	hierarchyTree := self environment	hierarchyTreeOfClassNames: classesToSort.
 	^ self

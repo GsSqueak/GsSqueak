@@ -1,0 +1,4 @@
+{
+	"category" : "Kernel-Numbers",
+	"name" : "Float",
+	"super" : "Number" }

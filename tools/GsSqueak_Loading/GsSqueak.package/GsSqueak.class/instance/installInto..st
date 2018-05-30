@@ -1,15 +1,21 @@
 installing
 installInto: anEnvironment
 
-	| classDefinitions |
-	classDefinitions := self sortedClassDefinitions.
-	'Install classes into GemStone'
-		displayProgressFrom: 1
-		to: classDefinitions size
+	| sortedClasses classesToInitialize |
+	sortedClasses := self sortedClassDefinitions.
+	classesToInitialize := OrderedCollection new.
+	'Installing classes into GemStone'
+		displayProgressFrom: 0
+		to: sortedClasses size
 		during: [:classBar |
-			classDefinitions withIndexDo: [:classDefinition :classIndex |
+			sortedClasses withIndexDo: [:classDefinition :classIndex |
 				| class |
 				class := classDefinition installInto: anEnvironment.
+				classDefinition canBeSpecial ifTrue: [class setCanBeSpecial].
 				classDefinition installBaseMethodsInto: class.
 				classDefinition installExtensionMethodsInto: class categories: self categoriesToLoad.
-				classBar value: classIndex]]
+				classDefinition hasInitialize ifTrue: [classesToInitialize add: class].
+				"(classIndex \\ 30) = 0 ifTrue: [anEnvironment repository commitTransaction]."
+				classBar value: classIndex]].
+	"anEnvironment repository commitTransaction."
+	self initializeClasses: classesToInitialize

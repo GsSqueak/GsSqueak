@@ -1,0 +1,16 @@
+{
+	"category" : "ToolBuilder-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 2/11/2005 15:02",
+	"instvars" : [
+		"widgets",
+		"panes",
+		"parentMenu" ],
+	"name" : "MorphicToolBuilder",
+	"pools" : [
+		 ],
+	"super" : "ToolBuilder",
+	"type" : "normal" }

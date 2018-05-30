@@ -1,4 +1,0 @@
-{
-	"category" : "Kernel-Numbers",
-	"name" : "ScaledDecimal",
-	"super" : "Number" }

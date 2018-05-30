@@ -5,12 +5,12 @@ createLinkedClass: linkedClassName superclass: superclassName forGemstoneClass: 
 	superclassSetter := superclassName 
 							ifNil: ['']
 							ifNotNil: [
-								'| environment |
+								'| environment makeSuperclassesSpecial |
 								environment := {1}.
 								{2} superclassForEnv: {3} put: (environment classNamed: {4}).
 								{2} class superclassForEnv: {3} put: (environment classNamed: {4}) class.
 								Behavior _clearLookupCaches: 0.
-								Behavior _clearLookupCaches: {3}'
+								Behavior _clearLookupCaches: {3}.'
 									format: {
 										self codeReferencingMe.
 										aGsClass.

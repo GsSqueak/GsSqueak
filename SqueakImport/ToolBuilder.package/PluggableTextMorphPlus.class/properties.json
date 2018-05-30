@@ -1,0 +1,18 @@
+{
+	"category" : "ToolBuilder-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 2/11/2005 21:53",
+	"instvars" : [
+		"getColorSelector",
+		"acceptAction",
+		"unstyledAcceptText",
+		"styler",
+		"getTextColorSelector" ],
+	"name" : "PluggableTextMorphPlus",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextMorph",
+	"type" : "normal" }

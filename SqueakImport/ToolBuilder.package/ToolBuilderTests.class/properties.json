@@ -1,0 +1,16 @@
+{
+	"category" : "ToolBuilder-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 2/11/2005 15:01",
+	"instvars" : [
+		"builder",
+		"widget",
+		"queries" ],
+	"name" : "ToolBuilderTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

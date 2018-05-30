@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"itemList" ],
+	"name" : "PluggableListMorphByItemPlus",
+	"pools" : [
+		 ],
+	"super" : "PluggableListMorphPlus",
+	"type" : "normal" }

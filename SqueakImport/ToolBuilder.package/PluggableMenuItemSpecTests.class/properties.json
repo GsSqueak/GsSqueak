@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PluggableMenuItemSpecTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "ToolBuilder-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"getTitleSelector",
+		"getMessageSelector",
+		"getChildrenSelector",
+		"getButtonsSelector",
+		"closeDialogSelector" ],
+	"name" : "PluggableDialogWindow",
+	"pools" : [
+		 ],
+	"super" : "DialogWindow",
+	"type" : "normal" }

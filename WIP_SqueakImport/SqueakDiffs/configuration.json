@@ -7,6 +7,10 @@
 		"SUnit",
 		"Chronology"
 		],
+	"classesToLoad" : [
+		"Environment",
+		"Scanner"
+	],
 	"classesNotToLoad" : [
 		"True",
 		"False",
@@ -15,4 +19,39 @@
 		"FullBlockClosure",
 		"CompiledCode",
 		"CompiledBlock"
-		]}
+		],
+	"classesToInitializeFirst" : [
+		"SmalltalkImage",
+
+		"Random",
+		"Color",
+		"Preferences",
+		"Scanner",
+
+		"ExternalSettings",
+		"SecurityManager",
+		"LanguageEnvironment",
+		"FileStream",
+		"AutoStart",
+
+		"String",
+		"WideString",
+		"Symbol",
+		"WideSymbol"
+		],
+	"classesNotToInitialize" : [
+		"Delay",
+		"ChangeSet",
+		"ObjectTracer",
+		
+		"UserInterfaceTheme",
+		"TextStyle",
+		"Text",
+		"StrikeFont",
+		"CharacterScanner",
+		"EventSensor",
+		"DateAndTime",
+		"PNGReadWriter",
+		"NaturalLanguageTranslator",
+		"Cursor"
+	]}
