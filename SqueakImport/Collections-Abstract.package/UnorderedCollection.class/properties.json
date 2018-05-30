@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ul 4/12/2010 22:37",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"tally",
-		"array" ],
-	"name" : "HashedCollection",
+		 ],
+	"name" : "UnorderedCollection",
 	"pools" : [
 		 ],
-	"super" : "UnorderedCollection",
+	"super" : "Collection",
 	"type" : "normal" }

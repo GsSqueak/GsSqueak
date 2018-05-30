@@ -10,5 +10,5 @@
 	"name" : "Bag",
 	"pools" : [
 		 ],
-	"super" : "Collection",
+	"super" : "UnorderedCollection",
 	"type" : "normal" }
