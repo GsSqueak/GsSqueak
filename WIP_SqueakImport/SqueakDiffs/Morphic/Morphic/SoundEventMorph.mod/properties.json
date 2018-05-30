@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-SoundInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sound" ],
+	"name" : "SoundEventMorph",
+	"pools" : [
+		 ],
+	"super" : "AbstractMediaEventMorph",
+	"type" : "normal" }

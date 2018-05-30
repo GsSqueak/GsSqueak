@@ -1,0 +1,1 @@
+A MIDIScore is a container for a number of MIDI tracks as well as an ambient track for such things as sounds, book page triggers and other related events.

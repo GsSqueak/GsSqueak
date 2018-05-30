@@ -1,0 +1,3 @@
+editing
+chooseEmphasisOrAlignment
+	textMorph chooseEmphasisOrAlignment

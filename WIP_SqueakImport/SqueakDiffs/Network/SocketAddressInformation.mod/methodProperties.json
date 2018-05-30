@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"addressFamilyINET4" : "ikp 6/8/2007 22:02",
+		"addressFamilyINET6" : "ikp 6/8/2007 22:02",
+		"addressFamilyLocal" : "ikp 6/8/2007 22:02",
+		"addressFamilyUnspecified" : "ikp 6/8/2007 22:01",
+		"forHost:service:flags:addressFamily:socketType:protocol:" : "dtl 6/13/2012 22:14",
+		"initialize" : "dtl 6/13/2012 22:15",
+		"numericFlag" : "ikp 6/9/2007 09:13",
+		"passiveFlag" : "ikp 6/9/2007 09:12",
+		"protocolTCP" : "ikp 6/8/2007 22:02",
+		"protocolUDP" : "ikp 6/8/2007 22:02",
+		"protocolUnspecified" : "ikp 6/8/2007 22:02",
+		"socketTypeDGram" : "ikp 6/8/2007 22:02",
+		"socketTypeStream" : "ikp 6/8/2007 22:02",
+		"socketTypeUnspecified" : "ikp 6/8/2007 22:02",
+		"withSocketAddress:family:type:protocol:" : "ikp 6/8/2007 18:11" },
+	"instance" : {
+		"addressFamilyName" : "ikp 6/8/2007 18:20",
+		"connect" : "dtl 6/13/2012 21:31",
+		"initSocketAddress:family:type:protocol:" : "ikp 6/8/2007 18:11",
+		"listenWithBacklog:" : "ikp 6/9/2007 09:52",
+		"printOn:" : "ikp 6/8/2007 21:54",
+		"protocolName" : "ikp 6/8/2007 18:20",
+		"socketAddress" : "ikp 6/9/2007 08:35",
+		"socketTypeName" : "ikp 6/8/2007 18:20" } }

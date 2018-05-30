@@ -1,0 +1,21 @@
+{
+	"category" : "Morphic-MorphicExtras-SoundInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"graph",
+		"samplingRate",
+		"perceivedFrequency",
+		"loopEnd",
+		"loopLength",
+		"loopCycles",
+		"possibleLoopStarts",
+		"keyboard" ],
+	"name" : "WaveEditor",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }

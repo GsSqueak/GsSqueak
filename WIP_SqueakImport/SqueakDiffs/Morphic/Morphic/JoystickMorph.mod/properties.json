@@ -1,0 +1,23 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kfr 10/27/2003 16:25",
+	"instvars" : [
+		"handleMorph",
+		"xScale",
+		"yScale",
+		"radiusScale",
+		"lastAngle",
+		"autoCenter",
+		"realJoystickIndex",
+		"lastRealJoystickValue",
+		"button1",
+		"button2" ],
+	"name" : "JoystickMorph",
+	"pools" : [
+		 ],
+	"super" : "SketchMorph",
+	"type" : "normal" }

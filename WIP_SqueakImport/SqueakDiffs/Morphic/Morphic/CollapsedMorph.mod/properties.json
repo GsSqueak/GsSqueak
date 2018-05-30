@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Windows",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"uncollapsedMorph" ],
+	"name" : "CollapsedMorph",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

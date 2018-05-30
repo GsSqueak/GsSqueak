@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentDelta" ],
+	"name" : "MouseWheelState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

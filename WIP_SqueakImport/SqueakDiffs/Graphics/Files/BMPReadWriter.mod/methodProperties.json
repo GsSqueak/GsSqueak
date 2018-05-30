@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"displayAllFrom:" : "ar 6/16/2002 18:55",
+		"readAllFrom:" : "ar 6/16/2002 18:56",
+		"typicalFileExtensions" : "nk 7/16/2003 17:56" },
+	"instance" : {
+		"nextImage" : "ar 6/16/2002 15:36",
+		"nextPutImage:" : "ar 12/21/2010 20:03",
+		"read24BmpFile" : "ar 10/25/2005 13:48",
+		"read24BmpLine:into:startingAt:width:" : "ar 12/21/2010 20:11",
+		"readColorMap" : "ar 10/24/2005 20:57",
+		"readHeader" : "ar 6/16/2002 15:20",
+		"readIndexedBmpFile:" : "ar 10/25/2005 13:45",
+		"store24BitBmpLine:from:startingAt:width:" : "ar 12/21/2010 20:12",
+		"understandsImageFormat" : "ar 6/16/2002 15:27" } }

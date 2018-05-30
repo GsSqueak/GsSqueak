@@ -1,0 +1,4 @@
+testing
+wantsSteps
+
+	^actionBlock notNil

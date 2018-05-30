@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"channel" : "jm 9/10/1998 07:47",
+		"channel:" : "jm 9/10/1998 07:47",
+		"control" : "jm 9/10/1998 07:49",
+		"control:" : "jm 9/10/1998 07:48",
+		"control:value:channel:" : "jm 9/10/1998 08:03",
+		"isControlChange" : "jm 9/10/1998 09:45",
+		"outputOnMidiPort:" : "jm 9/10/1998 18:31",
+		"printOn:" : "sma 6/1/2000 09:34",
+		"value" : "jm 9/10/1998 08:02",
+		"value:" : "jm 9/10/1998 08:03" } }

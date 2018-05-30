@@ -1,0 +1,3 @@
+configuring
+filterSelector
+	^#encodePostscriptOn:.

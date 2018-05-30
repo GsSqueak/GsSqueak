@@ -1,0 +1,3 @@
+private
+sortingByName
+	^ sortMode == #name

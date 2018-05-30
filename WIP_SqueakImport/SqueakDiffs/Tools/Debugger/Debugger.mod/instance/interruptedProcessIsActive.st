@@ -1,0 +1,3 @@
+user interface
+interruptedProcessIsActive
+	^interruptedProcess isTerminated not

@@ -1,0 +1,3 @@
+widget classes
+menuItemClass
+	^ MenuItemMorph

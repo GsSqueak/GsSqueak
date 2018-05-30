@@ -1,0 +1,14 @@
+{
+	"category" : "Tools-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Icons" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ToolIcons",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

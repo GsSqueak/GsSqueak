@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"acceptSort" : "jm 6/17/1998 21:27",
+		"addControls" : "sw 5/11/2007 14:09",
+		"book:morphsToSort:" : "yo 7/1/2007 15:51",
+		"changeExtent:" : "dgd 2/17/2003 19:56",
+		"closeButtonOnly" : "dgd 10/26/2003 13:22",
+		"columnWith:" : "ar 11/9/2000 21:11",
+		"defaultBorderWidth" : "dgd 2/17/2003 19:55",
+		"defaultColor" : "dgd 2/17/2003 19:55",
+		"getPartsBinStatus" : "RAA 6/28/2000 11:57",
+		"initialize" : "sw 4/19/2007 22:29",
+		"pageHolder" : "jm 11/17/97 16:46",
+		"rowWith:" : "ar 11/9/2000 21:11",
+		"togglePartsBinStatus" : "RAA 6/28/2000 11:58",
+		"veryDeepFixupWith:" : "tk 1/7/1999 14:36",
+		"veryDeepInner:" : "tk 1/7/1999 14:36",
+		"wantsToBeDroppedInto:" : "ar 9/18/2000 18:34",
+		"wrapperFor:" : "RAA 6/28/2000 12:10" } }

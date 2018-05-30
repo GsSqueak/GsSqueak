@@ -1,0 +1,4 @@
+protocols
+currentVocabulary
+
+	^ActiveWorld currentVocabulary

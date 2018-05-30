@@ -1,0 +1,1 @@
+A canvas which has a hidden form caching the events.  contentsOfArea:into: uses the cache, instead of the main canvas.  This is typically used with remote canvases, where querying the bits would involve a network transaction.

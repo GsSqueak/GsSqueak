@@ -1,0 +1,20 @@
+{
+	"category" : "Tools-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LookupPools",
+		"ShouldStyle" ],
+	"commentStamp" : "fbs 6/2/2012 20:46",
+	"instvars" : [
+		"bindings",
+		"acceptDroppedMorphs",
+		"acceptAction",
+		"mustDeclareVariables",
+		"shouldStyle",
+		"environment" ],
+	"name" : "Workspace",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

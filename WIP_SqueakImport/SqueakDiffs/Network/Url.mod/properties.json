@@ -1,0 +1,14 @@
+{
+	"category" : "Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SchemeRegistry" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"fragment" ],
+	"name" : "Url",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

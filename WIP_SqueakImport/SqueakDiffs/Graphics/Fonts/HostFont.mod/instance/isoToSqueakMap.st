@@ -1,0 +1,3 @@
+private-creation
+isoToSqueakMap
+	^nil

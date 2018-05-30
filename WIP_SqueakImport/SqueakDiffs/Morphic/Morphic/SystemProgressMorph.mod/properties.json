@@ -1,0 +1,23 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BarHeight",
+		"BarWidth",
+		"Inset",
+		"UniqueInstance" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"activeSlots",
+		"bars",
+		"labels",
+		"font",
+		"lock",
+		"requestedPosition",
+		"textColor" ],
+	"name" : "SystemProgressMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

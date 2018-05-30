@@ -1,0 +1,18 @@
+{
+	"category" : "Morphic-MorphicExtras-AdditionalMorphs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"images",
+		"delays",
+		"stepTime",
+		"nextTime",
+		"imageIndex" ],
+	"name" : "AnimatedImageMorph",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

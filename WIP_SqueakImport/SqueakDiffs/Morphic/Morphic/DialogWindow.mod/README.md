@@ -1,0 +1,1 @@
+A DialogBoxMorph is Morph used in simple yes/no/confirm dialogs. Strongly modal.

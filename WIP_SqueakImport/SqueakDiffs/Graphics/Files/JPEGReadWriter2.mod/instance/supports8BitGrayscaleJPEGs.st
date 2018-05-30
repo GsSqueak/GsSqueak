@@ -1,0 +1,3 @@
+testing
+supports8BitGrayscaleJPEGs
+	^ self primSupports8BitGrayscaleJPEGs

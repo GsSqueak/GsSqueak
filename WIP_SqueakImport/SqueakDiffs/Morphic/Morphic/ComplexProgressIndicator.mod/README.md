@@ -1,0 +1,1 @@
+Note: in an effort to remove the progress indicator if a walkback occurs, #withProgressDo: must be sent from the current uiProcess. Hopefully we can relax this restriction in the future. 

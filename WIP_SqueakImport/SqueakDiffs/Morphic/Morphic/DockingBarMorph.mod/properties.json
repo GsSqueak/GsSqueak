@@ -1,0 +1,22 @@
+{
+	"category" : "Morphic-Menus-DockingBar",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"originalColor",
+		"gradientRamp",
+		"fillsOwner",
+		"avoidVisibleBordersAtEdge",
+		"autoGradient",
+		"selectedItem",
+		"activeSubMenu",
+		"oldKeyboardFocus",
+		"oldMouseFocus" ],
+	"name" : "DockingBarMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

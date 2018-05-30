@@ -1,0 +1,4 @@
+testing
+isWrapped
+
+	^ self wrapFlag

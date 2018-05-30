@@ -1,0 +1,16 @@
+{
+	"category" : "Tools-Debugger-Late",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"TextMenu" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"block",
+		"tally",
+		"methodReferences" ],
+	"name" : "TimeProfileBrowser",
+	"pools" : [
+		 ],
+	"super" : "MessageSet",
+	"type" : "normal" }

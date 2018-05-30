@@ -1,0 +1,1 @@
+Tree item for PluggableTreeMorph. My model is the tree morph. I keep track of my parent item and the index in my parent's list of children to support selective refreshing.

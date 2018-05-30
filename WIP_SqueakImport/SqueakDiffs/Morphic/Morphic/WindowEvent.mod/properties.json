@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"action",
+		"rectangle" ],
+	"name" : "WindowEvent",
+	"pools" : [
+		 ],
+	"super" : "MorphicEvent",
+	"type" : "normal" }

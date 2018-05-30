@@ -1,0 +1,3 @@
+dummy
+sourceForm:newForm
+	^self.

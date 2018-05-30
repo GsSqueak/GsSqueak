@@ -1,0 +1,27 @@
+{
+	"category" : "System-Changes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 9/6/2013 17:32",
+	"instvars" : [
+		"inForce",
+		"revertable",
+		"changeTypes",
+		"thisDefinition",
+		"priorDefinition",
+		"thisName",
+		"priorName",
+		"thisOrganization",
+		"priorOrganization",
+		"thisComment",
+		"priorComment",
+		"thisMD",
+		"priorMD",
+		"methodChanges" ],
+	"name" : "ClassChangeRecord",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

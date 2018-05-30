@@ -1,0 +1,1 @@
+An example for using TrueType fonts.

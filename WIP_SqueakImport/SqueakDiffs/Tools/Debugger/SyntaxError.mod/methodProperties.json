@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"open:" : "tpr 1/29/2018 11:40" },
+	"instance" : {
+		"contents:notifying:" : "nice 9/18/2013 21:24",
+		"debug" : "RAA 12/1/2000 14:24",
+		"list" : "nice 9/20/2013 01:58",
+		"listIndex" : "jm 5/3/1998 13:48",
+		"listMenu:" : "jm 5/3/1998 14:22",
+		"proceed" : "di 5/5/1998 00:06",
+		"release" : "nice 9/18/2013 21:30",
+		"selectedClass" : "jm 5/3/1998 14:15",
+		"selectedClassOrMetaClass" : "jm 5/3/1998 14:33",
+		"selectedMessageName" : "jm 5/3/1998 14:17",
+		"setNotification:" : "nice 9/20/2013 01:57" } }

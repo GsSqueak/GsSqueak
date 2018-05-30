@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"acceptDroppingMorph:event:" : "RAA 12/3/2000 09:56",
+		"addCustomMenuItems:hand:" : "dgd 8/30/2003 22:32",
+		"compileScript" : "nice 12/27/2009 03:11",
+		"decompileScript:named:for:" : "nice 12/27/2009 03:11",
+		"defaultBorderColor" : "dgd 2/14/2003 22:35",
+		"defaultBorderWidth" : "dgd 2/14/2003 22:40",
+		"defaultColor" : "dgd 2/14/2003 22:32",
+		"fixup" : "RAA 12/3/2000 11:16",
+		"initialize" : "dgd 2/14/2003 21:46",
+		"layoutChanged" : "RAA 12/3/2000 09:33",
+		"saveScript" : "ar 8/6/2009 20:46",
+		"step" : "RAA 12/3/2000 10:36",
+		"stepTime" : "RAA 12/3/2000 09:53",
+		"wantsDroppedMorph:event:" : "RAA 12/3/2000 09:02",
+		"wantsSteps" : "RAA 12/3/2000 09:49" } }

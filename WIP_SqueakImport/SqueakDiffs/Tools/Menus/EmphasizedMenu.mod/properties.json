@@ -1,0 +1,14 @@
+{
+	"category" : "Tools-Menus",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"emphases" ],
+	"name" : "EmphasizedMenu",
+	"pools" : [
+		 ],
+	"super" : "SelectionMenu",
+	"type" : "normal" }

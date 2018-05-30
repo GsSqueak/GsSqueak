@@ -1,0 +1,15 @@
+{
+	"category" : "System-Localization",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isoLanguage",
+		"isoCountry" ],
+	"name" : "LocaleID",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

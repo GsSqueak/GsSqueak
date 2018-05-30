@@ -1,0 +1,25 @@
+{
+	"category" : "Graphics-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"fontArray",
+		"fontFamilySize",
+		"lineGrid",
+		"baseline",
+		"alignment",
+		"firstIndent",
+		"restIndent",
+		"rightIndent",
+		"tabsArray",
+		"marginTabsArray",
+		"leading",
+		"defaultFontIndex" ],
+	"name" : "TextStyle",
+	"pools" : [
+		"TextConstants" ],
+	"super" : "Object",
+	"type" : "normal" }

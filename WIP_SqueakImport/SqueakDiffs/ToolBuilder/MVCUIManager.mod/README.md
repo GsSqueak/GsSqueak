@@ -1,0 +1,1 @@
+MVCUIManager is a UIManager that implements user interface requests for an MVC user interface.

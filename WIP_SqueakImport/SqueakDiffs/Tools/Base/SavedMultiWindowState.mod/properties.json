@@ -1,0 +1,18 @@
+{
+	"category" : "Tools-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 6/30/2010 15:45",
+	"instvars" : [
+		"models",
+		"modelStates",
+		"modelDependents",
+		"currentModelIndex",
+		"prototype" ],
+	"name" : "SavedMultiWindowState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+writing
+space
+	^target space.

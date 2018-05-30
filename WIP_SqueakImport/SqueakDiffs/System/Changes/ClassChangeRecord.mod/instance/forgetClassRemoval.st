@@ -1,0 +1,4 @@
+removal
+forgetClassRemoval
+
+	self halt.

@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"noSelectedThumbnail",
+		"noSelectedBalloonText" ],
+	"name" : "SelectedObjectThumbnail",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

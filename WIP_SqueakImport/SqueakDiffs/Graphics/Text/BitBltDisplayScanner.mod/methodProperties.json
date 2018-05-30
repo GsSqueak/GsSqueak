@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"defaultFont" : "ar 5/17/2000 17:39" },
+	"instance" : {
+		"displayEmbeddedForm:" : "nice 1/10/2014 01:39",
+		"displayString:from:to:at:" : "nice 10/12/2013 01:06",
+		"fillTextBackground" : "nice 10/12/2013 01:08",
+		"plainTab" : "nice 10/13/2013 22:10",
+		"setDestForm:" : "ar 5/17/2000 19:26",
+		"setFont" : "nice 10/12/2013 01:29",
+		"setPort:" : "hmm 9/16/2000 21:29",
+		"text:textStyle:foreground:background:fillBlt:ignoreColorChanges:" : "nice 10/12/2013 01:32" } }

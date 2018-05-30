@@ -1,0 +1,1 @@
+An extended version of PluggableButtonMorph supporting enablement, color and block/message actions.

@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Sound",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastMIDIPort" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"scorePlayer",
+		"trackInstNames",
+		"instrumentSelector",
+		"scrollSlider" ],
+	"name" : "ScorePlayerMorph",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }

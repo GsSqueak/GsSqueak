@@ -1,0 +1,4 @@
+accessing
+copyright
+
+	^ copyright

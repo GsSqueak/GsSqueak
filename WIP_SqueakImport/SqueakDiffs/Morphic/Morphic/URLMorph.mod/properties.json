@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-MorphicExtras-SqueakPage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"url",
+		"page",
+		"isBookmark",
+		"book" ],
+	"name" : "URLMorph",
+	"pools" : [
+		 ],
+	"super" : "BasicButton",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+A gui for setting color and transparency. Behaviour can be changed with the Preference modalColorPickers.

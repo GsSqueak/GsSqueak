@@ -1,0 +1,3 @@
+accessing
+clipboadInterpreter
+	^NoConversionClipboardInterpreter new

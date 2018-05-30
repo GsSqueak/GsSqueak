@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "sw 11/29/2006 04:27",
+		"needsToBeDrawn" : "RAA 12/12/2000 14:45",
+		"pauseEventRecorderIn:" : "di 3/4/1999 14:57",
+		"processEvents" : "yo 1/12/2007 19:09",
+		"recorder:" : "di 3/3/1999 14:54",
+		"showTemporaryCursor:hotSpotOffset:" : "bf 4/17/2012 16:32",
+		"veryDeepCopyWith:" : "tk 10/19/2006 09:51" } }

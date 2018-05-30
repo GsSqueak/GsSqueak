@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"new:" : "jm 8/25/1999 12:49" },
+	"instance" : {
+		"imagData" : "jm 8/1/1998 13:08",
+		"initializeHammingWindow:" : "jm 9/8/1999 17:10",
+		"initializeTriangularWindow" : "jm 9/8/1999 16:42",
+		"n" : "jm 8/25/1999 21:59",
+		"nu:" : "di 6/17/97 07:47",
+		"permuteData" : "di 6/17/97 07:47",
+		"plot:in:" : "nice 12/27/2009 03:11",
+		"pluginPrepareData" : "ar 10/10/1998 21:53",
+		"pluginTest" : "ar 10/10/1998 21:53",
+		"pluginTransformData:" : "ar 2/13/2001 21:10",
+		"realData" : "jm 8/1/1998 13:08",
+		"realData:" : "di 6/17/97 07:47",
+		"realData:imagData:" : "di 6/17/97 07:47",
+		"samplesPerCycleForIndex:" : "jm 8/16/1998 17:36",
+		"scaleData" : "di 6/17/97 07:47",
+		"setSize:" : "jm 9/8/1999 17:40",
+		"test" : "di 6/17/97 07:47",
+		"transformDataFrom:startingAt:" : "ul 8/3/2010 15:43",
+		"transformForward:" : "ul 8/3/2010 15:43" } }

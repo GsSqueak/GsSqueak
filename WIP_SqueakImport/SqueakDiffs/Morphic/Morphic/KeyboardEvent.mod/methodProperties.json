@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"=" : "ar 10/24/2000 17:44",
+		"hash" : "ar 9/13/2000 15:50",
+		"isKeyDown" : "ar 9/13/2000 15:49",
+		"isKeyUp" : "ar 9/13/2000 15:49",
+		"isKeyboard" : "ar 9/13/2000 15:49",
+		"isKeystroke" : "ar 9/13/2000 15:49",
+		"isMouseMove" : "ar 10/9/2000 00:43",
+		"keyCharacter" : "ar 9/13/2000 15:51",
+		"keyString" : "nk 10/13/2004 10:43",
+		"keyValue" : "ar 9/13/2000 15:51",
+		"printKeyStringOn:" : "mt 8/19/2016 11:20",
+		"printOn:" : "mt 8/19/2016 09:53",
+		"scanCode:" : "djr 3/30/2010 12:38",
+		"sentTo:" : "ar 9/15/2000 21:13",
+		"setType:buttons:position:keyValue:hand:stamp:" : "ar 10/5/2000 23:54",
+		"storeOn:" : "ar 10/25/2000 22:07",
+		"type:readFrom:" : "ar 10/25/2000 22:08" } }

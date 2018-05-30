@@ -1,0 +1,3 @@
+editing
+addHandles
+	self addStarHandles

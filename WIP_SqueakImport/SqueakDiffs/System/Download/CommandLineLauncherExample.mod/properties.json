@@ -1,0 +1,14 @@
+{
+	"category" : "System-Download",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "CommandLineLauncherExample",
+	"pools" : [
+		 ],
+	"super" : "AbstractLauncher",
+	"type" : "normal" }

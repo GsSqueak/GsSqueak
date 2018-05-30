@@ -1,0 +1,4 @@
+support
+windowColorToUse
+
+	^ Color black

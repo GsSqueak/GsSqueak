@@ -1,0 +1,3 @@
+converting
+asSortedArray
+	^contents asSortedArray

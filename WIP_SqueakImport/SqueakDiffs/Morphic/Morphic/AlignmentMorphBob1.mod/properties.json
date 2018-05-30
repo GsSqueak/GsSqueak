@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-AdditionalSupport",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sm 8/12/2009 22:34",
+	"instvars" : [
+		 ],
+	"name" : "AlignmentMorphBob1",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }

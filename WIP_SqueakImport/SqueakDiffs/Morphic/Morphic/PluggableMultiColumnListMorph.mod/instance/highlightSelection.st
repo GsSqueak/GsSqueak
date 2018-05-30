@@ -1,0 +1,3 @@
+selection
+highlightSelection
+^self

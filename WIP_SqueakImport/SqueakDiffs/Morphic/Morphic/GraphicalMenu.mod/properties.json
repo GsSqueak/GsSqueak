@@ -1,0 +1,20 @@
+{
+	"category" : "Morphic-MorphicExtras-AdditionalWidgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"selector",
+		"argument",
+		"currentIndex",
+		"formChoices",
+		"formDisplayMorph",
+		"coexistWithOriginal" ],
+	"name" : "GraphicalMenu",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }

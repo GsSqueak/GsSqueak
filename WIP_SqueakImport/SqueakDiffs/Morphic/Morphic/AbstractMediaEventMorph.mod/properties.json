@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-MorphicExtras-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"startTimeInScore",
+		"endTimeInScore" ],
+	"name" : "AbstractMediaEventMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

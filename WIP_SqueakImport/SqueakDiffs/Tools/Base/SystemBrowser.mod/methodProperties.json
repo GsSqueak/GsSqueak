@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"addRegistryMenuItemsTo:inAccountOf:" : "hpt 9/30/2004 20:53",
+		"browseWithDragNDrop" : "fbs 12/29/2013 17:08",
+		"browseWithDragNDrop:" : "fbs 12/29/2013 17:08",
+		"browseWithPrettyPrint" : "fbs 12/29/2013 16:54",
+		"browseWithPrettyPrint:" : "fbs 12/29/2013 16:54",
+		"browserShowsPackagePane" : "fbs 11/30/2013 11:40",
+		"browserShowsPackagePane:" : "fbs 11/30/2013 11:40",
+		"defaultOpenBrowser" : "hpt 8/5/2004 20:27" },
+	"instance" : {
+		 } }

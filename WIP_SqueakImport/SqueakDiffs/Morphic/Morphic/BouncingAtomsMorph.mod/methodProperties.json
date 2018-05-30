@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"descriptionForPartsBin" : "tak 7/25/2007 00:03",
+		"initialize" : "asm 4/10/2003 12:57",
+		"registerInFlapsRegistry" : "KR 8/12/2007 10:44",
+		"unload" : "asm 4/11/2003 12:32" },
+	"instance" : {
+		"addAtoms:" : "nice 12/26/2009 00:26",
+		"addCustomMenuItems:hand:" : "dgd 8/30/2003 21:15",
+		"addMorphFront:" : "",
+		"areasRemainingToFill:" : "di 1/4/1999 20:22",
+		"collisionPairs" : "ul 3/12/2017 23:02",
+		"defaultColor" : "dgd 3/7/2003 14:14",
+		"drawOn:" : "",
+		"initialize" : "dgd 3/7/2003 14:14",
+		"intoWorld:" : "ar 8/13/2003 11:41",
+		"invalidRect:from:" : "ar 11/12/2000 18:42",
+		"setAtomCount" : "ar 8/6/2009 20:39",
+		"showInfectionHistory:" : "jm 6/28/1998 18:31",
+		"startInfection" : "",
+		"step" : "sw 7/15/1999 07:32",
+		"stepTime" : "jm 6/28/1998 18:10",
+		"transmitInfection" : "nice 12/27/2009 03:10",
+		"updateTemperature:" : "dgd 2/22/2003 13:36" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-Flaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kfr 10/28/2003 06:31",
+	"instvars" : [
+		"scriptedPlayer" ],
+	"name" : "ViewerFlapTab",
+	"pools" : [
+		 ],
+	"super" : "FlapTab",
+	"type" : "normal" }

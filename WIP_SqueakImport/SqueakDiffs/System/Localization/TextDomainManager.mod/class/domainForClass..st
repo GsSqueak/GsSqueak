@@ -1,0 +1,3 @@
+accessing
+domainForClass: aClass
+	^'etoys'

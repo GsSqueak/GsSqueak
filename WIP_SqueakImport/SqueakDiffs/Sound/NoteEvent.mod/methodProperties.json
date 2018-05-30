@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"channel" : "jm 12/30/97 22:02",
+		"channel:" : "jm 12/30/97 22:02",
+		"duration" : "jm 12/18/97 19:10",
+		"duration:" : "jm 12/31/97 11:49",
+		"endNoteOnMidiPort:" : "jm 9/10/1998 15:58",
+		"endTime" : "jm 8/27/1998 16:38",
+		"isNoteEvent" : "jm 12/31/97 11:48",
+		"key:velocity:channel:" : "jm 12/30/97 22:07",
+		"keyName" : "jm 1/3/98 08:58",
+		"midiKey" : "jm 12/18/97 20:58",
+		"midiKey:" : "jm 12/30/97 09:35",
+		"pitch" : "jm 8/3/1998 17:06",
+		"printOn:" : "jm 1/3/98 08:59",
+		"startNoteOnMidiPort:" : "jm 9/10/1998 15:56",
+		"velocity" : "jm 12/30/97 09:32",
+		"velocity:" : "jm 12/31/97 11:51" } }

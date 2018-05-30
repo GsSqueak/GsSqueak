@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:" : "len 8/29/1999 21:52",
+		"currentSound" : "nice 8/27/2010 22:17",
+		"currentSound:" : "len 8/29/1999 22:07",
+		"doControl" : "nice 8/27/2010 16:15",
+		"done:" : "len 8/29/1999 22:07",
+		"initialize" : "len 9/26/1999 17:19",
+		"mixSampleCount:into:startingAt:leftVol:rightVol:" : "jmv 3/2/2010 16:24",
+		"nextSound" : "len 11/30/1999 04:13",
+		"reset" : "nice 8/27/2010 22:16",
+		"samplesRemaining" : "len 8/29/1999 22:13",
+		"sounds" : "len 8/29/1999 21:46",
+		"startTime" : "len 9/26/1999 17:19",
+		"startTime:" : "len 9/26/1999 17:19" } }

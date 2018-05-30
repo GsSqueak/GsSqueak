@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-Events",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"type",
+		"argument" ],
+	"name" : "MorphicUnknownEvent",
+	"pools" : [
+		"EventSensorConstants" ],
+	"super" : "MorphicEvent",
+	"type" : "normal" }

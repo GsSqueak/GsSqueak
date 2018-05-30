@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"httpPostDocument:args:" : "mir 2/2/2001 16:58",
+		"httpPostMultipart:args:" : "nice 12/27/2009 03:11",
+		"post:target:url:ifError:" : "mir 2/2/2001 14:23",
+		"post:url:ifError:" : "mir 2/2/2001 14:23",
+		"requestURL:target:" : "mir 4/30/2001 18:32",
+		"requestURLStream:" : "",
+		"requestURLStream:ifError:" : "" },
+	"instance" : {
+		"asUrl" : "gk 2/10/2004 13:21",
+		"uri" : "mir 3/24/2005 18:44" } }

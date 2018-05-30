@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Windows",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BorderGripMorph",
+	"pools" : [
+		 ],
+	"super" : "CornerGripMorph",
+	"type" : "normal" }

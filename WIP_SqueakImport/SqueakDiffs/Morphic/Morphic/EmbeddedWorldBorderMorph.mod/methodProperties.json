@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCustomMenuItems:hand:" : "RAA 7/13/2000 10:16",
+		"appViewBoxArea" : "RAA 7/13/2000 10:04",
+		"boxesAndColorsAndSelectors" : "RAA 7/13/2000 10:12",
+		"drawOn:" : "RAA 7/13/2000 10:08",
+		"extent:" : "RAA 6/26/2000 19:10",
+		"factoryViewBoxArea" : "RAA 7/13/2000 10:04",
+		"fullViewBoxArea" : "RAA 7/13/2000 10:04",
+		"genericBoxArea:" : "RAA 7/13/2000 10:03",
+		"goAppView" : "RAA 7/13/2000 10:16",
+		"goFactoryView" : "RAA 7/13/2000 10:17",
+		"goFullView" : "RAA 7/13/2000 10:18",
+		"goNormalProjectEntry" : "RAA 7/13/2000 10:18",
+		"handlesMouseDown:" : "RAA 7/13/2000 10:10",
+		"initialize" : "em 3/24/2005 15:07",
+		"minHeight:" : "mt 4/24/2015 09:49",
+		"minWidth:" : "mt 4/24/2015 09:49",
+		"morphicLayerNumber" : "RAA 6/27/2000 19:23",
+		"mouseDown:" : "RAA 7/13/2000 10:13",
+		"myTransformation" : "RAA 11/2/2000 13:31",
+		"myWorldChanged" : "RAA 12/14/2000 10:48",
+		"normalEntryBoxArea" : "RAA 7/13/2000 10:04",
+		"toggleZoom" : "RAA 7/13/2000 10:12",
+		"worldIEnclose" : "RAA 11/2/2000 13:31",
+		"zoomBoxArea" : "RAA 7/13/2000 10:03" } }

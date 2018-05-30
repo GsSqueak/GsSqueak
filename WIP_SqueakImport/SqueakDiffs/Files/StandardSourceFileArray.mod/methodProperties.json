@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"new:" : "ar 5/17/2000 18:27" },
+	"instance" : {
+		"at:" : "hmm 4/25/2000 21:20",
+		"at:put:" : "nice 3/20/2010 09:14",
+		"checkOKToAdd:at:" : "dtl 12/24/2009 10:04",
+		"fileIndexFromSourcePointer:" : "hmm 4/25/2000 21:44",
+		"filePositionFromSourcePointer:" : "hmm 4/25/2000 21:44",
+		"initialize" : "hmm 4/25/2000 21:20",
+		"initialize:" : "ar 5/17/2000 18:28",
+		"size" : "hmm 4/25/2000 21:20",
+		"sourcePointerFromFileIndex:andPosition:" : "hmm 4/25/2000 21:48" } }

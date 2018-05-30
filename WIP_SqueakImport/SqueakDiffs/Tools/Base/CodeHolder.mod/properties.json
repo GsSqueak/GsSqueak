@@ -1,0 +1,18 @@
+{
+	"category" : "Tools-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ContentsSymbolQuints",
+		"EditContentsOptions",
+		"MultiWindowBrowsers" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"currentCompiledMethod",
+		"contentsSymbol",
+		"multiWindowState" ],
+	"name" : "CodeHolder",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

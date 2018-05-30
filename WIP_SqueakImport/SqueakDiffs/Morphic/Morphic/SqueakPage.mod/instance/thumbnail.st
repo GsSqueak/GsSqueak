@@ -1,0 +1,4 @@
+accessing
+thumbnail
+
+	^ thumbnail

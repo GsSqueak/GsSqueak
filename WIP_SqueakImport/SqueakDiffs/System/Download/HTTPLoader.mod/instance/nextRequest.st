@@ -1,0 +1,3 @@
+private
+nextRequest
+	^requests next

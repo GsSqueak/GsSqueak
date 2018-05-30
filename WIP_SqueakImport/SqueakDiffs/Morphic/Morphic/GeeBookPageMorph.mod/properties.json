@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-MorphicExtras-GeeMail",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"geeMail",
+		"geeMailRectangle" ],
+	"name" : "GeeBookPageMorph",
+	"pools" : [
+		 ],
+	"super" : "PasteUpMorph",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Windows",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 12/11/2009 22:33",
+	"instvars" : [
+		 ],
+	"name" : "UserDialogBoxMorph",
+	"pools" : [
+		 ],
+	"super" : "DialogWindow",
+	"type" : "normal" }

@@ -1,0 +1,22 @@
+{
+	"category" : "Graphics-Files",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"version",
+		"encoding",
+		"colorPlanes",
+		"isGrayScale",
+		"width",
+		"height",
+		"bitsPerPixel",
+		"colorPalette",
+		"rowByteSize" ],
+	"name" : "PCXReadWriter",
+	"pools" : [
+		 ],
+	"super" : "ImageReadWriter",
+	"type" : "normal" }

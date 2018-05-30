@@ -1,0 +1,4 @@
+geometry
+tailHeight
+	
+	^ 8

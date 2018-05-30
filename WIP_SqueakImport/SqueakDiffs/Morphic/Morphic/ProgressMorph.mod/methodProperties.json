@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"example" : "sma 3/3/2000 19:07",
+		"label:" : "mir 1/19/2000 13:07" },
+	"instance" : {
+		"done" : "mir 2/14/2000 17:55",
+		"done:" : "",
+		"fontOfPointSize:" : "nk 7/12/2003 08:59",
+		"incrDone:" : "sma 3/3/2000 19:05",
+		"initLabelMorph" : "mt 8/13/2016 11:37",
+		"initProgressMorph" : "mt 8/13/2016 11:34",
+		"initSubLabelMorph" : "mt 8/13/2016 11:37",
+		"initialize" : "mir 1/19/2000 13:28",
+		"label" : "mir 1/19/2000 13:28",
+		"label:" : "",
+		"labelMorph" : "mir 1/19/2000 13:25",
+		"progress" : "mir 1/19/2000 13:25",
+		"setupMorphs" : "mt 8/13/2016 11:38",
+		"subLabel" : "mir 1/19/2000 13:27",
+		"subLabel:" : "",
+		"subLabelMorph" : "mir 1/19/2000 13:25" } }

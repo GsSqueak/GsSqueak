@@ -1,0 +1,1 @@
+A Hygrometer measures the relative humidity of the air; a HygrometerDialMorph provides a way to display the value of R.H.

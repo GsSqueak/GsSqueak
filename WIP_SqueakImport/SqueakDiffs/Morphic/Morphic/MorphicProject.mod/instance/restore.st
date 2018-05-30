@@ -1,0 +1,4 @@
+display
+restore
+
+	world displayWorldSafely.

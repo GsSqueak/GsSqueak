@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tpr 6/29/2017 13:29",
+	"instvars" : [
+		 ],
+	"name" : "ThermometerDialMorph",
+	"pools" : [
+		 ],
+	"super" : "RotaryDialMorph",
+	"type" : "normal" }

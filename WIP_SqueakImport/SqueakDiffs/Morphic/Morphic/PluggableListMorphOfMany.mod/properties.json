@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-Pluggable Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "hpt 4/5/2004 11:21",
+	"instvars" : [
+		"dragOnOrOff",
+		"getSelectionListSelector",
+		"setSelectionListSelector" ],
+	"name" : "PluggableListMorphOfMany",
+	"pools" : [
+		 ],
+	"super" : "PluggableListMorph",
+	"type" : "normal" }

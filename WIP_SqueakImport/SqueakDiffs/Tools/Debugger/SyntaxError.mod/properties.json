@@ -1,0 +1,17 @@
+{
+	"category" : "Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"class",
+		"selector",
+		"debugger",
+		"notification" ],
+	"name" : "SyntaxError",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

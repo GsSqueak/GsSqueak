@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"namedTempAt:in:" : "eem 1/6/2018 16:54",
+		"namedTempAt:put:in:" : "eem 1/6/2018 16:54",
+		"privateDereference:in:" : "eem 4/16/2012 13:45",
+		"privateDereference:in:put:" : "eem 3/13/2013 14:53",
+		"privateTempAt:in:put:startKeysToBlockExtents:" : "eem 1/6/2018 16:53",
+		"privateTempAt:in:put:startpcsToBlockExtents:" : "eem 7/29/2008 20:03",
+		"privateTempAt:in:startKeysToBlockExtents:" : "eem 1/6/2018 16:54",
+		"privateTempAt:in:startpcsToBlockExtents:" : "eem 7/29/2008 20:02",
+		"privateTempRefsForContext:startKeysToBlockExtents:" : "eem 1/7/2018 15:55",
+		"privateTempRefsForContext:startpcsToBlockExtents:" : "eem 9/14/2011 14:50",
+		"privateTempRefsForMethod:startKeysToBlockExtents:" : "eem 1/7/2018 15:23",
+		"privateTempRefsForMethod:startpcsToBlockExtents:" : "eem 12/6/2016 11:19",
+		"tempNamesForContext:" : "eem 1/6/2018 16:52",
+		"tempNamesForMethod:" : "eem 1/6/2018 16:55" } }

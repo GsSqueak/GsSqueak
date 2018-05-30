@@ -1,0 +1,18 @@
+{
+	"category" : "Tools-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"growable",
+		"messageList",
+		"autoSelectString",
+		"messageListIndex",
+		"editSelection" ],
+	"name" : "MessageSet",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

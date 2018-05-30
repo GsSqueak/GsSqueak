@@ -1,0 +1,1 @@
+This is a real-time player for MIDI scores (i.e., scores read from MIDI files). Score can be played using either the internal sound synthesis or an external MIDI synthesizer on platforms that support MIDI output.

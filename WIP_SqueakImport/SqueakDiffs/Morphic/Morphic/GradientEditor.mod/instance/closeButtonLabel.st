@@ -1,0 +1,3 @@
+initialization
+closeButtonLabel
+	^ 'Close' translated

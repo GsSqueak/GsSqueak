@@ -1,0 +1,21 @@
+{
+	"category" : "ToolBuilder-Morphic-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MAD 3/14/2010 16:20",
+	"instvars" : [
+		"selectedIndex",
+		"items",
+		"searchText",
+		"addAllowed",
+		"result",
+		"title",
+		"listMorph",
+		"dialogMorph" ],
+	"name" : "ListChooser",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

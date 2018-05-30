@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-MorphicExtras-SoundInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"samplesUntilNextControl",
+		"seqSound",
+		"cursor",
+		"controlIndex" ],
+	"name" : "SoundLoopMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

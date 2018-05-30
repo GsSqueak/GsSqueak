@@ -1,0 +1,23 @@
+{
+	"category" : "System-Changes",
+	"classinstvars" : [
+		"current" ],
+	"classvars" : [
+		"AllChangeSets",
+		"PreviousSet" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"name",
+		"preamble",
+		"postscript",
+		"revertable",
+		"isolationSet",
+		"isolatedProject",
+		"changeRecords",
+		"structures",
+		"superclasses" ],
+	"name" : "ChangeSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

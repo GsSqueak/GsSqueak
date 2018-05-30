@@ -1,0 +1,4 @@
+macpal
+flash
+
+	^ flash

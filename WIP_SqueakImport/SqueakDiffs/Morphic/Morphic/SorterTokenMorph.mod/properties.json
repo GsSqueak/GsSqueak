@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-Palettes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morphRepresented" ],
+	"name" : "SorterTokenMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

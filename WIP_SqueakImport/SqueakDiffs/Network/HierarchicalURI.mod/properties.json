@@ -1,0 +1,15 @@
+{
+	"category" : "Network-URI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"authority",
+		"query" ],
+	"name" : "HierarchicalURI",
+	"pools" : [
+		 ],
+	"super" : "URI",
+	"type" : "normal" }

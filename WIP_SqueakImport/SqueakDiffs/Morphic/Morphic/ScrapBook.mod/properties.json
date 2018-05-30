@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "fbs 5/18/2013 23:01",
+	"instvars" : [
+		"book" ],
+	"name" : "ScrapBook",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

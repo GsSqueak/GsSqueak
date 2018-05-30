@@ -1,0 +1,3 @@
+initialize
+windowTitle
+	^ title translated

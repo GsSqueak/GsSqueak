@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-MorphicExtras-Books",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"PageFlipSoundOn" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"pageSize",
+		"newPagePrototype" ],
+	"name" : "BooklikeMorph",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }

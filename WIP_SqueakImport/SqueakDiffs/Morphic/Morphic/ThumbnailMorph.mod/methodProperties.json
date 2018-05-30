@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"initialize" : "sw 12/30/2004 00:47",
+		"recursionReset" : "sw 5/3/1998 19:12" },
+	"instance" : {
+		"actualViewee" : "nk 8/29/2004 17:18",
+		"defaultBorderWidth" : "dgd 3/7/2003 14:57",
+		"defaultColor" : "dgd 3/7/2003 14:56",
+		"drawForForm:on:" : "wiz 8/6/2005 22:01",
+		"drawMeOn:" : "wiz 8/6/2005 22:11",
+		"drawOn:" : "ar 10/26/2000 23:45",
+		"formOrMorphToView" : "nk 8/29/2004 17:18",
+		"getSelector" : "sw 1/6/2005 01:46",
+		"getSelector:" : "sw 1/6/2005 17:03",
+		"initialize" : "dgd 3/7/2003 14:57",
+		"installAsWonderlandTextureOn:" : "ar 11/7/1999 22:55",
+		"isEtoyReadout" : "sw 1/6/2005 01:29",
+		"morphToView" : "nk 8/29/2004 17:18",
+		"objectToView:" : "sw 6/9/2000 18:35",
+		"objectToView:viewSelector:" : "sw 6/9/2000 18:35",
+		"putSelector" : "sw 1/6/2005 17:06",
+		"releaseCachedState" : "ar 3/3/2001 19:37",
+		"scaleFor:in:" : "wiz 8/6/2005 21:58",
+		"step" : "sw 6/20/2008 12:09",
+		"stepTime" : "ar 5/16/2001 01:41",
+		"target" : "sw 1/6/2005 01:39",
+		"veryDeepFixupWith:" : "tk 1/7/1999 14:57",
+		"veryDeepInner:" : "ar 10/26/2000 23:55" } }

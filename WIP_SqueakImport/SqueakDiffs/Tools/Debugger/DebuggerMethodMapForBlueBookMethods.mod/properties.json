@@ -1,0 +1,14 @@
+{
+	"category" : "Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 1/6/2018 16:57",
+	"instvars" : [
+		"tempNames" ],
+	"name" : "DebuggerMethodMapForBlueBookMethods",
+	"pools" : [
+		 ],
+	"super" : "DebuggerMethodMap",
+	"type" : "normal" }

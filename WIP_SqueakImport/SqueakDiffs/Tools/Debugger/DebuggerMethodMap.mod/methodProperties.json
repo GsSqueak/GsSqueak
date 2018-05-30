@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"cacheDebugMap:forMethod:" : "ul 11/15/2010 08:44",
+		"cleanUp" : "mtf 9/19/2010 19:50",
+		"forMethod:" : "ul 11/15/2010 08:39",
+		"forMethod:methodNode:" : "eem 1/10/2018 13:52",
+		"initialize" : "eem 6/5/2008 09:14",
+		"protected:" : "ul 11/15/2010 08:38",
+		"voidMapCache" : "ul 11/15/2010 08:38" },
+	"instance" : {
+		"abstractSourceMap" : "eem 7/29/2008 17:12",
+		"abstractSourceMapForMethod:" : "eem 1/10/2018 13:35",
+		"forMethod:methodNode:" : "eem 6/5/2008 09:21",
+		"markRecentlyUsed" : "eem 6/3/2008 12:21",
+		"method" : "eem 6/5/2008 09:21",
+		"namedTempAt:in:" : "eem 6/10/2008 09:44",
+		"namedTempAt:put:in:" : "eem 6/10/2008 09:44",
+		"rangeForPC:contextIsActiveContext:" : "ul 3/12/2017 23:38",
+		"rangeForPC:in:contextIsActiveContext:" : "eem 1/10/2018 17:16",
+		"sourceText" : "eem 7/6/2009 10:13",
+		"tempNamesForContext:" : "eem 6/10/2008 09:45",
+		"tempsAndValuesForContext:" : "eem 6/10/2008 09:47",
+		"timestamp" : "eem 6/2/2008 18:32" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Windows",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "eem 6/30/2010 16:13",
+	"instvars" : [
+		"savedMultiWindowState" ],
+	"name" : "MultiWindowLabelButtonMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableButtonMorph",
+	"type" : "normal" }

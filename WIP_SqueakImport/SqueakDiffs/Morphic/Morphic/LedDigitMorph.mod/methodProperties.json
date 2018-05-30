@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"includeInNewMorphMenu" : "di 1/16/2000 10:39",
+		"initialize" : "rjf 5/25/2000 00:16" },
+	"instance" : {
+		"defaultColor" : "dgd 2/14/2003 22:28",
+		"digit" : "tao 5/18/1998 13:00",
+		"digit:" : "tao 5/18/1998 13:00",
+		"drawOn:" : "dew 1/16/2002 20:44",
+		"drawOnFills:" : "tao 5/18/1998 13:58",
+		"highlighted" : "tao 5/18/1998 17:00",
+		"highlighted:" : "tao 5/18/1998 18:43",
+		"initialize" : "dgd 2/14/2003 20:34" } }

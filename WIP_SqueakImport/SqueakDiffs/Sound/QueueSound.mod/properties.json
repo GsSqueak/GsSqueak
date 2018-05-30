@@ -1,0 +1,17 @@
+{
+	"category" : "Sound-Synthesis",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 3/24/2010 07:38",
+	"instvars" : [
+		"startTime",
+		"sounds",
+		"currentSound",
+		"done" ],
+	"name" : "QueueSound",
+	"pools" : [
+		 ],
+	"super" : "AbstractSound",
+	"type" : "normal" }

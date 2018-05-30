@@ -1,0 +1,4 @@
+accessing
+createCharacterToGlyphMap
+
+	^ IdentityGlyphMap new.

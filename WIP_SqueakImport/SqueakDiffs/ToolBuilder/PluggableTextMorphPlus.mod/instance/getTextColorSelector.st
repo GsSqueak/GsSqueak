@@ -1,0 +1,3 @@
+accessing
+getTextColorSelector
+	^getTextColorSelector

@@ -1,0 +1,4 @@
+accessing - ui
+textMorph
+
+	^ textMorph

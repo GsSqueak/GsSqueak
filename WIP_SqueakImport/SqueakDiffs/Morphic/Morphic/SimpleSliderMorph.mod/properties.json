@@ -1,0 +1,18 @@
+{
+	"category" : "Morphic-MorphicExtras-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"arguments",
+		"minVal",
+		"maxVal",
+		"truncate" ],
+	"name" : "SimpleSliderMorph",
+	"pools" : [
+		 ],
+	"super" : "Slider",
+	"type" : "normal" }
