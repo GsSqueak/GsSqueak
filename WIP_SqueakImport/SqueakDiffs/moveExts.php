@@ -20,7 +20,7 @@ foreach($extensionFolders as $extension){
         }
         else{ //createClass
             exec("mkdir ExtensionClasses/" . $className . ".mod");
-            exec("echo \"{name: '$className'}\" > ExtensionClasses/$className.mod/properties.json");
+            exec("echo \"{\n \\\"name\\\": \\\"$className\\\" \n}\" > ExtensionClasses/$className.mod/properties.json");
         }
             
         
