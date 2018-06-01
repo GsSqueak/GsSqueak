@@ -239,16 +239,14 @@ logout
 exit
 EOF
 
-load_package BPBugFixes "tools/bugfixes"
-load_package MCEnvSwitch "tools/MCEnvSwitch"
-load_package SqueakParser "parser"
-load_package SqSuperclasses "tools/superclasses"
-load_package SqueakEnvironments "tools/SqueakEnvironments"
-load_package -S Context0
-load_package -S SqClassCreation
-load_package Workspace "tools"
-load_package -S Env0Extensions
-load_package -S BPGsTests
+load_package BPBugFixes "bug-fixes"
+load_package MCEnvSwitch "monticello-environment-switch"
+load_package SqueakParser "squeak-parser"
+load_package SqSuperclasses "deprecated/superclasses"
+load_package SqueakEnvironments "squeak-environments"
+load_package SqContext "squeak-modifications/pre-squeak-import"
+load_package Workspace "deprecated/workspace"
+load_package Env0Extensions "squeak-modifications/pre-squeak-import"
 
 # create backup for that stage
 todeBackup $name stage-1.dbf >/dev/null 2>&1
