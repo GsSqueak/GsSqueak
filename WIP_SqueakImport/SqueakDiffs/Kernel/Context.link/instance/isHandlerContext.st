@@ -1,4 +1,4 @@
-*Context-as yet unclassified
+as yet unclassified
 isHandlerContext
   "is this context for  method that is marked?"
 

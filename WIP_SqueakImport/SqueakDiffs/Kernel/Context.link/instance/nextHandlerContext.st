@@ -1,3 +1,3 @@
-*Context-as yet unclassified
+as yet unclassified
 nextHandlerContext
   ^ self sender findNextHandlerContextStarting
