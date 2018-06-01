@@ -41,6 +41,7 @@ popd
 ```
 
 Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
+
 Install GemStoneGUI and GsSqueakImport [see here](https://github.com/hpi-swa-lab/BP2017RH1/tree/master/tools)
 
 Start a new GemStone session with `GSGRepositoryManager open.` and login.
