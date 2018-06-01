@@ -16,7 +16,7 @@ saveFrom: anEnvironment
 					categoryBar value: categoryIndex]].
 			(self classesToLoad do: [:className |
 				classNames addIfNotPresent: className asSymbol])].
-		
+	
 	'Gathering classes'
 		displayProgressFrom: 0
 		to: classNames size
@@ -30,7 +30,9 @@ saveFrom: anEnvironment
 		displayProgressFrom: 0
 		to: classes size
 		during: [:classBar |
-			classes withIndexDo: [:class :classIndex |
-				self write: (self classDefinitions at: class name) with: class.
-				classBar value: classIndex]].
+			UIManager default informUserDuring: [:classInfo |
+				classes withIndexDo: [:class :classIndex |
+					classInfo value: class name.
+					self write: (self classDefinitions at: class name) with: class.
+					classBar value: classIndex]]].
 	self fileout.

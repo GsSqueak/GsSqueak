@@ -1,4 +1,4 @@
 utility
 deleteFolder
 
-	self fileDirectory exists ifTrue: [self fileDirectory recursiveDelete]
+	self fileDirectory ifNotNil: [:dir | dir assureAbsence]

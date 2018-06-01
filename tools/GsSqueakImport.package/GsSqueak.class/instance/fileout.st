@@ -2,4 +2,4 @@ utility
 fileout
 
 	self classDefinitions do: [:classDefinition |
-		classDefinition fileout]
+		classDefinition fileoutTo: self fileDirectory]
