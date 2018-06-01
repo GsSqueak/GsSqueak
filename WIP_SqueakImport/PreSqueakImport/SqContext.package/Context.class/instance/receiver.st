@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 receiver
-  ^ super receiver
+  ^ self frameContents at: 10

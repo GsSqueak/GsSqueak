@@ -1,4 +1,4 @@
-*Context-accessing
+accessing
 closureOrNil
 
    ^closureOrNil

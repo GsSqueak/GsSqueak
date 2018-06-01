@@ -1,3 +1,3 @@
-*SqContext7-as yet unclassified
+as yet unclassified
 stackClass
   ^ self _env0 stackClass

@@ -1,4 +1,4 @@
-*Context-as yet unclassified
+as yet unclassified
 home
   "Answer the context in which the receiver was defined."
 
