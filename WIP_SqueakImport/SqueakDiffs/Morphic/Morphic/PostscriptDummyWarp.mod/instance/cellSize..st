@@ -1,0 +1,3 @@
+dummy
+cellSize:newCellSize
+	^self.

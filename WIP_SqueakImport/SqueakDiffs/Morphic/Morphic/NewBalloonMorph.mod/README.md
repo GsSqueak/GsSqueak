@@ -1,0 +1,1 @@
+A balloon is a bubble with an optional tail. It contains rich text, which describes something about its balloon-owner.

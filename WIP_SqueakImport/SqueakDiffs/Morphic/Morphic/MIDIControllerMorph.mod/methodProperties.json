@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCustomMenuItems:hand:" : "dgd 8/30/2003 21:50",
+		"channel" : "jm 9/28/1998 22:35",
+		"channel:" : "jm 9/28/1998 22:40",
+		"controller" : "jm 9/28/1998 22:35",
+		"controller:" : "jm 9/28/1998 22:40",
+		"controllerList" : "jm 9/29/1998 09:06",
+		"controllerName:" : "jm 9/29/1998 09:09",
+		"defaultBorderWidth" : "dgd 3/7/2003 14:37",
+		"defaultColor" : "dgd 3/7/2003 14:37",
+		"initialize" : "dgd 3/7/2003 14:37",
+		"midiPort" : "jm 9/28/1998 22:54",
+		"midiPort:" : "jm 9/28/1998 22:55",
+		"newSliderValue:" : "jm 10/12/1998 16:02",
+		"setChannel:" : "RAA 6/12/2000 09:02",
+		"setController:" : "RAA 6/12/2000 09:02",
+		"updateLabel" : "jm 9/29/1998 09:10" } }

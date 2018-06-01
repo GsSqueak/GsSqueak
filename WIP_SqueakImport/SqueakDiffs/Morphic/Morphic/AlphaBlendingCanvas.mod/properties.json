@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"alpha" ],
+	"name" : "AlphaBlendingCanvas",
+	"pools" : [
+		 ],
+	"super" : "ColorMappingCanvas",
+	"type" : "normal" }

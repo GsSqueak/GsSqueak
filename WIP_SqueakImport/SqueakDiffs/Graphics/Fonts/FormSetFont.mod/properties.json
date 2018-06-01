@@ -1,0 +1,15 @@
+{
+	"category" : "Graphics-Fonts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"tintable",
+		"combinationRule" ],
+	"name" : "FormSetFont",
+	"pools" : [
+		 ],
+	"super" : "StrikeFont",
+	"type" : "normal" }

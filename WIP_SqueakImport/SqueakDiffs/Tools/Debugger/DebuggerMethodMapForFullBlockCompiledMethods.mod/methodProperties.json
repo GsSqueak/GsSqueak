@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"abstractSourceMap" : "eem 1/10/2018 13:35",
+		"abstractSourceMapForMethod:" : "eem 1/10/2018 17:00",
+		"mapBlockMethodKeysIn:toActualBlockMethodsIn:" : "eem 1/10/2018 17:09",
+		"rangeForPC:in:contextIsActiveContext:" : "eem 1/10/2018 17:18",
+		"scanMethod:mappingRanges:" : "eem 1/10/2018 16:56" } }

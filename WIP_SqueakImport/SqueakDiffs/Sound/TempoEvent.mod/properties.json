@@ -1,0 +1,14 @@
+{
+	"category" : "Sound-Scores",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"tempo" ],
+	"name" : "TempoEvent",
+	"pools" : [
+		 ],
+	"super" : "AbstractScoreEvent",
+	"type" : "normal" }

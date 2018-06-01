@@ -1,0 +1,16 @@
+{
+	"category" : "System-Download",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultLoader",
+		"MaxNrOfConnections" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"requests",
+		"downloads" ],
+	"name" : "HTTPLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"canBeEncroached" : "cmm 8/25/2013 13:09",
+		"children" : "cmm 8/22/2013 21:50",
+		"getChildrenSelector" : "ar 2/11/2005 19:47",
+		"getChildrenSelector:" : "ar 2/11/2005 19:47",
+		"model" : "ar 2/11/2005 19:48",
+		"model:" : "ar 2/11/2005 19:48",
+		"update:" : "mt 6/5/2016 13:17" } }

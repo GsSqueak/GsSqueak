@@ -1,0 +1,2 @@
+genie-stubs
+disableGenieFocus

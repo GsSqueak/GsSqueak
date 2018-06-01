@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-SUnit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SUnitToolBuilderTests",
+	"pools" : [
+		 ],
+	"super" : "ToolBuilderTests",
+	"type" : "normal" }

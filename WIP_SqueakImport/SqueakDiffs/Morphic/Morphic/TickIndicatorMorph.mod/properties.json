@@ -1,0 +1,19 @@
+{
+	"category" : "Morphic-MorphicExtras-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stepTime",
+		"corners",
+		"index",
+		"range",
+		"isTicking",
+		"lastTick" ],
+	"name" : "TickIndicatorMorph",
+	"pools" : [
+		 ],
+	"super" : "EllipseMorph",
+	"type" : "normal" }

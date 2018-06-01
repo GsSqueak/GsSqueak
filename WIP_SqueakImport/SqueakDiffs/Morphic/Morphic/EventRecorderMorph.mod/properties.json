@@ -1,0 +1,29 @@
+{
+	"category" : "Morphic-MorphicExtras-AdditionalSupport",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"tape",
+		"state",
+		"time",
+		"deltaTime",
+		"recHand",
+		"playHand",
+		"lastEvent",
+		"lastDelta",
+		"tapeStream",
+		"saved",
+		"statusLight",
+		"voiceRecorder",
+		"startSoundEvent",
+		"recordMeter",
+		"caption",
+		"journalFile" ],
+	"name" : "EventRecorderMorph",
+	"pools" : [
+		 ],
+	"super" : "AlignmentMorph",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+initialization
+initializeAsSystemWindow
+	self initializeBasicParameters.
+	self createSystemWindowUI.

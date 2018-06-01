@@ -1,0 +1,19 @@
+{
+	"category" : "Sound-Scores",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"tracks",
+		"trackInfo",
+		"ambientTrack",
+		"tempoMap",
+		"ticksPerQuarterNote",
+		"source" ],
+	"name" : "MIDIScore",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

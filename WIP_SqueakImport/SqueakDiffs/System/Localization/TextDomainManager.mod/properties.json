@@ -1,0 +1,19 @@
+{
+	"category" : "System-Localization",
+	"classinstvars" : [
+		"defaultDomain" ],
+	"classvars" : [
+		"ClassCategories",
+		"Classes",
+		"DefaultDomain",
+		"DomainInfos",
+		"LoneClasses",
+		"Packages" ],
+	"commentStamp" : "fbs 5/12/2013 13:04",
+	"instvars" : [
+		 ],
+	"name" : "TextDomainManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

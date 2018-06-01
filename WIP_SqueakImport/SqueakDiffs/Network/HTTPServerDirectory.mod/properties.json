@@ -1,0 +1,14 @@
+{
+	"category" : "Network-RemoteDirectory",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HTTPServerDirectory",
+	"pools" : [
+		 ],
+	"super" : "ProjectSwikiServer",
+	"type" : "normal" }

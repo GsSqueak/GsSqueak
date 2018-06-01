@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-MorphicExtras-AdditionalWidgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"colors",
+		"count" ],
+	"name" : "MarqueeMorph",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

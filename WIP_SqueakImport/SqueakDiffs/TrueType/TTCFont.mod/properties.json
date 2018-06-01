@@ -1,0 +1,31 @@
+{
+	"category" : "TrueType-Fonts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GlyphCacheData",
+		"GlyphCacheIndex",
+		"GlyphCacheReady",
+		"GlyphCacheSize",
+		"NamesToIndexes",
+		"Registry",
+		"Scale",
+		"ShutdownList" ],
+	"commentStamp" : "nk 4/2/2004 11:32",
+	"instvars" : [
+		"ttcDescription",
+		"pointSize",
+		"foregroundColor",
+		"cache",
+		"derivatives",
+		"fallbackFont",
+		"height",
+		"ascent",
+		"descent",
+		"maxAscii",
+		"colorToCacheMap" ],
+	"name" : "TTCFont",
+	"pools" : [
+		 ],
+	"super" : "AbstractFont",
+	"type" : "normal" }

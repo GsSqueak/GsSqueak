@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-SUnit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CompositeStub",
+	"pools" : [
+		 ],
+	"super" : "WidgetStub",
+	"type" : "normal" }

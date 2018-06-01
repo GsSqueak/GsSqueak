@@ -1,0 +1,18 @@
+{
+	"category" : "Morphic-MorphicExtras-Obsolete",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"getMenuSelector",
+		"getMenuTitleSelector",
+		"xScrollBar",
+		"yScrollBar",
+		"scroller" ],
+	"name" : "TwoWayScrollPane",
+	"pools" : [
+		 ],
+	"super" : "MorphicModel",
+	"type" : "normal" }

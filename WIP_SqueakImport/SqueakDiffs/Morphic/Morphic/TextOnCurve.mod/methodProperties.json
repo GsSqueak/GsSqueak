@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"cleanUp" : "ar 2/26/2010 23:06",
+		"reset" : "ar 2/26/2010 18:28" },
+	"instance" : {
+		"asParagraphForPostscript" : "di 8/13/2000 12:27",
+		"characterBlockAtPoint:" : "nice 12/27/2009 03:12",
+		"composeAll" : "di 4/30/1999 08:06",
+		"composeLinesFrom:to:delta:into:priorLines:atY:" : "di 6/23/1999 10:17",
+		"composeLinesFrom:withLines:atY:" : "dgd 2/21/2003 22:54",
+		"containsPoint:" : "di 12/3/97 09:06",
+		"displayOn:using:at:" : "bf 6/17/2010 19:19",
+		"extent" : "jm 11/19/97 22:38",
+		"moveBy:" : "nk 6/23/2004 15:06",
+		"pointInLine:forDestPoint:segStart:segAngle:" : "di 12/3/97 10:24",
+		"releaseCachedState" : "di 11/29/97 20:15",
+		"selectionRectsFrom:to:" : "di 12/3/97 09:06",
+		"textOwner:" : "jm 11/19/97 20:29",
+		"textSegmentsDo:" : "dgd 2/21/2003 22:54",
+		"warpMapForDepth:withTransparentFor:" : "dgd 2/21/2003 22:54" } }

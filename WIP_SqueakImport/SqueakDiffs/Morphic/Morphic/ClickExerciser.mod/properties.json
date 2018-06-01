@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"buttons" ],
+	"name" : "ClickExerciser",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

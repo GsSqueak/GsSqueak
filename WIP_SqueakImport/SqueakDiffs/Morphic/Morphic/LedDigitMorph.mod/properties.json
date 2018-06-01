@@ -1,0 +1,18 @@
+{
+	"category" : "Morphic-MorphicExtras-Leds",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"HSegmentOrigins",
+		"HSegments",
+		"VSegmentOrigins",
+		"VSegments" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"digit",
+		"highlighted" ],
+	"name" : "LedDigitMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

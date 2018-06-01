@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asDraggableMorph" : "mt 12/21/2017 09:22",
+		"asMorph" : "nk 2/26/2004 13:33",
+		"asStringMorph" : "nk 2/26/2004 13:35",
+		"asTextMorph" : "nk 2/26/2004 13:35",
+		"currentEvent" : "ar 3/18/2001 00:03",
+		"currentHand" : "nk 9/1/2004 10:41",
+		"currentWorld" : "dtl 11/14/2017 06:14",
+		"explorerContents" : "pre 5/15/2017 21:15",
+		"filterEvent:for:" : "mt 5/31/2016 12:41",
+		"hasContentsInExplorer" : "RAA 6/21/1999 11:27",
+		"isPluggableListMorph" : "cmm 8/19/2013 22:12",
+		"openAsMorph" : "sw 1/29/2002 21:45" } }

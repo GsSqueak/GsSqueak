@@ -1,0 +1,13 @@
+private - icons
+smallLanguageIconContents
+	"Private - Method generated with the content of the file /home/dgd/smallLanguage.png"
+	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAABF0
+RVh0U29mdHdhcmUAU29kaXBvZGmU4xfQAAABlElEQVR4nMWRv0sbARTHP+bulOCQwaQnauoF
+rYGiDpa2Wtupg7q5Fsng/+CmODqUigouDuLg4L/goCBxiFkEtRXj0CVNuWhE6cn9MOZeB1NI
+S07qlC+84T34fHnf96DRaqozawE+Aa8ikchLTdOaS6XSN+AY2ASsxwxTuq7/XFz8LPn8d/F9
+V0Q8Mc28rK+vSSJh3AAzgXBvb49/eVkQEa9u2faNDA+/FWCu3tr24WE2EP5TppkXTdMEeA6g
+Vg3eGUZ3uF9R+PVlCTXehZowqBQvENtG6ezAy2RRYlHaPrxndHSEvb30R2AjVDVwXNflLneO
+1vcCpV2n+c1rymc5lK5OvEwWymWaWlupFAo4jgvg1EZQAHN3Z1tEPPHvbh9Wrjh/974r52cn
+EgqFHKDt3zsM6fqz61zua2D+YvGHJJN9LjAe9AkjHA5nVleXxbKuxPddsawrOTjYl/n52fto
+NLoF9AfBAKiqmj09PZJ0elcGBwcqwA4wCUQeBauKT0yM+anUlAesAPH/gWo1DSwAsaeCjdNv
+pz0BrfQjq7kAAAAASUVORK5CYII='

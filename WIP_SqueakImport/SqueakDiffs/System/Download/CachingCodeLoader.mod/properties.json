@@ -1,0 +1,14 @@
+{
+	"category" : "System-Download",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cacheDir" ],
+	"name" : "CachingCodeLoader",
+	"pools" : [
+		 ],
+	"super" : "CodeLoader",
+	"type" : "normal" }

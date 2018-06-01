@@ -1,11 +1,20 @@
 {
 	"categoriesToLoad" : [
 		"Collections",
+		"Compression",
 		"Kernel",
 		"Graphics",
 		"System",
 		"SUnit",
-		"Chronology"
+		"Chronology",
+		"Sound",
+		"Morphic",
+		"Multilingual",
+		"Network",
+		"ST80-Paths",
+		"ToolBuilder",
+		"Tools",
+		"TrueType"
 		],
 	"classesToLoad" : [
 		"Environment",

@@ -1,0 +1,4 @@
+preferences
+applyUserInterfaceTheme
+
+	self updateInstances.

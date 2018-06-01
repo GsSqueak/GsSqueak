@@ -1,0 +1,18 @@
+{
+	"category" : "Graphics-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 10/6/2013 22:04",
+	"instvars" : [
+		"characterPoint",
+		"characterIndex",
+		"nextLeftMargin",
+		"specialWidth",
+		"lastCharacterWidth" ],
+	"name" : "CharacterBlockScanner",
+	"pools" : [
+		 ],
+	"super" : "CharacterScanner",
+	"type" : "normal" }

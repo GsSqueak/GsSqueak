@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"newPrototype" : "nice 12/11/2013 19:52",
+		"newPrototypeFor:" : "nice 12/11/2013 19:55" },
+	"instance" : {
+		"buildAPrototypeFor:" : "nice 12/11/2013 23:52",
+		"clear" : "tk 7/2/97 15:00",
+		"normalize" : "tk 3/9/98 13:17",
+		"otherButtonFor:" : "tk 7/2/97 11:46",
+		"pickupButtons" : "tk 7/16/97 19:22",
+		"pickupButtons:" : "tk 7/2/97 10:51",
+		"remove:" : "tk 10/11/97 17:04",
+		"scroll:" : "tk 7/2/97 14:37",
+		"stampButtons" : "tk 7/16/97 19:22",
+		"stampButtons:" : "tk 10/11/97 10:21",
+		"stampForm:for:" : "tk 7/17/97 09:59",
+		"stampFormFor:" : "tk 7/2/97 14:04",
+		"updateReferencesUsing:" : "jm 7/28/97 11:54" } }

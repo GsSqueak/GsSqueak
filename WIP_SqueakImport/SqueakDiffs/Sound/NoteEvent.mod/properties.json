@@ -1,0 +1,17 @@
+{
+	"category" : "Sound-Scores",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"duration",
+		"midiKey",
+		"velocity",
+		"channel" ],
+	"name" : "NoteEvent",
+	"pools" : [
+		 ],
+	"super" : "AbstractScoreEvent",
+	"type" : "normal" }

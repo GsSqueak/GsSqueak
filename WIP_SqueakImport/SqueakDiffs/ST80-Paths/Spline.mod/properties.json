@@ -1,0 +1,14 @@
+{
+	"category" : "ST80-Paths",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"coefficients" ],
+	"name" : "Spline",
+	"pools" : [
+		 ],
+	"super" : "Path",
+	"type" : "normal" }

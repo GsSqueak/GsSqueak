@@ -1,0 +1,1 @@
+A SelectorBrowser is more commonly referred to as the method finder; you can enter message names or more interestingly,  example inputs and results to have the system try to find plausible methods that would satisfy the parameters. See SelectorBrowser>>#byExample for much more detail.

@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"on:" : "cmm 12/4/2010 13:48",
+		"on:originalColor:setColorSelector:" : "kfr 5/3/2015 16:20",
+		"on:originalColor:setColorSelector:forPropertiesPanel:" : "kfr 5/3/2015 16:00",
+		"useIt" : "cmm 12/4/2010 15:05",
+		"useIt:" : "cmm 12/4/2010 14:55" },
+	"instance" : {
+		"closeButtonLabel" : "cmm 12/4/2010 12:38",
+		"colorExpression" : "cmm 12/3/2010 14:55",
+		"colorExpression:" : "cmm 12/4/2010 12:27",
+		"colorSelected:" : "cmm 12/3/2010 15:11",
+		"initialize" : "cmm 12/3/2010 15:00",
+		"initializeHsvaMorph" : "cmm 12/4/2010 11:29",
+		"newBottomRow" : "cmm 12/4/2010 12:38",
+		"newCloseButton" : "kfr 5/2/2015 19:13",
+		"newColorExpressionMorph" : "mt 4/14/2015 19:01",
+		"newColorPresenterMorph" : "cmm 12/3/2010 15:34",
+		"selectedColor" : "cmm 12/3/2010 13:53",
+		"selectedColor:" : "cmm 12/3/2010 13:53",
+		"setColorSelector" : "cmm 12/3/2010 13:39",
+		"setTarget:originalColor:setColorSelector:" : "cmm 12/4/2010 13:46",
+		"setTarget:originalColor:setColorSelector:forPropertiesPanel:" : "kfr 5/3/2015 16:04",
+		"setup" : "kfr 5/2/2015 22:04",
+		"setupForProperties" : "kfr 5/3/2015 16:06",
+		"target" : "cmm 12/3/2010 13:39",
+		"targetColor:" : "cmm 12/3/2010 13:52" } }

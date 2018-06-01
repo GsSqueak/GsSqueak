@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-MorphicExtras-GeeMail",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pageNumber",
+		"bounds",
+		"totalPages" ],
+	"name" : "GeePrinterPage",
+	"pools" : [
+		 ],
+	"super" : "GeePrinter",
+	"type" : "normal" }

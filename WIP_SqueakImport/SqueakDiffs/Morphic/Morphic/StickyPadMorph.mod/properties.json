@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-MorphicExtras-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Colors",
+		"LastColorIndex" ],
+	"commentStamp" : "sw 3/3/2004 13:31",
+	"instvars" : [
+		 ],
+	"name" : "StickyPadMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

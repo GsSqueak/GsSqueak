@@ -1,0 +1,19 @@
+{
+	"category" : "Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"MIMEdatabase" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"mainType",
+		"subType",
+		"content",
+		"fields",
+		"url",
+		"parts" ],
+	"name" : "MIMEDocument",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

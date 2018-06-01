@@ -1,0 +1,14 @@
+{
+	"category" : "Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"contentStream" ],
+	"name" : "MIMELocalFileDocument",
+	"pools" : [
+		 ],
+	"super" : "MIMEDocument",
+	"type" : "normal" }

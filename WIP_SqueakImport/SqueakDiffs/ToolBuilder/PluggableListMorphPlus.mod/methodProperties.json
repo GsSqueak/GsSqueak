@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"acceptDroppingMorph:event:" : "mt 3/30/2016 15:51",
+		"dragItemSelector" : "ar 7/15/2005 11:24",
+		"dragItemSelector:" : "ar 7/15/2005 11:26",
+		"dragStartedSelector" : "mt 11/4/2015 14:42",
+		"dragStartedSelector:" : "mt 11/4/2015 14:43",
+		"dragTypeSelector" : "mt 6/10/2015 10:18",
+		"dragTypeSelector:" : "mt 6/10/2015 10:18",
+		"dropItemSelector" : "ar 7/15/2005 11:25",
+		"dropItemSelector:" : "ar 7/15/2005 11:25",
+		"startDrag:" : "mt 11/5/2015 08:59",
+		"wantsDropSelector" : "ar 7/15/2005 12:07",
+		"wantsDropSelector:" : "ar 7/15/2005 12:07",
+		"wantsDroppedMorph:event:" : "mt 11/4/2015 14:11" } }

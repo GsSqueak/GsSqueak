@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-MorphicExtras-Books",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"page",
+		"pageNumber",
+		"bookMorph",
+		"flipOnClick" ],
+	"name" : "BookPageThumbnailMorph",
+	"pools" : [
+		 ],
+	"super" : "SketchMorph",
+	"type" : "normal" }

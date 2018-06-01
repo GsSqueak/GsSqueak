@@ -1,0 +1,20 @@
+{
+	"category" : "Morphic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"actionSelector",
+		"arguments",
+		"getItemsSelector",
+		"getItemsArgs",
+		"choiceSelector",
+		"choiceArgs" ],
+	"name" : "PopUpChoiceMorph",
+	"pools" : [
+		 ],
+	"super" : "StringMorph",
+	"type" : "normal" }

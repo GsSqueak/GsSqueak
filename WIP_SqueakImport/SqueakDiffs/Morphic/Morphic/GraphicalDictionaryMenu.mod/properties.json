@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-MorphicExtras-AdditionalWidgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"baseDictionary",
+		"entryNames",
+		"lastSearchString" ],
+	"name" : "GraphicalDictionaryMenu",
+	"pools" : [
+		 ],
+	"super" : "GraphicalMenu",
+	"type" : "normal" }

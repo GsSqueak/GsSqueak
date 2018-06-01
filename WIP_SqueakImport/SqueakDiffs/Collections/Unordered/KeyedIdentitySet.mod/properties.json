@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-Unordered",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 8/26/2010 22:01",
+	"instvars" : [
+		 ],
+	"name" : "KeyedIdentitySet",
+	"pools" : [
+		 ],
+	"super" : "KeyedSet",
+	"type" : "normal" }

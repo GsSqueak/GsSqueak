@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"rawResponseCodes" : "mir 2/21/2002 17:21" },
+	"instance" : {
+		"determineResponseCode" : "mir 2/22/2002 17:34",
+		"fetchNextResponse" : "pre 5/8/2017 13:43",
+		"lastResponse:" : "mir 11/14/2002 18:27",
+		"lookForCode:" : "mir 4/7/2003 15:46",
+		"lookForCode:ifDifferent:" : "mir 11/14/2002 16:21",
+		"response:indicatesEndOf:" : "pre 5/8/2017 13:42",
+		"responseCode" : "mir 2/22/2002 17:33",
+		"responseIsContinuation:" : "pre 5/8/2017 14:13",
+		"responseIsError" : "mir 2/22/2002 17:35",
+		"responseIsSuccess" : "pre 5/8/2017 14:50",
+		"responseIsWarning" : "mir 2/22/2002 17:35",
+		"valueOfResponseLine:" : "pre 5/8/2017 14:15" } }

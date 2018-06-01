@@ -1,0 +1,4 @@
+accessing
+endTime
+
+	^ time + duration

@@ -1,0 +1,4 @@
+*Context-accessing
+closureOrNil
+
+   ^closureOrNil

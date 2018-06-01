@@ -1,0 +1,18 @@
+{
+	"category" : "Morphic-MorphicExtras-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"pickupButtons",
+		"stampButtons",
+		"stamps",
+		"thumbnailPics",
+		"start" ],
+	"name" : "ScrollingToolHolder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

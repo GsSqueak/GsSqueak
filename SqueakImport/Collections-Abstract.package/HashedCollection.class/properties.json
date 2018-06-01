@@ -11,5 +11,5 @@
 	"name" : "HashedCollection",
 	"pools" : [
 		 ],
-	"super" : "Collection",
+	"super" : "UnorderedCollection",
 	"type" : "normal" }

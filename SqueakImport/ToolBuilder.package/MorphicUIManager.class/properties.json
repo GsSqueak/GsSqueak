@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 5/2/2010 16:07",
+	"instvars" : [
+		 ],
+	"name" : "MorphicUIManager",
+	"pools" : [
+		 ],
+	"super" : "UIManager",
+	"type" : "normal" }

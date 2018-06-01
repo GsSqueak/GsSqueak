@@ -1,0 +1,23 @@
+{
+	"category" : "Morphic-MorphicExtras-Flaps",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"flapShowing",
+		"edgeToAdhereTo",
+		"slidesOtherObjects",
+		"popOutOnDragOver",
+		"popOutOnMouseOver",
+		"inboard",
+		"dragged",
+		"lastReferentThickness",
+		"edgeFraction",
+		"labelString" ],
+	"name" : "FlapTab",
+	"pools" : [
+		 ],
+	"super" : "ReferenceMorph",
+	"type" : "normal" }

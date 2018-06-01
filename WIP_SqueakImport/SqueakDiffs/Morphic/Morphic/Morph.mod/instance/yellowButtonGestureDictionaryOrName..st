@@ -1,0 +1,2 @@
+geniestubs
+yellowButtonGestureDictionaryOrName: aSymbolOrDictionary

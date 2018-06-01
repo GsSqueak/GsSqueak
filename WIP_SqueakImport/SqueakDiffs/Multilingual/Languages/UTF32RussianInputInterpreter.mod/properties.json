@@ -1,0 +1,14 @@
+{
+	"category" : "Multilingual-Languages",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UTF32RussianInputInterpreter",
+	"pools" : [
+		 ],
+	"super" : "UTF32InputInterpreter",
+	"type" : "normal" }

@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"defaultAnswerExtent" : "mt 4/14/2015 18:23",
+		"request:" : "ar 3/18/2001 00:54",
+		"request:initialAnswer:" : "ar 3/18/2001 00:54",
+		"request:initialAnswer:centerAt:" : "ar 3/17/2001 23:43",
+		"request:initialAnswer:centerAt:inWorld:" : "sw 1/31/2000 11:03",
+		"request:initialAnswer:centerAt:inWorld:onCancelReturn:" : "sw 2/2/2000 22:43",
+		"request:initialAnswer:centerAt:inWorld:onCancelReturn:acceptOnCR:" : "NS 8/1/2000 11:44",
+		"request:initialAnswer:centerAt:inWorld:onCancelReturn:acceptOnCR:answerExtent:" : "mt 7/13/2016 20:48",
+		"request:initialAnswer:centerAt:inWorld:onCancelReturn:acceptOnCR:answerHeight:" : "NS 8/1/2000 11:43",
+		"requestPassword:" : "dtl 11/20/2017 14:19",
+		"requestPassword:initialAnswer:centerAt:inWorld:onCancelReturn:acceptOnCR:" : "mt 7/13/2016 20:49" },
+	"instance" : {
+		"codePaneMenu:shifted:" : "ar 10/5/2009 23:24",
+		"createTextPaneAcceptOnCR:" : "tfel 9/29/2016 15:28",
+		"filterEvent:for:" : "mt 7/19/2016 13:09",
+		"initialize" : "mt 7/19/2016 13:08",
+		"response" : "mt 7/13/2016 20:26",
+		"response:" : "mt 7/13/2016 20:41",
+		"selectionInterval" : "mt 7/13/2016 20:38",
+		"setDefaultParameters" : "mt 7/14/2016 08:01",
+		"setPasswordQuery:initialAnswer:answerHeight:acceptOnCR:" : "mt 7/10/2016 15:22",
+		"setQuery:initialAnswer:answerExtent:acceptOnCR:" : "tfel 9/29/2016 15:31",
+		"setQuery:initialAnswer:answerHeight:acceptOnCR:" : "NS 8/1/2000 11:44",
+		"textPane" : "mt 7/13/2016 20:47" } }

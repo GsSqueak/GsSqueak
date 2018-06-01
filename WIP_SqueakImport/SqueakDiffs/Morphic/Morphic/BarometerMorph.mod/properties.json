@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tpr 4/13/2017 16:48",
+	"instvars" : [
+		"priorPressureIndicator" ],
+	"name" : "BarometerMorph",
+	"pools" : [
+		 ],
+	"super" : "RotaryDialMorph",
+	"type" : "normal" }

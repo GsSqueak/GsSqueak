@@ -1,0 +1,14 @@
+{
+	"category" : "Graphics-Transformations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IdentityTransform",
+	"pools" : [
+		 ],
+	"super" : "DisplayTransform",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Network-RemoteDirectory",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"directoryUrl",
+		"localName",
+		"directory" ],
+	"name" : "SwikiPseudoFileStream",
+	"pools" : [
+		 ],
+	"super" : "RWBinaryOrTextStream",
+	"type" : "normal" }

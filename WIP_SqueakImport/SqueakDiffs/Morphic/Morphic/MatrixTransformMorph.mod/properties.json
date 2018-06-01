@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-Balloon",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"transform" ],
+	"name" : "MatrixTransformMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

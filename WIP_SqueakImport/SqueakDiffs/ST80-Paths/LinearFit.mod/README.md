@@ -1,0 +1,1 @@
+I represent a piece-wise linear approximation to a set of points in the plane.

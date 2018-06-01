@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"canComputeDefaultLineHeight" : "cmm 6/13/2010 20:50",
+		"columnBreak" : "nice 9/29/2013 16:12",
+		"composeFrom:inRectangle:firstLine:leftSide:rightSide:" : "nice 10/22/2013 20:50",
+		"computeDefaultLineHeight" : "tpr 9/25/2013 13:41",
+		"cr" : "nice 10/2/2013 02:21",
+		"crossedX" : "nice 10/8/2013 22:42",
+		"doesTheLineBreaksAfterLastChar" : "nice 10/2/2013 02:23",
+		"endOfRun" : "ar 1/9/2000 13:54",
+		"initialize" : "nice 10/6/2013 21:41",
+		"placeEmbeddedObject:" : "nice 10/21/2013 23:22",
+		"rightX" : "ar 1/8/2000 14:35",
+		"setActualFont:" : "ar 1/8/2000 14:36",
+		"setStopConditions" : "nice 10/5/2013 21:02",
+		"space" : "nice 10/6/2013 21:20",
+		"tab" : "tween 4/6/2007 11:15",
+		"wantsColumnBreaks:" : "RAA 5/7/2001 10:11",
+		"wrapAtLastBreakable" : "nice 10/8/2013 22:32",
+		"wrapAtLastSpace" : "nice 10/8/2013 22:32",
+		"wrapHere" : "nice 10/8/2013 22:43" } }

@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-MorphicExtras-Books",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"alansSliders",
+		"panAndTiltFactor",
+		"zoomFactor",
+		"zoomController" ],
+	"name" : "StoryboardBookMorph",
+	"pools" : [
+		 ],
+	"super" : "BookMorph",
+	"type" : "normal" }

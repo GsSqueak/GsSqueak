@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"withModel:" : "cwp 6/9/2005 00:22" },
+	"instance" : {
+		"add:action:" : "ar 2/28/2006 17:26",
+		"add:target:selector:argumentList:" : "ar 2/28/2006 17:25",
+		"addList:" : "ar 10/5/2009 21:46",
+		"addMenuItem" : "ar 2/28/2006 17:27",
+		"addSeparator" : "ar 2/28/2006 17:25",
+		"analyzeItemLabels" : "ar 9/7/2009 14:17",
+		"buildWith:" : "ar 9/7/2009 14:18",
+		"items" : "ar 2/28/2006 17:27",
+		"label" : "ar 2/28/2006 17:12",
+		"label:" : "ar 2/28/2006 17:12",
+		"model" : "cwp 6/8/2005 23:36",
+		"model:" : "cwp 6/8/2005 23:36",
+		"newMenuItem" : "ar 2/28/2006 17:27" } }

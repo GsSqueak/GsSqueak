@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"defaultTarget" : "MPW 1/1/1901 01:18",
+		"filterSelector" : "MPW 1/1/1901 00:41",
+		"numberDefaultBase" : "MPW 1/1/1901 22:46" },
+	"instance" : {
+		"cr" : "MPW 1/1/1901 15:17",
+		"elementSeparator" : "MPW 1/1/1901 01:33",
+		"nextPut:" : "nk 12/31/2003 16:01",
+		"nextPutAll:" : "nk 12/31/2003 16:00",
+		"numberDefaultBase" : "MPW 1/1/1901 22:45",
+		"print:" : "MPW 1/1/1901 00:48",
+		"space" : "MPW 1/1/1901 02:18",
+		"tab" : "MPW 1/1/1901 15:16",
+		"writeArray:" : "MPW 1/1/1901 20:51",
+		"writeAssocation:" : "MPW 1/1/1901 20:53",
+		"writeCollection:" : "MPW 1/1/1901 02:31",
+		"writeCollectionContents:" : "MPW 1/1/1901 02:31",
+		"writeNumber:" : "MPW 1/1/1901 22:44",
+		"writeNumber:base:" : "MPW 1/1/1901 00:03",
+		"writeObject:" : "MPW 1/1/1901 01:25",
+		"writeString:" : "MPW 1/1/1901 00:21" } }

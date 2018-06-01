@@ -1,0 +1,1 @@
+A widget that simulates a joystick. Mosly used in etoy scripting.

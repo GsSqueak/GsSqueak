@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCustomMenuItems:hand:" : "dgd 8/30/2003 21:43",
+		"changeProgressColor:" : "ar 10/5/2000 18:51",
+		"changeProgressValue:" : "ar 8/6/2009 20:43",
+		"drawOn:" : "sma 3/3/2000 18:54",
+		"initialize" : "mt 8/13/2016 11:32",
+		"progressColor" : "ar 11/18/1998 22:14",
+		"progressColor:" : "sma 3/3/2000 18:52",
+		"setDefaultParameters" : "mt 8/13/2016 11:34",
+		"update:" : "sma 3/3/2000 18:51",
+		"value" : "ar 11/18/1998 22:09",
+		"value:" : "sma 3/3/2000 18:53" } }

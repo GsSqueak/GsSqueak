@@ -1,0 +1,3 @@
+menu
+openWorkspace
+	Workspace open

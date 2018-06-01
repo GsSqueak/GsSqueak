@@ -1,0 +1,15 @@
+{
+	"category" : "Collections-Cache",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"key",
+		"value" ],
+	"name" : "LRUCacheNode",
+	"pools" : [
+		 ],
+	"super" : "LRUCacheHeadNode",
+	"type" : "normal" }

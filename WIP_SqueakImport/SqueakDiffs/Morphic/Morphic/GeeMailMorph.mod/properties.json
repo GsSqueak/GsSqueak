@@ -1,0 +1,15 @@
+{
+	"category" : "Morphic-MorphicExtras-GeeMail",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"theTextMorph",
+		"thePasteUp" ],
+	"name" : "GeeMailMorph",
+	"pools" : [
+		 ],
+	"super" : "ScrollPane",
+	"type" : "normal" }

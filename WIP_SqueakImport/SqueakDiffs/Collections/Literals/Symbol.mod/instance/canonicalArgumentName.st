@@ -1,0 +1,3 @@
+*Tools-Debugger
+canonicalArgumentName
+	^ 'Symbol'

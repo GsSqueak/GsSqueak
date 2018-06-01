@@ -1,0 +1,4 @@
+private
+resetKnownLocales
+
+	KnownLocales := nil

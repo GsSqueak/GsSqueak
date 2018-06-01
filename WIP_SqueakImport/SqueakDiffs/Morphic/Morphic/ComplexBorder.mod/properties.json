@@ -1,0 +1,16 @@
+{
+	"category" : "Morphic-Borders",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 3/24/2010 07:36",
+	"instvars" : [
+		"style",
+		"colors",
+		"lineStyles" ],
+	"name" : "ComplexBorder",
+	"pools" : [
+		 ],
+	"super" : "SimpleBorder",
+	"type" : "normal" }

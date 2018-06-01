@@ -1,0 +1,3 @@
+server prefs
+serverConfDirectoryName
+	^'knownServers'

@@ -1,0 +1,21 @@
+{
+	"category" : "Morphic-MorphicExtras-Leds",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"digits",
+		"chars",
+		"value",
+		"flashing",
+		"flash",
+		"string",
+		"scroller",
+		"scrollLoop" ],
+	"name" : "LedMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

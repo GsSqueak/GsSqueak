@@ -1,0 +1,19 @@
+{
+	"category" : "Morphic-MorphicExtras-PartsBin",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"formalName",
+		"categoryList",
+		"documentation",
+		"globalReceiverSymbol",
+		"nativitySelector",
+		"sampleImageForm" ],
+	"name" : "DescriptionForPartsBin",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

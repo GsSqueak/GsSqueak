@@ -1,0 +1,4 @@
+for real
+directoryWrapperClass
+
+	^SuperSwikiDirectoryWrapper

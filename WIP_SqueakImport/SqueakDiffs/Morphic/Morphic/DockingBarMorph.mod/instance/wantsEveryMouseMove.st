@@ -1,0 +1,3 @@
+events-processing
+wantsEveryMouseMove
+	^ true

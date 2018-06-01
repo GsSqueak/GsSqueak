@@ -1,0 +1,23 @@
+{
+	"category" : "ToolBuilder-Morphic-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tpr 11/21/2017 18:18",
+	"instvars" : [
+		"patternList",
+		"directory",
+		"directoryCache",
+		"message",
+		"listIndex",
+		"fileName",
+		"finalChoice",
+		"nameList",
+		"sizeList",
+		"dateList" ],
+	"name" : "FileAbstractSelectionDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

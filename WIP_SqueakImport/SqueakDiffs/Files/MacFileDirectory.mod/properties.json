@@ -1,0 +1,14 @@
+{
+	"category" : "Files-Directories",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"TypeToMimeMappings" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MacFileDirectory",
+	"pools" : [
+		 ],
+	"super" : "FileDirectory",
+	"type" : "normal" }

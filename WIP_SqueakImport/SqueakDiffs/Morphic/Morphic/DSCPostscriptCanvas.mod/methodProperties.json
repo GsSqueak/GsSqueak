@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultImageableArea" : "mpw 9/15/1999 20:14",
+		"defaultMargin" : "di 8/3/2000 14:18",
+		"defaultPageSize" : "di 8/5/2000 22:56",
+		"endGStateForMorph:" : "nk 1/2/2004 16:53",
+		"fullDraw:" : "nk 1/2/2004 16:53",
+		"pageBBox" : "nk 1/1/2004 19:56",
+		"pageOffset" : "nk 12/30/2003 17:22",
+		"setupGStateForMorph:" : "nk 1/1/2004 18:21",
+		"writePSIdentifierRotated:" : "nk 1/2/2004 15:36" } }

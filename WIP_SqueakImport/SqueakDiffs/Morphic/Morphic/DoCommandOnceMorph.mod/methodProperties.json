@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actionBlock:" : "RAA 7/7/2000 11:49",
+		"addText:" : "RAA 7/29/2000 17:30",
+		"defaultBorderColor" : "dgd 2/14/2003 22:34",
+		"defaultBorderWidth" : "dgd 2/14/2003 22:36",
+		"initialize" : "dgd 2/14/2003 20:08",
+		"openInWorld:" : "RAA 7/7/2000 12:19",
+		"step" : "ul 8/2/2011 19:59",
+		"stepTime" : "RAA 7/7/2000 11:46",
+		"wantsSteps" : "RAA 7/7/2000 11:50" } }

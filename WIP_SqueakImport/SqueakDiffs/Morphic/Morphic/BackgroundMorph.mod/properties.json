@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-MorphicExtras-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"image",
+		"offset",
+		"delta",
+		"running" ],
+	"name" : "BackgroundMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Morphic-MorphicExtras-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tpr 6/29/2017 13:26",
+	"instvars" : [
+		"hourHandMorph" ],
+	"name" : "ClockDialMorph",
+	"pools" : [
+		 ],
+	"super" : "RotaryDialMorph",
+	"type" : "normal" }

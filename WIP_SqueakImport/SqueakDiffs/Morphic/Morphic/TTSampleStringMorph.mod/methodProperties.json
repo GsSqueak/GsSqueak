@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"descriptionForPartsBin" : "tak 7/25/2007 00:12" },
+	"instance" : {
+		"addCustomMenuItems:hand:" : "dgd 8/30/2003 22:17",
+		"addOptionalHandlesTo:box:" : "ar 11/14/1998 23:44",
+		"computeTransform" : "nice 12/29/2010 15:02",
+		"containsPoint:" : "dgd 2/22/2003 14:42",
+		"defaultBorderWidth" : "dgd 2/14/2003 22:40",
+		"defaultColor" : "dgd 2/14/2003 22:31",
+		"drawOn:" : "nice 12/27/2009 03:10",
+		"edit" : "tk 12/7/2001 11:24",
+		"font:" : "tk 12/10/2001 16:21",
+		"howTo" : "tk 12/10/2001 16:02",
+		"initializeString" : "sma 1/1/2000 18:08",
+		"initializeToStandAlone" : "tk 12/10/2001 17:36",
+		"loadFromURL" : "tk 12/10/2001 16:03",
+		"loadFromURL:" : "tk 12/10/2001 16:03",
+		"printOn:" : "nk 7/15/2003 15:12",
+		"string" : "sma 1/1/2000 18:08",
+		"string:" : "ar 11/14/1998 23:53" } }

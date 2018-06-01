@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PluggableMultiColumnListSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableListSpec",
+	"type" : "normal" }

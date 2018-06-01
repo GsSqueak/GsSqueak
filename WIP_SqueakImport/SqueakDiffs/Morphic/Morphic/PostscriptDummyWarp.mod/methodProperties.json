@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"canvas:" : "mpw 8/4/1930 09:18" },
+	"instance" : {
+		"canvas" : "",
+		"canvas:" : "mpw 8/4/1930 09:19",
+		"cellSize:" : "",
+		"colorMap:" : "mpw 8/4/1930 09:09",
+		"combinationRule:" : "",
+		"drawPostscriptContext:" : "mpw 8/4/1930 09:12",
+		"preserveStateDuring:" : "di 8/12/2000 10:01",
+		"sourceForm:" : "",
+		"sourceQuad:destRect:" : "mpw 8/4/1930 09:10",
+		"subCanvas:" : "nice 12/29/2010 14:58",
+		"transform" : "",
+		"transform:" : "",
+		"transformBy:" : "mpw 8/4/1930 09:11",
+		"warpBits" : "di 8/12/2000 10:13" } }

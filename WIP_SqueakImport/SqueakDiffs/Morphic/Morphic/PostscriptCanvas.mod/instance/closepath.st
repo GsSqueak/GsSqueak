@@ -1,0 +1,6 @@
+private
+closepath
+	^target closepath.
+
+
+              

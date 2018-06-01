@@ -1,0 +1,14 @@
+{
+	"category" : "Tools-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "StandardToolSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

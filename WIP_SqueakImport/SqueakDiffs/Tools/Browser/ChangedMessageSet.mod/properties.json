@@ -1,0 +1,14 @@
+{
+	"category" : "Tools-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"changeSet" ],
+	"name" : "ChangedMessageSet",
+	"pools" : [
+		 ],
+	"super" : "MessageSet",
+	"type" : "normal" }

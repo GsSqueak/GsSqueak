@@ -1,0 +1,4 @@
+rounding
+wantsRoundedCorners
+
+	^false

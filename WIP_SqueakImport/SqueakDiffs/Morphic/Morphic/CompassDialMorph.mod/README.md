@@ -1,0 +1,1 @@
+A CompassDialMorph shows a navigation compass. Unusually for most dials it has a full 360 degree span.

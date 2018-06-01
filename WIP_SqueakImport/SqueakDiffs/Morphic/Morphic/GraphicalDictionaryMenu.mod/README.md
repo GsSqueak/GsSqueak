@@ -1,0 +1,1 @@
+A morph that allows you to view, rename, and remove elements from a dictionary whose keys are strings and whose values are forms.

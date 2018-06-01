@@ -1,0 +1,1 @@
+A ProjectNavigationMorph is the standard panel of buttons for navigating and managing projects. It appears, usually at bottom left, when the classicNavigatorEnabled and showProjectNavigator preferences are enabled.

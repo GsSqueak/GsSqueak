@@ -1,0 +1,4 @@
+path and pattern
+defaultPatternList
+
+	^#('*')

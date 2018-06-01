@@ -1,0 +1,4 @@
+accessing
+beAccepted
+
+	^accepted := true

@@ -1,0 +1,17 @@
+{
+	"category" : "Morphic-Basic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "efc 3/7/2003 17:34",
+	"instvars" : [
+		"font",
+		"emphasis",
+		"contents",
+		"hasFocus" ],
+	"name" : "StringMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

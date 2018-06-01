@@ -1,0 +1,15 @@
+{
+	"category" : "ToolBuilder-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 2/1/2016 10:24",
+	"instvars" : [
+		"parent",
+		"index" ],
+	"name" : "PluggableTreeItemNode",
+	"pools" : [
+		 ],
+	"super" : "ListItemWrapper",
+	"type" : "normal" }

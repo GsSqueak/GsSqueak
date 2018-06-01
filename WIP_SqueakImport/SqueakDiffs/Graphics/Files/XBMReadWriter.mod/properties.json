@@ -1,0 +1,15 @@
+{
+	"category" : "Graphics-Files",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Flipbits" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"width",
+		"height" ],
+	"name" : "XBMReadWriter",
+	"pools" : [
+		 ],
+	"super" : "ImageReadWriter",
+	"type" : "normal" }

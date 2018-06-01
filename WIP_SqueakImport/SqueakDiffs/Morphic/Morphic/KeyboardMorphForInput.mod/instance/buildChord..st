@@ -1,0 +1,2 @@
+note controls
+buildChord: onOff

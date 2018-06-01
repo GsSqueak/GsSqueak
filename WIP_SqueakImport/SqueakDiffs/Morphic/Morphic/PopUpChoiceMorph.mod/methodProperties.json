@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actionSelector" : "jm 2/2/98 00:05",
+		"actionSelector:" : "jm 2/2/98 00:05",
+		"arguments" : "jm 2/2/98 00:05",
+		"arguments:" : "jm 2/2/98 00:05",
+		"getItemsArgs" : "jm 2/2/98 00:33",
+		"getItemsArgs:" : "jm 2/2/98 00:33",
+		"getItemsSelector" : "jm 2/2/98 00:32",
+		"getItemsSelector:" : "jm 2/2/98 00:32",
+		"handlesMouseDown:" : "jm 2/2/98 00:20",
+		"initialize" : "cmm 5/8/2014 10:59",
+		"mouseDown:" : "dtl 12/30/2013 17:47",
+		"target" : "jm 2/2/98 00:05",
+		"target:" : "jm 2/2/98 00:05",
+		"veryDeepFixupWith:" : "di 3/24/1999 09:57",
+		"veryDeepInner:" : "tk 1/8/1999 09:43" } }

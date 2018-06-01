@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"allKnownDomains" : "fbs 5/12/2013 13:04",
+		"cleanUp:" : "fbs 5/7/2013 15:01",
+		"clearAllDomains" : "eem 2/6/2013 12:52",
+		"defaultDomain" : "fbs 5/12/2013 13:05",
+		"defaultDomain:" : "Richo 5/13/2010 00:02",
+		"domainForClass:" : "Richo 5/18/2010 11:13",
+		"domainForPackage:" : "Richo 5/13/2010 00:10",
+		"domainOfMethod:" : "Richo 5/13/2010 00:17",
+		"initialize" : "edc 3/13/2012 10:16",
+		"textDomainProperty" : "Richo 5/13/2010 00:12",
+		"updateDomainOfAllMethodsWithTranslations" : "Richo 5/13/2010 00:46",
+		"updateDomainOfMethod:" : "Richo 5/13/2010 00:27" },
+	"instance" : {
+		 } }

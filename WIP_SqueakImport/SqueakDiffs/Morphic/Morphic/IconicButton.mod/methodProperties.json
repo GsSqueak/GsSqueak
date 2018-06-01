@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addLabelItemsTo:hand:" : "sw 9/28/1999 20:42",
+		"borderInset" : "ar 12/12/2001 01:38",
+		"borderNormal" : "ar 12/12/2001 01:38",
+		"borderRaised" : "ar 12/12/2001 01:41",
+		"borderThick" : "ar 12/17/2001 21:17",
+		"buttonSetup" : "ar 12/15/2001 14:43",
+		"darken" : "mha 3/26/2010 00:00",
+		"darkenedForm" : "bf 3/26/2010 09:01",
+		"doButtonAction" : "tfel 3/18/2010 21:38",
+		"initialize" : "sw 11/29/1999 20:52",
+		"initializeWithThumbnail:withLabel:andColor:andSend:to:" : "nk 9/7/2004 11:43",
+		"initializeWithThumbnail:withLabel:andSend:to:" : "nk 8/6/2004 11:34",
+		"labelFromString:" : "sw 9/28/1999 14:11",
+		"labelGraphic:" : "tfel 3/18/2010 21:11",
+		"mouseEnter:" : "jrp 7/5/2005 23:15",
+		"mouseLeave:" : "jrp 7/5/2005 22:50",
+		"restoreImage" : "tfel 3/18/2010 21:05",
+		"setDefaultLabel" : "sw 9/28/1999 18:38",
+		"shedSelvedge" : "sw 11/29/1999 20:56",
+		"stationarySetup" : "sw 6/22/2007 17:04" } }

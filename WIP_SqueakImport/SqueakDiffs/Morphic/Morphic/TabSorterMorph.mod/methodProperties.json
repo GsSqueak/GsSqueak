@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"acceptSort" : "mt 8/10/2016 13:11",
+		"addControls" : "sw 4/19/2007 22:50",
+		"cancelSort" : "sw 7/3/1998 16:06",
+		"initialize" : "sw 4/19/2007 22:48",
+		"sortTabsFor:" : "sw 3/2/1999 16:47" } }

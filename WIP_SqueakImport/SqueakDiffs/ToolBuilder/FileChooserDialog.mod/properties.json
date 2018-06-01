@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-Morphic-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dtl 12/21/2017 22:18",
+	"instvars" : [
+		 ],
+	"name" : "FileChooserDialog",
+	"pools" : [
+		 ],
+	"super" : "FileAbstractSelectionDialog",
+	"type" : "normal" }

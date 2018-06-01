@@ -1,0 +1,15 @@
+{
+	"category" : "Network-RemoteDirectory",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"fileName",
+		"rwmode" ],
+	"name" : "ServerFile",
+	"pools" : [
+		 ],
+	"super" : "ServerDirectory",
+	"type" : "normal" }

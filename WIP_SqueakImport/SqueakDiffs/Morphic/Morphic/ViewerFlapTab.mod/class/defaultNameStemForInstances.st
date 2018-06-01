@@ -1,0 +1,3 @@
+printing
+defaultNameStemForInstances
+	^ 'viewerFlapTab' translatedNoop

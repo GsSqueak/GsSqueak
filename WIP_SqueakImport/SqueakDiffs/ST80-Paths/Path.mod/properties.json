@@ -1,0 +1,15 @@
+{
+	"category" : "ST80-Paths",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"form",
+		"collectionOfPoints" ],
+	"name" : "Path",
+	"pools" : [
+		 ],
+	"super" : "DisplayObject",
+	"type" : "normal" }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"adjustAfter:" : "RAA 6/10/2000 14:22",
+		"changeWorldBoundsToShow:" : "RAA 6/26/2000 19:24",
+		"drawSubmorphsOn:" : "RAA 6/4/2001 16:21",
+		"drawSubmorphsOnREAL:" : "RAA 6/4/2001 16:19",
+		"extent:" : "RAA 6/27/2000 12:39",
+		"extentFromParent:" : "RAA 6/26/2000 19:23",
+		"layoutChanged" : "dgd 2/21/2003 23:02",
+		"recomputeExtent" : "RAA 6/27/2000 12:39",
+		"useRegularWarpBlt:" : "RAA 8/28/2000 11:26" } }

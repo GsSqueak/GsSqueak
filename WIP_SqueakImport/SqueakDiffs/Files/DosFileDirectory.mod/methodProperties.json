@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"isCaseSensitive" : "ar 5/1/1999 01:48",
+		"isDrive:" : "ar 3/6/2004 03:46",
+		"maxFileNameLength" : "jm 5/8/1998 20:45",
+		"pathNameDelimiter" : "jm 12/4/97 22:57",
+		"splitName:to:" : "ar 3/6/2004 04:14" },
+	"instance" : {
+		"checkName:fixErrors:" : "di 6/18/1998 08:57",
+		"driveName" : "yo 12/19/2003 21:14",
+		"fullNameFor:" : "nk 7/18/2004 17:26",
+		"fullPathFor:" : "yo 12/19/2003 21:15",
+		"relativeNameFor:" : "yo 12/19/2003 21:15",
+		"relativeNameIfAbsoluteFor:" : "kfr 11/12/2012 18:21",
+		"setPathName:" : "bf 3/21/2000 17:06" } }

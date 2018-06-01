@@ -1,0 +1,3 @@
+menu & halo
+toggleShowWorldMainDockingBar
+	self project toggleShowWorldMainDockingBar
