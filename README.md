@@ -15,7 +15,7 @@ Another project similar to this one was started, called [PharoGS](https://github
 
 ### Prerequisites
 
-Install [GsDevKit_home](https://github.com/GsDevKit/GsDevKit_home):
+1. Install [GsDevKit_home](https://github.com/GsDevKit/GsDevKit_home):
 ```
 git clone https://github.com/GsDevKit/GsDevKit_home.git
 pushd GsDevKit_home
@@ -24,13 +24,13 @@ popd
 installServerClient
 ```
 
-Download latest EA-Drop of [GemStone](https://downloads.gemtalksystems.com/pub/GemStone64/)
+2. Download latest EA-Drop of [GemStone](https://downloads.gemtalksystems.com/pub/GemStone64/)
 ```
 downloadGemStone -f -d 3.5.0-EA-43870 3.5.0 # download version will change with each drop
 ```
 
 ### Setting up GsSqueak
-Create Stone and prepare essential support
+1. Create Stone and prepare essential support
 ```
 pushd $GS_HOME/shared/repos
 git clone https://github.com/hpi-swa-lab/BP2017RH1.git
@@ -40,14 +40,14 @@ popd
 popd
 ```
 
-Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
+2. Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
 
-Install GemStoneGUI and GsSqueakImport [see here](https://github.com/hpi-swa-lab/BP2017RH1/tree/master/tools)
+3. Install GemStoneGUI and GsSqueakImport [see here](https://github.com/hpi-swa-lab/BP2017RH1/tree/master/tools)
 
-Start a new GemStone session with `GSGRepositoryManager open.` and login.
+4. Start a new GemStone session with `GSGRepositoryManager open.` and login.
 
-Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone.
+5. Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone.
 
-When finished, you can run ... to open GsSqueak.
+6. When finished, you can run ... to open GsSqueak.
 
 ## Usage
