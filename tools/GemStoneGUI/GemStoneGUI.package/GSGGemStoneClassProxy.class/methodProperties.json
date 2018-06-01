@@ -15,6 +15,7 @@
 		"definition" : "sl 5/21/2018 10:29",
 		"environmentId" : "sl 5/26/2018 20:28",
 		"fetchMethod:" : "sl 5/21/2018 13:17",
+		"fetchMethods:" : "MS 5/30/2018 16:17",
 		"messageCategoryDict" : "sl 5/26/2018 20:32",
 		"methodAt:ifAbsent:" : "sl 5/26/2018 20:33",
 		"methodProxyClass" : "sl 5/21/2018 19:49",
@@ -23,4 +24,5 @@
 		"removeSelector:" : "sl 5/26/2018 20:37",
 		"renameMessageCategory:to:" : "sl 5/26/2018 20:39",
 		"repository" : "sl 5/21/2018 09:57",
-		"shoutParserClass" : "sl 5/23/2018 23:03" } }
+		"shoutParserClass" : "sl 5/23/2018 23:03",
+		"superclassName" : "sl 5/30/2018 13:46" } }

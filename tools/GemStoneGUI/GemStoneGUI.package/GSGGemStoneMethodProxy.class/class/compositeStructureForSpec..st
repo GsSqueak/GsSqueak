@@ -5,4 +5,5 @@ compositeStructureForSpec: spec
 	^ {#GSGGemStoneClassProxy.
 		#Symbol.
 		#Number.
-		#Symbol}
+		#Symbol.
+		#String}

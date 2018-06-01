@@ -1,0 +1,4 @@
+interface
+superclassName
+
+	self subclassResponsibility

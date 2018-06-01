@@ -28,6 +28,7 @@ Class >> printHierarchy
 Class >> removeMessageCategory:
 Class >> removeSelector:
 Class >> renameMessageCategory:to:
+Class >> superclassName
 (P) Class >> theMetaClass
 (P) Class >> theNonMetaClass
 

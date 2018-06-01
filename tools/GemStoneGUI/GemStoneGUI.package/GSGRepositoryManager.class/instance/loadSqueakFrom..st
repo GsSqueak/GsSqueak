@@ -1,4 +1,4 @@
-button actions
+GsSqueak
 loadSqueakFrom: aFileDirectory
 
 	| loader |

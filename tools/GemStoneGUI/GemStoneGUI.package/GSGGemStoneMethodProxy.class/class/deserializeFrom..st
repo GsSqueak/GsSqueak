@@ -6,4 +6,5 @@ deserializeFrom: anArray
 		selector: anArray second;
 		envId: anArray third;
 		category: anArray fourth;
+		source: anArray fifth;
 		yourself

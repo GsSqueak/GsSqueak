@@ -10,4 +10,5 @@ CompositeTransformation
 			with: class
 			with: method selector
 			with: envId
-			with: (class categoryOfSelector: selector environmentId: envId)]
+			with: (class categoryOfSelector: selector environmentId: envId)
+			with: method sourceString]
