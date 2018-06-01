@@ -1,3 +1,0 @@
-menu
-openProcessBrowser
-	ProcessBrowser open

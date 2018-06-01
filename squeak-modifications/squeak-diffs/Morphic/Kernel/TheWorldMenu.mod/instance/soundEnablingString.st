@@ -1,4 +1,0 @@
-action
-soundEnablingString
-
-	^ SoundService soundEnablingString

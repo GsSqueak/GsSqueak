@@ -1,4 +1,0 @@
-accessing
-loopLength
-
-	^ scaledLoopLength / FloatLoopIndexScaleFactor

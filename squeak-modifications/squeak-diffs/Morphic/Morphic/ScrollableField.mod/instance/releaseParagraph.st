@@ -1,3 +1,0 @@
-private
-releaseParagraph
-	textMorph releaseParagraph 

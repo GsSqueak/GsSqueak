@@ -1,4 +1,0 @@
-thumbnail
-morphRepresented
-
-	^ morphRepresented

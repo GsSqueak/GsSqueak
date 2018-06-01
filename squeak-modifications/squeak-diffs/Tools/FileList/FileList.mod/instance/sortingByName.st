@@ -1,3 +1,0 @@
-private
-sortingByName
-	^ sortMode == #name

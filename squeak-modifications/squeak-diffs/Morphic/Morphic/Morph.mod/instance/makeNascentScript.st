@@ -1,3 +1,0 @@
-menus
-makeNascentScript
-	^ self notYetImplemented

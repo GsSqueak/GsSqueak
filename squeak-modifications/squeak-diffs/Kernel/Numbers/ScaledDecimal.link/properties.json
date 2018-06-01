@@ -1,5 +1,5 @@
 {
+	"canBeSpecial" : true,
 	"category" : "Kernel-Numbers",
 	"name" : "ScaledDecimal",
-	"super" : "Number",
-	"canBeSpecial" : true }
+	"super" : "Number" }

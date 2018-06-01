@@ -1,1 +1,3 @@
-as yet unclassifieddrawContents: aBitmap  self drawWindow: self defaultWindow contents: aBitmap
+as yet unclassified
+drawContents: aBitmap
+  self drawWindow: self defaultWindow contents: aBitmap

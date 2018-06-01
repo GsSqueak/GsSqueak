@@ -1,4 +1,0 @@
-dropping/grabbing
-allowSubmorphExtraction
-
-	^ false

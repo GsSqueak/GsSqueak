@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"exampleOne" : "",
-		"exampleTwo" : "" },
-	"instance" : {
-		"computeBoundingBox" : "",
-		"displayOn:at:clippingBox:rule:fillColor:" : "",
-		"displayOn:transformation:clippingBox:rule:fillColor:" : "" } }

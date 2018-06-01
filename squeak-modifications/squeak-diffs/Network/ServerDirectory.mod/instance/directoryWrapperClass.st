@@ -1,4 +1,0 @@
-squeaklets
-directoryWrapperClass
-
-	^FileDirectoryWrapper

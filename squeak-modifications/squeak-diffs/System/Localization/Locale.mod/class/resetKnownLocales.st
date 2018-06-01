@@ -1,4 +1,0 @@
-private
-resetKnownLocales
-
-	KnownLocales := nil

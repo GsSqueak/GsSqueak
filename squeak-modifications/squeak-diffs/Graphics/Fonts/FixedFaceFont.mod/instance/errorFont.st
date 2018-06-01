@@ -1,4 +1,0 @@
-initialize-release
-errorFont
-	displaySelector := #displayErrorOn:length:at:kern:baselineY:.
-	substitutionCharacter := $?.

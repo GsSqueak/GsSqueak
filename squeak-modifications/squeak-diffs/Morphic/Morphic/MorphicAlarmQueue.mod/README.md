@@ -1,1 +1,0 @@
-MorphicAlarmQueue is a specialized Heap.  The main change is to stamp each added MorphicAlarm with a sequence number to ensure that alarms scheduled for the same time are executed in the order that they were added.

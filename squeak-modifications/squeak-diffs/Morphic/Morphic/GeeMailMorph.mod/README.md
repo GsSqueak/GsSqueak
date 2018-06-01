@@ -1,1 +1,0 @@
-GeeMail is a scrolling playfield with a text morph (typically on the left) and room on the right for other morphs to be placed. The morphs on the right can be linked to text selections on the left so that they remain positioned beside the pertinent text as the text is reflowed. Probably the best thing is and example and Alan will be making some available soon.

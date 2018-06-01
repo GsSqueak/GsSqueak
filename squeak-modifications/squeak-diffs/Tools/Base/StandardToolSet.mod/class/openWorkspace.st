@@ -1,3 +1,0 @@
-menu
-openWorkspace
-	Workspace open

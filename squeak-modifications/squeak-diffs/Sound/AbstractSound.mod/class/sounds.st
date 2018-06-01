@@ -1,4 +1,0 @@
-sound library
-sounds
-
-	^ Sounds

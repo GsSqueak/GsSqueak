@@ -1,4 +1,0 @@
-preferences
-fastSplitterResize
-	
-	^ Preferences fastDragWindowForMorphic.

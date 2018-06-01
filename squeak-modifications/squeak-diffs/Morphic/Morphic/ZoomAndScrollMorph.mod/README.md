@@ -1,1 +1,0 @@
-I am the outer part of a transformed view of another pasteup. I know how to translate requests to pan, tilt and zoom into appropriate changes to the transformation

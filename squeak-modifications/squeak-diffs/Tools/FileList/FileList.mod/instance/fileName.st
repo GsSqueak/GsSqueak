@@ -1,4 +1,0 @@
-file list
-fileName
-
-	^ fileName

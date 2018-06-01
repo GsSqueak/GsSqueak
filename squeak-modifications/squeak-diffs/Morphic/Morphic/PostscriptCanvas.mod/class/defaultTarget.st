@@ -1,3 +1,0 @@
-configuring
-defaultTarget
-	^PostscriptEncoder stream.

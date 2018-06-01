@@ -1,3 +1,0 @@
-accessing
-domainForClass: aClass
-	^'etoys'

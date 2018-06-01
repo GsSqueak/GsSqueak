@@ -1,3 +1,0 @@
-private
-sortingBySize
-	^ sortMode == #size

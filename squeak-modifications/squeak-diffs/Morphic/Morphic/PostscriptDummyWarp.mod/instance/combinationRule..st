@@ -1,3 +1,0 @@
-dummy
-combinationRule:newRule
-	^self.

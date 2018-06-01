@@ -1,3 +1,0 @@
-events-filtering-capturing
-mouseCaptureFilters
-	^ mouseCaptureFilters

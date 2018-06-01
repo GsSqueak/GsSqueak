@@ -1,4 +1,0 @@
-private
-createSubmenu
-
-	^MenuMorph new

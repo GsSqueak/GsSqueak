@@ -1,1 +1,0 @@
-I am a place-holder for information needed by the Debugger to inspect method activations.  See my superclass's comment. I map methods compiled using BlueBook blocks.

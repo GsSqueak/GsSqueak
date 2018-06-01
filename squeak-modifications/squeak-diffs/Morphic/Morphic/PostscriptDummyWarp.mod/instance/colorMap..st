@@ -1,2 +1,0 @@
-dummy
-colorMap:aMap

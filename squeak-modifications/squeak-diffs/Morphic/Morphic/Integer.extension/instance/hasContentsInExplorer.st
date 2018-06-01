@@ -1,3 +1,0 @@
-*Morphic-Explorer
-hasContentsInExplorer
-	^true

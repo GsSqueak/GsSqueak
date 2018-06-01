@@ -1,4 +1,0 @@
-accessing
-cursorColorAtZeroCrossing
-
-	^ cursorColorAtZeroCrossings

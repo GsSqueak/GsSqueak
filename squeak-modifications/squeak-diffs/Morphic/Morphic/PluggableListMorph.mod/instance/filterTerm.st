@@ -1,3 +1,0 @@
-filtering
-filterTerm
-	^ lastKeystrokes ifNil: ['']

@@ -1,3 +1,0 @@
-class list
-classListIndex
-	^ classListIndex

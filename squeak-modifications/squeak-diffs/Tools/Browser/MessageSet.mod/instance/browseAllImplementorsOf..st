@@ -1,3 +1,0 @@
-message functions
-browseAllImplementorsOf: selectorSymbol
-	self systemNavigation browseAllImplementorsOf: selectorSymbol

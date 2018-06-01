@@ -1,4 +1,0 @@
-standard dialog operations
-getFilePathNameWithExistenceCheck
-
-	^self getFilePathNameDialogWithExistenceCheck open

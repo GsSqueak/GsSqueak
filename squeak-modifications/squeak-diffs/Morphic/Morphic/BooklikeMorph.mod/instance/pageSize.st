@@ -1,3 +1,0 @@
-misc
-pageSize
-	^ pageSize

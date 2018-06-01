@@ -1,3 +1,0 @@
-*Tools-Debugger
-canonicalArgumentName
-	^ 'Dictionary'

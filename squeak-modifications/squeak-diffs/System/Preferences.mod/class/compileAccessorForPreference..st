@@ -1,0 +1,2 @@
+private
+compileAccessorForPreference: aPreference

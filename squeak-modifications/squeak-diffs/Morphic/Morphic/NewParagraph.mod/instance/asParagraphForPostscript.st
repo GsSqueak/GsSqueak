@@ -1,4 +1,0 @@
-display
-asParagraphForPostscript
-
-	^ self

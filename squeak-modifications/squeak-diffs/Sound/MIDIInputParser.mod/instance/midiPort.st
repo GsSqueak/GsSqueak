@@ -1,4 +1,0 @@
-accessing
-midiPort
-
-	^ midiPort

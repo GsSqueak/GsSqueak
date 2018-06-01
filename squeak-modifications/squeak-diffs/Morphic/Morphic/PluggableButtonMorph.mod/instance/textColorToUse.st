@@ -1,4 +1,0 @@
-drawing
-textColorToUse
-
-	^ self textColor

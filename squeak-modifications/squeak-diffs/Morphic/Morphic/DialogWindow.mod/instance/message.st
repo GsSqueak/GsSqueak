@@ -1,3 +1,0 @@
-accessing
-message
-	^messageMorph contents

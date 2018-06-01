@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"descriptionForPartsBin" : "wiz 11/6/2004 23:24",
-		"drawCurvier" : "eem 7/1/2015 15:11",
-		"drawCurvier:" : "fbs 8/10/2013 17:03",
-		"initialize" : "eem 7/1/2015 15:12",
-		"registerInFlapsRegistry" : "wiz 11/6/2004 23:17" },
-	"instance" : {
-		"initialize" : "wiz 11/16/2004 21:35" } }

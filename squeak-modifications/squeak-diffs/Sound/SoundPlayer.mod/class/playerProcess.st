@@ -1,3 +1,0 @@
-player process
-playerProcess
-	^PlayerProcess

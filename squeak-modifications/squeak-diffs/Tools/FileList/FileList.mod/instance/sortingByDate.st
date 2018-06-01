@@ -1,3 +1,0 @@
-private
-sortingByDate
-	^ sortMode == #date

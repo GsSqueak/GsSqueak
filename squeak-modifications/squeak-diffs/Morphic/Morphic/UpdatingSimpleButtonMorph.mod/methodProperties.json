@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"step" : "sw 10/30/2000 08:56",
-		"stepTime" : "sw 10/30/2000 08:57",
-		"wantsSteps" : "sw 10/30/2000 08:55",
-		"wordingSelector:" : "sw 6/11/1999 18:30" } }

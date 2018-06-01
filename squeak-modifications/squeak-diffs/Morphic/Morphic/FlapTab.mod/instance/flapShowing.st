@@ -1,3 +1,0 @@
-access
-flapShowing
-	^ flapShowing == true

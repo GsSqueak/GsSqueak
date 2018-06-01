@@ -1,3 +1,0 @@
-configuring
-defaultExtension
-	^'.eps'

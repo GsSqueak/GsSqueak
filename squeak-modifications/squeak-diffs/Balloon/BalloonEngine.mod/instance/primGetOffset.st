@@ -1,1 +1,4 @@
-primitives-accessprimGetOffset		^ 0
+primitives-access
+primGetOffset
+	
+	^ 0

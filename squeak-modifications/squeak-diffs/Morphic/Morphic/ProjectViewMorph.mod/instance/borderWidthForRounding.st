@@ -1,4 +1,0 @@
-accessing
-borderWidthForRounding
-
-	^1

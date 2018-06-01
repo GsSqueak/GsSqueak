@@ -1,1 +1,4 @@
-primitives-accessprimSetOffset: point		^ 0
+primitives-access
+primSetOffset: point
+	
+	^ 0

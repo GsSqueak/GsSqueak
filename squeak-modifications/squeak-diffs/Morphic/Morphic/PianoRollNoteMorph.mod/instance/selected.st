@@ -1,4 +1,0 @@
-selecting
-selected
-
-	^ selected

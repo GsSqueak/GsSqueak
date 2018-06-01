@@ -1,4 +1,0 @@
-direction
-splitsTopAndBottom
-
-	^ splitsTopAndBottom

@@ -1,3 +1,0 @@
-active process
-uiProcess
-	^uiProcess

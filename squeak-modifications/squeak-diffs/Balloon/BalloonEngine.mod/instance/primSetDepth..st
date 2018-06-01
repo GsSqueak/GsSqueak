@@ -1,1 +1,4 @@
-primitives-accessprimSetDepth: depth		^ 0
+primitives-access
+primSetDepth: depth
+	
+	^ 0

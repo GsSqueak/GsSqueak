@@ -1,3 +1,0 @@
-private
-truncate
-	^ truncate == true

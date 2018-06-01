@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"example" : "6/8/97 13:55 di" },
-	"instance" : {
-		"coefficients" : "",
-		"computeCurve" : "",
-		"derivs:first:second:third:" : "",
-		"displayOn:at:clippingBox:rule:fillColor:" : "",
-		"displayOn:transformation:clippingBox:rule:fillColor:" : "" } }

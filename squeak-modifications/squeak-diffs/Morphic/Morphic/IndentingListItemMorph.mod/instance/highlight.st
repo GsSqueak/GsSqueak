@@ -1,5 +1,0 @@
-drawing
-highlight
-
-	self changed.
-	

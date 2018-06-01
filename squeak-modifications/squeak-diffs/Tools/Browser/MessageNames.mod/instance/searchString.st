@@ -1,4 +1,0 @@
-search
-searchString
-
-	^ searchString contents

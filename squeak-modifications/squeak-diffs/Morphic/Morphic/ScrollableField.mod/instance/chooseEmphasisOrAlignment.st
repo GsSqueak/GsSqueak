@@ -1,3 +1,0 @@
-editing
-chooseEmphasisOrAlignment
-	textMorph chooseEmphasisOrAlignment

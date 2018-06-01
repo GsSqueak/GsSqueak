@@ -1,4 +1,0 @@
-import/export
-methodStart: aString
-
-	^'^ '

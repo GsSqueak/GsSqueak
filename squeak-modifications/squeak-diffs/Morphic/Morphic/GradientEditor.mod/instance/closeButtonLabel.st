@@ -1,3 +1,0 @@
-initialization
-closeButtonLabel
-	^ 'Close' translated

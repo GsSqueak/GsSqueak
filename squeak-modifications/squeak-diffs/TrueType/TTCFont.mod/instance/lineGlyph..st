@@ -1,3 +1,0 @@
-initialize
-lineGlyph: ignore
-	^self

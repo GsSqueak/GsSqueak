@@ -1,4 +1,0 @@
-private
-currentIndex
-
-	^currentIndex

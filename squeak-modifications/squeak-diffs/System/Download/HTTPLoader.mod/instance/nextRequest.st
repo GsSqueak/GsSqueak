@@ -1,3 +1,0 @@
-private
-nextRequest
-	^requests next

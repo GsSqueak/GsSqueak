@@ -1,3 +1,0 @@
-scripting
-defaultNameStemForInstances
-	^ 'DockingBar'

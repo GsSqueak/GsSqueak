@@ -1,3 +1,0 @@
-toolbuilder
-receiverClass
-	^ self selectedClassOrMetaClass 

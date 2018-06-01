@@ -1,4 +1,0 @@
-updating
-applyUserInterfaceTheme
-
-	super applyUserInterfaceTheme.

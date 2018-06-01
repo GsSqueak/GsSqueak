@@ -1,1 +1,0 @@
-I am a hand for replaying events stored in an EventRecorderMorph.  When there are no more events, I delete myself.

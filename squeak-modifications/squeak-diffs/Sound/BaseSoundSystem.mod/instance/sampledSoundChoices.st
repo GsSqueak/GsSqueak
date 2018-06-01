@@ -1,3 +1,0 @@
-misc
-sampledSoundChoices
-	^ SampledSound soundNames

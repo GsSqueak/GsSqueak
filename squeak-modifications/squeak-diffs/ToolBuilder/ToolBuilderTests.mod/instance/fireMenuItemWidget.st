@@ -1,3 +1,0 @@
-tests-menus
-fireMenuItemWidget
-	self subclassResponsibility

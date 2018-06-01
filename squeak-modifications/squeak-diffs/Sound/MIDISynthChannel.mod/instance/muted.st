@@ -1,4 +1,0 @@
-accessing
-muted
-
-	^ muted

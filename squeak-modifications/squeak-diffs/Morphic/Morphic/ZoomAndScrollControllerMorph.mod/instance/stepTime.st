@@ -1,5 +1,0 @@
-testing
-stepTime
-
-	^10
-

@@ -1,3 +1,0 @@
-scripting
-defaultNameStemForInstances
-	^ 'Text' translatedNoop

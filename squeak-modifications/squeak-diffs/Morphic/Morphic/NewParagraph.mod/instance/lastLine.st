@@ -1,4 +1,0 @@
-private
-lastLine
-
-	^lines last

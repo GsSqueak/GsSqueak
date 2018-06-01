@@ -1,1 +1,0 @@
-A sorter for the tabs of a TabbedPalette

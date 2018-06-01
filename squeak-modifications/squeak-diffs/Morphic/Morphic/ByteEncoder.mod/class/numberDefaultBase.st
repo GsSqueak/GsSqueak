@@ -1,3 +1,0 @@
-configuring
-numberDefaultBase
-	^10.

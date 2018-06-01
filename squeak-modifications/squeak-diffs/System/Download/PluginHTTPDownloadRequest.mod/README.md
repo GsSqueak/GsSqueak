@@ -1,1 +1,0 @@
-HTTPBrowserRequest attempts to fetch the contents through a Webbrowser. This works transparently if Squeak is not running in the browser.

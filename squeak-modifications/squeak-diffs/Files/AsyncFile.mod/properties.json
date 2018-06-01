@@ -1,18 +1,2 @@
 {
-	"category" : "Files-Kernel",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"Busy",
-		"ErrorCode" ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		"name",
-		"writeable",
-		"semaphore",
-		"fileHandle" ],
-	"name" : "AsyncFile",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"name" : "AsyncFile" }

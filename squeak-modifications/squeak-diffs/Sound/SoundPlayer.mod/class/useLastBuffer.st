@@ -1,3 +1,0 @@
-initialization
-useLastBuffer
-	^LastBuffer notNil

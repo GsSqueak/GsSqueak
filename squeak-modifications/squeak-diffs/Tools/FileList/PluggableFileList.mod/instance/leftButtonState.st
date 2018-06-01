@@ -1,4 +1,0 @@
-accepting/cancelling
-leftButtonState
-
-	^true

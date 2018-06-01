@@ -1,3 +1,0 @@
-private
-clip	
-	^target clip.

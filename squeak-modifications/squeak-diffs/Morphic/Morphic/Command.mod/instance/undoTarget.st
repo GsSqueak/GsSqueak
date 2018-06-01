@@ -1,3 +1,0 @@
-private
-undoTarget
-	^ undoTarget

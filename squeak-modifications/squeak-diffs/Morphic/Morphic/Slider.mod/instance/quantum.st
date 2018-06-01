@@ -1,4 +1,0 @@
-accessing
-quantum
-
-	^ quantum

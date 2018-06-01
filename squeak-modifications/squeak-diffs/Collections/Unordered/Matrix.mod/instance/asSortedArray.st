@@ -1,3 +1,0 @@
-converting
-asSortedArray
-	^contents asSortedArray

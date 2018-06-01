@@ -1,3 +1,0 @@
-events
-handlesMouseOver: evt
-	^ true

@@ -1,1 +1,4 @@
-primitives-accessprimGetTimes: statsArray		^ 0
+primitives-access
+primGetTimes: statsArray
+	
+	^ 0

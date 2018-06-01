@@ -1,1 +1,0 @@
-I am like the ListChooser but for multiple choices. I have no extra search field. Enable the preference #filterableLists if lists get too big to choose from. Also, I do not support adding new items to the choice.

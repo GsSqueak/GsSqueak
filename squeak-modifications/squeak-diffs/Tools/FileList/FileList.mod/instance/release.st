@@ -1,4 +1,0 @@
-initialization
-release
-
-	self modelSleep

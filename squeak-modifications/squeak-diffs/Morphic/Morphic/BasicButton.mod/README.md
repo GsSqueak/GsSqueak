@@ -1,1 +1,0 @@
-A minimalist button-like object intended for use with the tile-scripting system.

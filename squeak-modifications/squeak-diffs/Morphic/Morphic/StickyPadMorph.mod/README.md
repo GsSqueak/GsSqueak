@@ -1,3 +1,0 @@
-A custom item for the  Squeakland Supplies bin, as defined by Kim Rose and BJ Con.A parts bin will deliver up translucent, borderless Rectangles in a sequence of 6 colors.  It offers some complication to the parts-bin protocols in two ways::
-* The multi-colored icon seen in the parts bin is not a thumbnail of any actual instance, all of which are monochrome
-* New instances need to be given default names that are not the same as the name seen in the parts bin.

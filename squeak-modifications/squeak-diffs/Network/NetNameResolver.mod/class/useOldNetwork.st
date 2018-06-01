@@ -1,3 +1,0 @@
-private
-useOldNetwork
-	^UseOldNetwork ~~ false

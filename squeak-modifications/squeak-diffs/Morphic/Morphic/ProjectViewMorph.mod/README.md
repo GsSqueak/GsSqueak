@@ -1,1 +1,0 @@
-I am a Morphic view of a project. I display a scaled version of the project's thumbnail, which itself is a scaled-down snapshot of the screen taken when the project was last exited. When I am displayed, I check to see if the project thumbnail has changed and, if so, I update my own view of that thumbnail.

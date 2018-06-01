@@ -1,3 +1,0 @@
-update
-updateMenu
-	" Do nothing "

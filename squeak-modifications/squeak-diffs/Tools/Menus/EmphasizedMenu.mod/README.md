@@ -1,1 +1,0 @@
-A selection menu in which individual selections are allowed to have different emphases.  Emphases allowed are: bold, italic, struckThrough, and plain.  Provide an emphasis array, with one element per selection, to use.  Refer to the class method #example.

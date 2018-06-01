@@ -1,3 +1,0 @@
-geometry
-extraScrollRange
-	^ bounds height

@@ -1,3 +1,0 @@
-file operations
-assureAbsence
-	self asFileDirectory assureAbsence

@@ -1,1 +1,4 @@
-primitives-accessprimClipRectInto: rect		^ 0
+primitives-access
+primClipRectInto: rect
+	
+	^ 0

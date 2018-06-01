@@ -1,1 +1,0 @@
-I am the abstract superclass of the Graphic spatial primitives. I represent an ordered sequence of Points. Spatial primitives are used to generate "trajectories" such as lines and circles.

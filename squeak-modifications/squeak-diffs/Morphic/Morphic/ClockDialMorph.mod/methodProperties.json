@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"buildDial" : "tpr 5/3/2017 14:58",
-		"initialize" : "tpr 5/3/2017 14:52",
-		"setTime:" : "tpr 4/30/2017 17:32",
-		"step" : "tpr 4/30/2017 17:22",
-		"stepTime" : "tpr 5/3/2017 14:49" } }

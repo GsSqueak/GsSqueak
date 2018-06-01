@@ -1,6 +1,0 @@
-drawing
-unhighlight
-
-	self changed.
-	
-	

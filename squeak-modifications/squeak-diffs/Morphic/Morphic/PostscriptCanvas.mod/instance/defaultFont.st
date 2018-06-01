@@ -1,3 +1,0 @@
-private
-defaultFont
-	^ TextStyle defaultFont

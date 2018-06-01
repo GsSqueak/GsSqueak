@@ -1,1 +1,0 @@
-RecentMessageSet is a message set that shows the most recently-submitted methods, in chronological order.

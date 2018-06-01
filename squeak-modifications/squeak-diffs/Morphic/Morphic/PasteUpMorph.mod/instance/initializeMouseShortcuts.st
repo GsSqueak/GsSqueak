@@ -1,4 +1,0 @@
-initialization
-initializeMouseShortcuts
-	
-	self addMouseShortcuts.

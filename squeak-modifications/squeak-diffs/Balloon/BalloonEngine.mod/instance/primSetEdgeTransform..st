@@ -1,1 +1,4 @@
-primitives-accessprimSetEdgeTransform: transform		^ 0
+primitives-access
+primSetEdgeTransform: transform
+	
+	^ 0

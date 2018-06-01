@@ -1,3 +1,0 @@
-accessing
-fontHeight
-	^ascender - descender

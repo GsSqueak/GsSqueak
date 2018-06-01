@@ -1,4 +1,0 @@
-speaker
-conePosition
-
-	^ lastConePosition

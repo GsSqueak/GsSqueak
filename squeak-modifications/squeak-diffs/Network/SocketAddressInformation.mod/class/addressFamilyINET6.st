@@ -1,4 +1,0 @@
-accessing
-addressFamilyINET6
-
-	^AddressFamilyINET6

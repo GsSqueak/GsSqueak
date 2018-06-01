@@ -1,4 +1,0 @@
-initialization
-initializeAsSystemWindowWithCaptionPane
-	self initializeBasicParameters.
-	self createSystemWindowUIWithCaptionPane.

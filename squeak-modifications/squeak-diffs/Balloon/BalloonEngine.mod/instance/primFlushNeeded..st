@@ -1,1 +1,4 @@
-primitives-accessprimFlushNeeded: aBoolean		^ 0
+primitives-access
+primFlushNeeded: aBoolean
+	
+	^ 0

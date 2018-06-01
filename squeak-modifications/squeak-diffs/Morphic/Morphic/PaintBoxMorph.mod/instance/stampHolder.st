@@ -1,4 +1,0 @@
-actions
-stampHolder
-
-	^ stampHolder

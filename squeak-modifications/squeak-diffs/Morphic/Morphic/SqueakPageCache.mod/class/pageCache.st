@@ -1,4 +1,0 @@
-cache access
-pageCache
-
-	^ PageCache

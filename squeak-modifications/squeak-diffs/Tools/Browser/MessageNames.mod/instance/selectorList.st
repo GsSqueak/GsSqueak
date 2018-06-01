@@ -1,4 +1,0 @@
-selector list
-selectorList
-
-	^ selectorList

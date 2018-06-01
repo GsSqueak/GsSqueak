@@ -1,1 +1,4 @@
-primitives-accessprimGetFailureReason		^0
+primitives-access
+primGetFailureReason
+	
+	^0

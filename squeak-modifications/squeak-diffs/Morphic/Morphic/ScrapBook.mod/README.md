@@ -1,1 +1,0 @@
-I provide a holding place for Morphs deleted through the pink halo button or being dragged onto the trashcan.

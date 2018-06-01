@@ -1,4 +1,0 @@
-rounding
-wantsRoundedCorners
-
-	^false

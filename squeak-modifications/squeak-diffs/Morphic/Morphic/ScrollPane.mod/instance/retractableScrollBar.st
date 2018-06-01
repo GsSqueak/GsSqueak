@@ -1,3 +1,0 @@
-accessing retractable
-retractableScrollBar
-	^ retractableScrollBar

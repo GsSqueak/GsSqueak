@@ -1,1 +1,4 @@
-primitives-accessprimGetBezierStats: statsArray		^ 0
+primitives-access
+primGetBezierStats: statsArray
+	
+	^ 0

@@ -1,3 +1,0 @@
-layout
-fullBounds
-	^ self bounds

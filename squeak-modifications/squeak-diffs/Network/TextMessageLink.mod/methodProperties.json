@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"message:" : "ls 4/30/2000 19:00" },
-	"instance" : {
-		"actOnClickFor:" : "rbb 2/18/2005 09:33",
-		"emphasizeScanner:" : "ls 4/30/2000 20:34",
-		"initialize:" : "ls 4/30/2000 18:54",
-		"mayActOnClick" : "ls 4/30/2000 19:03" } }

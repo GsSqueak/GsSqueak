@@ -1,4 +1,0 @@
-private
-translations
-
-	^ translations

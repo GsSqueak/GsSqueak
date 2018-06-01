@@ -1,4 +1,0 @@
-support
-windowColorToUse
-
-	^ Color black

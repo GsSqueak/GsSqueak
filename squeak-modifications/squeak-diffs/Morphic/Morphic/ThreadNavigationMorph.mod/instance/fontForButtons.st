@@ -1,4 +1,0 @@
-initialization
-fontForButtons
-
-	^TextStyle defaultFont

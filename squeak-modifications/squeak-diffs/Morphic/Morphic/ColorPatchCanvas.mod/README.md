@@ -1,1 +1,0 @@
-I generate patches of Morphic worlds that views below certain Morphs. This facility is used for the end-user scripting system.

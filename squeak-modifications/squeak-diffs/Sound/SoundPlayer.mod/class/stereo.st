@@ -1,4 +1,0 @@
-accessing
-stereo
-
-	^ Stereo

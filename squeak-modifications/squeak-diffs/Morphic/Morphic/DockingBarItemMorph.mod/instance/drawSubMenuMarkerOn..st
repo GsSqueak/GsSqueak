@@ -1,3 +1,0 @@
-drawing
-drawSubMenuMarkerOn: aCanvas 
-	"Ignore."

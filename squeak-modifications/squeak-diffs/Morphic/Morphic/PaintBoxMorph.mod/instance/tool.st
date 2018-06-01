@@ -1,3 +1,0 @@
-actions
-tool
-	^ tool

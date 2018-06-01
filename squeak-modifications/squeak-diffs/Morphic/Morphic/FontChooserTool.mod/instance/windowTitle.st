@@ -1,3 +1,0 @@
-initialize
-windowTitle
-	^ title translated

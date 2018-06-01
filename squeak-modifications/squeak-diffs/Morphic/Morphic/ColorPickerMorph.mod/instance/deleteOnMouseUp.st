@@ -1,4 +1,0 @@
-accessing
-deleteOnMouseUp
-
-	^ deleteOnMouseUp

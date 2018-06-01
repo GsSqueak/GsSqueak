@@ -1,4 +1,0 @@
-accessing
-selectedColor
-
-	^ selectedColor
