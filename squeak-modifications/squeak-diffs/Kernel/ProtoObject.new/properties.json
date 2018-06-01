@@ -1,4 +1,5 @@
 {
+	"canBeSpecial" : true,
 	"category" : "Kernel-Objects",
 	"classinstvars" : [
 		 ],
@@ -11,5 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "nil",
-	"type" : "normal",
-	"canBeSpecial" : true }
+	"type" : "normal" }

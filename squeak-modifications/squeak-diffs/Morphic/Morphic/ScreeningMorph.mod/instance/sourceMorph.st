@@ -1,3 +1,0 @@
-private
-sourceMorph
-	^submorphs second

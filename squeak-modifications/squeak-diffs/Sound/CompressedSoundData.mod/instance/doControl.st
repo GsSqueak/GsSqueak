@@ -1,4 +1,0 @@
-asSound
-doControl
-
-	cachedSound doControl

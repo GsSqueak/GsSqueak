@@ -1,3 +1,0 @@
-printing
-defaultNameStemForInstances
-	^ 'tab' translatedNoop

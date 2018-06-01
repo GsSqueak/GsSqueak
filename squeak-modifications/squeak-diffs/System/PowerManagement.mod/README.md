@@ -1,3 +1,0 @@
-This class is used to restore the VM's view of the power manage option. On the macintosh in a 3.x VM  you can  turn the power manager on or off. This may make your iBook run faster, and will prevents your macintosh from sleeping. This does consume more power so your battery life will be degraded. 
-
-Usually you can turn processor cycling off in the control panel, but this class ensures it's off if you set the preference to turn power management off

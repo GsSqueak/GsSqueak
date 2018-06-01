@@ -1,1 +1,0 @@
-I represent a collection of Points through which a cubic spline curve is fitted.

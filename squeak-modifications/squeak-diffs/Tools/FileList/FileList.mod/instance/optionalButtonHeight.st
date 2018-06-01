@@ -1,4 +1,0 @@
-initialization
-optionalButtonHeight
-
-	^ 15

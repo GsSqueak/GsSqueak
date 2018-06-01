@@ -1,4 +1,0 @@
-path and pattern
-defaultPatternList
-
-	^#('*')

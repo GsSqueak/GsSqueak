@@ -1,1 +1,4 @@
-primitives-accessprimGetClipRect: rect		^ 0
+primitives-access
+primGetClipRect: rect
+	
+	^ 0

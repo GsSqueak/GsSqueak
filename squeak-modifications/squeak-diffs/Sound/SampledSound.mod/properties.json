@@ -1,27 +1,2 @@
 {
-	"category" : "Sound-Synthesis",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"CoffeeCupClink",
-		"DefaultSampleTable",
-		"IncrementFractionBits",
-		"IncrementScaleFactor",
-		"NominalSamplePitch",
-		"ScaledIndexOverflow",
-		"SoundLibrary" ],
-	"commentStamp" : "",
-	"instvars" : [
-		"initialCount",
-		"count",
-		"samples",
-		"originalSamplingRate",
-		"samplesSize",
-		"scaledIndex",
-		"indexHighBits",
-		"scaledIncrement" ],
-	"name" : "SampledSound",
-	"pools" : [
-		 ],
-	"super" : "AbstractSound",
-	"type" : "normal" }
+	"name" : "SampledSound" }

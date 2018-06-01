@@ -1,4 +1,0 @@
-accessing
-closeDialogSelector
-
-	^ closeDialogSelector

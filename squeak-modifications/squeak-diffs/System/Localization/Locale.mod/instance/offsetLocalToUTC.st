@@ -1,3 +1,0 @@
-accessing
-offsetLocalToUTC
-	^self primTimezone

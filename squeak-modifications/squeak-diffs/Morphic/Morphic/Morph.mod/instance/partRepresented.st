@@ -1,3 +1,0 @@
-parts bin
-partRepresented
-	^self

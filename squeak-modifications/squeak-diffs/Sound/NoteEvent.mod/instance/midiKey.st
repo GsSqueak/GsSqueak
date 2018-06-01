@@ -1,4 +1,0 @@
-accessing
-midiKey
-
-	^ midiKey

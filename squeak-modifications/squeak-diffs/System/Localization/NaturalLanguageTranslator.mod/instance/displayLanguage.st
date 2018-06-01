@@ -1,3 +1,0 @@
-accessing
-displayLanguage
-	^ id displayLanguage

@@ -1,4 +1,0 @@
-accessing
-chars
-
-	 ^ chars

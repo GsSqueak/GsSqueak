@@ -1,4 +1,0 @@
-widget classes
-spacerClass
-
-	^ Morph

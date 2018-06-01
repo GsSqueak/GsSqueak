@@ -1,3 +1,0 @@
-editing
-chooseStyle
-	textMorph chooseStyle

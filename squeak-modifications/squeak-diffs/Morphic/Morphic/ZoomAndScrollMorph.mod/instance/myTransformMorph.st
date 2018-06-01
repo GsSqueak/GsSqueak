@@ -1,4 +1,0 @@
-scripting
-myTransformMorph
-
-	^self firstSubmorph

@@ -1,4 +1,0 @@
-testing
-canDrawAtHigherResolution
-
-	^false

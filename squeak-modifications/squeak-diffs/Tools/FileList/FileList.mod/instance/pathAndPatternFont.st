@@ -1,4 +1,0 @@
-toolbuilder
-pathAndPatternFont
-
-	^ Preferences standardDefaultTextFont

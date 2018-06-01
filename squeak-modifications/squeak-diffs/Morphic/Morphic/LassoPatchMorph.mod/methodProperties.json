@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"authoringPrototype" : "sw 7/5/2004 01:53",
-		"descriptionForPartsBin" : "tak 7/25/2007 00:06" },
-	"instance" : {
-		"initialize" : "sw 7/5/2004 01:43",
-		"initializeToStandAlone" : "sw 7/5/2004 01:44",
-		"justDroppedInto:event:" : "mt 4/19/2016 12:02",
-		"wantsToBeDroppedInto:" : "kfr 5/23/2009 14:51" } }

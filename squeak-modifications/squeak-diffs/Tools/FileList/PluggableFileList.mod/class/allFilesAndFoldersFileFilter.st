@@ -1,4 +1,0 @@
-fileFilterBlocks
-allFilesAndFoldersFileFilter
-
-	^[:each | true]

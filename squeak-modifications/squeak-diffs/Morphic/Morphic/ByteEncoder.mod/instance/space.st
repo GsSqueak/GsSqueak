@@ -1,3 +1,0 @@
-writing
-space
-	^target space.

@@ -1,3 +1,0 @@
-private
-topLevelMorph
-	^topLevelMorph

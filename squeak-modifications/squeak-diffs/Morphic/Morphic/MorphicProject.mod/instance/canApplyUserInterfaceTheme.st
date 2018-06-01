@@ -1,4 +1,0 @@
-updating
-canApplyUserInterfaceTheme
-
-	^ true

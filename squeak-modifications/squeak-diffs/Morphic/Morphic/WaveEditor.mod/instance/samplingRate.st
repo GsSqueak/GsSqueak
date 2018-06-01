@@ -1,5 +1,0 @@
-accessing
-samplingRate
-
-	^ samplingRate
-

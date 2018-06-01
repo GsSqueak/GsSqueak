@@ -1,3 +1,0 @@
-accessing
-form
-	^cacheCanvas form

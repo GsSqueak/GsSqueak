@@ -1,1 +1,0 @@
-A PianoRollNoteMorph is drawn as a simple mroph, but it carries the necessary state to locate its source sound event via its owner (a PianorRollScoreMorph) and the score therein.  Simple editing of pitch and time placement is provided here.

@@ -1,2 +1,0 @@
-note controls
-buildChord: onOff

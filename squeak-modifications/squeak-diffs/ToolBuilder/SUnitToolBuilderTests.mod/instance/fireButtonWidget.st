@@ -1,3 +1,0 @@
-support
-fireButtonWidget
-	widget click

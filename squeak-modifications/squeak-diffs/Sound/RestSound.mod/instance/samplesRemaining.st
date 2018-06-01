@@ -1,4 +1,0 @@
-sound generation
-samplesRemaining
-
-	^ count

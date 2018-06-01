@@ -1,1 +1,4 @@
-primitives-accessprimGetDepth		^ 32
+primitives-access
+primGetDepth
+	
+	^ 32

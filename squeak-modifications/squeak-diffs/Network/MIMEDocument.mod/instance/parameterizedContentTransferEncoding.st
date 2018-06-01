@@ -1,4 +1,0 @@
-accessing
-parameterizedContentTransferEncoding
-
-	^ self contentTransferEncoding asHeaderValue

@@ -1,3 +1,0 @@
-menu
-openPackagePaneBrowser
-	PackagePaneBrowser openBrowser.

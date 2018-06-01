@@ -1,3 +1,0 @@
-commands
-openFileList
-	FileList open.

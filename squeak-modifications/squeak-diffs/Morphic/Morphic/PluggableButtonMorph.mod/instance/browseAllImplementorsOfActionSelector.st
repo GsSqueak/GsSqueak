@@ -1,3 +1,0 @@
-browse
-browseAllImplementorsOfActionSelector
-	SystemNavigation default browseAllImplementorsOf: actionSelector localTo: model class

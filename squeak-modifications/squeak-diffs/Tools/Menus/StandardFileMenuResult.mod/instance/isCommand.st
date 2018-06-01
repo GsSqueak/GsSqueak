@@ -1,4 +1,0 @@
-testing
-isCommand
-
-	^name isNil

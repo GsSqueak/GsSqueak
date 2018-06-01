@@ -1,4 +1,0 @@
-private
-standardTimeout
-
-	^ Socket standardTimeout

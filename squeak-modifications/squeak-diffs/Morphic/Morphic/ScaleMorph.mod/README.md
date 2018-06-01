@@ -1,1 +1,0 @@
-Rewrite of ScaleMorph - March 2000 (Russell Swan). Added accessors. Added two Booleans, labelsAbove and captionAbove. Determines where the labels and captions print, if they exist. Tick marks can either go up or down. For ticks going up, put in majorTickLength > 0. Negative value will make ticks go down. Examples on Class side.

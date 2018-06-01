@@ -1,4 +1,0 @@
-metaclass
-classDefinitionIndicated
-
-	^ editSelection == #editClass 

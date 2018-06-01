@@ -1,3 +1,0 @@
-other
-rotationTabForm
-	^ rotationTabForm

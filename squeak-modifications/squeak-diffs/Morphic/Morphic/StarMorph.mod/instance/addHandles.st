@@ -1,3 +1,0 @@
-editing
-addHandles
-	self addStarHandles

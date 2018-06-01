@@ -1,2 +1,0 @@
-stubs
-drawingJustCompleted: aSketch

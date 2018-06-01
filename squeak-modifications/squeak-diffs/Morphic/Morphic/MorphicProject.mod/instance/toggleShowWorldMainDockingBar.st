@@ -1,3 +1,0 @@
-docking bars support
-toggleShowWorldMainDockingBar
-	self showWorldMainDockingBar: self showWorldMainDockingBar not

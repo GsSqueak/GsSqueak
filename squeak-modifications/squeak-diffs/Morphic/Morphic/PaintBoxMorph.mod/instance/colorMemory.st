@@ -1,4 +1,0 @@
-other
-colorMemory
-
-	^ colorMemory

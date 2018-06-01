@@ -1,1 +1,6 @@
-primitives-incrementalprimInitializeProcessing	"Initialize processing in the GE.	Create the active edge table and sort it."		^ 0
+primitives-incremental
+primInitializeProcessing
+	"Initialize processing in the GE.
+	Create the active edge table and sort it."
+	
+	^ 0

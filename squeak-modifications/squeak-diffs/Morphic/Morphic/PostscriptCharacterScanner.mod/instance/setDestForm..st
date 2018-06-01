@@ -1,3 +1,0 @@
-accessing
-setDestForm:destForm
-	"dummy"

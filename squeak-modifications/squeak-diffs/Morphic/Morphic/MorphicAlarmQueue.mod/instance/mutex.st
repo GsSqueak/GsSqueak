@@ -1,4 +1,0 @@
-accessing
-mutex
-	
-	^mutex

@@ -1,6 +1,0 @@
-private
-closepath
-	^target closepath.
-
-
-              

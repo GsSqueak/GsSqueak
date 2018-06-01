@@ -1,3 +1,0 @@
-private
-beginningOfText
-	^1

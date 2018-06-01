@@ -1,3 +1,0 @@
-access
-painting
-	^ paintingForm

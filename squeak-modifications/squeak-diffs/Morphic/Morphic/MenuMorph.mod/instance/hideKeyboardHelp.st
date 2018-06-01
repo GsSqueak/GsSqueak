@@ -1,3 +1,0 @@
-keystroke helpers
-hideKeyboardHelp
-	self deleteBalloon

@@ -1,4 +1,0 @@
-accessing
-searchTerm
-
-	^ searchTerm ifNil: ['']

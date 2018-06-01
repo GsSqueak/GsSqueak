@@ -1,4 +1,0 @@
-WiW support
-validateMouseEvent: evt
-
-	

@@ -1,4 +1,0 @@
-accessing
-offsetX
-
-	^currentPage offsetX

@@ -1,4 +1,0 @@
-classification
-isProgramChange
-
-	^ false

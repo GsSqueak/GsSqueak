@@ -1,4 +1,0 @@
-squeaklets
-directoryObject
-
-	^self

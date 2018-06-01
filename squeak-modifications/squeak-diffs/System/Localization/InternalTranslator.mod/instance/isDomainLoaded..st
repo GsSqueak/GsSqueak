@@ -1,3 +1,0 @@
-accessing
-isDomainLoaded: aDomainName
-	^true

@@ -1,1 +1,0 @@
-This is a multi-select list that is more conventional in its behavior than PluggableListMorphOfMany.  It utilizes a shift+click mechanism for selecting ranges, and control+click for toggling individual selections.  This list also allows fast mouse swipes without missing any message selections.

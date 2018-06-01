@@ -1,1 +1,0 @@
-A structure of tabs and associated books.  Pressing a tab brings into focus the associated book.  Some tabs can have simple actions rather than books as their focus -- in this case, the palette is cleared and the action taken. 

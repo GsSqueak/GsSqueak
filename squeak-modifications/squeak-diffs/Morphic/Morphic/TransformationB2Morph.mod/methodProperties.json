@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"adjustAfter:" : "RAA 11/22/2000 08:12",
-		"computeBounds" : "RAA 11/21/2000 13:32",
-		"drawSubmorphsOn:" : "nice 12/27/2009 03:11",
-		"extent:" : "RAA 11/20/2000 18:17",
-		"useRegularWarpBlt:" : "RAA 11/21/2000 12:44" } }

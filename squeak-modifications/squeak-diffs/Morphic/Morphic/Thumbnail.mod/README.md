@@ -1,1 +1,0 @@
-A morph that serves as a thumbnail of a given form.

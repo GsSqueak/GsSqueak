@@ -1,3 +1,0 @@
-stubs
-currentlyViewing: aPlayer
-	^false

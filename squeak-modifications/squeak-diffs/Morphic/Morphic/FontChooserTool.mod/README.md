@@ -1,1 +1,0 @@
-A ToolBuilder version of FreeTypePlus' FontChooser[Morph].

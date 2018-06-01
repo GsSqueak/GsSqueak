@@ -1,3 +1,0 @@
-retrieval
-retrieveContentStream
-	^self retrieveMIMEDocument contentStream

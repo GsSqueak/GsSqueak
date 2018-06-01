@@ -1,1 +1,4 @@
-primitives-accessprimSetColorTransform: transform		^ 0
+primitives-access
+primSetColorTransform: transform
+	
+	^ 0

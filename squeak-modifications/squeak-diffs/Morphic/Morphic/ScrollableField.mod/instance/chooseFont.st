@@ -1,3 +1,0 @@
-editing
-chooseFont
-	textMorph chooseFont

@@ -1,4 +1,0 @@
-accessing
-decayEndIndex
-
-	^ points size

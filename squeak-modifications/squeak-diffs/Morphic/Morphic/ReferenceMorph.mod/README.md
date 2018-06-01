@@ -1,1 +1,0 @@
-Serves as a reference to any arbitrary morph; used, for example, as the tab in a tabbed palette  The wrapper intercepts mouse events and fields them, passing them on to their referent morph.

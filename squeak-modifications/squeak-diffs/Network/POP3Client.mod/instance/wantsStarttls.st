@@ -1,4 +1,0 @@
-private
-wantsStarttls
-
-	^ true

@@ -1,3 +1,0 @@
-private
-screenMorph
-	^submorphs first

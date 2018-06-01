@@ -1,4 +1,0 @@
-accessing
-typeForPrefs
-
-	^'http'

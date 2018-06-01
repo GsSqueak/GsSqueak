@@ -1,3 +1,0 @@
-accessing
-contextStackTop
-	^ contextStack first.

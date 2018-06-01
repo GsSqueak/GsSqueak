@@ -1,3 +1,0 @@
-accessing
-couldDeriveFromPrettyPrinting
-	^ false

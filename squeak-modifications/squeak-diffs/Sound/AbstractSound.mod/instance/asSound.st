@@ -1,4 +1,0 @@
-composition
-asSound
-
-	^ self

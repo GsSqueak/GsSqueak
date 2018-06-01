@@ -1,4 +1,0 @@
-accessing
-isCompositeRedo
-
-	^ isCompositeRedo

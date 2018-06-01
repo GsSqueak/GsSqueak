@@ -1,18 +1,2 @@
 {
-	"category" : "Sound-Scores",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"DefaultPortNumber",
-		"InterfaceClockRate",
-		"UseMIDIDeviceForOutput" ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		"portNumber",
-		"accessSema",
-		"lastCommandByteOut" ],
-	"name" : "SimpleMIDIPort",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"name" : "SimpleMIDIPort" }

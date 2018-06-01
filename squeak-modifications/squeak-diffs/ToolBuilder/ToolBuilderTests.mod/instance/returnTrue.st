@@ -1,3 +1,0 @@
-support
-returnTrue
-	^true

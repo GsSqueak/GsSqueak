@@ -1,1 +1,0 @@
-A transitionMorph inserts itself in the morphic object structure during a visual transition.  It has a stepNumber that runs from 1 to nSteps.  This class handles a large family of wipe-like transitions by itself.  Subclasses may implement other transitions such as dissolves and zooms.

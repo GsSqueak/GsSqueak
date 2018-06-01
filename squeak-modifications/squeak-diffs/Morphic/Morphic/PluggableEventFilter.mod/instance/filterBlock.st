@@ -1,4 +1,0 @@
-accessing
-filterBlock
-
-	^ filterBlock

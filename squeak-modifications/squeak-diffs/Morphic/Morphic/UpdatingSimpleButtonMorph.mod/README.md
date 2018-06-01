@@ -1,1 +1,0 @@
-Adds to SimpleButtonMorph the ability to keep its own wording up to date by send a given message (indicated by its wordingSelector) to a given object (indicated by its wordingTarget, and normally the same as its target.)

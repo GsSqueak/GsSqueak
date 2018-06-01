@@ -1,4 +1,0 @@
-testing
-isMorphic
-	"Duh."
-	^true

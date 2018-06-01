@@ -1,4 +1,0 @@
-events
-handlesKeyboard: evt
-
-	^true

@@ -1,3 +1,0 @@
-actions
-getColor
-	^ currentColor

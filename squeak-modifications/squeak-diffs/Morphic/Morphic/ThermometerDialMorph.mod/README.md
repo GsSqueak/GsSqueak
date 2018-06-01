@@ -1,1 +1,0 @@
-A ThermometerDialMorph is a rotary thermometer; the default is to set the range to typical outdoor temperatures but of course that can be altered with the normal #startValue:stopValue: message

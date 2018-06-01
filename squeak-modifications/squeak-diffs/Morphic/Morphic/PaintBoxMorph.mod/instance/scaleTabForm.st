@@ -1,3 +1,0 @@
-other
-scaleTabForm
-	^ scaleTabForm

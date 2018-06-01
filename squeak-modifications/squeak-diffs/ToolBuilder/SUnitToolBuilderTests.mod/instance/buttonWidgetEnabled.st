@@ -1,3 +1,0 @@
-support
-buttonWidgetEnabled
-	^ widget isEnabled

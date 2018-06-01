@@ -1,4 +1,0 @@
-accessing
-getButtonsSelector
-
-	^ getButtonsSelector

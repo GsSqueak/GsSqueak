@@ -1,6 +1,0 @@
-private
-strokepath
-	^target strokepath.
-
-
-              

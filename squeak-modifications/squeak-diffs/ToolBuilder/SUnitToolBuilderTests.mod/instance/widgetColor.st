@@ -1,3 +1,0 @@
-support
-widgetColor
-	^ widget color

@@ -1,3 +1,0 @@
-accessing
-asMorph
-	^ self fetchContents

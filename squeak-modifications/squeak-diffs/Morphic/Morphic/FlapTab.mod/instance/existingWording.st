@@ -1,3 +1,0 @@
-menu
-existingWording
-	^ labelString

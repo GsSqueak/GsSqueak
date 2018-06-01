@@ -1,4 +1,0 @@
-initialization
-initialize
-
-	self initializeAllButLabel; setDefaultLabel

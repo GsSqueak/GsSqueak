@@ -1,3 +1,0 @@
-accessing
-wasIgnored
-	^ wasIgnored == true

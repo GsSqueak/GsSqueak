@@ -1,4 +1,0 @@
-accessing
-currentParent
-
-	^ currentParent

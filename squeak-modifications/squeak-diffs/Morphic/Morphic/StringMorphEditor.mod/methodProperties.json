@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"includeInNewMorphMenu" : "kfr 5/1/2000 13:41" },
-	"instance" : {
-		"drawOn:" : "sw 9/7/1999 16:22",
-		"initialize" : "yo 9/29/2006 07:14",
-		"keyStroke:" : "bf 4/20/2016 17:58",
-		"keyboardFocusChange:" : "nk 1/23/2004 13:18" } }

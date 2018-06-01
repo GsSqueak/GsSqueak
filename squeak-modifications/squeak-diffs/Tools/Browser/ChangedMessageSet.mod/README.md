@@ -1,1 +1,0 @@
-A ChangedMessageSet is a message set associated with a change-set; it bears an entry for every method added or changed in the change set, as well as for every class-comment of which the change-set bears a note.

@@ -1,4 +1,0 @@
-accessing
-basicGlyphs
-
-	^ glyphs

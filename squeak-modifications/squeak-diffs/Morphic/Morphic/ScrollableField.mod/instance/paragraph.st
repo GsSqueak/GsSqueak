@@ -1,3 +1,0 @@
-accessing
-paragraph
-	^ textMorph paragraph

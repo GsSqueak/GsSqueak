@@ -1,3 +1,0 @@
-button
-doButtonAction
-	self tabSelected

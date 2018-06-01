@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"morph" : "di 8/3/1998 21:27",
-		"morph:" : "di 8/3/1998 20:09",
-		"occurAtTime:inScorePlayer:atIndex:inEventTrack:secsPerTick:" : "di 10/21/2000 13:18",
-		"target:selector:arguments:" : "di 8/3/1998 20:08" } }

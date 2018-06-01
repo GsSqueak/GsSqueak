@@ -1,3 +1,0 @@
-reading
-getLine
-	^file nextLine

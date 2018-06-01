@@ -1,1 +1,0 @@
-A common superclass for BookMorph and WebBookMorph

@@ -1,4 +1,0 @@
-accessing
-close
-
-	^target close.

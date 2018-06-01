@@ -1,4 +1,0 @@
-configuring
-defaultTarget
-
-	^PostscriptEncoderToDisk stream.

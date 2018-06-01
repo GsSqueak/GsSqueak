@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"emphasisMenuForFont:target:selector:highlight:" : "tween 8/10/2006 07:16",
-		"fontMenuForStyle:target:selector:" : "laza 3/25/2004 23:12",
-		"fontMenuForStyle:target:selector:highlight:" : "nice 12/27/2009 03:19",
-		"promptForFont:andSendTo:withSelector:" : "laza 3/25/2004 23:12",
-		"promptForFont:andSendTo:withSelector:highlight:" : "nice 12/27/2009 03:11" },
-	"instance" : {
-		 } }

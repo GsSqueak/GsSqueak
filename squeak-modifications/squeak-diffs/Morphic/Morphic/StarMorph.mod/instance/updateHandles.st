@@ -1,2 +1,0 @@
-editing
-updateHandles

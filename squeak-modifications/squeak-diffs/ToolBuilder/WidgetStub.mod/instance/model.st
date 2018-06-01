@@ -1,3 +1,0 @@
-simulating
-model
-	^ spec model

@@ -1,3 +1,0 @@
-This subclass of Paragraph composes and displays text along a segmented line or curve.  It does this by using all the normal text composition machinery, but just to lay text out for each segment of the curve in question.  The display process is somewhat complicated, as it involves rotating the text for each segment, and then merging it into the destination Form with background, selection highlight, and transparency all handled correctly.
-
-Because TextMorph flushes its paragraph to save space, the enduring specification of curve layout (direction, baseline, and margin) must be stored in the container.

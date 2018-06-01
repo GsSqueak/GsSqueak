@@ -1,3 +1,0 @@
-server prefs
-serverConfDirectoryName
-	^'knownServers'

@@ -1,2 +1,0 @@
-workaround
-compileAccessorForPreference: aPreference

@@ -1,3 +1,0 @@
-proxy settings
-proxySettingsFileName
-	^'proxySettings'

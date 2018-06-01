@@ -1,4 +1,0 @@
-accessing - model
-getValueSelector
-
-	^ getValueSelector

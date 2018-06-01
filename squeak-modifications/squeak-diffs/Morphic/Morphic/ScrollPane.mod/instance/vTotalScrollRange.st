@@ -1,4 +1,0 @@
-geometry ranges
-vTotalScrollRange
-	"Return the entire scrolling range."
-	^ self vUnadjustedScrollRange + self vExtraScrollRange

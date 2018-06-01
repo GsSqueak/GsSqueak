@@ -1,4 +1,0 @@
-accessing
-createCharacterToGlyphMap
-
-	^ IdentityGlyphMap new.

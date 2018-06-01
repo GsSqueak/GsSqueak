@@ -1,3 +1,0 @@
-widget classes
-dropDownListClass
-	^ PluggableDropDownListMorph

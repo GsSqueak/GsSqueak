@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"computeSlopeAtMSecs:" : "jm 8/17/1998 17:29",
-		"reset" : "jm 2/4/98 18:51",
-		"updateSelector" : "jm 2/4/98 07:27",
-		"updateTargetAt:" : "jm 9/10/1998 07:04",
-		"volume:" : "jm 8/17/1998 08:00" } }

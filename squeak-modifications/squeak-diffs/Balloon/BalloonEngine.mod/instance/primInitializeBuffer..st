@@ -1,1 +1,4 @@
-primitives-miscprimInitializeBuffer: buffer		^ 0
+primitives-misc
+primInitializeBuffer: buffer
+	
+	^ 0

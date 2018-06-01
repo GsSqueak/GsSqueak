@@ -1,1 +1,0 @@
-Transcripter is a dog-simple scrolling stream with display.  It is intended to operate with no support from MVC or color in a minimal, or headless version of Squeak.  No attention has been paid to appearance or performance.

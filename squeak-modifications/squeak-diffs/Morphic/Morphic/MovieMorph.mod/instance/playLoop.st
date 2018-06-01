@@ -1,4 +1,0 @@
-menu
-playLoop
-
-	playMode := #loop.

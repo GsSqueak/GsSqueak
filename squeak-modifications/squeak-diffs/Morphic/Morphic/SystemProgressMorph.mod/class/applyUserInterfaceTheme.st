@@ -1,4 +1,0 @@
-preferences
-applyUserInterfaceTheme
-
-	self reset.

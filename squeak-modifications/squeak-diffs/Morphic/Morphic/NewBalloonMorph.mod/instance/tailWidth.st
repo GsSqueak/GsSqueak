@@ -1,4 +1,0 @@
-geometry
-tailWidth
-	
-	^ 15

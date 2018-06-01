@@ -1,2 +1,0 @@
-menu
-addGestureHelpItemsTo: aMenuMorph 

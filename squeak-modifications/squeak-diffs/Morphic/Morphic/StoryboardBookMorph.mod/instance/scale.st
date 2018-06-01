@@ -1,4 +1,0 @@
-accessing
-scale
-
-	^currentPage scale
