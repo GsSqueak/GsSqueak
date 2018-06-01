@@ -44,6 +44,9 @@ Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-
 Install GemStoneGUI and GsSqueakImport [see here](https://github.com/hpi-swa-lab/BP2017RH1/tree/master/tools)
 
 Start a new GemStone session with `GSGRepositoryManager open.` and login.
-Click `Load GsSqueak`
+
+Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone.
+
+When finished, you can run ... to open GsSqueak.
 
 ## Usage
