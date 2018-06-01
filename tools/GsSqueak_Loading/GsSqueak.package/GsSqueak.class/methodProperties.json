@@ -25,7 +25,7 @@
 		"importTo:" : "sl 5/23/2018 15:02",
 		"importToGemstone" : "sl 5/23/2018 14:59",
 		"initializeClasses:" : "MS 5/29/2018 14:14",
-		"installInto:" : "MS 5/29/2018 12:35",
+		"installInto:" : "sl 5/31/2018 17:16",
 		"isClassDirectoryExtension:" : "sl 5/15/2018 13:34",
 		"loadClassDefinitions" : "sl 5/23/2018 12:28",
 		"loadConfiguration" : "sl 5/22/2018 15:30",
@@ -36,6 +36,8 @@
 		"originalClassesInCategories:do:" : "sl 5/23/2018 12:58",
 		"overlayClasses" : "sl 5/23/2018 12:23",
 		"overlayClassesDo:" : "sl 5/23/2018 12:21",
-		"shouldBeLoaded:" : "MS 5/25/2018 15:45",
+		"saveFrom:" : "MS 5/31/2018 16:36",
+		"shouldBeLoaded:" : "MS 5/30/2018 13:06",
 		"sortedClassDefinitions" : "MS 5/25/2018 09:59",
-		"trimClassFoldersIn:" : "sl 5/17/2018 14:32" } }
+		"trimClassFoldersIn:" : "sl 5/17/2018 14:32",
+		"write:with:" : "MS 5/30/2018 14:57" } }

@@ -1,4 +1,4 @@
 accessing - loaded values
 loadedInstanceMethods
 	
-	^ instanceMethods
+	^ instanceMethods ifNil: [instanceMethods := OrderedCollection new]

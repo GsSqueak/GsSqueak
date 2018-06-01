@@ -1,4 +1,4 @@
-accessing - real class
+accessing
 overlayMethods: originalMethods with: modifiedMethods
 
 	| methods |

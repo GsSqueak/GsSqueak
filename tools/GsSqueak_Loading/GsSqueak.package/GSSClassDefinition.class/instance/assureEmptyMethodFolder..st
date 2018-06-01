@@ -1,6 +1,9 @@
 fileout
 assureEmptyMethodFolder: aString
 
-	(self fileDirectory directoryNamed: aString) entriesDo: [ :entry |
+	| directory |
+	directory := self fileDirectory directoryNamed: aString.
+	directory assureExistence.
+	directory entriesDo: [ :entry |
 		entry extension = 'st' ifTrue: [entry delete]].
 	

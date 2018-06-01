@@ -1,7 +1,5 @@
 utility
 removeExtensionsFromMethodCategories
 
-	self loadedInstanceMethods ifNotNil: [:methods |
-		self removeExtensionsFromMethodCategories: methods].
-	self loadedClassMethods ifNotNil: [:methods |
-		self removeExtensionsFromMethodCategories: methods]
+	self removeExtensionsFromMethodCategories: self loadedInstanceMethods.
+	self removeExtensionsFromMethodCategories: self loadedClassMethods

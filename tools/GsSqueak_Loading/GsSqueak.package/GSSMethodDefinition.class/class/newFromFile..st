@@ -2,7 +2,7 @@ as yet unclassified
 newFromFile: aDirectoryEntry
 
 	| lines contents source |
-	contents := aDirectoryEntry readStream contents withSqueakLineEndings.
+	contents := aDirectoryEntry readStream contentsOfEntireFile withSqueakLineEndings.
 	lines := contents lines.
 	source := contents allButFirst: lines first size + 1.
 	^ self new

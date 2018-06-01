@@ -2,6 +2,7 @@ testing
 shouldBeLoaded: aClassOrClassDefinition
 
 	| name category |
+	aClassOrClassDefinition exists ifFalse: [^ false].
 	name := aClassOrClassDefinition name asString.
 	category := aClassOrClassDefinition category asString.
 	(self classesNotToLoad includes: name) ifTrue: [^ false].
