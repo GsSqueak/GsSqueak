@@ -18,8 +18,9 @@ Another project similar to this one was started, called [PharoGS](https://github
 Install [GsDevKit_home](https://github.com/GsDevKit/GsDevKit_home):
 ```
 git clone https://github.com/GsDevKit/GsDevKit_home.git
-cd GsDevKit_home
+pushd GsDevKit_home
 . bin/defHOME_PATH.env    # define GS_HOME env var and put $GS_HOME into PATH
+popd
 installServerClient
 ```
 
@@ -28,9 +29,21 @@ Download latest EA-Drop of [GemStone](https://downloads.gemtalksystems.com/pub/G
 downloadGemStone -f -d 3.5.0-EA-43870 3.5.0 # download version will change with each drop
 ```
 
-### Setting up a GsSqueak
+### Setting up GsSqueak
+Create Stone and prepare essential support
+```
+pushd $GS_HOME/shared/repos
+git clone https://github.com/hpi-swa-lab/BP2017RH1.git
+pushd BP2017RH1
+setupScript für Stone inkl. Env0-Pakete laden (zukünftig alle in /squeak-modifications/pre-squeak-import)
+popd
+popd
 ```
 
-```
+Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
+Install GemStoneGUI and GsSqueakImport [see here](https://github.com/hpi-swa-lab/BP2017RH1/tree/master/tools)
+
+Start a new GemStone session with `GSGRepositoryManager open.` and login.
+Click `Load GsSqueak`
 
 ## Usage
