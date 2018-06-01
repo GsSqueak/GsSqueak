@@ -7,6 +7,6 @@ blockCommand: command content: content
 		nextPutAll: content squeakToUtf8 asByteArray; lf;
 		nextPut: $%; lf; lf; flush.
 	rawOutput := self topazProcess outPipe reader upToLastLineMatching: '*topaz*> '.
-	output := (rawOutput lines allButFirstAndLast allAfter: '%') joinSeparatedBy: Character lf.
+	output := (rawOutput utf8ToSqueak lines allButFirstAndLast allAfter: '%') joinSeparatedBy: Character lf.
 	errorOutput := self topazProcess errPipe reader upToEndOfAvailableData.
 	^ Array with: output with: errorOutput

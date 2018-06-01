@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"directoryExtensions" : "sl 5/15/2018 13:11" },
+		"directoryExtensions" : "sl 5/15/2018 13:11",
+		"newUnmodifiedClassFrom:" : "sl 6/1/2018 13:41" },
 	"instance" : {
 		"adoptOriginalMethodCategoryNames" : "MS 5/31/2018 15:02",
 		"classMethods" : "MS 5/31/2018 15:12",
@@ -13,10 +14,11 @@
 		"defaultPools" : "MS 5/18/2018 10:11",
 		"defaultSuperclass" : "MS 5/18/2018 10:11",
 		"defaultType" : "MS 5/18/2018 10:11",
-		"deleteFolder" : "sl 5/18/2018 12:10",
+		"deleteFolder" : "sl 6/1/2018 13:15",
 		"exists" : "MS 5/30/2018 13:09",
-		"fileout" : "MS 5/25/2018 12:26",
+		"fileoutTo:" : "sl 6/1/2018 13:34",
 		"instanceMethods" : "MS 5/31/2018 15:13",
+		"isUnmodified" : "sl 6/1/2018 13:11",
 		"isUnnecessary" : "MS 5/31/2018 15:04",
 		"methodDefinitionsForClass:" : "sl 5/18/2018 16:58",
 		"originalCategory" : "MS 5/18/2018 09:19",
@@ -31,7 +33,8 @@
 		"originalType" : "MS 5/18/2018 09:30",
 		"realClass" : "sl 5/18/2018 11:19",
 		"removeIdenticalMethods:meta:" : "MS 5/29/2018 14:19",
-		"setRealClass:" : "sl 5/15/2018 16:36",
+		"setRealClass:" : "sl 6/1/2018 13:54",
+		"trimComment" : "sl 6/1/2018 10:29",
 		"trimMethods" : "MS 5/18/2018 09:18",
 		"trimProperties" : "sl 5/18/2018 10:58",
 		"trimProperty:" : "sl 5/18/2018 11:05" } }

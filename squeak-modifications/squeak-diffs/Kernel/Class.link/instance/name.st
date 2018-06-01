@@ -10,6 +10,7 @@ name
 	self == Semaphore ifTrue: [^ #'Semaphore'].
 	self == Exception ifTrue: [^ #'Exception'].
 	self == BlockClosure ifTrue: [^ #'BlockClosure'].
+	self == Process ifTrue: [^ #'Process'].
 	name == nil
 		ifTrue: [^super name]
 		ifFalse: [^name]

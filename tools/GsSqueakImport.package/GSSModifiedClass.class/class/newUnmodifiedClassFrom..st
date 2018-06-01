@@ -1,5 +1,5 @@
 instance creation
-newFromClass: aClass
+newUnmodifiedClassFrom: aClass
 
 	^ self new
 		setRealClass: aClass

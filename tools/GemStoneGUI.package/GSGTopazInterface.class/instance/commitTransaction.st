@@ -3,4 +3,5 @@ commitTransaction
 
 	| topazOutput |
 	topazOutput := self commit.
-	^ topazOutput second isEmpty
+	topazOutput second = ('Successful commit' , Character lf) ifFalse: [
+		self notify: topazOutput second]

@@ -16,6 +16,6 @@ initializeClasses: arrayOfClasses
 			UIManager default informUserDuring: [:info |
 				classesToInitialize withIndexDo: [:class :initializeIndex |
 					info value: class name.
-					Transcript showln: class name.
 					class initializeClass.
-					initializeBar value: initializeIndex]]]
+					initializeBar value: initializeIndex.
+					class environment repository commitTransaction.]]]

@@ -1,6 +1,7 @@
 fileout
 save: fileName contents: aString
 
-	| outFile |
-	outFile := self fileDirectory fileNamed: fileName.
-	outFile nextPutAll: aString.
+	aString ifNil: [^ self fileDirectory deleteFileNamed: fileName].
+	self fileDirectory fileNamed: fileName do: [:fileStream |
+		fileStream truncate.
+		fileStream nextPutAll: aString withUnixLineEndings]
