@@ -42,6 +42,8 @@ print_pending() {
   message="$1"
 
   echo -en "${PENDING} ${message}"
+  tput sc
+  echo 
 }
 
 ################################################################################
@@ -51,6 +53,7 @@ print_success() {
   local message
   message="$1"
 
+  tput rc
   echo -e "\r${SUCCESS}"
 }
 
@@ -107,6 +110,7 @@ errored() {
   local message
   message="$1"
 
+  tput rc
   echo -e "\r${ERRORED}"
 
   if ! [[ -z "${message+x}" ]]; then
@@ -158,12 +162,12 @@ get_user_input() {
 # Abort if os requirements are not met.
 ################################################################################
 check_gs_devkit() {
-  response
+  local response
 
   if [[ -z "${GS_HOME+x}" ]]; then
     get_user_input "Do you want to install GsDevKit_home?" "Y | n" Y response
 
-    if [[ "$response" = Y ]]; then
+    if [[ "${response,,}" = y ]]; then
       install_gs_devkit
     else
       echo -e "$ERRORED GsDevKit_home missing"
@@ -177,11 +181,15 @@ check_gs_devkit() {
 # Abort if os requirements are not met.
 ################################################################################
 install_gs_devkit() {
-  git clone https://github.com/GsDevKit/GsDevKit_home.git
-  pushd GsDevKit_home
+  print_pending "Cloning GsDevKit_home"
+  git clone -q https://github.com/GsDevKit/GsDevKit_home.git
+  check_errors
+  pushd GsDevKit_home >/dev/null
   . bin/defHOME_PATH.env    # define GS_HOME env var and put $GS_HOME into PATH
-  popd
-  installServerClient
+  popd >/dev/null
+  print_pending "Installing GsDevKit_home"
+  installServerClient >/dev/null 2>&1
+  check_errors
 }
 
 ################################################################################
@@ -257,7 +265,7 @@ check_stone_exists() {
 # 
 ################################################################################
 setup_gs_squeak() {
-  local repo_path stone_name gs_version stone_exists response response_downcase
+  local repo_path stone_name gs_version stone_exists response 
 
   repo_path=`pwd`/../squeak-modifications/pre-squeak-import
 
@@ -275,9 +283,8 @@ setup_gs_squeak() {
     else
       echo -e "$WARNING Stone named $stone_name already exists"
       get_user_input "Do you want to recreate it?" "[O]VERWRITE | [r]eset | [a]bort" OVERWRITE RESPONSE 
-      response_downcase=$($response | tr '[:lower:]')
 
-      case "$response_downcase" in
+      case "${response,,}" in
         o)
           print_pending "Recreating stone named $stone_name"
           createStone -f "$stone_name" $gs_version
