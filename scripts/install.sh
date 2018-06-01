@@ -3,9 +3,9 @@
 ################################################################################
 # Variables used throughout the whole program.
 ################################################################################
-OUTPUT=''
-GEMSTONE_VERSION=3.5.0 # outsource to parameters
-EA_VERSION=-EA-43870
+OUTPUT=
+GEMSTONE_VERSION=
+EA_VERSION=
 STONE_NAME=
 FORCE=false
 
@@ -33,48 +33,6 @@ readonly WARNING="[ ${ORANGE}WARNING${NC} ]"
 install_usage() {
   echo "the author is confused"
 }
-
-################################################################################
-# Parameter handling
-################################################################################
-POSITIONAL=()
-
-while [[ $# -gt 0 ]]; do
-
-key="$1"
-case $key in
-    -h|--help)
-      install_usage 
-      exit 0
-      ;;
-    --gs-version)
-      GEMSTONE_VERSION="$2"
-      shift # past argument
-      shift # past value
-      ;;
-    --ea-version)
-      EA_VERSION="$2"
-      shift
-      shift
-      ;;
-    -s|--stone-name)
-      STONE_NAME="$2"
-      shift
-      shift
-      ;;
-    -f|--force)
-      FORCE=true
-      shift
-      ;;
-    *)    # unknown option
-      install_usage
-      # not supported
-      POSITIONAL+=("$1") # save it in an array for later
-      shift # past argument
-      ;;
-esac
-done
-set -- "${POSITIONAL[@]}" # restore positional parameters
 
 ################################################################################
 # Rewrite current command as errored and print command output.
@@ -200,10 +158,10 @@ get_user_input() {
 # Abort if os requirements are not met.
 ################################################################################
 check_gs_devkit() {
-  local response
+  response
 
   if [[ -z "${GS_HOME+x}" ]]; then
-    get_user_input "Do you want to install GsDevKit_home?" "Y | n" Y $response
+    get_user_input "Do you want to install GsDevKit_home?" "Y | n" Y response
 
     if [[ "$response" = Y ]]; then
       install_gs_devkit
@@ -316,7 +274,7 @@ setup_gs_squeak() {
       check_errors
     else
       echo -e "$WARNING Stone named $stone_name already exists"
-      get_user_input "Do you want to recreate it?" "[O]VERWRITE | [r]eset | [a]bort" OVERWRITE $response 
+      get_user_input "Do you want to recreate it?" "[O]VERWRITE | [r]eset | [a]bort" OVERWRITE RESPONSE 
       response_downcase=$($response | tr '[:lower:]')
 
       case "$response_downcase" in
@@ -357,11 +315,55 @@ setup_gs_squeak() {
   popd >/dev/null
 }
 
-print_pending 'Checking prerequisites'
+
+################################################################################
+# Parameter handling
+################################################################################
+POSITIONAL=()
+
+while [[ $# -gt 0 ]]; do
+
+key="$1"
+case $key in
+    -h|--help)
+      install_usage 
+      exit 0
+      ;;
+    --gs-version)
+      GEMSTONE_VERSION="$2"
+      shift # past argument
+      shift # past value
+      ;;
+    --ea-version)
+      EA_VERSION="$2"
+      shift
+      shift
+      ;;
+    -s|--stone-name)
+      STONE_NAME="$2"
+      shift
+      shift
+      ;;
+    -f|--force)
+      FORCE=true
+      shift
+      ;;
+    *)    # unknown option
+      install_usage
+      # not supported
+      POSITIONAL+=("$1") # save it in an array for later
+      shift # past argument
+      ;;
+esac
+done
+set -- "${POSITIONAL[@]}" # restore positional parameters
+
+STONE_NAME="${STONE_NAME:-GsSqueak}"
+GEMSTONE_VERSION="${GEMSTONE_VERSION:-3.5.0}"
+
 check_os
 check_gs_devkit
 check_env_variables
-print_success
 
 print_pending 'Downloading GemStone'
 downloadGemStone $GEMSTONE_VERSION $EA_VERSION # wip
