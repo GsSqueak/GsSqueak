@@ -1,0 +1,4 @@
+accessing
+password
+
+	self subclassResponsibility

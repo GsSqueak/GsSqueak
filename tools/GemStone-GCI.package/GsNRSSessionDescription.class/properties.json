@@ -1,0 +1,19 @@
+{
+	"category" : "GemStone-GCI-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stoneNRS",
+		"version",
+		"gemNRS",
+		"osUser",
+		"userID",
+		"password" ],
+	"name" : "GsNRSSessionDescription",
+	"pools" : [
+		 ],
+	"super" : "GsSessionDescription",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+accessing
+stoneNRS
+
+	self subclassResponsibility

@@ -1,0 +1,4 @@
+accessing
+gemNRS
+
+	self subclassResponsibility

@@ -1,0 +1,4 @@
+accessing
+osUser
+
+	self subclassResponsibility

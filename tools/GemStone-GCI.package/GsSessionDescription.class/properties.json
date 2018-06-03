@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-GCI-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GsSessionDescription",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

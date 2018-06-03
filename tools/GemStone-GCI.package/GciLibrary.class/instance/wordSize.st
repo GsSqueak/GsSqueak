@@ -1,0 +1,4 @@
+accessing
+wordSize
+
+	self subclassResponsibility

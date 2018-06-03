@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildGemNRSInputWith:" : "sl 6/3/2018 17:26",
+		"buildOsUserInputWith:" : "sl 6/3/2018 17:30",
+		"buildPasswordInputWith:" : "sl 6/3/2018 17:23",
+		"buildStoneNRSInputWith:" : "sl 6/3/2018 17:42",
+		"buildUserIDInputWith:" : "sl 6/3/2018 17:24",
+		"buildVersionInputWith:" : "sl 6/3/2018 17:28",
+		"buildWindowElementsWith:" : "sl 6/3/2018 17:22",
+		"gemNRS" : "sl 6/3/2018 16:22",
+		"gemNRS:" : "sl 6/3/2018 18:29",
+		"invalidate" : "sl 6/3/2018 17:38",
+		"osPassword" : "sl 6/3/2018 16:28",
+		"osUser" : "sl 6/3/2018 16:28",
+		"osUser:" : "sl 6/3/2018 18:29",
+		"password" : "sl 6/3/2018 17:21",
+		"password:" : "sl 6/3/2018 18:29",
+		"stoneNRS" : "sl 6/3/2018 16:22",
+		"stoneNRS:" : "sl 6/3/2018 18:30",
+		"userID" : "sl 6/3/2018 16:22",
+		"userID:" : "sl 6/3/2018 18:30",
+		"version" : "sl 6/3/2018 16:22",
+		"version:" : "sl 6/3/2018 18:30" } }
