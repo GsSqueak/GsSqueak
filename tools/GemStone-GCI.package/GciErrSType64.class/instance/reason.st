@@ -1,4 +1,4 @@
 accessing
 reason
-	"This method was automatically generated. See GciErrSType64 class>>fields."
-	^ExternalData fromHandle: (handle longPointerAt: 50) type: ExternalType char asPointerType
+	"This method was NOT automatically generated."
+	^ ExternalData fromHandle: (handle + 1138) type: ExternalType char asPointerType

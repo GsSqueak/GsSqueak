@@ -3,8 +3,9 @@
 		"isClassForVersion:" : "dkh 7/25/2008 13:32" },
 	"instance" : {
 		"GciTsExecute:a:a:a:a:a:a:err:" : "sl 6/3/2018 22:20",
-		"GciTsLogin:a:a:a:a:a:a:a:a:err:" : "sl 6/3/2018 21:13",
-		"GciTsLogout:err:" : "sl 6/3/2018 21:27",
+		"GciTsExecuteFetchBytes:a:a:a:a:a:a:a:err:" : "sl 6/4/2018 21:57",
+		"GciTsLogin:a:a:a:a:a:a:a:a:err:" : "sl 6/4/2018 19:41",
+		"GciTsLogout:err:" : "sl 6/4/2018 21:56",
 		"apiGciNbContinue:" : "JGF 4/13/2007 16:12",
 		"apiGciNbContinueWith:a:a:err:" : "dkh 10/29/2007 14:22",
 		"apiGciNbExecuteStr:a:" : "dkh 12/9/2008 12:25",

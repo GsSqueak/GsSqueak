@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"allocatedAndInitialized" : "sl 6/4/2018 19:24",
 		"initialize" : "sl 6/3/2018 20:28" },
 	"instance" : {
-		 } }
+		"printRawContents" : "sl 6/4/2018 19:15",
+		"zeroInitialize" : "sl 6/4/2018 19:11" } }
