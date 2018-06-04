@@ -41,20 +41,16 @@ print_pending() {
   local message
   message="$1"
 
-  echo -en "${PENDING} ${message}"
   tput sc
-  echo 
+  echo -e "${PENDING} ${message}"
 }
 
 ################################################################################
 # Rewrite current command as errored and print command output.
 ################################################################################
 print_success() {
-  local message
-  message="$1"
-
   tput rc
-  echo -e "\r${SUCCESS}"
+  echo -e "${SUCCESS}"
 }
 
 ################################################################################
@@ -111,7 +107,7 @@ errored() {
   message="$1"
 
   tput rc
-  echo -e "\r${ERRORED}"
+  echo -e "${ERRORED}"
 
   if ! [[ -z "${message+x}" ]]; then
     echo -e "${ERRORED} Message: $message"     
@@ -249,16 +245,13 @@ download_gemstone() {
   ea_version="$2"
 
   #OUTPUT=$(downloadGemStone -f -d ${gs_version}${ea_version} $gs_version)
-  #downloadGemStone -f -d ${gs_version}${ea_version} $gs_version >/dev/null 2>&1
-  downloadGemStone -f -d ${gs_version}${ea_version} $gs_version
-
+  downloadGemStone -f -d ${gs_version}${ea_version} $gs_version > /dev/null 2>&1
 }
 
 check_stone_exists() {
   local stone_name
   stone_name="$1"
-
-  stones 2>&1 | grep -e "\t${stone_name}\$"
+  stones 2>&1 | grep -e "\s${stone_name}\$" >/dev/null
 
   return $?
 }
@@ -273,28 +266,28 @@ setup_gs_squeak() {
 
   stone_name="$1"
   gs_version="$2"
-
-  check_stone_exists
+  
+  check_stone_exists $stone_name
   stone_exists=$?
 
   if [[ $stone_exists = 0 ]]; then
     if [[ $FORCE = true ]]; then
       print_pending "Recreating stone named $stone_name"
-      createStone -f "$stone_name" $gs_version
+      createStone -f "$stone_name" $gs_version >/dev/null 2>&1
       check_errors
     else
       echo -e "$WARNING Stone named $stone_name already exists"
-      get_user_input "Do you want to recreate it?" "[O]VERWRITE | [r]eset | [a]bort" OVERWRITE RESPONSE 
+      get_user_input "Do you want to recreate it?" "[O]VERWRITE | [r]eset | [a]bort" o response
 
       case "${response,,}" in
         o)
           print_pending "Recreating stone named $stone_name"
-          createStone -f "$stone_name" $gs_version
+          createStone -f "$stone_name" $gs_version >/dev/null 2>&1
           check_errors
           ;;
         r)
           print_pending "Restoring stone named $stone_name from tode backup"
-          todeRestore "$stone_name" tode.dbf
+          todeRestore "$stone_name" tode.dbf >/dev/null 2>&1
           check_errors
           ;;
         a)
@@ -379,4 +372,3 @@ downloadGemStone $GEMSTONE_VERSION $EA_VERSION # wip
 check_warning
 
 setup_gs_squeak $STONE_NAME $GEMSTONE_VERSION
-
