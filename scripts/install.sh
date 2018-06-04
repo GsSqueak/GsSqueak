@@ -245,7 +245,7 @@ download_gemstone() {
   ea_version="$2"
 
   #OUTPUT=$(downloadGemStone -f -d ${gs_version}${ea_version} $gs_version)
-  downloadGemStone -f -d ${gs_version}${ea_version} $gs_version > /dev/null 2>&1
+  downloadGemStone -f -d ${gs_version}${ea_version} $gs_version >/dev/null 2>&1
 }
 
 check_stone_exists() {
@@ -317,7 +317,6 @@ setup_gs_squeak() {
   popd >/dev/null
 }
 
-
 ################################################################################
 # Parameter handling
 ################################################################################
@@ -362,13 +361,14 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 
 STONE_NAME="${STONE_NAME:-GsSqueak}"
 GEMSTONE_VERSION="${GEMSTONE_VERSION:-3.5.0}"
+EA_VERSION="${EA_VERSION:--EA-43780}"
 
 check_os
 check_gs_devkit
 check_env_variables
 
 print_pending 'Downloading GemStone'
-downloadGemStone $GEMSTONE_VERSION $EA_VERSION # wip
+download_gemstone $GEMSTONE_VERSION $EA_VERSION
 check_warning
 
 setup_gs_squeak $STONE_NAME $GEMSTONE_VERSION
