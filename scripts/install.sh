@@ -248,8 +248,10 @@ download_gemstone() {
   gs_version="$1"
   ea_version="$2"
 
-  OUTPUT=$(downloadGemStone -f -d ${gs_version}${ea_version} $gs_version)
+  #OUTPUT=$(downloadGemStone -f -d ${gs_version}${ea_version} $gs_version)
   #downloadGemStone -f -d ${gs_version}${ea_version} $gs_version >/dev/null 2>&1
+  downloadGemStone -f -d ${gs_version}${ea_version} $gs_version
+
 }
 
 check_stone_exists() {
