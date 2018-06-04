@@ -85,15 +85,17 @@ warn() {
   local message
   message="$1"
 
-  echo -e "\r$WARNING" 
+  tput rc
+  echo -e "$WARNING" 
 
-  if ! [[ -z "${message+x}" ]]; then
+  if ! [[ -z "${message}" ]]; then
     echo -e "${WARNING} Message: $message"     
   fi
 
   if ! [[ -z "${OUTPUT}" ]]; then
     echo -e "${WARNING} Command output:"
     echo "$OUTPUT"
+    OUTPUT=''
   fi
 }
 
@@ -109,13 +111,14 @@ errored() {
   tput rc
   echo -e "${ERRORED}"
 
-  if ! [[ -z "${message+x}" ]]; then
+  if ! [[ -z "${message}" ]]; then
     echo -e "${ERRORED} Message: $message"     
   fi
 
   if ! [[ -z "${OUTPUT}" ]]; then
     echo -e "${ERRORED} Command output:"
     echo "$OUTPUT"
+    OUTPUT=''
   fi
 
   exit 1
@@ -188,6 +191,13 @@ install_gs_devkit() {
   check_errors
 }
 
+output () {
+  local command
+  command=$@
+
+  OUTPUT="$($command)"
+}
+
 ################################################################################
 # Abort installation if required environment variables are missing.
 #
@@ -233,7 +243,7 @@ check_os() {
 ################################################################################
 download_gemstone() {
 
-  download_gemstone_usage() { echo "$0 <gemstone_version> [<early_access_version>]"; exit 1;}
+  download_gemstone_usage () { echo "$0 <gemstone_version> [<early_access_version>]"; exit 1;}
 
   local gs_version ea_version
 
@@ -244,11 +254,17 @@ download_gemstone() {
   gs_version="$1"
   ea_version="$2"
 
-  #OUTPUT=$(downloadGemStone -f -d ${gs_version}${ea_version} $gs_version)
-  downloadGemStone -f -d ${gs_version}${ea_version} $gs_version >/dev/null 2>&1
+  check_gs_version_dir $gs_version $ea_version
+
+  output downloadGemStone -f -d ${gs_version}${ea_version} $gs_version >/dev/null 2>&1
+  #downloadGemStone -f -d ${gs_version}${ea_version} $gs_version 
 }
 
-check_stone_exists() {
+check_gs_version_dir () {
+  find "$GS_HOME/shared/downloads/products" -name "GemStone64Bit${gs_version}*" -exec chmod -R 777 "{}" \; -exec rm -rf "{}" \; >/dev/null 2>&1
+}
+
+check_stone_exists () {
   local stone_name
   stone_name="$1"
   stones 2>&1 | grep -e "\s${stone_name}\$" >/dev/null
@@ -273,7 +289,7 @@ setup_gs_squeak() {
   if [[ $stone_exists = 0 ]]; then
     if [[ $FORCE = true ]]; then
       print_pending "Recreating stone named $stone_name"
-      createStone -f "$stone_name" $gs_version >/dev/null 2>&1
+      output createStone -f "$stone_name" $gs_version >/dev/null 2>&1
       check_errors
     else
       echo -e "$WARNING Stone named $stone_name already exists"
@@ -282,12 +298,12 @@ setup_gs_squeak() {
       case "${response,,}" in
         o)
           print_pending "Recreating stone named $stone_name"
-          createStone -f "$stone_name" $gs_version >/dev/null 2>&1
+          output createStone -f "$stone_name" $gs_version >/dev/null 2>&1
           check_errors
           ;;
         r)
           print_pending "Restoring stone named $stone_name from tode backup"
-          todeRestore "$stone_name" tode.dbf >/dev/null 2>&1
+          output todeRestore "$stone_name" tode.dbf >/dev/null 2>&1
           check_errors
           ;;
         a)
@@ -302,7 +318,7 @@ setup_gs_squeak() {
     fi 
   else
     print_pending "Creating stone named $stone_name"
-    createStone "$stone_name" $gs_version
+    output createStone "$stone_name" $gs_version
     check_errors
   fi
 
@@ -311,7 +327,7 @@ setup_gs_squeak() {
   for package in *.package; do
     local package_name=$(echo "$package" | cut -d'.' -f 1)
     print_pending "Loading $package_name"
-    OUTPUT=$(todeIt $stone_name mc load "$package_name" filetree://$repo_path >/dev/null 2>&1)
+    output todeIt $stone_name mc load "$package_name" filetree://$repo_path >/dev/null 2>&1
     check_errors
   done
   popd >/dev/null
@@ -361,13 +377,13 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 
 STONE_NAME="${STONE_NAME:-GsSqueak}"
 GEMSTONE_VERSION="${GEMSTONE_VERSION:-3.5.0}"
-EA_VERSION="${EA_VERSION:--EA-43780}"
+EA_VERSION="${EA_VERSION:--EA-43870}"
 
 check_os
 check_gs_devkit
 check_env_variables
 
-print_pending 'Downloading GemStone'
+print_pending "Downloading GemStone $GEMSTONE_VERSION"
 download_gemstone $GEMSTONE_VERSION $EA_VERSION
 check_warning
 
