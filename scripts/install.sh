@@ -81,6 +81,9 @@ check_warning() {
   fi
 }
 
+################################################################################
+# 
+################################################################################
 warn() {
   local message
   message="$1"
@@ -254,16 +257,15 @@ download_gemstone() {
   gs_version="$1"
   ea_version="$2"
 
-  check_gs_version_dir $gs_version $ea_version
-
-  output downloadGemStone -f -d ${gs_version}${ea_version} $gs_version >/dev/null 2>&1
-  #downloadGemStone -f -d ${gs_version}${ea_version} $gs_version 
+  if ! [[ -n $(find "$GS_HOME/shared/downloads/products" -name "GemStone64Bit${gs_version}*") ]]; then
+    find "$GS_HOME/shared/downloads/products" -name "GemStone64Bit${gs_version}*" -exec chmod -R 777 "{}" \; -exec rm -rf "{}" \; >/dev/null 2>&1
+    output downloadGemStone -f -d ${gs_version}${ea_version} $gs_version >/dev/null 2>&1
+  fi
 }
 
-check_gs_version_dir () {
-  find "$GS_HOME/shared/downloads/products" -name "GemStone64Bit${gs_version}*" -exec chmod -R 777 "{}" \; -exec rm -rf "{}" \; >/dev/null 2>&1
-}
-
+################################################################################
+# 
+################################################################################
 check_stone_exists () {
   local stone_name
   stone_name="$1"
@@ -293,7 +295,7 @@ setup_gs_squeak() {
       check_errors
     else
       echo -e "$WARNING Stone named $stone_name already exists"
-      get_user_input "Do you want to recreate it?" "[O]VERWRITE | [r]eset | [a]bort" o response
+      get_user_input "Do you want to recreate it?" "[o]verwrite | [R]ESTORE | [a]bort" r response
 
       case "${response,,}" in
         o)
