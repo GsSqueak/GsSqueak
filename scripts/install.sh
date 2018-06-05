@@ -324,7 +324,46 @@ setup_gs_squeak() {
     check_errors
   fi
 
-  
+print_pending "Executing topaz script"
+startTopaz $stone_name -l >/dev/null 2>&1 << EOF
+set u SystemUser p swordfish
+login
+run
+SystemObjectSecurityPolicy worldAuthorization: #write.
+(AllUsers userWithId: 'DataCurator') addPrivilege: #'CompilePrimitives'.
+%
+run
+GsCompilerClasses keysAndValuesDo: [:symbol : class | Globals at: symbol put: class ]
+%
+commit
+logout
+login
+
+input $GS_HOME/server/stones/$stone_name/product/upgrade/GsNMethodIr.gs
+
+commit
+logout
+set u DataCurator p swordfish
+login
+method: Behavior
+_clearSubclassesDisallowed
+    self _unsafeAt: 2 put: (format bitAnd: (16r20 bitInvert))
+%
+send Behavior _clearSubclassesDisallowed
+send LargeInteger _clearSubclassesDisallowed
+
+env 7
+method: Class
+name
+    ^ self @env0: name
+%
+
+commit
+logout
+exit
+EOF
+check_errors
+
   pushd $repo_path >/dev/null
   for package in *.package; do
     local package_name=$(echo "$package" | cut -d'.' -f 1)
