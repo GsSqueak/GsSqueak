@@ -12,33 +12,7 @@ Another project similar to this one was started, called [PharoGS](https://github
 ## Project Structure
 
 ## Installation
-
-### Prerequisites
-
-1. Install [GsDevKit_home](https://github.com/GsDevKit/GsDevKit_home):
-```
-git clone https://github.com/GsDevKit/GsDevKit_home.git
-pushd GsDevKit_home
-. bin/defHOME_PATH.env    # define GS_HOME env var and put $GS_HOME into PATH
-popd
-installServerClient
-```
-
-2. Download latest EA-Drop of [GemStone](https://downloads.gemtalksystems.com/pub/GemStone64/)
-```
-downloadGemStone -f -d 3.5.0-EA-43870 3.5.0 # download version will change with each drop
-```
-
-### Setting up GsSqueak
-1. Create Stone and prepare essential support
-```
-pushd $GS_HOME/shared/repos
-git clone https://github.com/hpi-swa-lab/BP2017RH1.git
-pushd BP2017RH1
-setupScript für Stone inkl. Env0-Pakete laden (zukünftig alle in /squeak-modifications/pre-squeak-import)
-popd
-popd
-```
+1. Execute and follow `scripts/install.sh`
 
 2. Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
 
