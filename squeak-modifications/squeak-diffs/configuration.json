@@ -5,11 +5,22 @@
 		"Graphics",
 		"System",
 		"SUnit",
-		"Chronology"
+		"Chronology",
+		"Sound",
+		"Morphic",
+		"Multilingual",
+		"Network",
+		"ST80-Paths",
+		"ToolBuilder",
+		"Tools",
+		"TrueType",
+		"GraphicsLibrary"
 		],
 	"classesToLoad" : [
 		"Environment",
-		"Scanner"
+		"Scanner",
+		"FileStream",
+		"StandardFileStream"
 	],
 	"classesNotToLoad" : [
 		"True",
@@ -30,14 +41,15 @@
 
 		"ExternalSettings",
 		"SecurityManager",
-		"LanguageEnvironment",
 		"FileStream",
 		"AutoStart",
 
 		"String",
 		"WideString",
 		"Symbol",
-		"WideSymbol"
+		"WideSymbol",
+		"Base64MimeConverter",
+		"DisplayScreen"
 		],
 	"classesNotToInitialize" : [
 		"Delay",
@@ -53,5 +65,30 @@
 		"DateAndTime",
 		"PNGReadWriter",
 		"NaturalLanguageTranslator",
-		"Cursor"
+		"Cursor",
+		"LanguageEnvironment",
+		"FileStream",
+		"StandardFileStream",
+		"MenuIcons",
+		"CornerGripMorph",
+		"ImageMorph",
+		"PopUpMenu",
+		"SampledSound",
+		"ScorePlayer",
+		"HandMorph",
+		"SimpleMIDIPort",
+		"ColorPickerMorph",
+		"JoystickMorph",
+		"StandardScriptingSystem",
+		"StandardToolset",
+		"MenuItemMorph",
+		"SystemNavigation",
+		"TextEditor",
+		"SmalltalkEditor",
+		"TextFieldMorph",
+		"TheWorldMainDockingBar",
+		"ThreePhaseButtonMorph",
+		"TransferMorph",
+		"UCSTable",
+		"URI"
 	]}
