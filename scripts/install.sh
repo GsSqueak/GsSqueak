@@ -280,7 +280,7 @@ check_stone_exists () {
 setup_gs_squeak() {
   local repo_path stone_name gs_version stone_exists response 
 
-  repo_path=`pwd`/../squeak-modifications/pre-squeak-import
+  repo_path=$GS_HOME/shared/repos/BP2017RH1/squeak-modifications/pre-squeak-import
 
   stone_name="$1"
   gs_version="$2"
@@ -305,6 +305,8 @@ setup_gs_squeak() {
           ;;
         r)
           print_pending "Restoring stone named $stone_name from tode backup"
+          startStone $stone_name >/dev/null 2>&1
+          startNetldi $stone_name >/dev/null 2>&1
           output todeRestore "$stone_name" tode.dbf >/dev/null 2>&1
           check_errors
           ;;
@@ -429,3 +431,4 @@ download_gemstone $GEMSTONE_VERSION $EA_VERSION
 check_warning
 
 setup_gs_squeak $STONE_NAME $GEMSTONE_VERSION
+echo "finished."
