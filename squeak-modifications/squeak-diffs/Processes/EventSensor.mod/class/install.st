@@ -1,5 +1,6 @@
 class initialization
 install	"EventSensor install"
+    
 	"Install an EventSensor in place of the current Sensor if one exists.
 	On GsSqueak	bootstrap no Sensor exists."
 	| newSensor |

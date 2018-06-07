@@ -8,13 +8,19 @@
 		"Chronology",
 		"Sound",
 		"Morphic",
+		"MorphicExtras",
 		"Multilingual",
 		"Network",
 		"ST80-Paths",
 		"ToolBuilder",
 		"Tools",
 		"TrueType",
-		"GraphicsLibrary"
+		"GraphicsLibrary",
+		"FFI-Pools",
+		"SharedPool-Speech-Klatt",
+		"Balloon-Engine-Pools",
+		"VMMaker",
+		"Compression"
 		],
 	"classesToLoad" : [
 		"Environment",
@@ -49,23 +55,21 @@
 		"Symbol",
 		"WideSymbol",
 		"Base64MimeConverter",
-		"DisplayScreen"
+		
+		"DisplayScreen",
+		"BitBltSimulator"
 		],
 	"classesNotToInitialize" : [
 		"Delay",
-		"ChangeSet",
 		"ObjectTracer",
 		
 		"UserInterfaceTheme",
-		"TextStyle",
 		"Text",
 		"StrikeFont",
 		"CharacterScanner",
-		"EventSensor",
 		"DateAndTime",
 		"PNGReadWriter",
 		"NaturalLanguageTranslator",
-		"Cursor",
 		"LanguageEnvironment",
 		"FileStream",
 		"StandardFileStream",
@@ -90,5 +94,14 @@
 		"ThreePhaseButtonMorph",
 		"TransferMorph",
 		"UCSTable",
-		"URI"
+		"URI",
+		"BalloonEngineConstants",
+		"ChronologyConstants",
+		"BalloonEngineBase",
+		"Duration",
+		"EventSensorConstants",
+		"DeflatePlugin",
+		"VMConstantsTest",
+		"VMMakerTool",
+		"TrashCanMorph"
 	]}
