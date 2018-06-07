@@ -1,4 +1,4 @@
 snapshots
 actualScreenSize
 
-	^ GraFFIcsLibrary inst screenSize
+	^ GraphicsLibrary instance screenSize

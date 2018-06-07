@@ -57,7 +57,8 @@
 		"Base64MimeConverter",
 		
 		"DisplayScreen",
-		"BitBltSimulator"
+		"BitBltSimulator",
+		"ZipWriteStream"
 		],
 	"classesNotToInitialize" : [
 		"Delay",
@@ -68,7 +69,6 @@
 		"StrikeFont",
 		"CharacterScanner",
 		"DateAndTime",
-		"PNGReadWriter",
 		"NaturalLanguageTranslator",
 		"LanguageEnvironment",
 		"FileStream",

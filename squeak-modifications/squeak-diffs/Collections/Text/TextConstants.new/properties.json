@@ -11,7 +11,8 @@
 		"DefaultTabsArray",
 		"DefaultMarginTabsArray",
 		"Space",
-		"Tab" ],
+		"Tab",
+		"DefaultTextStyle"],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
