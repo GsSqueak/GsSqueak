@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"from:to:" : "sl 6/8/2018 22:51" },
+	"instance" : {
+		"addClassDiff:" : "sl 6/10/2018 22:27",
+		"addMethodDiff:" : "sl 6/10/2018 22:33",
+		"classCreations" : "sl 6/10/2018 22:32",
+		"classModifications" : "sl 6/10/2018 22:32",
+		"classRemovals" : "sl 6/10/2018 22:32",
+		"classesToCollectIn:" : "sl 6/10/2018 23:38",
+		"collectClassesIn:" : "sl 6/10/2018 23:42",
+		"collectDiffsFromClass:to:" : "sl 6/11/2018 01:00",
+		"collectDiffsFromEnvironment:to:" : "sl 6/11/2018 00:52",
+		"collectMethodsIn:" : "sl 6/11/2018 00:48",
+		"from:to:" : "sl 6/8/2018 22:51",
+		"mergeDictionary:with:" : "sl 6/10/2018 23:57",
+		"methodDiffs" : "sl 6/10/2018 22:32",
+		"methodsToCollectIn:" : "sl 6/11/2018 00:35",
+		"orderedDiffs" : "sl 6/9/2018 17:54",
+		"sourceClasses" : "sl 6/10/2018 23:18",
+		"sourceClasses:" : "sl 6/10/2018 23:18",
+		"targetClasses" : "sl 6/8/2018 22:53",
+		"targetClasses:" : "sl 6/10/2018 23:17",
+		"transfer" : "sl 6/8/2018 23:44" } }

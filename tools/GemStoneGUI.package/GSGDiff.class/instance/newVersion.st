@@ -1,0 +1,4 @@
+accessing
+newVersion
+	
+	^ newVersion

@@ -1,0 +1,19 @@
+{
+	"category" : "GemStoneGUI-Transfer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceClasses",
+		"targetClasses",
+		"classCreations",
+		"classModifications",
+		"classRemovals",
+		"methodDiffs" ],
+	"name" : "GSGEnvironmentTransfer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

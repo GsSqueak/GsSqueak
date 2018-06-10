@@ -3,9 +3,13 @@
 		 },
 	"instance" : {
 		"addMessageCategory:" : "sl 5/26/2018 20:27",
-		"category:" : "sl 5/23/2018 20:57",
+		"commentStamp" : "sl 6/10/2018 09:59",
+		"commentString" : "sl 6/10/2018 10:05",
+		"commentString:" : "sl 6/10/2018 10:04",
 		"compileMethod:category:" : "sl 5/26/2018 20:30",
 		"messageCategoryDict" : "sl 5/26/2018 20:31",
 		"methodAt:ifAbsent:" : "sl 5/26/2018 20:33",
+		"properties" : "sl 6/11/2018 00:57",
 		"removeMessageCategory:" : "sl 5/26/2018 20:36",
-		"renameMessageCategory:to:" : "sl 5/26/2018 20:39" } }
+		"renameMessageCategory:to:" : "sl 5/26/2018 20:39",
+		"superclassName" : "sl 6/10/2018 19:32" } }

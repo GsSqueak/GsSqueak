@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"source" ],
+		"category",
+		"source",
+		"envId" ],
 	"name" : "GSGGemStoneMethodProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGMethodProxy",
+	"super" : "GSGMethod",
 	"type" : "normal" }

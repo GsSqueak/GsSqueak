@@ -1,0 +1,4 @@
+instance creation
+removalType
+
+	^ GSGClassRemoval

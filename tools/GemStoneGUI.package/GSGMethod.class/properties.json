@@ -1,0 +1,17 @@
+{
+	"category" : "GemStoneGUI-Interfaces",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"environment",
+		"className",
+		"selector",
+		"classIsMeta" ],
+	"name" : "GSGMethod",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

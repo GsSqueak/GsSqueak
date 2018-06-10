@@ -10,5 +10,5 @@
 	"name" : "GSGGemStoneEnvironmentProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGEnvironmentProxy",
+	"super" : "GSGEnvironment",
 	"type" : "normal" }

@@ -2,9 +2,10 @@ serialization
 deserializeFrom: anArray
 
 	^ self new
-		inClass: anArray first;
+		className: anArray first;
 		selector: anArray second;
-		envId: anArray third;
-		category: anArray fourth;
-		source: anArray fifth;
+		classIsMeta: anArray third;
+		envId: anArray fourth;
+		category: anArray fifth;
+		sourceString: anArray sixth;
 		yourself

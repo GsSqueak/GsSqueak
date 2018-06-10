@@ -1,12 +1,13 @@
 {
 	"class" : {
-		"chooseEnvironmentId" : "sl 5/26/2018 21:01",
+		"chooseEnvironmentId" : "sl 6/10/2018 16:39",
 		"forRepository:" : "sl 5/26/2018 20:53" },
 	"instance" : {
 		"classNamed:" : "sl 5/20/2018 18:56",
 		"classNames" : "sl 5/20/2018 18:57",
 		"classNamesInSystemCategory:" : "MS 5/25/2018 09:32",
 		"classProxyClass" : "sl 4/13/2018 14:56",
+		"classProxyDescription" : "sl 6/10/2018 16:39",
 		"codeForClassOrganizerInEnv:" : "sl 5/20/2018 22:57",
 		"codeReferencingClass:" : "sl 4/13/2018 14:20",
 		"codeReferencingClassNamed:" : "sl 5/20/2018 22:54",
@@ -15,7 +16,7 @@
 		"environmentId" : "sl 5/26/2018 20:18",
 		"environmentId:" : "sl 5/26/2018 20:18",
 		"evaluate:inContext:" : "sl 5/26/2018 20:21",
-		"fetchClass:" : "sl 5/21/2018 19:53",
+		"fetchClass:" : "sl 6/10/2018 15:56",
 		"fetchObject:" : "sl 5/21/2018 19:53",
 		"hierarchyTreeOfClassNames:" : "sl 5/26/2018 20:22",
 		"methodProxyClass" : "sl 5/21/2018 19:49",

@@ -6,9 +6,10 @@ CompositeTransformation
 		class := method inClass.
 		selector := method selector.
 		envId := method environmentId.
-		Array 
-			with: class
-			with: method selector
-			with: envId
-			with: (class categoryOfSelector: selector environmentId: envId)
-			with: method sourceString]
+		{
+			class name asSymbol.
+			method selector.
+			class isMeta.
+			envId.
+			class categoryOfSelector: selector environmentId: envId.
+			method sourceString}]

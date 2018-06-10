@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-Transfer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSGClassDiff",
+	"pools" : [
+		 ],
+	"super" : "GSGDiff",
+	"type" : "normal" }

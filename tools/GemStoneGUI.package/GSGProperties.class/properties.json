@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-Transfer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"propertyDict" ],
+	"name" : "GSGProperties",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

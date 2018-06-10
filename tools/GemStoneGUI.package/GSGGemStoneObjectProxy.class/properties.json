@@ -10,5 +10,5 @@
 	"name" : "GSGGemStoneObjectProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGObjectProxy",
+	"super" : "GSGObject",
 	"type" : "normal" }

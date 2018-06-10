@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"additionalProperties" ],
 	"name" : "GSGGemStoneClassProxy",
 	"pools" : [
 		 ],
-	"super" : "GSGClassProxy",
+	"super" : "GSGClass",
 	"type" : "normal" }

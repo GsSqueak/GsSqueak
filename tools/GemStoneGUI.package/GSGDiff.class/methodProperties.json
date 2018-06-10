@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"creationType" : "sl 6/10/2018 20:55",
+		"diffTypeFrom:to:" : "sl 6/10/2018 20:55",
+		"from:to:" : "sl 6/10/2018 21:07",
+		"modificationType" : "sl 6/10/2018 20:56",
+		"removalType" : "sl 6/10/2018 20:55",
+		"unmodifiedType" : "sl 6/11/2018 01:00" },
+	"instance" : {
+		"applyTo:" : "sl 6/8/2018 21:57",
+		"isClassDiff" : "sl 6/8/2018 20:06",
+		"isCreation" : "sl 6/8/2018 20:03",
+		"isMethodDiff" : "sl 6/8/2018 20:06",
+		"isModification" : "sl 6/9/2018 18:06",
+		"isRemoval" : "sl 6/8/2018 20:03",
+		"isUnmodified" : "sl 6/10/2018 20:59",
+		"newVersion" : "sl 6/8/2018 20:02",
+		"oldVersion" : "sl 6/8/2018 20:02",
+		"provisions" : "sl 6/9/2018 18:27",
+		"requirements" : "sl 6/9/2018 18:27",
+		"reversed" : "sl 6/10/2018 21:05",
+		"setOldVersion:newVersion:" : "sl 6/10/2018 20:43" } }

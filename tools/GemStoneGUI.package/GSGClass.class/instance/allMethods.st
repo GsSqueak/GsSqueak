@@ -1,0 +1,4 @@
+interface
+allMethods
+
+	self subclassResponsibility

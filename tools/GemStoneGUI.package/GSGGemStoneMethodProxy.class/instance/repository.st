@@ -1,4 +1,4 @@
 accessing
 repository
 
-	^ self inClass repository
+	^ self environment repository

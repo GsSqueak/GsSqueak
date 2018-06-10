@@ -1,4 +1,4 @@
 accessing
 label
 
-	^ self class label
+	^ self name

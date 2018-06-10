@@ -1,4 +1,0 @@
-interface
-comment
-
-	self subclassResponsibility

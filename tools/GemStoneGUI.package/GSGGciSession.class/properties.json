@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-GCI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSGGciSession",
+	"pools" : [
+		 ],
+	"super" : "GSGGemStoneRepository",
+	"type" : "normal" }

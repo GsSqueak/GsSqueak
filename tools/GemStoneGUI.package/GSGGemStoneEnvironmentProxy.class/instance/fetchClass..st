@@ -1,5 +1,5 @@
 querying
 fetchClass: queryCode
 
-	^ (self repository fetch: self classProxyClass name query: queryCode)
+	^ (self repository fetch: self classProxyDescription query: queryCode)
 		ifNotNil: [:class | class environment: self]

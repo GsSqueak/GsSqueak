@@ -1,10 +1,15 @@
 {
 	"class" : {
-		"CompositeTransformation" : "MS 5/31/2018 14:41",
-		"compositeStructureForSpec:" : "MS 5/31/2018 14:44",
-		"deserializeFrom:" : "MS 5/31/2018 14:42" },
+		"CompositeTransformation" : "sl 6/10/2018 16:29",
+		"compositeStructureForSpec:" : "sl 6/10/2018 16:30",
+		"deserializeFrom:" : "sl 6/10/2018 16:29" },
 	"instance" : {
-		"codeReferencingMe" : "sl 5/21/2018 13:54",
-		"repository" : "sl 5/21/2018 14:09",
-		"source:" : "MS 5/31/2018 14:43",
-		"sourceString" : "MS 5/31/2018 14:44" } }
+		"category" : "sl 6/10/2018 16:26",
+		"category:" : "sl 6/10/2018 16:27",
+		"codeReferencingMe" : "sl 6/10/2018 16:10",
+		"envId" : "sl 6/10/2018 16:14",
+		"envId:" : "sl 6/10/2018 16:14",
+		"properties" : "sl 6/11/2018 00:57",
+		"repository" : "sl 6/10/2018 16:09",
+		"sourceString" : "MS 5/31/2018 14:44",
+		"sourceString:" : "sl 6/10/2018 16:18" } }
