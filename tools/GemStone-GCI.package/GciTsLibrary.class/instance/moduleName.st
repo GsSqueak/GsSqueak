@@ -4,5 +4,5 @@ moduleName
 	^ 'libgcits-{1}-{2}.{3}' 
 		format: {
 			self gemStoneVersion.
-			self wordSize.
+			self wordSize * 8.
 			self libraryExtension}

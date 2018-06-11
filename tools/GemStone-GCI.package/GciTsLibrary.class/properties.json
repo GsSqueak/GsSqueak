@@ -3,14 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Current",
-		"LibraryPath",
-		"NullPtr" ],
+		 ],
 	"commentStamp" : "JGF 12/15/2006 14:53",
 	"instvars" : [
-		"gemStoneVersion",
-		"nbEndAddress",
-		"nbEndAssociation" ],
+		"gemStoneVersion" ],
 	"name" : "GciTsLibrary",
 	"pools" : [
 		 ],

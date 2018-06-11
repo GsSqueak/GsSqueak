@@ -8,10 +8,12 @@
 		"GciTsEncrypt:a:a:" : "sl 6/11/2018 15:39",
 		"GciTsExecute:a:a:a:a:a:a:err:" : "sl 6/3/2018 22:20",
 		"GciTsExecuteFetchBytes:a:a:a:a:a:a:a:err:" : "sl 6/4/2018 21:57",
+		"GciTsFetchBytes:a:a:a:a:err:" : "sl 6/11/2018 22:24",
 		"GciTsFetchUtf8:a:a:a:a:err:" : "sl 6/11/2018 15:25",
 		"GciTsFetchUtf8Bytes:a:a:a:a:a:err:" : "sl 6/11/2018 15:20",
 		"GciTsLogin:a:a:a:a:a:a:a:a:err:" : "sl 6/11/2018 08:45",
 		"GciTsLogout:err:" : "sl 6/4/2018 21:56",
+		"errorType" : "sl 6/11/2018 22:52",
 		"floatFromOop:" : "dkh 4/14/2008 12:42",
 		"floatToSmallDouble:" : "dkh 4/14/2008 15:58",
 		"localForSpecial:" : "dkh 4/14/2008 12:10",
@@ -42,4 +44,4 @@
 		"oopTrue" : "sl 6/11/2018 14:54",
 		"oopTwo" : "sl 6/11/2018 14:54",
 		"oopZero" : "sl 6/11/2018 15:01",
-		"wordSize" : "sl 6/3/2018 19:47" } }
+		"wordSize" : "sl 6/11/2018 22:50" } }
