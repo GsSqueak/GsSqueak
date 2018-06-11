@@ -1,5 +1,0 @@
-Constants
-sizeInBytesOfOop
-
-	self subclassResponsibility.
-	

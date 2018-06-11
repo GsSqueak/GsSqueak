@@ -24,7 +24,6 @@ GciTsLogin: stoneNameNrs a: hostUserId a: hostPassword a: hostPwIsEncrypted a: g
  */"
 	<cdecl: GciSessionType* 'GciTsLogin' (char* char* char* bool char* char* char* ulong long GciErrSType64*)>
 	^ self externalCallFailed
-	
 "EXTERN_GCI_DEC(GciSession) GciTsLogin(
     const char *StoneNameNrs,
     const char *HostUserId, 

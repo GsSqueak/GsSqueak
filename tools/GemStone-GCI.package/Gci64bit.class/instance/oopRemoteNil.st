@@ -1,4 +1,4 @@
 Constants
 oopRemoteNil
 
-	^OopType64 fromInteger: 276. "16r114"
+	^ 276 "16r114"

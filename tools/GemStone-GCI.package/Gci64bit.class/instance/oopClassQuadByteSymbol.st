@@ -1,4 +1,4 @@
 Constants
 oopClassQuadByteSymbol
 
-	^OopType64 fromInteger: 126977.
+	^ 126977
