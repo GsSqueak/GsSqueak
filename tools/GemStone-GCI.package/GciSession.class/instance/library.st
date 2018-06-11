@@ -1,5 +1,0 @@
-Accessors
-library
-
-	^GciLibrary current.
-	

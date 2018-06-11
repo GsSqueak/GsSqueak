@@ -10,5 +10,5 @@
 	"name" : "Gci32bit61",
 	"pools" : [
 		 ],
-	"super" : "GciLibrary",
+	"super" : "GciTsLibrary",
 	"type" : "normal" }

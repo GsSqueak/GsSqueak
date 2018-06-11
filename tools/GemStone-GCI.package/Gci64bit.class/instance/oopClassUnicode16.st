@@ -1,4 +1,4 @@
 Constants
 oopClassUnicode16
 
-	^self oopClassDoubleByteString
+	^ self oopClassDoubleByteString

@@ -2,8 +2,7 @@
 	"class" : {
 		"isClassForVersion:" : "dkh 4/18/2012 15:36" },
 	"instance" : {
-		"getAndClearLastError" : "dkh 11/2/2009 14:01",
-		"oopClassDoubleByteString" : "dkh 1/8/2013 12:51",
-		"oopClassDoubleByteSymbol" : "dkh 1/8/2013 12:52",
-		"oopClassQuadByteString" : "dkh 1/8/2013 12:53",
-		"oopClassQuadByteSymbol" : "dkh 1/8/2013 12:53" } }
+		"oopClassDoubleByteString" : "sl 6/11/2018 14:55",
+		"oopClassDoubleByteSymbol" : "sl 6/11/2018 14:56",
+		"oopClassQuadByteString" : "sl 6/11/2018 14:56",
+		"oopClassQuadByteSymbol" : "sl 6/11/2018 14:56" } }
