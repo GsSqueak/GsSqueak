@@ -42,7 +42,7 @@ ARGUMENTS
 		display this manual
 
 	-s, --stone-name
-		Name of the GsSqueak-Stone [default: GsSqueak]
+		Name of the GsSqueak-Stone [default: gsSqueak]
 
 	-f, --force
 		Force new stone creation
@@ -183,9 +183,9 @@ get_user_input() {
 ################################################################################
 check_gs_devkit() {
   local response
-  pushd GsDevKit_home >/dev/null
-  . bin/defHOME_PATH.env    # define GS_HOME env var and put $GS_HOME into PATH
-  popd >/dev/null
+  pushd GsDevKit_home >/dev/null 2>&1
+  . bin/defHOME_PATH.env >/dev/null 2>&1  # define GS_HOME env var and put $GS_HOME into PATH
+  popd >/dev/null 2>&1
   if [[ -z "${GS_HOME+x}" ]]; then
     get_user_input "Do you want to install GsDevKit_home?" "Y | n" Y response
 
@@ -198,8 +198,6 @@ check_gs_devkit() {
   else
     installServerClient >/dev/null 2>&1
   fi
-  echo $GS_HOME/shared/repos/BP2017RH1
-  pwd
   ln -fs . $GS_HOME/shared/repos/BP2017RH1 >/dev/null 2>&1
   
 }
@@ -444,7 +442,7 @@ esac
 done
 set -- "${POSITIONAL[@]}" # restore positional parameters
 
-STONE_NAME="${STONE_NAME:-GsSqueak}"
+STONE_NAME="${STONE_NAME:-gsSqueak}"
 GEMSTONE_VERSION="${GEMSTONE_VERSION:-3.5.0}"
 EA_VERSION="${EA_VERSION:-EA-43870}"
 
@@ -455,6 +453,10 @@ check_env_variables
 print_pending "Downloading GemStone $GEMSTONE_VERSION"
 download_gemstone $GEMSTONE_VERSION $EA_VERSION
 check_warning
+
+#print_pending "Creating Dummy Client tode"
+#output createClient tode >/dev/null 2>&1
+#check_errors
 
 setup_gs_squeak $STONE_NAME $GEMSTONE_VERSION
 echo "finished."
