@@ -31,7 +31,30 @@ readonly WARNING="[ ${ORANGE}WARNING${NC} ]"
 # Print usage of this program
 ################################################################################
 install_usage() {
-  echo "the author is confused"
+  echo "NAME
+	install.sh - install GsSqueak and its dependencies
+
+SYNOPSIS
+	./install.sh [OPTION]...
+
+ARGUMENTS
+	-h, --help
+		display this manual
+
+	-s, --stone-name
+		Name of the GsSqueak-Stone [default: gsSqueak]
+
+	-f, --force
+		Force new stone creation
+
+	--gs-version
+		GemStone/S Version Number [default: 3.5.0]
+
+	--ea-version
+		GemStone/S EA Version Number [default: -EA-43870]
+	
+"
+exit 0
 }
 
 ################################################################################
@@ -40,17 +63,14 @@ install_usage() {
 print_pending() {
   local message
   message="$1"
-
-  tput sc
-  echo -e "${PENDING} ${message}"
+  echo -ne "${PENDING} ${message}"
 }
 
 ################################################################################
 # Rewrite current command as errored and print command output.
 ################################################################################
 print_success() {
-  tput rc
-  echo -e "${SUCCESS}"
+  echo -e "\r${SUCCESS}"
 }
 
 ################################################################################
@@ -88,8 +108,7 @@ warn() {
   local message
   message="$1"
 
-  tput rc
-  echo -e "$WARNING" 
+  echo -e "\r$WARNING" 
 
   if ! [[ -z "${message}" ]]; then
     echo -e "${WARNING} Message: $message"     
@@ -111,8 +130,7 @@ errored() {
   local message
   message="$1"
 
-  tput rc
-  echo -e "${ERRORED}"
+  echo -e "\r${ERRORED}"
 
   if ! [[ -z "${message}" ]]; then
     echo -e "${ERRORED} Message: $message"     
@@ -165,7 +183,9 @@ get_user_input() {
 ################################################################################
 check_gs_devkit() {
   local response
-
+  pushd GsDevKit_home >/dev/null 2>&1
+  . bin/defHOME_PATH.env >/dev/null 2>&1  # define GS_HOME env var and put $GS_HOME into PATH
+  popd >/dev/null 2>&1
   if [[ -z "${GS_HOME+x}" ]]; then
     get_user_input "Do you want to install GsDevKit_home?" "Y | n" Y response
 
@@ -175,7 +195,10 @@ check_gs_devkit() {
       echo -e "$ERRORED GsDevKit_home missing"
       exit 1
     fi
+  else
+    installServerClient >/dev/null 2>&1
   fi
+  ln -fs ../../../ $GS_HOME/shared/repos/BP2017RH1 >/dev/null 2>&1
   
 }
 
@@ -189,9 +212,12 @@ install_gs_devkit() {
   pushd GsDevKit_home >/dev/null
   . bin/defHOME_PATH.env    # define GS_HOME env var and put $GS_HOME into PATH
   popd >/dev/null
-  print_pending "Installing GsDevKit_home"
+  print_pending "Installing GsDevKit_home "
   installServerClient >/dev/null 2>&1
   check_errors
+
+  echo "To use GemStone scripts, please define GS_HOME environment variable as GsDevKit_home and put \$GS_HOME into PATH"
+
 }
 
 output () {
@@ -259,7 +285,7 @@ download_gemstone() {
 
   if ! [[ -n $(find "$GS_HOME/shared/downloads/products" -name "GemStone64Bit${gs_version}*") ]]; then
     find "$GS_HOME/shared/downloads/products" -name "GemStone64Bit${gs_version}*" -exec chmod -R 777 "{}" \; -exec rm -rf "{}" \; >/dev/null 2>&1
-    output downloadGemStone -f -d ${gs_version}${ea_version} $gs_version >/dev/null 2>&1
+    output downloadGemStone -f -d ${gs_version}-${ea_version} $gs_version >/dev/null 2>&1
   fi
 }
 
@@ -284,9 +310,10 @@ setup_gs_squeak() {
 
   stone_name="$1"
   gs_version="$2"
-  
+  print_pending "Checking for Stone $stone_name"
   check_stone_exists $stone_name
   stone_exists=$?
+  print_success
 
   if [[ $stone_exists = 0 ]]; then
     if [[ $FORCE = true ]]; then
@@ -322,7 +349,7 @@ setup_gs_squeak() {
     fi 
   else
     print_pending "Creating stone named $stone_name"
-    output createStone "$stone_name" $gs_version
+    output createStone "$stone_name" $gs_version > /dev/null 2>&1
     check_errors
   fi
 
@@ -374,6 +401,10 @@ check_errors
     check_errors
   done
   popd >/dev/null
+  
+  print_pending "Saving State to Backup \"sq-prep\""
+  output todeBackup $stone_name sq-prep >/dev/null 2>&1
+  check_errors
 }
 
 ################################################################################
@@ -418,15 +449,15 @@ esac
 done
 set -- "${POSITIONAL[@]}" # restore positional parameters
 
-STONE_NAME="${STONE_NAME:-GsSqueak}"
+STONE_NAME="${STONE_NAME:-gsSqueak}"
 GEMSTONE_VERSION="${GEMSTONE_VERSION:-3.5.0}"
-EA_VERSION="${EA_VERSION:--EA-43870}"
+EA_VERSION="${EA_VERSION:-EA-43870}"
 
 check_os
 check_gs_devkit
 check_env_variables
 
-print_pending "Downloading GemStone $GEMSTONE_VERSION"
+print_pending "Downloading GemStone $GEMSTONE_VERSION-$EA_VERSION"
 download_gemstone $GEMSTONE_VERSION $EA_VERSION
 check_warning
 
