@@ -322,7 +322,7 @@ setup_gs_squeak() {
     fi 
   else
     print_pending "Creating stone named $stone_name"
-    output createStone "$stone_name" $gs_version
+    output createStone "$stone_name" $gs_version > /dev/null 2>&1
     check_errors
   fi
 
