@@ -198,7 +198,7 @@ check_gs_devkit() {
   else
     installServerClient >/dev/null 2>&1
   fi
-  ln -fs . $GS_HOME/shared/repos/BP2017RH1 >/dev/null 2>&1
+  ln -fs ../../../ $GS_HOME/shared/repos/BP2017RH1 >/dev/null 2>&1
   
 }
 
