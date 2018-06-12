@@ -1,4 +1,4 @@
-oop access
+oop creation
 oopForChar: aCharacter
 
 	| ans |

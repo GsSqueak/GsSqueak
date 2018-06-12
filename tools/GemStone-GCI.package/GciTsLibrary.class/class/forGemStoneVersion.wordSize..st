@@ -5,5 +5,5 @@ forGemStoneVersion: aString wordSize: bytes
 	libraryClass := (GciTsLibrary libraryClassForWordSize: bytes)
 						libraryClassForGemStoneVersion: aString.
 	^ libraryClass new
-		gemStoneVersion: aString;
+		setGemStoneVersion: aString;
 		yourself

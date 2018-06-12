@@ -1,4 +1,4 @@
-Constants
+known oops
 oopClassQuadByteString
 
 	self subclassResponsibility.
