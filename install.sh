@@ -216,17 +216,8 @@ install_gs_devkit() {
   installServerClient >/dev/null 2>&1
   check_errors
 
-  #print_pending "Creating Dummy Client tode"
-  #output createClient tode >/dev/null 2>&1
-  #check_errors
+  echo "To use GemStone scripts, please define GS_HOME environment variable as GsDevKit_home and put \$GS_HOME into PATH"
 
-  #print_pending "Creating Dummy Stone"
-  #output createStone dummy 3.4.0 >/dev/null 2>&1
-  #check_errors
-
-  #print_pending "Deleting Dummy Stone"
-  #output deleteStone dummy >/dev/null 2>&1
-  #check_errors
 }
 
 output () {
