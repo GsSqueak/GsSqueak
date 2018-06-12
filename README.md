@@ -18,7 +18,9 @@ Another project similar to this one was started, called [PharoGS](https://github
 
 3. Install GemStoneGUI and GsSqueakImport [see here](https://github.com/hpi-swa-lab/BP2017RH1/tree/master/tools)
 
-4. Start a new GemStone session with `GSGRepositoryManager open.` and login.
+3.5. Install VMMaker using `MCMcmUpdater updateFromRepository: 'http://source.squeak.org/VMMaker'.`
+
+4. Start a new GemStone session with `GSGRepositoryManager open.` and login. 
 
 5. Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone.
 
