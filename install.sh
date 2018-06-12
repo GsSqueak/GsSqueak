@@ -215,6 +215,18 @@ install_gs_devkit() {
   print_pending "Installing GsDevKit_home "
   installServerClient >/dev/null 2>&1
   check_errors
+
+  #print_pending "Creating Dummy Client tode"
+  #output createClient tode >/dev/null 2>&1
+  #check_errors
+
+  #print_pending "Creating Dummy Stone"
+  #output createStone dummy 3.4.0 >/dev/null 2>&1
+  #check_errors
+
+  #print_pending "Deleting Dummy Stone"
+  #output deleteStone dummy >/dev/null 2>&1
+  #check_errors
 }
 
 output () {
@@ -398,6 +410,10 @@ check_errors
     check_errors
   done
   popd >/dev/null
+  
+  print_pending "Saving State to Backup \"sq-prep\""
+  output todeBackup $stone_name sq-prep >/dev/null 2>&1
+  check_errors
 }
 
 ################################################################################
@@ -450,13 +466,9 @@ check_os
 check_gs_devkit
 check_env_variables
 
-print_pending "Downloading GemStone $GEMSTONE_VERSION"
+print_pending "Downloading GemStone $GEMSTONE_VERSION-$EA_VERSION"
 download_gemstone $GEMSTONE_VERSION $EA_VERSION
 check_warning
-
-#print_pending "Creating Dummy Client tode"
-#output createClient tode >/dev/null 2>&1
-#check_errors
 
 setup_gs_squeak $STONE_NAME $GEMSTONE_VERSION
 echo "finished."
