@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-stone_name="gsSqueak"
+STONE_NAME="gsSqueak"
+
+POSITIONAL=()
+
+while [[ $# -gt 0 ]]; do
 key="$1"
 case $key in
     -s|--stone-name)
@@ -21,7 +25,7 @@ set -- "${POSITIONAL[@]}"
 pushd GsDevKit_home >/dev/null
 source bin/defHOME_PATH.env
 popd >/dev/null
-startTopaz $stone_name -l << EOF
+startTopaz $STONE_NAME -l << EOF
 login
 run
 Workspace evaluate: '
