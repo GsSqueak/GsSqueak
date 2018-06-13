@@ -242,10 +242,10 @@ EOF
 load_package BPBugFixes "bug-fixes"
 load_package MCEnvSwitch "monticello-environment-switch"
 load_package SqueakParser "squeak-parser"
-load_package SqSuperclasses "deprecated/superclasses"
+load_package SqSuperclasses "squeak-modifications/pre-squeak-import"
 load_package SqueakEnvironments "squeak-environments"
-load_package SqContext "squeak-modifications/pre-squeak-import"
-load_package Workspace "deprecated/workspace"
+load_package Context0 "squeak-modifications/pre-squeak-import"
+load_package Workspace "squeak-modifications/pre-squeak-import"
 load_package Env0Extensions "squeak-modifications/pre-squeak-import"
 
 # create backup for that stage
@@ -279,7 +279,7 @@ logout
 exit
 EOF
 
-load_package EnvironmentsEnv7 "tools/SqueakEnvironments"
+load_package EnvironmentsEnv7 "squeak-environments"
 load_package -S Context
 load_package -S SqBooleans
 load_package -S SqClasses

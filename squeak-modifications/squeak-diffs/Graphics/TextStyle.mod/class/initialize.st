@@ -1,6 +1,6 @@
 initialization
 initialize
 	self initializeStyleDecoder.
-    "create a defualt font"
+    "create a default font"
     self initializeDefaultFont
  

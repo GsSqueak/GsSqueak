@@ -217,7 +217,6 @@ install_gs_devkit() {
   check_errors
 
   echo "To use GemStone scripts, please define GS_HOME environment variable as GsDevKit_home and put \$GS_HOME into PATH"
-
 }
 
 output () {
@@ -307,7 +306,7 @@ setup_gs_squeak() {
   local repo_path stone_name gs_version stone_exists response 
 
   repo_path=$GS_HOME/shared/repos/BP2017RH1/squeak-modifications/pre-squeak-import
-
+  
   stone_name="$1"
   gs_version="$2"
   print_pending "Checking for Stone $stone_name"
@@ -350,6 +349,13 @@ setup_gs_squeak() {
   else
     print_pending "Creating stone named $stone_name"
     output createStone "$stone_name" $gs_version > /dev/null 2>&1
+    check_errors
+
+    print_pending "Installing GraFFIcs"
+    GEMSTONE=$GS_HOME/shared/downloads/products/GemStone64Bit$gs_version-x86_64.Linux
+    chmod +w $GEMSTONE/lib
+    cp graffics/libgraFFIcs.so $GEMSTONE/lib
+    chmod -w $GEMSTONE/lib
     check_errors
   fi
 
@@ -405,6 +411,7 @@ check_errors
   print_pending "Saving State to Backup \"sq-prep\""
   output todeBackup $stone_name sq-prep >/dev/null 2>&1
   check_errors
+  
 }
 
 ################################################################################
