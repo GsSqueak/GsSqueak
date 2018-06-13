@@ -1,4 +1,0 @@
-Wrapper
-getAndClearLastError
-
-	self subclassResponsibility.

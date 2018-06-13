@@ -1,5 +1,5 @@
 oop access
-floatFromOop: oopArg
+floatFromOop: oopArg ifFail: failBlock
 	"convert GemStone SmallDouble into Squeak Float"
 	
 	| efBits sign newFloat result expBits |

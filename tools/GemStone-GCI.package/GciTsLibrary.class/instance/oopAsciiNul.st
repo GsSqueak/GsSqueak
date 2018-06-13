@@ -1,5 +1,4 @@
-Constants
+known oops
 oopAsciiNul
 
-	self subclassResponsibility.
-	
+	self subclassResponsibility

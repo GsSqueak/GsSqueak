@@ -1,4 +1,4 @@
-Constants
+known oops
 oopClassByteArray
 
 	self subclassResponsibility.

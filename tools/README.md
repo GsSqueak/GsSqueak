@@ -1,5 +1,5 @@
-## Installation Instructions
-Install the [OSProcess] dependency by executing the following code (requires [Metacello]):
+## Installation
+Install [OSProcess] (requires [Metacello]):
 ```smalltalk
 Metacello new
 	configuration: 'OSProcess';
@@ -7,7 +7,7 @@ Metacello new
 	load.
 ```
 
-Install FFI by executing:
+Install FFI:
 ```smalltalk
 Metacello new
 	repository: 'http://source.squeak.org/FFI/';
@@ -15,6 +15,10 @@ Metacello new
 	configuration: 'FFI';
 	load
 ```
+
+Add this `tools` directory as Filetree repository in Monticello Browser. Install the packages in the following order: `GemStone-GCI`, `GemStoneGUI`, `GsSqueakImport`.
+
+## Usage
 
 Open the browser by executing:
 ```smalltalk

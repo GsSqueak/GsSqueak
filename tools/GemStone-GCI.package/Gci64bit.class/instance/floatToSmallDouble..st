@@ -1,4 +1,4 @@
-oop access
+oop creation
 floatToSmallDouble: aFloat
 
 	| floatBits efBits exp11Bits exp8Bits fBits sign smallDouble smallDouble1 |

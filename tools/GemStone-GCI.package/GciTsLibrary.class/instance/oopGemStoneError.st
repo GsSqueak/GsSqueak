@@ -1,4 +1,4 @@
-Constants
+known oops
 oopGemStoneError
 
 	self subclassResponsibility.

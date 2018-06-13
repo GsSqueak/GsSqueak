@@ -3,12 +3,11 @@
 		"gsCursor" : "JGF 4/4/2007 09:18",
 		"initGsCursor" : "JGF 4/4/2007 12:44" },
 	"instance" : {
+		"executeAndReturnUtf8String:" : "sl 6/12/2018 15:41",
 		"executeString:" : "sl 6/11/2018 13:42",
-		"fetchUtf8String:" : "sl 6/11/2018 23:30",
-		"fetchUtf8String:size:" : "sl 6/11/2018 23:30",
 		"gciLibrary" : "sl 6/11/2018 23:52",
-		"login" : "sl 6/12/2018 00:27",
-		"logout" : "sl 6/12/2018 00:26",
+		"login" : "sl 6/12/2018 08:53",
+		"logout" : "sl 6/12/2018 08:54",
 		"sessionDescription" : "sl 6/11/2018 22:46",
 		"sessionHandle" : "sl 6/11/2018 22:46",
 		"setSessionDescription:" : "sl 6/11/2018 23:55" } }
