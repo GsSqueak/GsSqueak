@@ -16,6 +16,8 @@ Metacello new
 	load
 ```
 
+Add this `tools` directory as Filetree repository in Monticello Browser. Install the packages in the following order: `GemStone-GCI`, `GemStoneGUI`, `GsSqueakImport`.
+
 ## Usage
 
 Open the browser by executing:
