@@ -1,4 +1,0 @@
-interface
-executeString: aString
-
-	

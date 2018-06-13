@@ -1,4 +1,4 @@
 initialize-release
 logout
 
-	self gciLibrary logout: self sessionHandle
+	self gciLibrary logout: self

@@ -1,9 +1,9 @@
 wrapper
-execute: sourceString sourceClass: sourceOop context: contextObject symbolList: symbolList flags: flags environmentId: envId session: sessionHandle
+execute: sourceString sourceClass: sourceOop context: contextObject symbolList: symbolList flags: flags environmentId: envId session: gciSession
 
 	| result |
 	self errorType newDuring: [:error |
-		result := self GciTsExecute: sessionHandle
+		result := self GciTsExecute: gciSession sessionHandle
 					a: sourceString
 					a: sourceOop
 					a: contextObject

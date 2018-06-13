@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"newFrom:session:" : "sl 6/13/2018 22:53" },
 	"instance" : {
-		"session" : "JGF 4/6/2007 17:08",
-		"session:" : "JGF 4/6/2007 17:07" } }
+		"initializeFrom:" : "sl 6/13/2018 22:57",
+		"session" : "sl 6/13/2018 22:31",
+		"session:" : "sl 6/13/2018 22:31" } }

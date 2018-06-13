@@ -1,9 +1,9 @@
 wrapper
-logout: sessionHandle
+logout: gciSession
 
 	| success |
 	self errorType newDuring: [:error |
 		success := self
-			GciTsLogout: sessionHandle
+			GciTsLogout: gciSession sessionHandle
 			err: error.
 		success ifFalse: [self error: 'Gci Logout Error']]

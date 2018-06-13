@@ -1,4 +1,4 @@
 accessors
 session
 
-	^session.
+	^ session

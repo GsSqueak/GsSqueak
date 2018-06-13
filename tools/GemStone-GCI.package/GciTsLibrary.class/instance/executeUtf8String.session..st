@@ -1,5 +1,5 @@
 wrapper
-executeUtf8String: sourceString session: sessionHandle
+executeUtf8String: sourceString session: gciSession
 
 	^ self
 		execute: sourceString
@@ -8,4 +8,4 @@ executeUtf8String: sourceString session: sessionHandle
 		symbolList: self oopNil
 		flags: 0
 		environmentId: 0
-		session: sessionHandle
+		session: gciSession

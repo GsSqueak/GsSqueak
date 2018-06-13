@@ -1,0 +1,4 @@
+accessing
+reason
+
+	self subclassResponsibility

@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "sl 6/13/2018 22:14",
 	"instvars" : [
 		 ],
-	"name" : "GsCompileError",
+	"name" : "GsAbortingError",
 	"pools" : [
 		 ],
 	"super" : "GsError",

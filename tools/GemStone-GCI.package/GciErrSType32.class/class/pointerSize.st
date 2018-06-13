@@ -1,4 +1,4 @@
 field definition
 pointerSize
 
-	^ 8
+	^ 4
