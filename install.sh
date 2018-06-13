@@ -399,6 +399,13 @@ exit
 EOF
 check_errors
 
+print_pending "Raising Gem VM memory limits for Squeak import"
+pushd "${GS_HOME}/server/stones/${stone_name}" > /dev/null
+find . -name '*.conf' | xargs sed -i 's/GEM_TEMPOBJ_CACHE_SIZE = 50000;/GEM_TEMPOBJ_CACHE_SIZE = 500000;/g'
+find . -name '*.conf' | xargs sed -i 's/SHR_PAGE_CACHE_SIZE_KB = 500000;/SHR_PAGE_CACHE_SIZE_KB = 5000000;/g'
+check_errors
+popd > /dev/null
+
   pushd $repo_path >/dev/null
   for package in *.package; do
     local package_name=$(echo "$package" | cut -d'.' -f 1)
