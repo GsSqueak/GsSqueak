@@ -10,6 +10,20 @@ The project is based on ideas first developed in Ruby [MagLev](https://github.co
 Another project similar to this one was started, called [PharoGS](https://github.com/dalehenrich/PharoGs), where Pharo was modified the same way we did with Squeak. The project is discontinued though.
 
 ## Project Structure
+`BP2017RH1`  
+`├── bug-fixes` - Temporary bug fixes for GemStone/S  
+`├── deprecated`  
+`├── docs`  
+`├── graffics` - Graphics Library for SDL  
+`├── GsDevKit_home` - [GsDevKit_home](https://github.com/GsDevKit/GsDevKit_home) installation  
+`├── misc` - helper scripts and WIP tODE integration  
+`├── monticello-environment-switch` - Monticello Extension to load packages to environments  
+`├── squeak-environments` - SmalltalkImage and Environment classes from Squeak for Namespacing  
+`├── squeak-modifications` - Squeak bootstrap files  
+`├── squeak-parser` - Modified Squeak Parser for GemStone/S  
+`├── tools` - GemStone/S tools for Squeak  
+`└── install.sh`  
+
 
 ## Installation
 1. Execute and follow `install.sh`
@@ -27,3 +41,5 @@ Another project similar to this one was started, called [PharoGS](https://github
 7. Execute `gsSqueak.sh` to open GsSqueak
 
 ## Usage
+
+Just as you would use Squeak :)
