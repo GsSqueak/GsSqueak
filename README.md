@@ -16,14 +16,14 @@ Another project similar to this one was started, called [PharoGS](https://github
 
 2. Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
 
-3. Install VMMaker using `MCMcmUpdater updateFromRepository: 'http://source.squeak.org/VMMaker'.`
+3. Install VMMaker using `MCMcmUpdater updateFromRepository: 'http://source.squeak.org/VMMaker'`
 
-4. Install GemStoneGUI and GsSqueakImport [see here](https://github.com/hpi-swa-lab/BP2017RH1/tree/master/tools)
+4. Install GemStoneGUI and GsSqueakImport ([see here](https://github.com/hpi-swa-lab/BP2017RH1/tree/master/tools))
 
-5. Start a new GemStone session with `GSGRepositoryManager open.` and login. 
+5. Start a new GemStone session with `GSGRepositoryManager open.` and login
 
-6. Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone.
+6. Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone
 
-7. Execute `gsSqueak.sh` to open GsSqueak.
+7. Execute `gsSqueak.sh` to open GsSqueak
 
 ## Usage
