@@ -351,12 +351,12 @@ setup_gs_squeak() {
     output createStone "$stone_name" $gs_version > /dev/null 2>&1
     check_errors
 
-    print_pending "Installing GraFFIcs"
-    GEMSTONE=$GS_HOME/shared/downloads/products/GemStone64Bit$gs_version-x86_64.Linux
-    chmod +w $GEMSTONE/lib
-    cp graffics/libgraFFIcs.so $GEMSTONE/lib
-    chmod -w $GEMSTONE/lib
+    print_pending "Installing Graphics Library"
+    pushd "graffics" > /dev/null
+    export GEMSTONE="${GS_HOME}/server/stones/${stone_name}/product"
+    output make install
     check_errors
+    popd > /dev/null
   fi
 
 print_pending "Executing topaz script"
