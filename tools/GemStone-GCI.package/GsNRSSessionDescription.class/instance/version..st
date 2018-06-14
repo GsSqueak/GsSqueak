@@ -1,5 +1,4 @@
 accessing
-version: anObject
-	
-	version := anObject asString.
-	self changed: #mightBeValid
+version: textOrString
+
+	version := textOrString ifNotNil: [:text | text asString]

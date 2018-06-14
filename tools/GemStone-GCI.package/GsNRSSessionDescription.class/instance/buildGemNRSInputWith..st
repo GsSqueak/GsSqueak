@@ -7,6 +7,5 @@ buildGemNRSInputWith: builder
 		askBeforeDiscardingEdits: false;
 		indicateUnacceptedChanges: false;
 		getText: #gemNRS;
-		editText: #gemNRS:;
 		setText: #gemNRS:;
 		yourself

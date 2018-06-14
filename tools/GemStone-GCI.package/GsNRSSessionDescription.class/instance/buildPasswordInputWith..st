@@ -7,6 +7,5 @@ buildPasswordInputWith: builder
 		askBeforeDiscardingEdits: false;
 		indicateUnacceptedChanges: false;
 		getText: #password;
-		editText: #password:;
 		setText: #password:;
 		yourself

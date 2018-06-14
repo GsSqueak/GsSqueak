@@ -1,4 +1,0 @@
-accessing
-osPassword
-
-	self subclassResponsibility

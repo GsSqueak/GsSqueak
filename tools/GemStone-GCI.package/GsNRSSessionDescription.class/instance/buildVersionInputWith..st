@@ -7,6 +7,5 @@ buildVersionInputWith: builder
 		askBeforeDiscardingEdits: false;
 		indicateUnacceptedChanges: false;
 		getText: #version;
-		editText: #version:;
 		setText: #version:;
 		yourself
