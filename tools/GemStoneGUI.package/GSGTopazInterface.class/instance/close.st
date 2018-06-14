@@ -1,4 +1,5 @@
 interface
 close
 
-	self terminate
+	self terminate.
+	super close

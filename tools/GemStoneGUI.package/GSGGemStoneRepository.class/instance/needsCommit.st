@@ -1,4 +1,4 @@
-old api - transactions
+interface
 needsCommit
 
 	^ self fetchBoolean: 'System needsCommit'

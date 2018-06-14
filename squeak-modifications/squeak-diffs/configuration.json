@@ -35,7 +35,8 @@
 		"SmallFloat64",
 		"FullBlockClosure",
 		"CompiledCode",
-		"CompiledBlock"
+		"CompiledBlock",
+		"ObjectTracer"
 		],
 	"classesToInitializeFirst" : [
 		"SmalltalkImage",
@@ -58,21 +59,23 @@
 		
 		"DisplayScreen",
 		"BitBltSimulator",
-		"ZipWriteStream"
+		"ZipWriteStream",
+
+		"ChronologyConstants",
+		"Duration",
+		"DateAndTime"
 		],
 	"classesNotToInitialize" : [
 		"Delay",
-		"ObjectTracer",
-		
+	
 		"UserInterfaceTheme",
 		"Text",
 		"StrikeFont",
 		"CharacterScanner",
-		"DateAndTime",
 		"NaturalLanguageTranslator",
-		"LanguageEnvironment",
 		"FileStream",
 		"StandardFileStream",
+		"LanguageEnvironment",
 		"MenuIcons",
 		"CornerGripMorph",
 		"ImageMorph",
@@ -96,9 +99,7 @@
 		"UCSTable",
 		"URI",
 		"BalloonEngineConstants",
-		"ChronologyConstants",
 		"BalloonEngineBase",
-		"Duration",
 		"DeflatePlugin",
 		"VMConstantsTest",
 		"VMMakerTool",

@@ -5,7 +5,6 @@ buildButtonsWith: builder
 				model: self;
 				label: 'Accept';
 				color: (self userInterfaceTheme get: #okColor for: #DialogWindow);
-				enabled: #mightBeValid;
 				action: #accept.
 		builder pluggableButtonSpec new
 				model: self;

@@ -1,5 +1,4 @@
 accessing
-userID: anObject
+userID: textOrString
 	
-	userID := anObject asString.
-	self changed: #mightBeValid
+	userID := textOrString ifNotNil: [:text | text asString]

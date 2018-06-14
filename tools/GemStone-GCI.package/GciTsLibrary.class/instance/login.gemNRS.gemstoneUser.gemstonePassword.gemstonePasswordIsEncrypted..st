@@ -3,8 +3,8 @@ login: stoneNRS gemNRS: gemNRS gemstoneUser: gemstoneUsername gemstonePassword: 
 
 	^ self
 		login: stoneNRS
-		hostUser: nil
-		hostPassword: nil
+		hostUser: ''
+		hostPassword: ''
 		hostPasswordIsEncrypted: false
 		gemNRS: gemNRS
 		gemstoneUser: gemstoneUsername

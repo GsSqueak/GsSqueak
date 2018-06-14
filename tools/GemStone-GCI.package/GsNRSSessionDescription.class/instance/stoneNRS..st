@@ -1,5 +1,4 @@
 accessing
-stoneNRS: anObject
+stoneNRS: textOrString
 	
-	stoneNRS := anObject asString.
-	self changed: #mightBeValid
+	stoneNRS := textOrString ifNotNil: [:text | text asString]

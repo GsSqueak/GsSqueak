@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"InstanceDict" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"topazProcess",

@@ -1,4 +1,0 @@
-validation
-invalidate
-
-	self subclassResponsibility

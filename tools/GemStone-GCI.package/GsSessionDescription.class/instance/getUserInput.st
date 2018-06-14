@@ -2,4 +2,6 @@ toolbuilder
 getUserInput
 
 	ToolBuilder open: self.
-	^ self
+	^ self cancelled
+		ifTrue: [	nil]
+		ifFalse: [self]
