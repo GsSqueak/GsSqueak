@@ -1,5 +1,5 @@
 toolbuilder
 cancel
 
-	self invalidate.
+	self cancelled: true.
 	self close

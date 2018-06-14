@@ -9,7 +9,6 @@
 		"stoneNRS",
 		"version",
 		"gemNRS",
-		"osUser",
 		"userID",
 		"password" ],
 	"name" : "GsNRSSessionDescription",

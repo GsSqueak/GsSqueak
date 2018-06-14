@@ -1,4 +1,4 @@
 instance creation
 fromUserInput
 
-	^ self new getUserInput
+	^ self newFromTemplate getUserInput

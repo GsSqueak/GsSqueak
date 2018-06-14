@@ -11,7 +11,7 @@
 	"instance" : {
 		"execute:sourceClass:context:symbolList:flags:environmentId:session:" : "sl 6/13/2018 22:39",
 		"executeUtf8String:session:" : "sl 6/13/2018 22:39",
-		"fetchUtf8:session:" : "sl 6/13/2018 22:38",
+		"fetchUtf8:session:" : "sl 6/14/2018 10:36",
 		"fetchUtf8:size:session:" : "sl 6/13/2018 22:38",
 		"gemStoneVersion" : "sl 6/3/2018 19:10",
 		"isOnLinux" : "sl 6/3/2018 19:51",
@@ -21,7 +21,7 @@
 		"localFor:" : "JGF 4/3/2007 13:46",
 		"localForBytes:" : "dkh 6/19/2012 12:13",
 		"localForSpecial:" : "JGF 4/13/2007 18:43",
-		"login:gemNRS:gemstoneUser:gemstonePassword:gemstonePasswordIsEncrypted:" : "sl 6/12/2018 08:43",
+		"login:gemNRS:gemstoneUser:gemstonePassword:gemstonePasswordIsEncrypted:" : "sl 6/14/2018 08:22",
 		"login:hostUser:hostPassword:hostPasswordIsEncrypted:gemNRS:gemstoneUser:gemstonePassword:gemstonePasswordIsEncrypted:" : "sl 6/12/2018 08:41",
 		"logout:" : "sl 6/13/2018 22:37",
 		"moduleName" : "sl 6/12/2018 00:00",

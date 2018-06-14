@@ -1,5 +1,4 @@
 accessing
-gemNRS: anObject
+gemNRS: textOrString
 	
-	gemNRS := anObject asString.
-	self changed: #mightBeValid
+	gemNRS := textOrString ifNotNil: [:text | text asString]

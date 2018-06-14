@@ -1,9 +1,15 @@
 {
 	"class" : {
-		"isAbstract" : "sl 5/26/2018 10:54" },
+		"addInstance:" : "sl 6/14/2018 09:46",
+		"freeId" : "sl 6/14/2018 09:46",
+		"idOfInstance:" : "sl 6/14/2018 09:46",
+		"instanceDict" : "sl 6/14/2018 09:45",
+		"instances" : "sl 6/14/2018 09:49",
+		"isAbstract" : "sl 5/26/2018 10:54",
+		"removeInstance:" : "sl 6/14/2018 09:46" },
 	"instance" : {
 		"availableEnvironmentTypes" : "sl 5/26/2018 19:30",
-		"execute:" : "sl 5/21/2018 10:01",
+		"close" : "sl 6/14/2018 10:15",
 		"executeString:" : "sl 5/14/2018 21:13",
 		"fetch:query:" : "sl 5/20/2018 15:51",
 		"fetchArrayOfStrings:" : "sl 5/20/2018 20:10",
@@ -12,4 +18,6 @@
 		"fetchHierarchyTree:withElementsOfType:" : "sl 5/20/2018 19:08",
 		"fetchNumber:" : "sl 5/21/2018 14:47",
 		"fetchString:" : "sl 5/20/2018 18:59",
-		"fetchSymbol:" : "sl 5/21/2018 10:05" } }
+		"fetchSymbol:" : "sl 5/21/2018 10:05",
+		"id" : "sl 6/14/2018 09:55",
+		"needsCommit" : "sl 6/14/2018 10:13" } }

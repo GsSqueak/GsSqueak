@@ -1,6 +1,13 @@
 ## Repository
-Repository >> executeString:
 Repository >> id
+Repository >> close
+Repository >> label
+
+## Repository transactions
+Repository >> abortTransaction
+Repository >> commitTransaction
+Repository >> continueTransaction
+Repository >> needsCommit
 
 
 ## Environment
