@@ -59,14 +59,14 @@
 		
 		"DisplayScreen",
 		"BitBltSimulator",
-		"ZipWriteStream"
-		],
-	"classesNotToInitialize" : [
-		"Delay",
+		"ZipWriteStream",
 
 		"ChronologyConstants",
 		"Duration",
-		"DateAndTime",
+		"DateAndTime"
+		],
+	"classesNotToInitialize" : [
+		"Delay",
 	
 		"UserInterfaceTheme",
 		"Text",
@@ -99,7 +99,6 @@
 		"UCSTable",
 		"URI",
 		"BalloonEngineConstants",
-		"ChronologyConstants",
 		"BalloonEngineBase",
 		"DeflatePlugin",
 		"VMConstantsTest",
