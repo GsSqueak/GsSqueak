@@ -1,5 +1,5 @@
 interface
 close
 
-	self terminate.
+	self gciSession logout.
 	super close
