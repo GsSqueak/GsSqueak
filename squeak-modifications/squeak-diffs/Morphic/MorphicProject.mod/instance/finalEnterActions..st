@@ -3,9 +3,10 @@ finalEnterActions: leavingProject
 	"Perform the final actions necessary as the receiver project is entered"
 
 	| navigator armsLengthCmd navType thingsToUnhibernate |
-	"If this image has a global World variable, update it now"
-	Smalltalk globals at: #World
-		ifPresent: [ :w | Smalltalk globals at: #World put: world ].
+	"GsSqueak should have a World variable. During bootstrap it is created at this point"
+	Smalltalk globals at: #World put: world .
+	World color: Color spindrift.
+	
 	world install.
 	leavingProject ifNotNil: [
   	world transferRemoteServerFrom: leavingProject world].
@@ -14,7 +15,7 @@ finalEnterActions: leavingProject
 			self storeSomeSegment]]."
 	
 	"Transfer event recorder to me."
-	leavinProject ifNotNil: [
+	leavingProject ifNotNil: [
     leavingProject isMorphic ifTrue: [
 	    leavingProject world pauseEventRecorder ifNotNil: [:rec |
 		    rec resumeIn: world]]].
@@ -30,7 +31,7 @@ finalEnterActions: leavingProject
 			projectsToBeDeleted do: [:each | each delete]].
 
 	Locale switchAndInstallFontToID: self localeID.
-
+	
 	thingsToUnhibernate := world valueOfProperty: #thingsToUnhibernate ifAbsent: [#()].
 	thingsToUnhibernate do: [:each | each unhibernate].
 	world removeProperty: #thingsToUnhibernate.
@@ -50,8 +51,11 @@ finalEnterActions: leavingProject
 				[self flapsSuppressed: true.
 				navigator ifNotNil:	[navigator visible: false]].
 		armsLengthCmd openInWorld: world].
+		
+	
 	world reformulateUpdatingMenus.
 	world presenter positionStandardPlayer.
 	self assureMainDockingBarPresenceMatchesPreference.
 
 	world repairEmbeddedWorlds.
+
