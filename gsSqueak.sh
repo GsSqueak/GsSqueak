@@ -25,7 +25,7 @@ set -- "${POSITIONAL[@]}"
 pushd GsDevKit_home >/dev/null
 source bin/defHOME_PATH.env
 popd >/dev/null
-startTopaz $STONE_NAME -l << EOF
+startTopaz $STONE_NAME -l -T 1000000 << EOF
 login
 run
 Workspace evaluate: '
