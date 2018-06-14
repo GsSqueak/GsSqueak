@@ -1,3 +1,0 @@
-printing
-stringForReadout
-	^ self stringRepresentation
