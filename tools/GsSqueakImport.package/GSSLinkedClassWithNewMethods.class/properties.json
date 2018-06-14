@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "GSSLinkedGemstoneClass",
+	"name" : "GSSLinkedClassWithNewMethods",
 	"pools" : [
 		 ],
-	"super" : "GSSClassDefinition",
+	"super" : "GSSNewClass",
 	"type" : "normal" }

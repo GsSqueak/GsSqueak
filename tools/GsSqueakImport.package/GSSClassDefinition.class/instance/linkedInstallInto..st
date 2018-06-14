@@ -1,5 +1,5 @@
 installing
-installInto: anEnvironment
+linkedInstallInto: anEnvironment
 
 	^ anEnvironment
 		createLinkedClass: self name

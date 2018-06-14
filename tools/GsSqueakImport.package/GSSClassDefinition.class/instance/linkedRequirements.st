@@ -1,5 +1,5 @@
 dependency sorting
-requirements
+linkedRequirements
 
 	| requirements |
 	requirements := OrderedCollection new.

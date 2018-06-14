@@ -1,0 +1,14 @@
+{
+	"category" : "GsSqueakImport",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSSLinkedClassWithModifiedMethods",
+	"pools" : [
+		 ],
+	"super" : "GSSModifiedClass",
+	"type" : "normal" }

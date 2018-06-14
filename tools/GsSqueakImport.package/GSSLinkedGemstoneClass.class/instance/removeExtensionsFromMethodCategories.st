@@ -1,5 +1,0 @@
-utility
-removeExtensionsFromMethodCategories
-
-	self removeExtensionsFromMethodCategories: self loadedInstanceMethods.
-	self removeExtensionsFromMethodCategories: self loadedClassMethods
