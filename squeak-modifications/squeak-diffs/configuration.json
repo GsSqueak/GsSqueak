@@ -35,7 +35,8 @@
 		"SmallFloat64",
 		"FullBlockClosure",
 		"CompiledCode",
-		"CompiledBlock"
+		"CompiledBlock",
+		"ObjectTracer"
 		],
 	"classesToInitializeFirst" : [
 		"SmalltalkImage",
@@ -62,17 +63,19 @@
 		],
 	"classesNotToInitialize" : [
 		"Delay",
-		"ObjectTracer",
-		
+
+		"ChronologyConstants",
+		"Duration",
+		"DateAndTime",
+	
 		"UserInterfaceTheme",
 		"Text",
 		"StrikeFont",
 		"CharacterScanner",
-		"DateAndTime",
 		"NaturalLanguageTranslator",
-		"LanguageEnvironment",
 		"FileStream",
 		"StandardFileStream",
+		"LanguageEnvironment",
 		"MenuIcons",
 		"CornerGripMorph",
 		"ImageMorph",
@@ -98,7 +101,6 @@
 		"BalloonEngineConstants",
 		"ChronologyConstants",
 		"BalloonEngineBase",
-		"Duration",
 		"DeflatePlugin",
 		"VMConstantsTest",
 		"VMMakerTool",
