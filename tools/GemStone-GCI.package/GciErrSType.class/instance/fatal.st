@@ -1,0 +1,4 @@
+accessing
+fatal
+
+	self subclassResponsibility

@@ -1,4 +1,4 @@
 wrapper
-fetchUtf8: anOop session: sessionHandle
+fetchUtf8: anOop session: gciSession
 
-	^ self fetchUtf8: anOop size: 10000 session: sessionHandle
+	^ self fetchUtf8: anOop size: 10000 session: gciSession

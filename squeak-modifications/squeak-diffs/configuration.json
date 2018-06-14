@@ -99,7 +99,6 @@
 		"ChronologyConstants",
 		"BalloonEngineBase",
 		"Duration",
-		"EventSensorConstants",
 		"DeflatePlugin",
 		"VMConstantsTest",
 		"VMMakerTool",

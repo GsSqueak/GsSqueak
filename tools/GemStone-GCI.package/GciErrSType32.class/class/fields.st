@@ -1,9 +1,9 @@
 field definition
 fields
-	"self defineFields"
+
 	^ #((category 'ulong')
 		(context 'ulong')
-		(exceptionObj 'ulong')
+		(exceptionObject 'ulong')
 		(args 'ulong*')
 		(number 'long')
 		(argCount 'long')
