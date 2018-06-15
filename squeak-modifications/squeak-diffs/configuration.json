@@ -20,7 +20,11 @@
 		"SharedPool-Speech-Klatt",
 		"Balloon-Engine-Pools",
 		"VMMaker",
-		"Compression"
+		"Compression",
+		"Balloon",
+		"PreferenceBrowser",
+		"Services",
+		"Monticello"
 		],
 	"classesToLoad" : [
 		"Environment",
@@ -63,12 +67,14 @@
 
 		"ChronologyConstants",
 		"Duration",
-		"DateAndTime"
+		"DateAndTime",
+		
+		"MczInstaller",
+		"BrowserProvider"
 		],
 	"classesNotToInitialize" : [
 		"Delay",
 	
-		"UserInterfaceTheme",
 		"Text",
 		"StrikeFont",
 		"CharacterScanner",
@@ -76,7 +82,6 @@
 		"FileStream",
 		"StandardFileStream",
 		"LanguageEnvironment",
-		"MenuIcons",
 		"CornerGripMorph",
 		"ImageMorph",
 		"PopUpMenu",
