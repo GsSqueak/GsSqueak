@@ -1,4 +1,4 @@
-Constants
+known oops
 oopClassByteArray
 
-	^OopType64 fromInteger: 103425.
+	^ 103425

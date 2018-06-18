@@ -1,5 +1,6 @@
 handling
 defaultAction
-	"No one has handled this error, but now give them a chance to decide how to debug it.  If none handle this either then open debugger (see UnhandedError-defaultAction)"
-	self _env0 halt. "until now GsSqueak does not support error handling so we need a gs debugger"
-	UnhandledError signalForException: self
+	"The current computation is terminated. The cause of the error should be logged or reported to the user. If the program is operating in an interactive debugging environment the computation should be suspended and the debugger activated."
+    
+	"^ToolSet debugError: self exception" "We do not have a Debugger yet"
+	^ self _env0 defaultAction

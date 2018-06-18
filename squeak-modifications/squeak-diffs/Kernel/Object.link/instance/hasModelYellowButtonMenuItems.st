@@ -1,3 +1,0 @@
-graph model
-hasModelYellowButtonMenuItems
-	^Preferences cmdGesturesEnabled

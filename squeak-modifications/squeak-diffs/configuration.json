@@ -20,7 +20,11 @@
 		"SharedPool-Speech-Klatt",
 		"Balloon-Engine-Pools",
 		"VMMaker",
-		"Compression"
+		"Compression",
+		"Balloon",
+		"PreferenceBrowser",
+		"Services",
+		"Monticello"
 		],
 	"classesToLoad" : [
 		"Environment",
@@ -35,7 +39,8 @@
 		"SmallFloat64",
 		"FullBlockClosure",
 		"CompiledCode",
-		"CompiledBlock"
+		"CompiledBlock",
+		"ObjectTracer"
 		],
 	"classesToInitializeFirst" : [
 		"SmalltalkImage",
@@ -58,22 +63,25 @@
 		
 		"DisplayScreen",
 		"BitBltSimulator",
-		"ZipWriteStream"
+		"ZipWriteStream",
+
+		"ChronologyConstants",
+		"Duration",
+		"DateAndTime",
+		
+		"MczInstaller",
+		"BrowserProvider"
 		],
 	"classesNotToInitialize" : [
 		"Delay",
-		"ObjectTracer",
-		
-		"UserInterfaceTheme",
+	
 		"Text",
 		"StrikeFont",
 		"CharacterScanner",
-		"DateAndTime",
 		"NaturalLanguageTranslator",
-		"LanguageEnvironment",
 		"FileStream",
 		"StandardFileStream",
-		"MenuIcons",
+		"LanguageEnvironment",
 		"CornerGripMorph",
 		"ImageMorph",
 		"PopUpMenu",
@@ -96,10 +104,7 @@
 		"UCSTable",
 		"URI",
 		"BalloonEngineConstants",
-		"ChronologyConstants",
 		"BalloonEngineBase",
-		"Duration",
-		"EventSensorConstants",
 		"DeflatePlugin",
 		"VMConstantsTest",
 		"VMMakerTool",

@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-GCI-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sl 6/13/2018 22:05",
+	"instvars" : [
+		 ],
+	"name" : "GsCompilerError",
+	"pools" : [
+		 ],
+	"super" : "GsError",
+	"type" : "normal" }

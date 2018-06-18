@@ -1,4 +1,0 @@
-Constants
-sizeInBytesOfOop
-
-	^8.

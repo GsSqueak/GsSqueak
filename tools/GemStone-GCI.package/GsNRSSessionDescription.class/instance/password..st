@@ -1,5 +1,4 @@
 accessing
-password: aString
+password: textOrString
 
-	password := aString asString.
-	self changed: #mightBeValid
+	password := textOrString ifNotNil: [:text | text asString]

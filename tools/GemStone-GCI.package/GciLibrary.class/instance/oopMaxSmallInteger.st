@@ -1,5 +1,0 @@
-Constants
-oopMaxSmallInteger
-
-	self subclassResponsibility.
-	

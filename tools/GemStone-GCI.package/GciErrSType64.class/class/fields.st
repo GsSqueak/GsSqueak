@@ -1,6 +1,6 @@
 field definition
 fields
-	"self defineFields. self compileFields"
+
 	^ #((category 'ulonglong')
 		(context 'ulonglong')
 		(exceptionObject 'ulonglong')

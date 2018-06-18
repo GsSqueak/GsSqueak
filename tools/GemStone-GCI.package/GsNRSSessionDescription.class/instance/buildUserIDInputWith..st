@@ -7,6 +7,5 @@ buildUserIDInputWith: builder
 		askBeforeDiscardingEdits: false;
 		indicateUnacceptedChanges: false;
 		getText: #userID;
-		editText: #userID:;
 		setText: #userID:;
 		yourself

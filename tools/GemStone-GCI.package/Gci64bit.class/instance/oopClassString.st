@@ -1,4 +1,4 @@
-Constants
+known oops
 oopClassString
 
-	^OopType64 fromInteger: 74753.
+	^ 74753

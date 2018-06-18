@@ -1,4 +1,4 @@
 testing
 isUnmodified
 
-	^ false
+	^ self oldVersion = self newVersion

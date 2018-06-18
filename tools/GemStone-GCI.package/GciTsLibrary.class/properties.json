@@ -1,0 +1,14 @@
+{
+	"category" : "GemStone-GCI-Library",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JGF 12/15/2006 14:53",
+	"instvars" : [
+		"gemStoneVersion" ],
+	"name" : "GciTsLibrary",
+	"pools" : [
+		 ],
+	"super" : "ExternalLibrary",
+	"type" : "normal" }

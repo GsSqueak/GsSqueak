@@ -1,5 +1,0 @@
-Constants
-oopClassSymbol
-
-	self subclassResponsibility.
-	

@@ -1,4 +1,4 @@
-Constants
+known oops
 oopMinusOne
 
-	^OopType64 fromInteger: 16rFFFFFFFFFFFFFFFA.
+	^ 16rFFFFFFFFFFFFFFFA

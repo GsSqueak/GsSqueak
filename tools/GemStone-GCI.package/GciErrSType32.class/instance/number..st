@@ -1,4 +1,0 @@
-accessing
-number: anObject
-	"This method was automatically generated. See GciErrSType32 class>>fields."
-	handle signedLongAt: 17 put: anObject

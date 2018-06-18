@@ -1,4 +1,4 @@
-Constants
+known oops
 oopFalse
 
-	^OopType64 fromInteger: 12. "16r0C"
+	^ 12 "16r0C"

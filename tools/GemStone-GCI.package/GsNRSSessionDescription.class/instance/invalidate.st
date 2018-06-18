@@ -1,4 +1,0 @@
-validation
-invalidate
-
-	stoneNRS := nil

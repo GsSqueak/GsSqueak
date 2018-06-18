@@ -1,4 +1,4 @@
-Constants
+known oops
 oopMaxSmallInteger
 
-	^OopType64 fromInteger: 16r7FFFFFFFFFFFFFFA.
+	^ 16r7FFFFFFFFFFFFFFA

@@ -1,4 +1,0 @@
-Constants
-oopClassQuadByteString
-
-	self subclassResponsibility.

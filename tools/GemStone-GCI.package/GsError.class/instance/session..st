@@ -1,4 +1,4 @@
 accessors
 session: aGciSession
 
-	session := aGciSession.
+	session := aGciSession

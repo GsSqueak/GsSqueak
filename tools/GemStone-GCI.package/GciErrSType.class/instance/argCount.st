@@ -1,0 +1,4 @@
+accessing
+argCount
+
+	self subclassResponsibility

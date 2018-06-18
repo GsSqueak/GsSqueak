@@ -1,4 +1,4 @@
-Constants
+known oops
 oopIllegal
 
-	^OopType64 fromInteger: 1. "16r01"
+	^ 1 "16r01"

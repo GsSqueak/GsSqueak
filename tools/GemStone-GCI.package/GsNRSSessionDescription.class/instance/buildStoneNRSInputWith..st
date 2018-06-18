@@ -7,6 +7,5 @@ buildStoneNRSInputWith: builder
 		askBeforeDiscardingEdits: false;
 		indicateUnacceptedChanges: false;
 		getText: #stoneNRS;
-		editText: #stoneNRS:;
 		setText: #stoneNRS:;
 		yourself

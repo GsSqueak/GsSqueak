@@ -1,4 +1,4 @@
 accessing
 wordSize
 
-	^ 32
+	^ 4

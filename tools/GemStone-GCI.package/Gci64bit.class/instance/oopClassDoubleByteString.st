@@ -1,4 +1,4 @@
-Constants
+known oops
 oopClassDoubleByteString
 
-	^OopType64 fromInteger: 99329.
+	^ 99329

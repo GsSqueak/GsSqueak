@@ -1,12 +1,12 @@
 {
 	"category" : "GemStone-GCI-Session",
 	"classinstvars" : [
-		 ],
+		"template" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"cancelled" ],
 	"name" : "GsSessionDescription",
 	"pools" : [
 		 ],

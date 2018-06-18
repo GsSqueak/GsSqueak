@@ -1,4 +1,4 @@
-Constants
+known oops
 oopClassUnicode16
 
-	^self oopClassDoubleByteString
+	^ self oopClassDoubleByteString

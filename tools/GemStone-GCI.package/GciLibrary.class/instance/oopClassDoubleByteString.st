@@ -1,4 +1,0 @@
-Constants
-oopClassDoubleByteString
-
-	self subclassResponsibility.

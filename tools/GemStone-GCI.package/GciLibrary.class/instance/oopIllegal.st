@@ -1,5 +1,0 @@
-Constants
-oopIllegal
-
-	self subclassResponsibility.
-	

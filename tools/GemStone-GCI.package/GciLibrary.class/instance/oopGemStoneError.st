@@ -1,5 +1,0 @@
-Constants
-oopGemStoneError
-
-	self subclassResponsibility.
-	

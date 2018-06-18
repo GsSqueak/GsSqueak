@@ -1,4 +1,0 @@
-scripting
-selfWrittenAsMy
-
-	^self

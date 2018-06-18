@@ -1,5 +1,0 @@
-Constants
-oopTypeClass
-
-	self subclassResponsibility.
-	

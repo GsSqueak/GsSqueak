@@ -1,4 +1,4 @@
 instance creation
 lookup: aStringOrSymbol
 
-	^ self _env0 _existingWithAll: aStringOrSymbol
+	^ (GemstoneSmalltalk _env0 at: #Symbol) _env0 _existingWithAll: aStringOrSymbol

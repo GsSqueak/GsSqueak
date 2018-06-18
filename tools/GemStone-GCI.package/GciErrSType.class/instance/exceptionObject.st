@@ -1,0 +1,4 @@
+accessing
+exceptionObject
+
+	self subclassResponsibility

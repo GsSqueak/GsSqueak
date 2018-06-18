@@ -1,0 +1,4 @@
+accessing
+errorType
+
+	^ GciErrSType64

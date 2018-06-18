@@ -1,5 +1,0 @@
-singleton
-isClassForVersion: aString
-
-	^false.
-	

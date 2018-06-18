@@ -2,5 +2,5 @@ concretization
 supportedDirectoryExtensions
 
 	^ Array streamContents: [:stream |
-		self subclassesDo: [:aClass |
+		self allSubclassesDo: [:aClass |
 			stream nextPutAll: aClass directoryExtensions]]

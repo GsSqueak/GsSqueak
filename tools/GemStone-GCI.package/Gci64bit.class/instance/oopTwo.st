@@ -1,4 +1,4 @@
-Constants
+known oops
 oopTwo
 
-	^OopType64 fromInteger: 18.
+	^ 18

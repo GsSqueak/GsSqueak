@@ -1,5 +1,0 @@
-Constants
-oopClassByteArray
-
-	self subclassResponsibility.
-	

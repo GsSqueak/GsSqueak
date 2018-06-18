@@ -1,3 +1,0 @@
-macpal
-flash
-	"Do nothing."
