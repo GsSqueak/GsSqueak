@@ -5,4 +5,4 @@ perform: selector withArguments: argArray
 	does not match the size of argArray.
 	Primitive. Optional. See Object documentation whatIsAPrimitive."
 
-	^ self _env0 perform: aSymbol env: 7 withArguments: argArray inSuperclass: self class
+	^ self _env0 perform: aSymbol env: 7 withArguments: argArray
