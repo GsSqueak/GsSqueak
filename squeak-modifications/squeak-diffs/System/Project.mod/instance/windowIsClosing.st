@@ -1,4 +1,0 @@
-release
-windowIsClosing
-
-	self prepareForDelete.
