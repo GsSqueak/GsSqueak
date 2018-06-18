@@ -24,7 +24,8 @@
 		"Balloon",
 		"PreferenceBrowser",
 		"Services",
-		"Monticello"
+		"Monticello",
+		"GsIndexes"
 		],
 	"classesToLoad" : [
 		"Environment",
