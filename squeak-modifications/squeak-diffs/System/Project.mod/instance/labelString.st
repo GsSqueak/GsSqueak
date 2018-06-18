@@ -1,3 +1,0 @@
-accessing
-labelString
-	^ changeSet name

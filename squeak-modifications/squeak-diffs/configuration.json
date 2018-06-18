@@ -24,7 +24,10 @@
 		"Balloon",
 		"PreferenceBrowser",
 		"Services",
-		"Monticello"
+		"Monticello",
+		"GsIndexes",
+		"MonticelloConfigurations",
+		"Etoys-customevents"
 		],
 	"classesToLoad" : [
 		"Environment",
@@ -71,7 +74,11 @@
 		
 		"MczInstaller",
 		"ServicePreferences",
-		"BrowserProvider"
+		"BrowserProvider",
+
+		"InflateStream",
+		"FastInflateStream",
+		"ZLibReadStream"
 		],
 	"classesNotToInitialize" : [
 		"Delay",
@@ -109,5 +116,7 @@
 		"DeflatePlugin",
 		"VMConstantsTest",
 		"VMMakerTool",
-		"TrashCanMorph"
+		"TrashCanMorph",
+		"MCRepositoryInspector",
+		"MCMcmUpdater"
 	]}
