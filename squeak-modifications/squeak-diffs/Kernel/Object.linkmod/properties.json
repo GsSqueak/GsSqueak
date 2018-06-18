@@ -1,2 +1,4 @@
 {
-	"name" : "Object" }
+	"category" : "Kernel-Objects",
+	"name" : "Object",
+	"super" : "ProtoObject" }
