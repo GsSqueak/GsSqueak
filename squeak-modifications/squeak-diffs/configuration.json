@@ -27,7 +27,8 @@
 		"Monticello",
 		"GsIndexes",
 		"MonticelloConfigurations",
-		"Etoys-customevents"
+		"Etoys-customevents",
+		"Etoys-geometry"
 		],
 	"classesToLoad" : [
 		"Environment",
