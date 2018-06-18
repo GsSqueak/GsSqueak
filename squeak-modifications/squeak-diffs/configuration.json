@@ -101,8 +101,6 @@
 		"JoystickMorph",
 		"UCSTable",
 		"URI",
-		"BalloonEngineConstants",
-		"BalloonEngineBase",
 		"DeflatePlugin",
 		"VMConstantsTest",
 		"VMMakerTool",
