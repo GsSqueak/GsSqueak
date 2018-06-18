@@ -1,3 +1,3 @@
 primitives
 beCursor
-	self shouldBeImplemented
+	"GsSqueak does not show custom cursors for now"
