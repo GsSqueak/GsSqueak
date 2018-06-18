@@ -33,8 +33,15 @@ Workspace evaluate: '
   Display setExtent: 800 @ 600 depth: 32.
   Display beDisplay.
   EventSensor startUp.
-  MorphicProject new enter.
-  RectangleMorph new openInWorld.
-  [true] whileTrue: [Processor yield]'
+  Delay initialize.
+  MorphicProject new enter.'.
+  
+[ true ] whileTrue: [
+(Delay forMilliseconds: 100) wait.
+
+Workspace evaluate: '
+ Sensor fetchMoreEvents.
+ World doOneCycle.
+'.]
 %
 stack
