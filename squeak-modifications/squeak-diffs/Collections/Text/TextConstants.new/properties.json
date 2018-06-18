@@ -13,7 +13,8 @@
 		"Space",
 		"DefaultSpace",
 		"Tab",
-		"DefaultTextStyle" ],
+		"DefaultTextStyle",
+		"CR" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
