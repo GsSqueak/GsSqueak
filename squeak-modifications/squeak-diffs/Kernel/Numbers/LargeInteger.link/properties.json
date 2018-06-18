@@ -1,4 +1,4 @@
 {
 	"category" : "Kernel-Numbers",
-	"super" : "Integer",
-	"name" : "LargeInteger" }
+	"name" : "LargeInteger",
+	"super" : "Integer" }
