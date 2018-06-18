@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
+        "_indexedPaths"
 		 ],
 	"name" : "UnorderedCollection",
 	"pools" : [
