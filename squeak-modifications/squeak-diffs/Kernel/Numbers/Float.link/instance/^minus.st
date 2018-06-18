@@ -1,4 +1,5 @@
 arithmetic
 - aNumber
 
-	^ self _env0 - aNumber
+<primitive: 107>
+^ aNumber adaptToFloat: self andSend: #-
