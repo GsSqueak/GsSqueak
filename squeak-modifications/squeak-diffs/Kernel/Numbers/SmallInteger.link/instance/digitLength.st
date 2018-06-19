@@ -13,4 +13,4 @@ digitLength
 	[value > 255] whileTrue:
 		[value := value bitShift: -8.
 		 length := length + 1].
-	^length 
+	^length
