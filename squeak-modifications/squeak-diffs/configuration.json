@@ -29,7 +29,8 @@
 		"MonticelloConfigurations",
 		"Etoys-customevents",
 		"Etoys-geometry",
-		"Protocols"
+		"Protocols",
+		"SqTransactions"
 		],
 	"classesToLoad" : [
 		"Environment",
