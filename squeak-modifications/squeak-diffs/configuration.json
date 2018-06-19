@@ -28,7 +28,8 @@
 		"GsIndexes",
 		"MonticelloConfigurations",
 		"Etoys-customevents",
-		"Etoys-geometry"
+		"Etoys-geometry",
+		"CompilerMock"
 		],
 	"classesToLoad" : [
 		"Environment",
