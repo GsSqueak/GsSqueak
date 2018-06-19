@@ -2,7 +2,7 @@ binding
 unbind: aSymbol 
 	| _gsSqueakTemp_binding |
 	_gsSqueakTemp_binding := declarations
-				bindingOf: aSymbol
+				at: aSymbol
 				ifAbsent: [^ self].
 	undeclared declare: aSymbol from: declarations.
 	declarations
