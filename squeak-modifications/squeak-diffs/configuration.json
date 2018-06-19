@@ -29,7 +29,9 @@
 		"MonticelloConfigurations",
 		"Etoys-customevents",
 		"Etoys-geometry",
-		"CompilerMock"
+		"CompilerMock",
+		"Protocols",
+		"SqTransactions"
 		],
 	"classesToLoad" : [
 		"Environment",
@@ -44,8 +46,7 @@
 		"SmallFloat64",
 		"FullBlockClosure",
 		"CompiledCode",
-		"CompiledBlock",
-		"ObjectTracer"
+		"CompiledBlock"
 		],
 	"classesToInitializeFirst" : [
 		"SmalltalkImage",
@@ -108,5 +109,8 @@
 		"VMMakerTool",
 		"TrashCanMorph",
 		"MCRepositoryInspector",
-		"MCMcmUpdater"
+		"MCMcmUpdater",
+        "ObjectTracer",
+        "Vocabulary",
+        "UserCustomEventNameType"
 	]}
