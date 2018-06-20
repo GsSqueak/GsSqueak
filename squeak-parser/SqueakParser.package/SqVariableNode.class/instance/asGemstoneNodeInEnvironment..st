@@ -5,10 +5,7 @@ asGemstoneNodeInEnvironment: env
   self key = 'self'
     ifTrue: [ 
       ^ gsVariableNode
-        leaf:
-          (SqParser methodVarDict
-            at: #'self'
-            ifAbsentPut: [ GsComVarLeaf new initializeSelf ]) ].
+        leaf: (gsLeaf ifNil: [ gsLeaf := GsComVarLeaf new initializeSelf ]) ].
   self key = 'true'
     ifTrue: [ ^ GsComLiteralNode newTrue ].
   self key = 'false'
