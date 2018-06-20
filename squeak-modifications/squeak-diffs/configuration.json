@@ -29,6 +29,7 @@
 		"MonticelloConfigurations",
 		"Etoys-customevents",
 		"Etoys-geometry",
+		"CompilerMock",
 		"Protocols",
 		"SqTransactions"
 		],

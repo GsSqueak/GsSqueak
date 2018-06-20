@@ -5,5 +5,5 @@ undeclare: aSymbol from: aNamespace
 	(aNamespace bindingOf: aSymbol)
 		ifNotNil: [:old | 
 			aNamespace removeKey: aSymbol.
-			old becomeForward: _gsSqueakTemp_binding].
-	^ _gsSqueakTemp_binding
+			old become: _gsSqueakTemp_binding].
+	^ old
