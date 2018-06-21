@@ -32,16 +32,7 @@ Workspace evaluate: '
   Display := DisplayScreen new.
   Display setExtent: 800 @ 600 depth: 32.
   Display beDisplay.
-  EventSensor startUp.
-  Delay initialize.
+  "EventSensor startUp."
   Project current ifNil: [  MorphicProject new enter.].'.
-  
-[ true ] whileTrue: [
-(Delay forMilliseconds: 100) wait.
-
-Workspace evaluate: '
- Sensor fetchMoreEvents.
- World doOneCycle.
-'.]
+  [true] whileTrue: [(Delay forMilliseconds: 1000) wait.]. "give squeak time"
 %
-stack
