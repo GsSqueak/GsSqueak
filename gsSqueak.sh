@@ -34,7 +34,7 @@ Workspace evaluate: '
   Display beDisplay.
   EventSensor startUp.
   Delay initialize.
-  MorphicProject new enter.'.
+  Project current ifNil: [  MorphicProject new enter.].'.
   
 [ true ] whileTrue: [
 (Delay forMilliseconds: 100) wait.
