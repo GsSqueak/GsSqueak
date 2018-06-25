@@ -33,6 +33,8 @@ Workspace evaluate: '
   Display setExtent: 800 @ 600 depth: 32.
   Display beDisplay.
   "EventSensor startUp."
-  Project current ifNil: [  MorphicProject new enter.].'.
+  Project current ifNil: [  MorphicProject new enter.] 
+    ifNotNil: [Project current spawnNewProcess.].'.
+
   [true] whileTrue: [(Delay forMilliseconds: 1000) wait.]. "give squeak time"
 %
