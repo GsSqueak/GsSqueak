@@ -14,3 +14,8 @@ initialize
 	"there should be no instances of any of these during GsSqueak bootstrap"
 	"SystemWindow allSubInstancesDo:[:w| w updatePaneColors].
 	ScrollPane allSubInstancesDo:[:pane| pane hideOrShowScrollBars]."
+	
+	"Set some settings for GsSqueak"
+	GradientScrollBar := false.
+	ScrollBarsWithoutMenuButton := true.
+	ScrollBarsWithoutArrowButtons := true

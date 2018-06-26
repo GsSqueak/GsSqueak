@@ -1,0 +1,3 @@
+initialization
+initialize
+    GradientDialog := false
