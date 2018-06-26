@@ -1,0 +1,16 @@
+{
+	"category" : "SqTransactions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+        "netldi"
+		],
+	"commentStamp" : "",
+	"instvars" : [
+        "extSession"
+		 ],
+	"name" : "ExternalTransaction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
