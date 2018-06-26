@@ -12,6 +12,8 @@ initialize
 	
 	"on GsSqueak bootstrap, there is no FormDictionary"
 	FormDictionary ifNil: [
-    	FormDictionary := IdentityDictionary new ]
+    	FormDictionary := IdentityDictionary new ].
+    	
+    self initializeForms
 
 "StandardScriptingSystem initialize"

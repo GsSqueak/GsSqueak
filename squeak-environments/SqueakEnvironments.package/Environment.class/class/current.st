@@ -1,4 +1,3 @@
 accessing
 current
-	^ CurrentEnvironment signal
-		ifNil: [self default]
+	^ Smalltalk at: #SqueakEnvironement

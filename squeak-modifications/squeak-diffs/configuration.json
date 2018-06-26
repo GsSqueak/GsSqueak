@@ -24,7 +24,14 @@
 		"Balloon",
 		"PreferenceBrowser",
 		"Services",
-		"Monticello"
+		"Monticello",
+		"GsIndexes",
+		"MonticelloConfigurations",
+		"Etoys-customevents",
+		"Etoys-geometry",
+		"CompilerMock",
+		"Protocols",
+		"SqTransactions"
 		],
 	"classesToLoad" : [
 		"Environment",
@@ -39,8 +46,7 @@
 		"SmallFloat64",
 		"FullBlockClosure",
 		"CompiledCode",
-		"CompiledBlock",
-		"ObjectTracer"
+		"CompiledBlock"
 		],
 	"classesToInitializeFirst" : [
 		"SmalltalkImage",
@@ -70,43 +76,48 @@
 		"DateAndTime",
 		
 		"MczInstaller",
-		"BrowserProvider"
+		"ServicePreferences",
+		"BrowserProvider",
+
+		"InflateStream",
+		"FastInflateStream",
+		"ZLibReadStream",
+		
+		"UserInterfaceTheme",
+		"Cursor",
+		"PNGReadWriter",
+		"MenuIcons",
+		"UUIDGenerator"
 		],
 	"classesNotToInitialize" : [
 		"Delay",
 	
-		"Text",
-		"StrikeFont",
-		"CharacterScanner",
 		"NaturalLanguageTranslator",
 		"FileStream",
 		"StandardFileStream",
 		"LanguageEnvironment",
-		"CornerGripMorph",
-		"ImageMorph",
 		"PopUpMenu",
 		"SampledSound",
 		"ScorePlayer",
-		"HandMorph",
 		"SimpleMIDIPort",
 		"ColorPickerMorph",
 		"JoystickMorph",
-		"StandardScriptingSystem",
-		"StandardToolset",
-		"MenuItemMorph",
-		"SystemNavigation",
-		"TextEditor",
-		"SmalltalkEditor",
-		"TextFieldMorph",
-		"TheWorldMainDockingBar",
-		"ThreePhaseButtonMorph",
-		"TransferMorph",
 		"UCSTable",
 		"URI",
-		"BalloonEngineConstants",
-		"BalloonEngineBase",
 		"DeflatePlugin",
 		"VMConstantsTest",
 		"VMMakerTool",
-		"TrashCanMorph"
+		"TrashCanMorph",
+		"MCRepositoryInspector",
+		"MCMcmUpdater",
+        "ObjectTracer",
+        "Vocabulary",
+        "UserCustomEventNameType",
+        
+        "ExternalSettings",
+        "SecurityManager",
+        "AutoStart",
+        "CommandHistory",
+        "HostWindowProxy",
+        "WeakArray"
 	]}

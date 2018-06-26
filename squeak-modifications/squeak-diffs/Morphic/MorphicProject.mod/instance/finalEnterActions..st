@@ -5,7 +5,7 @@ finalEnterActions: leavingProject
 	| navigator armsLengthCmd navType thingsToUnhibernate |
 	"GsSqueak should have a World variable. During bootstrap it is created at this point"
 	Smalltalk globals at: #World put: world .
-	World color: Color spindrift.
+	World color: Color veryDarkGray.
 	
 	world install.
 	leavingProject ifNotNil: [

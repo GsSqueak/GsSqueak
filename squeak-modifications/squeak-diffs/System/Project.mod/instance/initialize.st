@@ -5,5 +5,6 @@ initialize
 	changeSet := ChangeSet new.
 	transcript := TranscriptStream new.
 	displayDepth := Display depth.
-	parentProject := CurrentProject.
+	parentProject := CurrentProject ifNil: [self].
 	self initializeProjectPreferences
+

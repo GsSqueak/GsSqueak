@@ -4,12 +4,14 @@ printOn: aStream base: b
 	In order to reduce cost of LargePositiveInteger ops, split the number in approximately two equal parts in number of digits."
 	
 	| halfDigits halfPower head tail nDigitsUnderestimate |
+
 	self < 0 ifTrue:
 	[
           aStream nextPut: $-.
 	  self abs printOn: aStream base: b.
 	  ^ self
 	].
+
 	"Don't engage any arithmetic if not normalized"
 	(self digitLength = 0 or: [(self digitAt: self digitLength) = 0]) ifTrue: [^self normalize printOn: aStream base: b].
 	

@@ -1,4 +1,4 @@
 primitives
 warpBitsSmoothing: n sourceMap: sourceMap
 
-	self notYetImplemented
+	self warpBitsSimulated: n sourceMap: sourceMap

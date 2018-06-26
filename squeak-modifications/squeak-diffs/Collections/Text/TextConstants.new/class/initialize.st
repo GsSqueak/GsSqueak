@@ -1,4 +1,8 @@
 initialization
 initialize
 
-	DefaultTab := 24
+	Tab := Character tab.
+	DefaultTab := 24.
+	Space := Character space.
+	DefaultSpace := 4.
+	CR := Character cr

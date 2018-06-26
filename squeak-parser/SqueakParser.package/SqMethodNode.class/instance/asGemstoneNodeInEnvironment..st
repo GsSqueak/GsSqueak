@@ -6,7 +6,6 @@ asGemstoneNodeInEnvironment: anEnvironment
     ifNil: [ anEnvironment ]
     ifNotNil: [ (self properties at: #'messageSendsInEnv:') arguments first ].	"set compile env"
   SqBlockNode lexLevel: 1.
-  SqParser methodVarDict: nil.
   gsMethodNode := GsComMethNode newSmalltalk.
   gsMethodNode
     selector: self selector;

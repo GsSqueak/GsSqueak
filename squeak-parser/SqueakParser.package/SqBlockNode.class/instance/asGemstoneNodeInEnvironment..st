@@ -13,5 +13,4 @@ asGemstoneNodeInEnvironment: env
   self statements
     do: [ :statement | gsBlock appendStatement: (statement asGemstoneNodeInEnvironment: env) ].
   LexLevel := LexLevel - 1.
-  self removeTemporaries.
   ^ gsBlock

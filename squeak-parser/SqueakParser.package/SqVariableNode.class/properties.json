@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"name" ],
+		"name",
+		"gsLeaf" ],
 	"name" : "SqVariableNode",
 	"pools" : [
 		 ],

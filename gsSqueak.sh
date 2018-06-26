@@ -28,13 +28,7 @@ popd >/dev/null
 startTopaz $STONE_NAME -l -T 1000000 << EOF
 login
 run
-Workspace evaluate: '
-  Display := DisplayScreen new.
-  Display setExtent: 800 @ 600 depth: 32.
-  Display beDisplay.
-  EventSensor startUp.
-  MorphicProject new enter.
-  RectangleMorph new openInWorld.
-  [true] whileTrue: [Processor yield]'
+Workspace evaluate: 'Smalltalk processStartUpList: true'.
+
+[true] whileTrue: [(Delay forMilliseconds: 1000) wait.]. "give squeak time"
 %
-stack
