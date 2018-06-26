@@ -58,11 +58,7 @@ static uint32_t translate_keycode(SDL_Keycode keycode) {
         case SDLK_SCROLLLOCK:
             return SQ_KEY_SCROLLLOCK;
         default:
-            if (keycode < 256) {
-                return keycode;
-            } else {
-                return 0;
-            }
+            return 0;
     }
 }
 
@@ -102,6 +98,17 @@ static void emit_keyboard_event(const struct ModifierState *modifier_state,
     event_queue->last = event_node;
 }
 
+void handle_text_event(const SDL_TextInputEvent *sdl_event,
+                           struct ModifierState *modifier_state,
+                           struct EventQueue *event_queue) {
+    printf("%s \n",sdl_event->text);
+    emit_keyboard_event(modifier_state,
+                                sdl_event->text[0],
+                                KEY_REPEAT,
+                                sdl_event->timestamp,
+                                event_queue);
+
+}
 
 void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
                            struct ModifierState *modifier_state,
@@ -124,19 +131,22 @@ void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
             modifier_state->shift_r_pressed = pressed;
             break;
     }
-
-    uint32_t character_code = translate_keycode(sdl_event->keysym.sym);
+    //modifier_state->shift_l_pressed  = false;
+    char special_character_code = translate_keycode(sdl_event->keysym.sym);
+    char character_code = special_character_code;
+    if(character_code == 0 && sdl_event->keysym.sym < 256)
+        character_code = sdl_event->keysym.sym;
 
 
     const uint32_t *press_states;
     if (sdl_event->repeat) {
-        if(sdl_event->keysym.sym == character_code){//!modifier
+        /*if(sdl_event->keysym.sym == character_code){//!modifier
             emit_keyboard_event(modifier_state,
                                 character_code,
                                 KEY_REPEAT,
                                 sdl_event->timestamp,
                                 event_queue);
-        }
+        }*/
     } else if (sdl_event->type == SDL_KEYDOWN) {
         emit_keyboard_event(modifier_state,
                             character_code,
@@ -144,9 +154,9 @@ void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
                             sdl_event->timestamp,
                             event_queue);
 
-        if(sdl_event->keysym.sym == character_code){//!modifier
+        if(special_character_code){//!special key
             emit_keyboard_event(modifier_state,
-                                character_code,
+                                special_character_code,
                                 KEY_REPEAT,
                                 sdl_event->timestamp,
                                 event_queue);
