@@ -15,6 +15,9 @@ struct Window *ffi_create_window(uint32_t width,
     window->renderer = SDL_CreateRenderer(window->sdl_window, -1, 0);
     window->texture = SDL_CreateTexture(window->renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STATIC, width, height);
     window->width = width;
+    
+        SDL_StartTextInput();
+printf("hallo\n");
 
     window->mouse_state = (struct MouseState) {
         .x = 0,
@@ -94,6 +97,11 @@ static void fetch_new_events(struct Window *window) {
             case SDL_KEYUP:
             case SDL_KEYDOWN:
                 handle_keyboard_event(&sdl_event.key,
+                                      &window->modifier_state,
+                                      &window->event_queue);
+                break;
+            case SDL_TEXTINPUT:
+                handle_text_event(&sdl_event.text,
                                       &window->modifier_state,
                                       &window->event_queue);
                 break;

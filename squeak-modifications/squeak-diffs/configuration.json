@@ -112,5 +112,12 @@
 		"MCMcmUpdater",
         "ObjectTracer",
         "Vocabulary",
-        "UserCustomEventNameType"
+        "UserCustomEventNameType",
+        
+        "ExternalSettings",
+        "SecurityManager",
+        "AutoStart",
+        "CommandHistory",
+        "HostWindowProxy",
+        "WeakArray"
 	]}

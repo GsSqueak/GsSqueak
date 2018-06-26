@@ -13,7 +13,7 @@ initializeStartUpList
 		DisplayScreen
 		Cursor
 		EventSensor
-		ProcessorScheduler  "Starts low space watcher and bkground."
+		"ProcessorScheduler"  "Starts low space watcher and bkground."
 		FileDirectory  "Enables file stack dump and opens sources."
 		ShortIntegerArray
 		ShortRunArray
