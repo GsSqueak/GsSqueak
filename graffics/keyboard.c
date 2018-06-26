@@ -35,14 +35,14 @@ static uint32_t translate_keycode(SDL_Keycode keycode) {
             return SQ_KEY_PAGEDOWN;
         case SDLK_RETURN:
             return SQ_KEY_RETURN;
-        case SDLK_LSHIFT:
+       /* case SDLK_LSHIFT:
             return SQ_KEY_SHIFT;
         case SDLK_RSHIFT:
             return SQ_KEY_SHIFT;
         case SDLK_LCTRL:
             return SQ_KEY_CTRL;
         case SDLK_RCTRL:
-            return SQ_KEY_CTRL;
+            return SQ_KEY_CTRL;*/
         case SDLK_PAUSE:
             return SQ_KEY_BREAK;
         case SDLK_CAPSLOCK:
@@ -101,7 +101,7 @@ static void emit_keyboard_event(const struct ModifierState *modifier_state,
 void handle_text_event(const SDL_TextInputEvent *sdl_event,
                            struct ModifierState *modifier_state,
                            struct EventQueue *event_queue) {
-    printf("%s \n",sdl_event->text);
+    printf("ti: %i \n",sdl_event->text[0]);
     emit_keyboard_event(modifier_state,
                                 sdl_event->text[0],
                                 KEY_REPEAT,
@@ -155,6 +155,7 @@ void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
                             event_queue);
 
         if(special_character_code){//!special key
+            printf("ni: %i \n",special_character_code);
             emit_keyboard_event(modifier_state,
                                 special_character_code,
                                 KEY_REPEAT,
