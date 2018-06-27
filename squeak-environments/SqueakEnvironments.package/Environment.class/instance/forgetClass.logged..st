@@ -4,7 +4,7 @@ forgetClass: aClass logged: aBool
 		ifFalse: [^ self].
 	aBool
 		ifTrue: [SystemChangeNotifier uniqueInstance classRemoved: aClass fromCategory: aClass category].
-	self organization removeElement: aClass @env7: name.
+	self organization @env7: removeElement: aClass @env7: name.
 	Smalltalk removeFromStartUpList: aClass.
 	Smalltalk removeFromShutDownList: aClass.
 	self unbind: aClass @env7: name
