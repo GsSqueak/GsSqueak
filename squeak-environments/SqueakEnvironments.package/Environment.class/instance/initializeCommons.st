@@ -39,4 +39,5 @@ initializeCommons
   self at: #'Processor' put: Processor.
   self at: #'Process' put: GsProcess.
   self at: #'GsProcess' put: GsProcess.
-  self at: #'Pragma' put: Pragma
+  self at: #'Pragma' put: Pragma.
+  self at: #'CByteArray' put: CByteArray
