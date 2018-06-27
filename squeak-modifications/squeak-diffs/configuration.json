@@ -35,6 +35,7 @@
 		],
 	"classesToLoad" : [
 		"Environment",
+		"EnvironmentInfo",
 		"Scanner",
 		"FileStream",
 		"StandardFileStream"
