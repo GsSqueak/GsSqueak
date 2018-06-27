@@ -8,4 +8,5 @@ initialize
     username: 'DataCurator';
     password: 'swordfish'.
   extSession login.
-  ^ extSession executeString: '^ 2 + 2' 
+  ^ extSession forkString: 'Smalltalk processStartUpList: true.
+[true] whileTrue: [(Delay forMilliseconds: 1000) wait.].'.
