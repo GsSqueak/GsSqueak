@@ -31,7 +31,8 @@
 		"Etoys-geometry",
 		"CompilerMock",
 		"Protocols",
-		"SqTransactions"
+		"SqTransactions",
+		"IndexPerformanceTest"
 		],
 	"classesToLoad" : [
 		"Environment",
@@ -88,8 +89,7 @@
 		"Cursor",
 		"PNGReadWriter",
 		"MenuIcons",
-		"UUIDGenerator",
-		"IndexPerformanceTest"
+		"UUIDGenerator"
 		],
 	"classesNotToInitialize" : [
 		"Delay",
