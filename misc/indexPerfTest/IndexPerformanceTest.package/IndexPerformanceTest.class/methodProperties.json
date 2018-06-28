@@ -1,6 +1,8 @@
 {
 	"class" : {
+		"createIndex" : "",
 		"findByBirthyear:" : "jb 6/27/2018 15:26",
+		"findIndexedByBirthyear:" : "",
 		"setup" : "" },
 	"instance" : {
 		 } }
