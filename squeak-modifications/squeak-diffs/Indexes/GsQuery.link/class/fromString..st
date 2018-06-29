@@ -1,3 +1,3 @@
 GsIndexApi
-fromString: aString on: anNsc
+fromString: aString
   ^ self _env0 fromString: aString

@@ -31,7 +31,8 @@
 		"Etoys-geometry",
 		"CompilerMock",
 		"Protocols",
-		"SqTransactions"
+		"SqTransactions",
+		"IndexPerformanceTest"
 		],
 	"classesToLoad" : [
 		"Environment",
