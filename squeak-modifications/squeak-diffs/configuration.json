@@ -122,5 +122,7 @@
         "AutoStart",
         "CommandHistory",
         "HostWindowProxy",
-        "WeakArray"
+        "WeakArray",
+        "ArchiveViewer",
+        "StrikeFontSet"
 	]}
