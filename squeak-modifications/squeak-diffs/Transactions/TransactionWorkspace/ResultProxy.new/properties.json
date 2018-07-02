@@ -1,0 +1,15 @@
+{
+	"category" : "TransactionWorkspace",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"oop",
+		"ws" ],
+	"name" : "ResultProxy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

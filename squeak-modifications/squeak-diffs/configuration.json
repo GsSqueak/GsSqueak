@@ -32,7 +32,8 @@
 		"CompilerMock",
 		"Protocols",
 		"SqTransactions",
-		"IndexPerformanceTest"
+		"IndexPerformanceTest",
+		"TransactionWorkspace"
 		],
 	"classesToLoad" : [
 		"Environment",
