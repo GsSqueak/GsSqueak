@@ -1,3 +1,4 @@
 as yet unclassified
 printString
-^ 'proxyed result'.
+(oop size = 1) ifTrue: [^ self getString: oop first].
+^ 'array'
