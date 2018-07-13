@@ -1,3 +1,3 @@
 prefs-halos
 simpleHalosInForce
-	^ true
+	^ false
