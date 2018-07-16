@@ -1,0 +1,14 @@
+{
+	"category" : "TransactionWorkspace",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"extSession" ],
+	"name" : "TransactionWorkspace",
+	"pools" : [
+		 ],
+	"super" : "Workspace",
+	"type" : "normal" }

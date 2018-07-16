@@ -32,3 +32,4 @@ Workspace evaluate: 'Smalltalk processStartUpList: true'.
 
 [true] whileTrue: [(Delay forMilliseconds: 1000) wait.]. "give squeak time"
 %
+stack

@@ -31,7 +31,9 @@
 		"Etoys-geometry",
 		"CompilerMock",
 		"Protocols",
-		"SqTransactions"
+		"SqTransactions",
+		"IndexPerformanceTest",
+		"TransactionWorkspace"
 		],
 	"classesToLoad" : [
 		"Environment",
@@ -120,5 +122,7 @@
         "AutoStart",
         "CommandHistory",
         "HostWindowProxy",
-        "WeakArray"
+        "WeakArray",
+        "ArchiveViewer",
+        "StrikeFontSet"
 	]}

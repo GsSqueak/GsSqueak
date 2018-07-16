@@ -10,15 +10,15 @@ initializeShutDownList
 		Delay
 		DisplayScreen
 		EventSensor
-		Form
+		"Form"
 		ControlManager
 		PasteUpMorph
-		StrikeFont
+		"StrikeFont"
 		Color
 		FileDirectory
-		SoundPlayer
+		"SoundPlayer"
 		HttpUrl
-		Password
+		"Password"
 		PWS
 		MailDB
 		ImageSegment

@@ -354,6 +354,90 @@ category: 'GsIndexes'
 environmentId: 0.
 %
 
+run
+(SqueakEnvironment at: #UnorderedCollection) compileMethod: '
+removeIncompleteIndex
+  "If there is an incomplete index, clean it up. In general this method should not be used, a better way to remove
+ incomplete indexes is to use IndexManager>>removeAllIncompleteIndexesOn:"
+
+  [ 
+  System _zeroArgPrim: 51.	"_enteringIncompleteIndexRemoval"
+  [ 
+  | systm indexObj |
+  systm := System.
+  systm abortTransaction.
+  indexObj := self _findIncompleteIndex.
+  indexObj ifNil: [ ^ self ].
+  self
+    _undoIndexCreation: indexObj
+    pathTerm: indexObj _findFirstUnsharedPathTerm.
+  systm _commitPrintingDiagnostics ]
+    untilTrue ]
+    ensure: [ System _zeroArgPrim: 52	"_leavingIncompleteIndexRemoval" ]
+       ' dictionaries: GsSession currentSession symbolList
+category: 'GsIndexes'
+environmentId: 0.
+%
+
+run
+(SqueakEnvironment at: #UnorderedCollection) compileMethod: '
+_findIncompleteIndex
+  "Returns an index that is incomplete, or nil if not found."
+
+  | iList |
+  iList := self _indexedPaths.
+  iList == nil
+    ifTrue: [ ^ nil ].	" for each index on the NSC ... "
+  1 to: iList size by: 2 do: [ :i | 
+    " only look at the index if the receiver is the root "
+    (iList at: i + 1) == 1
+      ifTrue: [ 
+        " see if the index is complete "
+        (iList at: i) isComplete
+          ifFalse: [ ^ iList at: i ] ] ].
+  ^ nil
+       ' dictionaries: GsSession currentSession symbolList
+category: 'GsIndexes'
+environmentId: 0.
+%
+
+run
+(SqueakEnvironment at: #UnorderedCollection) compileMethod: '
+_lockForIndexCreation
+  "Locks the receiver to prevent concurrent users from invalidating index
+ creation."
+
+  | lockList |
+  lockList := {self}.
+  self _indexDictionary
+    ifNotNil: [ self _indexDictionary _doCollisionBuckets: [ :cb | lockList add: cb ] ].
+  System
+    writeLockAll: lockList;
+    addAllToCommitOrAbortReleaseLocksSet: lockList
+       ' dictionaries: GsSession currentSession symbolList
+category: 'GsIndexes'
+environmentId: 0.
+%
+
+run
+(SqueakEnvironment at: #UnorderedCollection) compileMethod: '
+_indexDictionary
+  "Returns the index dictionary that is shared by all indexes.  If there are no
+ indexes, returns nil."
+
+  | iList |
+  iList := self _indexedPaths.
+  iList
+    ifNil: [ ^ nil ]
+    ifNotNil: [ 
+      1 to: iList size by: 2 do: [ :i | 
+        ((iList at: i + 1) == 1 and: [ (iList at: i) indexDictionary ~~ nil ])
+          ifTrue: [ ^ (iList at: i) indexDictionary ] ].
+      ^ nil ]
+       ' dictionaries: GsSession currentSession symbolList
+category: 'GsIndexes'
+environmentId: 0.
+%
 
 commit
 logout

@@ -1,0 +1,14 @@
+{
+	"category" : "IndexPerformanceTest",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Employees" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IndexPerformanceTest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

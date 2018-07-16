@@ -12,12 +12,5 @@ asGemstoneNodeInEnvironment: env
   self arguments
     do: [ :argument | gsSendNode appendArgument: (argument asGemstoneNodeInEnvironment: env) ].
   gsSendNode sourceOffset: self sourceOffset.
-  ((special ifNil: [ 0 ]) > 0
-    and: [ 
-      special < 5
-        and: [ gsSendNode args allSatisfy: [ :arg | arg isKindOf: GsComBlockNode ] ] ])
-    ifTrue: [ 
-      [ gsSendNode optimize ]
-        on: Error
-        do: [  ] ].
+  gsSendNode optimizeIfPossible.
   ^ gsSendNode
