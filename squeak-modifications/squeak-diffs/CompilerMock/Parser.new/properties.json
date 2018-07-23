@@ -1,0 +1,14 @@
+{
+	"category" : "CompilerMock",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Parser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
