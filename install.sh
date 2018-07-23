@@ -266,12 +266,63 @@ check_os() {
   fi
 }
 
+
+################################################################################
+# Update Glass Repository to work with newest EA
+################################################################################
+updateGlass() {
+   echo '*core-squeak
+parseSelector: methodString for: aBehavior
+	| selector mDict cDict meth undefinedSymbolList |
+	mDict := GsMethodDictionary new.
+	cDict := GsMethodDictionary new.
+	undefinedSymbolList := GsSession currentSession symbolList objectNamed: #UndefinedSymbolList.
+	undefinedSymbolList == nil ifTrue: [ undefinedSymbolList := SymbolList new ].
+	meth := aBehavior
+		_primitiveCompileMethod: methodString
+		symbolList: GsSession currentSession symbolList, undefinedSymbolList
+		category: #xxxyyz
+		oldLitVars: nil 
+		intoMethodDict: mDict 
+		intoCategories: cDict.
+	meth class ~~ GsMethod 
+		ifTrue: [ 
+			(meth at: 2) == nil ifFalse: [ ^nil ].
+			meth := (meth at: 1).
+		].
+    ^meth selector asString.' > "$GS_HOME/shared/repos/glass/repository/Core.package/Behavior.extension/class/parseSelector.for..st"
+
+ echo '*core-squeak
+parseSelector: methodString for: aBehavior
+  | mDict cDict meth undefinedSymbolList |
+  mDict := GsMethodDictionary new.
+  cDict := GsMethodDictionary new.
+  undefinedSymbolList := GsSession currentSession symbolList objectNamed: #UndefinedSymbolList.
+  undefinedSymbolList == nil ifTrue: [ undefinedSymbolList := SymbolList new ].
+  meth := aBehavior
+    _primitiveCompileMethod: methodString
+    symbolList: GsSession currentSession symbolList, undefinedSymbolList
+    category: #xxxyyz
+    oldLitVars: nil 
+    intoMethodDict: mDict 
+    intoCategories: cDict 
+    environmentId: 0 .
+  meth class ~~ GsNMethod 
+    ifTrue: [ 
+      (meth at: 2) == nil ifFalse: [ ^nil ].
+      meth := (meth at: 1).
+    ].
+    ^meth selector asString.' > "$GS_HOME/shared/repos/glass/repository/Core.v3.package/Behavior.extension/class/parseSelector.for..st"
+}
+
 ################################################################################
 # Downloads specified GemStone Version
 ################################################################################
 download_gemstone() {
-
+  
   download_gemstone_usage () { echo "$0 <gemstone_version> [<early_access_version>]"; exit 1;}
+
+  updateGlass
 
   local gs_version ea_version
 
@@ -317,7 +368,7 @@ setup_gs_squeak() {
   if [[ $stone_exists = 0 ]]; then
     if [[ $FORCE = true ]]; then
       print_pending "Recreating stone named $stone_name"
-      output createStone -f "$stone_name" $gs_version >/dev/null 2>&1
+      output createStone -fn "$stone_name" $gs_version >/dev/null 2>&1
       check_errors
     else
       echo -e "$WARNING Stone named $stone_name already exists"
@@ -326,7 +377,7 @@ setup_gs_squeak() {
       case "${response,,}" in
         o)
           print_pending "Recreating stone named $stone_name"
-          output createStone -f "$stone_name" $gs_version >/dev/null 2>&1
+          output createStone -fn "$stone_name" $gs_version >/dev/null 2>&1
           check_errors
           ;;
         r)
@@ -465,7 +516,7 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 
 STONE_NAME="${STONE_NAME:-gsSqueak}"
 GEMSTONE_VERSION="${GEMSTONE_VERSION:-3.5.0}"
-EA_VERSION="${EA_VERSION:-EA-43870}"
+EA_VERSION="${EA_VERSION:-EA-44511}"
 
 check_os
 check_gs_devkit
