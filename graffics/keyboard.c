@@ -11,7 +11,7 @@ enum SqueakKeyState {
 
 
 /* adapted from RSqueak */
-static uint32_t translate_keycode(SDL_Keycode keycode) {
+static uint32_t translate_special_keycode(SDL_Keycode keycode) {
     switch (keycode) {
         case SDLK_DOWN:
             return SQ_KEY_DOWN;
@@ -35,14 +35,14 @@ static uint32_t translate_keycode(SDL_Keycode keycode) {
             return SQ_KEY_PAGEDOWN;
         case SDLK_RETURN:
             return SQ_KEY_RETURN;
-       /* case SDLK_LSHIFT:
+        case SDLK_LSHIFT:
             return SQ_KEY_SHIFT;
         case SDLK_RSHIFT:
             return SQ_KEY_SHIFT;
         case SDLK_LCTRL:
             return SQ_KEY_CTRL;
         case SDLK_RCTRL:
-            return SQ_KEY_CTRL;*/
+            return SQ_KEY_CTRL;
         case SDLK_PAUSE:
             return SQ_KEY_BREAK;
         case SDLK_CAPSLOCK:
@@ -101,13 +101,11 @@ static void emit_keyboard_event(const struct ModifierState *modifier_state,
 void handle_text_event(const SDL_TextInputEvent *sdl_event,
                            struct ModifierState *modifier_state,
                            struct EventQueue *event_queue) {
-    printf("ti: %i \n",sdl_event->text[0]);
     emit_keyboard_event(modifier_state,
                                 sdl_event->text[0],
                                 KEY_REPEAT,
                                 sdl_event->timestamp,
                                 event_queue);
-
 }
 
 void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
@@ -131,42 +129,38 @@ void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
             modifier_state->shift_r_pressed = pressed;
             break;
     }
-    //modifier_state->shift_l_pressed  = false;
-    char special_character_code = translate_keycode(sdl_event->keysym.sym);
-    char character_code = special_character_code;
-    if(character_code == 0 && sdl_event->keysym.sym < 256)
-        character_code = sdl_event->keysym.sym;
+    /* We only use regular key events for special keys, otherwise we
+     * use text input events
+     */
+    uint32_t character_code = translate_special_keycode(sdl_event->keysym.sym);
 
+    if(character_code != 0) {
+        if (sdl_event->repeat) {
+            if(sdl_event->keysym.sym == character_code){
+                emit_keyboard_event(modifier_state,
+                                    character_code,
+                                    KEY_REPEAT,
+                                    sdl_event->timestamp,
+                                    event_queue);
+            }
+        } else if (sdl_event->type == SDL_KEYDOWN) {
+            emit_keyboard_event(modifier_state,
+                                character_code,
+                                KEY_DOWN,
+                                sdl_event->timestamp,
+                                event_queue);
 
-    const uint32_t *press_states;
-    if (sdl_event->repeat) {
-        /*if(sdl_event->keysym.sym == character_code){//!modifier
             emit_keyboard_event(modifier_state,
                                 character_code,
                                 KEY_REPEAT,
                                 sdl_event->timestamp,
                                 event_queue);
-        }*/
-    } else if (sdl_event->type == SDL_KEYDOWN) {
-        emit_keyboard_event(modifier_state,
-                            character_code,
-                            KEY_DOWN,
-                            sdl_event->timestamp,
-                            event_queue);
-
-        if(special_character_code){//!special key
-            printf("ni: %i \n",special_character_code);
+        } else {
             emit_keyboard_event(modifier_state,
-                                special_character_code,
-                                KEY_REPEAT,
+                                character_code,
+                                KEY_UP,
                                 sdl_event->timestamp,
                                 event_queue);
         }
-    } else {
-        emit_keyboard_event(modifier_state,
-                            character_code,
-                            KEY_UP,
-                            sdl_event->timestamp,
-                            event_queue);
     }
 }
