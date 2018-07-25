@@ -10,7 +10,8 @@ asGemstoneNodeInEnvironment: env
       gsVarLeaf := tmp asGemstoneBlockTemp.
       gsVarLeaf varKind = 1
         ifTrue: [ gsBlock appendTemp: gsVarLeaf ] ].
-  self statements
-    do: [ :statement | gsBlock appendStatement: (statement asGemstoneNodeInEnvironment: env) ].
+
+  self translateStatements: env.
+
   LexLevel := LexLevel - 1.
   ^ gsBlock

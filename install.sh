@@ -399,7 +399,7 @@ setup_gs_squeak() {
     fi 
   else
     print_pending "Creating stone named $stone_name"
-    output createStone "$stone_name" $gs_version > /dev/null 2>&1
+    output createStone -n "$stone_name" $gs_version > /dev/null 2>&1
     check_errors
 
     print_pending "Installing Graphics Library"

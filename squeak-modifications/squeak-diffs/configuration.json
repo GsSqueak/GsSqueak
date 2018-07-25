@@ -1,6 +1,7 @@
 {
 	"categoriesToLoad" : [
 		"Collections",
+		"Compiler",
 		"Kernel",
 		"Graphics",
 		"System",
@@ -29,7 +30,6 @@
 		"MonticelloConfigurations",
 		"Etoys-customevents",
 		"Etoys-geometry",
-		"CompilerMock",
 		"Protocols",
 		"SqTransactions",
 		"IndexPerformanceTest",
@@ -53,44 +53,44 @@
 		"CompiledBlock"
 		],
 	"classesToInitializeFirst" : [
-		"SmalltalkImage",
+		["SmalltalkImage", "Creates the StartUp- and ShutDownList"],
 
-		"Random",
+		["Random", "used in initalizes, e.g. Color"],
 		"Color",
-		"Scanner",
-		"String",
-		"Preferences",
+		["Preferences", "no idea"],
+		["String", ""],
+		["Scanner", "Probably to have DoitCharacter defined? For Unicode?"],
 
-		"ExternalSettings",
+		["ExternalSettings", "Following section references one another in the Startuplist order"],
 		"SecurityManager",
 		"FileStream",
 		"AutoStart",
 
-		"String",
+		["String", "Sting initalizes needed to initialize Base64MimeConverter"],
 		"WideString",
 		"Symbol",
 		"WideSymbol",
 		"Base64MimeConverter",
 		
-		"DisplayScreen",
+		["DisplayScreen", "Sets the Display, probably needed for BitBlt"],
 		"BitBltSimulator",
-		"ZipWriteStream",
+		["ZipWriteStream", "¯_(ツ)_/¯"],
 
-		"ChronologyConstants",
-		"Duration",
+		["ChronologyConstants", "needed for DateAndTime"],
+		["Duration", "needed for DateAndTime"],
 		"DateAndTime",
 		
 		"MczInstaller",
-		"ServicePreferences",
+		["ServicePreferences", "Initalizes Preferences used by following Classes"],
 		"BrowserProvider",
 
-		"InflateStream",
-		"FastInflateStream",
-		"ZLibReadStream",
+		["InflateStream", "For ZLibReadStream"],
+		["FastInflateStream", "For ZLibReadStream"],
+		["ZLibReadStream", "yes, this ZLibReadStream"],
 		
-		"UserInterfaceTheme",
+		["UserInterfaceTheme", "gotta know how to draw stuff, used in MenuIcons"],
 		"Cursor",
-		"PNGReadWriter",
+		["PNGReadWriter", "To decode the Menu Icons"],
 		"MenuIcons",
 		"UUIDGenerator"
 		],
@@ -126,5 +126,7 @@
         "HostWindowProxy",
         "WeakArray",
         "ArchiveViewer",
-        "StrikeFontSet"
+        "StrikeFontSet",
+
+	"Compiler"
 	]}
