@@ -1,0 +1,6 @@
+{
+	"category": "Compiler-ParseNodes",
+	"gemstoneName": "SqSpecialSelectorNode",
+	"name": "SpecialSelectorNode",
+	"super": "SelectorNode"
+}

@@ -1,0 +1,6 @@
+{
+	"category": "Compiler-ParseNodes",
+	"gemstoneName": "SqTempVariableNode",
+	"name": "TempVariableNode",
+	"super": "VariableNode"
+}

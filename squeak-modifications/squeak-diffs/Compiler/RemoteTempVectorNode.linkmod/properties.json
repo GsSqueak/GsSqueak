@@ -1,0 +1,6 @@
+{
+	"category": "Compiler-ParseNodes",
+	"gemstoneName": "SqRemoteTempVectorNode",
+	"name": "RemoteTempVectorNode",
+	"super": "TempVariableNode"
+}
