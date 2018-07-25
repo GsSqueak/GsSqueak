@@ -1,6 +1,7 @@
 {
 	"categoriesToLoad" : [
 		"Collections",
+		"Compiler",
 		"Kernel",
 		"Graphics",
 		"System",
@@ -29,7 +30,6 @@
 		"MonticelloConfigurations",
 		"Etoys-customevents",
 		"Etoys-geometry",
-		"CompilerMock",
 		"Protocols",
 		"SqTransactions",
 		"IndexPerformanceTest",
@@ -124,5 +124,7 @@
         "HostWindowProxy",
         "WeakArray",
         "ArchiveViewer",
-        "StrikeFontSet"
+        "StrikeFontSet",
+
+	"Compiler"
 	]}
