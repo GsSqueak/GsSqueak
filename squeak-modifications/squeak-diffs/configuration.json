@@ -33,8 +33,7 @@
 		"Protocols",
 		"SqTransactions",
 		"IndexPerformanceTest",
-		"TransactionWorkspace",
-		"PreferenceBrowser"
+		"TransactionWorkspace"
 		],
 	"classesToLoad" : [
 		"Environment",
@@ -57,9 +56,12 @@
 
 		["Random", "used in initalizes, e.g. Color"],
 		"Color",
-		["Preferences", "no idea"],
 		["String", ""],
-		["Scanner", "Probably to have DoitCharacter defined? For Unicode?"],
+		["Scanner", "Needed to compile Preferences accessors"],
+		["ParseNode", "needed by Encoder to compile Prefernces accessors"],
+		["VariableNode", "needed by Encoder to compile Prefernces accessors"],
+		["MessageNode", "needed by Encoder to compile Prefernces accessors"],
+		["Preferences", "no idea"],
 
 		["ExternalSettings", "Following section references one another in the Startuplist order"],
 		"SecurityManager",
