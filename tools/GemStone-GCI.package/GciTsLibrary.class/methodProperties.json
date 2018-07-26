@@ -9,10 +9,12 @@
 		"libraryClassForGemStoneVersion:" : "sl 6/3/2018 19:25",
 		"libraryClassForWordSize:" : "sl 6/11/2018 08:54" },
 	"instance" : {
-		"execute:sourceClass:context:symbolList:flags:environmentId:session:" : "sl 6/13/2018 22:39",
+		"execute:sourceClass:context:symbolList:flags:environmentId:session:" : "sl 6/14/2018 14:58",
 		"executeUtf8String:session:" : "sl 6/13/2018 22:39",
 		"fetchUtf8:session:" : "sl 6/14/2018 10:36",
 		"fetchUtf8:size:session:" : "sl 6/13/2018 22:38",
+		"fetchUtf8Bytes:session:" : "sl 6/14/2018 14:38",
+		"fetchUtf8Bytes:startIndex:bufferSize:session:" : "sl 6/14/2018 14:42",
 		"gemStoneVersion" : "sl 6/3/2018 19:10",
 		"isOnLinux" : "sl 6/3/2018 19:51",
 		"isOnMacintosh" : "sl 6/3/2018 19:50",
@@ -57,6 +59,7 @@
 		"oopTwo" : "JGF 1/31/2007 08:11",
 		"oopTypeClass" : "JGF 2/1/2007 08:17",
 		"oopZero" : "JGF 1/31/2007 08:11",
+		"releaseObjects:session:" : "sl 6/14/2018 12:47",
 		"setGemStoneVersion:" : "sl 6/12/2018 12:36",
 		"tagForOop:" : "sl 6/12/2018 14:39",
 		"wordSize" : "sl 6/3/2018 19:48" } }
