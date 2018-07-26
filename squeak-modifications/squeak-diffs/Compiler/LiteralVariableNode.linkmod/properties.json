@@ -1,0 +1,6 @@
+{
+	"category": "Compiler-ParseNodes",
+	"gemstoneName": "SqLiteralVariableNode",
+	"name": "LiteralVariableNode",
+	"super": "VariableNode"
+}

@@ -1,0 +1,6 @@
+{
+	"category": "Compiler-ParseNodes",
+	"gemstoneName": "SqFutureNode",
+	"name": "FutureNode",
+	"super": "ParseNode"
+}

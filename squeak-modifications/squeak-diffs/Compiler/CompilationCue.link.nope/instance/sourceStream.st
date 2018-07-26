@@ -1,3 +1,0 @@
-accessing
-sourceStream
-	^source

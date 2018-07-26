@@ -56,8 +56,12 @@
 
 		["Random", "used in initalizes, e.g. Color"],
 		"Color",
+		["String", ""],
+		["Scanner", "Needed to compile Preferences accessors"],
+		["ParseNode", "needed by Encoder to compile Prefernces accessors"],
+		["VariableNode", "needed by Encoder to compile Prefernces accessors"],
+		["MessageNode", "needed by Encoder to compile Prefernces accessors"],
 		["Preferences", "no idea"],
-		["Scanner", "Probably to have DoitCharacter defined? For Unicode?"],
 
 		["ExternalSettings", "Following section references one another in the Startuplist order"],
 		"SecurityManager",

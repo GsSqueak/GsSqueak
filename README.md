@@ -38,7 +38,9 @@ Another project similar to this one was started, called [PharoGS](https://github
 
 6. Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone
 
-7. Execute `gsSqueak.sh` to open GsSqueak
+7. If Index support is intended run `misc/gsIndexes.tpz` in topaz
+
+8. Execute `gsSqueak.sh` to open GsSqueak
 
 ## Usage
 

@@ -1,0 +1,6 @@
+{
+	"category": "Compiler-ParseNodes",
+	"gemstoneName": "SqLeafNode",
+	"name": "LeafNode",
+	"super": "ParseNode"
+}

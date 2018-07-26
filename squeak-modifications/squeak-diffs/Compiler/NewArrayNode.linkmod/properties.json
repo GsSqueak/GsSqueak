@@ -1,0 +1,6 @@
+{
+	"category": "Compiler-ParseNodes",
+	"gemstoneName": "SqNewArrayNode",
+	"name": "NewArrayNode",
+	"super": "ParseNode"
+}

@@ -7,3 +7,4 @@ initialize
 	"Preferences initialize"
 	self registerForEvents.
 
+    self addPreference: #haloTheme default: #iconicHaloSpecifications.
