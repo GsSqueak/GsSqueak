@@ -1,5 +1,5 @@
 API
-GciTsFetchUtf8Bytes: session a: theObject a: startIndex a: theBytes a: numBytes a: ofClass err: error
+GciTsFetchUtf8Bytes: session a: aString a: startIndex a: dest a: bufSize a: utf8String err: error
 "/*================================================
  *  GciTsFetchUtf8Bytes  
  *  

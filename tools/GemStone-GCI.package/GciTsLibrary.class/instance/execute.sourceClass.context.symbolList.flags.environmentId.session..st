@@ -4,7 +4,7 @@ execute: sourceString sourceClass: sourceOop context: contextObject symbolList: 
 	| result |
 	self errorType newDuring: [:error |
 		result := self GciTsExecute: gciSession sessionHandle
-					a: sourceString
+					a: sourceString asByteArray
 					a: sourceOop
 					a: contextObject
 					a: symbolList
