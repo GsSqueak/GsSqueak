@@ -1,8 +1,7 @@
 accessing
 basicSize
-	"Primitive. Answer the number of indexable variables in the receiver. 
-	This value is the same as the largest legal subscript. Essential. Do not 
-	override in any subclass. See Object documentation whatIsAPrimitive."
+	"use env0 squeakBasicSize, added in EA 4419"
+        <primitive: 1081>
 
 	self class isWords ifTrue: [^ self primWordBasicSize].
 	^ self primNormalBasicSize
