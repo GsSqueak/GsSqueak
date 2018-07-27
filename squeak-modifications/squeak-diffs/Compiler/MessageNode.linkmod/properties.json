@@ -1,6 +1,0 @@
-{
-	"category": "Compiler-ParseNodes",
-	"gemstoneName": "SqMessageNode",
-	"name": "MessageNode",
-	"super": "ParseNode"
-}

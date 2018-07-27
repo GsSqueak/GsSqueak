@@ -1,6 +1,0 @@
-{
-	"category": "Compiler-ParseNodes",
-	"gemstoneName": "SqInstanceVariableNode",
-	"name": "InstanceVariableNode",
-	"super": "VariableNode"
-}
