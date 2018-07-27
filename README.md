@@ -30,6 +30,8 @@ Another project similar to this one was started, called [PharoGS](https://github
 
 1. Execute and follow `install.sh`
 
+1.5. Install or copy `libgraFFIcs.so` from `/graffics` into `GsDevKit_home/shared/downloads/products/GemStone64Bit3.5.0-x86_64.Linux/lib`
+
 2. Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
 
 3. Install VMMaker using `MCMcmUpdater updateFromRepository: 'http://source.squeak.org/VMMaker'`
@@ -46,4 +48,4 @@ Another project similar to this one was started, called [PharoGS](https://github
 
 ## Usage
 
-Just as you would use Squeak :)
+
