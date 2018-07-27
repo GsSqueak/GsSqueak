@@ -26,6 +26,8 @@ Another project similar to this one was started, called [PharoGS](https://github
 
 
 ## Installation ([Video Guide](https://youtu.be/TLOmrb4Ty14))
+0. Install SDL2 `sudo apt-get install libsdl2-dev`
+
 1. Execute and follow `install.sh`
 
 2. Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
