@@ -1,0 +1,6 @@
+{
+	"category": "Compiler-ParseNodes",
+	"gemstoneName": "SqBraceNode",
+	"name": "BraceNode",
+	"super": "ParseNode"
+}
