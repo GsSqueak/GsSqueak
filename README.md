@@ -36,7 +36,7 @@ Another project similar to this one was started, called [PharoGS](https://github
 
 3. Install VMMaker using `MCMcmUpdater updateFromRepository: 'http://source.squeak.org/VMMaker'`
 
-4. Install GemStoneGUI and GsSqueakImport ([see here](https://github.com/hpi-swa-lab/BP2017RH1/tree/master/tools))
+4. Install GemStoneGUI and GsSqueakImport located in `/tools`
 
 5. Start a new GemStone session with `GSGRepositoryManager open.` and login
 
@@ -48,4 +48,11 @@ Another project similar to this one was started, called [PharoGS](https://github
 
 ## Usage
 
+GsSqueak is currently a proof of concept. The World renders, mouse clicks register and tools can be used. Crashes are excpected in the current state.
 
+Tested Working
+  - Workspace
+  - inspector & ecplorer (flakey, inspecting certain objects like morphs will fail)
+  - Read-only browser
+  
+As the Debugger in Squeak does not handle errors yet, the call stack will be printed into your terminal after GsSqueak closes.
