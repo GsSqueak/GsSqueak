@@ -1,0 +1,15 @@
+{
+	"category" : "GemStoneGUI-GemStone-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stoneNRS",
+		"gemNRS" ],
+	"name" : "GsNRSSessionDescription",
+	"pools" : [
+		 ],
+	"super" : "GsSessionDescription",
+	"type" : "normal" }

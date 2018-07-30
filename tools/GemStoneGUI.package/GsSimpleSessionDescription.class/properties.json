@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-GemStone-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stoneName" ],
+	"name" : "GsSimpleSessionDescription",
+	"pools" : [
+		 ],
+	"super" : "GsSessionDescription",
+	"type" : "normal" }

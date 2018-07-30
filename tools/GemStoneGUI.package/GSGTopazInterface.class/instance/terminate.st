@@ -1,4 +1,5 @@
 initialize-release
 terminate
 
-	self topazProcess terminate
+	self topazProcess terminate.
+	super terminate

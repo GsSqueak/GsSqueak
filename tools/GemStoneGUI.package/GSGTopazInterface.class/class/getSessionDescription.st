@@ -1,0 +1,4 @@
+instance creation
+getSessionDescription
+
+	^ GsTopazSessionDescription fromUserInput

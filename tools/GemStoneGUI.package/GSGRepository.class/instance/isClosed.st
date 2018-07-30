@@ -1,0 +1,4 @@
+interface
+isClosed
+
+	^ false

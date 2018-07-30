@@ -11,16 +11,14 @@
 		"buildLogoutButtonWith:" : "sl 5/27/2018 18:01",
 		"buildWith:" : "MS 5/30/2018 14:43",
 		"buildWorkspaceButtonWith:" : "sl 5/27/2018 18:02",
-		"closeSession" : "sl 5/27/2018 17:53",
+		"closeRepository" : "sl 7/30/2018 14:01",
 		"getGsSqueakPath" : "sl 6/1/2018 10:56",
 		"labelString" : "sl 6/14/2018 10:11",
 		"loadGsSqueak" : "MS 5/30/2018 14:47",
 		"loadSqueakFrom:" : "sl 5/27/2018 17:55",
 		"logoutButtonHit" : "sl 4/9/2018 14:14",
-		"okToClose" : "sl 5/27/2018 17:55",
 		"openBrowser" : "sl 5/27/2018 18:06",
 		"openWorkspace" : "sl 5/27/2018 18:05",
 		"saveGsSqueak" : "MS 5/30/2018 14:51",
 		"saveGsSqueakTo:" : "MS 5/30/2018 14:51",
-		"sessionClosed" : "maf 4/10/2018 13:46",
-		"windowIsClosing" : "sl 4/9/2018 14:13" } }
+		"windowIsClosing" : "sl 7/30/2018 14:01" } }

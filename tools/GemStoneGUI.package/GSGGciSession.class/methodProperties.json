@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"gciSession:" : "sl 6/14/2018 10:05",
+		"gciSession:" : "sl 7/30/2018 13:18",
 		"label" : "sl 6/14/2018 09:22",
-		"open" : "sl 6/14/2018 10:07",
-		"sessionDescription:" : "sl 6/14/2018 10:10" },
+		"newFrom:" : "sl 7/30/2018 12:33" },
 	"instance" : {
 		"abortTransaction" : "sl 6/14/2018 09:51",
-		"close" : "sl 6/14/2018 10:15",
 		"commitTransaction" : "sl 6/14/2018 09:51",
 		"continueTransaction" : "sl 6/14/2018 09:51",
 		"executeString:" : "sl 6/14/2018 09:25",
 		"gciSession" : "sl 6/14/2018 09:24",
 		"gciSession:" : "sl 6/14/2018 09:24",
-		"label" : "sl 6/14/2018 10:23" } }
+		"isClosed" : "sl 7/30/2018 14:37",
+		"label" : "sl 6/14/2018 10:23",
+		"terminate" : "sl 7/30/2018 13:56" } }

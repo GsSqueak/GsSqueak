@@ -1,4 +1,0 @@
-accessing
-userID
-
-	self subclassResponsibility
