@@ -52,7 +52,7 @@ GsSqueak is currently a proof of concept. The World renders, mouse clicks regist
 
 Tested Working
   - Workspace
-  - inspector & ecplorer (flakey, inspecting certain objects like morphs will fail)
+  - inspector & explorer (flakey, inspecting certain objects like morphs will fail)
   - Read-only browser
   
 As the Debugger in Squeak does not handle errors yet, the call stack will be printed into your terminal after GsSqueak closes.
