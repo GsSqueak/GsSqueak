@@ -1,4 +1,4 @@
 accessing
 numLiterals
-	"Answer the number of literals used by the receiver."
-	^self header bitAnd: 16r7FFF
+	"GemStone has different literals than Squeak"
+	self shouldNotImplement

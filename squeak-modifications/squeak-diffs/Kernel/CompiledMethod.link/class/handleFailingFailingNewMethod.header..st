@@ -10,7 +10,6 @@ handleFailingFailingNewMethod: numberOfBytes header: headerWord
 	 is negative, or if the receiver is not a CompiledMethod class, or if there is not enough
 	 memory available. Essential. See Object documentation whatIsAPrimitive."
 
-	<primitive: 79>
 	"space must be low."
 	OutOfMemory signal.
 	"retry if user proceeds"

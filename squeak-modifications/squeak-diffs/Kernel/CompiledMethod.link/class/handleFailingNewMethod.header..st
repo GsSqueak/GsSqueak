@@ -13,7 +13,6 @@ handleFailingNewMethod: numberOfBytes header: headerWord
 	 is negative, or if the receiver is not a CompiledMethod class, or if there is not enough
 	 memory available. Essential. See Object documentation whatIsAPrimitive."
 
-	<primitive: 79>
 	| bytesRequested |
 	bytesRequested := (headerWord bitAnd: 16rFFFF) + 1 * Smalltalk wordSize + numberOfBytes + 16.
 	Smalltalk garbageCollect < bytesRequested ifTrue:
