@@ -1,0 +1,25 @@
+{
+    "name": "BlockNode",
+    "classvars" : [
+		"LexLevel"
+	],
+	"instvars" : [
+		"gsBlock",
+		"blockVars",
+		"arguments",
+		"statements",
+		"returns",
+		"nArgsNode",
+		"size",
+		"temporaries",
+		"optimized",
+		"optimizedMessageNode",
+		"actualScopeIfOptimized",
+		"blockExtent",
+		"remoteTempNode",
+		"copiedValues",
+		"closureCreationNode",
+		"startOfLastStatement",
+		"tempsMark"
+	]
+}

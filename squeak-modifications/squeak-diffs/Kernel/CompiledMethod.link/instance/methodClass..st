@@ -1,4 +1,4 @@
 accessing
 methodClass: aClass
-	"set the class binding in the last literal to aClass"
-	self literalAt: self numLiterals put: aClass binding
+	"For now, we don't support changing a CompiledMethod's class in GsSqueak"
+	self assert: inClass == aClass
