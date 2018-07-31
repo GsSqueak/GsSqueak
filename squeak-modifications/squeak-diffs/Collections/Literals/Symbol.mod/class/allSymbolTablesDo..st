@@ -1,5 +1,4 @@
 class initialization
 allSymbolTablesDo: aBlock
-	
-	self gemstoneSymbolTable do: aBlock.
+	^ self allSymbols do: aBlock.
 

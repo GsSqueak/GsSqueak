@@ -1,8 +1,3 @@
 access
 allSymbols
-	"Answer all interned symbols"
-	
-	^Array
-		new: self gemstoneSymbolTable size
-		streamContents:[ :stream |
-			stream nextPutAll: self gemstoneSymbolTable ]
+	^ (((GemstoneSmalltalk _env0 at: #AllUsers) _env0 userWithId: 'SymbolUser') _env0 resolveSymbol: #'AllSymbols') _env0 value _env0 keys _env0 asArray.
