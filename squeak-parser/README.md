@@ -1,0 +1,1 @@
+Modified Squeak Parser that parses Squeak Source code in GemStone and transforms it into a GemStone method using an AST transformation. This is used to overcome syntactic differences in the two Smalltalk dialects.
