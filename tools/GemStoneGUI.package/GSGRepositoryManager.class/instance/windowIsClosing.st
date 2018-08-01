@@ -1,4 +1,4 @@
 updating
 windowIsClosing
 
-	self closeSession
+	self closeRepository

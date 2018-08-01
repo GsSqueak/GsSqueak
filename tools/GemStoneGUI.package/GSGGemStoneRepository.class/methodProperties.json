@@ -2,14 +2,19 @@
 	"class" : {
 		"addInstance:" : "sl 6/14/2018 09:46",
 		"freeId" : "sl 6/14/2018 09:46",
+		"getSessionDescription" : "sl 7/30/2018 12:30",
 		"idOfInstance:" : "sl 6/14/2018 09:46",
+		"initialize" : "sl 7/30/2018 14:39",
 		"instanceDict" : "sl 6/14/2018 09:45",
 		"instances" : "sl 6/14/2018 09:49",
 		"isAbstract" : "sl 5/26/2018 10:54",
-		"removeInstance:" : "sl 6/14/2018 09:46" },
+		"newFrom:" : "sl 7/30/2018 10:06",
+		"open" : "sl 7/30/2018 13:28",
+		"removeInstance:" : "sl 6/14/2018 09:46",
+		"startUp:" : "sl 7/30/2018 14:49",
+		"terminateClosedInstances" : "sl 7/30/2018 14:58" },
 	"instance" : {
 		"availableEnvironmentTypes" : "sl 5/26/2018 19:30",
-		"close" : "sl 6/14/2018 10:15",
 		"executeString:" : "sl 5/14/2018 21:13",
 		"fetch:query:" : "sl 5/20/2018 15:51",
 		"fetchArrayOfStrings:" : "sl 5/20/2018 20:10",
@@ -20,4 +25,5 @@
 		"fetchString:" : "sl 5/20/2018 18:59",
 		"fetchSymbol:" : "sl 5/21/2018 10:05",
 		"id" : "sl 6/14/2018 09:55",
-		"needsCommit" : "sl 6/14/2018 10:13" } }
+		"needsCommit" : "sl 6/14/2018 10:13",
+		"terminate" : "sl 7/30/2018 13:53" } }

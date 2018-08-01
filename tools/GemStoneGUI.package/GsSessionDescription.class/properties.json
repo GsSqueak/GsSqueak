@@ -1,0 +1,17 @@
+{
+	"category" : "GemStoneGUI-GemStone-Core",
+	"classinstvars" : [
+		"template" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cancelled",
+		"password",
+		"userID",
+		"version" ],
+	"name" : "GsSessionDescription",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

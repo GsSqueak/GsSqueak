@@ -7,6 +7,7 @@
 		"allCategory" : "sl 4/4/2018 10:17",
 		"buildTransactionButtonsWith:" : "sl 5/27/2018 17:21",
 		"buildUtilityButtonsWith:" : "sl 5/27/2018 17:24",
+		"close" : "sl 7/27/2018 12:47",
 		"colorForId:" : "sl 5/26/2018 23:16",
 		"colorWheel" : "sl 5/26/2018 23:18",
 		"commitTransaction" : "sl 5/27/2018 17:21",
@@ -15,8 +16,7 @@
 		"invalidate" : "sl 5/27/2018 17:07",
 		"nullCategory" : "sl 4/4/2018 10:18",
 		"repository" : "sl 5/26/2018 23:32",
-		"sessionClosed" : "sl 4/5/2018 14:48",
 		"setRepository:" : "sl 5/26/2018 23:26",
-		"update:" : "sl 4/5/2018 14:48",
+		"update:" : "sl 7/27/2018 12:46",
 		"wantsStepsIn:" : "sl 4/3/2018 20:15",
 		"windowColorToUse" : "sl 5/26/2018 23:34" } }

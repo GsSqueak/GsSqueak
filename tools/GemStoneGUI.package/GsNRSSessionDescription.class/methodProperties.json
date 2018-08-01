@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildGemNRSInputWith:" : "sl 6/14/2018 08:37",
+		"buildStoneNRSInputWith:" : "sl 6/14/2018 08:37",
+		"gemNRS" : "sl 6/3/2018 16:22",
+		"gemNRS:" : "sl 6/14/2018 08:31",
+		"initialExtent" : "sl 6/14/2018 08:35",
+		"stoneNRS" : "sl 6/3/2018 16:22",
+		"stoneNRS:" : "sl 6/14/2018 08:30",
+		"windowElements:" : "sl 7/30/2018 12:14" } }

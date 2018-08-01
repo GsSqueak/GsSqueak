@@ -23,25 +23,36 @@ Another project similar to this one was started, called [PharoGS](https://github
 `├── squeak-parser` - Modified Squeak Parser for GemStone/S  
 `├── tools` - GemStone/S tools for Squeak  
 `└── install.sh`  
-
+READMEs in the subfolders go into detail regarding installation and usage of the submodules.
 
 ## Installation ([Video Guide](https://youtu.be/TLOmrb4Ty14))
-1. Execute and follow `install.sh`
+1. Install SDL2 `sudo apt-get install libsdl2-dev`
 
-2. Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
+2. Execute and follow `install.sh`
 
-3. Install VMMaker using `MCMcmUpdater updateFromRepository: 'http://source.squeak.org/VMMaker'`
+3. Install or copy `libgraFFIcs.so` from `/graffics` into `GsDevKit_home/shared/downloads/products/GemStone64Bit3.5.0-x86_64.Linux/lib`
 
-4. Install GemStoneGUI and GsSqueakImport ([see here](https://github.com/hpi-swa-lab/BP2017RH1/tree/master/tools))
+4. Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
 
-5. Start a new GemStone session with `GSGRepositoryManager open.` and login
+5. Install VMMaker using `MCMcmUpdater updateFromRepository: 'http://source.squeak.org/VMMaker'`
 
-6. Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone
+6. Install GemStoneGUI and GsSqueakImport located in `/tools`
 
-7. If Index support is intended run `misc/gsIndexes.tpz` in topaz
+7. Start a new GemStone session with `GSGRepositoryManager open.` and login
 
-8. Execute `gsSqueak.sh` to open GsSqueak
+8. Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone
+
+9. If Index support is intended run `misc/gsIndexes.tpz` in topaz
+
+10. Execute `gsSqueak.sh` to open GsSqueak
 
 ## Usage
 
-Just as you would use Squeak :)
+GsSqueak is currently a proof of concept. The World renders, mouse clicks register and tools can be used. Crashes are excpected in the current state.
+
+Tested Working
+  - Workspace
+  - inspector & explorer (flakey, inspecting certain objects like morphs will fail)
+  - Read-only browser
+  
+As the Debugger in Squeak does not handle errors yet, the call stack will be printed into your terminal after GsSqueak closes.

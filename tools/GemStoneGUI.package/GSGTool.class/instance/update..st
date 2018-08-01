@@ -1,5 +1,5 @@
 repository management
 update: aSymbol
 
-	aSymbol == #sessionClosed ifTrue: [self sessionClosed].
+	aSymbol == #repositoryClosed ifTrue: [self close].
 	super update: aSymbol

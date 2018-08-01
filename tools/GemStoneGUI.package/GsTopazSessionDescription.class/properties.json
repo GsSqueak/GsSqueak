@@ -1,0 +1,14 @@
+{
+	"category" : "GemStoneGUI-GemStone-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"devKitPath" ],
+	"name" : "GsTopazSessionDescription",
+	"pools" : [
+		 ],
+	"super" : "GsSimpleSessionDescription",
+	"type" : "normal" }

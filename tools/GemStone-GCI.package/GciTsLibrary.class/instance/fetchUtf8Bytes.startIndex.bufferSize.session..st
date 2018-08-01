@@ -11,7 +11,8 @@ fetchUtf8Bytes: anOop startIndex: startIndex bufferSize: bufferSize session: gci
 						a: buffer
 						a: bufferSize
 						a: utf8OopMemory
-						err: error.
+						err: error
+						a: 0.
 		resultSize < 0 ifTrue: [self error: 'Gci FetchUtf8Bytes Error']].
 	utf8Oop := utf8OopMemory integerAt: 1 size: self wordSize signed: false.
 	result := buffer copyFrom: 1 to: resultSize.

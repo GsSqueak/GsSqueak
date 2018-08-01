@@ -1,4 +1,3 @@
-as yet unclassified
+translating
 returnSelf
-  ^ self _basicNew initialize
-    expr: (SqVariableNode new name: 'self' key: 'self' code: nil)
+  ^ self new expr: (SqVariableNode new name: 'self' key: 'self' code: nil)

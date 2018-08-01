@@ -198,7 +198,7 @@ check_gs_devkit() {
   else
     installServerClient >/dev/null 2>&1
   fi
-  ln -fs ../../../ $GS_HOME/shared/repos/BP2017RH1 >/dev/null 2>&1
+  ln -fs ../../../ . >/dev/null 2>&1
   
 }
 
@@ -343,8 +343,6 @@ download_gemstone() {
 # 
 ################################################################################
 check_stone_exists () {
-  local stone_name
-  stone_name="$1"
   stones 2>&1 | grep -e "\s${stone_name}\$" >/dev/null
 
   return $?
@@ -356,7 +354,7 @@ check_stone_exists () {
 setup_gs_squeak() {
   local repo_path stone_name gs_version stone_exists response 
 
-  repo_path=$GS_HOME/shared/repos/BP2017RH1/squeak-modifications/pre-squeak-import
+  repo_path=$PWD/squeak-modifications/pre-squeak-import
   
   stone_name="$1"
   gs_version="$2"

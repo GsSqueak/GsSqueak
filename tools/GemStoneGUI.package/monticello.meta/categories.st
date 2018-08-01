@@ -1,9 +1,7 @@
 SystemOrganization addCategory: #'GemStoneGUI-Tools'!
-SystemOrganization addCategory: #'GemStoneGUI-TopazInterface'!
-SystemOrganization addCategory: #'GemStoneGUI-Repositories'!
 SystemOrganization addCategory: #'GemStoneGUI-Serialization'!
 SystemOrganization addCategory: #'GemStoneGUI-Squeak'!
-SystemOrganization addCategory: #'GemStoneGUI-GemStone'!
-SystemOrganization addCategory: #'GemStoneGUI-GCI'!
+SystemOrganization addCategory: #'GemStoneGUI-GemStone-Core'!
+SystemOrganization addCategory: #'GemStoneGUI-GemStone-Proxies'!
 SystemOrganization addCategory: #'GemStoneGUI-Interfaces'!
 SystemOrganization addCategory: #'GemStoneGUI-Transfer'!
