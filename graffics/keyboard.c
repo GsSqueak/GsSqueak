@@ -63,6 +63,12 @@ static uint32_t translate_special_keycode(SDL_Keycode keycode) {
 }
 
 
+bool squeak_character_code_is_modifier(uint32_t character_code)
+{
+    return character_code == SQ_KEY_CTRL || character_code == SQ_KEY_SHIFT;
+}
+
+
 uint32_t modifier_state_to_squeak(const struct ModifierState *modifier_state) {
     return (modifier_state->shift_l_pressed ? 0b0001 : 0)
         | (modifier_state->shift_r_pressed ? 0b0001 : 0)
@@ -150,11 +156,13 @@ void handle_keyboard_event(const SDL_KeyboardEvent *sdl_event,
                                 sdl_event->timestamp,
                                 event_queue);
 
-            emit_keyboard_event(modifier_state,
-                                character_code,
-                                KEY_REPEAT,
-                                sdl_event->timestamp,
-                                event_queue);
+            if (!squeak_character_code_is_modifier(character_code)) {
+                emit_keyboard_event(modifier_state,
+                                    character_code,
+                                    KEY_REPEAT,
+                                    sdl_event->timestamp,
+                                    event_queue);
+            }
         } else {
             emit_keyboard_event(modifier_state,
                                 character_code,
