@@ -1,3 +1,3 @@
 accessing
 flushCache
-	"Do nothing in GsSqueak"
+	Object _env0 _clearLookupCaches: 7
