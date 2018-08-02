@@ -26,25 +26,24 @@ Another project similar to this one was started, called [PharoGS](https://github
 READMEs in the subfolders go into detail regarding installation and usage of the submodules.
 
 ## Installation ([Video Guide](https://youtu.be/TLOmrb4Ty14))
-1. Install SDL2 `sudo apt-get install libsdl2-dev`
 
-2. Execute and follow `install.sh`
+1. Execute and follow `install.sh`. This will also make changes to the rights management of the stone. DataCurator will be able to write System user classes, compile primitives and subclass from Behavior.
 
-3. Install or copy `libgraFFIcs.so` from `/graffics` into `GsDevKit_home/shared/downloads/products/GemStone64Bit3.5.0-x86_64.Linux/lib`
+2. Install libgraFFIcs.so located in `/graffics`
 
-4. Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
+3. Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
 
-5. Install VMMaker using `MCMcmUpdater updateFromRepository: 'http://source.squeak.org/VMMaker'`
+4. Install VMMaker using `MCMcmUpdater updateFromRepository: 'http://source.squeak.org/VMMaker'`
 
-6. Install GemStoneGUI and GsSqueakImport located in `/tools`
+5. Install GemStoneGUI and GsSqueakImport located in `/tools`
 
-7. Start a new GemStone session with `GSGRepositoryManager open.` and login
+6. Start a new GemStone session with `GSGRepositoryManager open.` and login
 
-8. Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone
+7. Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone
 
-9. If Index support is intended run `misc/gsIndexes.tpz` in topaz
+8. If Index support is intended run `misc/gsIndexes.tpz` in topaz
 
-10. Execute `gsSqueak.sh` to open GsSqueak
+9. Execute `gsSqueak.sh` to open GsSqueak
 
 ## Usage
 
