@@ -27,9 +27,9 @@ READMEs in the subfolders go into detail regarding installation and usage of the
 
 ## Installation ([Video Guide](https://youtu.be/TLOmrb4Ty14))
 
-1. Execute and follow `install.sh`. This will also make changes to the rights management of the stone. DataCurator will be able to write System user classes, compile primitives and subclass from Behavior.
+1. Install SDL2 using `sudo apt-get install libsdl2-dev`
 
-2. Install libgraFFIcs.so located in `/graffics`
+2. Execute and follow `install.sh`. This will also make changes to the rights management of the stone. DataCurator will be able to write System user classes, compile primitives and subclass from Behavior.
 
 3. Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
 
