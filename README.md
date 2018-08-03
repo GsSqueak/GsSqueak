@@ -1,6 +1,6 @@
 # GsSqueak
 
-This project emerged from a bachelor's project at the [HPI Software Architechture Group](https://github.com/hpi-swa-lab) in the year 2017/18. It was named "Programmieren direkt in der Datenbank - ..." .
+This project emerged from a bachelor's project at the [HPI Software Architechture Group](https://github.com/hpi-swa-lab) in the year 2017/18.
 
 Part of the project was to modify [Squeak/Smalltalk](https://squeak.org/) to be able to import it into the [GemStone/Smalltalk](https://gemtalksystems.com/products/gs64/) ecosystem. The core modifications are necessary to use the GemStone VM instead of the Squeak VM.
 
@@ -39,11 +39,18 @@ READMEs in the subfolders go into detail regarding installation and usage of the
 
 6. Start a new GemStone session with `GSGRepositoryManager open.` and login
 
-7. Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone
+7. Click `Load GsSqueak`. Choose the directory `squeak-modifications/squeak-diffs`. This starts the bootstrapping process from Squeak into the specified stone
 
 8. If Index support is intended run `misc/gsIndexes.tpz` in topaz
 
 9. Execute `gsSqueak.sh` to open GsSqueak
+
+If you don't want to add GS_HOME to your path every time, add the following lines to your `.profile` file and insert the path:
+
+```
+export GS_HOME=<path to your GsDevKit_home directory>
+export PATH="$GS_HOME/bin":$PATH
+```
 
 ## Usage
 
