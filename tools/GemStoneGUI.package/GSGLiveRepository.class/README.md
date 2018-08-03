@@ -1,1 +1,1 @@
-I represent a Smalltalk repository that is capable of executing code.
+I am capable of executing code.
