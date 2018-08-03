@@ -15,9 +15,8 @@ struct Window *ffi_create_window(uint32_t width,
     window->renderer = SDL_CreateRenderer(window->sdl_window, -1, 0);
     window->texture = SDL_CreateTexture(window->renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STATIC, width, height);
     window->width = width;
-    
-        SDL_StartTextInput();
-printf("hallo\n");
+
+    SDL_StartTextInput();
 
     window->mouse_state = (struct MouseState) {
         .x = 0,
