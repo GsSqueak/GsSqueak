@@ -1,3 +1,7 @@
+# GemStone GUI for Squeak
+To build our own set of tools for working with GemStone, we created a way for Squeak to interface with GemStone.
+
+
 ## Installation
 Install [OSProcess] (requires [Metacello]):
 ```smalltalk
@@ -16,7 +20,7 @@ Metacello new
 	load
 ```
 
-Add this `tools` directory as Filetree repository in Monticello Browser. Install the packages in the following order: `GemStone-GCI`, `GemStoneGUI`, `GsSqueakImport`.
+Then add this `tools` directory as a [Filetree] repository via the Monticello Browser. Install the packages in the following order: `GemStone-GCI`, `GemStoneGUI`, `GsSqueakImport`.
 
 ## Usage
 
@@ -34,4 +38,4 @@ GSGRepositoryManager open
 <!-- References -->
 [OSProcess]: http://www.squeaksource.com/OSProcess.html
 [Metacello]: https://github.com/Metacello/metacello
-
+[Filetree]: https://github.com/dalehenrich/filetree
