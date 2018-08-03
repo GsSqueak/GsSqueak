@@ -1,5 +1,5 @@
 interface
 terminate
 
-	self class removeInstance: self.
+	self unregister.
 	super terminate

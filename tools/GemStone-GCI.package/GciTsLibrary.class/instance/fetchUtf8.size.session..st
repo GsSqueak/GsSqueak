@@ -13,6 +13,6 @@ fetchUtf8: anOop size: bufferSize session: gciSession
 							err: error.
 		returnedSize < 0 ifTrue: [self error: 'Gci FetchUtf8 Error']].
 	requiredSize := requiredSizeMemory integerAt: 1 size: self wordSize signed: true.
-	^ requiredSize > bytes size
-		ifTrue: [self fetchUtf8: anOop size: requiredSize session: gciSession]
+	^ bytes size <= returnedSize
+		ifTrue: [self fetchUtf8: anOop size: 2 * requiredSize session: gciSession]
 		ifFalse: [(bytes copyFrom: 1 to: returnedSize) asString]

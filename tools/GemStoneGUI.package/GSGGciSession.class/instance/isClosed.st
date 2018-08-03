@@ -1,4 +1,4 @@
 testing
 isClosed
 
-	self notYetImplemented
+	^ self gciSession isValid not

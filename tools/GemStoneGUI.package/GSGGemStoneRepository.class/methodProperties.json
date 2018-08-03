@@ -12,7 +12,7 @@
 		"open" : "sl 7/30/2018 13:28",
 		"removeInstance:" : "sl 6/14/2018 09:46",
 		"startUp:" : "sl 7/30/2018 14:49",
-		"terminateClosedInstances" : "sl 7/30/2018 14:58" },
+		"terminateClosedInstances" : "sl 8/3/2018 11:12" },
 	"instance" : {
 		"availableEnvironmentTypes" : "sl 5/26/2018 19:30",
 		"executeString:" : "sl 5/14/2018 21:13",
@@ -26,4 +26,5 @@
 		"fetchSymbol:" : "sl 5/21/2018 10:05",
 		"id" : "sl 6/14/2018 09:55",
 		"needsCommit" : "sl 6/14/2018 10:13",
-		"terminate" : "sl 7/30/2018 13:53" } }
+		"terminate" : "sl 8/3/2018 11:14",
+		"unregister" : "sl 8/3/2018 11:14" } }
