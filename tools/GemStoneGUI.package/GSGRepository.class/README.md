@@ -1,1 +1,1 @@
-I represent a Smalltalk repository holding environments, classes and methods.
+I hold a collection of environments.

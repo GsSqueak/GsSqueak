@@ -1,1 +1,1 @@
-I'm abstract.
+I represent a group of classes.
