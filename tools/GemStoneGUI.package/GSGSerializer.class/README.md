@@ -2,9 +2,9 @@ I provide a serialization mechanism when communicating between Squeak and GemSto
 
 ## Structure of the Serialized Form
 
-- Strings, Symbols, Numbers, Booleans and nil are serialized as their respective string representation (e.g. 'aString' , #'aSymbol' , 16rFF , true , nil ).
-- Arrays are encompassed by square brackets, with the elements being separated by a single comma (e.g. ['aString',12,[false]] ).
-- All other objects are represented as "composites" - arrays with their class attached in round brackets (e.g. [[#key1,'value1'](Association),[#key2,'value2'](Association)](Dictionary) ).
+- Strings, Symbols, Numbers, Booleans and nil are serialized as their respective string representation (e.g. `'aString'` , `#'aSymbol'` , `16rFF` , `true` , `nil` ).
+- Arrays are encompassed by square brackets, with the elements being separated by a single comma (e.g. `['aString',12,[false]]` ).
+- All other objects are represented as "composites" - arrays with their class attached in round brackets (e.g. `[[#key1,'value1'](Association),[#key2,'value2'](Association)](Dictionary)`).
 
 ## Serializing Queries
 
