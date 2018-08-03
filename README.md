@@ -45,6 +45,13 @@ READMEs in the subfolders go into detail regarding installation and usage of the
 
 9. Execute `gsSqueak.sh` to open GsSqueak
 
+If you don't want to add GS_HOME to your path every time, add the following lines to your `.profile` file and insert the path:
+
+```
+export GS_HOME=<path to your GsDevKit_home directory>
+export PATH="$GS_HOME/bin":$PATH
+```
+
 ## Usage
 
 GsSqueak is currently a proof of concept. The World renders, mouse clicks register and tools can be used. Crashes are excpected in the current state.
