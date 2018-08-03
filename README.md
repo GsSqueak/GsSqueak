@@ -39,7 +39,7 @@ READMEs in the subfolders go into detail regarding installation and usage of the
 
 6. Start a new GemStone session with `GSGRepositoryManager open.` and login
 
-7. Click `Load GsSqueak`. This starts the bootstrapping process from Squeak into the specified stone
+7. Click `Load GsSqueak`. Choose the directory `squeak-modifications/squeak-diffs`. This starts the bootstrapping process from Squeak into the specified stone
 
 8. If Index support is intended run `misc/gsIndexes.tpz` in topaz
 
