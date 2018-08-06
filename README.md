@@ -31,7 +31,7 @@ READMEs in the subfolders go into detail regarding installation and usage of the
 
 2. Execute and follow `install.sh`. This will also make changes to the rights management of the stone. DataCurator will be able to write System user classes, compile primitives and subclass from Behavior.
 
-3. Download [Squeak 6.0alpha17822](http://files.squeak.org/6.0alpha/Squeak6.0alpha-17822-64bit/)
+3. Download [`Squeak6.0alpha-17822-64bit`](https://github.com/GsSqueak/GsSqueak/releases/download/demo-release/Squeak6.0alpha-17822-64bit-All-in-One.zip)
 
 4. Install VMMaker using `MCMcmUpdater updateFromRepository: 'http://source.squeak.org/VMMaker'`
 
